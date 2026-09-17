@@ -525,7 +525,7 @@ class Component extends DCLogic {
         ? React.createElement(ConversationContext, {
             groups: [
               { label: 'Ditt ärende', items: this.state.criteria || [] },
-              { label: 'Registret pekar på', items: done ? [{ text: 'Amanda Knutsson', note: 'Partner, publik M&A · Stockholm', href: '#' }].concat(this.alts().map((a) => ({ text: a.name, note: [a.role, a.office].join(' · '), href: '#' }))) : [] },
+              { label: 'Registret pekar på', items: done ? [{ text: 'Amanda Knutsson', note: 'Partner, publik M&A · Stockholm', href: '/personer/amanda-knutsson' }].concat(this.alts().map((a) => ({ text: a.name, note: [a.role, a.office].join(' · '), href: '#' }))) : [] },
               { label: 'Belagt ur', items: done ? [{ text: 'Uppdrag 2024-118' }, { text: 'Uppdrag 2023-091' }] : [] },
             ],
           })

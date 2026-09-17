@@ -126,6 +126,12 @@
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     const a = e.target && e.target.closest && e.target.closest('a[href]');
     if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    /* A disclosure trigger is not a destination. The menu's "Se all vår
+       expertis" carries an href for the real site but folds its children out
+       instead of navigating; this listener runs in the capture phase, before
+       the component's own handler can cancel the click, so it has to stand
+       aside on its own. Marked by aria-expanded, or by data-no-route. */
+    if (a.hasAttribute('aria-expanded') || a.hasAttribute('data-no-route')) return;
     const path = route(a.getAttribute('href'));
     if (!path) return;
     e.preventDefault();

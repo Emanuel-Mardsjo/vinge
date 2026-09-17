@@ -12,14 +12,14 @@
 <div style="min-height:100vh">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" style="position:absolute;top:0;left:0;width:100%;height:0" hint-size="0,0"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
-<section data-screen-label="Hero" ref="{{ scrollRef }}" style="position:relative;height:170vh">
+<section data-screen-label="Hero" ref="{{ scrollRef }}" style="position:relative;height:128vh">
 <div ref="{{ stageRef }}" data-inverted="" style="position:sticky;top:0;height:100svh;overflow:hidden;background:var(--ink)">
 <div style="position:absolute;inset:0;will-change:transform,opacity;transform:translateY(calc(clamp(0,var(--p,0)/.34,1) * -34vh)) scale(calc(1 + clamp(0,var(--p,0)/.34,1)*.16));opacity:calc(1 - clamp(0,var(--p,0)/.3,1))">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.OfficeMap" min-height="100svh" ground="transparent" bounds="{{ mapBounds }}" pitch="{{ mapPitch }}" dot-scale="{{ mapDotScale }}" level="{{ mapLevel }}" running="{{ mapRunning }}" hint-size="100%,100svh"></x-import>
 </div>
 </div>
 </section>
-<section data-screen-label="Statement" ref="{{ textRef }}" style="display:flex;align-items:center;justify-content:center;min-height:70svh;padding:14vh 6vw">
+<section data-screen-label="Statement" ref="{{ textRef }}" style="display:flex;align-items:center;justify-content:center;min-height:64svh;padding:7vh 6vw 12vh">
 <p class="display-3" style="max-width:22ch;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .3em;text-align:center;color:var(--text-primary)">
 <span style="--d:.00;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Vi</span>
 <span style="--d:.05;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">finns</span>
@@ -32,6 +32,7 @@
 <span style="--d:.42;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Bryssel.</span>
 </p>
 </section>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" hint-size="100%,720px"></x-import>
 </div>
 
 </x-dc>

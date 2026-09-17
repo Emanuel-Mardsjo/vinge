@@ -77,9 +77,9 @@ html[data-ds-ready] [data-hero-payoff-row]{visibility:visible}
 Mergermarket, svenska M&amp;A-ligan 2024 · Band 1 Corporate/M&amp;A, Chambers Global" beats="{{ beatsAffaren }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden · 15 sektorer · Stockholm, Göteborg, Malmö, Bryssel · 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ArtworkPin" id="rummet" src="../../assets/images/present-04.png" alt="Möte runt ett bord i ett grönt rum" pin="{{ artworkPin }}" artist="Ingrid Bäcklund" work="Sediment nr 3" year="2021" artwork-src="../../assets/art/artwork-01.png" artwork-alt="Sediment nr 3, akvarell på papper" hint-size="100%,100svh"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" title="Erfarenhet av situationer som din." all-line="Erfarenhet av situationer som din." closing-line="Uppdrag relevanta för det du söker." action-label="Se fler uppdrag" entries="{{ recordEntries }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="#" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" all-label="Se alla våra uppdrag" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" title="Erfarenhet av situationer som din." all-line="Erfarenhet av situationer som din." closing-line="Uppdrag relevanta för det du söker." action-label="Se fler uppdrag" entries="{{ recordEntries }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="/uppdrag" all-href="/uppdrag" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" all-label="Se alla våra uppdrag" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Matters" id="uppdragen" matters="{{ matters }}" link-label="Läs hur vi arbetade" hint-size="100%,1700px"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="#" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ start }}" hint-size="100%,720px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ menuItems }}" utility="{{ menuUtility }}" highlights="{{ menuHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ContactWidget" hidden="{{ widgetOff }}" open="{{ widgetOpen }}" screen="{{ widgetScreen }}" on-open-change="{{ setWidgetOpen }}" on-screen-change="{{ setWidgetScreen }}" hint-size="0,0"></x-import>
@@ -108,7 +108,7 @@ const MATTERS = [
        image is the pinned block at column size rather than a plain reveal. */
     world: { src: IMG + 'anonymous-01.png', alt: 'Ett mötesrum sett från dörröppningen', body: 'Det som stod på spel: örlogsvarvet där fregatterna ska byggas.', artwork: { pin: { x: 0.573, y: 0.259 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 5', year: 2022, artworkSrc: '../../assets/art/artwork-02.png', artworkAlt: 'Sediment nr 5, akvarell på papper' } },
     person: { src: IMG + 'present-03.png', alt: 'Jurist på väg genom kontorets lounge', body: 'Eva Fredrikson, ledde uppdraget.' },
-    href: '#',
+    href: '/uppdrag/fregatter-svenska-marinen',
   },
   {
     kicker: 'Hälsa och omsorg · juni 2026',
@@ -117,7 +117,7 @@ const MATTERS = [
     meta: '32 jurister · 9 verksamhetsområden',
     world: { src: IMG + 'anonymous-03.png', alt: 'Någon passerar ett mötesrum', body: 'Det som stod på spel: ett av omsorgsboendena i budet.', artwork: { pin: { x: 0.875, y: 0.293 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 3', year: 2021, artworkSrc: '../../assets/art/artwork-01.png', artworkAlt: 'Sediment nr 3, akvarell på papper' } },
     person: { src: IMG + 'present-05.png', alt: 'Två jurister sitter i samtal vid fönstret', body: 'Ansvarig partner, namnet bekräftas före publicering.' },
-    href: '#',
+    href: '/uppdrag/ambea-humana',
   },
   {
     kicker: 'Sport · augusti 2026',
@@ -126,7 +126,7 @@ const MATTERS = [
     meta: '2 jurister · 1 verksamhetsområde',
     world: { src: IMG + 'office-06.png', alt: 'Skänk i dagsljus med en person som passerar', body: 'Det som stod på spel: klubbens arena i Hällevik.' },
     person: { src: IMG + 'anonymous-08.png', alt: 'Jurist läser handlingar i ett fönsterrum', body: 'Johan Cederblad, drev överlåtelsen.' },
-    href: '#',
+    href: '/uppdrag/mjallby-hull-city',
   },
 ];
 
@@ -565,7 +565,7 @@ class Component extends DCLogic {
         ? React.createElement(ConversationContext, {
             groups: [
               { label: 'Ditt ärende', items: this.state.criteria || [] },
-              { label: 'Registret pekar på', items: done ? [{ text: 'Elin Waller', note: 'Partner, publik M&A · Stockholm', href: '#' }].concat(this.alts().map((a) => ({ text: a.name, note: [a.role, a.office].join(' · '), href: '#' }))) : [] },
+              { label: 'Registret pekar på', items: done ? [{ text: 'Elin Waller', note: 'Partner, publik M&A · Stockholm', href: '/personer/elin-waller' }].concat(this.alts().map((a) => ({ text: a.name, note: [a.role, a.office].join(' · '), href: '#' }))) : [] },
               { label: 'Belagt ur', items: done ? [{ text: 'Uppdrag 2024-118' }, { text: 'Uppdrag 2023-091' }] : [] },
             ],
           })

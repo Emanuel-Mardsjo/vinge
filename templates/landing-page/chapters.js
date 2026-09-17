@@ -162,7 +162,7 @@ window.VingeChapterBeats = {
         detail: 'Urvalet är vårt arbete, inte ditt. Du beskriver läget — vi sätter samman de personer som behövs.',
         links: [
           { label: 'Beskriv din situation', ask: true },
-          { label: 'Utforska våra verksamhetsområden', href: '#' },
+          { label: 'Utforska våra verksamhetsområden', href: '/verksamhetsomraden' },
         ],
         state: {},
       },

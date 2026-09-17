@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"30ca4e9abfb5","components/blocks/Chapter.jsx":"11ee84db9525","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"673eba7f639d","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"96bb4f43af55","components/blocks/ImageScreen.jsx":"14d5bc61e087","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"020a71fb6a15","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"bb367dcd7aef","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"bd6877f06c45","components/conversation/ContactWidget.jsx":"71f2c6aad6ec","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"9fc233c116aa","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"245b815fe85b","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"f8f97788f796","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"065f731e949f","components/core/ArrowLink.jsx":"39cf54978a10","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"6b1b6e3a511d","components/core/DotField.jsx":"7e2045dc986f","components/core/Figure.jsx":"35982d88a369","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"629abdb92a3a","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"18ecd9b8723f","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"fb40937494e7","components/layout/PageBanner.jsx":"cfea4c725f94","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"1a05d66eddf3","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"de03e9abb7c9","components/navigation/SiteNav.jsx":"1480bbe8345d","components/navigation/TakeoverMenu.jsx":"32bd99cfed60","components/navigation/WordmarkMasthead.jsx":"b6a62aad4aad","repo/templates/about-page/ds-base.js":"8bb90891194f","repo/templates/article-page/ds-base.js":"8bb90891194f","repo/templates/find-a-lawyer/ds-base.js":"8bb90891194f","repo/templates/landing-page/chapters.js":"6728ee88041f","repo/templates/landing-page/ds-base.js":"8bb90891194f","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"8bb90891194f","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"8bb90891194f","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"8bb90891194f","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"30ca4e9abfb5","components/blocks/Chapter.jsx":"eb90b8244dfa","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"673eba7f639d","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"96bb4f43af55","components/blocks/ImageScreen.jsx":"14d5bc61e087","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"0f84c1b98aaf","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"be53209bfa52","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"71f2c6aad6ec","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"7d2ba116cf44","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"245b815fe85b","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"f8f97788f796","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"7e2045dc986f","components/core/Figure.jsx":"35982d88a369","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"629abdb92a3a","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"18ecd9b8723f","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/PageBanner.jsx":"cfea4c725f94","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"7dd73c9cd7d5","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"21a9ee96232f","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"3098b4b487d2","components/navigation/WordmarkMasthead.jsx":"b6a62aad4aad","repo/templates/about-page/ds-base.js":"f69b0b9bd59c","repo/templates/article-page/ds-base.js":"f69b0b9bd59c","repo/templates/find-a-lawyer/ds-base.js":"f69b0b9bd59c","repo/templates/landing-page/chapters.js":"6728ee88041f","repo/templates/landing-page/ds-base.js":"f69b0b9bd59c","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"f69b0b9bd59c","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"f69b0b9bd59c","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"f69b0b9bd59c","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -2096,7 +2096,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 /* A CTA is large type with an underline that responds to intent. No buttons,
    no fills, no borders, no pills, no arrow glyphs. */
 function CtaLink({
-  href = '#',
+  href,
   variant = 'primary',
   children,
   style,
@@ -4438,7 +4438,7 @@ function Record({
       color: 'var(--text-secondary)'
     }
   }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: allHref || '#',
+    href: allHref,
     variant: "secondary",
     style: {
       alignSelf: 'start',
@@ -10133,7 +10133,7 @@ function Body({
       lineHeight: 'var(--lh-small)'
     }
   }, p.actionLabel || 'Be om en introduktion'), /*#__PURE__*/React.createElement("a", {
-    href: p.profileHref || '#',
+    href: p.profileHref,
     className: "cta cta--secondary",
     style: {
       fontSize: 'var(--text-small)'
@@ -11275,7 +11275,7 @@ function Item({
         fontSize: 'var(--text-small)'
       }
     }, item.email) : null, /*#__PURE__*/React.createElement("a", {
-      href: item.href || '#',
+      href: item.href,
       className: "cta cta--secondary",
       style: {
         justifySelf: 'start',
@@ -11292,7 +11292,7 @@ function Item({
   return /*#__PURE__*/React.createElement("li", {
     style: wrap
   }, /*#__PURE__*/React.createElement(Row, {
-    href: item.href || '#',
+    href: item.href,
     onActivate: onNavigate ? e => onNavigate(item, e) : undefined
   }, /*#__PURE__*/React.createElement("span", null, item.label), item.meta ? /*#__PURE__*/React.createElement("span", {
     className: "small",
@@ -13422,7 +13422,7 @@ function ActionRow({
       display: 'flex'
     }
   }, /*#__PURE__*/React.createElement("a", _extends({
-    href: item.href || '#'
+    href: item.href
   }, item.download ? {
     download: item.download === true ? '' : item.download
   } : {}, item.external ? {
@@ -13479,7 +13479,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    decoration the rest of the system refuses. The glyph box is reserved at
    rest, so the label does not move when it appears. */
 function ArrowLink({
-  href = '#',
+  href,
   children,
   icon = 'arrow--right',
   style,
@@ -14011,7 +14011,7 @@ function Chapter({
       }
     }, b.links.map((l, k) => /*#__PURE__*/React.createElement(__ds_scope.ArrowLink, {
       key: k,
-      href: l.href || '#',
+      href: l.href,
       onClick: l.onClick
     }, l.label))) : null);
   }))) : null)));
@@ -14170,7 +14170,7 @@ function Matters({
   }, m.more)) : null, /*#__PURE__*/React.createElement("div", {
     "data-matter-cta": ""
   }, /*#__PURE__*/React.createElement(__ds_scope.ArrowLink, {
-    href: m.href || '#'
+    href: m.href
   }, m.linkLabel || linkLabel)))));
 }
 Object.assign(__ds_scope, { Matters });
@@ -14420,7 +14420,7 @@ function IndexList({
   }, items.map(item => /*#__PURE__*/React.createElement("li", {
     key: item.label
   }, /*#__PURE__*/React.createElement("a", {
-    href: item.href || '#',
+    href: item.href,
     className: "display-3",
     style: {
       display: 'block',
@@ -15710,44 +15710,45 @@ try { (() => {
    are re-pointed to paper at low alpha. Measured against the footer's own
    ground, body text is 14.2:1 and the labels and legal links 8.6:1. */
 
+/* A link with no href (or '#', the old placeholder) renders and hovers like
+   the others but is not a link: no anchor, so a destination that does not
+   exist yet cannot navigate, jump the reader to the top of the page or leave a
+   stray hash. Same treatment as the menu's unbuilt lines. */
 const DEFAULT_LEGAL = [{
-  label: 'Advokatsamfundet',
-  href: '#'
+  label: 'Advokatsamfundet'
 }, {
-  label: 'Integritet och cookies',
-  href: '#'
+  label: 'Integritet och cookies'
 }, {
-  label: 'Whistleblowing',
-  href: '#'
+  label: 'Whistleblowing'
 }, {
-  label: 'Villkor',
-  href: '#'
+  label: 'Villkor'
 }];
 const DEFAULT_MENU = [{
   label: 'Om Vinge',
-  href: '#'
+  href: '/om-oss'
 }, {
   label: 'Våra tjänster',
-  href: '#'
+  href: '/verksamhetsomraden'
 }, {
   label: 'Medarbetare',
-  href: '#'
+  href: '/personer'
 }, {
   label: 'Nyheter & insikter',
-  href: '#'
+  href: '/nyheter'
 }, {
-  label: 'Event',
-  href: '#'
+  label: 'Event'
 }, {
   label: 'Karriär',
-  href: '#'
+  href: '/karriar'
 }, {
-  label: 'Kontakt',
-  href: '#'
+  label: 'Kontakt'
 }, {
-  label: 'Våra poddar',
-  href: '#'
+  label: 'Våra poddar'
 }];
+
+/* '#' counts as no destination: the placeholder every unrouted link used to
+   carry. */
+const inert = href => !href || href === '#';
 
 /* The marks name their file rather than a path: the footer resolves them
    against wherever the wordmark asset came from, so a page two directories
@@ -15975,8 +15976,7 @@ function ClosingFooter({
         willChange: 'opacity, transform'
       }
     }, /*#__PURE__*/React.createElement("a", {
-      href: typeof city === 'string' ? '#' : city.href || '#',
-      onClick: typeof city === 'string' || !city.href ? e => e.preventDefault() : undefined,
+      href: typeof city === 'string' || inert(city.href) ? undefined : city.href,
       className: "cta",
       onMouseEnter: e => {
         e.currentTarget.style.textDecorationColor = 'var(--underline-active)';
@@ -16020,7 +16020,7 @@ function ClosingFooter({
         display: 'flex'
       }
     }, /*#__PURE__*/React.createElement("a", {
-      href: item.href || '#',
+      href: inert(item.href) ? undefined : item.href,
       className: "prose target",
       onMouseEnter: e => {
         e.currentTarget.style.textDecorationColor = 'var(--underline-active)';
@@ -16169,7 +16169,7 @@ function ClosingFooter({
       display: 'flex'
     }
   }, /*#__PURE__*/React.createElement("a", {
-    href: link.href || '#',
+    href: inert(link.href) ? undefined : link.href,
     className: "cta cta--small target",
     onMouseEnter: e => {
       e.currentTarget.style.textDecorationColor = 'var(--underline-active)';
@@ -17236,7 +17236,7 @@ function SiteHeader({
       transition: 'opacity var(--dur-medium) var(--ease-quart) ' + i * 70 + 'ms, transform var(--dur-medium) var(--ease-expo) ' + i * 70 + 'ms'
     }
   }, /*#__PURE__*/React.createElement("a", _extends({
-    href: item.href || '#'
+    href: item.href
   }, item.download ? {
     download: item.download === true ? '' : item.download
   } : {}, item.external ? {
@@ -17377,13 +17377,15 @@ function SiteNav({
     }, {
       label: 'Se våra uppdrag',
       href: '/uppdrag'
-    }, {
+    },
+    /* No href: nothing behind them yet, and a placeholder link that jumps
+       the reader to the top of the page is worse than an unlinked line. The
+       menu renders and focuses them the same either way. */
+    {
       label: 'Håll dig uppdaterad',
-      href: '/insikter',
       secondary: true
     }, {
       label: 'Sök drömjobbet',
-      href: '/karriar',
       secondary: true
     }, {
       label: 'Se all vår expertis',
@@ -17395,11 +17397,9 @@ function SiteNav({
       }))
     }],
     utility: [{
-      label: 'Sök',
-      href: '/sok'
+      label: 'Sök'
     }, {
-      label: 'English',
-      href: '/en'
+      label: 'English'
     }],
     highlights: HIGHLIGHTS.map(([src, label, href, alt]) => ({
       imageSrc: base + '/assets/' + src,
@@ -17475,6 +17475,13 @@ function TakeoverMenu({
   style
 }) {
   const [hover, setHover] = React.useState(-1);
+  /* Three states, not two. -1 is the list at rest, every line at full ink. An
+     index is that line lit and the rest faded. -2 is the pointer inside the
+     list but on none of the lines — a dead seam between two items: the whole
+     list stays faded and nothing is lit, so crossing a seam neither flickers
+     the siblings back to ink nor leaves a line highlighted under a pointer
+     that is not on it. Leaving the list returns to -1. */
+  const IN_GAP = -2;
   const [expanded, setExpanded] = React.useState(-1);
   const [subHover, setSubHover] = React.useState(-1);
   const boxRef = React.useRef(null);
@@ -17978,6 +17985,7 @@ function TakeoverMenu({
     }
   }, /*#__PURE__*/React.createElement("ul", {
     ref: listRef,
+    onMouseLeave: () => setHover(-1),
     style: {
       listStyle: 'none',
       margin: 'auto 0 0',
@@ -18001,12 +18009,17 @@ function TakeoverMenu({
     const lastQuiet = quiet && !(items[i + 1] && items[i + 1].secondary);
     /* Siblings of a folded-out item stay in the list, faded, and stay
        reachable — clicking one moves the second level to it. */
-    const dim = hover > -1 && hover !== i && expanded === -1;
+    const dim = hover !== -1 && hover !== i && expanded === -1;
     return /*#__PURE__*/React.createElement("li", {
       key: item.href || item.label,
       ref: el => {
         itemRefs.current[i] = el;
-      },
+      }
+      /* The step between the two registers sits inside this box but
+         outside the anchor. Entering it fades the list without
+         lighting anything; the anchor's own enter fires after this
+         one and takes over when the pointer reaches the line. */,
+      onMouseEnter: () => setHover(IN_GAP),
       style: {
         overflow: 'hidden',
         display: 'block'
@@ -18040,7 +18053,7 @@ function TakeoverMenu({
         if (onNavigate) onNavigate(item, e);
       },
       onMouseEnter: () => setHover(i),
-      onMouseLeave: () => setHover(-1),
+      onMouseLeave: () => setHover(IN_GAP),
       className: quiet ? 'body' : 'display-2',
       style: {
         /* The one bespoke size in the system, and it earns it: the
@@ -18854,11 +18867,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
@@ -19028,11 +19068,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
@@ -19202,11 +19269,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
@@ -19617,11 +19711,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
@@ -19972,11 +20093,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
@@ -20246,11 +20394,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
@@ -25827,11 +26002,38 @@ try { (() => {
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => {
+      const v = document.getElementById('ds-veil');
+      if (v) v.remove();
+    }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html{background:#F7F6FA}' + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}' + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), {
+        once: true
+      });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil();else document.addEventListener('DOMContentLoaded', veil, {
+      once: true
+    });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => {
       if (streaming()) reveal();
