@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="News listing" description="One stream for news, press releases and insight: page banner and trail, two views, four filters, and a vertical list whose photograph prints itself under the pointer." -->
+<helmet><script src="./ds-base.js"></script><script src="./news.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}input::placeholder{color:var(--ink-55)}input:focus-visible,select:focus-visible{outline:2px solid var(--focus-ring);outline-offset:4px}[data-row][data-recede="1"]{opacity:.28}[data-row]:hover [data-head]{text-decoration-color:var(--ink)}[data-row-text]{grid-column:1 / -1}[data-row-media]{display:none;grid-column:1 / -1}nav [aria-current="page"]{color:var(--text-primary)}@media (min-width:768px){[data-row-text]{grid-column:1 / 3}[data-row-media]{display:block;grid-column:3 / 5}}@media (min-width:1280px){[data-row-text]{grid-column:1 / 6}[data-row-media]{display:block;grid-column:6 / 9}}[data-cell]{grid-column:1 / -1;min-width:0}[data-cell="media"]{display:none}@media (min-width:768px){[data-cell="date"]{grid-column:1 / 2}[data-cell="title"]{grid-column:2 / 5}}@media (min-width:1280px){[data-cell="date"]{grid-column:1 / 2}[data-cell="title"]{grid-column:2 / 6}[data-cell="media"]{display:block;grid-column:6 / 9}}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" on-chat="{{ openFinder }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="Insikter" trail="{{ trail }}" hint-size="100%,260px"></x-import>
+<section class="grid">
+<div style="grid-column:1 / -1;position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1));z-index:20;background:var(--paper);padding-bottom:var(--space-4)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Tabs" tabs="{{ tabs }}" value="{{ tab }}" on-change="{{ setTab }}" label="Urval av artiklar" hint-size="100%,44px"></x-import>
+<sc-if value="{{ showAskNote }}">
+<div style="margin-top:var(--space-3);display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-3)">
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">Du har inte berättat vad du står i än. Gör det, så vet flödet vad som angår dig.</p>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" href="/hitta-ratt-person" variant="small" onClick="{{ openFinder }}" hint-size="200px,24px">Berätta vad du står i</x-import>
+</div>
+</sc-if>
+<sc-if value="{{ dialogueLine }}">
+<p class="small" style="margin:var(--space-3) 0 0;max-width:none;color:var(--text-secondary)">{{ dialogueLine }}</p>
+</sc-if>
+<div style="margin-top:var(--space-5)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ListingFilters" fields="{{ filterFields }}" value="{{ filterValues }}" on-change="{{ onFilter }}" count-line="{{ countLine }}" show-clear="{{ anyFilter }}" on-clear="{{ clearFilters }}" marked="{{ anyFilter }}" open="{{ filtersOpen }}" on-toggle="{{ toggleFilters }}" hint-size="100%,24px"></x-import>
+</div>
+</div>
+</section>
+<section class="grid">
+<sc-if value="{{ showEmpty }}">
+<div style="grid-column:1 / -1;max-width:52ch;padding-bottom:var(--space-6)">
+<p class="display-3" style="margin:0">Ingenting matchar allt på en gång.</p>
+<p class="small" style="margin-top:var(--space-3)">{{ emptyBody }}</p>
+<div style="margin-top:var(--space-3);display:flex;flex-wrap:wrap;gap:var(--space-4)">
+<button type="button" onClick="{{ dropBlocking }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--ink);text-decoration:underline;text-decoration-color:var(--underline-rest);text-underline-offset:0.22em">{{ dropLabel }}</button>
+<sc-if value="{{ nearestYear }}">
+<button type="button" onClick="{{ goNearestYear }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--text-secondary);text-decoration:underline;text-decoration-color:var(--underline-rest-secondary);text-underline-offset:0.22em">{{ nearestYearLabel }}</button>
+</sc-if>
+</div>
+</div>
+</sc-if>
+<ul style="grid-column:1 / -1;list-style:none;margin:0;padding:0">
+<sc-for list="{{ rows }}" as="r" hint-placeholder-count="8">
+<li data-row="" data-id="{{ r.id }}" data-recede="{{ r.recede }}" onMouseEnter="{{ r.enter }}" onMouseLeave="{{ leave }}" style="display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));column-gap:var(--gutter);row-gap:var(--space-3);align-items:start;padding-block:var(--space-4);border-bottom:1px solid var(--ink);transition:opacity var(--dur-reveal) var(--ease-expo)">
+<div data-cell="date">
+<p class="small" style="margin:0;max-width:none;color:var(--text-primary)">{{ r.type }}</p>
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ r.dateLabel }}</p>
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ r.readLabel }}</p>
+</div>
+<div data-cell="title">
+<h2 class="display-3" style="margin:0;max-width:none">
+<a data-head="" href="{{ r.href }}" onFocus="{{ r.enter }}" onBlur="{{ leave }}" style="font-family:inherit;font-size:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px;text-underline-offset:0.08em;transition:text-decoration-color var(--dur-reveal) var(--ease-expo)">{{ r.title }}</a>
+</h2>
+</div>
+<div data-cell="media" style="aspect-ratio:3 / 2">
+<sc-if value="{{ r.mounted }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ r.imageSrc }}" alt="{{ r.alt }}" ratio="3:2" grid-size="{{ gridSize }}" duration="{{ revealMs }}" play="{{ r.on }}" style="background:transparent" hint-size="100%,180px"></x-import>
+</sc-if>
+</div>
+</li>
+</sc-for>
+</ul>
+<sc-if value="{{ showPager }}">
+<nav aria-label="Sidor" style="grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-4);padding-top:var(--space-5)">
+<button type="button" onClick="{{ prevPage }}" disabled="{{ atFirst }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--text-secondary);text-decoration:underline;text-decoration-color:var(--underline-rest-secondary);text-underline-offset:0.22em" style-hover="color:var(--ink);text-decoration-color:var(--ink)">Föregående</button>
+<div style="display:flex;flex-wrap:wrap;gap:var(--space-3)">
+<sc-for list="{{ pageLinks }}" as="p" hint-placeholder-count="8">
+<button type="button" onClick="{{ p.go }}" aria-current="{{ p.current }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--text-secondary);text-decoration:none">{{ p.label }}</button>
+</sc-for>
+</div>
+<button type="button" onClick="{{ nextPage }}" disabled="{{ atLast }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--text-secondary);text-decoration:underline;text-decoration-color:var(--underline-rest-secondary);text-underline-offset:0.22em" style-hover="color:var(--ink);text-decoration-color:var(--ink)">Nästa</button>
+<p class="small" style="margin:0;max-width:none;color:var(--ink-55)">{{ pageLine }}</p>
+</nav>
+</sc-if>
+</section>
+<section class="grid" style="padding-block:var(--section-gap)">
+<div style="grid-column:1 / -1;border-top:1px solid var(--rule-hairline);padding-top:var(--space-5);display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));column-gap:var(--gutter);row-gap:var(--space-4)">
+<div data-row-text="" style="min-width:0">
+<h2 class="display-3" style="margin:0">Prenumerera på flödet</h2>
+<p class="small" style="margin:var(--space-3) 0 0;color:var(--text-secondary)">{{ subscribeLine }}</p>
+</div>
+<div data-row-media="" style="display:block">
+<form onSubmit="{{ onSubscribe }}" style="display:grid;gap:var(--space-4)">
+<label style="display:block">
+<span class="small" style="display:block;max-width:none;color:var(--text-secondary)">Namn</span>
+<input type="text" style="width:100%;margin-top:6px;padding:0 0 8px;border:0;border-bottom:1px solid var(--rule-hairline);background:transparent;color:var(--ink);font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);appearance:none;border-radius:0">
+</label>
+<label style="display:block">
+<span class="small" style="display:block;max-width:none;color:var(--text-secondary)">E-post</span>
+<input type="email" style="width:100%;margin-top:6px;padding:0 0 8px;border:0;border-bottom:1px solid var(--rule-hairline);background:transparent;color:var(--ink);font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);appearance:none;border-radius:0">
+</label>
+<label style="display:flex;align-items:flex-start;gap:var(--space-2)">
+<input type="checkbox" required="{{ true }}" style="flex:none;width:16px;height:16px;margin:2px 0 0;accent-color:var(--ink)">
+<span class="small" style="max-width:56ch;color:var(--text-secondary)">Jag samtycker till att Vinge behandlar mina personuppgifter för att skicka nyhetsbrevet. Du kan avsluta prenumerationen när du vill.</span>
+</label>
+<button type="submit" style="justify-self:start;border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--ink);text-decoration:underline;text-decoration-color:var(--underline-rest);text-underline-offset:0.22em">{{ subscribeCta }}</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ submitFinder }}" hint-size="100%,720px"></x-import>
+<!-- Never unmounted while it has been opened: the surface animates itself in
+     and out, and removing it from the document takes the movement with it. -->
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ finderOpen }}" prompt="{{ finderPrompt }}" on-close="{{ closeFinder }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;perPage&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:15,&quot;min&quot;:5,&quot;max&quot;:40,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Listing&quot;},&quot;showImages&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Listing&quot;},&quot;revealDuration&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:900,&quot;min&quot;:300,&quot;max&quot;:2400,&quot;step&quot;:100,&quot;unit&quot;:&quot;ms&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Listing&quot;}}">
+/* One stream, one template. News, press releases and insight are the same
+   object with a type on it, so the page is a single list with four filters
+   over it rather than three listings.
+
+   The photographs. A vertical list of headlines is a reading surface, and an
+   image on every row competes with the words for the same glance. So the
+   photograph is not there until it is asked for: the row's `ImageReveal` runs
+   on `play`, printing from nothing under the pointer and unprinting frame for
+   frame when the pointer leaves. Only the rows that have a photograph reserve
+   the columns for one, and the media column is hidden below LG, where there is
+   no pointer to answer.
+
+   Everything else is the people listing's contract, kept deliberately: two
+   tabs, facets that count what they would return, a count against the whole,
+   a way out of an empty result that names the filter doing the excluding, and
+   linkable state. */
+const PER_PAGE_DEFAULT = 15;
+
+/* Real headlines from the live site, on the first page only, to test the
+   length the display size has to survive. */
+const TEST_TITLES = [
+  'Högsta domstolen: MFN-klausuler kan användas för att importera tvistlösningsklausuler från andra traktater',
+  'EU:s nya förordning om utländska direktinvesteringar',
+  'Förändringar i regelverket för krigsmateriel och exportkontroll',
+  'AGILE: EU:s nya finansieringsinstrument på 115 miljoner euro för snabb försvarsinnovation',
+  'Att navigera EU:s försvarslandskap – nya juridiska och finansiella instrument för en växande marknad',
+];
+
+function slug(s) {
+  return String(s).toLowerCase().replace(/&/g, 'och').replace(/[åä]/g, 'a').replace(/ö/g, 'o').replace(/é/g, 'e').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+/* What the finder derived, standing in for a live dialogue: the same two
+   facets an article is tagged with, so relevance means the same thing here as
+   it does on the bench and in the record. */
+const DIALOGUE = { areas: ['Konkurrensrätt', 'Handelssanktioner', 'M&A'], sectors: ['Energi'], text: 'sanktioner mot en leverantör i ett pågående förvärv' };
+
+/* The finder, opened from the second tab's empty state and from the header.
+   It is the same surface as on Hitta rätt person and it is not re-implemented
+   here: two questions, then the stream filters on what they derived. An
+   article is relevant on the same basis a person is — its practice areas or
+   sectors match — so the dialogue ends in this page's own second tab rather
+   than in a separate result. */
+const FINDER = [
+  {
+    question: 'Vad står du i?',
+    options: [
+      { text: 'Ett förvärv vi förbereder', areas: ['M&A', 'Publik M&A', 'Kapitalmarknad'], sectors: [] },
+      { text: 'Sanktioner och exportkontroll', areas: ['Handelssanktioner', 'Antikorruption'], sectors: [] },
+      { text: 'En tvist som kan bli process', areas: ['Tvistlösning', 'Skiljeförfaranden'], sectors: [] },
+      { text: 'En myndighet har hört av sig', areas: ['Offentlig upphandling', 'Konkurrensrätt'], sectors: ['Offentlig sektor'] },
+    ],
+  },
+  {
+    question: 'Vilken bransch står ni i?',
+    options: [
+      { text: 'Industri', areas: [], sectors: ['Industri'] },
+      { text: 'Life science', areas: ['Immaterialrätt'], sectors: ['Life science'] },
+      { text: 'Energi', areas: ['Miljörätt'], sectors: ['Energi'] },
+      { text: 'Spelar ingen roll', areas: [], sectors: [] },
+    ],
+  },
+];
+
+const FINDER_KEYWORDS = [
+  [/(bud|uppköp|förvärv|sälja|due diligence)/, ['M&A', 'Publik M&A'], []],
+  [/(sanktion|exportkontroll|mut|korruption)/, ['Handelssanktioner', 'Antikorruption'], []],
+  [/(tvist|process|skiljeförfarande|domstol)/, ['Tvistlösning', 'Skiljeförfaranden'], []],
+  [/(konkurrens|kartell|upphandling|myndighet)/, ['Konkurrensrätt', 'Offentlig upphandling'], ['Offentlig sektor']],
+  [/(patent|varumärke|läkemedel)/, ['Immaterialrätt'], ['Life science']],
+  [/(anställ|uppsäg|kollektivavtal)/, ['Arbetsrätt'], []],
+  [/(el|energi|utsläpp|miljö)/, ['Miljörätt'], ['Energi']],
+];
+
+class Component extends DCLogic {
+  state = { tab: 'all', query: '', type: '', area: '', sector: '', year: '', page: 0, filtersOpen: false, hover: -1, live: {}, menuOpen: false, dialogue: null, finderOpen: false, fTurns: [], fStep: -1, fWorking: false, fDone: false, fPicks: [], draft: '' };
+  _items = [];
+  _facets = { areas: [], sectors: [], years: [], types: [] };
+  _enter = {};
+
+  componentDidMount() {
+    this._items = (window.VingeNewsAll || []).map((a) => ({
+      ...a,
+      hay: [a.title, a.summary, a.type].concat(a.areas, a.sectors, a.people.map((p) => p.name)).join(' ').toLowerCase(),
+    }));
+    this._facets = window.VingeNewsFacets || this._facets;
+    this._srcById = {};
+    for (const a of this._items) if (a.imageSrc) this._srcById[a.id] = a.imageSrc;
+    /* Filters are put away by default — the list is the page. An address that
+       arrives already filtered opens them, so the reader can see what is
+       narrowing the stream. */
+    const url = this.fromUrl();
+    this.setState({ ...url, filtersOpen: !!(url.type || url.area || url.sector || url.year || url.query) });
+
+    /* The photograph answers the pointer, and mouseenter alone is not enough
+       to know where the pointer is: a reader who scrolls without moving the
+       cursor gets no event for the row that has just arrived under it, so
+       rows printed or stayed blank at random. So the page keeps the pointer's
+       last position and, after every scroll, asks the document what is under
+       it. Hover becomes a fact about where the cursor is rather than a record
+       of the last event that happened to fire. */
+    this._pos = null;
+    this._onMove = (e) => { this._pos = { x: e.clientX, y: e.clientY }; };
+    /* Twice, as ImageReveal does on its own scroll: once on the next frame so
+       the reveal keeps up with the scroll, and once after the page has come to
+       rest, because the frame that lands last during a fling is not the frame
+       that says where the cursor ended up. */
+    this._onScroll = () => {
+      if (!this._sf) this._sf = window.requestAnimationFrame(() => { this._sf = null; this.syncHover(); });
+      window.clearTimeout(this._st);
+      this._st = window.setTimeout(() => { this._st = null; this.syncHover(); }, 120);
+    };
+    window.addEventListener('pointermove', this._onMove, { passive: true });
+    window.addEventListener('pointerover', this._onMove, { passive: true });
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    document.addEventListener('visibilitychange', this._onScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('pointermove', this._onMove);
+    window.removeEventListener('pointerover', this._onMove);
+    window.removeEventListener('scroll', this._onScroll);
+    document.removeEventListener('visibilitychange', this._onScroll);
+    if (this._sf) window.cancelAnimationFrame(this._sf);
+    window.clearTimeout(this._st);
+    window.clearTimeout(this._pt);
+    window.clearTimeout(this._ft);
+  }
+
+  syncHover() {
+    const p = this._pos;
+    if (!p) return;
+    const el = document.elementFromPoint(p.x, p.y);
+    const row = el && el.closest ? el.closest('[data-row]') : null;
+    const i = row ? [...document.querySelectorAll('[data-row]')].indexOf(row) : -1;
+    if (i === this.state.hover) return;
+    const id = row ? row.getAttribute('data-id') : null;
+    const live = id && !this.state.live[id] ? { ...this.state.live, [id]: true } : this.state.live;
+    this.setState({ hover: i, live: live });
+  }
+
+  fromUrl() {
+    let params;
+    try { params = new URLSearchParams(window.location.search); } catch (e) { return {}; }
+    const f = this._facets;
+    const find = (list, v) => list.find((x) => slug(x) === v) || '';
+    const page = Math.max(0, (parseInt(params.get('page'), 10) || 1) - 1);
+    return {
+      type: find(f.types, params.get('type')),
+      area: find(f.areas, params.get('area')),
+      sector: find(f.sectors, params.get('sector')),
+      year: f.years.indexOf(Number(params.get('year'))) >= 0 ? params.get('year') : '',
+      query: params.get('q') || '',
+      page: page,
+    };
+  }
+
+  /* Page state is part of the address: page 20 has to be somewhere a reader
+     can return to and send on. */
+  toUrl() {
+    const { type, area, sector, year, query, page } = this.state;
+    const p = new URLSearchParams();
+    if (type) p.set('type', slug(type));
+    if (area) p.set('area', slug(area));
+    if (sector) p.set('sector', slug(sector));
+    if (year) p.set('year', year);
+    if (query) p.set('q', query);
+    if (page) p.set('page', String(page + 1));
+    const s = p.toString();
+    try { window.history.replaceState(null, '', s ? '?' + s : window.location.pathname); } catch (e) { /* sandboxed preview */ }
+  }
+
+  /* Compared against a snapshot the class keeps itself: the previous state is
+     not handed to this lifecycle here. */
+  urlKey() {
+    const s = this.state;
+    return [s.type, s.area, s.sector, s.year, s.query, s.page].join('|');
+  }
+
+  componentDidUpdate() {
+    const k = this.urlKey();
+    if (this._urlKey !== undefined && k !== this._urlKey) this.toUrl();
+    this._urlKey = k;
+    /* Whenever the visible page changes, queue its painters. */
+    const key = (this._sliceIds || []).join(',');
+    if (key !== this._sliceKey) { this._sliceKey = key; this.queuePainters(this._sliceIds || []); }
+  }
+
+  /* Painters arrive on a queue rather than all at once. Fifteen histograms
+     built in one frame stalls the page, and a painter that is built only when
+     the pointer arrives is worse: a reader who stops on a row without moving
+     again gets no event to build it from. So the rows of the current page
+     build themselves in order, one every 150ms, and a hover jumps its row to
+     the front of that queue. */
+  queuePainters(ids) {
+    window.clearTimeout(this._pt);
+    /* The bitmap first, and for the whole page at once: the library
+       photographs are two megabytes each, and a fetch that starts when the
+       pointer arrives is a second of nothing under the cursor. Decoding is
+       what the painter waits for, so it happens ahead of the pointer; only the
+       histogram and the canvas stay lazy. */
+    if (!this._preloaded) this._preloaded = {};
+    for (const id of ids) {
+      const src = this._srcById && this._srcById[id];
+      if (!src || this._preloaded[src]) continue;
+      this._preloaded[src] = new Image();
+      this._preloaded[src].src = src;
+    }
+    this._queue = ids.filter((id) => !this.state.live[id]);
+    this.pumpPainters();
+  }
+
+  pumpPainters() {
+    if (!this._queue || !this._queue.length) return;
+    this._pt = window.setTimeout(() => {
+      const id = this._queue.shift();
+      if (id && !this.state.live[id]) this.setState({ live: { ...this.state.live, [id]: true } });
+      this.pumpPainters();
+    }, 150);
+  }
+
+  matches(a, f) {
+    if (f.type && a.type !== f.type) return false;
+    if (f.area && a.areas.indexOf(f.area) < 0) return false;
+    if (f.sector && a.sectors.indexOf(f.sector) < 0) return false;
+    if (f.year && String(a.year) !== String(f.year)) return false;
+    if (f.query && a.hay.indexOf(f.query.toLowerCase().trim()) < 0) return false;
+    return true;
+  }
+
+  relevant(a) {
+    const d = this.state.dialogue;
+    if (!d) return true;
+    return a.areas.some((x) => d.areas.indexOf(x) >= 0) || a.sectors.some((x) => d.sectors.indexOf(x) >= 0);
+  }
+
+  filters() {
+    const { type, area, sector, year, query } = this.state;
+    return { type: type, area: area, sector: sector, year: year, query: query };
+  }
+
+  /* Each facet reports what it would return given the others, so a dead end
+     is visible before it is chosen. */
+  facetData() {
+    const f = this.filters();
+    const key = [f.type, f.area, f.sector, f.year, f.query, this._items.length].join('|');
+    if (this._facetKey === key) return this._facetCache;
+    const all = this._items, fx = this._facets;
+    const build = (id, allLabel, values) => [{ value: '', label: allLabel }].concat(values.map((v) => {
+      const probe = { ...f };
+      probe[id] = String(v);
+      const n = all.reduce((acc, a) => acc + (this.matches(a, probe) ? 1 : 0), 0);
+      return { value: String(v), label: v + ' — ' + n };
+    }));
+    this._facetKey = key;
+    this._facetCache = {
+      typeOptions: build('type', 'Alla typer', fx.types),
+      areaOptions: build('area', 'Alla områden', fx.areas),
+      sectorOptions: build('sector', 'Alla sektorer', fx.sectors),
+      yearOptions: build('year', 'Alla år', fx.years),
+    };
+    return this._facetCache;
+  }
+
+  blocking() {
+    const f = this.filters();
+    const active = [
+      ['type', f.type, 'Typ'],
+      ['area', f.area, 'Verksamhetsområde'],
+      ['sector', f.sector, 'Sektor'],
+      ['year', f.year, 'Året'],
+      ['query', f.query, 'Sökningen'],
+    ].filter((x) => x[1]);
+    if (!active.length) return null;
+    let best = null;
+    for (const [id, value, label] of active) {
+      const probe = { ...f };
+      probe[id] = '';
+      const n = this._items.reduce((acc, a) => acc + (this.matches(a, probe) ? 1 : 0), 0);
+      if (!best || n > best.n) best = { id: id, value: value, label: label, n: n };
+    }
+    return best;
+  }
+
+  /* A year with nothing in it is the likeliest dead end on a dated archive, so
+     the way out offers the nearest year that has something rather than a
+     reset. */
+  nearestYear() {
+    const f = this.filters();
+    if (!f.year) return null;
+    const years = this._facets.years || [];
+    let best = null;
+    for (const y of years) {
+      const probe = { ...f, year: String(y) };
+      const n = this._items.reduce((acc, a) => acc + (this.matches(a, probe) ? 1 : 0), 0);
+      if (!n) continue;
+      const d = Math.abs(y - Number(f.year));
+      if (!best || d < best.d) best = { year: String(y), n: n, d: d };
+    }
+    return best;
+  }
+
+  /* A painter per row is a histogram, a tone map and a canvas per row, and
+     fifteen of them built on load is a stalled page for an image nobody has
+     asked to see yet. So a row builds its painter the first time it is
+     pointed at and keeps it from then on: the first hover pays the build, and
+     every hover after it is instant. The empty box holds the same 3:2, so
+     nothing moves when one arrives. */
+  enterFor(i, id) {
+    const key = i + ':' + id;
+    if (!this._enter[key]) {
+      this._enter[key] = () => {
+        const live = this.state.live[id] ? this.state.live : { ...this.state.live, [id]: true };
+        this.setState({ hover: i, live: live });
+      };
+    }
+    return this._enter[key];
+  }
+
+  ns() { return window.VingeDesignSystem_8582c7 || {}; }
+
+  openFinder = (e) => {
+    if (e && e.preventDefault) e.preventDefault();
+    this.setState({ finderOpen: true, menuOpen: false, fTurns: [], fStep: -1, fWorking: false, fDone: false, fPicks: [], draft: '' });
+    this.finderAdvance(700);
+  };
+
+  /* The footer's own field. What the visitor typed opens the sheet as the
+     first turn, rather than being discarded and replaced by the machine's
+     opening question. */
+  submitFinder = (prompt) => {
+    const text = (prompt || '').trim();
+    if (!text) return this.openFinder();
+    this.setState({ finderOpen: true, menuOpen: false, fStep: -1, fWorking: false, fDone: false, fPicks: [], draft: '',
+      fTurns: [{ speaker: 'visitor', text: text }] });
+    this.finderAdvance(700);
+  };
+
+  closeFinder = () => { window.clearTimeout(this._ft); this.setState({ finderOpen: false, fWorking: false }); };
+
+  /* The machine takes a beat before every turn, as it does on the finder's own
+     page — the ghost shows the shape of what is coming. */
+  finderAdvance(delay) {
+    this.setState({ fWorking: true });
+    window.clearTimeout(this._ft);
+    this._ft = window.setTimeout(() => {
+      const step = this.state.fStep + 1;
+      if (step >= FINDER.length) return this.finderResolve();
+      this.setState({
+        fWorking: false,
+        fStep: step,
+        fTurns: this.state.fTurns.concat([{ speaker: 'machine', variant: 'question', text: FINDER[step].question }]),
+      });
+    }, delay || 900);
+  }
+
+  /* The answer is the filter. What the dialogue derived becomes the second
+     tab's basis, the count is stated against the whole archive, and the page
+     behind the sheet is already filtered when it is closed. */
+  finderResolve() {
+    const picks = this.state.fPicks || [];
+    const areas = [], sectors = [];
+    for (const p of picks) {
+      for (const a of p.areas || []) if (areas.indexOf(a) < 0) areas.push(a);
+      for (const s of p.sectors || []) if (sectors.indexOf(s) < 0) sectors.push(s);
+    }
+    if (!areas.length && !sectors.length) { areas.push('M&A', 'Publik M&A'); }
+    const dialogue = { areas: areas, sectors: sectors };
+    const total = this._items.length;
+    const n = this._items.reduce((acc, a) => acc + (a.areas.some((x) => areas.indexOf(x) >= 0) || a.sectors.some((x) => sectors.indexOf(x) >= 0) ? 1 : 0), 0);
+    this.setState({
+      fWorking: false,
+      fDone: true,
+      fStep: FINDER.length,
+      dialogue: dialogue,
+      tab: 'relevant',
+      page: 0,
+      fTurns: this.state.fTurns.concat([{
+        speaker: 'machine',
+        variant: 'answer',
+        text: n + ' av ' + total + ' artiklar rör det du beskrev.',
+        body: 'Flödet bakom står kvar som det var, men Intressanta för dig filtrerar nu på ' + areas.concat(sectors).join(' · ') + '. Stäng det här så ser du dem.',
+      }]),
+    });
+  }
+
+  finderPick = (option) => {
+    this.setState({
+      fPicks: (this.state.fPicks || []).concat([option]),
+      fTurns: this.state.fTurns.concat([{ speaker: 'visitor', text: option.text }]),
+    });
+    this.finderAdvance();
+  };
+
+  /* Free text is read for the same two facets the options carry, so typing and
+     picking end in the same place. */
+  finderSend = (text) => {
+    const low = String(text || '').toLowerCase();
+    const areas = [], sectors = [];
+    for (const [re, as, ss] of FINDER_KEYWORDS) {
+      if (!re.test(low)) continue;
+      for (const a of as) if (areas.indexOf(a) < 0) areas.push(a);
+      for (const s of ss) if (sectors.indexOf(s) < 0) sectors.push(s);
+    }
+    this.setState({
+      draft: '',
+      fPicks: (this.state.fPicks || []).concat([{ areas: areas, sectors: sectors }]),
+      fTurns: this.state.fTurns.concat([{ speaker: 'visitor', text: text }]),
+    });
+    if (this.state.fDone) this.finderResolve(); else this.finderAdvance();
+  };
+
+  setTab = (id) => this.setState({ tab: id, page: 0 });
+  toggleFilters = () => this.setState({ filtersOpen: !this.state.filtersOpen });
+  leave = () => this.setState({ hover: -1 });
+  /* One handler for every field: ListingFilters reports which one moved, and
+     the field ids are the state keys. Any move returns to page one. */
+  onFilter = (id, next) => this.setState({ [id]: next, page: 0 });
+  clearFilters = () => this.setState({ type: '', area: '', sector: '', year: '', query: '', page: 0 });
+  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+  closeMenu = () => this.setState({ menuOpen: false });
+  onSubscribe = (e) => { e.preventDefault(); };
+  goPage = (n) => { this.setState({ page: n, hover: -1 }); try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (err) { window.scrollTo(0, 0); } };
+
+  /* A condensed pager: the ends, the neighbours, and an ellipsis for the rest.
+     Thirty-two pages will not fit on a line, and a reader jumps by year
+     anyway — the year filter is the real long-distance control. */
+  pager(pages, page) {
+    const want = new Set([0, 1, pages - 2, pages - 1, page - 1, page, page + 1]);
+    const list = [...want].filter((n) => n >= 0 && n < pages).sort((a, b) => a - b);
+    const out = [];
+    let last = -1;
+    for (const n of list) {
+      if (last >= 0 && n - last > 1) out.push({ label: '…', color: 'var(--ink-55)', go: null, current: null });
+      out.push({
+        label: String(n + 1),
+        color: n === page ? 'var(--text-primary)' : 'var(--text-secondary)',
+        current: n === page ? 'page' : null,
+        go: () => this.goPage(n),
+      });
+      last = n;
+    }
+    return out;
+  }
+
+  /* The site navigation comes from the design system (SiteNav), not from this
+     page, so every template shows the same menu. The bundle may not have
+     landed on the first render — the empty lists below are a one-frame
+     placeholder and the poll re-renders once it has. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav();
+    const { tab, page, hover } = this.state;
+    const dialogue = this.state.dialogue;
+    const f = this.filters();
+    const all = this._items;
+    const total = all.length;
+    const filtered = all.filter((a) => this.matches(a, f));
+    const anyFilter = !!(f.type || f.area || f.sector || f.year || f.query);
+    const relevantCount = dialogue ? filtered.reduce((n, a) => n + (this.relevant(a) ? 1 : 0), 0) : 0;
+
+    const perPage = Math.max(5, this.props.perPage || PER_PAGE_DEFAULT);
+    const pages = Math.max(1, Math.ceil(filtered.length / perPage));
+    const current = Math.min(page, pages - 1);
+    const slice = filtered.slice(current * perPage, current * perPage + perPage);
+    const recede = tab === 'relevant' && !!dialogue;
+    const near = this.nearestYear();
+    const block = filtered.length ? null : this.blocking();
+
+    let countLine;
+    if (tab === 'relevant' && dialogue) countLine = relevantCount + ' av ' + total + ' rör det du frågade om';
+    else if (anyFilter) countLine = filtered.length + ' av ' + total + ' artiklar';
+    else countLine = total + ' artiklar';
+
+    const topics = [f.type, f.area, f.sector].filter(Boolean);
+    this._sliceIds = slice.map((a) => a.id);
+    const { ConversationHeader, Composer } = this.ns();
+
+    return {
+      finderOpen: this.state.finderOpen,
+      finderPrompt: this.state.fTurns.length && this.state.fTurns[0].speaker === 'visitor' ? this.state.fTurns[0].text : null,
+      finderTurns: this.state.fTurns.map((t, i) => ({ ...t, demoted: i < this.state.fTurns.length - 1 })),
+      finderWorking: this.state.fWorking,
+      finderOptions: !this.state.fWorking && !this.state.fDone && FINDER[this.state.fStep] ? FINDER[this.state.fStep].options : null,
+      finderPick: this.finderPick,
+      finderGhost: this.state.fStep + 1 >= FINDER.length
+        ? [{ text: 'N av 480 artiklar rör det du beskrev.', size: 'display-3' }, { text: 'Flödet bakom står kvar som det var.', size: 'prose' }]
+        : [{ text: FINDER[this.state.fStep + 1] ? FINDER[this.state.fStep + 1].question : '', size: 'display-3' }],
+      finderAside: this.ns().ConversationContext
+        ? React.createElement(this.ns().ConversationContext, {
+            groups: [
+              { label: 'Ditt ärende', items: this.state.fTurns.filter((t) => t.speaker === 'visitor').map((t) => ({ text: t.text, note: 'Dina ord' })) },
+              { label: 'Flödet filtrerar på', items: dialogue ? dialogue.areas.concat(dialogue.sectors).map((x) => ({ text: x })) : [] },
+              { label: 'Träffar', items: dialogue ? [{ text: relevantCount + ' av ' + total + ' artiklar', note: 'Intressanta för dig' }] : [] },
+            ],
+          })
+        : null,
+      finderHeader: ConversationHeader
+        ? React.createElement(ConversationHeader, { sticky: true, scrolled: this.state.fTurns.length > 2, onClose: this.closeFinder, logoSrc: '../../assets/logo.svg' })
+        : null,
+      finderFooter: Composer
+        ? React.createElement(Composer, {
+            value: this.state.draft,
+            onChange: (v) => this.setState({ draft: v }),
+            onSubmit: this.finderSend,
+            disabled: this.state.fWorking,
+            placeholder: this.state.fDone ? 'Fråga vidare' : 'Skriv ditt svar',
+            autoFocus: true,
+            dotSrc: '../../assets/demo/boardroom.png',
+          })
+        : null,
+      openFinder: this.openFinder,
+      submitFinder: this.submitFinder,
+      closeFinder: this.closeFinder,
+      noDelay: 0,
+      dotSrc: '../../assets/demo/boardroom.png',
+      tabs: [{ id: 'all', label: 'Allt' }, { id: 'relevant', label: 'Intressanta för dig' }],
+      tab: tab,
+      setTab: this.setTab,
+      filterFields: (() => {
+        const o = this.facetData();
+        return [
+          { id: 'query', label: 'Sök', kind: 'search', placeholder: 'Rubrik, ämne, namn' },
+          { id: 'type', label: 'Typ', options: o.typeOptions },
+          { id: 'area', label: 'Verksamhetsområde', options: o.areaOptions },
+          { id: 'sector', label: 'Sektor', options: o.sectorOptions },
+          { id: 'year', label: 'År', options: o.yearOptions },
+        ];
+      })(),
+      filterValues: f,
+      onFilter: this.onFilter,
+      anyFilter: anyFilter,
+      filtersOpen: this.state.filtersOpen,
+      toggleFilters: this.toggleFilters,
+      clearFilters: this.clearFilters,
+      countLine: countLine,
+      /* The archive is 1 195 items in Swedish and 480 in English. A page that
+         serves 40% of its own archive without saying so is the one thing this
+         listing must not do. */
+      coverageLine: 'Svenska arkivet, komplett från ' + (all.length ? all[all.length - 1].year : 1998) + '. ' + all.reduce((n, a) => n + (a.inEnglish ? 1 : 0), 0) + ' av ' + total + ' finns även på engelska.',
+      showAskNote: tab === 'relevant' && !dialogue,
+      dialogueLine: tab === 'relevant' && dialogue
+        ? 'Filtrerar på ' + dialogue.areas.concat(dialogue.sectors).join(' · ') + '. Övriga står kvar, nedtonade.'
+        : '',
+      showEmpty: !filtered.length,
+      emptyBody: block
+        ? 'Det är ' + block.label.toLowerCase() + ' som utesluter allt. Utan det filtret återstår ' + block.n + ' artiklar.'
+        : 'Flödet är tomt.',
+      dropLabel: block ? 'Ta bort ' + block.label.toLowerCase() : 'Rensa',
+      dropBlocking: () => { if (block) this.setState({ [block.id]: '', page: 0 }); },
+      nearestYear: !!near,
+      nearestYearLabel: near ? 'Gå till ' + near.year + ' — ' + near.n + ' artiklar' : '',
+      goNearestYear: () => { if (near) this.setState({ year: near.year, page: 0 }); },
+      rows: slice.map((a, i) => ({
+        title: (current === 0 && TEST_TITLES[i]) || a.title,
+        dateLabel: a.dateLabel,
+        readLabel: a.minutes ? a.minutes + ' min läsning' : '',
+        type: a.type,
+        href: a.href,
+        imageSrc: this.props.showImages === false ? null : a.imageSrc,
+        alt: a.title,
+        mounted: this.props.showImages !== false && !!a.imageSrc && !!this.state.live[a.id],
+        id: a.id,
+        on: hover === i,
+        recede: recede && !this.relevant(a) ? '1' : null,
+        enter: this.enterFor(i, a.id),
+      })),
+      leave: this.leave,
+      gridSize: 5,
+      revealMs: this.props.revealDuration || 900,
+      showPager: pages > 1,
+      pageLinks: this.pager(pages, current),
+      pageLine: 'Sida ' + (current + 1) + ' av ' + pages,
+      atFirst: current === 0,
+      atLast: current === pages - 1,
+      prevPage: () => this.goPage(Math.max(0, current - 1)),
+      nextPage: () => this.goPage(Math.min(pages - 1, current + 1)),
+      subscribeLine: topics.length
+        ? 'Du får det du filtrerat fram: ' + topics.join(' · ') + '. Inget annat.'
+        : 'Utan filter får du hela flödet. Filtrera först, så blir urvalet din prenumeration.',
+      subscribeCta: 'Starta prenumeration',
+      onSubscribe: this.onSubscribe,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+      trail: [{ label: 'Start', href: '/' }, 'Insikter'],
+    };
+  }
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="People listing" description="All 596 people on one surface: the finder first, then two views, three filters and a search field. Portraits hold the green noir plate and take their colour on hover." -->
+<helmet><link rel="preconnect" href="https://images.weserv.nl" crossorigin><script src="./ds-base.js"></script><script src="./people.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}input::placeholder{color:var(--ink-55)}a[data-person][data-recede="1"]{opacity:0.24}input:focus-visible,select:focus-visible{outline:2px solid var(--focus-ring);outline-offset:4px}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Breadcrumbs" items="{{ trail }}" hint-size="100%,24px"></x-import>
+<main>
+<sc-if value="{{ showFinder }}" hint-placeholder-val="{{ true }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad står du inför?" suggestions="{{ suggestions }}" aside="Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver." on-submit="{{ submitFinder }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+</sc-if>
+<section class="grid" style="padding-top:var(--section-gap)">
+<p class="display-2" style="grid-column:1 / -1;margin:0 0 var(--space-6);max-width:24ch;color:var(--ink);text-wrap:pretty">Människorna bakom några av de mest avgörande affärerna</p>
+<div style="grid-column:1 / -1;position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1));z-index:20;background:var(--paper);padding-bottom:var(--space-3)">
+<sc-if value="{{ showFinder }}" hint-placeholder-val="{{ true }}">
+<div style="margin-bottom:var(--space-5)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Tabs" tabs="{{ tabs }}" value="{{ tab }}" on-change="{{ setTab }}" label="Urval av personer" hint-size="100%,44px"></x-import>
+</div>
+</sc-if>
+<div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ListingFilters" fields="{{ filterFields }}" value="{{ filterValues }}" on-change="{{ onFilter }}" count-line="{{ countLine }}" show-clear="{{ anyFilter }}" on-clear="{{ clearFilters }}" marked="{{ anyFilter }}" open="{{ filtersOpen }}" on-toggle="{{ toggleFilters }}" search-id="query" search-label="Sök" search-placeholder="Namn, roll, område" hint-size="100%,24px"></x-import>
+</div>
+</div>
+</section>
+<section class="grid" style="padding-bottom:var(--section-gap)">
+<sc-if value="{{ showAskNote }}">
+<div style="grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-3);padding-bottom:var(--space-5)">
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">Du har inte berättat vad du står i än. Gör det, och ordningen här följer det.</p>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" href="#" variant="small" onClick="{{ askFinderLink }}" hint-size="180px,24px">Berätta vad du står i</x-import>
+</div>
+</sc-if>
+<sc-if value="{{ dialogueLine }}">
+<div style="grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-3);padding-bottom:var(--space-5)">
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ dialogueLine }}</p>
+<div style="display:flex;flex-wrap:wrap;gap:var(--space-3)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" href="#" variant="small" onClick="{{ resetDialogueLink }}" hint-size="70px,24px">Rensa</x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" href="#" variant="small" onClick="{{ askFinderLink }}" hint-size="170px,24px">Fråga om något annat</x-import>
+</div>
+</div>
+</sc-if>
+<sc-if value="{{ showEmpty }}">
+<div style="grid-column:1 / -1;max-width:52ch;padding-bottom:var(--space-5)">
+<p class="display-3">Ingen matchar allt på en gång.</p>
+<p class="small" style="margin-top:var(--space-3)">{{ emptyBody }}</p>
+<div style="margin-top:var(--space-3);display:flex;flex-wrap:wrap;gap:var(--space-4)">
+<button type="button" onClick="{{ dropBlocking }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--ink);text-decoration:underline;text-decoration-color:var(--underline-rest);text-underline-offset:0.22em" style-hover="text-decoration-color:var(--ink)">{{ dropLabel }}</button>
+<button type="button" onClick="{{ askFinder }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--text-secondary);text-decoration:underline;text-decoration-color:var(--underline-rest-secondary);text-underline-offset:0.22em" style-hover="color:var(--ink);text-decoration-color:var(--ink)">Beskriv det i fältet i stället</button>
+</div>
+</div>
+</sc-if>
+<div style="grid-column:1 / -1;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(232px,100%),1fr));gap:var(--space-5) var(--gutter)">
+<sc-for list="{{ rows }}" as="p" hint-placeholder-count="12">
+<a href="{{ p.href }}" ref="{{ p.ref }}" onMouseEnter="{{ p.enter }}" onMouseLeave="{{ leave }}" onFocus="{{ p.enter }}" onBlur="{{ leave }}" data-person="" data-recede="{{ p.recede }}" style="display:block;min-width:0;color:inherit;text-decoration:none;opacity:1;transition:opacity var(--dur-reveal) var(--ease-expo)">
+<div style="position:relative;width:100%;aspect-ratio:4 / 5;background:var(--ink-5);overflow:hidden">
+<sc-if value="{{ p.live }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ p.imageSrc }}" alt="{{ p.alt }}" ratio="4:5" grid-size="{{ gridSize }}" dynamics="{{ dynamics }}" play-at="{{ playAt }}" duration="{{ duration }}" resolved="{{ p.resolved }}" hint-size="100%,100%"></x-import>
+</sc-if>
+</div>
+<p class="small" style="margin:var(--space-2) 0 0;max-width:none">{{ p.name }}</p>
+<p class="small" style="margin:2px 0 0;max-width:none;color:var(--text-secondary)">{{ p.meta }}</p>
+</a>
+</sc-for>
+</div>
+</section>
+</main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ submitFinder }}" hint-size="100%,720px"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;showFinder&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Finder&quot;},&quot;sortBy&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;First name&quot;,&quot;Surname&quot;],&quot;default&quot;:&quot;First name&quot;,&quot;tsType&quot;:&quot;'First name' | 'Surname'&quot;,&quot;section&quot;:&quot;Listing&quot;},&quot;gridSize&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:5,&quot;min&quot;:3,&quot;max&quot;:8,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Portraits&quot;},&quot;colourOnHover&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Portraits&quot;}}">
+/* The listing of all 596. Two things carry the page: the finder at the top,
+   and a field of portraits that never paginates.
+
+   Portraits. Every card is an `ImageReveal` with `resolved` handed over
+   explicitly, which is the seam the carousel uses: the screen still prints
+   from the scroll position, but colour is a decision rather than a place. Here
+   the decision is the pointer — the plate holds for as long as nobody is
+   looking at that person, and their photograph takes its colour under the
+   cursor. So the wall reads as one green ground with one face lit in it.
+
+   596 halftone painters cannot all be mounted: each one loads an image, builds
+   a histogram and holds a canvas. Cards mount their reveal when they come
+   within 700px of the viewport and give it back when they leave, so the number
+   of live painters is bounded by what a screen can show. The card box is the
+   same 4:5 either way, so nothing moves when one swaps in. */
+const NS = () => window.VingeDesignSystem_8582c7 || {};
+
+/* What the finder derives, in the register's own vocabulary — the same facets
+   the three filters use, so switching between the two paths is continuous. */
+const KEYWORDS = [
+  [/(bud|uppköp|budgivare|målbolag|takeover|offentligt erbjudande)/, ['Publik M&A', 'M&A'], ['Industri']],
+  [/(förvärv|sälja|försäljning|köpa bolag|due diligence)/, ['M&A', 'Bolagsrätt'], []],
+  [/(börs|emission|prospekt|noter)/, ['Kapitalmarknad'], ['Bank och finans']],
+  [/(konkurrens|kartell|dominerande|fusionskontroll)/, ['Konkurrensrätt', 'Statsstöd'], []],
+  [/(tvist|process|skiljeförfarande|stämning|domstol)/, ['Tvistlösning', 'Skiljeförfaranden'], []],
+  [/(patent|varumärke|upphovsrätt|immateriell)/, ['Immaterialrätt'], ['Life science', 'Teknik']],
+  [/(anställ|uppsäg|kollektivavtal|arbetsmiljö)/, ['Arbetsrätt'], []],
+  [/(hyra|fastighet|entreprenad|detaljplan|bygg)/, ['Fastighet och entreprenad'], ['Fastighet']],
+  [/(kredit|finansier|lån|bank)/, ['Bank och finans'], ['Bank och finans']],
+  [/(skatt|moms)/, ['Skatt'], []],
+  [/(upphandling|myndighet|tillsyn|granskning)/, ['Offentlig upphandling', 'Utredningar'], ['Offentlig sektor']],
+  [/(mut|korruption|sanktion|exportkontroll)/, ['Antikorruption', 'Handelssanktioner'], []],
+  [/(miljö|utsläpp|tillstånd)/, ['Miljörätt'], ['Energi']],
+  [/(rekonstruktion|konkurs|obeständ)/, ['Insolvens och rekonstruktion'], []],
+];
+
+function slug(s) {
+  return String(s).toLowerCase().replace(/&/g, 'och').replace(/[åä]/g, 'a').replace(/ö/g, 'o').replace(/é/g, 'e').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+function surname(name) { const parts = String(name).trim().split(/\s+/); return parts[parts.length - 1]; }
+
+class Component extends DCLogic {
+  state = { tab: 'all', query: '', area: '', sector: '', office: '', dialogue: null, hover: -1, live: {}, menuOpen: false, filtersOpen: false };
+  /* The first render happens before the data script has been read, so every
+     collection the template loops over has to exist empty. */
+  _people = [];
+  _facets = { areas: [], sectors: [], offices: [] };
+  _refs = [];
+  _enter = [];
+
+  componentDidMount() {
+    const people = (window.VingePeopleAll || []).map((p) => ({
+      ...p,
+      hay: [p.name, p.role, p.office].concat(p.areas, p.sectors, p.langs).join(' ').toLowerCase(),
+    }));
+    this._people = people;
+    this._facets = window.VingePeopleFacets || { areas: [], sectors: [], offices: [] };
+    this._refs = [];
+    this._enter = [];
+    this._els = new Map();
+    /* Which cards hold a painter is read off the grid's own geometry — one
+       column count and one row height answer it for all 596 at once. It was
+       an observer per card first; IntersectionObserver reports nothing inside
+       this frame, and measuring the grid is both cheaper and exact. */
+    this._wanted = new Set();
+    /* Coalesced on a timer, not a frame: a background or throttled frame
+       never arrives, and one dropped callback would freeze the whole field. */
+    this._onScroll = () => {
+      if (this._tick) return;
+      this._tick = window.setTimeout(() => { this._tick = null; this.mountWindow(); }, 60);
+    };
+    this._onResize = () => { this._geom = null; this._onScroll(); };
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    window.addEventListener('resize', this._onResize);
+    /* Filtering, a font landing and the hero settling all move the field
+       without a scroll event. */
+    this._poll = window.setInterval(this._onScroll, 400);
+    /* The first row is live before the first measurement, so the page never
+       opens on an empty box. */
+    const seed = {};
+    for (let i = 0; i < 4; i++) seed[i] = true;
+    /* An address that arrives already filtered opens the drawer, so the reader
+       can see what is narrowing the register. */
+    const url = this.fromUrl();
+    this.setState({ live: seed, ...url, filtersOpen: !!(url.area || url.sector || url.office || url.query) });
+  }
+
+  /* Two cards handed their painters every 50ms, nearest the top of the queue
+     first. The queue exists so thirty halftones never start on one frame; it
+     runs a screen ahead of the reader, so by the time a row is scrolled to,
+     its portraits have already printed. */
+  pump() {
+    if (this._pumping || !this._wanted || !this._wanted.size) return;
+    this._pumping = window.setTimeout(() => {
+      this._pumping = null;
+      const list = [...this._wanted].sort((a, b) => a - b).slice(0, 2);
+      const live = { ...this.state.live };
+      for (const i of list) { this._wanted.delete(i); if (this._els.has(i)) live[i] = true; }
+      this.setState({ live: live });
+      this.pump();
+    }, 50);
+  }
+
+  /* Column count and row height, measured from the first row and cached until
+     the width or the number of cards changes. */
+  geom() {
+    const first = this._els.get(0);
+    if (!first) return null;
+    if (this._geom && this._geom.n === this._rowCount && this._geom.w === window.innerWidth) return this._geom;
+    const r0 = first.getBoundingClientRect();
+    if (!r0.height) return null;
+    let cols = 1;
+    for (let i = 1; i < 24; i++) {
+      const e = this._els.get(i);
+      if (!e) break;
+      if (Math.abs(e.getBoundingClientRect().top - r0.top) > 2) break;
+      cols = i + 1;
+    }
+    const next = this._els.get(cols);
+    const rowH = next ? Math.abs(next.getBoundingClientRect().top - r0.top) : r0.height;
+    this._geom = { top: r0.top + window.scrollY, cols: cols, rowH: rowH || r0.height, n: this._rowCount, w: window.innerWidth };
+    return this._geom;
+  }
+
+  /* A screen and a half either side of the viewport, so a row has printed
+     before it is scrolled to. Leaving is immediate — a painter off screen is
+     pure cost; arriving is queued through the pump. */
+  mountWindow() {
+    const g = this.geom();
+    if (!g || !g.rowH) return;
+    const margin = Math.round(window.innerHeight * 1.5);
+    const from = Math.max(0, Math.floor((window.scrollY - margin - g.top) / g.rowH) * g.cols);
+    const to = Math.min(this._rowCount - 1, Math.floor((window.scrollY + window.innerHeight + margin - g.top) / g.rowH) * g.cols + g.cols - 1);
+    /* On screen paints now; the screen and a half either side is queued
+       behind it, so scrolling arrives at rows that have already printed. */
+    const onFrom = Math.max(0, Math.floor((window.scrollY - g.top) / g.rowH) * g.cols);
+    const onTo = Math.min(this._rowCount - 1, Math.floor((window.scrollY + window.innerHeight - g.top) / g.rowH) * g.cols + g.cols - 1);
+    const live = { ...this.state.live };
+    let changed = false;
+    for (const k of Object.keys(live)) {
+      const i = Number(k);
+      if (i < from || i > to) { delete live[i]; changed = true; }
+    }
+    this._wanted.clear();
+    for (let i = from; i <= to; i++) {
+      if (live[i]) continue;
+      if (i >= onFrom && i <= onTo) { live[i] = true; changed = true; }
+      else this._wanted.add(i);
+    }
+    if (changed) this.setState({ live: live });
+    this.pump();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+    window.removeEventListener('resize', this._onResize);
+    if (this._poll) clearInterval(this._poll);
+    if (this._tick) clearTimeout(this._tick);
+    if (this._pumping) clearTimeout(this._pumping);
+  }
+
+  /* Filter state is linkable: a filtered list is something a buyer sends to a
+     colleague, and a practice-area view is a landing page in its own right. */
+  fromUrl() {
+    let params;
+    try { params = new URLSearchParams(window.location.search); } catch (e) { return {}; }
+    const f = this._facets;
+    const find = (list, v) => list.find((x) => slug(x) === v) || '';
+    return {
+      area: find(f.areas, params.get('area')),
+      sector: find(f.sectors, params.get('sector')),
+      office: find(f.offices, params.get('office')),
+      query: params.get('q') || '',
+    };
+  }
+
+  toUrl() {
+    const { area, sector, office, query } = this.state;
+    const p = new URLSearchParams();
+    if (area) p.set('area', slug(area));
+    if (sector) p.set('sector', slug(sector));
+    if (office) p.set('office', slug(office));
+    if (query) p.set('q', query);
+    const s = p.toString();
+    try { window.history.replaceState(null, '', s ? '?' + s : window.location.pathname); } catch (e) { /* sandboxed preview */ }
+  }
+
+  componentDidUpdate(prev) {
+    if (prev.area !== this.state.area || prev.sector !== this.state.sector || prev.office !== this.state.office || prev.query !== this.state.query) this.toUrl();
+  }
+
+  matches(p, f) {
+    if (f.area && p.areas.indexOf(f.area) < 0) return false;
+    if (f.sector && p.sectors.indexOf(f.sector) < 0) return false;
+    if (f.office && p.office !== f.office) return false;
+    if (f.query && p.hay.indexOf(f.query.toLowerCase().trim()) < 0) return false;
+    return true;
+  }
+
+  relevant(p) {
+    const d = this.state.dialogue;
+    if (!d) return true;
+    return p.areas.some((a) => d.areas.indexOf(a) >= 0) || p.sectors.some((s) => d.sectors.indexOf(s) >= 0);
+  }
+
+  sorted() {
+    const key = (this.props.sortBy === 'Surname' ? 'sur' : 'first') + ':' + (this._people || []).length;
+    if (this._sortedKey === key) return this._sorted;
+    const list = (this._people || []).slice().sort((a, b) => {
+      const av = this.props.sortBy === 'Surname' ? surname(a.name) + ' ' + a.name : a.name;
+      const bv = this.props.sortBy === 'Surname' ? surname(b.name) + ' ' + b.name : b.name;
+      return av.localeCompare(bv, 'sv');
+    });
+    this._sortedKey = key; this._sorted = list;
+    return list;
+  }
+
+  refFor(i) {
+    if (!this._refs[i]) {
+      this._refs[i] = (el) => {
+        if (el) this._els.set(i, el); else this._els.delete(i);
+      };
+    }
+    return this._refs[i];
+  }
+
+  enterFor(i) {
+    if (!this._enter[i]) this._enter[i] = () => this.setState({ hover: i });
+    return this._enter[i];
+  }
+
+  derive(prompt) {
+    const text = String(prompt || '').trim();
+    const low = text.toLowerCase();
+    const areas = [], sectors = [];
+    const f = this._facets;
+    for (const a of f.areas) if (low.indexOf(a.toLowerCase()) >= 0) areas.push(a);
+    for (const s of f.sectors) if (low.indexOf(s.toLowerCase()) >= 0) sectors.push(s);
+    for (const [re, as, ss] of KEYWORDS) {
+      if (!re.test(low)) continue;
+      for (const a of as) if (areas.indexOf(a) < 0) areas.push(a);
+      for (const s of ss) if (sectors.indexOf(s) < 0) sectors.push(s);
+    }
+    /* Nothing recognised is still a dialogue: the transaction areas are what
+       the register is thickest in, and the tab says what it filtered on. */
+    if (!areas.length && !sectors.length) { areas.push('M&A', 'Publik M&A', 'Bolagsrätt'); }
+    return { text: text, areas: areas, sectors: sectors };
+  }
+
+  submitFinder = (prompt) => { this.setState({ dialogue: this.derive(prompt), tab: 'relevant' }); };
+  resetDialogue = () => { this.setState({ dialogue: null, tab: 'all' }); };
+  askFinder = () => { this.setState({ menuOpen: false }); try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) { window.scrollTo(0, 0); } };
+  /* CtaLink renders an anchor, so the prompts have to stop the navigation
+     the way the carousel's own controls do. */
+  askFinderLink = (ev) => { ev.preventDefault(); this.askFinder(); };
+  resetDialogueLink = (ev) => { ev.preventDefault(); this.resetDialogue(); };
+  setTab = (id) => this.setState({ tab: id });
+  leave = () => this.setState({ hover: -1 });
+  clearFilters = () => this.setState({ area: '', sector: '', office: '', query: '' });
+  /* One handler for every field: ListingFilters reports which one moved, and
+     the field ids are the state keys. */
+  onFilter = (id, next) => this.setState({ [id]: next });
+  toggleFilters = () => this.setState({ filtersOpen: !this.state.filtersOpen });
+  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  /* Each filter shows how many it would return given the others, so a dead end
+     is visible before it is chosen. Recomputed only when the filters move. */
+  facetData() {
+    const { area, sector, office, query } = this.state;
+    const key = [area, sector, office, query, this.props.sortBy, this._people.length].join('|');
+    if (this._facetKey === key) return this._facetCache;
+    const f = this._facets, all = this.sorted();
+    const build = (id, allLabel, values) => [{ value: '', label: allLabel }].concat(
+      values.map((v) => {
+        const probe = { area: area, sector: sector, office: office, query: query };
+        probe[id] = v;
+        const n = all.reduce((acc, p) => acc + (this.matches(p, probe) ? 1 : 0), 0);
+        return { value: v, label: v + ' — ' + n };
+      })
+    );
+    this._facetKey = key;
+    this._facetCache = {
+      areaOptions: build('area', 'Alla områden', f.areas),
+      sectorOptions: build('sector', 'Alla sektorer', f.sectors),
+      officeOptions: build('office', 'Alla kontor', f.offices),
+    };
+    return this._facetCache;
+  }
+
+  /* Three filters will produce combinations nobody fills. The way out names
+     the filter that is doing the excluding rather than offering a reset. */
+  blocking() {
+    const { area, sector, office, query } = this.state;
+    const active = [
+      ['area', area, 'Verksamhetsområde'],
+      ['sector', sector, 'Sektor'],
+      ['office', office, 'Kontor'],
+      ['query', query, 'Sökningen'],
+    ].filter((x) => x[1]);
+    if (!active.length) return null;
+    let best = null;
+    for (const [id, value, label] of active) {
+      const probe = { area: area, sector: sector, office: office, query: query };
+      probe[id] = '';
+      const n = this.sorted().reduce((acc, p) => acc + (this.matches(p, probe) ? 1 : 0), 0);
+      if (!best || n > best.n) best = { id: id, value: value, label: label, n: n };
+    }
+    return best;
+  }
+
+  /* The filters remove; the second view only recedes. A filter is a claim
+     about what the visitor needs, so a non-match has no business taking up a
+     card — but the relevance view is a reading of the whole list, and there
+     the rest has to stay visible for the subset to mean anything. */
+  render_rows(list) {
+    const { hover, live, tab, dialogue } = this.state;
+    const recede = tab === 'relevant' && !!dialogue;
+    const colour = this.props.colourOnHover !== false;
+    return list.map((p, i) => {
+      return {
+        name: p.name,
+        meta: p.role ? p.role + ' · ' + p.office : p.office,
+        alt: p.name + ', ' + p.role + ', ' + p.office,
+        href: p.href,
+        imageSrc: p.imageSrc,
+        live: !!live[i] && !!p.imageSrc,
+        resolved: colour ? hover === i : false,
+        recede: recede && !this.relevant(p) ? '1' : null,
+        ref: this.refFor(i),
+        enter: this.enterFor(i),
+      };
+    });
+  }
+
+  /* The site navigation comes from the design system (SiteNav), not from this
+     page, so every template shows the same menu. The bundle may not have
+     landed on the first render — the empty lists below are a one-frame
+     placeholder and the poll re-renders once it has. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav();
+    const { tab, query, area, sector, office, dialogue } = this.state;
+    const all = this.sorted();
+    const f = { area: area, sector: sector, office: office, query: query };
+    const filtered = all.filter((p) => this.matches(p, f));
+    const anyFilter = !!(area || sector || office || query);
+    const relevantCount = dialogue ? filtered.reduce((n, p) => n + (this.relevant(p) ? 1 : 0), 0) : 0;
+    const total = all.length;
+    const block = filtered.length ? null : this.blocking();
+    /* With the finder off the page is a plain register: no prompt, and no
+       relevance view, since nothing is there to rank it. */
+    const showFinder = this.props.showFinder !== false;
+
+    let countLine;
+    if (tab === 'relevant' && dialogue) countLine = relevantCount + ' av ' + total + ' matchar det du frågade om';
+    else if (anyFilter) countLine = filtered.length + ' av ' + total + ' personer';
+    else countLine = total + ' personer';
+
+    return {
+      showFinder: showFinder,
+      tabs: showFinder ? [{ id: 'all', label: 'Allt' }, { id: 'relevant', label: 'Intressanta för dig' }] : [{ id: 'all', label: 'Allt' }],
+      tab: showFinder ? tab : 'all',
+      setTab: this.setTab,
+      filterFields: (() => {
+        const o = this.facetData();
+        return [
+          { id: 'area', label: 'Verksamhetsområde', options: o.areaOptions },
+          { id: 'sector', label: 'Sektor', options: o.sectorOptions },
+          { id: 'office', label: 'Kontor', options: o.officeOptions },
+        ];
+      })(),
+      filterValues: f,
+      onFilter: this.onFilter,
+      filtersOpen: this.state.filtersOpen,
+      toggleFilters: this.toggleFilters,
+      anyFilter: anyFilter,
+      clearFilters: this.clearFilters,
+      countLine: countLine,
+      showAskNote: showFinder && tab === 'relevant' && !dialogue,
+      dialogueLine: showFinder && tab === 'relevant' && dialogue
+        ? 'Filtrerar på ' + dialogue.areas.concat(dialogue.sectors).join(' · ') + '. De andra står kvar, nedtonade.'
+        : '',
+      resetDialogue: this.resetDialogue,
+      askFinderLink: this.askFinderLink,
+      resetDialogueLink: this.resetDialogueLink,
+      showEmpty: !filtered.length,
+      emptyBody: block
+        ? 'Det är ' + block.label.toLowerCase() + ' som utesluter alla. Utan det filtret återstår ' + block.n + ' personer.'
+        : 'Inga personer i registret.',
+      dropLabel: block ? 'Ta bort ' + block.label.toLowerCase() : 'Rensa',
+      dropBlocking: () => { if (block) this.setState({ [block.id]: '' }); },
+      rows: (this._rowCount = filtered.length, this.render_rows(filtered)),
+      leave: this.leave,
+      gridSize: this.props.gridSize || 5,
+      dynamics: 0.45,
+      /* A card is a tenth of the area a hero image has, so it does not need
+         the house 2.2s to read as a print. But it does need the house
+         trigger: at 0.2 a card printed while it was still a sliver at the
+         bottom edge and was finished before anyone could watch it. It waits
+         until it is mostly in view, like every other image in the system. */
+      playAt: 0.6,
+      duration: 1600,
+      suggestions: [
+        'Vi planerar ett förvärv i Sverige',
+        'Nya hållbarhetskrav påverkar vår rapportering',
+        'Vi har fått besked från en myndighet',
+      ],
+      submitFinder: this.submitFinder,
+      askFinder: this.askFinder,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+      trail: [{ label: 'Start', href: '/' }, 'Medarbetare'],
+      footerColumns: [
+        { heading: 'Kontor', lines: ['Stockholm', 'Göteborg', 'Malmö', 'Bruxelles'] },
+        { heading: 'Vinge', links: [{ label: 'Medarbetare', href: '/personer' }, { label: 'Uppdrag', href: '/uppdrag' }, { label: 'Karriär', href: '/karriar' }] },
+        { heading: 'Kontakt', links: [{ label: 'info@vinge.se', href: 'mailto:info@vinge.se' }, { label: '08-614 30 00', href: 'tel:+4686143000' }] },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

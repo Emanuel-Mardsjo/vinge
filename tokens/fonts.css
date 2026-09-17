@@ -1,0 +1,52 @@
+/* Vinge webfonts. Self-hosted. Both faces are proprietary — see readme.md, "Licensing". */
+
+/* The display cut. This is the face in the Figma source and the one the
+   three display sizes use. */
+@font-face {
+  font-family: "Vinge";
+  src: url("../assets/fonts/Vinge-Original.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* LL Circular Pro, Book. Lineto. */
+@font-face {
+  font-family: "Circular";
+  src: url("../assets/fonts/lineto-circular-pro-book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Circular Medium (500) is specified by the system but the weight file was not
+   supplied. Until it is, Medium renders as a synthesised face — acceptable for
+   prototyping, not for production. */
+@font-face {
+  font-family: "Circular";
+  src: url("../assets/fonts/lineto-circular-pro-book.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Metric-adjusted fallbacks so the swap does not reflow. */
+@font-face {
+  font-family: "Vinge Fallback";
+  src: local("Georgia"), local("Times New Roman");
+  size-adjust: 96%;
+  ascent-override: 92%;
+  descent-override: 24%;
+}
+@font-face {
+  font-family: "Circular Fallback";
+  src: local("Helvetica Neue"), local("Arial");
+  size-adjust: 97%;
+  ascent-override: 95%;
+  descent-override: 24%;
+}
+
+:root {
+  --font-display: "Vinge", "Vinge Fallback", Georgia, "Times New Roman", serif;
+  --font-text: "Circular", "Circular Fallback", "Helvetica Neue", Arial, sans-serif;
+}

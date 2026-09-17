@@ -1,0 +1,61 @@
+/* One curve family. Fast departure, exponential settle. */
+
+:root {
+  --ease-expo:  cubic-bezier(0.19, 1, 0.22, 1); /* @kind other */
+  --ease-quint: cubic-bezier(0.23, 1, 0.32, 1); /* @kind other */
+  --ease-quart: cubic-bezier(0.165, 0.84, 0.44, 1); /* @kind other */
+
+  --dur-micro: 200ms; /* @kind other */   /* underline, colour, micro state — quart */
+  --dur-reveal: 450ms; /* @kind other */  /* standard reveal, nav open — expo */
+  --dur-scroll: 700ms; /* @kind other */  /* scroll reveal — expo */
+  --dur-page: 1000ms; /* @kind other */   /* page or full-bleed image transition — expo */
+
+  /* Deliberate movement of a component's own content: a carousel advancing, a
+     panel changing what it shows. Three speeds, one curve family. Medium is
+     the default; fast is for short travel, slow for full-bleed imagery. */
+  --dur-fast: 300ms; /* @kind other */
+  --dur-medium: 800ms; /* @kind other */
+  --dur-slow: 1200ms; /* @kind other */
+
+  --reveal-rise: 20px; /* @kind other */  /* translateY, 16–24px */
+  --stagger: 70ms; /* @kind other */
+}
+
+/* Reveals combine opacity with translateY. No scale, no blur, no rotation.
+   Nothing animates on scroll more than once. */
+.reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-rise));
+  transition: opacity var(--dur-scroll) var(--ease-expo), transform var(--dur-scroll) var(--ease-expo);
+}
+.reveal[data-revealed] { opacity: 1; transform: none; }
+
+/* Type indicator in a prompt field. Hard on/off, no fade — a fading caret
+   reads as a loading state. Lands on visible, so a reduced-motion clamp of the
+   animation leaves the indicator present. */
+@keyframes vinge-caret {
+  0%, 45% { opacity: 0; }
+  55%, 100% { opacity: 1; }
+}
+
+/* Hand-off from a machine answer to the panel: a dot runs along the end of
+   the answer's rule toward the panel and goes out at the column edge, where
+   the transcript's own scroll box would clip anything travelling further. The
+   panel updates as it lands. */
+@keyframes vinge-handoff {
+  0% { transform: translateX(calc(-1 * var(--handoff-travel, 120px))); opacity: 0; }
+  18% { opacity: 1; }
+  78% { opacity: 1; }
+  100% { transform: translateX(0); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+  /* Keep fades legible; strip transforms. */
+  .reveal { transform: none !important; transition: opacity 200ms linear !important; }
+}

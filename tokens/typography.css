@@ -1,0 +1,142 @@
+/* Six sizes. Three display in Vinge, three text in Circular. Nothing else exists. */
+
+:root {
+  --display-1: clamp(3.5rem, 8vw, 8.5rem); /* @kind font */ /* 56-136px */
+  --display-2: clamp(2.5rem, 4.6vw, 4.5rem); /* @kind font */ /* 40-72px */
+  --display-3: clamp(1.75rem, 2.4vw, 2.5rem); /* @kind font */ /* 28-40px */
+  --text-lead: clamp(1.375rem, 1.7vw, 1.75rem);   /* 22 → 28px  */
+  /* Subhead: the bold in-article heading. A step under lead, because lead at
+     bold is heavier than a level-three heading should read. */
+  --text-subhead: clamp(1.1875rem, 1.35vw, 1.375rem); /* 19 → 22px  */
+  --text-base: clamp(1.0625rem, 1.1vw, 1.1875rem);/* 17 → 19px  */
+  --text-small: 0.9375rem;                        /* 15px       */
+
+  --lh-display-1: 0.94; /* @kind other */
+  --lh-display-2: 1.02; /* @kind other */
+  --lh-display-3: 1.14; /* @kind other */
+  /* Display type set as a passage rather than as a headline: several lines of
+     Vinge at display size need the leading opened before the eye can find the
+     next line. Same sizes, same tracking — only the leading changes. */
+  --lh-display-passage: 1.28; /* @kind other */
+  --lh-lead: 1.42; /* @kind other */
+  --lh-subhead: 1.48; /* @kind other */
+  --lh-base: 1.58; /* @kind other */
+  --lh-small: 1.45; /* @kind other */
+
+  --tracking-display-1: -0.015em; /* @kind font */
+  --tracking-display-2: 0.002em; /* @kind font */
+  --tracking-display-3: 0.022em; /* @kind font */
+
+  --weight-book: 400; /* @kind font */
+  --weight-medium: 500; /* @kind font */
+
+  /* Measure. Enforced with max-width, not suggested. */
+  --measure-display-1: 15ch; /* @kind other */
+  --measure-display-2: 20ch; /* @kind other */
+  --measure-display-3: 25ch; /* @kind other */
+  --measure-lead: 46ch; /* @kind other */
+  --measure-prose: 64ch; /* @kind other */
+  --measure-small: 52ch; /* @kind other */
+}
+
+.display-1, .display-2, .display-3 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-book);
+  text-wrap: pretty;
+  margin: 0;
+}
+.display-1 { font-size: var(--display-1); line-height: var(--lh-display-1); letter-spacing: var(--tracking-display-1); max-width: var(--measure-display-1); }
+.display-2 { font-size: var(--display-2); line-height: var(--lh-display-2); letter-spacing: var(--tracking-display-2); max-width: var(--measure-display-2); }
+.display-3 { font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); }
+
+.lead, .prose, .small {
+  font-family: var(--font-text);
+  font-weight: var(--weight-book);
+  text-wrap: pretty;
+  margin: 0;
+}
+.lead  { font-size: var(--text-lead);  line-height: var(--lh-lead);  max-width: var(--measure-lead); }
+.subhead { font-family: var(--font-text); font-weight: 700; font-size: var(--text-subhead); line-height: var(--lh-subhead); max-width: var(--measure-prose); margin: 0; }
+.prose { font-size: var(--text-base);  line-height: var(--lh-base);  max-width: var(--measure-prose); }
+.small { font-size: var(--text-small); line-height: var(--lh-small); max-width: var(--measure-small); }
+
+.prose p + p { margin-top: var(--space-3); }
+
+/* Rich text. The scope an editor's own markup lands in: every element the
+   editor can produce resolves to one of the six sizes above and to the
+   spacing scale, so body copy written in a CMS comes out on the same
+   typography as body copy written in a component. Nothing here introduces a
+   size, a colour or a rule that does not already exist. */
+
+.rte { font-family: var(--font-text); font-size: var(--text-base); line-height: var(--lh-base); color: var(--text-primary); text-wrap: pretty;
+  /* Two values decide the whole rhythm. Inside a group, elements sit one line
+     apart; between groups, one gap. The gap is owned by the element that
+     STARTS a group — a heading, a quote, a figure, a table, a term list — and
+     never by the paragraph that ends one: adjacent vertical margins collapse
+     to the larger of the two, so the group-starter's top margin is the only
+     thing deciding that distance, and every break comes out identical no
+     matter what preceded it. A section break (h2) is one step more. */
+  --rte-line: var(--space-3);
+  --rte-group: var(--space-6);
+  --rte-section: var(--space-7);
+}
+.rte > * { max-width: var(--measure-prose); }
+.rte > :first-child { margin-top: 0 }
+.rte > :last-child { margin-bottom: 0 }
+.rte p { margin: 0 0 var(--rte-line) }
+/* Rich-text headings ask for 700, not 500. The supplied font files are Book
+   only — both the 500 faces in `fonts.css` point at the same Book file, so a
+   Medium request renders identically to body text and a heading set in it is
+   not a heading. 700 has no face to match, so the browser synthesises the
+   weight and the level reads. Replace this with the real Medium and Bold cuts
+   when they are supplied. */
+.rte h2 { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--space-2) }
+.rte h3 { font-family: var(--font-text); font-weight: 700; font-size: var(--text-subhead); line-height: var(--lh-subhead); max-width: var(--measure-prose); margin: var(--rte-group) 0 var(--space-1) }
+.rte h4 { font-family: var(--font-text); font-weight: 700; font-size: var(--text-small); line-height: var(--lh-small); max-width: var(--measure-small); margin: var(--rte-group) 0 var(--space-1) }
+/* The lower levels are labels rather than titles: same bold small type, in
+   secondary ink, so they sit under h3 in the hierarchy by colour instead of
+   by a seventh size the system does not have. */
+.rte h4, .rte h5, .rte h6 { color: var(--text-secondary) }
+.rte h5, .rte h6 { font-family: var(--font-text); font-weight: 700; font-size: var(--text-small); line-height: var(--lh-small); max-width: var(--measure-small); margin: var(--rte-group) 0 var(--space-1) }
+.rte > .lead { font-size: var(--text-lead); line-height: var(--lh-lead); max-width: var(--measure-lead); margin-bottom: var(--space-4) }
+.rte strong, .rte b { font-weight: 700 }
+.rte em, .rte i { font-style: italic }
+.rte ul, .rte ol { margin: 0 0 var(--rte-line); padding-left: var(--space-3) }
+.rte li { margin-bottom: var(--space-1); padding-left: var(--space-1) }
+.rte li:last-child { margin-bottom: 0 }
+.rte li > ul, .rte li > ol { margin: var(--space-1) 0 0 }
+/* The dash sits where the ordered list's numbers sit — both list types start
+   on the same line, a step in from the paragraph, with the copy a step after
+   the marker. */
+.rte ul { list-style: none }
+.rte ul > li { position: relative; padding-left: var(--space-3) }
+.rte ul > li::before { content: "\2014"; position: absolute; left: 0; color: var(--text-secondary) }
+.rte ol { list-style: none; counter-reset: rte-item }
+.rte ol > li { position: relative; counter-increment: rte-item; padding-left: var(--space-3) }
+.rte ol > li::before { content: counter(rte-item) "."; position: absolute; left: 0; color: var(--text-secondary) }
+/* The pull quote is display-3, the same voice as h2, so it takes the section
+   break above it and closes on a group gap. */
+.rte blockquote { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--rte-group); padding: 0 }
+.rte blockquote p { font: inherit; letter-spacing: inherit; margin: 0 }
+.rte blockquote cite, .rte figcaption { display: block; font-family: var(--font-text); font-size: var(--text-small); line-height: var(--lh-small); font-style: normal; color: var(--text-secondary); max-width: var(--measure-small) }
+.rte blockquote cite { margin-top: var(--space-2) }
+.rte figure { margin: var(--rte-group) 0 }
+.rte figcaption { margin-top: var(--space-1) }
+.rte table { border-collapse: collapse; width: 100%; margin: var(--rte-group) 0 var(--rte-line); font-size: var(--text-small); line-height: var(--lh-small) }
+.rte caption { text-align: left; font-size: var(--text-small); color: var(--text-secondary); padding-bottom: var(--space-1) }
+/* The header row takes the palette's lightest tint as a ground. Cells carry an
+   even inset so the fill has air around its type; the table itself stays
+   inside the reading column rather than pulling out to meet the copy. */
+.rte th, .rte td { text-align: left; vertical-align: top; padding: var(--space-2); border-bottom: 1px solid var(--rule-hairline) }
+.rte thead th { background: var(--surface-tint); border-bottom-color: var(--ink) }
+.rte th { font-weight: var(--weight-medium) }
+.rte small, .rte .footnote { display: block; font-size: var(--text-small); line-height: var(--lh-small); color: var(--text-secondary); max-width: var(--measure-small); margin-top: var(--rte-group) }
+.rte sup { font-size: 0.7em; line-height: 0; vertical-align: super }
+/* A block that follows its own heading belongs to it — the heading has already
+   made the break, so the group gap comes off. */
+.rte :is(h2, h3, h4, h5, h6) + :is(table, dl, blockquote, figure) { margin-top: var(--space-2) }
+.rte dl { margin: var(--rte-group) 0 var(--rte-line) }
+/* Definition terms carry the same treatment as h4: bold text-small in
+   secondary ink. A term is a label, and the system has one label style. */
+.rte dt { font-weight: 700; font-size: var(--text-small); line-height: var(--lh-small); color: var(--text-secondary); margin-top: var(--space-3) }
+.rte dd { margin: var(--space-0) 0 0 }

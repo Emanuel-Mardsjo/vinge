@@ -1,0 +1,340 @@
+/* 2 / 4 / 8 columns. Max content width 1680px. Images may break to viewport width. */
+
+:root {
+  --cols: 2; /* @kind other */
+  --gutter: 16px;
+  --margin: 20px;
+  --max-width: 1680px; /* @kind other */
+}
+
+@media (min-width: 768px) {
+  :root { --cols: 4; /* @kind other */ --gutter: 24px; --margin: 40px; }
+}
+@media (min-width: 1280px) {
+  :root { --cols: 8; /* @kind other */ --gutter: 32px; --margin: 80px; }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  gap: var(--gutter);
+  padding-inline: var(--margin);
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
+
+/* Standing placements. Left aligned without exception — no block is ever
+   centred, and every block starts on a column line.
+   Below LG everything collapses to a single column except paired image sets,
+   which take one column each. */
+.place-hero,
+.place-prose,
+.place-prose-indent,
+.place-lead,
+.place-statement,
+.place-note,
+.place-aside-left,
+.place-image-wide,
+.place-image-offset,
+.place-pair-image,
+.place-pair-text,
+.place-full,
+.place-label,
+.place-label-body,
+.place-body-wide,
+.place-meta-right,
+.place-half-left,
+.place-half-right,
+.place-statement-wide { grid-column: 1 / -1; }
+
+@media (min-width: 768px) {
+  .place-hero      { grid-column: 1 / 4; }
+  .place-prose     { grid-column: 1 / 4; }
+  /* Indented body: at four columns there is no room to give one away, so it
+     is the same measure as `place-prose`. */
+  .place-prose-indent { grid-column: 1 / 4; }
+  .place-lead      { grid-column: 1 / 4; }
+  .place-statement { grid-column: 1 / 5; }
+  .place-note      { grid-column: 1 / 4; }
+  .place-image-offset { grid-column: 2 / 5; }
+  .place-pair-image { grid-column: 1 / 3; }
+  .place-pair-text  { grid-column: 3 / 5; }
+  .place-half-left  { grid-column: 1 / 3; }
+  .place-half-right { grid-column: 3 / 5; }
+  .place-meta-right { grid-column: 3 / 5; }
+  .place-body-wide  { grid-column: 1 / 5; }
+  .place-statement-wide { grid-column: 1 / 5; }
+}
+@media (min-width: 1280px) {
+  .place-hero      { grid-column: 1 / 7; }
+  .place-prose     { grid-column: 1 / 6; }
+  /* Body copy moved off the left edge: it starts on column 2, so the title
+     and the metadata above it keep the page's left alignment and the reading
+     column sits inside it. */
+  .place-prose-indent { grid-column: 2 / 6; }
+  .place-lead      { grid-column: 2 / 7; }
+  .place-statement { grid-column: 2 / 8; }
+  .place-note      { grid-column: 7 / 9; }
+  /* The free first column: a page's standing index or marginalia, opposite the
+     note column, with the reading measure between them. */
+  .place-aside-left { grid-column: 1 / 2; }
+  .place-image-wide   { grid-column: 1 / 9; }
+  .place-image-offset { grid-column: 3 / 9; }
+  .place-pair-image { grid-column: 1 / 5; }
+  .place-pair-text  { grid-column: 6 / 9; }
+
+  /* Block placements. Every one starts on a column line; none is centred. */
+  .place-label      { grid-column: 1 / 3; }
+  .place-label-body { grid-column: 4 / 9; }
+  .place-body-wide  { grid-column: 3 / 9; }
+  .place-meta-right { grid-column: 7 / 9; }
+  .place-half-left  { grid-column: 1 / 5; }
+  .place-half-right { grid-column: 5 / 9; }
+  .place-statement-wide { grid-column: 1 / 8; }
+}
+
+/* The footer's right-hand pair. The secondary menu starts on column 5, where
+   the offices leave off, and the accreditation marks sit under it on 5 and 6 —
+   the last two columns of the grid are left empty. In the
+   four-column band both fall to the right half; in the two-column band they
+   take the measure. */
+[data-footer-aside], [data-footer-marks] { grid-column: 1 / -1; }
+@media (min-width: 768px) {
+  [data-footer-aside] { grid-column: 3 / 5; }
+  [data-footer-marks] { grid-column: 3 / 5; }
+}
+@media (min-width: 1280px) {
+  [data-footer-aside] { grid-column: 5 / 9; }
+  [data-footer-marks] { grid-column: 5 / 7; }
+}
+
+/* Edge to edge, outside the max-width.
+   Deliberately not 100vw: 100vw includes the vertical scrollbar, the layout
+   viewport does not, so a 100vw child overflows by the scrollbar width and
+   scrolls the page sideways. At body level the element is already full width,
+   so it only has to shed the page margin. */
+.full-bleed {
+  width: auto;
+  max-width: none;
+  margin-inline: 0;
+}
+
+/* Inside .grid, where a max-width and a page margin are in force, the escape
+   does need negative margins — but measured against the container, not the
+   viewport. */
+.grid > .full-bleed {
+  grid-column: 1 / -1;
+  margin-inline: calc(var(--margin) * -1);
+}
+
+/* The hero's two lower blocks: prompts in the first four columns, the aside in
+   the last four, meeting on the same column line the prompts end on. The four-column band gets
+   the proportional equivalent — half each — so the pair only stacks in the
+   two-column band, where a row cannot hold both. */
+[data-hero-suggestions], [data-hero-aside] { grid-column: 1 / -1; }
+@media (min-width: 768px) {
+  [data-hero-suggestions] { grid-column: 1 / 3; }
+  [data-hero-aside] { grid-column: 3 / 5; }
+}
+@media (min-width: 1280px) {
+  [data-hero-suggestions] { grid-column: 1 / 5; }
+  [data-hero-aside] { grid-column: 5 / 9; }
+}
+
+/* Matters: three matters, each two images and a short story. DOM order is
+   world, person, text; the rows are declared, so the text always sits on top
+   as the matter's introduction, resumes below the pair on the same lines, and
+   the image pair fills the full eight-column measure between them.
+ Below LG the images stack, with the
+   portrait held to part of the measure so the pair still reads as a pair. */
+[data-matter] > * { grid-column: 1 / -1; min-width: 0; }
+[data-matter] > [data-matter-person] { grid-column: 1 / 2; }
+
+@media (min-width: 768px) {
+  [data-matter] > [data-matter-text] { grid-column: 1 / 4; grid-row: 1; }
+  /* Four columns is too few for two unequal images side by side — a
+     one-column portrait stops being a photograph. So the pair stacks: the
+     larger image takes the measure, the smaller sits under it on part of it,
+     inset from the opposite edge per scale. Never two equal halves. */
+  [data-matter] > [data-matter-world] { grid-column: 1 / 5; grid-row: 2; margin-top: var(--space-4); }
+  [data-matter] > [data-matter-person] { grid-column: 2 / 4; grid-row: 3; margin-top: var(--space-4); }
+  [data-matter][data-scale='medium'] > [data-matter-world] { grid-column: 2 / 5; }
+  [data-matter][data-scale='medium'] > [data-matter-person] { grid-column: 1 / 3; }
+  [data-matter][data-scale='small'] > [data-matter-world] { grid-column: 1 / 4; }
+  [data-matter][data-scale='small'] > [data-matter-person] { grid-column: 3 / 5; }
+  [data-matter] > [data-matter-more] { grid-column: 1 / 4; grid-row: 4; margin-top: var(--space-5); }
+  [data-matter] > [data-matter-cta] { grid-column: 1 / 4; grid-row: 5; margin-top: var(--space-5); }
+}
+
+@media (min-width: 1280px) {
+  /* Every text area in the block — the statement, its continuation and the
+     closing link — sits on the same lines, 3 / 8, and never moves. It stops a
+     column short of the right edge; only the photography reaches it. The pair
+     uses the whole eight-column measure, 1 / 9, always unequally split and
+     always meeting on a column line, so no column is left empty, one image is
+     always the larger, and the two never share a top edge. */
+  [data-matter] > [data-matter-text] { grid-column: 3 / 8; grid-row: 1; margin-top: 0; }
+  [data-matter] > [data-matter-world],
+  [data-matter] > [data-matter-person] { grid-row: 2; margin-top: var(--space-5); }
+  [data-matter] > [data-matter-more] { grid-column: 3 / 8; grid-row: 3; margin-top: var(--space-6); }
+  [data-matter] > [data-matter-cta] { grid-column: 3 / 8; grid-row: 4; margin-top: var(--space-6); }
+
+  [data-matter][data-scale='large'] > [data-matter-world] { grid-column: 1 / 6; }
+  [data-matter][data-scale='large'] > [data-matter-person] { grid-column: 6 / 9; margin-top: calc(var(--space-5) + var(--space-7)); }
+
+  [data-matter][data-scale='medium'] > [data-matter-person] { grid-column: 1 / 4; }
+  [data-matter][data-scale='medium'] > [data-matter-world] { grid-column: 4 / 9; margin-top: calc(var(--space-5) + var(--space-6)); }
+
+  [data-matter][data-scale='small'] > [data-matter-world] { grid-column: 1 / 4; }
+  [data-matter][data-scale='small'] > [data-matter-person] { grid-column: 4 / 9; margin-top: calc(var(--space-5) + var(--space-7)); }
+}
+
+/* The person page's mandate list: one mandate is one row, and the row is the
+   page grid rather than a table of its own — year on column 1, the line on the
+   next span, the disciplines flush right. The preamble folds out under the
+   line, on the line's own columns, so the fold never starts a new alignment.
+   Below LG the row stacks and the year rides above the line. */
+[data-mandate] { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gutter); }
+[data-mandate] > * { grid-column: 1 / -1; min-width: 0; }
+/* The disciplines are the third column or nothing — stacked under the line
+   they read as a second title. Below LG the year carries the metadata. */
+[data-mandate] > [data-mandate-areas] { display: none; }
+/* The fold. Open state is an attribute on the row, so the two animated
+   properties stay in the stylesheet and the row paints before its logic does. */
+[data-mandate] > [data-mandate-fold] { display: grid; grid-template-rows: 0fr; transition: grid-template-rows var(--dur-reveal) var(--ease-expo); }
+[data-mandate] > [data-mandate-fold] > * { overflow: hidden; }
+[data-mandate] > [data-mandate-fold] > * > * { opacity: 0; transition: opacity var(--dur-reveal) var(--ease-expo); }
+[data-mandate][data-open] > [data-mandate-fold] { grid-template-rows: 1fr; }
+[data-mandate][data-open] > [data-mandate-fold] > * > * { opacity: 1; }
+/* Hover is CSS, not a pointer event: the browser re-evaluates :hover when the
+   page scrolls under a still cursor, mouseenter does not. */
+@media (hover: hover) {
+  [data-mandate]:hover > [data-mandate-fold] { grid-template-rows: 1fr; }
+  [data-mandate]:hover > [data-mandate-fold] > * > * { opacity: 1; }
+}
+
+/* Recognition rows. The issuing bodies' own badges are the proof, and they are
+   also the ugliest graphics that will ever touch this page — so they are not
+   on it at rest. Hovering or focusing the line brings its badge in on the
+   right; leaving takes it away again. */
+[data-award] { display: flex; align-items: flex-start; gap: var(--space-4); }
+[data-award] > [data-award-badge] { opacity: 0; transform: translateY(var(--space-1)); transition: opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo); }
+[data-award][data-open] > [data-award-badge] { opacity: 1; transform: none; }
+@media (hover: hover) { [data-award]:hover > [data-award-badge] { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { [data-award] > [data-award-badge] { transform: none; transition: opacity var(--dur-micro) linear; } }
+@media (min-width: 1280px) { [data-mandate] > [data-mandate-areas] { display: block; } }
+
+@media (min-width: 768px) {
+  [data-mandate] > [data-mandate-year] { grid-column: 1 / 2; }
+  [data-mandate] > [data-mandate-line] { grid-column: 2 / 5; }
+  [data-mandate] > [data-mandate-fold] { grid-column: 2 / 5; }
+}@media (min-width: 1280px) {
+  [data-mandate] > [data-mandate-year] { grid-column: 1 / 2; }
+  [data-mandate] > [data-mandate-line] { grid-column: 3 / 7; }
+  [data-mandate] > [data-mandate-areas] { grid-column: 7 / 9; }
+  [data-mandate] > [data-mandate-fold] { grid-column: 3 / 7; }
+}
+
+/* The record. Four items sit directly in the section grid: the copy, the
+   state switch, the filter control, and the body (readout + field). The
+   control holds grid columns 1-2 on the switch's row, so its top edge is the
+   tabs' top edge, and it stays sticky down the whole field.
+
+   The body's own three tracks are what move: a spacer track that grows from 0
+   to the width of columns 1-2 when the filter opens, the readout track, and
+   the field. Growing a track rather than reassigning columns is what makes the
+   readout and the field glide right instead of jumping. */
+[data-record-body], [data-record-terms] {
+  --record-filter-h: calc(1.4rem + var(--space-5));
+}
+[data-record-body] {
+  grid-column: 1 / -1; grid-row: 4;
+  display: flex; flex-direction: column;
+}
+/* Narrow: explicit rows so the filter's grid area reaches through the body.
+   A sticky item can only travel inside its own area, so without the span the
+   control unsticks the moment its own row leaves the screen. */
+[data-record-head] { grid-row: 1; }
+[data-record-switch] { grid-row: 2; }
+[data-record-side] {
+  position: sticky; top: var(--record-filter-h); z-index: 40; min-width: 0;
+  background: var(--surface);
+  padding-block: var(--space-2) var(--space-3);
+  display: flex; flex-direction: column; gap: var(--space-3);
+}
+[data-record-readout] { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-2) var(--gutter); }
+[data-record-readout] > * { min-width: 0; }
+/* The term lists. Folded down under the control on a narrow viewport; at LG
+   taken out of flow and moved in from the left into their own column. */
+[data-record-terms] { grid-column: 1 / -1; grid-row: 3 / span 2; align-self: start; margin-block: 0 var(--space-5); display: flex; flex-direction: column; align-items: flex-start; position: sticky; top: 0; z-index: 41; background: var(--surface); padding-block: var(--space-2) 0; }
+/* Without a filter the readout has nothing above it to clear. */
+[data-record-body]:first-of-type [data-record-side], [data-record-switch] + [data-record-body] [data-record-side] { top: 0; }
+[data-record-terms-list] {
+  align-self: stretch; width: 100%;
+  display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden; margin-top: 0;
+  transition: grid-template-rows var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo), margin-top var(--dur-medium) var(--ease-expo), visibility 0s linear var(--dur-medium);
+}
+[data-record-terms-list][data-open] {
+  grid-template-rows: 1fr; opacity: 1; visibility: visible; margin-top: var(--space-2);
+  transition: grid-template-rows var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo), margin-top var(--dur-medium) var(--ease-expo), visibility 0s;
+}
+/* Discipline list: the full comma-separated set has room in the desktop side
+   column; stacked over the field on a small screen it stays abbreviated. */
+[data-disc-full] { display: none; }
+
+@media (min-width: 1280px) {
+  [data-record-head] { grid-row: 1; }
+  [data-record-switch] { grid-row: 2; }
+  /* `display: contents` rather than a subgrid box: a subgrid item spanning two
+     rows is forced to the full height of both, which leaves a sticky box zero
+     travel — the control would scroll away with the field. Dissolving the
+     wrapper puts the button and the list in the section grid as their own
+     items, each sticky in its own right and each only as tall as itself. */
+  [data-record-terms] { display: contents; }
+  [data-record-terms] > button {
+    grid-column: 1 / 3; grid-row: 2 / span 2; align-self: start; justify-self: start;
+    position: sticky; top: var(--space-6); z-index: 41; margin-block: 0;
+    background: var(--surface);
+  }
+  [data-record-body] {
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 0px calc((100% - 7 * var(--gutter)) / 4 + 2 * var(--gutter)) minmax(0, 1fr);
+    column-gap: 0;
+    align-items: start;
+    transition: grid-template-columns var(--dur-medium) var(--ease-expo);
+  }
+  /* Tracks and list move together, one motion. */
+  [data-record-body][data-record-open] {
+    transition: grid-template-columns var(--dur-medium) var(--ease-expo);
+    grid-template-columns: calc((100% - 7 * var(--gutter)) / 4 + 2 * var(--gutter)) calc((100% - 7 * var(--gutter)) / 4 + 2 * var(--gutter)) minmax(0, 1fr);
+  }
+  /* The readout keeps the gutter inside its track, so the track can be the
+     exact width of two grid columns plus both gutters. */
+  [data-record-side] {
+    grid-column: 2 / 3; grid-row: 1;
+    padding-inline-end: var(--gutter);
+    top: var(--space-6); z-index: auto; background: transparent; padding-block: 0;
+  }
+  [data-record-field] { grid-column: 3 / 4; grid-row: 1; }
+  /* With a filter present the readout sticks below the control rather than
+     under it. */
+  [data-record-terms] ~ [data-record-body] [data-record-side] { top: calc(var(--space-6) + var(--record-filter-h)); }
+  /* Closed, the list waits a full column width off to the left; opening walks
+     it into place over the same duration as the tracks that make room for it,
+     so the whole block reads as one push from the left. */
+  [data-record-terms-list] {
+    grid-column: 1 / 3; grid-row: 3; justify-self: stretch; align-self: start; width: 100%;
+    position: sticky; top: calc(var(--space-6) + var(--record-filter-h)); left: auto; z-index: 41;
+    grid-template-rows: 1fr; margin-top: 0; background: var(--surface);
+    transform: translateX(calc(-100% - var(--gutter)));
+    transition: opacity var(--dur-medium) var(--ease-expo), transform var(--dur-medium) var(--ease-expo), visibility 0s linear var(--dur-medium);
+  }
+  [data-record-terms-list][data-open] {
+    margin-top: 0; transform: none;
+    transition: opacity var(--dur-medium) var(--ease-expo), transform var(--dur-medium) var(--ease-expo), visibility 0s;
+  }
+  [data-record-readout] { grid-template-columns: minmax(0, 1fr); }
+  [data-disc-full] { display: inline; }
+  [data-disc-short] { display: none; }
+}

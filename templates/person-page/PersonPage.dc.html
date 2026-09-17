@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Person page" description="The lawyer profile: portrait, a derived line instead of a bio, and the full mandate record as a divided list that folds out its preamble on hover." -->
+<helmet><script src="./ds-base.js"></script><script src="./mandates.js"></script><script src="./people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{transition:--hero-t 420ms var(--ease-quart)}body{margin:0;background:color-mix(in oklab,var(--ink),var(--paper) calc(var(--hero-t,0) * 100%));color:var(--ink);transition:background-color 420ms var(--ease-quart)}body[data-green-ground]{background:var(--wash)}[data-tone] section{transition:background-color 420ms var(--ease-quart)}body[data-green-ground] [data-tone]{--surface:var(--wash) !important;--paper:var(--wash) !important;--paper-70:var(--ink-wash-65) !important;--text-primary:var(--ink-wash) !important;--text-secondary:var(--ink-wash-65) !important;--underline-rest:var(--ink-wash-65) !important;--underline-active:var(--ink-wash) !important;--focus-ring:var(--ink-wash) !important;--rule-hairline:color-mix(in oklab,var(--ink-wash) 20%,var(--wash)) !important;color:var(--ink-wash) !important}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" on-chat="{{ openChat }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<!-- Never unmounted while it has been opened: the surface animates itself in
+     and out, and removing it from the document takes the movement with it. -->
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ chatOpen }}" prompt="{{ chatPrompt }}" on-close="{{ closeChat }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+<div data-tone style="position:relative;background:transparent;--mix:calc(var(--hero-t,0) * 100%);--text-primary:color-mix(in oklab,var(--mint),var(--ink) var(--mix));--text-secondary:color-mix(in oklab,var(--mint-70),var(--ink-65) var(--mix));--paper:color-mix(in oklab,var(--mint),#F7F6FA var(--mix));--paper-70:color-mix(in oklab,var(--mint-70),#B4BDBA var(--mix));--surface:color-mix(in oklab,var(--ink),#F7F6FA var(--mix));--underline-rest:color-mix(in oklab,var(--mint-70),var(--ink-65) var(--mix));--underline-active:var(--text-primary);--focus-ring:var(--text-primary);--rule-hairline:color-mix(in oklab,color-mix(in oklab,var(--mint) 30%,var(--ink)),var(--ink-12) var(--mix));color:var(--text-primary)">
+<div class="grid" style="position:absolute;inset:0;padding-top:var(--space-4);pointer-events:none">
+<div style="grid-column:1 / -1;position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1));z-index:5;align-self:start">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ActionRow" items="{{ actions }}" sticky="{{ true }}" teleport="{{ true }}" align="end" style="width:100%" hint-size="100%,24px"></x-import>
+</div>
+</div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Breadcrumbs" items="{{ trail }}" hint-size="100%,24px"></x-import>
+<main>
+<div ref="{{ setHero }}" style="min-height:calc(100svh - 160px);display:flex;flex-direction:column;align-items:stretch">
+<section class="grid" style="width:100%;padding-top:var(--space-5);padding-bottom:calc(var(--section-gap) + var(--space-5))">
+<h1 class="display-1" style="grid-column:1 / -1;max-width:none"><x-import component-from-global-scope="VingeDesignSystem_8582c7.RiseIn" hint-size="100%,1em">Amanda Knutsson</x-import></h1>
+</section>
+<section class="grid" style="width:100%;margin-top:auto;padding-bottom:var(--space-5)">
+<div style="grid-column:1 / -1;display:flex;flex-wrap:wrap;align-items:baseline;column-gap:var(--space-3);row-gap:var(--space-1);font-family:var(--font-display);font-size:var(--display-2);line-height:var(--lh-display-2);letter-spacing:var(--tracking-display-2)">
+<sc-for list="{{ practices }}" as="p" hint-placeholder-count="7">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.RiseIn" inline="{{ true }}" index="{{ p.i }}" delay="{{ tagDelay }}" hint-size="auto,1em">
+<a href="{{ p.href }}" style="font-family:var(--font-display);font-weight:var(--weight-book);color:var(--text-primary);text-decoration:none;text-underline-offset:0.12em" style-hover="color:var(--text-primary);text-decoration:underline;text-decoration-thickness:1px">{{ p.label }}</a>
+</x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.RiseIn" inline="{{ true }}" index="{{ p.i }}" delay="{{ tagDelay }}" hint-size="auto,1em"><span aria-hidden="true" style="color:var(--text-secondary)">{{ p.sep }}</span></x-import>
+</sc-for>
+</div>
+</section>
+</div>
+<section class="grid" style="padding-top:var(--section-gap);padding-bottom:var(--section-gap)">
+<div class="place-half-left">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="https://images.weserv.nl/?url=www.vinge.se/media/alcp5wjf/knutsson_amanda_highres.jpg&amp;w=1000&amp;h=1250&amp;fit=cover" alt="Amanda Knutsson" ratio="4:5" hint-size="100%,600px"></x-import>
+</div>
+<div class="place-half-right" style="position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1) + var(--space-4));align-self:start;display:flex;flex-direction:column;gap:var(--space-5)">
+<div>
+<p class="display-3" style="margin:0;max-width:none">Amanda Knutsson</p>
+<p class="small" style="margin:var(--space-1) 0 var(--space-4);max-width:none;color:var(--text-secondary)">{{ identityLine }}</p>
+<div>
+<sc-for list="{{ contact }}" as="c" hint-placeholder-count="4">
+<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:var(--gutter);align-items:baseline;padding-block:var(--space-2);border-bottom:1px solid var(--rule-hairline)">
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ c.key }}</p>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" href="{{ c.href }}" variant="page-end" style="font-size:var(--display-3);line-height:var(--lh-display-3)" hint-size="100%,32px">{{ c.value }}</x-import>
+</div>
+</sc-for>
+</div>
+</div>
+</div>
+</section>
+<section class="grid" style="padding-top:calc(var(--space-8) - var(--section-gap) + var(--space-5));padding-bottom:var(--space-8)">
+<div style="grid-column:3 / -2;text-align:left;font-family:var(--font-display);font-weight:var(--weight-book);font-size:var(--display-3);line-height:var(--lh-display-passage);letter-spacing:var(--tracking-display-3)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.WordFill" style="margin:0;max-width:40ch" hint-size="100%,10em">Amanda är delägare i tvistlösningsgruppen i Stockholm och företräder svenska och internationella bolag i domstol och skiljeförfaranden. Hon arbetar oftast med tvister där en affär har gått i kvav — aktieägaravtal som tolkas olika, garantier som visar sig ha varit optimistiska, entreprenader som blivit dyrare än någon räknat med — och har en särskild vana att gå in sent i processer som andra redan förberett.
+
+Innan hon kom till Vinge tjänstgjorde hon som tingsnotarie vid Stockholms tingsrätt och arbetade några år i London. Hon undervisar i processrätt vid Stockholms universitet och blir ofta anlitad som skiljeman i mindre kommersiella förfaranden.</x-import>
+</div>
+</section>
+<section class="grid" style="padding-top:var(--space-5)">
+<div class="place-label">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SectionLabel" hint-size="100%,24px">Uppdrag — {{ mandateCount }}</x-import>
+</div>
+<div style="grid-column:1 / -1">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ListingFilters" fields="{{ mandateFields }}" value="{{ mandateValues }}" on-change="{{ onMandateFilter }}" count-line="{{ mandateCountLine }}" show-clear="{{ mandateFiltered }}" on-clear="{{ clearMandates }}" marked="{{ mandateFiltered }}" hint-size="100%,44px"></x-import>
+</div>
+<div style="grid-column:1 / -1;margin-top:var(--space-4)">
+<sc-for list="{{ mandates }}" as="m" hint-placeholder-count="8">
+<div data-mandate="" data-open="{{ m.open }}" tabIndex="0" onFocus="{{ m.enter }}" onBlur="{{ leave }}" style="border-bottom:1px solid var(--rule-hairline);padding-block:var(--space-2);outline-offset:4px">
+<p data-mandate-year="" class="small" style="margin:0;max-width:none;color:var(--text-secondary);font-variant-numeric:tabular-nums">{{ m.year }}</p>
+<p data-mandate-line="" class="small" style="margin:0;max-width:none">{{ m.title }}</p>
+<p data-mandate-areas="" class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ m.areasText }}</p>
+<div data-mandate-fold="">
+<div>
+<p class="small" style="margin:0;padding-top:var(--space-2);color:var(--text-secondary)">{{ m.preamble }}</p>
+</div>
+</div>
+</div>
+</sc-for>
+<sc-if value="{{ mandateEmpty }}" hint-placeholder-val="{{ false }}">
+<p class="small" style="margin:0;padding-block:var(--space-4);color:var(--text-secondary)">Inga uppdrag matchar urvalet.</p>
+</sc-if>
+</div>
+</section>
+<section class="grid" style="padding-top:var(--section-gap)">
+<div class="place-label">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SectionLabel" hint-size="100%,24px">Erkännanden</x-import>
+</div>
+<div class="place-body-wide" style="display:flex;flex-direction:column;gap:var(--space-5)">
+<sc-for list="{{ awards }}" as="a" hint-placeholder-count="2">
+<div data-award="" data-open="{{ a.open }}" tabIndex="0" onFocus="{{ a.enter }}" onBlur="{{ leaveAward }}" style="outline-offset:8px">
+<p class="display-3" style="margin:0;max-width:28ch">{{ a.text }}</p>
+<img data-award-badge="" src="{{ a.badgeSrc }}" alt="{{ a.badge }}" loading="lazy" style="flex:none;width:104px;height:104px;object-fit:contain">
+</div>
+</sc-for>
+</div>
+</section>
+<section class="grid" style="padding-top:var(--section-gap)">
+<div class="place-label">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SectionLabel" hint-size="100%,24px">Bakgrund</x-import>
+</div>
+<div class="place-body-wide">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SpecTable" rows="{{ background }}" key-width="1fr" value-width="2fr" hint-size="100%,320px"></x-import>
+</div>
+</section>
+<section class="grid" style="padding-top:var(--section-gap);padding-bottom:var(--section-gap)">
+<div class="place-label">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SectionLabel" hint-size="100%,24px">Publicerat</x-import>
+</div>
+<div class="place-body-wide" style="display:flex;flex-direction:column;gap:var(--space-3)">
+<sc-for list="{{ writing }}" as="w" hint-placeholder-count="3">
+<div style="display:flex;flex-direction:column;gap:var(--space-0)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" href="{{ w.href }}" variant="small" hint-size="100%,24px">{{ w.title }}</x-import>
+<p class="small" style="margin:0;color:var(--text-secondary)">{{ w.meta }}</p>
+</div>
+</sc-for>
+</div>
+</section>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Testimonials" id="omdomen" items="{{ testimonials }}" hint-size="100%,520px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" label="" title="Experter som liknar Amanda" people="{{ similarPeople }}" views="{{ false }}" all-line="" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" view-all-title="Hela bänken, sökbar på område och ort." hint-size="100%,860px"></x-import>
+</main>
+</div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ askFinder }}" hint-size="100%,720px"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900}}">
+/* The page opens on facts the register already holds, so nothing here is
+   written prose that can go stale: the line under the name is counted from the
+   mandates on every load, including who the person keeps turning up beside. */
+const DOT_SRC = '../../assets/demo/boardroom.png';
+
+/* The conversation is a detour from the page, never a destination: the header's
+   chat trigger and the finder in the footer both open it over this page, so a
+   visitor reading a profile keeps the profile. */
+const SCRIPT = [
+  {
+    question: 'Gäller det en pågående process eller något som kan bli en?',
+    options: [
+      { text: 'Vi har fått ett bud vi inte bett om', tag: 'Publik M&A' },
+      { text: 'Vi förbereder en försäljning', tag: 'Transaktion' },
+      { text: 'En myndighet har hört av sig', tag: 'Regulatoriskt' },
+    ],
+  },
+  {
+    question: 'Var behöver du personen fysiskt?',
+    options: [
+      { text: 'Stockholm', tag: 'Stockholm' },
+      { text: 'Göteborg', tag: 'Göteborg' },
+      { text: 'Spelar ingen roll', tag: 'Oberoende av ort' },
+    ],
+  },
+];
+
+const ANSWER = {
+  text: 'Amanda Knutsson har drivit den frågan senast.',
+  body: 'Skälet står under namnet, hämtat ur uppdragsregistret. Två alternativ ligger under kortet.',
+};
+
+const FOLLOW_UPS = [
+  {
+    text: 'Amanda har två liknande uppdrag i gång sedan i mars.',
+    body: 'Kalendern ligger inte i registret, så tid får ni stämma av direkt. Anders Kihlström i Göteborg har drivit samma frågor.',
+  },
+  {
+    text: 'Registret säger inget om det.',
+    body: 'Vi bedömer inte sakfrågan här. Skriv till Amanda, eller ring växeln på 08-614 30 00 och beskriv ärendet.',
+  },
+];
+
+class Component extends DCLogic {
+  state = { open: -1, award: -1, mq: '', mArea: '', mSector: '', mYear: '', menuOpen: false, chatOpen: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] };
+
+  /* What the standing panel states: the criteria the visitor has handed over,
+     in the order they were given. A picked answer carries a register tag its
+     words do not, so the tag is what goes down. */
+  note(item) { this.setState({ criteria: (this.state.criteria || []).concat([item]) }); }
+
+  /* The alternates the card lists, quoted into the standing panel as well: the
+     panel is the record of who the register landed on, and the second name is
+     part of that answer. */
+  alts() {
+    return [
+      { name: 'Anders Kihlström', role: 'Partner', office: 'Göteborg' },
+      { name: 'Petra Lindqvist', role: 'Senior associate', office: 'Stockholm' },
+    ];
+  }
+
+
+  ns() { return window.VingeDesignSystem_8582c7 || {}; }
+
+  /* Verbatim and attributed, by role where the client has not cleared a name.
+     A quote the firm wrote about itself does not go here. */
+  testimonialList = [
+    { quote: 'Hon gick in tre veckor före huvudförhandlingen och vände hela processen.', source: 'Koncernjurist, industribolag' },
+    { quote: 'Vi fick besked samma kväll, och beskedet höll hela vägen genom tillsynen.', source: 'CFO, Nordika' },
+    { quote: 'De sa nej till det vi ville göra, och förklarade varför på fem minuter.', source: 'Styrelseordförande, Avenyr' },
+    { quote: 'Ingen annan rådgivare har läst avtalet lika noga som motparten gjorde.', source: 'General Counsel, Tecken Group' },
+  ];
+
+  toggleMenu = () => this.setState((s) => ({ menuOpen: !s.menuOpen }));
+
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  /* The header's chat trigger opens the surface over this page with nothing
+     typed yet — the machine asks first. */
+  openChat = () => {
+    window.clearTimeout(this._wipe);
+    this.setState({ chatOpen: true, menuOpen: false, turns: [], step: -1, draft: '', done: false, extra: 0, criteria: [] });
+    this.advance(700);
+  };
+
+  /* The record is cleared after the surface has left, not on the click: an
+     emptied drawer is what the visitor would otherwise watch slide out. */
+  closeChat = () => {
+    window.clearTimeout(this._t);
+    window.clearTimeout(this._wipe);
+    this.setState({ chatOpen: false, working: false });
+    this._wipe = window.setTimeout(() => this.setState({ turns: [], step: -1, draft: '', done: false, extra: 0, criteria: [] }), 1200);
+  };
+
+  advance(delay) {
+    this.setState({ working: true });
+    window.clearTimeout(this._t);
+    this._t = window.setTimeout(() => {
+      if (this.state.done) {
+        const f = FOLLOW_UPS[this.state.extra % FOLLOW_UPS.length];
+        this.setState({
+          working: false,
+          extra: this.state.extra + 1,
+          turns: this.state.turns.concat([{ speaker: 'machine', variant: 'answer', text: f.text, body: f.body }]),
+        });
+        return;
+      }
+      const step = this.state.step + 1;
+      if (step >= SCRIPT.length) {
+        this.setState({
+          working: false,
+          done: true,
+          step: step,
+          turns: this.state.turns.concat([
+            { speaker: 'machine', variant: 'answer', text: ANSWER.text, body: ANSWER.body },
+            { payload: true },
+          ]),
+        });
+        return;
+      }
+      this.setState({
+        working: false,
+        step: step,
+        turns: this.state.turns.concat([{ speaker: 'machine', variant: 'question', text: SCRIPT[step].question }]),
+      });
+    }, delay || 1100);
+  }
+
+  pick = (option) => {
+    this.note({ text: option.tag || option.text, note: option.tag && option.tag !== option.text ? option.text : undefined });
+    this.setState({ turns: this.state.turns.concat([{ speaker: 'visitor', text: option.text }]) });
+    this.advance();
+  };
+
+  send = (text) => {
+    this.note({ text: text, note: 'Dina ord' });
+    this.setState({ turns: this.state.turns.concat([{ speaker: 'visitor', text: text }]), draft: '' });
+    this.advance();
+  };
+
+  ghostFor(step) {
+    if (this.state.done) {
+      const f = FOLLOW_UPS[this.state.extra % FOLLOW_UPS.length];
+      return [{ text: f.text, size: 'display-3' }, { text: f.body, size: 'prose' }];
+    }
+    if (step >= SCRIPT.length) {
+      return [
+        { text: ANSWER.text, size: 'display-3' },
+        { text: ANSWER.body, size: 'prose' },
+        { image: '4:5', width: '30%' },
+      ];
+    }
+    return SCRIPT[step] ? [{ text: SCRIPT[step].question, size: 'display-3' }] : [];
+  }
+
+  /* The opening screen is the inverted theme, but the ink is the page's ground
+     rather than a section's: the body carries it, and the roles the content
+     reads are mixed between their light-green and their ink values by one
+     scroll-driven number. The window closes just above the header line, where
+     the wordmark's own hit test flips, so mark and ground turn together. */
+  setHero = (el) => { this.hero = el; this.sync(); };
+
+  /* The turn is a state, not a scrub: scrubbing the roles against the ground
+     puts every intermediate scroll position at the same value for text and
+     paper. The scroll decides when, the 420ms transition on --hero-t decides
+     how fast, so the page is only ever at rest fully dark or fully light.
+     Hysteresis so a scroll that stops on the line does not flicker. */
+  sync = () => {
+    this._frame = 0;
+    const el = this.hero;
+    if (!el) return;
+    const d = el.getBoundingClientRect().bottom;
+    /* Measured against the screen, not the header line: the page turns while
+       the hero is still on its way out, about half a screen early. */
+    const h = window.innerHeight;
+    /* Three grounds on one page. The profile opens on ink and settles on
+       paper, both carried by --hero-t; the testimonials are read on the light
+       green, which is a ground of its own rather than a point between those
+       two, so it is a state on the body that the stylesheet resolves. The
+       hysteresis is the same as the hero's, applied to the block's own middle
+       band, so a scroll that stops on the line does not flicker. */
+    const q = document.getElementById('omdomen');
+    if (q) {
+      const r = q.getBoundingClientRect();
+      const green = this._green
+        ? r.top < h * 0.86 && r.bottom > h * 0.14
+        : r.top < h * 0.62 && r.bottom > h * 0.38;
+      if (green !== this._green) {
+        this._green = green;
+        if (green) document.body.setAttribute('data-green-ground', '');
+        else document.body.removeAttribute('data-green-ground');
+      }
+    }
+    /* On the green the hero's own number is held light: the ground is the
+       attribute's business, and a dark mix underneath it would show through
+       as the block arrived. */
+    let t = this._green ? 1 : (this._tone === 1 ? (d > h * 0.78 ? 0 : 1) : (d < h * 0.58 ? 1 : 0));
+    if (t === this._tone) return;
+    this._tone = t;
+    document.documentElement.style.setProperty('--hero-t', t);
+    /* The wordmark reads the ground by hit test rather than by prop, so the
+       page says outright which ground it is on. Going light, the mark waits
+       for the ground to get most of the way there before it swaps. */
+    window.clearTimeout(this._mark);
+    if (t === 0) this.ground(true);
+    else this._mark = window.setTimeout(() => this.ground(false), 260);
+  };
+
+  /* The mark watches the ground by hit test on scroll, so a ground that
+     changes while the page is still says so out loud. */
+  ground = (dark) => {
+    if (dark) document.body.setAttribute('data-dark-ground', '');
+    else document.body.removeAttribute('data-dark-ground');
+    window.requestAnimationFrame(() => window.dispatchEvent(new Event('scroll')));
+  };
+
+  onScroll = () => { if (!this._frame) this._frame = window.requestAnimationFrame(this.sync); };
+
+  componentDidMount() {
+    this.sync();
+    /* The hero sizes itself over the first few frames — fonts, the portrait,
+       the tags wrapping — so the first reading is taken again as it settles. */
+    this._settle = [window.requestAnimationFrame(this.sync), window.setTimeout(this.sync, 150), window.setTimeout(this.sync, 600)];
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(this.sync).catch(() => {});
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onScroll);
+  }
+
+  componentWillUnmount() {
+    window.clearTimeout(this._t);
+    window.clearTimeout(this._wipe);
+    window.clearTimeout(this._mark);
+    document.body.removeAttribute('data-dark-ground');
+    if (this._frame) window.cancelAnimationFrame(this._frame);
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onScroll);
+    document.documentElement.style.removeProperty('--hero-t');
+  }
+
+  /* The badges the ranking bodies supply. Not drawn here — each slot is the
+     real artwork at its real size, dropped in from the issuer. */
+  awardList() {
+    return [
+      {
+        text: 'Rankad i band 3 för Corporate/M&A, Chambers Europe 2026.',
+        badge: 'Chambers Top Ranked, Europe 2026',
+        badgeSrc: 'https://images.weserv.nl/?url=www.vinge.se/media/bzgjawut/thalin-christoffer.jpg&w=312&h=312&fit=contain&cbg=white',
+      },
+      {
+        text: 'Utsedd till Leading Partner inom publik M&A, Legal 500 EMEA 2025.',
+        badge: 'Legal 500 EMEA 2025, Leading Partner',
+        badgeSrc: 'https://images.weserv.nl/?url=www.vinge.se/media/4obhtd0g/leading-partner-2025.png&w=312&h=312&fit=contain&cbg=transparent',
+      },
+    ];
+  }
+
+  data() { return window.VingePersonMandates || []; }
+
+  /* The record filters itself against its own contents: every option is a value
+     that actually occurs in this person's mandates, counted, so the selects can
+     never offer a choice that returns nothing. Sorted by frequency — the work
+     they do most is the first thing on the list. */
+  mandateFields() {
+    const m = this.data();
+    const counted = (pick) => {
+      const tally = {};
+      m.forEach((x) => [].concat(pick(x)).forEach((k) => { if (k) tally[k] = (tally[k] || 0) + 1; }));
+      return Object.keys(tally).sort((a, b) => (tally[b] - tally[a]) || String(a).localeCompare(b, 'sv'))
+        .map((k) => ({ value: k, label: k + ' — ' + tally[k] }));
+    };
+    const years = Array.from(new Set(m.map((x) => String(x.year)))).sort((a, b) => b - a)
+      .map((y) => ({ value: y, label: y }));
+    return [
+      { id: 'mq', label: 'Sök', kind: 'search', placeholder: 'Klient, motpart eller sak' },
+      { id: 'mArea', label: 'Område', options: [{ value: '', label: 'Alla områden' }].concat(counted((x) => x.areas)) },
+      { id: 'mSector', label: 'Sektor', options: [{ value: '', label: 'Alla sektorer' }].concat(counted((x) => x.sector)) },
+      { id: 'mYear', label: 'År', options: [{ value: '', label: 'Alla år' }].concat(years) },
+    ];
+  }
+
+  matches() {
+    const s = this.state;
+    const q = (s.mq || '').trim().toLowerCase();
+    return this.data().filter((x) => {
+      if (s.mArea && x.areas.indexOf(s.mArea) === -1) return false;
+      if (s.mSector && x.sector !== s.mSector) return false;
+      if (s.mYear && String(x.year) !== s.mYear) return false;
+      if (!q) return true;
+      return (x.title + ' ' + x.preamble + ' ' + x.areas.join(' ') + ' ' + x.sector + ' ' + (x.team || []).join(' '))
+        .toLowerCase().indexOf(q) !== -1;
+    });
+  }
+
+  /* Any filter move closes an open fold: the row it belonged to may be gone. */
+  onMandateFilter = (id, next) => this.setState({ [id]: next, open: -1 });
+  clearMandates = () => this.setState({ mq: '', mArea: '', mSector: '', mYear: '', open: -1 });
+
+  /* Most common discipline, most common sector, and the colleagues who recur.
+     Counted, never maintained. */
+  derive() {
+    const m = this.data();
+    if (!m.length) return { line: '', count: '', colleagues: [] };
+    const tally = (list) => list.reduce((a, k) => { a[k] = (a[k] || 0) + 1; return a; }, {});
+    const top = (obj, n) => Object.keys(obj).sort((a, b) => obj[b] - obj[a]).slice(0, n);
+
+    const areas = tally(m.flatMap((x) => x.areas.slice(0, 1)));
+    const sectors = tally(m.map((x) => x.sector));
+    const people = tally(m.flatMap((x) => x.team));
+    const names = top(people, 3);
+    const together = m.filter((x) => names.every((n) => x.team.indexOf(n) >= 0)).length;
+    const withAny = m.filter((x) => names.some((n) => x.team.indexOf(n) >= 0)).length;
+
+    const years = m.map((x) => x.year);
+    const first = Math.min.apply(null, years);
+
+    return {
+      line: m.length + ' uppdrag sedan ' + first + ' · oftast ' + top(areas, 1)[0] + ' inom ' + top(sectors, 1)[0].toLowerCase() + ' · ' + withAny + ' av dem med samma tre kollegor',
+      count: Math.max.apply(null, years) + '–' + first,
+      together: together,
+      colleagues: names.map((n) => ({
+        label: n,
+        href: '/personer/' + n.toLowerCase().replace(/[åä]/g, 'a').replace(/ö/g, 'o').replace(/\s+/g, '-'),
+        meta: people[n] + ' gemensamma uppdrag',
+      })),
+    };
+  }
+
+  enter = (i) => () => this.setState({ open: i });
+
+  leave = () => this.setState({ open: -1 });
+
+  /* The finder in the footer runs the same exchange, opened over this page with
+     what the visitor typed as the first turn. */
+  askFinder = (prompt) => {
+    window.clearTimeout(this._wipe);
+    this.setState({ chatOpen: true, turns: [{ speaker: 'visitor', text: prompt }], step: -1, draft: '', done: false, extra: 0, criteria: [{ text: prompt, note: 'Dina ord' }] });
+    this.advance(1400);
+  };
+
+  enterAward = (i) => () => this.setState({ award: i });
+
+  leaveAward = () => this.setState({ award: -1 });
+
+  /* The site navigation comes from the design system (SiteNav), not from this
+     page, so every template shows the same menu. The bundle may not have
+     landed on the first render — the empty lists below are a one-frame
+     placeholder and the poll re-renders once it has. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav();
+    const d = this.derive();
+    const shown = this.matches();
+    const total = this.data().length;
+    const { ConversationHeader, Composer, ConversationContext } = this.ns();
+    const { turns, step, working, done } = this.state;
+    const last = turns.length - 1;
+    const current = SCRIPT[step];
+
+    return {
+      testimonials: this.testimonialList,
+      setHero: this.setHero,
+      /* The people beside a profile: the same bench the directory holds, minus
+         the person whose page this is. */
+      similarPeople: (window.VingePeople || []).filter((p) => p.name !== 'Amanda Knutsson'),
+      chatOpen: this.state.chatOpen,
+      /* The header's finder opens the exchange with nothing typed; the footer's
+         field hands over the visitor's own words. */
+      chatPrompt: this.state.turns.length && this.state.turns[0].speaker === 'visitor' ? this.state.turns[0].text : null,
+      closeChat: this.closeChat,
+      turns: turns.map((t, i) => ({ ...t, isTurn: !t.payload, demoted: i < last })),
+      showOptions: !working && !done && !!current,
+      options: current ? current.options : [],
+      working: working,
+      noDelay: 0,
+      dotSrc: DOT_SRC,
+      ghostBlocks: this.ghostFor(step + 1),
+      workingNote: done ? 'Läser uppdragsregistret.' : step + 1 >= SCRIPT.length ? 'Söker igenom uppdrag.' : 'Läser uppdragsregistret.',
+      sources: ['Uppdrag 2024-118', 'Uppdrag 2023-091'],
+      alternates: this.alts(),
+      chatAside: ConversationContext
+        ? React.createElement(ConversationContext, {
+            groups: [
+              { label: 'Ditt ärende', items: this.state.criteria || [] },
+              { label: 'Registret pekar på', items: done ? [{ text: 'Amanda Knutsson', note: 'Partner, publik M&A · Stockholm', href: '#' }].concat(this.alts().map((a) => ({ text: a.name, note: [a.role, a.office].join(' · '), href: '#' }))) : [] },
+              { label: 'Belagt ur', items: done ? [{ text: 'Uppdrag 2024-118' }, { text: 'Uppdrag 2023-091' }] : [] },
+            ],
+          })
+        : null,
+      chatHeader: ConversationHeader
+        ? React.createElement(ConversationHeader, { sticky: true, scrolled: turns.length > 2, onClose: this.closeChat, logoSrc: '../../assets/logo.svg' })
+        : null,
+      chatFooter: Composer
+        ? React.createElement(Composer, {
+            value: this.state.draft,
+            onChange: (v) => this.setState({ draft: v }),
+            onSubmit: this.send,
+            disabled: working,
+            placeholder: done ? 'Fråga vidare' : 'Skriv ditt svar',
+            autoFocus: true,
+            dotSrc: DOT_SRC,
+          })
+        : null,
+      pick: this.pick,
+      inkLabel: { style: { color: 'var(--text-primary)' } },
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      openChat: this.openChat,
+      identityLine: 'Partner, Stockholm, Advokat sedan 2011',
+      trail: [{ label: 'Start', href: '/' }, { label: 'Medarbetare', href: '/personer' }, 'Amanda Knutsson'],
+      actions: [
+        { label: 'Spara kontakt', icon: 'download', href: '#', download: 'amanda-knutsson.vcf' },
+        { label: 'Ladda ner CV', icon: 'document', href: '#', download: 'amanda-knutsson-cv.pdf' },
+        { label: 'LinkedIn', icon: 'logo--linkedin', href: 'https://www.linkedin.com/', external: true },
+      ],
+      derived: d.line,
+      mandateCount: d.count,
+      colleagues: d.colleagues,
+      /* Areas and sectors read as one run of display type, cut by slashes.
+         The last item carries no slash, so the run ends on a word. */
+      practices: ['Publik M&A', 'M&A', 'Bolagsrätt', 'Kapitalmarknad', 'Bank och finans', 'Life science', 'Energi']
+        .map((p, i, all) => ({ label: p, i: i, sep: i < all.length - 1 ? '/' : '', href: '/uppdrag?omrade=' + encodeURIComponent(p) })),
+      /* The tags pick up where the title left off, on the menu's rhythm. */
+      tagDelay: 320,
+      contact: [
+        { key: 'Direkt', value: '+46 10 614 31 82', href: 'tel:+46106143182' },
+        { key: 'Mobil', value: '+46 70 493 11 82', href: 'tel:+46704931182' },
+        { key: 'E-post', value: 'amanda.knutsson@vinge.se', href: 'mailto:amanda.knutsson@vinge.se' },
+        { key: 'Kontor', value: 'Smålandsgatan 20, Stockholm', href: '/kontor/stockholm' },
+      ],
+      mandateFields: this.mandateFields(),
+      mandateValues: { mq: this.state.mq, mArea: this.state.mArea, mSector: this.state.mSector, mYear: this.state.mYear },
+      onMandateFilter: this.onMandateFilter,
+      clearMandates: this.clearMandates,
+      mandateFiltered: !!(this.state.mq || this.state.mArea || this.state.mSector || this.state.mYear),
+      mandateCountLine: shown.length === total ? total + ' uppdrag' : shown.length + ' av ' + total + ' uppdrag',
+      mandateEmpty: shown.length === 0,
+      mandates: shown.map((m, i) => ({
+        year: m.year,
+        title: m.title,
+        preamble: m.preamble,
+        areasText: m.areas.join(', '),
+        open: this.state.open === i ? '' : undefined,
+        enter: this.enter(i),
+      })),
+      leave: this.leave,
+      awards: this.awardList().map((a, i) => ({
+        text: a.text,
+        badge: a.badge,
+        badgeSrc: a.badgeSrc,
+        open: this.state.award === i ? '' : undefined,
+        enter: this.enterAward(i),
+      })),
+      leaveAward: this.leaveAward,
+      askFinder: this.askFinder,
+      background: [
+        { key: 'Utbildning', value: 'Jur.kand., Uppsala universitet, 2009. LL.M., King’s College London, 2010.' },
+        { key: 'Karriär', value: 'Vinge sedan 2012, delägare sedan 2019. Dessförinnan tingstjänstgöring vid Södertörns tingsrätt.' },
+        { key: 'Medlemskap', value: 'Sveriges advokatsamfund. International Bar Association, Corporate and M&A Law Committee.' },
+        { key: 'Språk', value: 'Svenska, engelska, tyska.' },
+      ],
+      writing: [
+        { title: 'Budplikt vid stegvisa förvärv — var går gränsen i praxis?', href: '/insikter/budplikt-stegvisa-forvarv', meta: 'Insikt · mars 2026' },
+        { title: 'Takeover-reglernas nya lydelse och vad den betyder för målbolagsstyrelser', href: '/insikter/takeover-reglerna', meta: 'Insikt · november 2025' },
+        { title: 'Villkorade bud i ett stigande ränteläge', href: '/insikter/villkorade-bud', meta: 'Juridisk Tidskrift · 2024' },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

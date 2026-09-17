@@ -1,0 +1,172 @@
+/* Document ground and the interaction primitives. No cards, boxes, borders,
+   shadows or radius exist anywhere in this system. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--text-base);
+  line-height: var(--lh-base);
+}
+
+img, svg, video { display: block; max-width: 100%; }
+img { height: auto; }
+
+/* Scrollbars. A hairline the width of the system's rules, in the rule colour,
+   on no track. `scrollbar-color` and the pseudo-elements are mutually
+   exclusive in Chrome and Safari: with the standard property set, those
+   engines drop the ::-webkit-scrollbar rules and draw the platform's own grey
+   bar. So the standard properties are scoped to the engines that have no
+   pseudo-elements. */
+@supports not selector(::-webkit-scrollbar) {
+  html, * { scrollbar-width: thin; scrollbar-color: var(--ink-12) transparent; }
+  [data-inverted] { scrollbar-color: var(--mint-70) transparent; }
+}
+::-webkit-scrollbar { width: 8px; height: 8px; background: transparent; }
+::-webkit-scrollbar-track { background: transparent; }
+/* A 2px hairline inside an 8px grab area: the thumb is padded out with a
+   transparent border and clipped to its content box, so the bar is the width
+   of a rule while still being catchable with a pointer. */
+::-webkit-scrollbar-thumb { background: var(--ink-12); background-clip: content-box; border: 3px solid transparent; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-55); background-clip: content-box; }
+::-webkit-scrollbar-corner { background: transparent; }
+[data-inverted] ::-webkit-scrollbar-thumb { background: var(--mint-70); background-clip: content-box; }
+
+/* Links and CTAs. No buttons, no fills, no borders, no pills, no arrow glyphs.
+   The underline is always present at rest — colour alone never carries the
+   affordance. */
+a, .cta {
+  color: var(--text-primary);
+  font-family: var(--font-text);
+  text-decoration: underline;
+  text-decoration-color: var(--underline-rest);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  transition:
+    text-decoration-color var(--dur-micro) var(--ease-quart),
+    text-decoration-thickness var(--dur-micro) var(--ease-quart),
+    text-underline-offset var(--dur-reveal) var(--ease-expo);
+}
+
+a:hover, .cta:hover {
+  text-decoration-color: var(--underline-active);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.30em;
+}
+
+.cta--primary {
+  font-size: var(--text-lead);
+  font-weight: var(--weight-medium);
+  line-height: var(--lh-lead);
+}
+.cta--page-end {
+  font-family: var(--font-display);
+  font-size: var(--display-3);
+  font-weight: var(--weight-book);
+  letter-spacing: var(--tracking-display-3);
+  line-height: var(--lh-display-3);
+}
+/* Caption-size CTA. One size means one size: this is text-small, the same
+   value .small carries, so a link inside a caption pair sits on the same line
+   of the scale as the words around it. */
+.cta--small {
+  font-size: var(--text-small);
+  line-height: var(--lh-small);
+  text-decoration-color: var(--underline-rest-secondary);
+}
+.cta--small:hover { text-decoration-color: var(--underline-active); }
+.cta--secondary {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  text-decoration-color: var(--underline-rest-secondary);
+}
+.cta--secondary:hover { color: var(--text-primary); text-decoration-color: var(--underline-active); }
+
+/* The one arrow in the system. A section-closing link set in the display face
+   at display-3, where the arrow is the width of a letter rather than an icon
+   bolted onto small text. It is absent at rest and enters from the left of its
+   own reserved box on hover and on keyboard focus, so nothing reflows and no
+   glyph decorates the resting page. The reserved box is 1em, so the label
+   never shifts. */
+.cta--arrow {
+  font-family: var(--font-display);
+  font-size: var(--display-3);
+  font-weight: var(--weight-book);
+  letter-spacing: 0.038em;
+  line-height: 1.32;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+.cta--arrow .cta-arrow {
+  display: inline-flex;
+  align-items: center;
+  /* Centred on the label's cap height, not on its line box: the box is
+     baseline-aligned (its bottom edge lands on the baseline) and then pushed
+     down by half its own height less half the cap height, so the glyph's
+     centre line sits exactly between baseline and cap. Not a transform —
+     hover animates that. */
+  align-self: baseline;
+  position: relative;
+  top: 0.225em;
+  width: 1.15em;
+  flex: none;
+  opacity: 0;
+  transform: translateX(-0.3em);
+  transition: opacity var(--dur-micro) var(--ease-quart), transform var(--dur-reveal) var(--ease-expo);
+}
+.cta--arrow .cta-arrow svg { width: 100%; height: auto; }
+.cta--arrow:hover .cta-arrow, .cta--arrow:focus-visible .cta-arrow { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .cta--arrow .cta-arrow { transform: none !important; }
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 6px;
+}
+/* A clicked text field keeps its underline as the only sign of focus: the ring
+   is for focus arriving by keyboard. See core/focusSource.jsx. */
+:root[data-focus-source="pointer"] input:focus-visible,
+:root[data-focus-source="pointer"] textarea:focus-visible,
+:root[data-focus-source="pointer"] select:focus-visible {
+  outline: none;
+}
+
+/* Minimum pointer target 24×24px (WCAG 2.2 SC 2.5.8); 44px where space allows.
+   Matters for nav and footer, where type is small. */
+.target { display: inline-flex; align-items: center; min-height: 24px; }
+
+/* The docked finder pushes the page in rather than covering it: the panel is a
+   standing menu at that point, and a menu that hides the thing it navigates is
+   a modal wearing a menu's clothes. The surface sets two custom properties and
+   an attribute on the root; every page follows without a line of its own.
+   `--finder-dock` is the width the page gives up for good — the peek at the
+   edge — and is the only thing that reflows the page. The panel standing open
+   over that takes `--finder-shift` instead: the body keeps its width and slides
+   left by it, so the page clips at the left edge rather than having its columns
+   squeezed a second time for a hover. */
+html[data-finder-docked] body { box-sizing: border-box; width: 100%; padding-right: var(--finder-dock, 0px); margin-left: calc(-1 * var(--finder-shift, 0px)); transition: padding-right var(--dur-fast) var(--ease-expo), margin-left var(--dur-fast) var(--ease-expo); }
+html[data-finder-docked] body > * { max-width: 100%; }
+/* At the footer the panel has travelled off the right edge, so the width it was
+   holding is nobody's: the page takes it all back and runs full-bleed again,
+   footer and everything standing above it. A block held short of the edge with
+   nothing at that edge reads as clipped. */
+html[data-finder-docked][data-finder-away] body { padding-right: 0; }
+/* Fixed furniture cannot be slid by a margin on the body, so it travels the
+   same distance under its own transform. */
+html[data-finder-docked] [data-fixed-chrome] { transform: translateX(calc(-1 * var(--finder-shift, 0px))); transition: transform var(--dur-fast) var(--ease-expo), right var(--dur-fast) var(--ease-expo); }
+/* A panel restored from the page before is already where the visitor left it,
+   so the dock is applied before the first paint and nothing is allowed to
+   travel while that is established. The finder sets and lifts the attribute. */
+html[data-finder-instant] body,
+html[data-finder-instant] [data-fixed-chrome] { transition: none !important; }
+/* Fixed page chrome cannot be moved by padding on the body, so it reads
+   `--finder-dock` into its own right inset instead — the headers do that in
+   their inline style, and `--finder-dock` is 0 until something docks. */
+@media (prefers-reduced-motion: reduce) { html[data-finder-docked] body, html[data-finder-docked] [data-fixed-chrome] { transition: none } }

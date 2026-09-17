@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Landing page" description="Wordmark hero that shrinks into a fixed, exclusion-blended header, with the find-a-lawyer prompt block beneath it." -->
+<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record.js"></script><script src="./people.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}
+/* Hero entrance. One movement, four cues: the wordmark wipes open from its
+   left edge, the two triggers settle, the payoff line rises, and the film band
+   comes up from the bottom edge it will be held at. Everything is CSS keyed on
+   the elements' own selectors rather than inline styles, so a re-render of the
+   page (menu, chat) never replays it. */
+/* The loading placeholders the runtime reserves space with are not part of
+   the composition — the hero holds its own space, so they stay invisible and
+   only the four cues below are seen. */
+.sc-placeholder{background:transparent;border-color:transparent}
+@keyframes hero-drop{from{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:none}}
+@keyframes hero-rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes hero-fade{from{opacity:0}to{opacity:1}}
+@keyframes hero-line{from{transform:translateY(110%)}to{transform:none}}
+@keyframes hero-band{from{transform:translateY(100%)}to{transform:none}}
+/* The wordmark comes down into the page, the two triggers up into it. */
+/* On the anchor, not the artwork: the artwork's own transform is written every
+   frame by the masthead's scroll handler, and an animation on it outranks that
+   inline style. `backwards` rather than `both` for the same reason — once the
+   entrance is over the element is back under its own styles. */
+header a[aria-label="Vinge"]{animation:hero-drop 1000ms var(--ease-expo) backwards}
+header a[aria-label="Vinge"]+div{animation:hero-rise 700ms var(--ease-quart) 150ms both}
+[data-hero-payoff]{grid-column:1 / -1;max-width:none}
+/* The grid the payoff sits in comes from the design system's stylesheets, which
+   arrive after the markup has painted. Until then the line is in plain flow at
+   the left edge, and lands in its column with a jump. Held back until the
+   sheets are in — `data-ds-ready` is set by ds-base.js. */
+[data-hero-payoff-row]{visibility:hidden}
+html[data-ds-ready] [data-hero-payoff-row]{visibility:visible}
+/* Each line is clipped by its own row and rises out of it, row by row, each
+   one a beat behind the band — the band moves first, the type follows. */
+[data-hero-payoff] span{display:block;overflow:hidden}
+[data-hero-payoff] span > span{display:block;animation:hero-line 900ms var(--ease-expo) both}
+[data-hero-payoff] span:nth-child(1) > span{animation-delay:620ms}
+[data-hero-payoff] span:nth-child(2) > span{animation-delay:740ms}
+[data-hero-payoff] span:nth-child(3) > span{animation-delay:860ms}
+[data-hero-band]{animation:hero-band 1000ms var(--ease-expo) 500ms both}
+@media (min-width:768px){[data-hero-payoff]{grid-column:3 / 5}}
+@media (min-width:1280px){[data-hero-payoff]{grid-column:6 / 9}}
+@media (prefers-reduced-motion: reduce){header a[aria-label="Vinge"],header a[aria-label="Vinge"]+div,[data-hero-payoff] span > span,[data-hero-band]{animation:hero-fade var(--dur-reveal) linear both;transform:none}}</style></helmet>
+<div style="min-height:100vh">
+<div data-washed="" style="position:relative;height:100svh;background:#F7F6FA">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.WordmarkMasthead" logo-src="../../assets/logo-paper.svg" hero-min-height="auto" on-chat="{{ openChat }}" on-menu="{{ toggleMenu }}" chat-active="{{ filtering }}" menu-open="{{ menuOpen }}" hint-size="100%,40svh"></x-import>
+<div class="grid" data-hero-payoff-row="" style="position:absolute;left:0;right:0;bottom:calc(30vh + var(--space-4))">
+<p class="lead" data-hero-payoff=""><span><span>När avgörande affärer ska genomföras</span></span><span><span>och komplexa frågor lösas.</span></span></p>
+</div>
+</div>
+<!-- The band's runway: 40vh of band plus 70vh of scroll it is held at the
+     bottom of the screen for, which is the stretch the scroll-bound opening
+     runs in. The hold is `position: sticky` with a top offset, not a bottom
+     one — bottom-sticky does nothing in this document — so the browser keeps
+     the band pinned on the compositor instead of a transform chasing the
+     scroll a frame behind. Everything below starts 70vh later than the band's
+     own height would put it, so the prompt block is uncovered exactly as
+     before — one length delays the whole cue. -->
+<div style="position:relative;z-index:2;height:100vh;margin-top:-30vh;pointer-events:none">
+<div data-hero-band="" data-washed="" style="position:sticky;top:calc(100svh - 30vh);pointer-events:auto;background:transparent">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.FilmBand" src="../../assets/demo/hero-office.webm" poster="../../assets/demo/boardroom.png" alt="Tomt mötesrum med glasväggar och utsikt över staden" height="30vh" tone="ink-wash" ground="#F7F6FA" full-bleed="{{ filmFullBleed }}" pitch="{{ filmPitch }}" reveal-distance="{{ filmReveal }}" grow="{{ filmGrow }}" hint-size="100%,30vh"></x-import>
+</div>
+</div>
+<div style="position:relative;z-index:1;margin-top:-30vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ScrollHold" hold="{{ heroHold }}" distance="85vh" lead="18vh" reserve="{{ holdReserve }}" hint-size="100%,420px">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad står du inför?" suggestions="{{ promptSuggestions }}" aside="Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver." on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+</x-import>
+</div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="affaren" mark="circles-chord" stroke="0.9" extras="{{ extrasAffaren }}" claim="Ett förvärv är aldrig bara ett förvärv." support="Det mesta av arbetet är inte argumentation. Det är att få två parter som vill olika saker att kunna skriva under samma dag." cta-label="Vad som håller ihop en affär" premise="Strategi, finansiering, konkurrens, människor och avtal behöver hålla ihop – ofta under stor tidspress. Du behöver se vad som faktiskt kan påverka affären, vilka frågor som kräver din uppmärksamhet och vad som för processen framåt." source="169 transaktioner under 2024 · 213 miljarder kronor
+Mergermarket, svenska M&amp;A-ligan 2024 · Band 1 Corporate/M&amp;A, Chambers Global" beats="{{ beatsAffaren }}" hint-size="100%,560px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden · 15 sektorer · Stockholm, Göteborg, Malmö, Bryssel · 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ArtworkPin" id="rummet" src="../../assets/images/present-04.png" alt="Möte runt ett bord i ett grönt rum" pin="{{ artworkPin }}" artist="Ingrid Bäcklund" work="Sediment nr 3" year="2021" artwork-src="../../assets/art/artwork-01.png" artwork-alt="Sediment nr 3, akvarell på papper" hint-size="100%,100svh"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" title="Erfarenhet av situationer som din." all-line="Erfarenhet av situationer som din." closing-line="Uppdrag relevanta för det du söker." action-label="Se fler uppdrag" entries="{{ recordEntries }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="#" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" all-label="Se alla våra uppdrag" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Matters" id="uppdragen" matters="{{ matters }}" link-label="Läs hur vi arbetade" hint-size="100%,1700px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="#" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ start }}" hint-size="100%,720px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ menuItems }}" utility="{{ menuUtility }}" highlights="{{ menuHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ContactWidget" hidden="{{ widgetOff }}" open="{{ widgetOpen }}" screen="{{ widgetScreen }}" on-open-change="{{ setWidgetOpen }}" on-screen-change="{{ setWidgetScreen }}" hint-size="0,0"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.DemoConsole" groups="{{ demoGroups }}" hint-size="0,0"></x-import>
+<!-- Never unmounted while it has been opened: the surface animates itself in
+     and out, and removing it from the document takes the movement with it. -->
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ open }}" prompt="{{ chatPrompt }}" on-close="{{ close }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const DOT_SRC = '../../assets/demo/boardroom.png';
+
+const IMG = '../../assets/images/';
+
+/* Three matters, descending in scale. The third — Mjällby — is written and
+   kept here, but held back from the page: only the first two are passed to
+   the block. */
+const MATTERS = [
+  {
+    kicker: 'Försvar och säkerhet · augusti 2026',
+    headline: 'Fyra fregatter till svenska marinen.',
+    body: 'Ett uppdrag som krävde fem perspektiv samtidigt – från offentlig upphandling och investeringar till immaterialrätt, avtal och bolagsrätt.',
+    meta: '7 jurister · 5 verksamhetsområden',
+    /* The framed piece on the back wall is one of the house's own, so this
+       image is the pinned block at column size rather than a plain reveal. */
+    world: { src: IMG + 'anonymous-01.png', alt: 'Ett mötesrum sett från dörröppningen', body: 'Det som stod på spel: örlogsvarvet där fregatterna ska byggas.', artwork: { pin: { x: 0.573, y: 0.259 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 5', year: 2022, artworkSrc: '../../assets/art/artwork-02.png', artworkAlt: 'Sediment nr 5, akvarell på papper' } },
+    person: { src: IMG + 'present-03.png', alt: 'Jurist på väg genom kontorets lounge', body: 'Eva Fredrikson, ledde uppdraget.' },
+    href: '#',
+  },
+  {
+    kicker: 'Hälsa och omsorg · juni 2026',
+    headline: 'Ambeas bud på Humana',
+    body: 'Ett offentligt uppköpserbjudande på 2,96 miljarder kronor – med aktier, kontanter och tilläggsköpeskilling och kompetens från nio verksamhetsområden.',
+    meta: '32 jurister · 9 verksamhetsområden',
+    world: { src: IMG + 'anonymous-03.png', alt: 'Någon passerar ett mötesrum', body: 'Det som stod på spel: ett av omsorgsboendena i budet.', artwork: { pin: { x: 0.875, y: 0.293 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 3', year: 2021, artworkSrc: '../../assets/art/artwork-01.png', artworkAlt: 'Sediment nr 3, akvarell på papper' } },
+    person: { src: IMG + 'present-05.png', alt: 'Två jurister sitter i samtal vid fönstret', body: 'Ansvarig partner, namnet bekräftas före publicering.' },
+    href: '#',
+  },
+  {
+    kicker: 'Sport · augusti 2026',
+    headline: 'Och en mittfältare till Hull City.',
+    body: 'Mjällby AIF, regerande allsvenska mästare, sålde Elliot Stroud till Premier League. Två av våra jurister. En av dem satt också på fregatterna.',
+    meta: '2 jurister · 1 verksamhetsområde',
+    world: { src: IMG + 'office-06.png', alt: 'Skänk i dagsljus med en person som passerar', body: 'Det som stod på spel: klubbens arena i Hällevik.' },
+    person: { src: IMG + 'anonymous-08.png', alt: 'Jurist läser handlingar i ett fönsterrum', body: 'Johan Cederblad, drev överlåtelsen.' },
+    href: '#',
+  },
+];
+
+const SCRIPT = [
+  {
+    question: 'Gäller det en pågående process eller något som kan bli en?',
+    options: [
+      { text: 'Vi har fått ett bud vi inte bett om', tag: 'Publik M&A' },
+      { text: 'Vi förbereder en försäljning', tag: 'Transaktion' },
+      { text: 'En myndighet har hört av sig', tag: 'Regulatoriskt' },
+    ],
+  },
+  {
+    question: 'Vilken sida av bordet står du på?',
+    options: [
+      { text: 'Målbolagets', tag: 'Målbolaget' },
+      { text: 'Budgivarens', tag: 'Budgivaren' },
+    ],
+  },
+  {
+    question: 'Var behöver du personen fysiskt?',
+    options: [
+      { text: 'Stockholm', tag: 'Stockholm' },
+      { text: 'Göteborg', tag: 'Göteborg' },
+      { text: 'Malmö', tag: 'Malmö' },
+      { text: 'Spelar ingen roll', tag: 'Oberoende av ort' },
+    ],
+  },
+];
+
+const ANSWER = {
+  text: 'Vi har tre som drivit den frågan de senaste två åren.',
+  body: 'Närmast dig sitter Elin Waller i Stockholm. Skälet står under namnet, hämtat ur uppdragsregistret.',
+};
+
+const FOLLOW_UPS = [
+  {
+    text: 'Elin har haft två liknande uppdrag i gång sedan i mars.',
+    body: 'Kalendern ligger inte i registret, så tid får ni stämma av direkt. Anders Kihlström i Göteborg har drivit samma frågor och står som alternativ nedan.',
+  },
+  {
+    text: 'Registret säger inget om det.',
+    body: 'Vi bedömer inte sakfrågan här. Skriv till Elin, eller ring växeln på 08-614 30 00 och beskriv ärendet för någon som kan ta det vidare.',
+  },
+];
+
+class Component extends DCLogic {
+  /* A load starts clean: the filtering is only ever the visitor's doing in
+     this session, and nothing carries over from a previous one. The state
+     lives in memory, so scrolling away and back keeps it while a reload
+     drops it. */
+  state = { menuOpen: false, open: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, recordView: 0, peopleView: 0, dialogue: null, criteria: [], widget: false, widgetOpen: undefined, widgetScreen: undefined };
+
+  /* The widget runs itself; the page only reads back what it is doing so the
+     console can show the current screen. `undefined` means "not driven". */
+  setWidgetOpen = (v) => this.setState({ widgetOpen: v });
+
+  setWidgetScreen = (v) => this.setState({ widgetScreen: v });
+
+  /* What the standing panel states: the criteria the visitor has handed over,
+     in the order they were given. A picked answer carries a register tag its
+     words do not, so the tag is what goes down. */
+  note(item) { this.setState({ criteria: (this.state.criteria || []).concat([item]) }); }
+
+  /* The alternates the card lists, quoted into the standing panel as well: the
+     panel is the record of who the register landed on, and the second name is
+     part of that answer. */
+  alts() {
+    return [
+      { name: 'Anders Kihlström', role: 'Partner', office: 'Göteborg' },
+      { name: 'Petra Lindqvist', role: 'Senior associate', office: 'Stockholm' },
+    ];
+  }
+
+
+  ns() { return window.VingeDesignSystem_8582c7 || {}; }
+
+  advance(delay) {
+    this.setState({ working: true });
+    window.clearTimeout(this._t);
+    this._t = window.setTimeout(() => {
+      if (this.state.done) {
+        const f = FOLLOW_UPS[this.state.extra % FOLLOW_UPS.length];
+        this.setState({
+          working: false,
+          extra: this.state.extra + 1,
+          turns: this.state.turns.concat([{ speaker: 'machine', variant: 'answer', text: f.text, body: f.body }]),
+        });
+        return;
+      }
+      const step = this.state.step + 1;
+      if (step >= SCRIPT.length) {
+        this.setState({
+          working: false,
+          done: true,
+          step: step,
+          turns: this.state.turns.concat([
+            { speaker: 'machine', variant: 'answer', text: ANSWER.text, body: ANSWER.body },
+            { payload: true },
+          ]),
+        });
+        return;
+      }
+      this.setState({
+        working: false,
+        step: step,
+        turns: this.state.turns.concat([{ speaker: 'machine', variant: 'question', text: SCRIPT[step].question }]),
+      });
+    }, delay || 1100);
+  }
+
+  /* The register's second view filters on what the visitor told us, so the
+     derived areas and sectors live for the session — a visitor who asks,
+     scrolls down and comes back still sees their filter; a new session starts
+     clean. Closing the conversation does not clear it. */
+  remember = (text) => {
+    const d = window.VingeDeriveDialogue && window.VingeDeriveDialogue(text);
+    if (!d) return;
+    /* One exchange with the finder is enough to switch both filtered blocks
+       to their second view — the visitor has said what they are after, so the
+       register and the bench open on that rather than on everything. */
+    this.setState({ dialogue: d, recordView: 1, peopleView: 1 });
+  };
+
+  /* The words the visitor typed are handed to the guided exchange as its
+     first turn; the exchange owns the script from there. */
+  start = (prompt) => {
+    this.remember(prompt);
+    this.setState({ open: true, turns: [{ speaker: 'visitor', text: prompt }], step: -1, done: false, extra: 0, criteria: [{ text: prompt, note: 'Dina ord' }] });
+    this.advance(1400);
+  };
+
+  /* The chat trigger in the header is the same surface without a prompt: the
+     visitor has said nothing yet, so the machine opens with its first
+     question rather than an empty screen. */
+  openChat = () => {
+    this.setState({ open: true, turns: [], step: -1, done: false, extra: 0 });
+    this.advance(700);
+  };
+
+  /* Opened from the register's second view: the machine opens on the
+     register rather than with its standard first question, because that is
+     what the visitor just clicked. */
+  /* A closing beat can offer "beskriv din situation": the link opens the
+     finder instead of navigating, so the handler is attached here where it
+     exists rather than in the beat data. */
+  beatsWithAsk = (list) => {
+    if (!list || !list.some((b) => b.links && b.links.some((l) => l.ask))) return list;
+    if (this._askBeats && this._askBeatsFrom === list) return this._askBeats;
+    const out = list.map((b) => (b.links && b.links.some((l) => l.ask)
+      ? Object.assign({}, b, { links: b.links.map((l) => (l.ask ? Object.assign({}, l, { href: '#', onClick: this.openFinder }) : l)) })
+      : b));
+    out.extras = list.extras;
+    this._askBeatsFrom = list;
+    this._askBeats = out;
+    return out;
+  };
+
+  openFinder = (e) => {
+    if (e) e.preventDefault();
+    this.askFromRecord();
+  };
+
+  askFromRecord = () => {
+    const d = this.state.dialogue;
+    const terms = d ? (d.areas || []).concat(d.sectors || []) : [];
+    /* Coming back to a conversation that has already happened, the machine
+       opens on what it understood rather than from the top. */
+    const opener = terms.length
+      ? 'Sist handlade det om ' + (terms.length > 1 ? terms.slice(0, -1).join(', ') + ' och ' + terms[terms.length - 1] : terms[0]) + '. Har något ändrats där, eller ska vi gå vidare därifrån?'
+      : 'Vad står du i just nu? Berätta kort, så visar jag vilka uppdrag i registret som rör det.';
+    this.setState({
+      open: true,
+      turns: [{ speaker: 'machine', variant: 'question', text: opener }],
+      step: -1, done: false, extra: 0, draft: '',
+    });
+  };
+
+  /* Taking the filter back: the register returns to a cold load, and the
+     session forgets what was derived. */
+  resetDialogue = () => {
+    this.setState({ dialogue: null });
+  };
+
+  /* The same reset offered from inside the conversation, where the visitor is
+     told what the exchange did to the page: the filter goes, and both blocks
+     return to their first view. */
+  resetSite = () => {
+    this.resetDialogue();
+    this.setState({ recordView: 0, peopleView: 0 });
+  };
+
+  /* Each filtered block owns its own tab: switching one never moves the
+     other. Only a dialogue — or the demo console — sets both at once. */
+  setRecordView = (v) => this.setState({ recordView: v });
+
+  setPeopleView = (v) => this.setState({ peopleView: v });
+
+  /* The presenter's shortcuts. Each one puts the page in a state the flows
+     also produce — no parallel mock, so what a client sees in a demo is what
+     the block renders in production. */
+  demoGroups() {
+    const dialogue = this.state.dialogue;
+    const chat = !this.state.open ? 'closed' : this.state.done ? 'answered' : 'question';
+    return [
+      {
+        id: 'record-filter', label: 'Register — filter source', value: dialogue ? 'derived' : 'none',
+        states: [{ id: 'none', label: 'Nothing asked' }, { id: 'derived', label: 'Dialogue derived' }],
+        onPick: (v) => {
+          if (v === 'none') { this.resetDialogue(); this.setState({ recordView: 0, peopleView: 0 }); return; }
+          const d = window.VingeRecordDialogue;
+          this.setState({ dialogue: d, recordView: 1, peopleView: 1 });
+        },
+      },
+      {
+        id: 'contact-widget', label: 'Contact widget', value: this.state.widget ? 'on' : 'off',
+        states: [{ id: 'on', label: 'On' }, { id: 'off', label: 'Off' }],
+        onPick: (v) => this.setState({ widget: v === 'on', widgetOpen: false }),
+      },
+      {
+        /* The widget holds its own screen; these jump to one so a flow can be
+           shown without walking it. */
+        id: 'contact-widget-screen', label: 'Contact widget — screen',
+        value: !this.state.widgetOpen ? 'closed' : this.state.widgetScreen === 'match' ? 'matched' : typeof this.state.widgetScreen === 'number' ? 'flow' : 'errands',
+        states: [{ id: 'closed', label: 'Closed' }, { id: 'errands', label: 'Errands' }, { id: 'flow', label: 'Flow' }, { id: 'matched', label: 'Matched' }],
+        onPick: (v) => {
+          if (v === 'closed') { this.setState({ widgetOpen: false }); return; }
+          this.setState({ widget: true, widgetOpen: true, widgetScreen: v === 'errands' ? 'menu' : v === 'flow' ? 0 : 'match' });
+        },
+      },
+      {
+        id: 'chat', label: 'Samtalet', value: chat,
+        states: [{ id: 'closed', label: 'Closed' }, { id: 'question', label: 'First question' }, { id: 'answered', label: 'Answer delivered' }],
+        onPick: (v) => {
+          window.clearTimeout(this._t);
+          if (v === 'closed') { this.close(); return; }
+          if (v === 'question') {
+            this.setState({ open: true, working: false, done: false, extra: 0, draft: '', step: 0, turns: [{ speaker: 'machine', variant: 'question', text: SCRIPT[0].question }] });
+            return;
+          }
+          /* Straight to the answered end of the script, with the visitor's
+             side of it filled in from the scripted options. */
+          const turns = [];
+          SCRIPT.forEach((s, i) => {
+            turns.push({ speaker: 'machine', variant: 'question', text: s.question });
+            if (s.options && s.options[0]) turns.push({ speaker: 'visitor', text: s.options[0].text });
+          });
+          turns.push({ speaker: 'machine', variant: 'answer', text: ANSWER.text, body: ANSWER.body });
+          turns.push({ payload: true });
+          this.setState({ open: true, working: false, done: true, extra: 0, draft: '', step: SCRIPT.length, turns: turns });
+        },
+      },
+    ];
+  }
+
+  noop = () => {};
+
+  /* One trigger for both directions: the masthead's glyph swaps to a close
+     while the takeover is open. */
+  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  pick = (option) => {
+    this.note({ text: option.tag || option.text, note: option.tag && option.tag !== option.text ? option.text : undefined });
+    if (!this.state.dialogue) this.remember(option.text);
+    this.setState({ turns: this.state.turns.concat([{ speaker: 'visitor', text: option.text }]) });
+    this.advance();
+  };
+
+  send = (text) => {
+    this.note({ text: text, note: 'Dina ord' });
+    if (!this.state.dialogue) this.remember(text);
+    this.setState({ turns: this.state.turns.concat([{ speaker: 'visitor', text: text }]), draft: '' });
+    this.advance();
+  };
+
+  /* The record is cleared after the surface has left, not on the click: an
+     emptied drawer is what the visitor would otherwise watch slide out. */
+  close = () => {
+    window.clearTimeout(this._t);
+    this.setState({ open: false });
+    window.setTimeout(() => this.setState({ turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] }), 1200);
+  };
+
+  componentWillUnmount() { window.clearTimeout(this._t); }
+
+  ghostFor(step) {
+    if (this.state.done) {
+      const f = FOLLOW_UPS[this.state.extra % FOLLOW_UPS.length];
+      return [{ text: f.text, size: 'display-3' }, { text: f.body, size: 'prose' }];
+    }
+    if (step >= SCRIPT.length) {
+      return [
+        { text: ANSWER.text, size: 'display-3' },
+        { text: ANSWER.body, size: 'prose' },
+        { image: '4:5', width: '30%' },
+      ];
+    }
+    return SCRIPT[step] ? [{ text: SCRIPT[step].question, size: 'display-3' }] : [];
+  }
+
+  /* The site navigation comes from the design system (SiteNav), not from this
+     page, so every template shows the same menu. The bundle may not have
+     landed on the first render — the empty lists below are a one-frame
+     placeholder and the poll re-renders once it has. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav();
+    const { ConversationHeader, Composer, ConversationContext } = this.ns();
+    const { turns, step, working, done } = this.state;
+    const last = turns.length - 1;
+    const current = SCRIPT[step];
+
+    const header = ConversationHeader
+      ? React.createElement(ConversationHeader, {
+          sticky: true,
+          scrolled: turns.length > 2,
+          onClose: this.close,
+          logoSrc: '../../assets/logo.svg',
+          filterNote: this.state.dialogue ? 'Ditt samtal med oss påverkar vad som visas på vinge.se, du kan alltid nollställa och se allt genom att klicka på nollställ' : null,
+          onResetFilter: this.resetSite,
+        })
+      : null;
+
+    const footer = Composer
+      ? React.createElement(Composer, {
+          value: this.state.draft,
+          onChange: (v) => this.setState({ draft: v }),
+          onSubmit: this.send,
+          disabled: working,
+          placeholder: done ? 'Fråga vidare' : 'Skriv ditt svar',
+          autoFocus: true,
+          dotSrc: DOT_SRC,
+        })
+      : null;
+
+    const beats = window.VingeChapterBeats || {};
+
+    return {
+      filmPitch: 5,
+      /* Matches the 70vh runway in the markup: the opening, the decolouring
+         and the growth all finish where the band is let go. */
+      filmReveal: 0.7,
+      /* 40vh at rest, 70vh once the opening has run. */
+      filmGrow: 1.5,
+      filmFullBleed: true,
+      heroHold: 0.62,
+      holdReserve: true,
+      beatsAffaren: beats.affaren,
+      extrasAffaren: beats.affaren && beats.affaren.extras,
+      beatsTvisten: beats.tvisten,
+      extrasTvisten: beats.tvisten && beats.tvisten.extras,
+      /* The carousel gets the whole bench and the same dialogue the register
+         is filtered by, and does its own matching — the two blocks answer one
+         question. */
+      carouselPeople: window.VingePeople || [],
+      matters: MATTERS.slice(0, 2),
+      /* Newest first: the register is read as "what have they done lately",
+         and the block groups by the order the entries arrive in. */
+      recordEntries: (window.VingeRecordEntries || []).slice().sort((a, b) => b.year - a.year),
+      recordDialogue: this.state.dialogue,
+      recordViewLabels: ['Allt', 'Ditt urval'],
+      peopleViewLabels: ['Allt', 'Relevanta för dig'],
+      recordView: this.state.recordView,
+      setRecordView: this.setRecordView,
+      peopleView: this.state.peopleView,
+      setPeopleView: this.setPeopleView,
+      demoGroups: this.demoGroups(),
+      widgetOff: !this.state.widget,
+      widgetOpen: this.state.widgetOpen,
+      widgetScreen: this.state.widgetScreen,
+      setWidgetOpen: this.setWidgetOpen,
+      setWidgetScreen: this.setWidgetScreen,
+      askFromRecord: this.askFromRecord,
+      resetDialogue: this.resetDialogue,
+      artworkPin: { x: 0.744, y: 0.303 },
+      beatsBanken: this.beatsWithAsk(beats.banken),
+      extrasBanken: beats.banken && beats.banken.extras,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      menuItems: nav.items,
+      menuUtility: nav.utility,
+      menuHighlights: nav.highlights,
+      open: this.state.open,
+      chatPrompt: this.state.turns.length && this.state.turns[0].speaker === 'visitor' ? this.state.turns[0].text : null,
+      filtering: !!this.state.dialogue,
+      turns: turns.map((t, i) => ({ ...t, isTurn: !t.payload, demoted: i < last })),
+      showOptions: !working && !done && !!current,
+      options: current ? current.options : [],
+      working: working,
+      done: done,
+      ghostBlocks: this.ghostFor(step + 1),
+      workingNote: done ? 'Läser uppdragsregistret.' : step + 1 >= SCRIPT.length ? 'Söker igenom uppdrag.' : 'Läser uppdragsregistret.',
+      noDelay: 0,
+      dotSrc: DOT_SRC,
+      sources: ['Uppdrag 2024-118', 'Uppdrag 2023-091'],
+      alternates: this.alts(),
+      chatAside: ConversationContext
+        ? React.createElement(ConversationContext, {
+            groups: [
+              { label: 'Ditt ärende', items: this.state.criteria || [] },
+              { label: 'Registret pekar på', items: done ? [{ text: 'Elin Waller', note: 'Partner, publik M&A · Stockholm', href: '#' }].concat(this.alts().map((a) => ({ text: a.name, note: [a.role, a.office].join(' · '), href: '#' }))) : [] },
+              { label: 'Belagt ur', items: done ? [{ text: 'Uppdrag 2024-118' }, { text: 'Uppdrag 2023-091' }] : [] },
+            ],
+          })
+        : null,
+      header: header,
+      footer: footer,
+      start: this.start,
+      promptSuggestions: [
+        'Vi planerar ett förvärv i Sverige',
+        'Nya hållbarhetskrav påverkar vår rapportering',
+        'Vi har fått besked från en myndighet',
+      ],
+      openChat: this.openChat,
+      noop: this.noop,
+      pick: this.pick,
+      close: this.close,
+    };
+  }
+}
+
+</script>
+</body>
+</html>

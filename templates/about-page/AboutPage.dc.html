@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="About page" description="Full-screen hero: northern Europe as a breathing halftone dot map that disperses upwards on scroll, revealing a statement that fills in word by word." -->
+<helmet><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}.sc-placeholder{background:transparent;border-color:transparent}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" style="position:absolute;top:0;left:0;width:100%;height:0" hint-size="0,0"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<section data-screen-label="Hero" ref="{{ scrollRef }}" style="position:relative;height:170vh">
+<div ref="{{ stageRef }}" data-inverted="" style="position:sticky;top:0;height:100svh;overflow:hidden;background:var(--ink)">
+<div style="position:absolute;inset:0;will-change:transform,opacity;transform:translateY(calc(clamp(0,var(--p,0)/.34,1) * -34vh)) scale(calc(1 + clamp(0,var(--p,0)/.34,1)*.16));opacity:calc(1 - clamp(0,var(--p,0)/.3,1))">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.OfficeMap" min-height="100svh" ground="transparent" bounds="{{ mapBounds }}" pitch="{{ mapPitch }}" dot-scale="{{ mapDotScale }}" level="{{ mapLevel }}" running="{{ mapRunning }}" hint-size="100%,100svh"></x-import>
+</div>
+</div>
+</section>
+<section data-screen-label="Statement" ref="{{ textRef }}" style="display:flex;align-items:center;justify-content:center;min-height:70svh;padding:14vh 6vw">
+<p class="display-3" style="max-width:22ch;display:flex;flex-wrap:wrap;justify-content:center;gap:0 .3em;text-align:center;color:var(--text-primary)">
+<span style="--d:.00;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Vi</span>
+<span style="--d:.05;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">finns</span>
+<span style="--d:.10;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">där</span>
+<span style="--d:.15;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">besluten</span>
+<span style="--d:.20;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">fattas.</span>
+<span style="--d:.27;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Stockholm,</span>
+<span style="--d:.32;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Göteborg,</span>
+<span style="--d:.37;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Malmö,</span>
+<span style="--d:.42;opacity:calc(.18 + .82*clamp(0,(var(--t,0) - var(--d))/.12,1));transform:translateY(calc((1 - clamp(0,(var(--t,0) - var(--d))/.12,1))*.16em))">Bryssel.</span>
+</p>
+</section>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;mapPitch&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:4,&quot;min&quot;:2,&quot;max&quot;:10,&quot;step&quot;:0.5,&quot;unit&quot;:&quot;px&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Karta&quot;},&quot;mapDotScale&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:0.55,&quot;min&quot;:0.35,&quot;max&quot;:1.4,&quot;step&quot;:0.05,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Karta&quot;},&quot;mapLevel&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0.5,&quot;max&quot;:1,&quot;step&quot;:0.02,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Karta&quot;}}">
+class Component extends DCLogic {
+  state = { menuOpen: false, mapRunning: true };
+  scrollRef = React.createRef();
+  stageRef = React.createRef();
+  textRef = React.createRef();
+  /* Framed west of the offices on purpose: the Atlantic is the open left
+     third the headline sits in, and a frame wider than the viewport crops
+     longitude instead of latitude, which is what keeps Bryssel on screen.
+     Held on the instance, not rebuilt per render: the map rebuilds its land
+     mask whenever this identity changes, and scroll re-renders are frequent. */
+  _bounds = [[-46, 46], [44, 70]];
+
+  /* The whole scroll interaction is one custom property, --p, written straight
+     onto the sticky stage: the dot field disperses and the words fill from the
+     same number, in CSS, so scrolling never re-renders the map. */
+  componentDidMount() {
+    this._onScroll = () => {
+      if (this._raf) return;
+      this._raf = requestAnimationFrame(() => {
+        this._raf = 0;
+        const el = this.scrollRef.current, stage = this.stageRef.current;
+        if (!el || !stage) return;
+        const r = el.getBoundingClientRect();
+        const span = Math.max(1, r.height - window.innerHeight);
+        const p = Math.min(1, Math.max(0, -r.top / span));
+        stage.style.setProperty('--p', p.toFixed(4));
+        /* Once the field is gone there is nothing to animate; the tide is tens
+           of thousands of arcs a frame, so it is stopped rather than hidden. */
+        const running = p < 0.45;
+        if (running !== this.state.mapRunning) this.setState({ mapRunning: running });
+        /* The statement fills on its own position, not the hero's: --t runs
+           from the block entering the lower third to it sitting at the top of
+           the viewport, so the words land while it is being read. */
+        const text = this.textRef.current;
+        if (!text) return;
+        const tr = text.getBoundingClientRect();
+        const from = window.innerHeight * 0.85, to = window.innerHeight * 0.15;
+        const t = Math.min(1, Math.max(0, (from - tr.top) / Math.max(1, from - to)));
+        text.style.setProperty('--t', t.toFixed(4));
+      });
+    };
+    addEventListener('scroll', this._onScroll, { passive: true });
+    addEventListener('resize', this._onScroll);
+    this._onScroll();
+  }
+
+  componentWillUnmount() {
+    removeEventListener('scroll', this._onScroll);
+    removeEventListener('resize', this._onScroll);
+    if (this._raf) cancelAnimationFrame(this._raf);
+    if (this._navWait) clearInterval(this._navWait);
+  }
+
+  /* The site navigation comes from the design system (SiteNav), not from this
+     page, so every template shows the same menu. The bundle may not have
+     landed on the first render — the empty lists below are a one-frame
+     placeholder and the poll re-renders once it has. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      /* Bounded: a poll that forces a render every 60ms for as long as the page
+         is open is a second animation loop if the bundle never lands. */
+      let tries = 0;
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        const done = (n && n.SiteNav) || ++tries > 120;
+        if (done) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav();
+    return {
+      /* Spacing and dot size are one number upstream: the dot radius is derived
+         from the pitch, so changing pitch alone rescales the whole screen and
+         looks identical. Dividing the radius multiplier back out by the pitch
+         keeps the dots the size they were, so mapPitch reads purely as how
+         tightly the lattice sits. */
+      mapPitch: this.props.mapPitch ?? 4,
+      mapDotScale: (this.props.mapDotScale ?? 0.55) * 4 / (this.props.mapPitch ?? 4),
+      mapBounds: this._bounds,
+      mapLevel: this.props.mapLevel ?? 1,
+      mapRunning: this.state.mapRunning,
+      scrollRef: this.scrollRef,
+      stageRef: this.stageRef,
+      textRef: this.textRef,
+      menuOpen: this.props.showMenu || this.state.menuOpen,
+      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+    };
+  }
+}
+
+</script>
+</body>
+</html>

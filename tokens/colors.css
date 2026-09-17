@@ -1,0 +1,97 @@
+/* Two colours. Everything else is ink blended into paper at a fixed
+   percentage: 65, 55, 12 and 5, and no others. No accent, no third hue, no
+   neutral greys. */
+
+:root {
+  --paper: #F7F6FA;   /* page ground, cool white with a faint violet cast */
+  --ink: #032918;     /* all primary text, deep green — 14.2:1 on paper */
+
+  --ink-65: #586863;  /* secondary text, captions, metadata — ~5.5:1 */
+  --ink-55: #707E7A;  /* resting underline on secondary CTAs — ~3.9:1, non-text only */
+  --ink-12: #DADCDE;  /* the footer rule. Nothing else. */
+  --ink-5:  #EBEBEE;  /* ground for the visitor's own chat turns. Non-text only. */
+
+  --paper-70: #B4BDBA; /* secondary text on an inverted ground */
+
+  /* The wash. The lightest green the palette has, used as a ground under a
+     section that is holding the reader — a story being read rather than a
+     page being scanned. Ink goes up with it: on the wash the text is the ink
+     hue lifted, so the whole section warms a step without changing hue. */
+  --wash: #E3EFE7;      /* light green ground */
+  --ink-wash: #123D2A;  /* primary text on the wash — ~8.8:1 */
+  --ink-wash-65: #4E645A; /* secondary text on the wash — ~5:1 */
+
+  /* On dark. Text on the ink ground is not paper: paper's violet cast reads as
+     plain white against the deep green. These two are the ink hue lifted, so an
+     inverted surface stays green all the way through. Ink grounds only. */
+  --mint: #DDECE2;    /* primary text on ink — 13.1:1 */
+  --mint-70: #A5BCAF; /* secondary text on ink — ~7.7:1 */
+
+  /* The ground every halftone reveal prints on — ImageReveal, ImageScreen and
+     the film band. Paper: the print is ink on paper, and a green ground under
+     every photograph on the page was too much of it. Where light green does
+     belong in the imagery is being explored in
+     `explorations/reveal-green.card.html`. */
+  --reveal-ground: var(--paper);
+
+  /* Semantic aliases. Use these in components. */
+  --surface: var(--paper);
+  --surface-inverted: var(--ink);
+  /* The lightest tint the palette has, as a ground: the visitor's own turns in
+     the conversation surface. Not a card system — this is the only fill.
+     ink-12 is the rule weight and reads as a grey box behind 15px type; at 5
+     percent the block registers without becoming an element of its own. */
+  --surface-tint: var(--ink-5);
+  --text-primary: var(--ink);
+  --text-secondary: var(--ink-65);
+  --text-primary-inverted: var(--mint);
+  --text-secondary-inverted: var(--mint-70);
+  --underline-rest: var(--ink-65);
+  --underline-rest-secondary: var(--ink-55);
+  --underline-active: var(--ink);
+  --rule-footer: var(--ink-12);
+  /* The same hairline, for the two other sanctioned uses: specification table
+     rows, and the optional rule above a labelled block. Nothing else. */
+  --rule-hairline: var(--ink-12);
+  --focus-ring: var(--ink);
+  --focus-ring-inverted: var(--mint);
+
+  /* The one overlay ground in the system: ink over the page while a surface is
+     open above it. Near-opaque, so the page reads as the deep green rather than
+     as a grey veil over paper — what is underneath is out of reach, and dimming
+     it halfway only makes it look available. Overlay only: never behind text,
+     never as a fill.
+     --scrim is kept as the older name for the same value. */
+  --overlay: color-mix(in srgb, var(--ink) 96%, transparent);
+  --scrim: var(--overlay);
+}
+
+/* Washed section scope. The ground a story sits on while it is being read.
+   Same two colours, one step lighter and one step greener. */
+[data-washed] {
+  --surface: var(--wash);
+  --paper: var(--wash);
+  --text-primary: var(--ink-wash);
+  --text-secondary: var(--ink-wash-65);
+  --underline-rest: var(--ink-wash-65);
+  --underline-active: var(--ink-wash);
+  --focus-ring: var(--ink-wash);
+  background: var(--wash);
+  color: var(--ink-wash);
+}
+
+/* Inverted section scope. Apply to one section per page at most. */
+[data-inverted] {
+  --surface: var(--ink);
+  /* paper and paper-70 are re-pointed inside the scope, so a child that reaches
+     for them directly inverts to the green pair without knowing where it sits. */
+  --paper: var(--mint);
+  --paper-70: var(--mint-70);
+  --text-primary: var(--mint);
+  --text-secondary: var(--mint-70);
+  --underline-rest: var(--mint-70);
+  --underline-active: var(--mint);
+  --focus-ring: var(--mint);
+  background: var(--ink);
+  color: var(--mint);
+}

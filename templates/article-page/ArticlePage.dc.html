@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Article page" description="Vinge article: breadcrumbs, title, a library photograph, and the full rich-text vocabulary as the body." -->
+<helmet><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}[data-author-portraits]{display:none}[data-toc]{display:none}[data-fr-row]:hover [data-fr-head]{text-decoration-color:var(--ink)}[data-fr-cell]{grid-column:1 / -1;min-width:0}[data-fr-cell="media"]{display:none}@media (min-width:768px){[data-fr-cell="date"]{grid-column:1 / 2}[data-fr-cell="title"]{grid-column:2 / 5}}@media (min-width:1280px){[data-fr-cell="date"]{grid-column:1 / 2}[data-fr-cell="title"]{grid-column:2 / 6}[data-fr-cell="media"]{display:block;grid-column:6 / 9}}@media (min-width:1280px){[data-toc]{display:block}[data-authors-panel]{position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-4));align-self:start}[data-author]{min-height:0}}@media (min-width:1280px) and (hover:hover){[data-author-avatar]{display:none}[data-author-portraits]{display:block}}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" plate="{{ overBanner }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<article>
+<section id="banner" style="position:relative;margin-top:calc(-1 * (44px + var(--space-3) * 2));display:flex;flex-direction:column;height:100svh">
+<div style="position:relative;flex:1;min-height:0;overflow:hidden">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageScreen" src="../../assets/images/anonymous-05.png" ratio="21:9" bleed="{{ true }}" alt="Möte vid ett bord, sett genom en glasvägg" dc-props="{{ screenFill }}" style="position:absolute;inset:0" hint-size="100%,100%"></x-import>
+<div style="position:absolute;top:calc(44px + var(--space-3) * 2);left:0;right:0;z-index:5;mix-blend-mode:exclusion;--text-primary:var(--paper);--text-secondary:var(--paper);--ink-55:var(--paper)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Breadcrumbs" items="{{ trail }}" hint-size="100%,24px"></x-import>
+</div>
+</div>
+<div class="grid" style="flex:none;width:100%;align-self:stretch;padding-top:var(--space-7);padding-bottom:var(--space-4)">
+<div style="grid-column:1 / -1">
+<h1 class="display-2" style="max-width:34ch">Tech Sovereignty Package – Kommissionens förslag för att stärka Europas digitala oberoende och motståndskraft</h1>
+<div style="margin-top:var(--space-3)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.MetaLine" parts="{{ meta }}" hint-size="100%,22px"></x-import>
+</div>
+</div>
+</div>
+</section>
+<div class="grid" style="padding-top:var(--section-gap);padding-bottom:var(--chapter-gap)">
+<div data-article-body class="place-prose-indent">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.RichText" hint-size="100%,1400px">
+<p class="lead">Den 3 juni 2026 presenterade Europeiska kommissionen (Kommissionen) slutligen paketet om europeisk teknisk suveränitet, <em>Tech Sovereignty Package</em>, som syftar till att stärka EU:s teknologiska oberoende och minska unionens avhängighet av leverantörer utanför EU av kritisk digital teknik. Paketet har blivit försenat tre gånger och omfattar bland annat halvledare, artificiell intelligens (AI), molninfrastruktur, öppen källkod och digital teknik inom energisektorn.</p>
+<figure>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ArtworkPin" src="../../assets/images/office-06.png" alt="Kontorsmiljö i dagsljus" pin="{{ vasePin }}" artist="Ingrid Vikander" work="Kärl nr 7" year="2019" artwork-src="../../assets/art/artwork-01.png" artwork-alt="Kärl nr 7, drejad stengods" work-info="Drejad i stengods och bränd i vedugn, en av sju i en serie där varje kärl fått sin form av samma rörelse upprepad." ratio="3:2" bleed="{{ false }}" grid-size="{{ 4 }}" hint-size="100%,320px"></x-import>
+<figcaption>Navigate The AI Landscape</figcaption>
+</figure>
+<h2>Inledning</h2>
+<p>Bakgrunden är att EU under senare år har uppmärksammat sårbarheter kopplade till beroenden av ett begränsat antal globala teknikaktörer, särskilt från USA och Kina. Amerikanska molnföretag står för omkring 70 procent av den europeiska molnmarknaden och amerikanska aktörer driver även en stor del av den storskaliga infrastruktur som ligger till grund härför. Dessa beroenden har aktualiserat frågor om informationssäkerhet, leveranskedjor, exportrestriktioner, jurisdiktionell kontroll och möjligheten för tredjeländer att indirekt påverka europeiska aktörer.</p>
+<p>Paketet innehåller två förslag till förordningar, Cloud and AI Development Act (CADA) (molntjänster) och Chips Act 2.0 (halvledare), samt The EU Open Source Strategy (Strategin för öppen källkod) och Strategic Roadmap for Digitalisation and AI in the Energy Sector (Färdplanen för digitalisering och AI inom energisektorn).</p>
+<table>
+<caption>De fyra delarna i Tech Sovereignty Package</caption>
+<thead><tr><th>Del</th><th>Form</th><th>Område</th></tr></thead>
+<tbody>
+<tr><td>Cloud and AI Development Act (CADA)</td><td>Förslag till förordning</td><td>Molntjänster</td></tr>
+<tr><td>Chips Act 2.0</td><td>Förslag till förordning</td><td>Halvledare</td></tr>
+<tr><td>The EU Open Source Strategy</td><td>Strategi</td><td>Öppen källkod</td></tr>
+<tr><td>Strategic Roadmap for Digitalisation and AI in the Energy Sector</td><td>Färdplan</td><td>Energisektorn</td></tr>
+</tbody>
+</table>
+<p>Genom CADA vill Kommissionen stärka Europas moln- och AI-kapacitet, stödja forskning och innovation, förenkla förutsättningarna för utbyggnad av datacenter och införa ett gemensamt EU-ramverk för att bedöma moln- och AI-suveränitet. Förslaget om Chips Act 2.0 bygger vidare på EU:s befintliga halvledarpolitik och ska öka kapaciteten inom avancerad halvledarteknik, stärka försörjningstryggheten, påskynda tillståndsprocesser och skapa bättre incitament för investeringar och industriell användning av europeiska chip. The EU Open Source Strategy (Strategin för öppen källkod) ska stärka Europas öppna digitala ekosystem genom att främja utveckling, uppskalning, användning och långsiktigt underhåll av öppna teknologier. Strategic Roadmap for Digitalisation and AI in the Energy Sector (Färdplanen för digitalisering och AI inom energisektorn) kompletterar paketet och syftar till att knyta samman digital infrastruktur med energisystemets omställning.</p>
+<p>Paketet bör också ses i ljuset av EU:s befintliga digitala regelverk och politiska initiativ, såsom Digital Decade, Affordable Energy Action Plan, AI Act, The AI Continent Action Plan, samt Mario Draghis rapport <a href="#">The future of European competitiveness</a> och Konkurrenskraftskompassen. Tech Sovereignty Package betonar tydligare kapacitet, kontroll och industriell uppbyggnad, snarare än enbart reglering av digitala marknader och risker. Det bygger även vidare på Kommissionens bredare konkurrenskraftsagenda, inklusive ambitionen att bli en AI-kontinent och satsningar på AI-fabriker, AI-gigafabriker och europeisk beräkningskapacitet. Tillsammans med dessa initiativ syftar paketet till att skapa ett ramverk för att stärka Europas digitala oberoende, motståndskraft och konkurrenskraft.</p>
+<p>Nedan sammanfattas de fyra delarna i paketet.</p>
+<h2 data-toc-label="Cloud and AI Development Act">Cloud and AI Development Act (CADA): Regelverk för suveräna molntjänster och digital kapacitetsuppbyggnad</h2>
+<p>Kärnan i paketet är den föreslagna förordningen om moln- och AI-utveckling (CADA), som syftar till att skala upp EU-baserad moln- och AI-infrastruktur. Enligt Kommissionen utgör EU:s beroende av ett begränsat antal molntjänsteleverantörer från länder utanför EU en betydande sårbarhet för unionens kritiska digitala infrastruktur och en risk för dess digitala autonomi och motståndskraft. För att adressera dessa utmaningar kombinerar exempelvis CADA åtgärder såsom ökad datacenterkapacitet och innovationsstöd och nya ramverk för moln- och AI-suveränitet. Förordningen kommer att vara av särskild betydelse för molntjänstleverantörer, datacenteroperatörer, AI-utvecklare, offentliga beställare av sådana tjänster samt företag vars verksamhet är beroende av kritisk digital infrastruktur i Europa.</p>
+<h3>Cloud and AI Leadership Initiatives</h3>
+<p>En av de viktigaste ambitionerna i förslaget är att tredubbla EU:s datacenterkapacitet inom fem till sju år, med siktet inställt på att unionen ska ha en tillräcklig kapacitet senast 2035. För att uppnå detta etablerar CADA ett ramverk kallat ”Cloud and AI Leadership Initatives”, vars syfte är att främja forskning, innovation och storskalig kapacitetsuppbyggnad inom EU:s moln- och AI-ekosystem. Detta initativ täcker ett brett spektrum av mål, inklusive:</p>
+<ol>
+<li>mer energi- och resurseffektiv datacenterteknik;</li>
+<li>större autonomi över molnstacken;</li>
+<li>utveckling av frontlinje-, fysisk och industriell AI;</li>
+<li>användning av AI inom den offentliga sektorn;</li>
+<li>plattform för AI-agenter; och</li>
+<li>samarbetsinriktade europeiska industrimodeller.</li>
+</ol>
+<p>Medlemsstaterna ska också vara skyldiga att anta nationella moln- och AI-strategier som är i linje med dessa mål.</p>
+<h3>Ett EU-ramverk för molnsuveränitet</h3>
+<p>Utöver målet att öka datacenterkapaciteten inför förslaget ett EU-ramverk för molnsuveränitet som är byggt kring fyra så kallade "säkringsnivåer" (”Union assurance levels”). Molntjänstleverantörer måste uppfylla dessa säkerhetsnivåer för att kunna leverera tjänster till offentliga aktörer. Kraven skärps progressivt från nivå 1 till nivå 4 och nivåerna bestäms utifrån kriterier såsom:</p>
+<ul>
+<li>kontroll över tjänsten,</li>
+<li>kontroll över leveranskedjan,</li>
+<li>hur data behandlas,</li>
+<li>var infrastrukturen är lokaliserad samt</li>
+<li>cybersäkerhet.</li>
+</ul>
+<h4>Bedömning och upphandling</h4>
+<p>Leverantörer som söker erkännande på nivå 1 genomför en självstyrd överensstämmelsebedömning, medan nivåerna 2-4 kräver oberoende tredjepartsgranskning. Upphandlande myndigheter vars verksamhet bedömts ha betydelse för den allmänna ordningen, inom sektorer som energi, hälsa, försvar och rättsväsende, blir skyldiga att upphandla enbart tjänster som uppnått <strong>minst nivå 2</strong>. Såväl medlemsstater som EU-institutioner åläggs att genomföra individuella riskbedömningar av suveränitet för att avgöra vilken säkerhetsnivå som är lämplig för olika användningsfall inom den offentliga sektorn.</p>
+<p>Förslaget ger därmed utrymme för nationella variationer i tillämpningen av EU:s ramverk för molnsuveränitet, snarare än att föreskriva en fullt harmoniserad strategi. Enligt utkastet tilldelas Kommissionen befogenhet att anta genomförandeakter med krav på att privata företag i sektorer som omfattas av EU:s övergripande cybersäkerhetslagstiftning, det reviderade direktivet om nätverks- och informationssystem (NIS2), utför liknande bedömningar.</p>
+<h2 data-toc-label="Chips Act 2.0">Chips Act 2.0: En uppdaterad EU-strategi för ekosystemet för halvledare</h2>
+<p>Halvledare är en vital komponent inom den digitala utvecklingen som återfinns i allt från wearables och bilar till utrustning inom militären och sjukvården. Genom den allt snabbare integreringen av avancerade digitala tekniker, specifikt AI, har även den globala efterfrågan på halvledare ökat markant. Halvledarsektorn anses därför idag vara en hörnsten i EU:s ekonomiska stabilitet, teknologiska suveränitet och säkerhet.</p>
+<p>Med denna strategiska betydelse följer också en ökad oro för de geopolitiska spänningarna i världen, där tillverkningen och försörjningen av halvledare inte bara utgör en nationell tillgång utan även innebär en sårbarhet i det fall exempelvis flaskhalsar uppstår.</p>
+<p>Mot denna bakgrund antogs redan 2023 en första European Chips Act. Även om denna ansetts leda till konkreta och betydande resultat, såsom exempelvis mobiliserandet av privata och offentliga investeringar samt en samordnings- och krishanteringsmekanism, kvarstår såväl kapacitetluckor som strukturella sårbarheter.</p>
+<h3>Två övergripande mål</h3>
+<sc-if value="{{ goalsBand }}" hint-placeholder-val="{{ false }}">
+<div style="width:auto;max-width:none;margin-left:0;margin-block:var(--space-4) var(--rte-section)">
+<ol style="list-style:none;counter-reset:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);gap:0">
+<li style="margin:0;padding:0 0 var(--space-4);min-width:0;border-bottom:1px solid var(--rule-hairline)" style-before="display:none">
+<p class="small" style="margin:0;color:var(--text-secondary)">01</p>
+<h4 style="font-family:var(--font-display);font-weight:var(--weight-book);font-size:var(--display-3);line-height:var(--lh-display-3);letter-spacing:var(--tracking-display-3);color:var(--text-primary);margin:var(--space-2) 0 0;max-width:none">Ökad konkurrenskraft</h4>
+<p class="small" style="margin:var(--space-2) 0 0;color:var(--text-primary)">Att öka konkurrenskraften för europeiska halvledare i syfte att vidare stärka teknologisk suveränitet och motståndskraft.</p>
+</li>
+<li style="margin:0;padding:var(--space-4) 0;min-width:0;border-bottom:1px solid var(--rule-hairline)" style-before="display:none">
+<p class="small" style="margin:0;color:var(--text-secondary)">02</p>
+<h4 style="font-family:var(--font-display);font-weight:var(--weight-book);font-size:var(--display-3);line-height:var(--lh-display-3);letter-spacing:var(--tracking-display-3);color:var(--text-primary);margin:var(--space-2) 0 0;max-width:none">Stärkt krisberedskap</h4>
+<p class="small" style="margin:var(--space-2) 0 0;color:var(--text-primary)">Att stärka EU:s krisberedskap för att säkerställa dess försörjningstrygghet och ekonomiska säkerhet.</p>
+</li>
+</ol></div>
+</sc-if>
+<sc-if value="{{ goalsPlain }}" hint-placeholder-val="{{ true }}">
+<ol>
+<li>Att öka konkurrenskraften för europeiska halvledare i syfte att vidare stärka teknologisk suveränitet och motståndskraft.</li>
+<li>Att stärka EU:s krisberedskap för att säkerställa dess försörjningstrygghet och ekonomiska säkerhet.</li>
+</ol>
+</sc-if>
+<p>Genomförandet härav kommer ske genom åtgärder på utbudssidan, något som den ursprungliga chipsakten redan fokuserade på, men även genom åtgärder på efterfrågesidan.</p>
+<h4>Åtgärder på efterfrågesidan</h4>
+<p>Några av de mer konkreta åtgärder som föreslås för att bidra till att stimulera efterfrågan är införandet av s.k. ”Demand Accelerators”. Detta innebär att Kommissionen och medlemsstaterna ska kunna stimulera användning av halvledare som designats eller tillverkats inom unionen, särskilt inom strategiska sektorer såsom moln-, fordons-, flyg-, telekom- och försvarsindustrin. Detta kan göras bland annat genom:</p>
+<ul>
+<li>att Kommissionen tar fram gemensamma tekniska färdplaner samt stödjer samarbetsplattformar och designpartnerskap;</li>
+<li>åtgärder inom offentlig upphandling, såsom stöttandet av gränsöverskridande gemensamma upphandlingsarrangemang samt inom innovationsupphandling i syfte att samla efterfrågan och effektivisera investeringar;</li>
+<li>inrättandet av ett ”Demand Forum”, en tilltänkt mötesplats mellan leverantörer och potentiella användare där de senare ges möjlighet att förklara sina behov och önskade specifikationer i syfte att samla efterfrågesignaler och synliggöra utbud.</li>
+</ul>
+<h4>Åtgärder på utbudssidan</h4>
+<p>På utbudssidan föreslås fortsatt förbättring och utveckling av pilotprojekt för framtagandet och utvecklandet av nya halvledarteknologier och designkoncept samt att den vidare industrialiseringen av lyckade sådana projekt ska påskyndas. Vidare föreslås införandet av en ny kategori av s.k. ”strategic projects” - halvledarprojekt som Kommissionen kan erkänna som strategiska om de bl.a. uppfyller krav på att skapa ett betydande mervärde till unionen, genomförs av inhemska företag och har en gränsöverskridande dimension. Dessa strategiska projekt föreslås tillsammans med europeiska halvledarinitiativ åtnjuta snabbare administrativa tillståndsprocesser med en längsta tid på 12 månader och medlemsstaterna ska centralisera och samordna tillståndsansökningarna. Kommissionen föreslår också införandet av märkningen ”European Semiconductor Regions of Excellence”, vilket Kommissionen kan tilldela regioner vilka uppfyller krav för att ha en strategisk vision. I praktiken syftar detta till att attrahera internationella investeringar till dessa områden.</p>
+<h2 data-toc-label="Öppen källkod">EU:s strategi för öppen källkod: från tekniskt alternativ till suveränitetsverktyg</h2>
+<p>The EU Open Source Strategy (Strategin om öppen källkod) placerar öppen källkodsteknik i centrum för Europas strävan efter digitalt oberoende. Öppen källkod ses inte längre bara som ett tekniskt alternativ på europeisk nivå, utan som en strategisk byggsten för digital suveränitet. I detta sammanhang fungerar öppen källkod som ett horisontellt verktyg: halvledare, moln, AI, digital identitet och offentlig digital infrastruktur är alla beroende av mjukvara, standarder och återanvändbara komponenter som EU i högre grad vill kunna kontrollera och vidareutveckla på egna villkor. Kommissionen beskriver också strategin som ett sätt att minska beroenden över hela teknikstacken.</p>
+<h3>Strategin har fyra övergripande mål</h3>
+<ol>
+<li>Främja utvecklingen och införandet av alternativ för öppen källkod som återspeglar EU:s värderingar.</li>
+<li>Tillhandahålla vägledning och bästa praxis för offentlig upphandling och stärka hur Kommissionen själv använder öppen källkod.</li>
+<li>Bygga ett livskraftigt ekosystem för öppen källkod genom stöd till företag, utvecklargemenskaper, förbättrad styrning, säkerhet och kompetens.</li>
+<li>Främja EU:s lösningar för öppen källkod internationellt och integrera dem mer effektivt i standardiseringsprocesser.</li>
+</ol>
+<p>Öppen källkod lyfts fram som ett sätt att minska leverantörsinlåsning och stärka transparens, interoperabilitet och europeisk kontroll över digitala system. För offentlig sektor påverkar detta upphandling, licenshantering samt bedömningar av säkerhet, kontinuitet och långsiktig förvaltningsbarhet. Kommissionen betonar behovet av upphandlingsvägledning och rättvisare bedömning av öppna lösningar. Samtidigt garanterar öppen källkod inte teknologisk suveränitet: utan långsiktig finansiering, säkerhetsunderhåll och europeisk industriell förankring kan beroenden kvarstå. Strategin fokuserar därför på styrning, kritiska beroenden, Open Source Maintenance Instrument och långsiktig förvaltning. Genom det så kallade Digital Commons European Digital Infrastructure Consortium (DC-EDIC), som möjliggör för medlemsstaterna att gemensamt utveckla, införa och driva gränsöverskridande digital infrastruktur, ska öppna, interoperabla lösningar utvecklas och återanvändas över gränserna.</p>
+<h2 data-toc-label="Energisektorn">En strategisk färdplan för digitalisering och AI inom energisektorn</h2>
+<p>Den fjärde och sista komponenten i paketet utgörs av Strategic Roadmap on digitalisation and AI in the energy sector (färdplanen för digitalisering och AI inom energisektorn), vilken binder samman målsättningen om att påskynda unionens digitalisering och AI-baserade lösningar med unionens klimat- och energimål. I färdplanen åskådliggörs två parallella utmaningar. Å ena sidan möjligheten att använda digitalisering och AI för att effektivisera energisystem, minska kostnader och i längden ge en mer konkurrenskraftig industri, ge hushållen finansiell lättnad och skapa ett mer motståndskraftigt energisystem. Å andra sidan riskerar den snabba tillväxten av den digitala infrastrukturen, särskilt datacenter, att leda till en ökad belastning på elnäten med en eventuell inverkan på energipriser, behovet av vattenresurser och tillgången till elnätet för konsumenter. Samtidigt poängteras möjligheten att med hjälp av AI-system kunna skapa ett mer flexibelt, datadrivet och motståndskraftigt energisystem där konsumenter, industri och nätoperatörer bättre kan reagera på prissignaler, optimera förbrukning och delta i flexibilitetsmarknader.</p>
+<h3>Färdplanen vilar på tre pelare</h3>
+<ol>
+<li>En hållbar integration av datacenter i energisystemet genom bland annat trepartsavtal mellan datacenteroperatörer, energiaktörer och offentliga myndigheter. Härunder introduceras även ett kommande EU-system för hållbarhetsklassificering av datacenter.</li>
+<li>Påskynda användningen av digitala och AI-lösningar, genom att främja nätförbättrande teknik, smarta mätare och AI-modeller för att kunna ge nätplanering, prognoser och hantera flaskhalsar.</li>
+<li>Inrättandet av ett EU-ramverk för att underlätta delning av energidata över EU:s interna gränser, både för primär användning, alltså det operativa datautbytet mellan identifierade aktörer, och sekundär användning, såsom för forskning och träning av AI-modeller.</li>
+</ol>
+<p>Dessa tre delar kompletteras även av horisontella insatser avseende cybersäkerhet och bekämpningen av hybridhot, tillit, kompetensförsörjning och internationellt samarbete. Åtgärderna i färdplanen planeras vara genomförda senast år 2030 och under tiden kommer Kommissionen, med start i år, att sammankalla ett årligt forum för digitalisering av energisektorn, som ska fungera som en uppföljnings- och samordningsmekanism för att utvärdera framsteg, identifiera kvarstående hinder, sprida god praxis och fånga upp nya utvecklingar som kan motivera ytterligare åtgärder.</p>
+<h2>Kommentar</h2>
+<p>Tekniksuveränitetspaketet är ambitiöst i både bredd och ansats. Till skillnad från tidigare EU-initiativ på det digitala området, som huvudsakligen har inriktats på att reglera marknader och risker, betonar paketet i stället kapacitet, kontroll och industriell uppbyggnad. Det bör därför inte förstås som en enskild lagstiftningsakt, utan som en strategi som spänner över infrastruktur, industripolitik, upphandling och energi och vars särskilda kännetecken är erkännandet av att digitalt beroende utgör en strategisk sårbarhet.</p>
+<h3>Kritiken</h3>
+<p>Reaktionerna på förslagen har hittills varit få, men blandade, och kritiken som kommit riktar sig i hög grad mot att paketet inte lever upp till sitt uttalade syfte. I debatten har TechPolicyPress beskrivit Tech Sovereignty Package som ett misslyckande i förhållande till målet att minska beroendet av Big Tech. Kritiken går ut på att paketet rymmer en grundläggande motsägelse: det vill samtidigt främja konkurrenskraft, hållbarhet och suveränitet, men definierar suveränitet i huvudsak geografiskt, det vill säga som en fråga om att köpa AI- och molntjänster som tillhandahålls inom Europa, oavsett vem som ytterst äger leverantören. Den avgörande distinktionen i CADA är att regelverket kräver <strong>"kontroll" men inte europeiskt ägande</strong>. Det innebär att amerikanska molnaktörer kan kvalificera sig även på den striktaste säkerhetsnivån, förutsatt att deras europeiska dotterbolag är formellt separerade från moderbolaget och att kunddata, personal, infrastruktur och styrning förblir inom Europa. Det öppna fönstret för Big Tech är således att ett utländskt moderbolag kan behålla ägandet så länge den europeiska enheten uppfyller regelverkets lokaliserings- och kontrollkrav. Trots paketets uttalade ambition att stärka Europas digitala oberoende konstaterar kritikerna att förslaget inte lyckas adressera den offentliga sektorns faktiska beroende av amerikanska leverantörer – tvärtom riskerar det att befästa och utvidga detta beroende.</p>
+<h3>Reaktioner från näringslivet</h3>
+<p>Från andra delar av näringslivet och branschorganisationerna har både stöd och kritik framförts. Flera reaktioner har varit övervägande positiva till paketets grundläggande inriktning, om än med tydliga förbehåll kring genomförande och balans. DIGITALEUROPE, branschorganisationen för den europeiska teknikindustrin, välkomnar, i motsats till ovan, förslaget till CADA och beskriver det som:</p>
+<blockquote>En bra utgångspunkt för en gemensam europeisk standard för suveränitet och säkerhet.</blockquote>
+<p>Organisationen framhåller att Europa behöver en enhetlig standard av det slag som andra stora ekonomier redan har, men pekar samtidigt på det fortsatta behovet av starkare åtgärder på efterfrågesidan och på vikten av att fokusera på uppskalning.</p>
+<p>Även Bruegel välkomnar den digitala suveräniteten som ett sunt mål att sträva efter, men kritiserar paketet för att utgöra en protektionistisk vändning som härmar USA och Kina genom statliga subventioner, lokala upphandlingsregler och inhemsk preferens. Sådana åtgärder riskerar enligt Bruegel att höja priser, sänka kvalitet, snedvrida marknaden, missgynna mindre länder och provocera fram motåtgärder, och att göra nationalitet till en säkerhetsindikator stänger marknaden i onödan. Eftersom USA:s och Kinas framgångar vilar på billig energi, kapital och stora marknader, förespråkar Bruegels författare i stället att EU utnyttjar den inre marknadens konkurrens och genomför strukturella reformer, snarare än att slå in på isolationismens väg. Att hindra europeiska företag från att anlita utländska leverantörer framstår enligt kritikerna som föga meningsfullt så länge det saknas konkurrenskraftiga europeiska alternativ.</p>
+<h2>Nästa steg</h2>
+<p>Förslaget går nu vidare i det ordinarie lagstiftningsförfarandet. Nästa steg är beredning i Rådet och Europaparlamentet, följt av trilogförhandlingar mellan Europaparlamentet, Rådet och Kommissionen innan en politisk överenskommelse kan nås och rättsakterna antas formellt. Inom den interinstitutionella färdplanen "One Europe, One Market" har måldatum för antagande satts till:</p>
+<dl>
+<dt>Chips Act 2.0</dt>
+<dd>Andra kvartalet 2027.</dd>
+<dt>Cloud and AI Development Act</dt>
+<dd>Fjärde kvartalet 2027.</dd>
+</dl>
+<p>Det återstår att se hur snabbt processen går och i vilken utsträckning förslaget förändras under förhandlingarna. Förslagen är inte okontroversiella, eftersom förhandlingarna väntas beröra frågor som europeisk teknologisk suveränitet, offentlig upphandling, moln- och AI-infrastruktur, halvledarförsörjning, statsstöd, energikapacitet och förhållandet till tredjelandsleverantörer. Samtidigt kan åtgärder som det tidigare, men nu delvis upphävda, amerikanska beslutet att blockera andra länders tillgång till Anthropics nya Mythos-modell påskynda lagstiftningsprocessen.<sup>1</sup></p>
+<small>1. Uppgifterna gäller per den 3 juni 2026 och ersätter inte rådgivning i ett enskilt ärende.</small>
+</x-import>
+</div>
+<aside data-authors-panel class="place-note small" style="color:var(--text-secondary)">
+<div data-toc style="margin-bottom:var(--space-5)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.OnThisPage" scope="[data-article-body]" offset="{{ 132 }}" label="Innehåll" dividers="{{ false }}" dense="{{ true }}" progress="{{ false }}" bottom-gap="{{ 100 }}" hint-size="100%,200px"></x-import>
+</div>
+<p style="margin:0;color:var(--text-primary)">Författare</p>
+
+<div style="position:relative;display:grid;gap:var(--space-1);margin-top:var(--space-2)">
+<sc-for list="{{ authors }}" as="author" hint-placeholder-count="0">
+<div>
+<div data-author onMouseEnter="{{ author.enter }}" onMouseMove="{{ author.move }}" onMouseLeave="{{ author.leave }}" style="display:flex;align-items:center;gap:var(--space-2);min-height:44px">
+<sc-if value="{{ author.portrait }}" hint-placeholder-val="{{ false }}"><span data-author-avatar style="flex:none;width:40px;height:40px;border-radius:50%;overflow:hidden;background:var(--ink-12)"><img data-avatar-src="{{ author.portrait }}" alt="" style="display:block;width:100%;height:100%;object-fit:cover"></span></sc-if>
+<a href="{{ author.href }}" onMouseEnter="{{ author.enter }}" onFocus="{{ author.enter }}" onBlur="{{ author.leave }}">{{ author.name }}</a>
+<button type="button" onClick="{{ author.toggle }}" onMouseEnter="{{ author.leave }}" aria-expanded="{{ author.expanded }}" aria-label="Kontaktuppgifter" style="flex:none;margin-left:auto;display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:0;background:none;color:var(--text-primary);cursor:pointer">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Icon" name="{{ author.toggleIcon }}" size="{{ 16 }}" hint-size="16px,16px"></x-import>
+</button>
+</div>
+<sc-if value="{{ author.open }}" hint-placeholder-val="{{ false }}">
+<dl style="display:grid;gap:var(--space-1);margin:var(--space-2) 0 var(--space-3);padding-bottom:var(--space-2);border-bottom:1px solid var(--rule-hairline)">
+<sc-for list="{{ author.contact }}" as="row" hint-placeholder-count="0">
+<div style="display:flex;gap:var(--space-2)">
+<dt style="flex:none;min-width:7ch;color:var(--text-secondary)">{{ row.key }}</dt>
+<dd style="margin:0"><a href="{{ row.href }}">{{ row.value }}</a></dd>
+</div>
+</sc-for>
+</dl>
+</sc-if>
+</div>
+</sc-for>
+<div data-author-portraits style="position:fixed;top:0;left:0;width:320px;z-index:40;pointer-events:none;will-change:transform">
+<sc-for list="{{ authors }}" as="author" hint-placeholder-count="0">
+<div style="position:absolute;top:0;left:0;width:100%">
+<sc-if value="{{ author.portrait }}" hint-placeholder-val="{{ true }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ author.portrait }}" alt="{{ author.name }}" ratio="4:5" play="{{ author.hovered }}" dc-props="{{ clearGround }}" duration="{{ 1500 }}" grid-size="{{ 4 }}" dynamics="{{ 0.15 }}" hint-size="100%,0"></x-import>
+</sc-if>
+</div>
+</sc-for>
+</div>
+</div>
+</aside>
+</div>
+<section class="grid">
+<h2 class="display-2 place-body-wide" style="margin:0 0 var(--space-5)">Vidare läsning</h2>
+<ul style="grid-column:1 / -1;list-style:none;margin:0;padding:0">
+<sc-for list="{{ further }}" as="f" hint-placeholder-count="0">
+<li data-fr-row onMouseEnter="{{ f.enter }}" onMouseLeave="{{ f.leave }}" style="display:grid;grid-template-columns:repeat(var(--cols),minmax(0,1fr));column-gap:var(--gutter);row-gap:var(--space-3);align-items:start;padding-block:var(--space-4);border-top:1px solid var(--ink)">
+<div data-fr-cell="date">
+<p class="small" style="margin:0;max-width:none;color:var(--text-primary)">{{ f.type }}</p>
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ f.dateLabel }}</p>
+<p class="small" style="margin:0;max-width:none;color:var(--text-secondary)">{{ f.readLabel }}</p>
+</div>
+<div data-fr-cell="title">
+<h3 class="display-3" style="margin:0;max-width:none">
+<a data-fr-head href="{{ f.href }}" onFocus="{{ f.enter }}" onBlur="{{ f.leave }}" style="font-family:inherit;font-size:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px;text-underline-offset:0.08em;transition:text-decoration-color var(--dur-reveal) var(--ease-expo)">{{ f.title }}</a>
+</h3>
+</div>
+<div data-fr-cell="media" style="aspect-ratio:3 / 2">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ f.imageSrc }}" alt="{{ f.alt }}" ratio="3:2" play="{{ f.on }}" grid-size="{{ 5 }}" dc-props="{{ clearGround }}" hint-size="100%,150px"></x-import>
+</div>
+</li>
+</sc-for>
+</ul>
+</section>
+</article>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" hint-size="100%,720px"></x-import>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;goalsAsBand&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Editorial blocks&quot;}}">
+/* The article page holds one lesson: the body is not written in the template,
+   it is written in an editor. Everything between the photograph and the footer
+   is `RichText` — the tags style themselves, and the page adds no class, no
+   inline style and no wrapper to any of them. The markup below is therefore
+   also the reference for what an editor may produce. */
+class Component extends DCLogic {
+  state = { menuOpen: false, overBanner: true, hovered: null, expanded: null, minutes: null, reading: null };
+
+  /* What to read next: one piece on the same subject, one the readership is
+     spending time on, one that is simply new. The mix is the point — a page
+     that only offers its own subject back is a dead end. */
+  /* The same row the listing prints: type, date and reading time in the first
+     column, the headline in the measure, the photograph answering the
+     pointer. Reusing the listing's row means a reader who arrives here from
+     the stream meets the object in the shape they left it. */
+  furtherList = [
+    { id: 'cada-upphandling', kicker: 'Samma ämne', title: 'Molnsuveränitet i offentlig upphandling: vad CADA:s nivåer innebär för kravställning', type: 'Insikt', dateLabel: '12 maj 2026', readLabel: '8 min läsning', href: '/nyheter/molnsuveranitet-upphandling', imageSrc: '../../assets/images/office-03.png', alt: 'Arbetsbord med dokument i dagsljus' },
+    { id: 'ai-act-praxis', kicker: 'Trendar', title: 'AI Act i praktiken: de första tillsynsbesluten och vad de säger om efterlevnad', type: 'Insikt', dateLabel: '28 april 2026', readLabel: '6 min läsning', href: '/nyheter/ai-act-i-praktiken', imageSrc: '../../assets/images/present-02.png', alt: 'Möte vid ett långbord' },
+    { id: 'halvledare-exportkontroll', kicker: 'Nytt', title: 'Exportkontroll av halvledarteknologi: nya anmälningsskyldigheter för svenska bolag', type: 'Nyhet', dateLabel: '10 juni 2026', readLabel: '4 min läsning', href: '/nyheter/exportkontroll-halvledare', imageSrc: '../../assets/images/office-07.png', alt: 'Trappa i kontorsmiljö' },
+  ];
+
+  /* Two readings of the same two people. Under 1280 the portrait is a 40px
+     circle standing next to the name; from 1280 up, where the note column is
+     its own two columns of margin, the name is the only thing printed and the
+     portrait prints itself in at 4:5 under the pointer — and unprints frame
+     for frame on the way out, which is what `play` on the house reveal is
+     for. Keyboard focus is the same trigger. */
+  /* Portraits are the register's own, requested at 4:5 through the same
+     CORS-clean proxy the people listing uses — the halftone painter reads the
+     image's pixels. A person without a portrait prints no circle and no
+     reveal; the name is still the link. */
+  authorList = [
+    { name: 'Martin Johansson, delägare, advokat', slug: 'martin-johansson', portrait: '/media/vzcmczwc/johansson_martin_socialmedia-1.jpg',
+      contact: [
+        { key: 'Direkt', value: '+46 10 614 30 21', href: 'tel:+46106143021' },
+        { key: 'E-post', value: 'martin.johansson@vinge.se', href: 'mailto:martin.johansson@vinge.se' },
+        { key: 'Kontor', value: 'Smålandsgatan 20, Stockholm', href: '/kontor/stockholm' },
+      ] },
+    { name: 'Sofie Nordgren, associate', slug: 'sofie-nordgren', portrait: '/media/tvxdmkyc/sofie-nordgren_socialmedia.jpg',
+      contact: [
+        { key: 'Direkt', value: '+46 10 614 31 47', href: 'tel:+46106143147' },
+        { key: 'E-post', value: 'sofie.nordgren@vinge.se', href: 'mailto:sofie.nordgren@vinge.se' },
+        { key: 'Kontor', value: 'Smålandsgatan 20, Stockholm', href: '/kontor/stockholm' },
+      ] },
+  ];
+
+  /* The header's triggers are paper glyphs in exclusion blend, which the
+     halftone banner does not reliably carry. While the image is still under
+     the header row they take a paper plate instead; the moment the image has
+     passed, the plate goes and the blend takes over again. Measured against
+     the image itself, not the banner section, so the paper band under it
+     counts as off the image. */
+  /* The portrait is not pinned to the list, it is carried by the pointer:
+     fixed, offset to the side so it never sits under the cursor itself, and
+     lagging behind by a fraction of the distance each frame so the movement
+     is damped rather than glued. Written straight to the node — sixty
+     re-renders a second would re-render the halftone canvases under it. */
+  follow = { x: 0, y: 0, tx: 0, ty: 0, raf: null, placed: false };
+
+  aimAt(e) {
+    const f = this.follow;
+    const W = 320, H = 400, GAP = 28;
+    /* Beside the pointer, never under it: to the left while there is room
+       there, so the portrait stands over the article's measure rather than out
+       in the margin, and to the right when the pointer is near the left edge. */
+    const left = e.clientX - GAP - W > 24;
+    f.tx = left ? e.clientX - GAP - W : e.clientX + GAP;
+    f.ty = Math.min(Math.max(e.clientY - H / 2, 16), window.innerHeight - H - 16);
+    if (!f.placed) { f.x = f.tx; f.y = f.ty; f.placed = true; this.writeFollow(); }
+    this.startFollow();
+  }
+
+  writeFollow() {
+    const node = document.querySelector('[data-author-portraits]');
+    if (node) node.style.transform = 'translate3d(' + Math.round(this.follow.x) + 'px,' + Math.round(this.follow.y) + 'px,0)';
+  }
+
+  startFollow() {
+    const f = this.follow;
+    if (f.raf != null) return;
+    const step = () => {
+      const dx = f.tx - f.x, dy = f.ty - f.y;
+      f.x += dx * 0.055;
+      f.y += dy * 0.055;
+      this.writeFollow();
+      if (Math.abs(dx) < 0.4 && Math.abs(dy) < 0.4) { f.x = f.tx; f.y = f.ty; this.writeFollow(); f.raf = null; return; }
+      f.raf = requestAnimationFrame(step);
+    };
+    f.raf = requestAnimationFrame(step);
+  }
+
+  componentDidMount() {
+    const HEADER = 92; /* 44px triggers + space-3 either side */
+    this.sync = () => {
+      const img = document.querySelector('#banner [role="img"]');
+      if (!img) return;
+      const over = img.getBoundingClientRect().bottom > HEADER;
+      if (over !== this.state.overBanner) this.setState({ overBanner: over });
+    };
+    window.addEventListener('scroll', this.sync, { passive: true });
+    window.addEventListener('resize', this.sync);
+    this.sync();
+
+    /* The reading time is counted off the body, not written into the page: the
+       copy is edited, the estimate follows it. 200 words a minute, and the
+       metadata line simply drops the part until the count exists. */
+    this.countWords = () => {
+      const body = document.querySelector('[data-article-body]');
+      if (!body) return;
+      const words = (body.innerText || body.textContent || '').trim().split(/\s+/).filter(Boolean).length;
+      if (!words) return;
+      const minutes = Math.max(1, Math.round(words / 200));
+      if (this.countTimer) { clearInterval(this.countTimer); this.countTimer = null; }
+      if (minutes !== this.state.minutes) this.setState({ minutes: minutes });
+    };
+    this.countTimer = setInterval(this.countWords, 400);
+    this.countWords();
+    this.placeAvatars();
+  }
+
+  /* The avatar file is handed over AFTER parse, not written into `src`: the
+     browser's speculative parser fetches a raw `src` before the runtime has
+     resolved it, and asks the server for the literal hole. */
+  placeAvatars() {
+    document.querySelectorAll('img[data-avatar-src]').forEach((img) => {
+      const want = img.getAttribute('data-avatar-src') || '';
+      if (want && want.indexOf('{{') === -1 && img.getAttribute('src') !== want) img.setAttribute('src', want);
+    });
+  }
+
+  componentDidUpdate() {
+    this.placeAvatars();
+  }
+
+  componentWillUnmount() {
+    if (this.countTimer) clearInterval(this.countTimer);
+    window.removeEventListener('scroll', this.sync);
+    window.removeEventListener('resize', this.sync);
+    if (this.follow.raf != null) cancelAnimationFrame(this.follow.raf);
+  }
+  /* The site navigation comes from the design system (SiteNav), not from this
+     page, so every template shows the same menu. The bundle may not have
+     landed on the first render — the empty lists below are a one-frame
+     placeholder and the poll re-renders once it has. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const band = this.props.goalsAsBand ?? true;
+    const nav = this.nav();
+    return {
+      menuOpen: this.state.menuOpen,
+      overBanner: this.state.overBanner && !this.state.menuOpen,
+      /* The screen fills the slot the title band leaves, so its own 21:9
+         aspect must not decide its height. Passed to the component's root,
+         not to the mount. */
+      screenFill: { style: { height: '100%', aspectRatio: 'auto' } },
+      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      /* The reveals are stacked in one place, so the one on top would hide the
+         one below it with its own paper ground. Only the played one is ever
+         visible, so none of them needs a ground. */
+      clearGround: { style: { background: 'transparent' } },
+      /* The vase on the sideboard, in the source file's own coordinates — the
+         pin is re-projected through the crop, so it stays on the piece. */
+      vasePin: { x: 0.333, y: 0.44 },
+      /* One editorial block lifted out of the reading column onto the washed
+         ground. The toggle is the whole reversal: off, the same two points are
+         the ordinary numbered list they were written as. */
+      goalsBand: band,
+      goalsPlain: !band,
+      further: this.furtherList.map((f) => ({
+        ...f,
+        on: this.state.reading === f.id,
+        enter: () => this.setState({ reading: f.id }),
+        leave: () => this.setState((s) => (s.reading === f.id ? { reading: null } : null)),
+      })),
+      authors: this.authorList.map((a, i) => ({
+        ...a,
+        href: '/personer/' + a.slug,
+        portrait: !a.portrait
+          ? ''
+          : a.portrait.startsWith('/media/')
+            ? 'https://images.weserv.nl/?url=' + encodeURIComponent('www.vinge.se' + a.portrait)
+              + '&w=760&h=950&fit=cover&output=webp&q=72'
+            : a.portrait,
+        hovered: this.state.hovered === i,
+        /* The plus is the accordion: the contact rows are printed under the
+           name, so the panel stays a list of names until one is asked for. */
+        open: this.state.expanded === i,
+        expanded: this.state.expanded === i,
+        toggleIcon: this.state.expanded === i ? 'subtract' : 'add',
+        toggle: () => this.setState((s) => ({ expanded: s.expanded === i ? null : i })),
+        contact: a.contact || [],
+        enter: (e) => {
+          if (this.state.hovered == null) this.follow.placed = false;
+          if (e && e.clientX != null) this.aimAt(e);
+          this.setState({ hovered: i });
+        },
+        move: (e) => this.aimAt(e),
+        leave: () => this.setState((s) => (s.hovered === i ? { hovered: null } : null)),
+      })),
+      /* The subject tag is a future link into a pre-filtered listing. Until
+         that page exists it is a real control — focusable, underlined on
+         hover — but carries no href. */
+      meta: [
+        '3 juni 2026',
+        React.createElement(
+          'span',
+          {
+            role: 'link',
+            tabIndex: 0,
+            title: 'Visa allt inom IT och dataskydd',
+            style: {
+              cursor: 'pointer',
+              color: 'inherit',
+              textDecoration: 'underline',
+              textDecorationColor: 'transparent',
+              textUnderlineOffset: '0.25em',
+              transition: 'text-decoration-color 160ms ease, color 160ms ease',
+            },
+            onMouseEnter: (e) => {
+              e.currentTarget.style.textDecorationColor = 'currentColor';
+              e.currentTarget.style.color = 'var(--text-primary)';
+            },
+            onMouseLeave: (e) => {
+              e.currentTarget.style.textDecorationColor = 'transparent';
+              e.currentTarget.style.color = 'inherit';
+            },
+          },
+          'IT och dataskydd',
+        ),
+        this.state.minutes ? this.state.minutes + ' min läsning' : null,
+      ],
+      trail: [
+        { label: 'Start', href: '/' },
+        { label: 'Insikter', href: '/nyheter' },
+        'Tech Sovereignty Package',
+      ],
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+    };
+  }
+}
+
+</script>
+</body>
+</html>

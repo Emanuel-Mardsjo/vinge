@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Hitta rätt person" description="The start page's finder field and the guided exchange it opens — from the visitor's own words to a name, with the rail filling as the questions are answered." -->
+<helmet><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad tänker du på?" on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+<!-- Never unmounted while it has been opened: the surface animates itself in
+     and out, and removing it from the document takes the movement with it. -->
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ open }}" prompt="{{ prompt }}" rail-mode="{{ railMode }}" on-close="{{ close }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;railMode&quot;:{&quot;editor&quot;:&quot;radio&quot;,&quot;default&quot;:&quot;swap&quot;,&quot;options&quot;:[&quot;swap&quot;,&quot;expand&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Rail&quot;}}">
+/* The page is the finder field and nothing else: the exchange behind it is the
+   design system's own guided conversation, script and all, so this template
+   holds no script of its own. What the visitor typed is handed over as the
+   first turn. */
+class Component extends DCLogic {
+  state = { open: false, prompt: null };
+
+  start = (prompt) => this.setState({ open: true, prompt: prompt || null });
+
+  /* The prompt is dropped after the surface has left, not on the click: an
+     emptied panel is what the visitor would otherwise watch slide out. */
+  close = () => {
+    window.clearTimeout(this._wipe);
+    this.setState({ open: false });
+    this._wipe = window.setTimeout(() => this.setState({ prompt: null }), 1200);
+  };
+
+  componentWillUnmount() { window.clearTimeout(this._wipe); }
+
+  renderVals() {
+    return {
+      open: this.state.open,
+      prompt: this.state.prompt,
+      railMode: this.props.railMode || 'swap',
+      start: this.start,
+      close: this.close,
+    };
+  }
+}
+</script>
+</body>
+</html>
