@@ -8,7 +8,7 @@
 <body>
 <x-dc>
 <!-- @template name="Article page" description="Vinge article: breadcrumbs, title, a library photograph, and the full rich-text vocabulary as the body." -->
-<helmet><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}[data-author-portraits]{display:none}[data-toc]{display:none}[data-fr-row]:hover [data-fr-head]{text-decoration-color:var(--ink)}[data-fr-cell]{grid-column:1 / -1;min-width:0}[data-fr-cell="media"]{display:none}@media (min-width:768px){[data-fr-cell="date"]{grid-column:1 / 2}[data-fr-cell="title"]{grid-column:2 / 5}}@media (min-width:1280px){[data-fr-cell="date"]{grid-column:1 / 2}[data-fr-cell="title"]{grid-column:2 / 6}[data-fr-cell="media"]{display:block;grid-column:6 / 9}}@media (min-width:1280px){[data-toc]{display:block}[data-authors-panel]{position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-4));align-self:start}[data-author]{min-height:0}}@media (min-width:1280px) and (hover:hover){[data-author-avatar]{display:none}[data-author-portraits]{display:block}}</style></helmet>
+<helmet><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink);overflow-x:clip}.rte [data-wide]{width:calc(100% + var(--margin) * 2);max-width:none;margin:var(--rte-section) 0 var(--rte-section) calc(-1 * var(--margin))}.rte [data-pair]{display:grid;gap:var(--gutter);grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}.rte [data-pair] > :nth-child(1){margin-top:var(--space-4)}.rte [data-pair-mode="row"] > :nth-child(1){margin-top:0}.rte [data-pair] p,.rte [data-wide] figcaption{max-width:none}@media (min-width:1280px){.rte [data-wide]{--colstep:calc((100% + var(--gutter)) / 4)}.rte [data-pair-wrap]{width:calc(100% + var(--colstep) * 4);margin-left:calc(-1 * var(--colstep))}.rte [data-bleed-wrap]{width:calc(100% + var(--colstep) * 4 + var(--margin) * 2);margin-left:calc(-1 * (var(--colstep) + var(--margin)))}.rte [data-pair]{grid-template-columns:repeat(8,minmax(0,1fr))}.rte [data-pair] > :nth-child(1){grid-column:1 / span 3;margin-top:var(--space-7)}.rte [data-pair] > :nth-child(2){grid-column:4 / span 5}.rte [data-pair-mode="row"] > :nth-child(1){grid-column:1 / span 4;margin-top:0}.rte [data-pair-mode="row"] > :nth-child(2){grid-column:5 / span 4}[data-authors-panel]{transition:transform var(--dur-reveal) var(--ease-expo),opacity 180ms linear;will-change:transform,opacity}}@media (prefers-reduced-motion:reduce){[data-authors-panel]{transition:none}}[data-author-portraits]{display:none}[data-toc]{display:none}[data-fr-row]:hover [data-fr-head]{text-decoration-color:var(--ink)}[data-fr-cell]{grid-column:1 / -1;min-width:0}[data-fr-cell="media"]{display:none}@media (min-width:768px){[data-fr-cell="date"]{grid-column:1 / 2}[data-fr-cell="title"]{grid-column:2 / 5}}@media (min-width:1280px){[data-fr-cell="date"]{grid-column:1 / 2}[data-fr-cell="title"]{grid-column:2 / 6}[data-fr-cell="media"]{display:block;grid-column:6 / 9}}@media (min-width:1280px){[data-toc]{display:block}[data-authors-panel]{position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-4));align-self:start}[data-author]{min-height:0}}@media (min-width:1280px) and (hover:hover){[data-author-avatar]{display:none}[data-author-portraits]{display:block}}</style></helmet>
 <div style="min-height:100vh">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" plate="{{ overBanner }}" hint-size="100%,96px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
@@ -114,6 +114,19 @@
 </ul>
 <h4>Åtgärder på utbudssidan</h4>
 <p>På utbudssidan föreslås fortsatt förbättring och utveckling av pilotprojekt för framtagandet och utvecklandet av nya halvledarteknologier och designkoncept samt att den vidare industrialiseringen av lyckade sådana projekt ska påskyndas. Vidare föreslås införandet av en ny kategori av s.k. ”strategic projects” - halvledarprojekt som Kommissionen kan erkänna som strategiska om de bl.a. uppfyller krav på att skapa ett betydande mervärde till unionen, genomförs av inhemska företag och har en gränsöverskridande dimension. Dessa strategiska projekt föreslås tillsammans med europeiska halvledarinitiativ åtnjuta snabbare administrativa tillståndsprocesser med en längsta tid på 12 månader och medlemsstaterna ska centralisera och samordna tillståndsansökningarna. Kommissionen föreslår också införandet av märkningen ”European Semiconductor Regions of Excellence”, vilket Kommissionen kan tilldela regioner vilka uppfyller krav för att ha en strategisk vision. I praktiken syftar detta till att attrahera internationella investeringar till dessa områden.</p>
+<figure data-wide data-pair-wrap data-collide>
+<div data-pair data-pair-mode="{{ pairMode }}">
+<div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="../../assets/images/inviting-02.png" alt="Arbetsplats med två skärmar i dagsljus" ratio="4:5" grid-size="{{ 4 }}" hint-size="100%,420px"></x-import>
+<p class="small" style="margin:var(--space-2) 0 0">Tillståndsprocesser</p>
+</div>
+<div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="../../assets/images/office-04.png" alt="Korridor med dagsljus från fönsterväggen" ratio="3:2" grid-size="{{ 4 }}" hint-size="100%,320px"></x-import>
+<p class="small" style="margin:var(--space-2) 0 0">Strategiska projekt</p>
+<figcaption>Åtgärderna på utbuds- och efterfrågesidan förutsätter varandra: kapacitet utan avsättning byggs inte, avsättning utan kapacitet köps utanför unionen.</figcaption>
+</div>
+</div>
+</figure>
 <h2 data-toc-label="Öppen källkod">EU:s strategi för öppen källkod: från tekniskt alternativ till suveränitetsverktyg</h2>
 <p>The EU Open Source Strategy (Strategin om öppen källkod) placerar öppen källkodsteknik i centrum för Europas strävan efter digitalt oberoende. Öppen källkod ses inte längre bara som ett tekniskt alternativ på europeisk nivå, utan som en strategisk byggsten för digital suveränitet. I detta sammanhang fungerar öppen källkod som ett horisontellt verktyg: halvledare, moln, AI, digital identitet och offentlig digital infrastruktur är alla beroende av mjukvara, standarder och återanvändbara komponenter som EU i högre grad vill kunna kontrollera och vidareutveckla på egna villkor. Kommissionen beskriver också strategin som ett sätt att minska beroenden över hela teknikstacken.</p>
 <h3>Strategin har fyra övergripande mål</h3>
@@ -133,6 +146,9 @@
 <li>Inrättandet av ett EU-ramverk för att underlätta delning av energidata över EU:s interna gränser, både för primär användning, alltså det operativa datautbytet mellan identifierade aktörer, och sekundär användning, såsom för forskning och träning av AI-modeller.</li>
 </ol>
 <p>Dessa tre delar kompletteras även av horisontella insatser avseende cybersäkerhet och bekämpningen av hybridhot, tillit, kompetensförsörjning och internationellt samarbete. Åtgärderna i färdplanen planeras vara genomförda senast år 2030 och under tiden kommer Kommissionen, med start i år, att sammankalla ett årligt forum för digitalisering av energisektorn, som ska fungera som en uppföljnings- och samordningsmekanism för att utvärdera framsteg, identifiera kvarstående hinder, sprida god praxis och fånga upp nya utvecklingar som kan motivera ytterligare åtgärder.</p>
+<div data-wide data-bleed-wrap data-collide>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageScreen" src="../../assets/images/anonymous-03.png" alt="Kontorsvy mot fönsterväggen" ratio="21:9" min-height="86svh" grid-size="{{ 6 }}" hint-size="100%,600px"></x-import>
+</div>
 <h2>Kommentar</h2>
 <p>Tekniksuveränitetspaketet är ambitiöst i både bredd och ansats. Till skillnad från tidigare EU-initiativ på det digitala området, som huvudsakligen har inriktats på att reglera marknader och risker, betonar paketet i stället kapacitet, kontroll och industriell uppbyggnad. Det bör därför inte förstås som en enskild lagstiftningsakt, utan som en strategi som spänner över infrastruktur, industripolitik, upphandling och energi och vars särskilda kännetecken är erkännandet av att digitalt beroende utgör en strategisk sårbarhet.</p>
 <h3>Kritiken</h3>
@@ -182,6 +198,8 @@
 </sc-if>
 </div>
 </sc-for>
+</div>
+</aside>
 <div data-author-portraits style="position:fixed;top:0;left:0;width:320px;z-index:40;pointer-events:none;will-change:transform">
 <sc-for list="{{ authors }}" as="author" hint-placeholder-count="0">
 <div style="position:absolute;top:0;left:0;width:100%">
@@ -191,8 +209,6 @@
 </div>
 </sc-for>
 </div>
-</div>
-</aside>
 </div>
 <section class="grid">
 <h2 class="display-2 place-body-wide" style="margin:0 0 var(--space-5)">Vidare läsning</h2>
@@ -221,7 +237,7 @@
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;goalsAsBand&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Editorial blocks&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;goalsAsBand&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Editorial blocks&quot;},&quot;pairOffBaseline&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Editorial blocks&quot;}}">
 /* The article page holds one lesson: the body is not written in the template,
    it is written in an editor. Everything between the photograph and the footer
    is `RichText` — the tags style themselves, and the page adds no class, no
@@ -315,7 +331,34 @@ class Component extends DCLogic {
 
   componentDidMount() {
     const HEADER = 92; /* 44px triggers + space-3 either side */
+    /* The wide blocks run across the note column's two columns, so the panel
+       cannot stand where it stands. It does not travel out of the way: while a
+       block's band overlaps the panel's own band the panel goes, with an 18px
+       step to the right carrying the exit, and comes back from the same side
+       once the block has passed — written to the node, not to state, so
+       neither the halftone canvases nor the index re-render. */
+    this.panelShift = () => {
+      const panel = document.querySelector('[data-authors-panel]');
+      if (!panel) return;
+      if (window.innerWidth < 1280) {
+        if (this.away !== false) { panel.style.transform = ''; panel.style.opacity = ''; panel.style.pointerEvents = ''; this.away = false; }
+        return;
+      }
+      const p = panel.getBoundingClientRect();
+      const PAD = 32;
+      let away = false;
+      document.querySelectorAll('[data-collide]').forEach((b) => {
+        const r = b.getBoundingClientRect();
+        if (r.top < p.bottom + PAD && r.bottom > p.top - PAD) away = true;
+      });
+      if (away === this.away) return;
+      this.away = away;
+      panel.style.transform = away ? 'translateX(18px)' : 'translateX(0)';
+      panel.style.opacity = away ? '0' : '1';
+      panel.style.pointerEvents = away ? 'none' : '';
+    };
     this.sync = () => {
+      this.panelShift();
       const img = document.querySelector('#banner [role="img"]');
       if (!img) return;
       const over = img.getBoundingClientRect().bottom > HEADER;
@@ -402,6 +445,11 @@ class Component extends DCLogic {
          the ordinary numbered list they were written as. */
       goalsBand: band,
       goalsPlain: !band,
+      /* The pair is off the baseline by default: three columns of portrait
+         dropped a section gap, four of landscape standing at the top. `row`
+         is the flush alternative — same seven columns, both images starting
+         on the same line. */
+      pairMode: (this.props.pairOffBaseline ?? true) ? 'offset' : 'row',
       further: this.furtherList.map((f) => ({
         ...f,
         on: this.state.reading === f.id,
