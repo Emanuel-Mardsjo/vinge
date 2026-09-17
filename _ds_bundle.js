@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"30ca4e9abfb5","components/blocks/Chapter.jsx":"11ee84db9525","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"673eba7f639d","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"96bb4f43af55","components/blocks/ImageScreen.jsx":"14d5bc61e087","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"020a71fb6a15","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"bb367dcd7aef","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"bd6877f06c45","components/conversation/ContactWidget.jsx":"71f2c6aad6ec","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"9fc233c116aa","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"245b815fe85b","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"f8f97788f796","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"065f731e949f","components/core/ArrowLink.jsx":"39cf54978a10","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"6b1b6e3a511d","components/core/DotField.jsx":"7e2045dc986f","components/core/Figure.jsx":"35982d88a369","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"629abdb92a3a","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"18ecd9b8723f","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"fb40937494e7","components/layout/PageBanner.jsx":"cfea4c725f94","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"1a05d66eddf3","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"de03e9abb7c9","components/navigation/SiteNav.jsx":"1480bbe8345d","components/navigation/TakeoverMenu.jsx":"32bd99cfed60","components/navigation/WordmarkMasthead.jsx":"b6a62aad4aad"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"30ca4e9abfb5","components/blocks/Chapter.jsx":"11ee84db9525","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"673eba7f639d","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"96bb4f43af55","components/blocks/ImageScreen.jsx":"14d5bc61e087","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"020a71fb6a15","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"bb367dcd7aef","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"bd6877f06c45","components/conversation/ContactWidget.jsx":"71f2c6aad6ec","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"9fc233c116aa","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"245b815fe85b","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"f8f97788f796","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"065f731e949f","components/core/ArrowLink.jsx":"39cf54978a10","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"6b1b6e3a511d","components/core/DotField.jsx":"7e2045dc986f","components/core/Figure.jsx":"35982d88a369","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"629abdb92a3a","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"18ecd9b8723f","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"fb40937494e7","components/layout/PageBanner.jsx":"cfea4c725f94","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"1a05d66eddf3","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"de03e9abb7c9","components/navigation/SiteNav.jsx":"1480bbe8345d","components/navigation/TakeoverMenu.jsx":"32bd99cfed60","components/navigation/WordmarkMasthead.jsx":"b6a62aad4aad","repo/templates/about-page/ds-base.js":"8bb90891194f","repo/templates/article-page/ds-base.js":"8bb90891194f","repo/templates/find-a-lawyer/ds-base.js":"8bb90891194f","repo/templates/landing-page/chapters.js":"6728ee88041f","repo/templates/landing-page/ds-base.js":"8bb90891194f","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"8bb90891194f","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"8bb90891194f","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"8bb90891194f","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -18831,6 +18831,7248 @@ function WordmarkMasthead({
 }
 Object.assign(__ds_scope, { WordmarkMasthead });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/WordmarkMasthead.jsx", error: String((e && e.message) || e) }); }
+
+// repo/templates/about-page/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/about-page/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/article-page/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/article-page/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/find-a-lawyer/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/find-a-lawyer/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/landing-page/chapters.js
+try { (() => {
+/* Beat text and mark states for the three chapters on the landing page. The
+   copy that carries the claim lives in the template, where it can be edited;
+   only the beats live here, because a beat is a sentence bound to a mark
+   state and the state is code.
+
+   One stroke width for the whole page: no beat sets a weight, so every line
+   in every mark renders at the chapter's resting width. Beats change trim and
+   part travel only. */
+window.VingeChapterBeats = {
+  affaren: (() => {
+    /* The shared segment is the one temporary primitive: the stretch of the
+       chord that lies inside both circles, which is exactly what neither side
+       has to pay for. It retracts as the real chord draws through it, so the
+       last beat is the library mark. */
+    const beats = [{
+      text: 'När motparten vill något annat',
+      detail: 'Bakom en lång kravlista finns ofta några få frågor som faktiskt avgör. För dig gäller det att identifiera vilka de är och vilka som går att förhandla om',
+      /* 14 each: the circles are 54 units wide and their centres sit 32
+         apart, so anything under 11 each still overlaps. This clears them
+         by 6 — two positions with nothing in common. */
+      state: {
+        move: {
+          'circle-left': 14,
+          'circle-right': 14
+        },
+        trim: {
+          chord: 0
+        }
+      }
+    }, {
+      text: 'När du behöver veta vad du kan ge',
+      detail: 'En bra förhandling handlar inte bara om vad du får, utan om vad du kan ge utan att förlora det som är viktigt.',
+      /* Both positions come back to the table and start to overlap. */
+      state: {
+        trim: {
+          chord: 0
+        }
+      }
+    }, {
+      text: 'När avtalet ska fungera långt efter signering',
+      detail: 'Du behöver ett avtal som håller långt efter förhandlingsrummet. Även när människorna, förutsättningarna och affären förändras.',
+      state: {
+        trim: {
+          chord: 0,
+          shared: 100
+        }
+      }
+    }, {
+      text: 'När affären är klar',
+      detail: 'Underskriften är inte slutpunkten. Du ska också kunna få det ni kommit överens om att fungera i praktiken.',
+      /* The line grows out of the shared segment in both directions at once
+         and lands exactly on the chord's own ends, so the mark arrives at
+         its final form here rather than being drawn across. */
+      state: {
+        trim: {
+          chord: 0,
+          shared: 100,
+          'chord-left': 100,
+          'chord-right': 100
+        }
+      }
+    }, {
+      text: 'Fördjupa dig i M&A',
+      links: [{
+        label: 'Se relevanta uppdrag',
+        href: '#registret'
+      }, {
+        label: 'Prata med en expert',
+        href: '#personerna'
+      }],
+      detail: '',
+      /* Held: the closing beat adds nothing to the mark. */
+      state: {
+        trim: {
+          chord: 0,
+          shared: 100,
+          'chord-left': 100,
+          'chord-right': 100
+        }
+      }
+    }];
+    beats.extras = [{
+      part: 'shared',
+      d: 'M 39 50 L 61 50'
+    }, {
+      part: 'chord-left',
+      d: 'M 39 50 L 7 50'
+    }, {
+      part: 'chord-right',
+      d: 'M 61 50 L 93 50'
+    }];
+    return beats;
+  })(),
+  tvisten: (() => {
+    /* The bench beat replaces the outline with vertical lines that add up to
+       the same triangle: one line per seat, the shape held by the people in
+       it rather than by its own edges. They rest at zero length, so the last
+       beat is the library mark again. */
+    const hatch = []; /* nine seats, evenly spaced across the base */
+    for (let i = 0; i < 9; i++) {
+      const x = +(18 + i * 8).toFixed(2);
+      const top = +(81 - 64 * (1 - Math.abs(x - 50) / 40)).toFixed(2);
+      hatch.push({
+        part: 'hatch-' + i,
+        d: `M ${x} ${top} L ${x} 81`
+      });
+    }
+    const allHatch = v => {
+      const t = {};
+      for (const h of hatch) t[h.part] = v;
+      return t;
+    };
+    const beats = [{
+      text: 'Samtalen har upphört.',
+      detail: 'Båda sidor har vänt varandra ryggen och lämnat frågan till någon annan att avgöra. Härifrån är utgången inte längre er egen att bestämma.',
+      state: {
+        move: {
+          'side-left': 12,
+          'side-right': 12
+        },
+        trim: {
+          axis: 0
+        }
+      }
+    }, {
+      text: 'Vi har fört din talan.',
+      detail: 'Kärandesidan, år efter år. Vi vet vad ett anspråk behöver för att hålla hela vägen till ett avgörande.',
+      state: {
+        trim: {
+          'side-right': 0,
+          axis: 0
+        }
+      }
+    }, {
+      /* The sides swap rather than accumulate: the claim is that we have sat
+         on both, not that we sit on both at once. */
+      text: 'Och vi har fört deras.',
+      detail: 'Samma typ av tvist från andra hållet. Det är därför vi kan säga vad motparten kommer att göra innan de gör det.',
+      state: {
+        trim: {
+          'side-left': 0,
+          axis: 0
+        }
+      }
+    }, {
+      text: 'Några av oss utses att avgöra dem.',
+      detail: 'Flera av våra jurister sitter som skiljemän i SCC-, ICC- och ICSID-förfaranden. De vet vad en tribunal faktiskt lägger vikt vid.',
+      /* The bench arrives here, on the beat about who ends up deciding: the
+         outline is replaced by one line per seat. */
+      state: {
+        trim: Object.assign(allHatch(100), {
+          'side-left': 0,
+          'side-right': 0,
+          axis: 0
+        })
+      }
+    }, {
+      text: 'Så vår läsning av hur det slutar är värd något.',
+      detail: 'Vi säger vad vi tror innan du har lagt pengar på att ta reda på det. Ibland är svaret att inte driva tvisten.',
+      state: {}
+    }];
+    beats.extras = hatch;
+    return beats;
+  })(),
+  /* Chapter 03 animates one mark, star-radial, and brings in two temporary
+     primitives on the way: a ring and 33 ticks around it, one per practice
+     area. Both rest at zero length, so the last beat is the six-armed star
+     exactly as the library draws it with nothing left to undo. */
+  banken: (() => {
+    const RING = 'M 50 12 A 38 38 0 0 1 50 88 A 38 38 0 0 1 50 12 Z';
+    const AREAS = 33;
+    const ticks = [];
+    for (let i = 0; i < AREAS; i++) {
+      const a = i / AREAS * Math.PI * 2 - Math.PI / 2;
+      const r = n => [50 + Math.cos(a) * n, 50 + Math.sin(a) * n].map(v => v.toFixed(2));
+      const [x1, y1] = r(38);
+      const [x2, y2] = r(45);
+      ticks.push({
+        part: 'tick-' + i,
+        d: `M ${x1} ${y1} L ${x2} ${y2}`
+      });
+    }
+    const ARMS = ['arm-up', 'arm-upper-right', 'arm-lower-right', 'arm-down', 'arm-lower-left', 'arm-upper-left'];
+    const only = kept => {
+      const t = {};
+      for (const a of ARMS) if (!kept.includes(a)) t[a] = 0;
+      return t;
+    };
+    const allExtras = v => {
+      const t = {
+        ring: v
+      };
+      for (const k of ticks) t[k.part] = v;
+      return t;
+    };
+    const beats = [{
+      text: 'Det börjar med din situation',
+      detail: 'Ett förvärv. Ett myndighetsbesked. En konflikt som växer. Din fråga kommer sällan med namnet på rättsområdet du behöver.',
+      /* One question is one full vertical stroke: the up and down arms
+         together, so it reads as a single line rather than half of one. */
+      state: {
+        trim: only(['arm-up', 'arm-down'])
+      }
+    }, {
+      text: 'Sedan blir en fråga ofta flera',
+      detail: 'Det som börjar som en skattefråga kan också handla om anställning, tillstånd och finansiering. Du behöver perspektiv som hänger ihop.',
+      /* Four as an X, symmetric on both axes — the diagonal arms only, so the
+         single vertical arm of the first beat gives way rather than being
+         joined by three arms on one side. */
+      state: {
+        trim: only(['arm-upper-right', 'arm-lower-right', 'arm-lower-left', 'arm-upper-left'])
+      }
+    }, {
+      text: 'Rätt kompetens för din situation',
+      detail: 'Du ska inte behöva välja mellan 33 verksamhetsområden. Du ska få tillgång till den kombination av expertis som din situation kräver.',
+      state: {
+        trim: allExtras(100)
+      }
+    }, {
+      text: 'Du behöver bara beskriva situationen',
+      detail: 'Urvalet är vårt arbete, inte ditt. Du beskriver läget — vi sätter samman de personer som behövs.',
+      links: [{
+        label: 'Beskriv din situation',
+        ask: true
+      }, {
+        label: 'Utforska våra verksamhetsområden',
+        href: '#'
+      }],
+      state: {}
+    }];
+    beats.extras = [{
+      part: 'ring',
+      d: RING
+    }].concat(ticks);
+    return beats;
+  })()
+};
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/landing-page/chapters.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/landing-page/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/landing-page/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/landing-page/people.js
+try { (() => {
+/* Demo people for the landing page's portrait carousel.
+
+   Names, titles and portraits are the firm's own, read from vinge.se. The
+   media host sends no CORS header and the halftone painter has to read the
+   image's pixels, so the portraits come through a CORS-clean image proxy at
+   the card's own size — in production these are local media paths and the
+   proxy goes away. Discipline tags use the register's vocabulary, which is
+   what the carousel matches the visitor's dialogue against. */
+(() => {
+  const portrait = path => 'https://images.weserv.nl/?url=www.vinge.se' + path + '&w=640&h=800&fit=cover';
+  const profile = slug => 'https://www.vinge.se/en/our-people/' + slug + '/';
+  window.VingePeople = [{
+    name: 'Johan Winnerblad',
+    role: 'Partner',
+    areas: ['M&A', 'Publik M&A'],
+    sectors: ['Industri'],
+    href: profile('johan-winnerblad'),
+    imageSrc: portrait('/media/bsbdhch0/winnerblad_johan_highres.jpg')
+  }, {
+    name: 'Amanda Knutsson',
+    role: 'Partner',
+    areas: ['Publik M&A', 'Kapitalmarknad'],
+    sectors: [],
+    href: profile('amanda-knutsson'),
+    imageSrc: portrait('/media/alcp5wjf/knutsson_amanda_highres.jpg')
+  }, {
+    name: 'Malin Malm Waerme',
+    role: 'Partner',
+    areas: ['M&A', 'Bolagsrätt'],
+    sectors: ['Life science'],
+    href: profile('malin-malm-waerme'),
+    imageSrc: portrait('/media/tv4fk15a/malm_waerme_malin_highres.jpg')
+  }, {
+    name: 'Richard Wessman',
+    role: 'Head of IP, Partner',
+    areas: ['Immaterialrätt'],
+    sectors: ['Life science', 'Teknik'],
+    href: profile('richard-wessman'),
+    imageSrc: portrait('/media/2wpfsggd/wessman_richard_highres.jpg')
+  }, {
+    name: 'Silvia Dahlberg',
+    role: 'Partner',
+    areas: ['Tvistlösning', 'Skiljeförfaranden'],
+    sectors: [],
+    href: profile('silvia-dahlberg'),
+    imageSrc: portrait('/media/puvlegfc/dahlberg-silvia-some.jpg')
+  }, {
+    name: 'Marcus Glader',
+    role: 'Partner',
+    areas: ['Konkurrensrätt'],
+    sectors: ['Energi'],
+    href: profile('marcus-glader'),
+    imageSrc: portrait('/media/lgiddap0/glader_marcus_socialmedia.jpg')
+  }, {
+    name: 'Nils Unckel',
+    role: 'Partner',
+    areas: ['Kapitalmarknad', 'Bolagsrätt'],
+    sectors: ['Bank och finans'],
+    href: profile('nils-unckel'),
+    imageSrc: portrait('/media/jwufudt0/unckel_nils_socialmedia.jpg')
+  }, {
+    name: 'Emma Stuart-Beck',
+    role: 'Partner',
+    areas: ['Bolagsrätt', 'Publik M&A'],
+    sectors: [],
+    href: profile('emma-stuart-beck'),
+    imageSrc: portrait('/media/q25dyf1q/stuart-beck_emma_socialmedia.jpg')
+  }];
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/landing-page/people.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/landing-page/record.js
+try { (() => {
+/* Demo data for Record: ~120 mandates, grouped by year.
+   Fictional clients. Built deterministically so the field is identical on
+   every load — the block's one quantity is block height, and that must not
+   move between reloads. */
+(() => {
+  const CLIENTS = [['Nordika', 'Industri'], ['Avenyr', 'Detaljhandel'], ['Fältström Industri', 'Industri'], ['Bergslagen Kraft', 'Energi'], ['Vidarö Fastigheter', 'Fastigheter'], ['Sköldkroken', 'Bygg och infrastruktur'], ['Almnäs Bruk', 'Skog och råvaror'], ['Terrafors', 'Energi'], ['Lindhem Bygg', 'Bygg och infrastruktur'], ['Karlavik Hamn', 'Transport'], ['Sylten Energi', 'Energi'], ['Norrsken Life Science', 'Life science'], ['Aptera Medical', 'Life science'], ['Halvfors Stål', 'Industri'], ['Vartex Retail', 'Detaljhandel'], ['Sundfast', 'Fastigheter'], ['Kvarnbo Mejeri', 'Detaljhandel'], ['Blixtvik Telekom', 'Telekom'], ['Norrmalm Kapital', 'Bank och finans'], ['Serafim Invest', 'Private equity'], ['Hägerlund Skog', 'Skog och råvaror'], ['Ostkant Logistik', 'Transport'], ['Tredje Vågen Media', 'Media'], ['Klarsjö Försäkring', 'Försäkring'], ['Ljungby Verkstad', 'Industri'], ['Frostvik Kyl', 'Industri'], ['Ambion Software', 'Teknik'], ['Dalslund Papper', 'Skog och råvaror'], ['Rosenhill Vård', 'Offentlig sektor'], ['Stavgren Bank', 'Bank och finans'], ['Ekmark Livsmedel', 'Detaljhandel'], ['Solvarv', 'Energi'], ['Tunnelbolaget Öst', 'Bygg och infrastruktur'], ['Vinterhamn Rederi', 'Transport'], ['Grynge Bygg', 'Bygg och infrastruktur'], ['Nyfors Elnät', 'Energi'], ['Alveus Data', 'Teknik'], ['Hedmark Gruvor', 'Skog och råvaror'], ['Barkarö Bostad', 'Fastigheter'], ['Cendra Pharma', 'Life science'], ['Ranstad Kliniker', 'Life science'], ['Vretlanda Invest', 'Private equity'], ['Örnsjö Media', 'Media'], ['Hällby Trygghet', 'Försäkring'], ['Kolmården Nät', 'Telekom'], ['Söderfjäll Kommunbolag', 'Offentlig sektor'], ['Tegelvik Handel', 'Detaljhandel'], ['Norrhavet Vind', 'Energi']];
+
+  /* The lead discipline follows the work type. A merger filing leads with
+     competition law, not capital markets. */
+  const WORK = [['Förvärv', 'M&A'], ['Avyttring', 'M&A'], ['Offentligt uppköpsbud', 'Publik M&A'], ['Konkurrensanmälan', 'Konkurrensrätt'], ['Gryningsräd', 'Konkurrensrätt'], ['Skiljeförfarande', 'Skiljeförfaranden'], ['Refinansiering', 'Bank och finans'], ['Börsnotering', 'Kapitalmarknad'], ['Rekonstruktion', 'Obestånd och rekonstruktion'], ['Myndighetsutredning', 'Regulatoriskt'], ['Carve-out', 'M&A'], ['Joint venture', 'Bolagsrätt']];
+  const SUPPORT = ['Skatt', 'Arbetsrätt', 'Fastighetsrätt', 'Immaterialrätt', 'Dataskydd', 'Miljörätt', 'Offentlig upphandling', 'Compliance', 'Tvistlösning', 'Kapitalmarknad', 'Konkurrensrätt', 'Finansiering', 'IT och teknologi', 'Energirätt', 'Bolagsrätt'];
+
+  /* 2024 is the tallest block: the firm did 50% more transactions that year. */
+  const COUNTS = [[2022, 22], [2023, 24], [2024, 36], [2025, 26], [2026, 14]];
+  let seed = 20220107;
+  const rnd = () => {
+    seed = seed * 1664525 + 1013904223 >>> 0;
+    return seed / 4294967296;
+  };
+  const pick = a => a[Math.floor(rnd() * a.length)];
+  const entries = [];
+  COUNTS.forEach(([year, n]) => {
+    for (let i = 0; i < n; i++) {
+      const [client, sector] = pick(CLIENTS);
+      const [work, lead] = pick(WORK);
+      const extra = 1 + Math.floor(rnd() * 5);
+      const rest = [];
+      while (rest.length < extra) {
+        const d = pick(SUPPORT);
+        if (d !== lead && rest.indexOf(d) < 0) rest.push(d);
+      }
+      entries.push({
+        year,
+        client,
+        sector,
+        work,
+        disciplines: [lead].concat(rest)
+      });
+    }
+  });
+
+  /* The demo query — one sector in one year — has to return four lines, so
+     four of 2024's are fixed. */
+  const seeded = [{
+    client: 'Cendra Pharma',
+    work: 'Förvärv',
+    disciplines: ['M&A', 'Life science-regulatoriskt', 'Immaterialrätt', 'Skatt']
+  }, {
+    client: 'Norrsken Life Science',
+    work: 'Börsnotering',
+    disciplines: ['Kapitalmarknad', 'Bolagsrätt', 'Skatt']
+  }, {
+    client: 'Aptera Medical',
+    work: 'Konkurrensanmälan',
+    disciplines: ['Konkurrensrätt', 'M&A', 'Dataskydd', 'Compliance', 'Immaterialrätt']
+  }, {
+    client: 'Ranstad Kliniker',
+    work: 'Carve-out',
+    disciplines: ['M&A', 'Arbetsrätt', 'Fastighetsrätt', 'Skatt']
+  }];
+  const first2024 = entries.findIndex(e => e.year === 2024);
+  seeded.forEach((s, i) => {
+    entries[first2024 + 4 + i * 7] = {
+      year: 2024,
+      sector: 'Life science',
+      ...s
+    };
+  });
+  window.VingeRecordEntries = entries;
+
+  /* What the finder hands the Record: the practice areas and sectors it
+     derived from what the visitor typed. Substring matching against the
+     vocabulary the register itself uses — enough for a demo, and it never
+     invents a term the field cannot contain. */
+  const AREAS = WORK.map(w => w[1]).concat(SUPPORT);
+  const SECTORS = CLIENTS.map(c => c[1]);
+  const uniq = a => a.filter((v, i) => a.indexOf(v) === i);
+  window.VingeDeriveDialogue = text => {
+    const t = (text || '').toLowerCase();
+    if (!t) return null;
+    const hit = list => uniq(list.filter(v => t.indexOf(v.toLowerCase()) >= 0));
+    const areas = hit(AREAS);
+    const sectors = hit(SECTORS);
+    /* Nothing recognised: treat the question as touching the transaction
+       practice, which is what most of them do. */
+    if (!areas.length && !sectors.length) return {
+      text: text,
+      areas: ['M&A'],
+      sectors: []
+    };
+    return {
+      text: text,
+      areas: areas,
+      sectors: sectors
+    };
+  };
+
+  /* Demo dialogue for cards and for a first load of the second view. */
+  window.VingeRecordDialogue = {
+    text: 'Vi förbereder ett förvärv inom life science.',
+    areas: ['M&A'],
+    sectors: ['Life science']
+  };
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/landing-page/record.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/news-listing/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/news-listing/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/news-listing/news.js
+try { (() => {
+/* The stream behind the listing: news, press releases and insight articles as
+   one object with a type on it.
+
+   DEMO DATA. The shape is the real one — type, date, headline, summary,
+   practice areas, sectors, the people attached, and whether the item exists in
+   the other language — but the items themselves are composed here, not read
+   from the site. Swap this file for the CMS export; nothing in the template
+   knows the difference. Photographs are the house library images, assigned
+   deterministically — every item carries one, as on the live site. */
+(() => {
+  const AREAS = ['M&A', 'Publik M&A', 'Kapitalmarknad', 'Konkurrensrätt', 'Tvistlösning', 'Skiljeförfaranden', 'Immaterialrätt', 'Arbetsrätt', 'Fastighet och entreprenad', 'Bank och finans', 'Skatt', 'Offentlig upphandling', 'Handelssanktioner', 'Miljörätt', 'Insolvens och rekonstruktion', 'Antikorruption'];
+  const SECTORS = ['Industri', 'Life science', 'Teknik', 'Bank och finans', 'Fastighet', 'Energi', 'Offentlig sektor', 'Handel'];
+  const PEOPLE = ['Amanda Knutsson', 'Erik Lindberg', 'Maria Öhman', 'Johan Ekström', 'Sara Bergqvist', 'Petter Hallgren', 'Lovisa Ahlin', 'Karl Sundström', 'Ida Norling', 'Fredrik Wallin', 'Anna Palmér', 'Gustav Rydberg', 'Elin Hedlund', 'Oskar Falk', 'Nina Stenmark', 'Henrik Löfgren'];
+  const CLIENTS = ['Nordkraft AB', 'Byggnads Invest', 'Sveaporten', 'Cellect Bio', 'Ferrum Industri', 'Loomis Nordic', 'Kvarnholmen Fastigheter', 'Trelleborgs Hamn', 'Nordisk Kapital', 'Vasa Energi', 'Almex Group', 'Skanör Logistik', 'Bolinder Tech', 'Nyström & Söner', 'Arctic Data Centers', 'Lundin Medical'];
+  const DEALS = ['förvärvet av en konkurrent', 'noteringen på Nasdaq Stockholm', 'avyttringen av sin nordiska verksamhet', 'en riktad nyemission om 1,2 miljarder kronor', 'refinansieringen av koncernens skulder', 'ett offentligt uppköpserbjudande', 'etableringen av ett joint venture', 'överlåtelsen av ett produktionsbolag', 'en gränsöverskridande fusion', 'försäljningen av en fastighetsportfölj'];
+  const INSIGHTS = [['Nya regler för {a} träder i kraft vid årsskiftet', 'Vad ändringarna innebär i praktiken, och vad som behöver vara på plats innan de börjar gälla.'], ['{a}: fem frågor styrelsen bör ställa', 'En genomgång av de beslut som brukar fattas för sent, och vad de kostar när de gör det.'], ['Domstolen prövar {a} för första gången', 'Avgörandet är det första i sitt slag och sätter ramen för hur bestämmelsen kommer att tillämpas.'], ['Tillsynsmyndigheten skärper praxis inom {a}', 'Tre beslut under året pekar åt samma håll. Vi läser dem tillsammans.'], ['Vad EU-förslaget om {a} betyder för svenska bolag', 'Förslaget är inte antaget, men förberedelserna behöver börja nu.'], ['{a} i praktiken: en genomgång av årets avgöranden', 'Sex avgöranden, en linje, och de undantag som ännu inte prövats.']];
+  const PRESS = [['Vinge utser {p} till delägare', 'Utnämningen träder i kraft den 1 januari.'], ['Vinge rankas i högsta skiktet inom {a}', 'Rankningen bygger på intervjuer med klienter och motparter.'], ['{p} ansluter till Vinges verksamhet inom {a}', 'Rekryteringen förstärker gruppen inför kommande år.'], ['Vinge biträder i årets största transaktion inom {s}', 'Affären är den mest omfattande på marknaden hittills i år.']];
+  const IMAGES = ['office-01', 'office-02', 'office-03', 'office-04', 'office-05', 'office-06', 'office-07', 'office-08', 'inviting-01', 'inviting-02', 'inviting-03', 'inviting-04', 'inviting-05', 'inviting-06', 'present-01', 'present-02', 'present-03', 'present-04', 'present-05', 'present-06', 'anonymous-01', 'anonymous-03', 'anonymous-05', 'anonymous-07'];
+  const slug = s => String(s).toLowerCase().replace(/&/g, 'och').replace(/[åä]/g, 'a').replace(/ö/g, 'o').replace(/é/g, 'e').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+
+  /* One deterministic sequence, so a reload is the same archive. */
+  let seed = 20260910;
+  const rnd = () => (seed = seed * 1103515245 + 12345 & 0x7fffffff) / 0x7fffffff;
+  const pick = (list, i) => list[Math.floor(rnd() * list.length + i) % list.length];
+  const items = [];
+  const TODAY = new Date(2026, 8, 10);
+  let day = 0;
+  for (let i = 0; i < 480; i++) {
+    /* Newest first: each item steps a plausible distance further back. The
+       firm publishes more now than it did in 2019, so the step widens. */
+    day += 1 + Math.floor(rnd() * (2 + i / 6));
+    const d = new Date(TODAY.getTime() - day * 86400000);
+    const year = d.getFullYear();
+    const area = pick(AREAS, i);
+    const area2 = pick(AREAS, i + 5);
+    const sector = pick(SECTORS, i);
+    const r = rnd();
+    const type = r < 0.5 ? 'Nyhet' : r < 0.72 ? 'Pressmeddelande' : 'Insikt';
+    let title, summary;
+    if (type === 'Nyhet') {
+      title = 'Vinge har biträtt ' + pick(CLIENTS, i) + ' vid ' + pick(DEALS, i);
+      summary = 'Vinges team leddes av ' + pick(PEOPLE, i) + ' och omfattade rådgivning inom ' + area.toLowerCase() + '.';
+    } else if (type === 'Pressmeddelande') {
+      const t = pick(PRESS, i);
+      title = t[0].replace('{p}', pick(PEOPLE, i + 3)).replace('{a}', area.toLowerCase()).replace('{s}', sector.toLowerCase());
+      summary = t[1];
+    } else {
+      const t = pick(INSIGHTS, i);
+      title = t[0].replace('{a}', area.toLowerCase());
+      summary = t[1];
+    }
+    const authors = [];
+    const nAuthors = type === 'Insikt' ? 2 : rnd() < 0.55 ? 1 : rnd() < 0.8 ? 2 : 0;
+    for (let k = 0; k < nAuthors; k++) {
+      const name = pick(PEOPLE, i + k * 7);
+      if (!authors.some(a => a.name === name)) authors.push({
+        name: name,
+        href: '/personer/' + slug(name)
+      });
+    }
+    /* Every item carries a photograph, as the live site does. */
+    const hasImage = true;
+    items.push({
+      id: 'a' + i,
+      type: type,
+      date: d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'),
+      dateLabel: d.getDate() + ' ' + MONTHS[d.getMonth()] + ' ' + year,
+      year: year,
+      title: title,
+      summary: summary,
+      /* Reading time, as the article page states it. The real one is counted
+         off the body; the stream has no body, so a length is drawn per type:
+         an insight is a read, a news item is a paragraph. */
+      minutes: type === 'Insikt' ? 4 + Math.floor(rnd() * 6) : type === 'Pressmeddelande' ? 2 + Math.floor(rnd() * 2) : 1 + Math.floor(rnd() * 3),
+      areas: area === area2 ? [area] : [area, area2],
+      sectors: [sector],
+      people: authors,
+      imageSrc: hasImage ? '../../assets/images/' + pick(IMAGES, i) + '.png' : null,
+      /* The English archive holds roughly 40% of the Swedish one. An item that
+         has no English version says so rather than dead-ending. */
+      inEnglish: rnd() < 0.4,
+      href: '/insikter/' + slug(title).slice(0, 60)
+    });
+  }
+  const years = [];
+  for (const it of items) if (years.indexOf(it.year) < 0) years.push(it.year);
+  years.sort((a, b) => b - a);
+  window.VingeNewsAll = items;
+  window.VingeNewsFacets = {
+    areas: AREAS.slice().sort((a, b) => a.localeCompare(b, 'sv')),
+    sectors: SECTORS.slice().sort((a, b) => a.localeCompare(b, 'sv')),
+    years: years,
+    types: ['Nyhet', 'Pressmeddelande', 'Insikt']
+  };
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/news-listing/news.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/people-listing/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/people-listing/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/people-listing/people.js
+try { (() => {
+/* The 596 people, read from vinge.se/our-people (2026-09-09): name, role,
+   slug and portrait path are the firm's own.
+
+   Three fields are DEMO DATA, not the register: office, areas/sectors, and the
+   280 roles the directory listing leaves blank. The brief calls for one content
+   pass over the profile pages to collect the real roles and facets; until that
+   pass exists the listing needs something to filter on, so they are assigned
+   deterministically from the slug — stable across reloads, plausible in
+   distribution, wrong per person. Swap this file for the register's own export.
+
+   The media host sends no CORS header and the halftone painter reads the
+   image's pixels, so portraits come through a CORS-clean proxy at card size;
+   in production these are local media paths and the proxy goes away. */
+(() => {
+  /* The scrape kept the source markup's numeric entities, so 44 of the 560
+     paths arrive as "anna-palm&#xE9;rus-some.jpg". Left alone they fail twice
+     over: the bare & ends the proxy's url parameter, and the filename is wrong.
+     Decode, then encode the whole path as one query value. */
+  const decodeEntities = s => s.replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d)).replace(/&amp;/g, '&');
+  /* Card portraits are requested as WebP at card size, not as the host's own
+     full-size JPEG. A listing of 596 is a bandwidth problem before it is a
+     paint problem: at 380px wide on an 8-column grid the card needs ~760px on
+     a 2x screen, and WebP at q=72 lands it in a fraction of the JPEG's bytes.
+     The halftone painter reads pixels off this same bitmap, so the size it is
+     fetched at is also the resolution the screen is built from — below about
+     600px wide the dots start to show the source's own pixels. */
+  const portrait = path => path && 'https://images.weserv.nl/?url=' + encodeURIComponent('www.vinge.se' + decodeEntities(path)) + '&w=760&h=950&fit=cover&output=webp&q=72';
+  const rows = [{
+    "name": "Albert Wållgren",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Bolagsrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "albert-wallgren",
+    "portrait": "/media/km5p5ayn/wallgren_albert_highres.jpg"
+  }, {
+    "name": "Amanda Knutsson",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "amanda-knutsson",
+    "portrait": "/media/alcp5wjf/knutsson_amanda_highres.jpg"
+  }, {
+    "name": "Anders Öhlin",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anders-ohlin",
+    "portrait": "/media/yc4ob2q4/ohlin_anders_socialmedia.jpg"
+  }, {
+    "name": "Anders Heintze",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anders-heintze",
+    "portrait": "/media/cldj5dq4/anders-heintze-some.jpg"
+  }, {
+    "name": "Anders Strid",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Antikorruption"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anders-strid",
+    "portrait": "/media/afnpkwsw/anders-strid-some.jpg"
+  }, {
+    "name": "Anna Edström",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-edstrom",
+    "portrait": "/media/ltzlidmo/edstrom_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Jonsson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-jonsson",
+    "portrait": "/media/tyficpjq/jonsson_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Palmérus",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-palmerus",
+    "portrait": "/media/bsdl54s2/anna-palm&#xE9;rus-some.jpg"
+  }, {
+    "name": "Carl Johan af Petersens",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Kapitalmarknad"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "carl-johan-af-petersens",
+    "portrait": "/media/lfvgntwz/johan-af-carl-some.jpg"
+  }, {
+    "name": "Cecilia Möller Norsted",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Statsstöd", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "cecilia-moller-norsted",
+    "portrait": "/media/2gqipde3/cecila-m&#xF6;ller-norsted-some.jpg"
+  }, {
+    "name": "Christian Lindhé",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "christian-lindhe",
+    "portrait": "/media/e4wio3ey/lindhe_christian__some.jpg"
+  }, {
+    "name": "Christina Kokko",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "christina-kokko",
+    "portrait": "/media/13sc3mzd/kokko_christina_highres.jpg"
+  }, {
+    "name": "Christoffer Thalin",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "christoffer-thalin",
+    "portrait": "/media/fzedzmk1/christoffer-thalin-some.jpg"
+  }, {
+    "name": "Dain Hård Nevonen",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "dain-hard-nevonen",
+    "portrait": "/media/1tylcosj/hard_nevonen_dain__socialmedia.jpg"
+  }, {
+    "name": "Daniel Prawitz",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Bolagsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "daniel-prawitz",
+    "portrait": "/media/2uhlcc4c/prawitz_daniel_socialmedia.jpg"
+  }, {
+    "name": "Daniel Daun",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Statsstöd", "Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "daniel-daun",
+    "portrait": "/media/ka1dse3c/daniel-daun-some.jpg"
+  }, {
+    "name": "Daniel Rosvall",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Publik M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "daniel-rosvall",
+    "portrait": "/media/s44jrrml/rosvall_daniel_highres_ny.jpg"
+  }, {
+    "name": "Daniel Wendelsson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "daniel-wendelsson",
+    "portrait": "/media/1iocv213/wendelsson_daniel_highres.jpg"
+  }, {
+    "name": "David Andersson",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad", "Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Ryska"],
+    "slug": "david-andersson",
+    "portrait": "/media/pt3pcdo1/andersson_david_socialmedia.jpg"
+  }, {
+    "name": "Emelie Svensäter Jerntorp",
+    "role": "Partner",
+    "office": "Bruxelles",
+    "areas": ["M&A", "Insolvens och rekonstruktion"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emelie-svensater-jerntorp",
+    "portrait": "/media/ghkatpqw/svensater_emelie_socialmedia-1.jpg"
+  }, {
+    "name": "Emma Stuart-Beck",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emma-stuart-beck",
+    "portrait": "/media/q25dyf1q/stuart-beck_emma_socialmedia.jpg"
+  }, {
+    "name": "Eva Fredrikson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "eva-fredrikson",
+    "portrait": "/media/qppfvfzb/fredrikson_eva__some.jpg"
+  }, {
+    "name": "Fabian Ekeblad",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Immaterialrätt", "Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "fabian-ekeblad",
+    "portrait": "/media/oernydqm/ekeblad_fabian_highres1.jpg"
+  }, {
+    "name": "Fredrik Lundblom",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "fredrik-lundblom",
+    "portrait": "/media/kyynhjki/lundblom-fredrik-high-res.jpg"
+  }, {
+    "name": "Helena Göransson",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt", "Kapitalmarknad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "helena-goransson",
+    "portrait": "/media/jo4lerq1/goransson_helena_socialmedia.jpg"
+  }, {
+    "name": "Henrik Ossborn",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["M&A", "Fastighet och entreprenad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "henrik-ossborn",
+    "portrait": "/media/osolrioc/henrik-ossborn-some.jpg"
+  }, {
+    "name": "James Hope",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Miljörätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "james-hope",
+    "portrait": "/media/0ccd0up0/hope_james__socialmedia.jpg"
+  }, {
+    "name": "Jerker Kjellander",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jerker-kjellander",
+    "portrait": "/media/ykgfb45s/kjellander_jerker_socialmedia.jpg"
+  }, {
+    "name": "Jesper Ottergren",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Ryska"],
+    "slug": "jesper-ottergren",
+    "portrait": "/media/cfsnoy4x/ottergren_jesper__socialmedia.jpg"
+  }, {
+    "name": "Jesper Schönbeck",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Arbetsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jesper-schonbeck",
+    "portrait": "/media/0htm4dsj/schonbeck_jesper_highres.jpg"
+  }, {
+    "name": "Johan Cederblad",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Mänskliga rättigheter i affärer", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johan-cederblad",
+    "portrait": "/media/yxelzivt/cederblad_johan__socialmedia.jpg"
+  }, {
+    "name": "Johan Larsson",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johan-larsson",
+    "portrait": "/media/wrjd1t03/larsson_johan_socialmedia.jpg"
+  }, {
+    "name": "Johan Winnerblad",
+    "role": "Partner",
+    "office": "Bruxelles",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johan-winnerblad",
+    "portrait": "/media/bsbdhch0/winnerblad_johan_highres.jpg"
+  }, {
+    "name": "Johanna Wiberg",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "johanna-wiberg",
+    "portrait": "/media/esdafnpv/wiberg_johanna_highres.jpg"
+  }, {
+    "name": "Jonas Bergström",
+    "role": "Partner, chef M&A",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jonas-bergstrom",
+    "portrait": "/media/wwrhlpeb/jonas-bergstr&#xF6;m-_socialmedia.jpg"
+  }, {
+    "name": "Jonas Johansson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jonas-johansson",
+    "portrait": "/media/mfyd1h4t/johansson_jonas_socialmedia.jpg"
+  }, {
+    "name": "Linnéa Dolk",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Bank och finans"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "linnea-dolk",
+    "portrait": "/media/kvxh34zl/sallstrom_linnea_socialmedia.jpg"
+  }, {
+    "name": "Louise Brorsson Salomon",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Utredningar", "Skiljeförfaranden"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "louise-brorsson-salomon",
+    "portrait": "/media/xegaz5bs/brorsson_salomon_louise_socialmedia.jpg"
+  }, {
+    "name": "Magnus Hedsund",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "magnus-hedsund",
+    "portrait": "/media/0ekniiht/hedsund_magnus_highres.jpg"
+  }, {
+    "name": "Magnus Larsén",
+    "role": "Partner",
+    "office": "Bruxelles",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "magnus-larsen",
+    "portrait": "/media/tjadspik/lars&#xE9;n_magnus__some.jpg"
+  }, {
+    "name": "Magnus Pauli",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Bank och finans", "Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "magnus-pauli",
+    "portrait": "/media/lg2lzx2i/pauli_magnus__socialmedia.jpg"
+  }, {
+    "name": "Malin Malm Waerme",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Insolvens och rekonstruktion"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "malin-malm-waerme",
+    "portrait": "/media/tv4fk15a/malm_waerme_malin_highres.jpg"
+  }, {
+    "name": "Malin Ohlin",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Skiljeförfaranden"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "malin-ohlin",
+    "portrait": "/media/kwodghzf/ohlin_malin_highres.jpg"
+  }, {
+    "name": "Marcus Glader",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "marcus-glader",
+    "portrait": "/media/lgiddap0/glader_marcus_socialmedia.jpg"
+  }, {
+    "name": "Maria Dahlin Kolvik",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maria-dahlin-kolvik",
+    "portrait": "/media/pbji2cgu/dahlin-kolvik_maria_socialmedia.jpg"
+  }, {
+    "name": "Martin Cronsioe",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Bank och finans", "Publik M&A"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "martin-cronsioe",
+    "portrait": "/media/mfgfo5v3/cronsioe_martin__some.jpg"
+  }, {
+    "name": "Martin Johansson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "martin-johansson",
+    "portrait": "/media/vzcmczwc/johansson_martin_socialmedia-1.jpg"
+  }, {
+    "name": "Mathilda Persson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Mänskliga rättigheter i affärer", "Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mathilda-persson",
+    "portrait": "/media/2uufgxhj/mathildapersson_socialmedia.jpg"
+  }, {
+    "name": "Matthias Pannier",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "matthias-pannier",
+    "portrait": "/media/bhyaozxw/pannier_matthias_socialmedia.jpg"
+  }, {
+    "name": "Mattias Rosengren",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mattias-rosengren",
+    "portrait": "/media/bw0p0gho/mattias-rosengren__some.jpg"
+  }, {
+    "name": "Mattias Schömer",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mattias-schomer",
+    "portrait": "/media/1h1lq1sa/schomer_mattias_highres.jpg"
+  }, {
+    "name": "Michele Fara",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["M&A", "Tvistlösning"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "michele-fara",
+    "portrait": "/media/3ejopxg1/fara_-michele_socialmedia.jpg"
+  }, {
+    "name": "Mikael Ståhl",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Antikorruption"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mikael-stahl",
+    "portrait": "/media/tt0jf5jt/stahl-mikael-high-res.jpg"
+  }, {
+    "name": "Niclas Winnberg",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Kapitalmarknad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "niclas-winnberg",
+    "portrait": "/media/yhtjexu1/winnberg-niclas-high-res2.jpg"
+  }, {
+    "name": "Nils Unckel",
+    "role": "Partner",
+    "office": "Bruxelles",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "nils-unckel",
+    "portrait": "/media/jwufudt0/unckel_nils_socialmedia.jpg"
+  }, {
+    "name": "Ninos Aho",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ninos-aho",
+    "portrait": "/media/g5biflnt/aho_ninos_socialmedia.jpg"
+  }, {
+    "name": "Olof Jisland",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Immaterialrätt"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "olof-jisland",
+    "portrait": "/media/hmrbn0qo/jisland_olof_highres.jpg"
+  }, {
+    "name": "Peter Sundgren",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["M&A", "Mänskliga rättigheter i affärer"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "peter-sundgren",
+    "portrait": "/media/rw4dujiw/sundgren_peter__some.jpg"
+  }, {
+    "name": "Richard Wessman",
+    "role": "Partner, chef immaterialrätt",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "richard-wessman",
+    "portrait": "/media/2wpfsggd/wessman_richard_highres.jpg"
+  }, {
+    "name": "Rikard Lindahl",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "rikard-lindahl",
+    "portrait": "/media/hzwb101s/lindahl_rikard_socialmedia_1.jpg"
+  }, {
+    "name": "Robert Deli",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "robert-deli",
+    "portrait": "/media/seady4nd/deli_robert_socialmedia.jpg"
+  }, {
+    "name": "Sam Seddigh",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Fastighet och entreprenad"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "sam-seddigh",
+    "portrait": "/media/kl1kb1x4/seddigh_sam_socialmedia.jpg"
+  }, {
+    "name": "Samra Tesser",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "samra-tesser",
+    "portrait": "/media/bimbmcem/tesser_samra__socialmedia.jpg"
+  }, {
+    "name": "Sebastian Örndahl",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sebastian-orndahl",
+    "portrait": "/media/w4dasruv/sebastian-&#xF6;rndahl-some.jpg"
+  }, {
+    "name": "Silvia Dahlberg",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["M&A", "Skatt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "silvia-dahlberg",
+    "portrait": "/media/puvlegfc/dahlberg-silvia-some.jpg"
+  }, {
+    "name": "Sofie Nordgren",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sofie-nordgren",
+    "portrait": "/media/tvxdmkyc/sofie-nordgren_socialmedia.jpg"
+  }, {
+    "name": "Sofie Bjärtun",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Immaterialrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sofie-bjartun",
+    "portrait": "/media/ok5nqixn/bjartun-sofie_socialmedia.jpg"
+  }, {
+    "name": "Victor Ericsson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "victor-ericsson",
+    "portrait": "/media/ruxnmrb5/ericsson_victor-_socialmedia.jpg"
+  }, {
+    "name": "Viveka Classon",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "viveka-classon",
+    "portrait": "/media/ilxpfiex/classon_viveka_highres.jpg"
+  }, {
+    "name": "Wibeke Sorling",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt", "M&A"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "wibeke-sorling",
+    "portrait": "/media/xn2dzvek/sorling_wibeke_socialmedia.jpg"
+  }, {
+    "name": "Yohanna Öhrnegård",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "yohanna-ohrnegard",
+    "portrait": "/media/ec2fv3dm/yohanna-&#xF6;hrneg&#xE5;rd-some.jpg"
+  }, {
+    "name": "Erik Gabrielson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A", "Skiljeförfaranden"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "erik-gabrielson",
+    "portrait": "/media/iejp45o0/gabrielsson-erik-high-res.jpg"
+  }, {
+    "name": "Håkan Borgenhäll",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Nederländska"],
+    "slug": "hakan-borgenhall",
+    "portrait": "/media/2xmdh0yz/borgenhall_hakan__some.jpg"
+  }, {
+    "name": "Johan Uggla",
+    "role": "Senior advisor",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt", "Skiljeförfaranden"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Nederländska"],
+    "slug": "johan-uggla",
+    "portrait": "/media/t4wjydgi/uggla-johan-some.jpg"
+  }, {
+    "name": "Jonas Eklund",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "jonas-eklund",
+    "portrait": "/media/d4xmjk5f/eklund_jonas_highres.jpg"
+  }, {
+    "name": "Karin Ulberstad",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Antikorruption", "Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karin-ulberstad",
+    "portrait": "/media/u0towkei/ulberstad-karin-highres.jpg"
+  }, {
+    "name": "Morgan Hallén",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "morgan-hallen",
+    "portrait": "/media/5ykfg5im/hallen_morgan_socialmedia.jpg"
+  }, {
+    "name": "Per Johan Eckerberg",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["M&A", "Utredningar"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "per-johan-eckerberg",
+    "portrait": "/media/11yhqpai/eckerberg_per-johan_highres.jpg"
+  }, {
+    "name": "Robert Wikholm",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "robert-wikholm",
+    "portrait": "/media/xx5fabdi/wikholm-robert-high-res.jpg"
+  }, {
+    "name": "Björn Mullaart",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "bjorn-mullaart",
+    "portrait": "/media/unjfczu4/mullaart_bjorn_highres.jpg"
+  }, {
+    "name": "Torbjörn Jacobsson",
+    "role": "Konsult",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "torbjorn-jacobsson",
+    "portrait": "/media/dqzmyai4/jacobsson_torbj&#xF6;rn_socialmedia.jpg"
+  }, {
+    "name": "Ulf Nilsson",
+    "role": "Konsult",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ulf-nilsson",
+    "portrait": "/media/r4ahs0mr/nilsson_ulf_highres.jpg"
+  }, {
+    "name": "Ulrich Ziche",
+    "role": "Konsult",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ulrich-ziche",
+    "portrait": "/media/f5uljbkf/ziche-ulrich-high-res.jpg"
+  }, {
+    "name": "Angela Bergman Evans",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "angela-bergman-evans",
+    "portrait": "/media/ozsatz21/angelabergmanevans.png"
+  }, {
+    "name": "Anna Alriksson",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-alriksson",
+    "portrait": "/media/uljlmv23/alriksson_anna_socialmedia.jpg"
+  }, {
+    "name": "Anthony Bitar",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "Arbetsrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "anthony-bitar",
+    "portrait": "/media/ic1blgxu/bitar_anthony_socialmedia.jpg"
+  }, {
+    "name": "Arvid Axelryd",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Publik M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "arvid-axelryd",
+    "portrait": "/media/1aejk3gi/axelryd_arvid_socialmedia.jpg"
+  }, {
+    "name": "Carl Lönnqvist",
+    "role": "Senior associate",
+    "office": "Bruxelles",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "carl-lonnqvist",
+    "portrait": "/media/zqfetl1c/lonnqvist_carl__socialmedia.jpg"
+  }, {
+    "name": "Caroline Krassén",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "caroline-krassen",
+    "portrait": "/media/c3ebzvzr/caroline-krassen-some.jpg"
+  }, {
+    "name": "Cecilia Cronqvist",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "cecilia-cronqvist",
+    "portrait": "/media/t3ojodrx/cronqvist_cecilia_socialmedia.jpg"
+  }, {
+    "name": "Christoffer Nordin",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "christoffer-nordin",
+    "portrait": "/media/lg3btrhw/nordin_christoffer__some.jpg"
+  }, {
+    "name": "Filip Öhrner",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Offentlig upphandling", "Skatt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "filip-ohrner",
+    "portrait": "/media/w5mpl4kw/ohrner_filip_socialmedia.jpg"
+  }, {
+    "name": "Helena Rosén Andersson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "helena-rosen-andersson",
+    "portrait": "/media/q2fdst3g/ros&#xE9;n_andersson_helena__some.jpg"
+  }, {
+    "name": "Henrik Borna",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Insolvens och rekonstruktion"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "henrik-borna",
+    "portrait": "/media/25lge211/borna_henrik_socialmedia.jpg"
+  }, {
+    "name": "Jakob Rosini Jeanrond",
+    "role": "Chefsekonom",
+    "office": "Göteborg",
+    "areas": ["Publik M&A", "Fastighet och entreprenad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jakob-rosini-jeanrond",
+    "portrait": "/media/jrwhycrs/jeanrond_jacob_socialmedia.jpg"
+  }, {
+    "name": "Joel Magnusson",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "joel-magnusson",
+    "portrait": "/media/1dijkyfu/magnusson_-joelsocialmedia.jpg"
+  }, {
+    "name": "Josefine Edström",
+    "role": "Counsel",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Bank och finans"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "josefine-edstrom",
+    "portrait": "/media/u2nfz3sn/edstr&#xF6;m-josefine-some.jpg"
+  }, {
+    "name": "Julia Ahlqvist",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A", "Fastighet och entreprenad"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "julia-ahlqvist",
+    "portrait": "/media/pvmfxc50/ahlqvist_julia__some.jpg"
+  }, {
+    "name": "Kristoffer Larson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kristoffer-larson",
+    "portrait": "/media/uofbjdox/larson_kristoffer_highres.jpg"
+  }, {
+    "name": "Kristoffer Sällfors",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Statsstöd", "Publik M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "kristoffer-sallfors",
+    "portrait": "/media/tlihuifk/kristoffer-s&#xE4;llfors-some.jpg"
+  }, {
+    "name": "Linn Adelwald",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Insolvens och rekonstruktion", "Miljörätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "linn-adelwald",
+    "portrait": "/media/mf2psv4n/adelwald_linn_highres_web.jpg"
+  }, {
+    "name": "Lisa Bourghardt",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lisa-bourghardt",
+    "portrait": "/media/gnxfnvex/bourghardt_lisa__some.jpg"
+  }, {
+    "name": "Maria Schultzberg",
+    "role": "Counsel",
+    "office": "Malmö",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maria-schultzberg",
+    "portrait": "/media/ol2bm5zv/schultzberg-maria-high-res.jpg"
+  }, {
+    "name": "Niklas Törnell",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "niklas-tornell",
+    "portrait": "/media/4yldzrga/tornell_niklas__some.jpg"
+  }, {
+    "name": "Noelia Martinez",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "noelia-martinez",
+    "portrait": "/media/rgrjq2zl/martinez_noelia_some.jpg"
+  }, {
+    "name": "Paula Bäckdén",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "paula-backden",
+    "portrait": "/media/wrwjlktn/paula_socialmedia.jpg"
+  }, {
+    "name": "Petronella Hallberg",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Statsstöd"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "petronella-hallberg",
+    "portrait": "/media/yr4pjd3a/hallberg_petronella__socialmedia.jpg"
+  }, {
+    "name": "Philip Danielsson",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Immaterialrätt", "Tvistlösning"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "philip-danielsson",
+    "portrait": "/media/31zghkvq/danielsson_philip_highres.jpg"
+  }, {
+    "name": "Tobias Kempas",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Publik M&A", "Immaterialrätt"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "tobias-kempas",
+    "portrait": "/media/eaydkzc2/kempas_tobias_socialmedia.jpg"
+  }, {
+    "name": "Ulrika Bengtsson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Insolvens och rekonstruktion"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ulrika-bengtsson",
+    "portrait": "/media/y0zfisue/bengtsson_ulrika_highres.jpg"
+  }, {
+    "name": "Anders Leissner",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anders-leissner",
+    "portrait": "/media/q3gl2ti0/leisssner_anders_socialmedia.jpg"
+  }, {
+    "name": "David Olander",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "david-olander",
+    "portrait": "/media/as3ia3xv/olander_david_socialmedia.jpg"
+  }, {
+    "name": "Fredrik Hellström",
+    "role": "Expert, EU-rätt",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "fredrik-hellstrom",
+    "portrait": "/media/owzlat1y/hellstrom_fredrik__some.jpg"
+  }, {
+    "name": "Hayaat Ibrahim",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Skatt", "Arbetsrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hayaat-ibrahim",
+    "portrait": "/media/tn5nwcxe/ibrahim_hayaat_highres.jpg"
+  }, {
+    "name": "Johanna Fjellström",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Immaterialrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "johanna-fjellstrom",
+    "portrait": "/media/rv1bezwa/johanna-fjellstr&#xF6;m-some.jpg"
+  }, {
+    "name": "Marcus Andersson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "marcus-andersson",
+    "portrait": "/media/ss1ltati/andersson_marcus2_socialmedia.jpg"
+  }, {
+    "name": "Mikaela Reinhammar",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "mikaela-reinhammar",
+    "portrait": "/media/ef4ndxl2/reinhammar_mikaela__some.jpg"
+  }, {
+    "name": "Nicklas Thorgerzon",
+    "role": "Partner",
+    "office": "Bruxelles",
+    "areas": ["M&A", "Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "nicklas-thorgerzon",
+    "portrait": "/media/glfe2juz/thorgerzon_nicklas__some.jpg"
+  }, {
+    "name": "Per-Ola Bergqvist",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Handelssanktioner"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "per-ola-bergqvist",
+    "portrait": "/media/fybfm0mq/bergqvist_per-ola_socialmedia.jpg"
+  }, {
+    "name": "Sara Ljung",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Bank och finans"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-ljung",
+    "portrait": "/media/3e4fv5zh/ljung_sara__some.jpg"
+  }, {
+    "name": "Åsa Hellstadius",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "asa-hellstadius",
+    "portrait": "/media/ryhbk1ox/hellstadius_asa_socialmedia.jpg"
+  }, {
+    "name": "Adam Loewenstein",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Mänskliga rättigheter i affärer"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "adam-loewenstein",
+    "portrait": "/media/uxkdxep0/loewenstein_adam__some.jpg"
+  }, {
+    "name": "Agaton Lindgren",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Bank och finans"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "agaton-lindgren",
+    "portrait": "/media/hldjkwwd/agaton-lindgren-_socialmedia.jpg"
+  }, {
+    "name": "Agnes Pigg",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Kapitalmarknad", "Publik M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "agnes-pigg",
+    "portrait": "/media/jldasdg1/agnes-pigg_socialmedia.jpg"
+  }, {
+    "name": "Alexander Rüdén",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Antikorruption"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alexander-ruden",
+    "portrait": "/media/y0bd4d1e/alexander-ruden_socialmedia.jpg"
+  }, {
+    "name": "Alexandra Tamm",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Immaterialrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alexandra-tamm",
+    "portrait": "/media/qlspnsqs/tamm_alexandra_socialmedia.jpg"
+  }, {
+    "name": "Alice Göransson",
+    "role": "Senior associate",
+    "office": "Bruxelles",
+    "areas": ["Insolvens och rekonstruktion", "Handelssanktioner"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alice-goransson",
+    "portrait": "/media/2g5p2jqt/goransson_alice__socialmedia.jpg"
+  }, {
+    "name": "Alva Chambert",
+    "role": "Paralegal",
+    "office": "Malmö",
+    "areas": ["Skatt", "M&A"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alva-chambert",
+    "portrait": "/media/2c0e0so4/chambert_alva_socialmedia.jpg"
+  }, {
+    "name": "Alva Skott",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Publik M&A"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alva-skott",
+    "portrait": "/media/my3f5gjy/alva-skott_socialmedia.jpg"
+  }, {
+    "name": "Alva Thörn",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alva-thorn",
+    "portrait": "/media/f3klfksu/alva-th&#xF6;rn-some.jpg"
+  }, {
+    "name": "Amanda Strömblad",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "amanda-stromblad",
+    "portrait": "/media/hwippjqd/str&#xF6;mblad-amanda-some.jpg"
+  }, {
+    "name": "Amelia Rihs",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "amelia-rihs",
+    "portrait": "/media/1xijdcu1/rihs_amelia_socialmedia.jpg"
+  }, {
+    "name": "Andrea Rökaas",
+    "role": "Trainee",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "Fastighet och entreprenad"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "andrea-rokaas",
+    "portrait": "/media/n1akb3k1/rokaas_andrea__socialmedia.jpg"
+  }, {
+    "name": "Anna Högsten",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-hogsten",
+    "portrait": "/media/avibz1r2/hogsten_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Ståhlklo",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Handelssanktioner"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-stahlklo",
+    "portrait": "/media/5fdol25j/anna-st&#xE5;hklo-some.jpg"
+  }, {
+    "name": "Anna Svensson",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "anna-svensson",
+    "portrait": "/media/32narzqf/svensson_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Wisborg",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Publik M&A", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "anna-wisborg",
+    "portrait": "/media/0cxdctzg/wisborg-anna-some.jpg"
+  }, {
+    "name": "Annie Demmelmaier",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Mänskliga rättigheter i affärer"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "annie-demmelmaier",
+    "portrait": "/media/wrsfx4v0/fallstrom_annie_some.jpg"
+  }, {
+    "name": "Anton Sjökvist",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Arbetsrätt", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anton-sjokvist",
+    "portrait": "/media/hz2frqtk/sjokvist_anton_socialmedia.jpg"
+  }, {
+    "name": "Athina Poulidas Josefsson",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "athina-poulidas-josefsson",
+    "portrait": "/media/bs1bu1bw/athina-poulidas-josefsson-some.jpg"
+  }, {
+    "name": "Avidh Tajik",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Bank och finans", "Bolagsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "avidh-tajik",
+    "portrait": "/media/5c3dw2d3/avidh-tajik_some.jpg"
+  }, {
+    "name": "Axel Lennartsson",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Tvistlösning", "M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "axel-lennartsson",
+    "portrait": "/media/2pjnowva/axel-lennartsson_socialmedia.jpg"
+  }, {
+    "name": "Calle Tengwall Pagels",
+    "role": "Senior associate",
+    "office": "Bruxelles",
+    "areas": ["Konkurrensrätt", "Skiljeförfaranden"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "calle-tengwall-pagels",
+    "portrait": "/media/rbrferxx/carl-tengwall-pagels-_socialmedia.jpg"
+  }, {
+    "name": "Carl Fredrik Wachtmeister",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["M&A", "Antikorruption"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "carl-fredrik-wachtmeister",
+    "portrait": "/media/sdmfprhr/wachtmeister_carl_fredrik-_socialmedia.jpg"
+  }, {
+    "name": "Carla Håkansson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["M&A", "Antikorruption"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "carla-hakansson",
+    "portrait": "/media/43epd31s/zachariasson_carla_socialmedia.jpg"
+  }, {
+    "name": "Clara Klingspor",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "clara-klingspor",
+    "portrait": "/media/i15htg5p/clara-klingspor_socialmedia.jpg"
+  }, {
+    "name": "Dagne Sabockis",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Tvistlösning", "Handelssanktioner"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "dagne-sabockis",
+    "portrait": "/media/3phg2d5j/sabockis_dagne_socialmedia.jpg"
+  }, {
+    "name": "David Flodin",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "david-flodin",
+    "portrait": "/media/ceennx5s/flodin_david__socialmedia.jpg"
+  }, {
+    "name": "David Henningsson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "david-henningsson",
+    "portrait": "/media/kqqjykqg/henningsson-david-some.jpg"
+  }, {
+    "name": "Desirée Hagenfeldt",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "desiree-hagenfeldt",
+    "portrait": "/media/5e1axy0k/hagenfeldt_desiree__socialmedia.jpg"
+  }, {
+    "name": "Edin Agic",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "edin-agic",
+    "portrait": "/media/0ndcfiwy/agic_edin_socialmedia.jpg"
+  }, {
+    "name": "Edvard Gustafsson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Insolvens och rekonstruktion", "Immaterialrätt"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "edvard-gustafsson",
+    "portrait": "/media/msvldnyk/edvard-gustafsson-some.jpg"
+  }, {
+    "name": "Egil Svensson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Skiljeförfaranden", "Fastighet och entreprenad"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "egil-svensson",
+    "portrait": "/media/2khletah/egil-svensson-_socialmedia.jpg"
+  }, {
+    "name": "Elias Bohlin",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Tvistlösning", "Arbetsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elias-bohlin",
+    "portrait": "/media/rjmppfb5/elias-bohlin-some.jpg"
+  }, {
+    "name": "Elis Allmark",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "elis-allmark",
+    "portrait": "/media/wiwgotcj/elis-allmark_socialmedia.jpg"
+  }, {
+    "name": "Elsa Strandberg",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elsa-strandberg",
+    "portrait": "/media/m0jdpmaj/elsa-strandberg_socialmedia.jpg"
+  }, {
+    "name": "Elsie Nassar",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elsie-nassar",
+    "portrait": "/media/e5jogdqx/nassar_elsie_socialmedia_1.jpg"
+  }, {
+    "name": "Emelie Svanberg",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt", "Arbetsrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emelie-svanberg",
+    "portrait": "/media/nkejda2r/svanberg_emelie__some.jpg"
+  }, {
+    "name": "Emil Lindwall",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Skatt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "emil-lindwall",
+    "portrait": "/media/lxnjomip/lindwall_emil-_socialmedia.jpg"
+  }, {
+    "name": "Emil Sandgrim",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emil-sandgrim",
+    "portrait": "/media/5h5iu2wx/emil-sandgrim_socialmedia.jpg"
+  }, {
+    "name": "Emma Gustavsson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "emma-gustavsson",
+    "portrait": "/media/cr2brwq5/emma-gustavsson_socialmedia.jpg"
+  }, {
+    "name": "Emma Sääf",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emma-saaf",
+    "portrait": "/media/trudtstf/lundgren_emma_socialmedia.jpg"
+  }, {
+    "name": "Felix Möller",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Bank och finans", "Publik M&A"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "felix-moller",
+    "portrait": "/media/gmkdv3tw/moller_felix-_socialmedia.jpg"
+  }, {
+    "name": "Felizia Vilhelmson",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "felizia-wiker",
+    "portrait": "/media/rirdkhme/wiker_felizia_socialmedia.jpg"
+  }, {
+    "name": "Filip Magnusson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden", "Insolvens och rekonstruktion"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "filip-magnusson",
+    "portrait": "/media/kk2ccutv/magnusson_filip__some.jpg"
+  }, {
+    "name": "Fredrik Löwenclou",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "fredrik-lowenclou",
+    "portrait": "/media/orse5dal/lowenclou_fredrik_socialmedia.jpg"
+  }, {
+    "name": "Fredrik Eriksson Oppliger",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Handelssanktioner", "Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "fredrik-eriksson-oppliger",
+    "portrait": "/media/zufffb5u/fredrik-eriksson-oppliger-some.jpg"
+  }, {
+    "name": "Fredrika Hjelmberg",
+    "role": "Paralegal",
+    "office": "Malmö",
+    "areas": ["Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "fredrika-hjelmberg",
+    "portrait": "/media/km4phrzz/hjelmberg_fredrika_highres.jpg"
+  }, {
+    "name": "Gabriel Chabo",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Antikorruption", "Mänskliga rättigheter i affärer"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gabriel-chabo",
+    "portrait": "/media/eiing0sf/gabriel-chabo_socialmedia.jpg"
+  }, {
+    "name": "Gustav Wahlberg",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gustav-wahlberg",
+    "portrait": "/media/iy1lfxwj/wahlberg_gustav_socialmedia.jpg"
+  }, {
+    "name": "Hampus Wahlberg",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Skiljeförfaranden"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hampus-wahlberg",
+    "portrait": "/media/ugoa21i0/hampus_socialmedia.jpg"
+  }, {
+    "name": "Hanna Jansson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Tvistlösning", "Bolagsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hanna-jansson",
+    "portrait": "/media/ol4nlajh/hanna-j_socialmedia.jpg"
+  }, {
+    "name": "Hanna Marberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "hanna-marberg",
+    "portrait": "/media/h3unos0s/hanna-marberg-some.jpg"
+  }, {
+    "name": "Hedvig Josefson",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Mänskliga rättigheter i affärer"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hedvig-josefson",
+    "portrait": "/media/13xhu2uu/josefson_hedvig_socialmedia_1.jpg"
+  }, {
+    "name": "Helena Liljenberg",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "helena-liljenberg",
+    "portrait": "/media/zrqbpypy/liljenberg_helena_some.jpg"
+  }, {
+    "name": "Ian Jonson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ian-jonson",
+    "portrait": "/media/wzmbsfk0/jonson_ian_socialmedia.jpg"
+  }, {
+    "name": "Ida Redander",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "ida-redander",
+    "portrait": "/media/1fjbwghr/redander_ida_socialmedia.jpg"
+  }, {
+    "name": "Isabelle Sundström Stridh",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Publik M&A"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "isabelle-sundstrom-stridh",
+    "portrait": "/media/rwlcxxla/sundstrom-stridh_isabelle_socialmedia.jpg"
+  }, {
+    "name": "Izabella Barisa",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Konkurrensrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "izabella-barisa",
+    "portrait": null
+  }, {
+    "name": "Jacqueline Fritzson",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jacqueline-fritzson",
+    "portrait": "/media/jibn5t0m/fritzson_jacqueline_highres.jpg"
+  }, {
+    "name": "Jakob Larsson Taghizadeh",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jakob-larsson-taghizadeh",
+    "portrait": "/media/y2tjhrlp/taghizadeh_larsson_jakob__some.jpg"
+  }, {
+    "name": "Jasmine Elgh",
+    "role": "Senior associate",
+    "office": "Bruxelles",
+    "areas": ["Bolagsrätt", "Konkurrensrätt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jasmine-elgh",
+    "portrait": "/media/xpwfwe0s/elgh-jasmine-some.jpg"
+  }, {
+    "name": "Jenny Tolander",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jenny-tolander",
+    "portrait": "/media/vmhj2ser/tolander_jenny__some.jpg"
+  }, {
+    "name": "Joar Lindén",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Skiljeförfaranden", "Immaterialrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "joar-linden",
+    "portrait": "/media/uafh3khs/lind&#xE9;n-joar-some.jpg"
+  }, {
+    "name": "Johan Severinsson",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["M&A", "Immaterialrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johan-severinsson",
+    "portrait": "/media/j0hjos0t/severinsson_johan__socialmedia.jpg"
+  }, {
+    "name": "Johanna Hamrefält",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Tvistlösning", "Utredningar"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-hamrefalt",
+    "portrait": "/media/au5kcgw2/johanna-h_socialmedia.jpg"
+  }, {
+    "name": "Johanna Barfoed",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-barfoed",
+    "portrait": "/media/eprl4ty5/johanna-barfoed-some.jpg"
+  }, {
+    "name": "Johanne Örnfeldt Svensson",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanne-ornfeldt-svensson",
+    "portrait": "/media/a2imezqv/ornfeldt_svensson_johanne__some.jpg"
+  }, {
+    "name": "John Andrén",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "john-andren",
+    "portrait": "/media/qflpmjft/john-andr&#xE9;n-some.jpg"
+  }, {
+    "name": "Jolinn Uhlin",
+    "role": "Paralegal",
+    "office": "Malmö",
+    "areas": ["Skatt", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jolinn-uhlin",
+    "portrait": "/media/cj0bn42n/uhlin_jolinn_socialmedia.jpg"
+  }, {
+    "name": "Jonatan Karlsson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jonatan-karlsson",
+    "portrait": "/media/fq2ejpsg/karlsson_jonatan_socialmedia.jpg"
+  }, {
+    "name": "Jonna Bondemark",
+    "role": "Junior assistant",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "jonna-bondemark",
+    "portrait": "/media/1uebfgwu/bondemark_jonna_socialmedia.jpg"
+  }, {
+    "name": "Josef Groow",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Antikorruption"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "josef-groow",
+    "portrait": "/media/5pzjsaft/josef-groow_socialmedia.jpg"
+  }, {
+    "name": "Josefine Lanker",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "josefine-lanker",
+    "portrait": "/media/i1jjripv/lanker_josefine_highres.jpg"
+  }, {
+    "name": "Josua Fridh",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bolagsrätt", "Skatt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "josua-fridh",
+    "portrait": "/media/3o5hd3c0/frid_josua__some.jpg"
+  }, {
+    "name": "Julia Söderdahl",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Tvistlösning"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "julia-soderdahl",
+    "portrait": "/media/ryfnz4za/julia-s&#xF6;derdahl-some.jpg"
+  }, {
+    "name": "Kamyar Najmi",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "kamyar-najmi",
+    "portrait": "/media/x0yoy4by/kamyar-najmi_socialmedia.jpg"
+  }, {
+    "name": "Karin Gynnerstedt",
+    "role": "Senior associate",
+    "office": "Bruxelles",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karin-gynnerstedt",
+    "portrait": "/media/m2dhlzai/gynnerstedt-karin-some.jpg"
+  }, {
+    "name": "Karin Hultgren",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karin-hultgren",
+    "portrait": "/media/0v3lqnpm/hultgren_karin__socialmedia.jpg"
+  }, {
+    "name": "Karl-Gustaw Tobola",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Skatt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karl-gustaw-tobola",
+    "portrait": "/media/obyl2uii/tobola_karl-gustaw_socialmedia.jpg"
+  }, {
+    "name": "Kateryna Lazarchuk",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Fastighet och entreprenad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kateryna-lazarchuk",
+    "portrait": "/media/z0wkdypc/lazarchuk_kateryna_socialmedia.jpg"
+  }, {
+    "name": "Kim Bergman Aldevinge",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kim-bergman-aldevinge",
+    "portrait": "/media/bpndi4jh/kim_bergman_aldevinge_some-1.jpg"
+  }, {
+    "name": "Linus Adolfsson",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "linus-adolfsson",
+    "portrait": "/media/3kjhjli3/linus-adolfsson-some.jpg"
+  }, {
+    "name": "Lionardo Ojeda",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Bolagsrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lionardo-ojeda",
+    "portrait": "/media/f1mozgou/ojeda_lionardo__some.jpg"
+  }, {
+    "name": "Lisa Johansson",
+    "role": "Trainee",
+    "office": "Bruxelles",
+    "areas": ["Konkurrensrätt", "Bank och finans"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "lisa-johansson",
+    "portrait": "/media/auapu04h/johansson_lisa_highres.jpg"
+  }, {
+    "name": "Louisa Fagarasan",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "Bolagsrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Nederländska"],
+    "slug": "louisa-fagarasan",
+    "portrait": "/media/syegjfjg/fagarasan_louisa_some.jpg"
+  }, {
+    "name": "Louise Nässén",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "louise-nassen",
+    "portrait": "/media/zwimeeoa/nass&#xE9;n_louise__some.jpg"
+  }, {
+    "name": "Ludvig Montan",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Antikorruption"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ludvig-montan",
+    "portrait": "/media/1ighr5jx/ludvig-montan-some.jpg"
+  }, {
+    "name": "Madelene Andersson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Antikorruption"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "madelene-andersson",
+    "portrait": "/media/1dwjboeh/andersson_madelene_socialmedia.jpg"
+  }, {
+    "name": "Malin Dejke",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "malin-dejke",
+    "portrait": "/media/srmpjesl/malin-dejke-some.jpg"
+  }, {
+    "name": "Malin Olsson",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Bank och finans"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "malin-olsson",
+    "portrait": "/media/o0mhn0ct/olsson-malin_socialmedia.jpg"
+  }, {
+    "name": "Mana Sohrabi",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt", "Arbetsrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mana-sohrabi",
+    "portrait": "/media/3vepjhev/mana-sohrabi_some.jpg"
+  }, {
+    "name": "Manon de Cooman",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Publik M&A", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "manon-de-cooman",
+    "portrait": "/media/442pdmeu/de_cooman_manon__some.jpg"
+  }, {
+    "name": "Mario Saad",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mario-saad",
+    "portrait": "/media/jphkyv5q/mario-saad-some.jpg"
+  }, {
+    "name": "Markus Hedbys",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Immaterialrätt", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "markus-hedbys",
+    "portrait": "/media/frpdeeru/hedbys_markus__some.jpg"
+  }, {
+    "name": "Markus Bernander",
+    "role": "Partner",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad", "Arbetsrätt"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "markus-bernander",
+    "portrait": "/media/31wjoyqh/markus-bernnander-some.jpg"
+  }, {
+    "name": "Martin Bergqvist",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "martin-bergqvist",
+    "portrait": "/media/lqapxehq/bergqvist_martin__some.jpg"
+  }, {
+    "name": "Martin Madsen Svanberg",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "martin-madsen-svanberg",
+    "portrait": "/media/ce3fygti/svanberg_martin_socialmedia.jpg"
+  }, {
+    "name": "Matilda Kronqvist",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "matilda-kronqvist",
+    "portrait": "/media/1gcfxi2s/kronqvist-_matilda_socialmedia.jpg"
+  }, {
+    "name": "Maximilian Tamm",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "maximilian-tamm",
+    "portrait": "/media/upcpp5jr/bengtsson_maximilian_socialmedia.jpg"
+  }, {
+    "name": "Melinda Oldenburg",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Handelssanktioner", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "melinda-oldenburg",
+    "portrait": "/media/vmnn00ws/melinda-oldenburg_socialmedia.jpg"
+  }, {
+    "name": "Michael Spira",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Miljörätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "michael-spira",
+    "portrait": "/media/2gdpqb4k/mortner_michael__some.jpg"
+  }, {
+    "name": "Michaela Ådén",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Mänskliga rättigheter i affärer", "Bolagsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "michaela-aden",
+    "portrait": "/media/hcxdjjya/michaela-&#xE5;d&#xE9;n-_socialmedia.jpg"
+  }, {
+    "name": "Michella Said",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "michella-said",
+    "portrait": "/media/ubimjc4x/lina-said-michella-some.jpg"
+  }, {
+    "name": "Morgan Ödman",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "M&A"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "morgan-odman",
+    "portrait": "/media/2tqklqgh/odman_morgan_socialmedia.jpg"
+  }, {
+    "name": "Nathalie Wikman",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Insolvens och rekonstruktion", "Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "nathalie-wikman",
+    "portrait": "/media/v1fhdqov/wikman_nathalie__socialmedia.jpg"
+  }, {
+    "name": "Niclas Lindblom",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt", "Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "niclas-lindblom",
+    "portrait": "/media/5zdj1ybg/lindblom_niclas_some.jpg"
+  }, {
+    "name": "Nicolina Lavdas",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["M&A", "Tvistlösning"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "nicolina-lavdas",
+    "portrait": "/media/mxfcvz4e/nicolina-lavdas-some.jpg"
+  }, {
+    "name": "Nils Ivars",
+    "role": "Biträdande jurist",
+    "office": "Bruxelles",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "nils-ivars",
+    "portrait": "/media/oqwbuyrq/ivars_nils__socialmedia.jpg"
+  }, {
+    "name": "Nina Bonnier",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "nina-bonnier",
+    "portrait": "/media/pephw00q/gransater_nina-_socialmedia.jpg"
+  }, {
+    "name": "Nour Makie",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Handelssanktioner", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "nour-makie",
+    "portrait": "/media/p0cjlg4w/makie_nour_socialmedia.jpg"
+  }, {
+    "name": "Olof Löfvenberg",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "olof-lofvenberg",
+    "portrait": "/media/h1mj2czz/lofvenberg_olof_socialmedia.jpg"
+  }, {
+    "name": "Oscar Bengtsson Kindgren",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oscar-bengtsson-kindgren",
+    "portrait": "/media/5msn3rxv/bengtsson-kindgren-oscar-some.jpg"
+  }, {
+    "name": "Oscar Wennerström",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oscar-wennerstrom",
+    "portrait": "/media/1mnnvqkv/wennerstrom_oscar_hr.jpg"
+  }, {
+    "name": "Oskar Nilsson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Bank och finans"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oskar-nilsson",
+    "portrait": "/media/hn5jnlrd/oskar-nilsson-some.jpg"
+  }, {
+    "name": "Per Kling",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Fastighet och entreprenad", "Immaterialrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "per-kling",
+    "portrait": "/media/gwsmweye/kling_per-_socialmedia.jpg"
+  }, {
+    "name": "Philip Moré",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "philip-more",
+    "portrait": "/media/uxtb2o34/more_philip_socialmedia.jpg"
+  }, {
+    "name": "Philippa Nilsson",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Handelssanktioner"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "philippa-nilsson",
+    "portrait": "/media/0a0bfyr1/nilsson-philippa-some.jpg"
+  }, {
+    "name": "Robin Sultani",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "robin-sultani",
+    "portrait": "/media/nsomepr3/sultani_robin_socialmedia.jpg"
+  }, {
+    "name": "Samuel Hartman",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Arbetsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "samuel-hartman",
+    "portrait": "/media/siqdh1lu/hartman_samuel_socialmedia.jpg"
+  }, {
+    "name": "Sara Hill",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-hill",
+    "portrait": null
+  }, {
+    "name": "Sebastian Berglind",
+    "role": "Paralegal",
+    "office": "Göteborg",
+    "areas": ["Skatt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "sebastian-berglind",
+    "portrait": "/media/hnfdnhh0/berglind_sebastian-_socialmedia.jpg"
+  }, {
+    "name": "Sebastian Saadieh",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt", "Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "sebastian-saadieh",
+    "portrait": "/media/4f1nmpds/saadieh_sebastian_socialmedia.jpg"
+  }, {
+    "name": "Selma Beganovic",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden", "Kapitalmarknad"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "selma-beganovic",
+    "portrait": "/media/ph4ncg45/selma-beganovic-some.jpg"
+  }, {
+    "name": "Simon Gille-Johnson",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Tvistlösning"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "simon-gille-johnson",
+    "portrait": "/media/ri0bjvwb/gille-johnson_simon__some.jpg"
+  }, {
+    "name": "Simona Mullai",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Kapitalmarknad", "Bolagsrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "simona-mullai",
+    "portrait": "/media/z01cjnki/mullai_simona__socialmedia.jpg"
+  }, {
+    "name": "Sofia Haggren",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Konkurrensrätt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sofia-haggren",
+    "portrait": "/media/3cgifu0m/haggren_sofia_socialmedia.jpg"
+  }, {
+    "name": "Sofia Sallnäs",
+    "role": "Junior assistant",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "sofia-sallnas",
+    "portrait": "/media/d34pqe1k/sofia-salln&#xE4;s-some.jpg"
+  }, {
+    "name": "Tilda Hall",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "tilda-hall",
+    "portrait": "/media/ncdjwp4r/hall-tilda-some.jpg"
+  }, {
+    "name": "Tobias Onegård Karlsson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden", "M&A"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "tobias-onegard-karlsson",
+    "portrait": "/media/3oiffa3e/karlsson_onegard_tobias_socialmedia.jpg"
+  }, {
+    "name": "Tobias Fleischer",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "tobias-fleischer",
+    "portrait": "/media/phvpsbxc/fleischer_tobias__some.jpg"
+  }, {
+    "name": "Tove Hallbäck",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "M&A"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "tove-hallback",
+    "portrait": "/media/bhcd1t01/hallback_tove_socialmedia.jpg"
+  }, {
+    "name": "Victor Björkheim",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Handelssanktioner", "Offentlig upphandling"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "victor-bjorkheim",
+    "portrait": "/media/qubj4ia3/victor-bjorkheim_socialmedia.jpg"
+  }, {
+    "name": "Victoria Gunnerek",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "victoria-gunnerek",
+    "portrait": "/media/sqcn2u4j/gunnerek_victoria_socialmedia.jpg"
+  }, {
+    "name": "Viktor Ramhult",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Offentlig upphandling"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "viktor-ramhult",
+    "portrait": "/media/bx3h0zsx/lennartsson_viktor_socialmedia.jpg"
+  }, {
+    "name": "William Karo Persson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "william-karo-persson",
+    "portrait": "/media/jpkejzph/karo_persson_william__some.jpg"
+  }, {
+    "name": "Jacob Fondland Andersson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jacob-fondland-andersson",
+    "portrait": null
+  }, {
+    "name": "Jonas Winroth",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jonas-winroth",
+    "portrait": null
+  }, {
+    "name": "Klara Wirlée",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Skiljeförfaranden"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "klara-wirlee",
+    "portrait": null
+  }, {
+    "name": "Adam Karlsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Kapitalmarknad"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "adam-karlsson",
+    "portrait": "/media/cgip4jxl/adam-karlsson-some.jpg"
+  }, {
+    "name": "Adnan Durakovic",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "adnan-durakovic",
+    "portrait": "/media/m22f4gv3/durakovic-adnan-some.jpg"
+  }, {
+    "name": "Agnes Tell",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "agnes-tell",
+    "portrait": "/media/r2aiob1l/tell_agnes__some.jpg"
+  }, {
+    "name": "Aleksandar Bajic",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "aleksandar-bajic",
+    "portrait": "/media/uvxdcnmy/bajic_aleksandar__some.jpg"
+  }, {
+    "name": "Alex Forsberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Tvistlösning"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "alex-forsberg",
+    "portrait": "/media/01ojuxsy/forsberg_alex__socialmedia.jpg"
+  }, {
+    "name": "Alex Öberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alex-oberg",
+    "portrait": "/media/mirgfd0a/&#xF6;berg-alex-some.jpg"
+  }, {
+    "name": "Alicia Olnäs",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alicia-olnas",
+    "portrait": "/media/433bsefd/olnas_alicia_socialmedia.jpg"
+  }, {
+    "name": "Amanda Sandström",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "amanda-sandstrom",
+    "portrait": "/media/tcxfc0q0/sandstom_amanda_some.jpg"
+  }, {
+    "name": "Anna Li",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Arbetsrätt", "Bank och finans"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-li",
+    "portrait": "/media/pqydakw4/li_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Neubüser",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad", "Insolvens och rekonstruktion"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "anna-neubuser",
+    "portrait": "/media/5wipmsrs/neubuser_anna__some.jpg"
+  }, {
+    "name": "Annie Einarsson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "annie-einarsson",
+    "portrait": "/media/zvxhtxxm/annie-einarsson-some.jpg"
+  }, {
+    "name": "Axel Åshuvud",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Bank och finans", "Fastighet och entreprenad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "axel-ashuvud",
+    "portrait": "/media/4xsa05go/ashuvud_axel__some.jpg"
+  }, {
+    "name": "Beatrice Gustafsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Utredningar"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "beatrice-gustafsson",
+    "portrait": "/media/jfkf0qjr/beatrice-gustafsson-some.jpg"
+  }, {
+    "name": "Carolina Lundh",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Insolvens och rekonstruktion"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "carolina-lundh",
+    "portrait": "/media/o00gt10j/lundh_carolina__some.jpg"
+  }, {
+    "name": "Celina Kristiansson",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Kapitalmarknad", "Bolagsrätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "celina-kristiansson",
+    "portrait": "/media/j13nuk0v/celina-kristiansson_some.jpg"
+  }, {
+    "name": "Chris Bastholm",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "chris-bastholm",
+    "portrait": "/media/tvmf1z1j/bastholm_chris_some.jpg"
+  }, {
+    "name": "Dante Lalouni",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "M&A"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "dante-lalouni",
+    "portrait": "/media/wj2h0jw4/lalouni_dante__some.jpg"
+  }, {
+    "name": "Davina Schatz",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "davina-schatz",
+    "portrait": null
+  }, {
+    "name": "Dennis Hultman",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Statsstöd"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "dennis-hultman",
+    "portrait": "/media/h2zm5ntz/hultman-dennis-some.jpg"
+  }, {
+    "name": "Ebba Gäbel",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ebba-gabel",
+    "portrait": "/media/ci5bnnkf/gabel_ebba__ppt.jpg"
+  }, {
+    "name": "Ebba Dahlberg",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Miljörätt", "Fastighet och entreprenad"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ebba-dahlberg",
+    "portrait": "/media/oewmb2yc/ebba-dahlberg-some.jpg"
+  }, {
+    "name": "Ebba Deuschl",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Statsstöd", "Insolvens och rekonstruktion"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "ebba-deuschl",
+    "portrait": null
+  }, {
+    "name": "Einar Dahlberg",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Fastighet och entreprenad", "Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "einar-dahlberg",
+    "portrait": "/media/4caobmh1/einar-dahlberg-some.jpg"
+  }, {
+    "name": "Elias Kröger",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Skiljeförfaranden"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elias-kroger",
+    "portrait": "/media/0ygjrnc1/kroger_elias_socialmedia.jpg"
+  }, {
+    "name": "Elin Einarsson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Immaterialrätt", "Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elin-einarsson",
+    "portrait": null
+  }, {
+    "name": "Ellenor Eckerborn",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt", "Fastighet och entreprenad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ellenor-eckerborn",
+    "portrait": "/media/mmldfjuf/eckerborn_ellenor_some.jpg"
+  }, {
+    "name": "Elliot Björn",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Mänskliga rättigheter i affärer", "Handelssanktioner"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elliot-bjorn",
+    "portrait": null
+  }, {
+    "name": "Elsa Kalén",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Tvistlösning"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "elsa-kalen",
+    "portrait": "/media/dxhjcsle/elsa-kal&#xE9;n-some.jpg"
+  }, {
+    "name": "Emelie Herlitz",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emelie-herlitz",
+    "portrait": "/media/ofsdefj0/emelie-herlitz_some.jpg"
+  }, {
+    "name": "Emelie Kardell",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "emelie-kardell",
+    "portrait": null
+  }, {
+    "name": "Emelie Liljeblad",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Miljörätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "emelie-liljeblad",
+    "portrait": "/media/sx1no34h/liljeblad-emelie-some.jpg"
+  }, {
+    "name": "Emil Bobovac",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emil-bobovac",
+    "portrait": "/media/rpkeavo5/bobovac-emil-some.jpg"
+  }, {
+    "name": "Emma Jansson",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Skiljeförfaranden", "Arbetsrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emma-jansson",
+    "portrait": "/media/mh3fphad/jansson_emma__some.jpg"
+  }, {
+    "name": "Emma Lundberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emma-lundberg",
+    "portrait": "/media/e3ranmfo/lundberg_emma_some.jpg"
+  }, {
+    "name": "Emma Näsholm",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "emma-nasholm",
+    "portrait": "/media/dqyhzwf3/nasholm_emma__socialmedia.jpg"
+  }, {
+    "name": "Erik Kochbati",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Antikorruption"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "erik-kochbati",
+    "portrait": "/media/2pwdqp5d/kochbati_erik_socialmedia.jpg"
+  }, {
+    "name": "Erik Holmin",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden", "Publik M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "erik-holmin",
+    "portrait": null
+  }, {
+    "name": "Erik von Zweigbergk",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Skatt", "Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "erik-von-zweigbergk",
+    "portrait": "/media/xgtj3gey/erik-von-zweigbergk-some.jpg"
+  }, {
+    "name": "Ester Wallmark",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Skatt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ester-wallmark",
+    "portrait": "/media/looamosp/wallmark_ester__some.jpg"
+  }, {
+    "name": "Felicia Andersson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "felicia-andersson",
+    "portrait": "/media/yneptobv/andersson-felicia-some.jpg"
+  }, {
+    "name": "Felicia Sandén",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "felicia-sanden",
+    "portrait": "/media/piijtqig/felicia-sand&#xE9;n-some.jpg"
+  }, {
+    "name": "Filippa Berggren",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "filippa-berggren",
+    "portrait": "/media/qmrk0pfc/berggren_filipa__socialmedia.jpg"
+  }, {
+    "name": "Filippa Eriksson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt", "M&A"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "filippa-eriksson",
+    "portrait": "/media/tridux5k/eriksson_filippa__some.jpg"
+  }, {
+    "name": "Filippa Olsson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "filippa-olsson",
+    "portrait": "/media/ctvjhna2/olsson-filippa-some.jpg"
+  }, {
+    "name": "Fredrika Wallner",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "fredrika-wallner",
+    "portrait": null
+  }, {
+    "name": "Frida Gommel",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "frida-gommel",
+    "portrait": "/media/psklk2nv/gommel_frida__ppt.jpg"
+  }, {
+    "name": "Gulestan Ali",
+    "role": "Junior assistant",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gulestan-ali",
+    "portrait": "/media/ic2phidi/ali_gulestan_socialmedia.jpg"
+  }, {
+    "name": "Gustav Bergengren",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gustav-bergengren",
+    "portrait": "/media/ewgd1lni/bergengren_gustav__socialmedia.jpg"
+  }, {
+    "name": "Hampus Peterson",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "hampus-peterson",
+    "portrait": "/media/njzpwkrh/peterson_hampus_socialmedia.jpg"
+  }, {
+    "name": "Hanna Kövamees",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Konkurrensrätt", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hanna-kovamees",
+    "portrait": "/media/tsfm0rxn/kovamees_hanna__socialmedia.jpg"
+  }, {
+    "name": "Hanna Lemne",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Arbetsrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hanna-lemne",
+    "portrait": "/media/o2pflmf5/lemne_hanna_socialmedia.jpg"
+  }, {
+    "name": "Hedvig Merkel",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "hedvig-merkel",
+    "portrait": "/media/d03ihl5r/merkel_hedvig__some.jpg"
+  }, {
+    "name": "Hilda Ivarsson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Fastighet och entreprenad"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "hilda-ivarsson",
+    "portrait": "/media/gepbcuk3/ivarsson_hilda_socialmedia.jpg"
+  }, {
+    "name": "Hilda Andreasson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Mänskliga rättigheter i affärer", "Antikorruption"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "hilda-andreasson",
+    "portrait": "/media/qyenhii4/andreasson-hilda-some.jpg"
+  }, {
+    "name": "Ian Linde",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ian-linde",
+    "portrait": "/media/3denyfxa/linde_ian__ppt.jpg"
+  }, {
+    "name": "Ida Appelgren",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Handelssanktioner"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ida-appelgren",
+    "portrait": "/media/olhbka5t/appelgren_ida__ppt.jpg"
+  }, {
+    "name": "Ida Pettersson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "ida-pettersson",
+    "portrait": "/media/joamhfz0/pettersson_ida__some.jpg"
+  }, {
+    "name": "Imola Szanto",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Miljörätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "imola-szanto-francsics",
+    "portrait": "/media/u3tfhs3n/francsics_imola_socialmedia.jpg"
+  }, {
+    "name": "Irma Softic",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "irma-softic",
+    "portrait": "/media/dynjw1pq/softic_irma__socialmedia.jpg"
+  }, {
+    "name": "Isabell Åkerblom",
+    "role": "Partner",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "isabell-akerblom",
+    "portrait": "/media/xrfhepfk/akerblom_isabell__ppt.jpg"
+  }, {
+    "name": "Isabell Bitar",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "isabell-bitar",
+    "portrait": "/media/2uipcyea/isabell-bitar-some.jpg"
+  }, {
+    "name": "Isabelle Asserståhl",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "isabelle-asserstahl",
+    "portrait": "/media/c5yemqyt/assersstahl_isabelle__some.jpg"
+  }, {
+    "name": "Isabelle Ivarsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "isabelle-ivarsson",
+    "portrait": "/media/yachss2n/ivarsson_isabelle__some.jpg"
+  }, {
+    "name": "Isak Lefvert",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Publik M&A", "Konkurrensrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "isak-lefvert",
+    "portrait": "/media/ibbiijl3/lefvert-isak-some.jpg"
+  }, {
+    "name": "Ivar Johansson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ivar-johansson",
+    "portrait": "/media/4s5pjrfz/ivar-johansson-some.jpg"
+  }, {
+    "name": "Jacob Eberil",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jacob-eberil",
+    "portrait": "/media/xadnqwzt/eberil_jacob__ppt.jpg"
+  }, {
+    "name": "Jacob Hanna",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Statsstöd"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jacob-hanna",
+    "portrait": null
+  }, {
+    "name": "Jakob Hobér",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "jakob-hober",
+    "portrait": "/media/tsbdj1ro/hober_jakob_socialmedia.jpg"
+  }, {
+    "name": "Jakob Persson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt", "Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "jakob-persson",
+    "portrait": "/media/n1ibblpp/jakob-persson_some.jpg"
+  }, {
+    "name": "Jakob Rehnström",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jakob-rehnstrom",
+    "portrait": "/media/xbjpbgqi/rehnstr&#xF6;m-jakob-some.jpg"
+  }, {
+    "name": "Jesper Johansson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "jesper-johansson",
+    "portrait": "/media/2xgjabgk/johansson_jesper__socialmedia.jpg"
+  }, {
+    "name": "Jesper Lundgren",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Skiljeförfaranden"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jesper-lundgren",
+    "portrait": null
+  }, {
+    "name": "Joanna Fransson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Fastighet och entreprenad", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "joanna-fransson",
+    "portrait": null
+  }, {
+    "name": "Johan Åhman",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["M&A", "Kapitalmarknad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "johan-ahman",
+    "portrait": "/media/gkuoniu5/ahman_johan__some.jpg"
+  }, {
+    "name": "Johanna Wallén",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-wallen",
+    "portrait": "/media/hyumbgr2/wall&#xE9;n-johanna-some.jpg"
+  }, {
+    "name": "Johannes Ekbom",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johannes-ekbom",
+    "portrait": "/media/dtjc0ksx/ekbom-johannes-some.jpg"
+  }, {
+    "name": "Jonatan Stentorp",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jonatan-stentorp",
+    "portrait": "/media/kzujd2s1/stentorp_jonatan_socialmedia.jpg"
+  }, {
+    "name": "Josef Jatta Kölin",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "josef-jatta-kolin",
+    "portrait": "/media/fnrlvnoi/jatta_kolin_josef__some.jpg"
+  }, {
+    "name": "Julia Gudmundsson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Antikorruption", "Konkurrensrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "julia-gudmundsson",
+    "portrait": "/media/zhwgliel/gudmundsson_julia__some.jpg"
+  }, {
+    "name": "Julia Jönsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Fastighet och entreprenad"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "julia-jonsson",
+    "portrait": "/media/0v4lym4x/julia-j&#xF6;nsson_some.jpg"
+  }, {
+    "name": "Kabbo Iftekhayer",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "kabbo-iftekhayer",
+    "portrait": "/media/ycpb5xzp/iftekhayer_kabbo__some.jpg"
+  }, {
+    "name": "Karin Rättzén",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad", "Bolagsrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karin-rattzen",
+    "portrait": "/media/0djdsqdn/karin-r&#xE4;ttzen-some.jpg"
+  }, {
+    "name": "Karl Womack",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt", "Handelssanktioner"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karl-womack",
+    "portrait": "/media/54dhvrpx/karl-womack-some.jpg"
+  }, {
+    "name": "Kate Björk Öhrfelt",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kate-bjork-ohrfelt",
+    "portrait": "/media/beze5jpz/kate-bj&#xF6;rk-&#xF6;hrfelt-some.jpg"
+  }, {
+    "name": "Katja Häglund",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "katja-haglund",
+    "portrait": "/media/e2nfumjx/haglund_katja_some.jpg"
+  }, {
+    "name": "Kim Larsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kim-larsson",
+    "portrait": "/media/wo2bc15f/larsson_kim__socialmedia.jpg"
+  }, {
+    "name": "Klara Fäldt",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "klara-faldt",
+    "portrait": "/media/4jrnpvqv/faldt_klara_socialmedia.jpg"
+  }, {
+    "name": "Lava Mustafa",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lava-mustafa",
+    "portrait": "/media/ygapibhe/mustafa_lava__socialmedia.jpg"
+  }, {
+    "name": "Lina Björkman",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "lina-bjorkman",
+    "portrait": "/media/gjdcqzm2/bjorkman_lina__some.jpg"
+  }, {
+    "name": "Linn Aho",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "linn-aho",
+    "portrait": "/media/uywnkx5l/aho_linn_some.jpg"
+  }, {
+    "name": "Linus Müller",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "linus-muller",
+    "portrait": null
+  }, {
+    "name": "Liva Bihre",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Konkurrensrätt", "Insolvens och rekonstruktion"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "liva-bihre",
+    "portrait": "/media/fkdbwljk/liva-bihre_some.jpg"
+  }, {
+    "name": "Lovisa Jonassen",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Tvistlösning", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lovisa-jonassen",
+    "portrait": "/media/h3gdfayn/jonassen_lovisa__socialmedia.jpg"
+  }, {
+    "name": "Lovisa Arpi",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Statsstöd"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "lovisa-arpi",
+    "portrait": "/media/x4yfn0mv/arpi_lovisa__some.jpg"
+  }, {
+    "name": "Lucas Eriksson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lucas-eriksson",
+    "portrait": "/media/0oilhcwu/eriksson-lucas-some.jpg"
+  }, {
+    "name": "Maja Helm",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maja-helm",
+    "portrait": "/media/eainjkuv/helm_maja_socialmedia.jpg"
+  }, {
+    "name": "Marcus Bergström",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Utredningar"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "marcus-bergstrom",
+    "portrait": "/media/df0oih5q/bergstrom_marcus__some.jpg"
+  }, {
+    "name": "Martin Hammarskiöld",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Immaterialrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "martin-hammarskiold",
+    "portrait": "/media/4igmopjk/hammarskiold_martin__some.jpg"
+  }, {
+    "name": "Matilda Hamner",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "matilda-hamner",
+    "portrait": "/media/tvrjmzcm/hamner_matilda__ppt.jpg"
+  }, {
+    "name": "Matilda Thomaeus Molin",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Utredningar", "Offentlig upphandling"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "matilda-thomaeus-molin",
+    "portrait": "/media/jpwjg3ge/thomaeus-molin-matilda-some.jpg"
+  }, {
+    "name": "Moa Hultin",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden", "Skatt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "moa-hultin",
+    "portrait": "/media/eb5mzaip/hultin_moa__some.jpg"
+  }, {
+    "name": "Natalie Kilhamn",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Statsstöd"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "natalie-kilhamn",
+    "portrait": "/media/mwrj1h1b/kilhamn-natalie-some.jpg"
+  }, {
+    "name": "Nicolas Ek",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "nicolas-ek",
+    "portrait": "/media/r5gn41ig/nicolas-ek-some.jpg"
+  }, {
+    "name": "Nilufer Nouri",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Statsstöd", "Fastighet och entreprenad"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "nilufer-nouri",
+    "portrait": "/media/lbgn1cuc/nouri_nilufer__some.jpg"
+  }, {
+    "name": "Nora Karlsson",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska", "Nederländska"],
+    "slug": "nora-karlsson",
+    "portrait": "/media/vxjabtqj/nora-karlsson-some.jpg"
+  }, {
+    "name": "Olivia Altheden",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Arbetsrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "olivia-altheden",
+    "portrait": "/media/uqpkwwvm/altheden_olivia_some.jpg"
+  }, {
+    "name": "Olivia Carlsten",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["M&A"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "olivia-carlsten",
+    "portrait": "/media/3opptyvt/carlsten_olivia__some.jpg"
+  }, {
+    "name": "Olivia Severinsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "olivia-severinsson",
+    "portrait": "/media/nq1dlihm/olivia-severinsson-some.jpg"
+  }, {
+    "name": "Oliwer Vidarsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Arbetsrätt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oliwer-vidarsson",
+    "portrait": "/media/23dbilup/widarsson_oliwer__socialmedia.jpg"
+  }, {
+    "name": "Oskar Larsson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt", "Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oskar-larsson",
+    "portrait": "/media/aeadcofj/oskar-larsson_socialmedia.jpg"
+  }, {
+    "name": "Paola Lopez",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Skatt"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "paola-lopez",
+    "portrait": "/media/rhgdxi3v/lopez_paola__some.jpg"
+  }, {
+    "name": "Pontus Tegström",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Bank och finans"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "pontus-tegstrom",
+    "portrait": "/media/grznudck/tegstr&#xF6;m-pontus-some.jpg"
+  }, {
+    "name": "Rebecka Margolin",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Kapitalmarknad"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "rebecka-margolin",
+    "portrait": "/media/ih3mvitj/margolin_rebecka__ppt.jpg"
+  }, {
+    "name": "Rebecka Björnestedt",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "rebecka-bjornestedt",
+    "portrait": "/media/10igusbq/bjornestedt_rebecca__some.jpg"
+  }, {
+    "name": "Robert Sande",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Handelssanktioner"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "robert-sande",
+    "portrait": "/media/aebmxflw/sande-robert-some.jpg"
+  }, {
+    "name": "Saga Meyer Viklund",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "saga-meyer-viklund",
+    "portrait": "/media/tpwhfroo/meyer_viklund_saga__ppt.jpg"
+  }, {
+    "name": "Samuel Rapp",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "samuel-rapp",
+    "portrait": "/media/xojngpuk/samuel-rapp_some.jpg"
+  }, {
+    "name": "Sara Stålebring",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Skatt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-stalebring",
+    "portrait": "/media/boedmwp4/sara-st&#xE5;lebring_some.jpg"
+  }, {
+    "name": "Sara Egelberg",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Antikorruption"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-egelberg",
+    "portrait": "/media/503mqopf/egelbeg_sara__some.jpg"
+  }, {
+    "name": "Sara Eirefors",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Statsstöd"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-eirefors",
+    "portrait": "/media/3u5efhoy/eirefors_sara__some.jpg"
+  }, {
+    "name": "Sara Franson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Utredningar"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-franson",
+    "portrait": "/media/v5apaeei/franson_sara__socialmedia.jpg"
+  }, {
+    "name": "Sara Hammond",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Skatt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-hammond",
+    "portrait": "/media/rxlhbaus/hammond_sara__ppt.jpg"
+  }, {
+    "name": "Sara Link",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "sara-link",
+    "portrait": "/media/totbu0df/link_sara__some.jpg"
+  }, {
+    "name": "Sara Wigh",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-wigh",
+    "portrait": "/media/1edckwro/wigh_sara__some.jpg"
+  }, {
+    "name": "Sebastian Holmberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sebastian-holmberg",
+    "portrait": "/media/mbwooxk5/sebastin-holmberg-some.jpg"
+  }, {
+    "name": "Siri Blomberg",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad", "Tvistlösning"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "siri-blomberg",
+    "portrait": "/media/gvynyxlm/blomberg_siri__ppt.jpg"
+  }, {
+    "name": "Sixten Högberg Henriksson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Kapitalmarknad"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "sixten-hogberg-henriksson",
+    "portrait": "/media/y5ilpjqv/sixten-h&#xF6;gberg-henriksson_some.jpg"
+  }, {
+    "name": "Sonia Bjurulf",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sonia-bjurulf",
+    "portrait": "/media/042fv0b4/bjurulf-sonia-some.jpg"
+  }, {
+    "name": "Sophie Romedahl",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sophie-romedahl",
+    "portrait": "/media/qd5f2wgv/romedahl_sophie_socialmedia.jpg"
+  }, {
+    "name": "Stina Larsson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Publik M&A", "Konkurrensrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "stina-larsson",
+    "portrait": "/media/wcxhxckj/larsson_stina__some.jpg"
+  }, {
+    "name": "Therese Baltzarsson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "therese-baltzarsson",
+    "portrait": "/media/rvtjb0pc/therese-baltzarsson-some.jpg"
+  }, {
+    "name": "Therese Åkerlund",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "therese-akerlund",
+    "portrait": "/media/onggci53/akerlund_therese_socialmedia_1.jpg"
+  }, {
+    "name": "Tyra Fellbom von Mentzer",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skiljeförfaranden"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "tyra-fellbom-von-mentzer",
+    "portrait": "/media/5rgaeqet/mentzer_tyra__socialmedia.jpg"
+  }, {
+    "name": "Viktor Ejlertsson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad", "Offentlig upphandling"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "viktor-ejlertsson",
+    "portrait": "/media/je3jvssj/ejlertsson_viktor__some.jpg"
+  }, {
+    "name": "Viktor Lundberg",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Miljörätt", "M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "viktor-lundberg",
+    "portrait": "/media/nesfclmb/lundberg_viktor__some.jpg"
+  }, {
+    "name": "Vilma Henricsson",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "vilma-henricsson",
+    "portrait": "/media/i4fbddp0/henricsson_vilma__some.jpg"
+  }, {
+    "name": "Vilma Simonius",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "vilma-simonius",
+    "portrait": "/media/1pmkwehe/simonius_vilma__some.jpg"
+  }, {
+    "name": "William Carlberg Johansson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "william-carlberg-johansson",
+    "portrait": "/media/etydj2n3/carlberg_johanssonwilliam__socialmedia.jpg"
+  }, {
+    "name": "William Söder",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "william-soder",
+    "portrait": "/media/igso2rqr/william-s&#xF6;der-some.jpg"
+  }, {
+    "name": "Wilma Hellman",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "wilma-hellman",
+    "portrait": "/media/gi3jyeht/hellman_wilma__some.jpg"
+  }, {
+    "name": "Oskar Arthur",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Insolvens och rekonstruktion", "Kapitalmarknad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oskar-arthur",
+    "portrait": "/media/5qslosw4/arthur_oscar__some.jpg"
+  }, {
+    "name": "Sophie Ericson",
+    "role": "Junior assistant",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sophie-ericson",
+    "portrait": null
+  }, {
+    "name": "William Liljeberg",
+    "role": "Junior assistant",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "william-liljeberg",
+    "portrait": null
+  }, {
+    "name": "Adam Bornvik",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "adam-bornvik",
+    "portrait": "/media/ivxfqklf/adam-bornvik-some.jpg"
+  }, {
+    "name": "Alice Vångell",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "M&A"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "alice-vangell",
+    "portrait": "/media/f2tignku/alice-v&#xE5;ngell-some.jpg"
+  }, {
+    "name": "Alma Henriksson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Bank och finans"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "alma-gordon-sundin",
+    "portrait": "/media/5sxnkytc/gordon_sundin_alma__some.jpg"
+  }, {
+    "name": "Amanda Larsson",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Miljörätt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "amanda-larsson",
+    "portrait": "/media/pp5h1v5v/larson_amanda__socialmedia.jpg"
+  }, {
+    "name": "Amanda Lundahl",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Mandarin"],
+    "slug": "amanda-lundahl",
+    "portrait": "/media/5m5m0m53/wallmark_amanda-_socialmedia.jpg"
+  }, {
+    "name": "Amanda Stoltz",
+    "role": "Transaktionsparalegal",
+    "office": "Stockholm",
+    "areas": ["Bank och finans", "Offentlig upphandling"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "amanda-stoltz",
+    "portrait": "/media/k3oly31n/amanda_socialmedia.jpg"
+  }, {
+    "name": "Anna Ekdahl Roos",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Skiljeförfaranden", "Bank och finans"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "anna-ekdahl-roos",
+    "portrait": "/media/4vznhnur/ekdahl_roos_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Bergman",
+    "role": "Senior paralegal",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-bergman",
+    "portrait": "/media/ishfkpna/bergman_anna_highres.jpg"
+  }, {
+    "name": "Anna-Lena Mannio",
+    "role": "Senior IP-paralegal",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Arbetsrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-lena-mannio",
+    "portrait": "/media/ijvh0i2f/anna-lena-mannio_socialmedia.jpg"
+  }, {
+    "name": "Annette Wessel",
+    "role": "Office manager, Bruxelles",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "annette-wessel",
+    "portrait": "/media/nidokwfh/wessel_annette_socialmedia.jpg"
+  }, {
+    "name": "Annika Tingström",
+    "role": "Projektassistent",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "annika-tingstrom",
+    "portrait": "/media/uk5l3zn1/annika-tingstr&#xF6;m-some.jpg"
+  }, {
+    "name": "Antonia Gatti",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Bank och finans"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "antonia-gatti",
+    "portrait": "/media/ieqlytf2/gatti_antonia_socialmedia.jpg"
+  }, {
+    "name": "Caroline Löv",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "caroline-lov",
+    "portrait": "/media/flodc533/lov_caroline_socialmedia.jpg"
+  }, {
+    "name": "Cathrin Ährling",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "cathrin-larsson",
+    "portrait": "/media/x4alb3yb/larsson_catrin__some.jpg"
+  }, {
+    "name": "Cecilia Loctander",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["M&A", "Insolvens och rekonstruktion"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "cecilia-loctander",
+    "portrait": "/media/khqjcbvj/loctander_cecilia_socialmedia.jpg"
+  }, {
+    "name": "Charlotte Möller",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Utredningar"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "charlotte-moller",
+    "portrait": "/media/mxgp4op3/moller_charlotte_socialmedia_1.jpg"
+  }, {
+    "name": "Diana Kanold",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Bank och finans"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "diana-kanold",
+    "portrait": "/media/xvlbhpmu/kanold_diana__socialmedia.jpg"
+  }, {
+    "name": "Elisabeth Ippolito",
+    "role": "Senior IP-paralegal",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "elisabeth-ippolito",
+    "portrait": "/media/nd5d2l2o/ippolito_elisabeth_socialmedia.jpg"
+  }, {
+    "name": "Ellen Ryde",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ellen-ryde",
+    "portrait": "/media/xboldorr/ryde-ellen-some.jpg"
+  }, {
+    "name": "Ellinore Boström Andersson",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Bank och finans", "Offentlig upphandling"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ellinore-bostrom-andersson",
+    "portrait": "/media/qymd52hg/ellinore-bostr&#xF6;m-andersson-some.jpg"
+  }, {
+    "name": "Emelie Schoning",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emelie-schoning",
+    "portrait": "/media/q2hgntxj/schoning_emelie_socialmedia.jpg"
+  }, {
+    "name": "Emelie Zingmark",
+    "role": "Senior paralegal",
+    "office": "Stockholm",
+    "areas": ["Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emelie-zingmark",
+    "portrait": "/media/lskdzibx/zignmark_emelie__some.jpg"
+  }, {
+    "name": "Emil Persson",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "emil-persson",
+    "portrait": "/media/2a1ni5jb/emil-persson-some.jpg"
+  }, {
+    "name": "Emma Emsjö",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emma-emsjo",
+    "portrait": "/media/0aznstcy/emsjo_emma_socialmedia.jpg"
+  }, {
+    "name": "Emy Rydén",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "emy-ryden",
+    "portrait": "/media/btqauvne/ryden-emy-some-ny.jpg"
+  }, {
+    "name": "Fanny Askelöf",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Skatt", "Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "fanny-askelof",
+    "portrait": "/media/hwymivzf/askelof_fanny_socialmedia.jpg"
+  }, {
+    "name": "Filippa Bergkvist",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad", "Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "filippa-bergkvist",
+    "portrait": "/media/pvab2rie/filippa_bergkvist__socialmedia.jpg"
+  }, {
+    "name": "Gabriella Balbo",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gabriella-balbo",
+    "portrait": "/media/c3qd4fkq/balbo_gabriella_socialmedia.jpg"
+  }, {
+    "name": "Gudrun Fossum",
+    "role": "Assistent",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gudrun-fossum",
+    "portrait": "/media/eyikbdvy/fossum-gudrun-some.jpg"
+  }, {
+    "name": "Helena Neppenström",
+    "role": "Paralegal",
+    "office": "Malmö",
+    "areas": ["Utredningar", "Handelssanktioner"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "helena-neppenstrom",
+    "portrait": "/media/wnkbores/neppenstrom_-helena_socialmedia.jpg"
+  }, {
+    "name": "Hiabel Tesfai",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Konkurrensrätt"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hiabel-tesfai",
+    "portrait": "/media/pfwbb0zt/tesfai-hiabel-some.jpg"
+  }, {
+    "name": "Hugo von Gussich",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "hugo-von-gussich",
+    "portrait": null
+  }, {
+    "name": "Isabelle Bergström",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "isabelle-bergstrom",
+    "portrait": "/media/5gabdgpt/bergstrom_isabelle_socialmedia.jpg"
+  }, {
+    "name": "Jasmina Skandrani",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "jasmina-skandrani",
+    "portrait": "/media/gzwb4dvg/jasmina-skandari-some.jpg"
+  }, {
+    "name": "Jennifer Palmqvist",
+    "role": "Junior assistant",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jennifer-palmqvist",
+    "portrait": "/media/dmlhk5bw/palmqvist-jennifer-some.jpg"
+  }, {
+    "name": "Jenny Hartman",
+    "role": "Assistent",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jenny-hartman",
+    "portrait": "/media/zxobjtsj/hartman_jenny__socialmedia.jpg"
+  }, {
+    "name": "Jessica Henning",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Tvistlösning"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jessica-henning",
+    "portrait": "/media/da5gu1ze/henning_jessica_socialmedia.jpg"
+  }, {
+    "name": "Jessica Öijer",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jessica-oijer",
+    "portrait": "/media/2pyk0u2w/oijer_jessica_socialmedia.jpg"
+  }, {
+    "name": "Johanna Engström",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling", "Bolagsrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "johanna-engstrom",
+    "portrait": "/media/tzypbwzo/engstrom_johanna_socialmedia.jpg"
+  }, {
+    "name": "Julia Ulander Kull",
+    "role": "Paralegal",
+    "office": "Malmö",
+    "areas": ["Statsstöd"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "julia-ulander-kull",
+    "portrait": "/media/ghxlqwws/ulander_kull_julia_socialmedia.jpg"
+  }, {
+    "name": "Kelly Fredriksson",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Publik M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kelly-fredriksson",
+    "portrait": "/media/y3oalc3w/fredriksson_kelly_socialmedia.jpg"
+  }, {
+    "name": "Lauren Garcia Martinez",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lauren-garcia-martinez",
+    "portrait": "/media/lq4dm5mv/garcia-martinez-lauren-some.jpg"
+  }, {
+    "name": "Lena Enberg",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Publik M&A", "M&A"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lena-enberg",
+    "portrait": "/media/ysjhsxaq/enberg_lena_highres.jpg"
+  }, {
+    "name": "Lovisa Nilsson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "lovisa-nilsson",
+    "portrait": "/media/li1ftduk/nilsson_lovisa__socialmedia.jpg"
+  }, {
+    "name": "Mari Norberg",
+    "role": "Senior IP-paralegal",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt", "Publik M&A"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mari-norberg",
+    "portrait": "/media/2gno0gfb/norberg_mari_socialmedia.jpg"
+  }, {
+    "name": "Mika Hägerström",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Skatt", "Tvistlösning"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mika-haggstrom",
+    "portrait": "/media/ex0mwmy4/hagerstrom_mika_socialmedia.jpg"
+  }, {
+    "name": "Miranda Zini",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "miranda-zini",
+    "portrait": "/media/vpbpakvq/miranda-zini-some.jpg"
+  }, {
+    "name": "Noah Wallinder",
+    "role": "Junior assistant",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "noah-wallinder",
+    "portrait": "/media/avngtfpz/wallinder_noah_socialmedia.jpg"
+  }, {
+    "name": "Oliver Norén",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oliver-noren",
+    "portrait": "/media/xsljmirq/nor&#xE9;n-oliver-some.jpg"
+  }, {
+    "name": "Paulina Ekvall",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "paulina-ekvall",
+    "portrait": "/media/kobjq2wg/ekvall_paulina_socialmedia.jpg"
+  }, {
+    "name": "Pernilla Johansson Brolin",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "pernilla-johansson-brolin",
+    "portrait": "/media/czilhpck/brolin_pernilla_johansson_socialmedia.jpg"
+  }, {
+    "name": "Pernilla Warg",
+    "role": "Insolvensparalegal",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "pernilla-warg",
+    "portrait": "/media/pe5ddmjy/warg_pernilla_highres.jpg"
+  }, {
+    "name": "Rebecka Lindow",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Publik M&A", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "rebecka-lindow",
+    "portrait": "/media/55up4zvu/lindow-rebecka-some.jpg"
+  }, {
+    "name": "Sara Dahlros",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Handelssanktioner"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "sara-dahlros",
+    "portrait": "/media/ytilmzf5/skold_dahlros_sara_socialmedia.jpg"
+  }, {
+    "name": "Sara Winther",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-winther",
+    "portrait": "/media/33zay4zp/winther_sara_socialmedia.jpg"
+  }, {
+    "name": "Sigrid Eklund",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sigrid-eklund",
+    "portrait": "/media/uyuj0n2k/sigrid-eklund-some.jpg"
+  }, {
+    "name": "Stella Juhlin",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "stella-juhlin",
+    "portrait": null
+  }, {
+    "name": "Tesla Wikman",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "tesla-wikman",
+    "portrait": "/media/iz4k5dgg/wikman_tesla__socialmedia.jpg"
+  }, {
+    "name": "Vanessa Hansmann",
+    "role": "Assistent",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "vanessa-hansmann",
+    "portrait": "/media/l1od4bdh/hansmann_vanessa_socialmedia.jpg"
+  }, {
+    "name": "William Wikholm Hedberg",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "william-wikholm-hedberg",
+    "portrait": null
+  }, {
+    "name": "Wilma Larsson",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "wilma-larsson",
+    "portrait": "/media/ci0md05q/larsson_wilma_socialmedia.jpg"
+  }, {
+    "name": "Adam Sundqvist",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "adam-sundqvist",
+    "portrait": "/media/45bd0s12/sundqvist_adam_highres.jpg"
+  }, {
+    "name": "Angela Mesterton",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "angela-mesterton",
+    "portrait": "/media/v5adsczw/mesterton_angela_socialmedia.jpg"
+  }, {
+    "name": "Anna Dahlfors",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-dahlfors",
+    "portrait": "/media/ondb5wqu/dahlfors_anna_socialmedia.jpg"
+  }, {
+    "name": "Anna Berglund",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Bolagsrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-berglund",
+    "portrait": "/media/4smdp3dg/berglund_anna_socialmedia.jpg"
+  }, {
+    "name": "Caroline Cederholm",
+    "role": "Revenue controller",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "caroline-cederholm",
+    "portrait": "/media/fqrlh4za/caroline-cederholm_some.jpg"
+  }, {
+    "name": "Celine Pettersson",
+    "role": "Revenue controller",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "celine-pettersson",
+    "portrait": null
+  }, {
+    "name": "Ebba Norelius",
+    "role": "Chef revenue control",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ebba-norelius",
+    "portrait": "/media/adpd4xfs/norelius_ebba_socialmedia.jpg"
+  }, {
+    "name": "Emelie Persson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Immaterialrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emelie-persson",
+    "portrait": "/media/mcncgum4/persson_emelie__some.jpg"
+  }, {
+    "name": "Emma Haavimb Jillnefelt",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Utredningar", "Miljörätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "emma-haavimb-jillnefelt",
+    "portrait": "/media/flnbflvs/haavinb_jillnefelt_emma__some.jpg"
+  }, {
+    "name": "Evelina Kazinik",
+    "role": "Revenue controller",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "evelina-kazinik",
+    "portrait": null
+  }, {
+    "name": "Henrik Dubois",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Offentlig upphandling", "Bank och finans"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "henrik-dubois",
+    "portrait": "/media/lzphjfte/dubois-henrik-some.jpg"
+  }, {
+    "name": "Johanna Broman",
+    "role": "Redovisningsassistent",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-broman",
+    "portrait": "/media/v3mlfm2u/broman_johanna_socialmedia.jpg"
+  }, {
+    "name": "Johanna Riesler",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Utredningar", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "johanna-riesler",
+    "portrait": "/media/dnoaogze/johanna-riesler-some.jpg"
+  }, {
+    "name": "Josefine Guiomar",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Skatt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "josefine-guiomar",
+    "portrait": "/media/f5adyx20/lindstrom_josefine_socialmedia.jpg"
+  }, {
+    "name": "Karolina Kovacevic",
+    "role": "Revenue controller",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karolina-kovacevic",
+    "portrait": "/media/lnbfdchm/kovacevic_karolina__some.jpg"
+  }, {
+    "name": "Kenan Aljovic",
+    "role": "Redovisningsassistent",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "kenan-aljovic",
+    "portrait": "/media/rmofjfk4/aljovic-kenan-some.jpg"
+  }, {
+    "name": "Kristena Samouie",
+    "role": "Revenue controller",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "kristena-samouie",
+    "portrait": "/media/3kydbhuo/samouie_kristena_socialmedia.jpg"
+  }, {
+    "name": "Lina Stenmark",
+    "role": "Revenue controller",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lina-stenmark",
+    "portrait": "/media/5r1barjs/stenmark-lina-some.jpg"
+  }, {
+    "name": "Linda Melin",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "linda-melin",
+    "portrait": "/media/tnxpekv0/melin_linda_socialmedia.jpg"
+  }, {
+    "name": "Linus Karlsson",
+    "role": "Business controller",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "linus-karlsson",
+    "portrait": "/media/lgdbje3x/karlsson_linus_highres.jpg"
+  }, {
+    "name": "Lisa Steenbrink",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lisa-steenbrink",
+    "portrait": "/media/vmqjrcb2/lisa-steenbrink-some.jpg"
+  }, {
+    "name": "Magnus Johnson",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt", "Offentlig upphandling"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "magnus-johnson",
+    "portrait": "/media/bmynvf0b/johnson-magnus-high-res.jpg"
+  }, {
+    "name": "Maria Funcke",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Arbetsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maria-funcke",
+    "portrait": "/media/errhpmpy/funcke_maria_socialmedia.jpg"
+  }, {
+    "name": "Marie Sellén",
+    "role": "Controller",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "marie-sellen",
+    "portrait": "/media/irxig0gq/sellen_marie_socialmedia.jpg"
+  }, {
+    "name": "Matilda Dahlberg",
+    "role": "Redovisningsassistent",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "matilda-dahlberg",
+    "portrait": "/media/jvzjij44/dahlberg-matilda-some.jpg"
+  }, {
+    "name": "Mikael Rosin",
+    "role": "Redovisningschef",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "mikael-rosin",
+    "portrait": "/media/oyvjedvt/rosin-mikael-high-res.jpg"
+  }, {
+    "name": "Sandra Hofmann",
+    "role": "Redovisningschef",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sandra-hofmann",
+    "portrait": null
+  }, {
+    "name": "Staffan Marmenlind",
+    "role": "Business controller",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "staffan-marmenlind",
+    "portrait": "/media/uizbnz4k/marmenlind_staffan_socialmedia.jpg"
+  }, {
+    "name": "Suzanne Larsson",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["M&A", "Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "suzanne-larsson",
+    "portrait": "/media/xchbkgbb/larsson_suzanne_some.jpg"
+  }, {
+    "name": "Therese Thor",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "therese-thor",
+    "portrait": "/media/gyvfzmt3/thor-therese-high-res.jpg"
+  }, {
+    "name": "Anna Fryksten",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "anna-fryksten",
+    "portrait": "/media/aquj0c0a/fryksten_anna2_highres.jpg"
+  }, {
+    "name": "Clara Gustafsson",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad", "Fastighet och entreprenad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "clara-gustafsson",
+    "portrait": "/media/eand2hct/clara-gustafsson-some.jpg"
+  }, {
+    "name": "Ida Lingner",
+    "role": "Projektledare",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ida-lingner",
+    "portrait": "/media/g3rpxmzw/norlin_ida_highres.jpg"
+  }, {
+    "name": "Isabelle Karman",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "isabelle-karman",
+    "portrait": null
+  }, {
+    "name": "Ivonn Popovic",
+    "role": "HR business partner",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning", "Antikorruption"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ivonn-popovic",
+    "portrait": "/media/zqqfuu4v/popovic_ivonn_highres.jpg"
+  }, {
+    "name": "Jennifer Kendrick",
+    "role": "HR business partner",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jennifer-kendrick",
+    "portrait": "/media/v03nms5y/kendrick_jennifer_highres.jpg"
+  }, {
+    "name": "Josefin Halldén",
+    "role": "Senior associate",
+    "office": "Malmö",
+    "areas": ["Bank och finans"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "josefin-hallden",
+    "portrait": "/media/2leh1qjo/hallden_josefine__some.jpg"
+  }, {
+    "name": "Julia Palmer",
+    "role": "Paralegal",
+    "office": "Bruxelles",
+    "areas": ["Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "julia-palmer",
+    "portrait": "/media/cbvftjjt/palmer_julia-_socialmedia.jpg"
+  }, {
+    "name": "Karin Cederblad",
+    "role": "HR-chef Göteborg",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karin-cederblad",
+    "portrait": "/media/1babgyej/cederblad_karin_socialmedia.jpg"
+  }, {
+    "name": "Karolina Hoti",
+    "role": "Biträdande jurist",
+    "office": "Göteborg",
+    "areas": ["Arbetsrätt", "Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karolina-hoti",
+    "portrait": "/media/fphf3cfd/hoti_karolina_some.jpg"
+  }, {
+    "name": "Lovisa Larsson",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Tvistlösning"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lovisa-larsson",
+    "portrait": "/media/kzli5gkp/larsson_lovisa_socialmedia.jpg"
+  }, {
+    "name": "Maja Moberg",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Insolvens och rekonstruktion", "Bank och finans"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maja-moberg",
+    "portrait": "/media/3cmd15nl/moberg_maja__some.jpg"
+  }, {
+    "name": "Maria Andersson",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maria-andersson",
+    "portrait": "/media/aixbimqx/andersson_maria__some.jpg"
+  }, {
+    "name": "Matilda Stenberg",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "matilda-stenberg",
+    "portrait": "/media/3cxllvsc/stenberg_matilda_highres.jpg"
+  }, {
+    "name": "Sara Rosman",
+    "role": "HR business partner",
+    "office": "Stockholm",
+    "areas": ["M&A"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sara-rosman",
+    "portrait": "/media/g2zj1yqt/sara-lindell_socialmedia.jpg"
+  }, {
+    "name": "Sofia Steinacher",
+    "role": "HR business partner",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Bank och finans"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sofia-steinacher",
+    "portrait": "/media/wtxij0cv/steinacher-sofia-some.jpg"
+  }, {
+    "name": "Thérèse Björkman",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "therese-bjorkman",
+    "portrait": "/media/abdib3pe/bjorkman_-therese_socialmedia.jpg"
+  }, {
+    "name": "Sebastian Stålvant Camal",
+    "role": "Supporttekniker",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sebastian-stalvant-camal",
+    "portrait": null
+  }, {
+    "name": "André Karlsson",
+    "role": "Supporttekniker",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "andre-karlsson",
+    "portrait": "/media/yehohoex/karlsson-_andre_some.jpg"
+  }, {
+    "name": "Ann-Marie Ovin",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Statsstöd", "Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "ann-marie-ovin",
+    "portrait": "/media/qdqp0szp/ovin_ann_marie2_highres.jpg"
+  }, {
+    "name": "Anton Östberg",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Immaterialrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "anton-ostberg",
+    "portrait": "/media/pyoif14s/anton-ostberg_socialmedia.jpg"
+  }, {
+    "name": "Cedrik Vendel",
+    "role": "Supporttekniker",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "cedrik-vendel",
+    "portrait": "/media/v3kdsayb/vendel_cedrik__socialmedia.jpg"
+  }, {
+    "name": "Cristel Ullstad",
+    "role": "Supporttekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "cristel-ullstad",
+    "portrait": "/media/ocapgzgr/ullstad-_cristel_highres.jpg"
+  }, {
+    "name": "Edvin Enervik Svedberg",
+    "role": "Supporttekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "edvin-enervik-svedberg",
+    "portrait": null
+  }, {
+    "name": "Erik Andersson",
+    "role": "Supporttekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "erik-andersson",
+    "portrait": "/media/mrsfo4rx/andersson_erik__some.jpg"
+  }, {
+    "name": "Gabriella Wilow",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Norska"],
+    "slug": "gabriella-wilow",
+    "portrait": "/media/5nxi45ps/wilow_gabriella_socialmedia.jpg"
+  }, {
+    "name": "George Shakal",
+    "role": "Supporttekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "george-shakal",
+    "portrait": "/media/u4yjcry1/george-shakal-some.jpg"
+  }, {
+    "name": "Johanna Lilliehöök",
+    "role": "Service desk manager",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-lilliehook",
+    "portrait": "/media/nyppwhn3/lillieh&#xF6;&#xF6;k_johanna_some.jpg"
+  }, {
+    "name": "Konstantin Gesoulis",
+    "role": "Junior assistant",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "konstantin-gesoulis",
+    "portrait": "/media/pvtpc1jk/gesoulis_kostas_socialmedia.jpg"
+  }, {
+    "name": "Magnus Rudebeck",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "magnus-rudebeck",
+    "portrait": "/media/raohdsae/rudebeck_magnus_socialmedia.jpg"
+  }, {
+    "name": "Markus Persson",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "markus-persson",
+    "portrait": "/media/d2sn50vb/markus-persson_socialmedia.jpg"
+  }, {
+    "name": "Monica Gustavsson Asklöf",
+    "role": "Supporttekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "monica-gustavsson-asklof",
+    "portrait": "/media/qeqhvvis/gustafson-asklof-monica-high-res.jpg"
+  }, {
+    "name": "Peter Lindgren",
+    "role": "Senior systemtekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "peter-lindgren",
+    "portrait": "/media/t1bokxz0/peter-lindgren-some.jpg"
+  }, {
+    "name": "Peter Renvall",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "peter-renvall",
+    "portrait": "/media/bfghuggp/renvall-peter-high-res.jpg"
+  }, {
+    "name": "Roger Perhs",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Utredningar", "Immaterialrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "roger-perhs",
+    "portrait": "/media/tklbkrqg/perhs_roger_highres.jpg"
+  }, {
+    "name": "Tomas Andersson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "tomas-andersson",
+    "portrait": "/media/z1ldsvsn/andersson_tomas_socialmedia.jpg"
+  }, {
+    "name": "Viktor Nordstrand",
+    "role": "Supporttekniker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "viktor-nordstrand",
+    "portrait": "/media/ok4fot1f/nordstrand_viktor_socialmedia.jpg"
+  }, {
+    "name": "Anna Leidhagen Thuning",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["M&A", "Miljörätt"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "anna-leidhagen-thuning",
+    "portrait": "/media/moynjzko/thuning_anna_leidhagen-_socialmedia.jpg"
+  }, {
+    "name": "Annika Ahlin",
+    "role": "Junior assistant",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "annika-ahlin",
+    "portrait": "/media/ayeg2av2/ahlin_annika_socialmedia.jpg"
+  }, {
+    "name": "Björn Forsbeck",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "bjorn-forsbeck",
+    "portrait": "/media/muicvo2r/forsbeck-bj&#xF6;rn-some.jpg"
+  }, {
+    "name": "Clara Krause",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning", "Konkurrensrätt"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "clara-krause",
+    "portrait": null
+  }, {
+    "name": "Johanna Stenbeck",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "johanna-stenbeck",
+    "portrait": "/media/cyzpqor5/stenbeck-johanna-some.jpg"
+  }, {
+    "name": "Kamran Alemdar",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "kamran-alemdar",
+    "portrait": "/media/um5hxv1s/alemdar_kamran__some.jpg"
+  }, {
+    "name": "Matilda Wildmark Lindqvist",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt", "Arbetsrätt"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "matilda-wildmark-lindqvist",
+    "portrait": "/media/h4cj4szo/matilda-wildmark-lindqvist-some.jpg"
+  }, {
+    "name": "Medina Adilova",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "medina-adilova",
+    "portrait": "/media/5jsgisbk/medina-adilova-some.jpg"
+  }, {
+    "name": "My Wiborg-Borin",
+    "role": "Trainee",
+    "office": "Göteborg",
+    "areas": ["Arbetsrätt", "Miljörätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "my-wiborg-borin",
+    "portrait": "/media/necp31up/wiborg_my_hr.jpg"
+  }, {
+    "name": "Oscar Fors",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Bolagsrätt"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "oscar-fors",
+    "portrait": "/media/cwjio0hb/fors_oscar_socialmedia.jpg"
+  }, {
+    "name": "Rebecca Krishnan",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Skatt", "Utredningar"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "rebecca-krishnan",
+    "portrait": "/media/crehbetq/rebecca-krishnan_some.jpg"
+  }, {
+    "name": "Victoria Hultberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Utredningar"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "victoria-hultberg",
+    "portrait": "/media/tocntpsv/victoria-hultberg_socialmedia.jpg"
+  }, {
+    "name": "Anette Daleklev",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "anette-daleklev",
+    "portrait": "/media/llkpikxs/daleklev_anette_socialmedia.jpg"
+  }, {
+    "name": "Cajsa Nordström Lind",
+    "role": "Senior associate",
+    "office": "Göteborg",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "cajsa-nordstrom-lind",
+    "portrait": "/media/2ppjrl4p/cajsa-nordstr&#xF6;m-lind-some.jpg"
+  }, {
+    "name": "Carl Foberg",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "carl-foberg",
+    "portrait": "/media/vjehxnlo/foberg_carl_highres.jpg"
+  }, {
+    "name": "Daniel Hillman",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Fastighet och entreprenad", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "daniel-hillman",
+    "portrait": "/media/pjpnt1gg/hillman_daniel_socialmedia.jpg"
+  }, {
+    "name": "Gabriel Adekunle",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gabriel-adekunle",
+    "portrait": "/media/euwhxmdr/adenkunle_gabriel_socialmedia.jpg"
+  }, {
+    "name": "Helene Bruneheim Johansson",
+    "role": "Event manager",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "helene-bruneheim-johansson",
+    "portrait": "/media/2lzb5p1w/bruneheim_johansson_helene_socialmedia.jpg"
+  }, {
+    "name": "Håkan Wiman",
+    "role": "Kontorskoordinator",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "hakan-wiman",
+    "portrait": "/media/a2ffb1hs/wiman_hakan_highres.jpg"
+  }, {
+    "name": "Ines Nilsson Brattberg",
+    "role": "Associate",
+    "office": "Malmö",
+    "areas": ["Handelssanktioner"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "ines-nilsson-brattberg",
+    "portrait": "/media/zjhpedp4/nilsson-brattberg-ines-some.jpg"
+  }, {
+    "name": "Johanna Borglin",
+    "role": "Trainee",
+    "office": "Malmö",
+    "areas": ["Fastighet och entreprenad", "M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-borglin",
+    "portrait": "/media/4c3bms1i/borglin_johanna__socialmedia.jpg"
+  }, {
+    "name": "Johanna Sennerbladh",
+    "role": "Junior assistant",
+    "office": "Malmö",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Spanska"],
+    "slug": "johanna-sennerbladh",
+    "portrait": "/media/51dd5bcx/sennerbladh_johanna_socialmedia.jpg"
+  }, {
+    "name": "Karin Forsberg",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Immaterialrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "karin-forsberg",
+    "portrait": "/media/iemn3xdl/forsberg_karin_socialmedia.jpg"
+  }, {
+    "name": "Linn Swärdh",
+    "role": "Eventkoordinator",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "linn-swardh",
+    "portrait": "/media/wjug34wo/linn-sw&#xE4;rdh-some.jpg"
+  }, {
+    "name": "Malin Ulfvik",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Bank och finans"],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "malin-ulfvik",
+    "portrait": "/media/m4ld1wyw/malin-ulfvik_socialmedia.jpg"
+  }, {
+    "name": "Malin Nilsson",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Insolvens och rekonstruktion"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "malin-nilsson",
+    "portrait": "/media/fd3fynik/malin-nilsson-some.jpg"
+  }, {
+    "name": "Maria Ekblom",
+    "role": "Associate",
+    "office": "Bruxelles",
+    "areas": ["Immaterialrätt", "Skiljeförfaranden"],
+    "sectors": ["Offentlig sektor"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maria-ekblom",
+    "portrait": "/media/tzwfyopp/ekblom_maria_socialmedia.jpg"
+  }, {
+    "name": "Maria Ohlin",
+    "role": "Associate",
+    "office": "Göteborg",
+    "areas": ["Insolvens och rekonstruktion", "Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "maria-ohlin",
+    "portrait": "/media/5ldbp1h5/ohlin_maria_socialmedia.jpg"
+  }, {
+    "name": "Marjatta Brännström",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Skatt", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "marjatta-brannstrom",
+    "portrait": "/media/1rmpf0sr/brannstrom_marjatta_highres.jpg"
+  }, {
+    "name": "Nataniel Schneider",
+    "role": "Hovmästare",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "nataniel-schneider",
+    "portrait": "/media/ldsohl40/schneider_nataniel__socialmedia.jpg"
+  }, {
+    "name": "Patrick Andersson",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Kapitalmarknad"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "patrick-andersson",
+    "portrait": "/media/jjupmc2q/andersson_patrick_socialmedia.jpg"
+  }, {
+    "name": "Susanne Cansund",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["M&A", "Bank och finans"],
+    "sectors": ["Media"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "susanne-cansund",
+    "portrait": "/media/q3vcu5c0/cansund-susanne-high-res.jpg"
+  }, {
+    "name": "Therese Claesson",
+    "role": "Paralegal",
+    "office": "Stockholm",
+    "areas": ["Utredningar"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "therese-claesson",
+    "portrait": "/media/4vndd2vg/claesson-therese-some.jpg"
+  }, {
+    "name": "Zvonko Sokcic",
+    "role": "Kökschef",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "zvonko-sokcic",
+    "portrait": "/media/rwmjse1w/sokcic_zvonko_socialmedia.jpg"
+  }, {
+    "name": "Seth Ödling",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "seth-odling",
+    "portrait": null
+  }, {
+    "name": "Carolina Landys",
+    "role": "Legal operations manager",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Italienska"],
+    "slug": "carolina-landys",
+    "portrait": "/media/ywodosad/landys_carolinasocialmedia.jpg"
+  }, {
+    "name": "Elin Eriksson",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska", "Franska"],
+    "slug": "elin-eriksson",
+    "portrait": "/media/dfkd22wo/eriksson_elin_socialmedia.jpg"
+  }, {
+    "name": "Elisabeth Ejemyr",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "elisabeth-ejemyr",
+    "portrait": "/media/0qtpvkod/ejemyr_elisabeth_socialmedia.jpg"
+  }, {
+    "name": "Felix Bommelin",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Skiljeförfaranden"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "felix-bommelin",
+    "portrait": null
+  }, {
+    "name": "Jennifer Hemberg",
+    "role": "Projektledare",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jennifer-hemberg",
+    "portrait": "/media/utaj0lr4/hemberg_jennifer__some.jpg"
+  }, {
+    "name": "Kristian Weberyd",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Miljörätt", "Bolagsrätt"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "kristian-weberyd",
+    "portrait": "/media/xvvj1wfb/weberyd_kristian_socialmedia.jpg"
+  }, {
+    "name": "Lea Strömvall",
+    "role": "Partner",
+    "office": "Stockholm",
+    "areas": ["Arbetsrätt", "Bolagsrätt"],
+    "sectors": ["Industri"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lea-stromvall",
+    "portrait": "/media/tyfaikod/lea-str&#xF6;mvall-some.jpg"
+  }, {
+    "name": "Oliver Wigren",
+    "role": "Junior assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "oliver-wigren",
+    "portrait": "/media/j1wfgubk/wigren-oliver-some.jpg"
+  }, {
+    "name": "Riin Rannu",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "riin-rannu",
+    "portrait": "/media/xvij4i3w/rannu_riin_some.jpg"
+  }, {
+    "name": "Sara Ehrling Öberg",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Konkurrensrätt", "Kapitalmarknad"],
+    "sectors": ["Life science"],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "sara-ehrling-oberg",
+    "portrait": "/media/3wfl4ifk/oberg_ehrling_sara_some.jpg"
+  }, {
+    "name": "Sarah Arvidsson Lagerlöf",
+    "role": "Informationsspecialist",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "sarah-arvidsson-lagerlof",
+    "portrait": "/media/sttfgyxe/arvidsson_lagerl&#xF6;f_sarah_some.jpg"
+  }, {
+    "name": "Agneta Widén",
+    "role": "Paralegal",
+    "office": "Göteborg",
+    "areas": ["Kapitalmarknad"],
+    "sectors": ["Fastighet"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "agneta-widen",
+    "portrait": "/media/kbojgsds/widen_agneta_highres.jpg"
+  }, {
+    "name": "Anna Pasquali",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Immaterialrätt", "Konkurrensrätt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "anna-pasquali",
+    "portrait": "/media/sfimnf4p/pasquali_anna_highres.jpg"
+  }, {
+    "name": "Ellen Sjöberg",
+    "role": "Senior legal counsel",
+    "office": "Stockholm",
+    "areas": ["Offentlig upphandling"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "ellen-sjoberg",
+    "portrait": null
+  }, {
+    "name": "Hugo Westin",
+    "role": "AML- och riskanalytiker",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "hugo-westin",
+    "portrait": "/media/mpxpt1mq/hugo-westin-some.jpg"
+  }, {
+    "name": "Jessica Molander",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "jessica-molander",
+    "portrait": "/media/cjjbc5pr/molander-jessica-some.jpg"
+  }, {
+    "name": "Johanna Rutberg",
+    "role": "Senior associate",
+    "office": "Stockholm",
+    "areas": ["Publik M&A", "Fastighet och entreprenad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "johanna-rutberg",
+    "portrait": "/media/prnbdrmo/johanna-rutberg-some.jpg"
+  }, {
+    "name": "Lucas Benedik Sarkar",
+    "role": "AML- och riskchef",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "lucas-benedik-sarkar",
+    "portrait": "/media/1r0kerx4/sarkar_lucas_socialmedia.jpg"
+  }, {
+    "name": "Nina Lovric",
+    "role": "Associate",
+    "office": "Stockholm",
+    "areas": ["Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "nina-lovric",
+    "portrait": null
+  }, {
+    "name": "Julia Sangborn",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["Kapitalmarknad", "Skatt"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "julia-sangborn",
+    "portrait": null
+  }, {
+    "name": "Emil Björkander",
+    "role": "Informationsspecialist",
+    "office": "Bruxelles",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "emil-bjorkander",
+    "portrait": "/media/vlfba2pq/emil-bj&#xF6;rkander-some.jpg"
+  }, {
+    "name": "Graham Plutz",
+    "role": "Paralegal",
+    "office": "Bruxelles",
+    "areas": ["Fastighet och entreprenad", "Publik M&A"],
+    "sectors": ["Energi"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "graham-plutz",
+    "portrait": "/media/fl1jrx1k/plutz-graham-highres.jpg"
+  }, {
+    "name": "Gunilla Nyman",
+    "role": "Executive assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "gunilla-nyman",
+    "portrait": "/media/c2filfhb/nyman_gunilla_highres.jpg"
+  }, {
+    "name": "Hanna Kravchenko",
+    "role": "Trainee",
+    "office": "Bruxelles",
+    "areas": ["Utredningar"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Danska"],
+    "slug": "hanna-kravchenko",
+    "portrait": "/media/bcqdglew/kravchenko_hanna__socialmedia.jpg"
+  }, {
+    "name": "Johanna Siösteen",
+    "role": "Executive assistant",
+    "office": "Stockholm",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "johanna-siosteen",
+    "portrait": "/media/04eakutc/sahlgren_johanna_socialmedia.jpg"
+  }, {
+    "name": "Julia Cook",
+    "role": "Trainee",
+    "office": "Stockholm",
+    "areas": ["M&A", "Skatt"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska", "Finska"],
+    "slug": "julia-cook",
+    "portrait": null
+  }, {
+    "name": "Klara Göransson",
+    "role": "Junior assistant",
+    "office": "Göteborg",
+    "areas": [],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "klara-goransson",
+    "portrait": "/media/x5td0grm/klara-g&#xF6;ransson-some.jpg"
+  }, {
+    "name": "Lovisa Lagerqvist",
+    "role": "Biträdande jurist",
+    "office": "Stockholm",
+    "areas": ["Tvistlösning"],
+    "sectors": [],
+    "langs": ["Svenska", "Engelska", "Tyska"],
+    "slug": "lovisa-lagerqvist",
+    "portrait": "/media/41sdn40t/lovisa-lagerqvist-some.jpg"
+  }, {
+    "name": "Philip Demetriades",
+    "role": "Trainee",
+    "office": "Malmö",
+    "areas": ["M&A"],
+    "sectors": ["Handel och konsument"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "philip-demetriades",
+    "portrait": null
+  }, {
+    "name": "Simon Nyroos",
+    "role": "Biträdande jurist",
+    "office": "Malmö",
+    "areas": ["Skatt"],
+    "sectors": ["Transport"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "simon-nyroos",
+    "portrait": "/media/2ael41sp/simon-nyroos_some.jpg"
+  }, {
+    "name": "Vera Moritz",
+    "role": "Trainee",
+    "office": "Göteborg",
+    "areas": ["Bolagsrätt", "Kapitalmarknad"],
+    "sectors": ["Teknik"],
+    "langs": ["Svenska", "Engelska"],
+    "slug": "vera-moritz",
+    "portrait": null
+  }];
+  window.VingePeopleAll = rows.map(p => ({
+    ...p,
+    href: '/personer/' + p.slug,
+    imageSrc: portrait(p.portrait)
+  }));
+  window.VingePeopleFacets = {
+    areas: ["M&A", "Publik M&A", "Kapitalmarknad", "Bolagsrätt", "Konkurrensrätt", "Tvistlösning", "Skiljeförfaranden", "Immaterialrätt", "Arbetsrätt", "Fastighet och entreprenad", "Bank och finans", "Skatt", "Offentlig upphandling", "Miljörätt", "Insolvens och rekonstruktion", "Statsstöd", "Antikorruption", "Utredningar", "Handelssanktioner", "Mänskliga rättigheter i affärer"],
+    sectors: ["Industri", "Life science", "Teknik", "Energi", "Bank och finans", "Fastighet", "Handel och konsument", "Offentlig sektor", "Transport", "Media"],
+    offices: ["Stockholm", "Göteborg", "Malmö", "Bruxelles"]
+  };
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/people-listing/people.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/person-page/ds-base.js
+try { (() => {
+// Loads this design system into the template. In a consuming project, point
+// base at the bound DS folder relative to this file (e.g. '_ds/<folder>' at
+// the project root, '../_ds/<folder>' one level down) — one line to edit.
+(() => {
+  /* The page can mount this loader twice (helmet mount, then remount), and
+     appending the tags again would evaluate the whole bundle a second time and
+     redeclare every @font-face. One load per page, guarded here. */
+  if (window.__dsBase) return;
+  window.__dsBase = true;
+
+  /* One clean paint. The stylesheets, the bundle and the webfonts all arrive
+     after the markup, so an ungated page shows unstyled text, then reflows as
+     each sheet lands, then pops again as components replace their placeholders.
+     Instead the document is held invisible (on the paper ground, so there is no
+     white flash), CSS animations are held at their first frame, and the whole
+     page is revealed in one short fade once styles, bundle, fonts and the
+     above-the-fold images are in. Timeouts floor every wait, so nothing that
+     fails to answer can leave the page blank. While a template is being
+     authored the markup streams in on purpose — the gate steps aside then. */
+  const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
+  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  if (!streaming()) {
+    const gate = document.createElement('style');
+    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}' + 'html:not([data-ds-ready]) body{opacity:0 !important}' + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}' + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}' + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+    document.head.appendChild(gate);
+    /* If authoring starts after this ran, get out of the way at once. */
+    new MutationObserver(() => {
+      if (streaming()) reveal();
+    }).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  }
+  const after = ms => new Promise(r => window.setTimeout(r, ms));
+  const frame = () => new Promise(r => window.requestAnimationFrame(() => window.requestAnimationFrame(r)));
+  const floor = (p, ms) => Promise.race([p, after(ms)]);
+  /* Images already in the markup and not deferred: a hero that decodes a beat
+     late is the most visible pop of all. Lazy ones are below the fold. */
+  const images = () => Promise.all(Array.from(document.images).filter(i => i.loading !== 'lazy' && !i.complete).slice(0, 12).map(i => new Promise(r => {
+    i.addEventListener('load', r, {
+      once: true
+    });
+    i.addEventListener('error', r, {
+      once: true
+    });
+  })));
+  const gates = [];
+  const base = '../..';
+  /* Routing. A template is a demo of a real page, so its links point at the
+     live site's routes ('/personer', '/insikter/...') and the panel's people
+     carry absolute profile URLs on the live host. No such document exists
+     here, so a site route is resolved against the seven template files and
+     followed as a sibling file; the origin is stripped off vinge.se URLs
+     first, and a language segment with it, so /personer and /en/our-people
+     land on the same page. A route with no template behind it stays inert
+     rather than navigating the frame off the template for good. Anchors,
+     mail, telephone, downloads, other hosts and relative links between
+     template files are left alone. */
+  const ROUTES = {
+    '/': '../landing-page/LandingPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
+    '/personer': '../people-listing/PeopleListing.dc.html',
+    '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
+    '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
+    '/nyheter': '../news-listing/NewsListing.dc.html',
+    '/insikter': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/karriar': '../about-page/AboutPage.dc.html'
+  };
+  /* A prefix stands for a whole class of route: any one person, any one
+     article, any practice area. The exact map above wins first, so
+     '/personer' is still the list and '/uppdrag' still the flow. */
+  const PREFIXES = [['/personer/', '../person-page/PersonPage.dc.html'], ['/our-people/', '../person-page/PersonPage.dc.html'], ['/insikter/', '../article-page/ArticlePage.dc.html'], ['/uppdrag/', '../article-page/ArticlePage.dc.html'], ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'], ['/karriar/', '../about-page/AboutPage.dc.html']];
+  /* The site path an href asks for, or null when the href is not a site link. */
+  const route = raw => {
+    let href = String(raw || '');
+    if (/^https?:\/\//i.test(href)) {
+      let u;
+      try {
+        u = new URL(href);
+      } catch (err) {
+        return null;
+      }
+      if (!/(^|\.)vinge\.se$/i.test(u.hostname)) return null;
+      href = u.pathname;
+    } else if (!href.startsWith('/') || href.startsWith('//')) {
+      return null;
+    }
+    href = href.split('#')[0].split('?')[0].replace(/^\/(en|sv)(?=\/|$)/i, '');
+    href = href.replace(/\/+$/, '');
+    return href || '/';
+  };
+  const fileFor = path => {
+    if (!path) return null;
+    if (ROUTES[path]) return ROUTES[path];
+    for (const pair of PREFIXES) {
+      if (path.indexOf(pair[0]) === 0 && path.length > pair[0].length) return pair[1];
+    }
+    return null;
+  };
+  const go = raw => {
+    const dest = fileFor(route(raw));
+    if (dest) window.location.href = dest;
+  };
+  document.addEventListener('click', e => {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+    const path = route(a.getAttribute('href'));
+    if (!path) return;
+    e.preventDefault();
+    /* A link inside the finder is not followed here: the panel docks and folds
+       to the peek first, and raises `vinge:navigate` when it has arrived. */
+    if (a.closest('[data-finder-frame]')) return;
+    go(path);
+  }, true);
+  window.addEventListener('vinge:navigate', e => go(e.detail && e.detail.href));
+  /* The bundle and the stylesheets are recompiled in place on every edit, so
+     they are requested with a per-load key: without it the browser serves the
+     build it cached and the page renders the previous design system. */
+  /* Every component reference reserves its space with a placeholder box while
+     the bundle loads. Reserving the space is right — the page must not jump —
+     but a grey fill and a border on each of them reads as broken content for
+     the first moment of every visit, so here they hold the space invisibly.
+     The shimmer a template shows while it is being authored is left alone. */
+  const ph = document.createElement('style');
+  ph.textContent = 'html:not(.sc-dc-streaming) .sc-placeholder,html:not(.sc-dc-streaming) .sc-interp.sc-missing{background:transparent !important;border-color:transparent !important}';
+  document.head.appendChild(ph);
+  const BUST = window.__dsBust || (window.__dsBust = '?v=' + Date.now());
+  const sheets = ["tokens/fonts.css", "tokens/colors.css", "tokens/typography.css", "tokens/spacing.css", "tokens/grid.css", "tokens/motion.css", "tokens/base.css", "styles.css"];
+  /* `data-ds-ready` on <html> is also the signal a page can hold an individual
+     element back with until the real layout exists. */
+  for (const p of sheets) {
+    const l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = base + '/' + p + BUST;
+    gates.push(new Promise(r => {
+      l.addEventListener('load', r, {
+        once: true
+      });
+      l.addEventListener('error', r, {
+        once: true
+      });
+    }));
+    document.head.appendChild(l);
+  }
+  const s = document.createElement('script');
+  s.src = base + '/_ds_bundle.js' + BUST;
+  gates.push(new Promise(r => {
+    s.addEventListener('load', r, {
+      once: true
+    });
+    s.addEventListener('error', r, {
+      once: true
+    });
+  }));
+  s.onerror = () => console.error('ds-base.js: failed to load ' + s.src + ' — if this is a consuming project, point the base line in ds-base.js at the bound _ds/<folder> tree relative to this page (e.g. _ds/<folder> at the project root, ../_ds/<folder> one level down); in a fresh design system this can just mean the bundle is not compiled yet');
+  document.head.appendChild(s);
+  /* Styles and bundle first, then the faces and the images they lay out, then
+     two frames so the mounted components have taken their real size. */
+  (async () => {
+    await floor(Promise.all(gates), 2500);
+    await floor(Promise.all([document.fonts ? document.fonts.ready : null, images()]), 1200);
+    await frame();
+    reveal();
+  })();
+  /* Absolute floor. */
+  window.setTimeout(reveal, 4000);
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/person-page/ds-base.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/person-page/mandates.js
+try { (() => {
+/* The person's own record: every mandate, newest first. Same content type as
+   the Record block on the landing page — a mandate is a year, a line and the
+   colleagues who were on it. The preamble is the two sentences the mandate
+   page itself opens with; here it is folded away under the line and comes out
+   on hover, because forty titles have to stay scannable.
+
+   Fictional clients, as everywhere in this system. */
+(() => {
+  const M = (year, title, preamble, areas, sector, team) => ({
+    year,
+    title,
+    preamble,
+    areas,
+    sector,
+    team
+  });
+  window.VingePersonMandates = [M(2026, 'Biträdde Nordika vid försvaret mot Avenyrs offentliga uppköpsbud om 4,1 miljarder kronor', 'Budet lades utan förvarning en fredagseftermiddag i februari. Styrelsen hade fjorton dagar på sig att svara, och gjorde det med en rekommendation att avvisa.', ['Publik M&A', 'Bolagsrätt'], 'Detaljhandel', ['Anders Kihlström', 'Petra Lindqvist']), M(2026, 'Företrädde Bergslagen Kraft i skiljeförfarande om prisjustering i ett tjugoårigt kraftavtal', 'Motparten begärde omförhandling när elpriset föll under avtalets golv. Förfarandet avgjordes vid SCC efter arton månader.', ['Skiljeförfaranden', 'Energirätt'], 'Energi', ['Eva Fredrikson', 'Anders Kihlström']), M(2026, 'Rådgivare till Cendra Pharma vid förvärvet av en klinisk portfölj ur Ranstad Klinikers verksamhet', 'Fyra pågående prövningar följde med i affären, var och en med sitt eget regulatoriska godkännande. Överlåtelsen delades därför upp i tre steg.', ['M&A', 'Life science-regulatoriskt'], 'Life science', ['Petra Lindqvist', 'Klara Sundin']), M(2025, 'Biträdde Serafim Invest vid förvärvet av Fältström Industri och den efterföljande refinansieringen', 'Bolaget köptes ur en familjeägd struktur med fyra grenar som inte var överens. Finansieringen restes parallellt med förhandlingen.', ['Private equity', 'Bank och finans'], 'Industri', ['Anders Kihlström', 'Måns Ahlgren', 'Petra Lindqvist']), M(2025, 'Företrädde Norrsken Life Science vid noteringen på Nasdaq Stockholms huvudlista', 'Bolaget hade två läkemedelskandidater och ingen intäkt. Prospektet fick därför bära hela argumentet.', ['Kapitalmarknad', 'Bolagsrätt'], 'Life science', ['Klara Sundin', 'Ingrid Törnqvist']), M(2025, 'Rådgivare till Karlavik Hamn vid Konkurrensverkets granskning av terminalavtalen', 'Granskningen inleddes efter en anmälan från en konkurrerande operatör. Den avslutades utan åtgärd sjutton månader senare.', ['Konkurrensrätt', 'Regulatoriskt'], 'Transport', ['Eva Fredrikson', 'Anders Kihlström']), M(2025, 'Biträdde Vidarö Fastigheter vid avyttringen av samhällsfastighetsportföljen till en internationell köpare', 'Fyrtioen fastigheter med kommunala hyresgäster och lika många hyresavtal att gå igenom. Affären stängdes på elva veckor.', ['Fastighetsrätt', 'M&A'], 'Fastigheter', ['Måns Ahlgren', 'Petra Lindqvist']), M(2024, 'Företrädde Nordika när Avenyr lade ett kontant bud på hela aktiestocken', 'Det första av två bud från samma budgivare. Detta drogs tillbaka innan acceptfristen gick ut.', ['Publik M&A'], 'Detaljhandel', ['Anders Kihlström', 'Petra Lindqvist', 'Rikard Boström']), M(2024, 'Rådgivare till Aptera Medical vid konkurrensanmälan av förvärvet av Halvfors medicintekniska division', 'Anmälan gick till fas två i två jurisdiktioner. Affären godkändes mot åtaganden om avyttring av en produktlinje.', ['Konkurrensrätt', 'M&A'], 'Life science', ['Eva Fredrikson', 'Klara Sundin']), M(2024, 'Biträdde Terrafors vid etableringen av ett samägt bolag för havsbaserad vindkraft', 'Två parter med olika tidshorisonter och samma kapitalbehov. Aktieägaravtalet reglerar vad som händer när den ena vill ut.', ['Bolagsrätt', 'Energirätt'], 'Energi', ['Ingrid Törnqvist', 'Måns Ahlgren']), M(2024, 'Företrädde Stavgren Bank i tvist om ansvar för rådgivning vid strukturerade produkter', 'Kärandena var fyrtio privatpersoner som drev talan gemensamt. Målet förlikades efter huvudförhandlingens andra vecka.', ['Tvistlösning', 'Regulatoriskt'], 'Bank och finans', ['Rikard Boström', 'Anders Kihlström']), M(2024, 'Rådgivare till Ostkant Logistik vid carve-out och försäljning av den nordiska åkeriverksamheten', 'Verksamheten låg i sex bolag i tre länder och delade allt utom kunder. Separationen tog nio månader innan den kunde säljas.', ['M&A', 'Arbetsrätt'], 'Transport', ['Petra Lindqvist', 'Måns Ahlgren']), M(2023, 'Biträdde Blixtvik Telekom vid refinansieringen av kreditfaciliteten om 6,2 miljarder kronor', 'Sju banker i syndikatet och ett bolag som just förlorat sitt största avtal. Villkoren skrevs om innan förfallodagen.', ['Bank och finans'], 'Telekom', ['Måns Ahlgren', 'Anders Kihlström']), M(2023, 'Företrädde Almnäs Bruk vid Mark- och miljödomstolens prövning av det utvidgade tillståndet', 'Ansökan hade legat i fyra år när prövningen inleddes. Tillståndet meddelades med skärpta villkor för utsläpp till vatten.', ['Miljörätt', 'Regulatoriskt'], 'Skog och råvaror', ['Ingrid Törnqvist']), M(2023, 'Rådgivare till Norrmalm Kapital vid förvärvet av en minoritetspost i Ambion Software', 'Posten kom med en styrelseplats och en option att köpa resten. Optionens utlösande villkor var hela förhandlingen.', ['M&A', 'Bolagsrätt'], 'Teknik', ['Petra Lindqvist', 'Klara Sundin']), M(2023, 'Biträdde Sköldkroken vid upphandlingen av entreprenaden för Tunnelbolaget Östs etapp tre', 'Tilldelningen överprövades av två av de förlorande anbudsgivarna. Båda ansökningarna avslogs.', ['Offentlig upphandling', 'Tvistlösning'], 'Bygg och infrastruktur', ['Eva Fredrikson', 'Rikard Boström']), M(2022, 'Företrädde Klarsjö Försäkring vid Finansinspektionens tillsyn av försäkringsdistributionen', 'Tillsynen rörde ersättningsmodellen till förmedlarna. Den avslutades med en anmärkning och ingen sanktionsavgift.', ['Regulatoriskt', 'Compliance'], 'Försäkring', ['Rikard Boström', 'Klara Sundin']), M(2022, 'Rådgivare till Hedmark Gruvor vid försäljningen av koncessionerna i Norrbotten', 'Tre koncessioner, två av dem överklagade. Köpeskillingen delades i en fast del och en som föll ut vid lagakraftvunnet beslut.', ['M&A', 'Miljörätt'], 'Skog och råvaror', ['Ingrid Törnqvist', 'Måns Ahlgren']), M(2022, 'Biträdde Vartex Retail vid rekonstruktionen och den efterföljande ackordsuppgörelsen', 'Bolaget hade 340 butiker och likviditet till sex veckor. Ackordet antogs av borgenärerna i november.', ['Obestånd och rekonstruktion'], 'Detaljhandel', ['Anders Kihlström', 'Rikard Boström']), M(2022, 'Företrädde Sundfast i tvist mot totalentreprenören om fel i tolv bostadsprojekt', 'Felen var desamma i samtliga projekt och bestreds i samtliga. Målet avgjordes till kärandens fördel i hovrätten.', ['Tvistlösning', 'Fastighetsrätt'], 'Fastigheter', ['Rikard Boström']), M(2021, 'Rådgivare till Solvarv vid det gränsöverskridande samgåendet med en tysk solkraftsutvecklare', 'Två bolag av jämförbar storlek och ingen självklar övertagare. Strukturen avgjordes av var noteringen skulle ligga.', ['M&A', 'Bolagsrätt'], 'Energi', ['Petra Lindqvist', 'Ingrid Törnqvist', 'Anders Kihlström']), M(2021, 'Biträdde Kvarnbo Mejeri vid förvärvet av en konkurrents produktionsanläggning i Skåne', 'Anläggningen var den enda i sitt slag söder om Mälardalen. Konkurrensverket prövade affären i fas ett.', ['Konkurrensrätt', 'M&A'], 'Detaljhandel', ['Eva Fredrikson']), M(2021, 'Företrädde Tredje Vågen Media i förhandlingen om kollektivavtal vid övergången av verksamhet', 'Etthundrasextio anställda gick över till en ny arbetsgivare. Förhandlingen fördes med tre fackliga organisationer parallellt.', ['Arbetsrätt'], 'Media', ['Klara Sundin']), M(2020, 'Rådgivare till Nyfors Elnät vid försäljningen av regionnätet till ett infrastrukturfondkonsortium', 'Regleringen av intäktsramen bestämde priset mer än tillgången gjorde. Affären villkorades av Energimarknadsinspektionens godkännande.', ['M&A', 'Energirätt'], 'Energi', ['Måns Ahlgren', 'Ingrid Törnqvist']), M(2020, 'Biträdde Alveus Data vid dataskyddsgranskningen av molnplattformen för nordiska kunder', 'Granskningen inleddes efter en incidentanmälan. Den ledde till ändrade avtalsvillkor mot samtliga underbiträden.', ['Dataskydd', 'IT och teknologi'], 'Teknik', ['Klara Sundin', 'Rikard Boström']), M(2019, 'Företrädde Vinterhamn Rederi i skiljeförfarande om leveransförsening av två fartyg', 'Varvet var kinesiskt och avtalet engelskrättsligt. Förfarandet fördes i London och avgjordes efter två år.', ['Skiljeförfaranden'], 'Transport', ['Eva Fredrikson', 'Anders Kihlström']), M(2019, 'Rådgivare till Rosenhill Vård vid överlåtelsen av åtta äldreboenden till kommunal regi', 'Verksamhetsövergången skulle ske vid ett och samma årsskifte. Personal, lokaler och journalsystem följde med.', ['Offentlig upphandling', 'Arbetsrätt'], 'Offentlig sektor', ['Ingrid Törnqvist', 'Klara Sundin']), M(2018, 'Biträdde Frostvik Kyl vid det första förvärvet i den europeiska expansionen', 'Målbolaget låg i Nederländerna och hade två ägare med olika uppfattning om priset. Affären stängdes efter fjorton månader.', ['M&A', 'Skatt'], 'Industri', ['Petra Lindqvist', 'Måns Ahlgren']), M(2017, 'Företrädde Lindhem Bygg i entreprenadtvist om ansvaret för grundläggningen', 'Sättningarna upptäcktes tre år efter slutbesiktning. Frågan var när preskriptionstiden hade börjat löpa.', ['Tvistlösning'], 'Bygg och infrastruktur', ['Rikard Boström']), M(2016, 'Rådgivare till Hägerlund Skog vid generationsskiftet och omstruktureringen av markinnehavet', 'Innehavet hade legat i samma familj i fyra generationer och i fem bolag. Strukturen ritades om innan det gick vidare.', ['Bolagsrätt', 'Skatt'], 'Skog och råvaror', ['Måns Ahlgren'])];
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/person-page/mandates.js", error: String((e && e.message) || e) }); }
+
+// repo/templates/person-page/people.js
+try { (() => {
+/* Demo people for the landing page's portrait carousel.
+
+   Names, titles and portraits are the firm's own, read from vinge.se. The
+   media host sends no CORS header and the halftone painter has to read the
+   image's pixels, so the portraits come through a CORS-clean image proxy at
+   the card's own size — in production these are local media paths and the
+   proxy goes away. Discipline tags use the register's vocabulary, which is
+   what the carousel matches the visitor's dialogue against. */
+(() => {
+  const portrait = path => 'https://images.weserv.nl/?url=www.vinge.se' + path + '&w=640&h=800&fit=cover';
+  const profile = slug => 'https://www.vinge.se/en/our-people/' + slug + '/';
+  window.VingePeople = [{
+    name: 'Johan Winnerblad',
+    role: 'Partner',
+    areas: ['M&A', 'Publik M&A'],
+    sectors: ['Industri'],
+    href: profile('johan-winnerblad'),
+    imageSrc: portrait('/media/bsbdhch0/winnerblad_johan_highres.jpg')
+  }, {
+    name: 'Amanda Knutsson',
+    role: 'Partner',
+    areas: ['Publik M&A', 'Kapitalmarknad'],
+    sectors: [],
+    href: profile('amanda-knutsson'),
+    imageSrc: portrait('/media/alcp5wjf/knutsson_amanda_highres.jpg')
+  }, {
+    name: 'Malin Malm Waerme',
+    role: 'Partner',
+    areas: ['M&A', 'Bolagsrätt'],
+    sectors: ['Life science'],
+    href: profile('malin-malm-waerme'),
+    imageSrc: portrait('/media/tv4fk15a/malm_waerme_malin_highres.jpg')
+  }, {
+    name: 'Richard Wessman',
+    role: 'Head of IP, Partner',
+    areas: ['Immaterialrätt'],
+    sectors: ['Life science', 'Teknik'],
+    href: profile('richard-wessman'),
+    imageSrc: portrait('/media/2wpfsggd/wessman_richard_highres.jpg')
+  }, {
+    name: 'Silvia Dahlberg',
+    role: 'Partner',
+    areas: ['Tvistlösning', 'Skiljeförfaranden'],
+    sectors: [],
+    href: profile('silvia-dahlberg'),
+    imageSrc: portrait('/media/puvlegfc/dahlberg-silvia-some.jpg')
+  }, {
+    name: 'Marcus Glader',
+    role: 'Partner',
+    areas: ['Konkurrensrätt'],
+    sectors: ['Energi'],
+    href: profile('marcus-glader'),
+    imageSrc: portrait('/media/lgiddap0/glader_marcus_socialmedia.jpg')
+  }, {
+    name: 'Nils Unckel',
+    role: 'Partner',
+    areas: ['Kapitalmarknad', 'Bolagsrätt'],
+    sectors: ['Bank och finans'],
+    href: profile('nils-unckel'),
+    imageSrc: portrait('/media/jwufudt0/unckel_nils_socialmedia.jpg')
+  }, {
+    name: 'Emma Stuart-Beck',
+    role: 'Partner',
+    areas: ['Bolagsrätt', 'Publik M&A'],
+    sectors: [],
+    href: profile('emma-stuart-beck'),
+    imageSrc: portrait('/media/q25dyf1q/stuart-beck_emma_socialmedia.jpg')
+  }];
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/person-page/people.js", error: String((e && e.message) || e) }); }
 
 __ds_ns.ArtworkPin = __ds_scope.ArtworkPin;
 

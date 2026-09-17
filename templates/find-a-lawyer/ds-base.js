@@ -18,15 +18,35 @@
      fails to answer can leave the page blank. While a template is being
      authored the markup streams in on purpose — the gate steps aside then. */
   const streaming = () => document.documentElement.classList.contains('sc-dc-streaming');
-  const reveal = () => document.documentElement.setAttribute('data-ds-ready', '');
+  const reveal = () => {
+    document.documentElement.setAttribute('data-ds-ready', '');
+    /* The veil normally takes itself out on transitionend; this covers the
+       case where it was mounted after the reveal and so never transitioned. */
+    window.setTimeout(() => { const v = document.getElementById('ds-veil'); if (v) v.remove(); }, 500);
+  };
   if (!streaming()) {
     const gate = document.createElement('style');
-    gate.textContent = 'html:not([data-ds-ready]){background:#F7F6FA}'
-      + 'html:not([data-ds-ready]) body{opacity:0 !important}'
+    /* Hidden, then uncovered — never faded by an opacity on <body>. An
+       opacity below 1 on an ancestor isolates the group, and the headers'
+       wordmark and glyphs are drawn in exclusion against the page behind
+       them: inside an isolated group they have nothing to blend with and
+       render as plain paper, so every light page opened with an inverted
+       header for the length of the fade. The fade is a paper veil over the
+       page instead, which leaves the blend alone. */
+    gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}'
       + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}'
-      + 'html[data-ds-ready] body{animation:ds-page-in 260ms cubic-bezier(.22,.61,.36,1) both}'
-      + '@keyframes ds-page-in{from{opacity:0}to{opacity:1}}';
+      + 'html{background:#F7F6FA}'
+      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
+      + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
+    const veil = () => {
+      if (document.getElementById('ds-veil') || !document.body) return;
+      const v = document.createElement('div');
+      v.id = 'ds-veil';
+      v.addEventListener('transitionend', () => v.remove(), { once: true });
+      document.body.appendChild(v);
+    };
+    if (document.body) veil(); else document.addEventListener('DOMContentLoaded', veil, { once: true });
     /* If authoring starts after this ran, get out of the way at once. */
     new MutationObserver(() => { if (streaming()) reveal(); })
       .observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });

@@ -262,7 +262,16 @@ class Component extends DCLogic {
   /* The chat trigger in the header is the same surface without a prompt: the
      visitor has said nothing yet, so the machine opens with its first
      question rather than an empty screen. */
+  /* Pressed with the takeover up, the menu folds first and the surface follows
+     it — the same two-beat movement the takeover's own chat item makes.
+     Otherwise the exchange opens behind the ink and the press reads as
+     nothing having happened. */
   openChat = () => {
+    if (this.state.menuOpen) {
+      this.setState({ menuOpen: false });
+      window.setTimeout(() => this.openChat(), 480);
+      return;
+    }
     this.setState({ open: true, turns: [], step: -1, done: false, extra: 0 });
     this.advance(700);
   };
@@ -412,7 +421,22 @@ class Component extends DCLogic {
     window.setTimeout(() => this.setState({ turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] }), 1200);
   };
 
-  componentWillUnmount() { window.clearTimeout(this._t); }
+  /* The takeover's "Behöver rådgivning" item — and any other trigger in the
+     design system — opens the surface by dispatching `vinge:conversation`.
+     This page drives GuidedConversation from its own state, so it has to hear
+     that event itself; without this the menu folds and nothing follows. */
+  onConversationEvent = (e) => {
+    const prompt = e && e.detail && e.detail.prompt;
+    if (prompt) this.start(prompt);
+    else this.openChat();
+  };
+
+  componentDidMount() { window.addEventListener('vinge:conversation', this.onConversationEvent); }
+
+  componentWillUnmount() {
+    window.clearTimeout(this._t);
+    window.removeEventListener('vinge:conversation', this.onConversationEvent);
+  }
 
   ghostFor(step) {
     if (this.state.done) {
