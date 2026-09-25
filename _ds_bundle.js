@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"5b2de234c972","components/blocks/Chapter.jsx":"f41941619697","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"c01ada0126a2","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"9af19a85d34e","components/blocks/ImageScreen.jsx":"e38a66717aa6","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"803a49b89c6d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"044653a4f69a","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"d90b8425f2db","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"7d2ba116cf44","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"465309474f96","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"88ed06f08f08","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"a0c2e23468a2","components/core/Figure.jsx":"9da91fc57281","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"57b229adff41","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CarouselHero.jsx":"bee13e12f01f","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"32433e0ba746","components/layout/PageBanner.jsx":"3ec15835ca06","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"e7b15a311934","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"21a9ee96232f","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"3098b4b487d2","components/navigation/WordmarkMasthead.jsx":"e4d4c88b575c","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"5b2de234c972","components/blocks/Chapter.jsx":"f41941619697","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"c01ada0126a2","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"9af19a85d34e","components/blocks/ImageScreen.jsx":"e38a66717aa6","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"803a49b89c6d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"9984c50d3813","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"d90b8425f2db","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"7d2ba116cf44","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"465309474f96","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"88ed06f08f08","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"a0c2e23468a2","components/core/Figure.jsx":"9da91fc57281","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"57b229adff41","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CarouselHero.jsx":"bee13e12f01f","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"32433e0ba746","components/layout/PageBanner.jsx":"3ec15835ca06","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"e7b15a311934","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"21a9ee96232f","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"3098b4b487d2","components/navigation/WordmarkMasthead.jsx":"e4d4c88b575c","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -2624,8 +2624,33 @@ function Record({
   /* Listing row: the client written out; the hovered row folds out its title
      and preamble. The whole row is the link into the case. */
   const [expanded, setExpanded] = React.useState(null);
-  /* On an open row the client line closes it; the rest leads into the case. */
-  const [overHead, setOverHead] = React.useState(false);
+  /* Rows open on dwell, not on click: the pointer rests on a line for DWELL ms
+     while a small ring fills in place of the cursor, then the row folds out.
+     Touch keeps the tap. Leaving the field cancels a pending open. */
+  const DWELL = 650;
+  /* The ring stays hidden for the first RING_WAIT ms, so scrolling past rows
+     never flashes it; only a pointer that actually rests sees it appear. */
+  const RING_WAIT = 280;
+  const [pending, setPending] = React.useState(null);
+  const [ringOn, setRingOn] = React.useState(false);
+  React.useEffect(() => {
+    setRingOn(false);
+    if (!listing || touch || !touched || cursor == null || cursor < 0 || cursor === expanded) {
+      setPending(null);
+      return undefined;
+    }
+    setPending(cursor);
+    const r = reduced.current ? 0 : window.setTimeout(() => setRingOn(true), RING_WAIT);
+    const t = window.setTimeout(() => {
+      setExpanded(cursor);
+      setPending(null);
+      setRingOn(false);
+    }, reduced.current ? 0 : DWELL);
+    return () => {
+      window.clearTimeout(t);
+      window.clearTimeout(r);
+    };
+  }, [listing, touch, touched, cursor, expanded]);
   /* The stuck year sits on the header wordmark's bottom edge: measured, so it
      holds whatever size the header has at this viewport. */
   const [yearTop, setYearTop] = React.useState(22);
@@ -2672,7 +2697,6 @@ function Record({
       if (row) {
         setCursor(Number(row.getAttribute('data-row-i')));
         setTouched(true);
-        setOverHead(!!hit.closest('[data-row-head]'));
       }
     };
     const onScroll = () => {
@@ -2716,11 +2740,6 @@ function Record({
         if (!open) {
           ev.preventDefault();
           setExpanded(e.i);
-          return;
-        }
-        if (ev.target.closest && ev.target.closest('[data-row-head]')) {
-          ev.preventDefault();
-          setExpanded(null);
         }
       },
       style: {
@@ -2732,44 +2751,24 @@ function Record({
         outline: 'none',
         borderBottom: rowShut ? 0 : '1px solid var(--rule-hairline)',
         paddingBlock: rowShut ? 0 : on ? 'calc(var(--space-1) + var(--space-0))' : 'var(--space-1)',
-        cursor: touch || !open ? 'pointer' : 'none',
+        cursor: touch ? 'pointer' : open || ringOn && pending === e.i ? 'none' : 'pointer',
         opacity: rowOpacity,
         transition: 'opacity var(--dur-fast) var(--ease-quart), padding-block var(--dur-slow) var(--ease-expo)'
       }
     }, /*#__PURE__*/React.createElement("span", {
       "data-row-head": "",
       className: "small",
-      onMouseEnter: () => setOverHead(true),
-      onMouseLeave: () => setOverHead(false),
       style: {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
         gap: 'var(--space-3)',
         maxWidth: 'none',
-        cursor: 'pointer',
+        cursor: 'inherit',
         color: on || open ? 'var(--text-primary)' : 'var(--text-secondary)',
         transition: 'color var(--dur-fast) var(--ease-quart)'
       }
-    }, /*#__PURE__*/React.createElement("span", null, e.client), /*#__PURE__*/React.createElement("svg", {
-      width: "12",
-      height: "12",
-      viewBox: "0 0 12 12",
-      fill: "none",
-      stroke: "currentColor",
-      strokeWidth: "1",
-      "aria-hidden": "true",
-      style: {
-        flex: '0 0 auto',
-        color: 'var(--ink)',
-        opacity: on && (!open || overHead) ? 1 : 0,
-        transition: 'opacity var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("path", {
-      d: "M0 6h12"
-    }), open ? null : /*#__PURE__*/React.createElement("path", {
-      d: "M6 0v12"
-    }))), /*#__PURE__*/React.createElement("span", {
+    }, /*#__PURE__*/React.createElement("span", null, e.client)), /*#__PURE__*/React.createElement("span", {
       style: {
         display: 'grid',
         gridTemplateRows: open ? '1fr' : '0fr',
@@ -3991,7 +3990,7 @@ function Record({
       transform: 'translate(-2px, -50%)',
       color: 'var(--ink)',
       fontWeight: 'var(--weight-medium)',
-      opacity: touched && expanded === cursor && !overHead ? 1 : 0,
+      opacity: touched && expanded === cursor ? 1 : 0,
       transition: 'opacity var(--dur-fast) var(--ease-quart)'
     }
   }, openLabel, /*#__PURE__*/React.createElement("svg", {
@@ -4004,7 +4003,61 @@ function Record({
     "aria-hidden": "true"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M0 5h15M11 1l4 4-4 4"
-  })))) : null), vertical ?
+  }))), touched && ringOn && pending != null ? /*#__PURE__*/React.createElement("svg", {
+    key: pending,
+    width: "16",
+    height: "16",
+    viewBox: "0 0 16 16",
+    fill: "none",
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      transform: 'translate(-50%, -50%)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("circle", {
+    cx: "8",
+    cy: "8",
+    r: "6",
+    stroke: "var(--rule-hairline)",
+    strokeWidth: "1.5"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "8",
+    cy: "8",
+    r: "6",
+    stroke: "currentColor",
+    strokeWidth: "1.5",
+    strokeLinecap: "round",
+    strokeDasharray: "37.7",
+    strokeDashoffset: "37.7",
+    transform: "rotate(-90 8 8)",
+    ref: el => {
+      if (el && !el._run) {
+        el._run = true;
+        const d = DWELL - RING_WAIT;
+        el.animate([{
+          strokeDashoffset: 37.7 * d / DWELL
+        }, {
+          strokeDashoffset: 0
+        }], {
+          duration: d,
+          easing: 'linear',
+          fill: 'forwards'
+        });
+        el.parentNode.animate([{
+          opacity: 0
+        }, {
+          opacity: 1
+        }], {
+          duration: 120,
+          easing: 'ease-out',
+          fill: 'forwards'
+        });
+      }
+    }
+  })) : null) : null), vertical ?
   /*#__PURE__*/
   /* The case under the cursor. Opens on first approach, holds while
      the pointer is on the lines, and folds shut when it leaves them.
