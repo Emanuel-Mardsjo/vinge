@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"30ca4e9abfb5","components/blocks/Chapter.jsx":"eb90b8244dfa","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"673eba7f639d","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"96bb4f43af55","components/blocks/ImageScreen.jsx":"14d5bc61e087","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"0f84c1b98aaf","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"be53209bfa52","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"71f2c6aad6ec","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"7d2ba116cf44","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"245b815fe85b","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"f8f97788f796","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"7e2045dc986f","components/core/Figure.jsx":"35982d88a369","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"629abdb92a3a","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"18ecd9b8723f","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/PageBanner.jsx":"cfea4c725f94","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"7dd73c9cd7d5","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"21a9ee96232f","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"3098b4b487d2","components/navigation/WordmarkMasthead.jsx":"b6a62aad4aad","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"5b2de234c972","components/blocks/Chapter.jsx":"f41941619697","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"c01ada0126a2","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"9af19a85d34e","components/blocks/ImageScreen.jsx":"e38a66717aa6","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"803a49b89c6d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"044653a4f69a","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"d90b8425f2db","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"7d2ba116cf44","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"465309474f96","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"88ed06f08f08","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"a0c2e23468a2","components/core/Figure.jsx":"9da91fc57281","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"57b229adff41","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CarouselHero.jsx":"bee13e12f01f","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"32433e0ba746","components/layout/PageBanner.jsx":"3ec15835ca06","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"e7b15a311934","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"21a9ee96232f","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"3098b4b487d2","components/navigation/WordmarkMasthead.jsx":"e4d4c88b575c","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -172,364 +172,6 @@ function DemoConsole({
 }
 Object.assign(__ds_scope, { DemoConsole });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/DemoConsole.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/ImageScreen.jsx
-try { (() => {
-/* A standing halftone screen. Same rotated, histogram-equalised dot field as
-   `ImageReveal`, with the reveal taken out: there is no travelling front, no
-   closure into the plate and no photograph underneath, so the image is a
-   printed screen for as long as it is on the page and never resolves.
-
-   What scroll drives instead is the screen itself. The element's position in
-   the viewport feeds two crossing waves that ride through the dot field —
-   density shifts across the frame as the page moves, and stops when the page
-   stops. Nothing arrives and nothing finishes; the plate is the final state.
-
-   Use it where an image is a surface a page is built on — an article banner
-   with the title over it — and `ImageReveal` where the print arriving is the
-   event. */
-
-const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
-};
-const INK = 'rgb(3, 41, 24)';
-const TAU = Math.PI * 2;
-function ImageScreen({
-  src,
-  alt = '',
-  ratio = '3:2',
-  bleed = false,
-  minHeight,
-  gridSize = 4,
-  dynamics = 0.6,
-  exposure = 1,
-  screenAngle = 18,
-  drift = 1,
-  className = '',
-  style
-}) {
-  const wrapRef = React.useRef(null);
-  const canvasRef = React.useRef(null);
-  const imgRef = React.useRef(null);
-  const gridRef = React.useRef(null);
-  const shiftRef = React.useRef(null);
-  const [ready, setReady] = React.useState(false);
-  React.useEffect(() => {
-    if (!src) return;
-    let cancelled = false;
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => {
-      if (!cancelled) {
-        imgRef.current = img;
-        setReady(true);
-      }
-    };
-    img.src = src;
-    return () => {
-      cancelled = true;
-    };
-  }, [src]);
-
-  /* One pass over the dot field. `s` is the element's travel through the
-     viewport, 0 as it enters from below to 1 as it leaves at the top; it sets
-     the phase of both waves and nothing else. Every dot is drawn on every
-     frame — there is no band and no arrival. */
-  const draw = React.useCallback(s => {
-    const canvas = canvasRef.current,
-      grid = gridRef.current;
-    if (!canvas || !grid) return;
-    const {
-      w,
-      h,
-      cols,
-      rows,
-      dpr,
-      tone,
-      dyn,
-      pitch,
-      cosA,
-      sinA
-    } = grid;
-    const ctx = canvas.getContext('2d');
-    ctx.save();
-    ctx.scale(dpr, dpr);
-    ctx.clearRect(0, 0, w, h);
-    const maxR = pitch * 0.46;
-    const amp = 0.3 * drift;
-    let uMin = Infinity,
-      uMax = -Infinity,
-      vMin = Infinity,
-      vMax = -Infinity;
-    for (const [x, y] of [[0, 0], [w, 0], [0, h], [w, h]]) {
-      const u = x * cosA + y * sinA,
-        v = -x * sinA + y * cosA;
-      if (u < uMin) uMin = u;
-      if (u > uMax) uMax = u;
-      if (v < vMin) vMin = v;
-      if (v > vMax) vMax = v;
-    }
-    const diag = w + h;
-    const path = new Path2D();
-    for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch) {
-      for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch) {
-        const x = u * cosA - v * sinA,
-          y = u * sinA + v * cosA;
-        if (x < 0 || y < 0 || x >= w || y >= h) continue;
-        const fx = x / w * (cols - 1),
-          fy = y / h * (rows - 1);
-        const x0 = fx | 0,
-          y0 = fy | 0;
-        const x1 = x0 + 1 < cols ? x0 + 1 : x0,
-          y1 = y0 + 1 < rows ? y0 + 1 : y0;
-        const tx = fx - x0,
-          ty = fy - y0;
-        const i00 = y0 * cols + x0,
-          i10 = y0 * cols + x1,
-          i01 = y1 * cols + x0,
-          i11 = y1 * cols + x1;
-        const t = (tone[i00] * (1 - tx) + tone[i10] * tx) * (1 - ty) + (tone[i01] * (1 - tx) + tone[i11] * tx) * ty;
-        if (t <= 0.02) continue;
-        const d = (dyn[i00] * (1 - tx) + dyn[i10] * tx) * (1 - ty) + (dyn[i01] * (1 - tx) + dyn[i11] * tx) * ty;
-
-        /* Two crossing waves, phased by scroll. The second is oblique and
-           slower, so the interference pattern never repeats within a frame.
-           Structure in the image leads slightly, the same bias the reveal
-           uses, so the shift reads as the photograph breathing rather than as
-           a pattern laid over it. */
-        const nd = (x + y) / diag;
-        const wave = Math.sin(nd * TAU * 2.6 - s * 7.5 + (d - 0.5) * dynamics * 1.6) + 0.5 * Math.sin(x * 0.012 - y * 0.017 + s * 4.2);
-        const radius = maxR * t * (1 + amp * wave * 0.6);
-        if (radius < 0.22) continue;
-        path.moveTo(x + radius, y);
-        path.arc(x, y, radius, 0, TAU);
-      }
-    }
-    ctx.fillStyle = INK;
-    ctx.fill(path);
-    ctx.restore();
-  }, [dynamics, drift]);
-  const buildGrid = React.useCallback(() => {
-    const wrap = wrapRef.current,
-      canvas = canvasRef.current,
-      img = imgRef.current;
-    if (!wrap || !canvas || !img) return;
-    const rect = wrap.getBoundingClientRect();
-    const w = Math.max(1, Math.round(rect.width)),
-      h = Math.max(1, Math.round(rect.height));
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    canvas.width = w * dpr;
-    canvas.height = h * dpr;
-    canvas.style.width = '100%';
-    canvas.style.height = '100%';
-    const cols = Math.max(2, Math.round(w / (gridSize / 2)));
-    const rows = Math.max(2, Math.round(h / (gridSize / 2)));
-    const off = document.createElement('canvas');
-    off.width = cols;
-    off.height = rows;
-    const octx = off.getContext('2d');
-    const ir = img.naturalWidth / img.naturalHeight,
-      wr = w / h;
-    let sx, sy, sw, sh;
-    if (ir > wr) {
-      sh = img.naturalHeight;
-      sw = sh * wr;
-      sx = (img.naturalWidth - sw) / 2;
-      sy = 0;
-    } else {
-      sw = img.naturalWidth;
-      sh = sw / wr;
-      sx = 0;
-      sy = (img.naturalHeight - sh) / 2;
-    }
-    octx.drawImage(img, sx, sy, sw, sh, 0, 0, cols, rows);
-    const data = octx.getImageData(0, 0, cols, rows).data;
-    const n = cols * rows;
-    const lum = new Float32Array(n),
-      tone = new Float32Array(n),
-      dyn = new Float32Array(n);
-    const hist = new Float32Array(256);
-    for (let i = 0; i < n; i++) {
-      const j = i * 4;
-      const l = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
-      lum[i] = l;
-      hist[l * 255 | 0]++;
-    }
-    const cdf = new Float32Array(256);
-    let acc = 0;
-    for (let b = 0; b < 256; b++) {
-      acc += hist[b];
-      cdf[b] = acc / n;
-    }
-    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
-    for (let i = 0; i < n; i++) {
-      const rank = 1 - cdf[lum[i] * 255 | 0];
-      tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
-    }
-    for (let r = 0; r < rows; r++) {
-      for (let c = 0; c < cols; c++) {
-        const i = r * cols + c,
-          l = lum[i];
-        let g = 0;
-        if (c > 0) g = Math.max(g, Math.abs(l - lum[i - 1]));
-        if (c < cols - 1) g = Math.max(g, Math.abs(l - lum[i + 1]));
-        if (r > 0) g = Math.max(g, Math.abs(l - lum[i - cols]));
-        if (r < rows - 1) g = Math.max(g, Math.abs(l - lum[i + cols]));
-        dyn[i] = Math.min(1, g * 4);
-      }
-    }
-    const a = screenAngle * Math.PI / 180;
-    gridRef.current = {
-      w,
-      h,
-      cols,
-      rows,
-      dpr,
-      tone,
-      dyn,
-      pitch: gridSize,
-      cosA: Math.cos(a),
-      sinA: Math.sin(a)
-    };
-    draw(shiftRef.current == null ? 0 : shiftRef.current);
-  }, [gridSize, screenAngle, exposure, draw]);
-  React.useEffect(() => {
-    if (!ready) return;
-    buildGrid();
-    let raf = null,
-      inView = true,
-      rebuild = null;
-
-    /* Position only: no clock, so a reader who stops sees a still screen and
-       a reader who scrolls back sees the shift run the other way. */
-    const shiftNow = () => {
-      const wrap = wrapRef.current;
-      if (!wrap) return 0;
-      const rect = wrap.getBoundingClientRect();
-      const span = window.innerHeight + rect.height;
-      return Math.min(1, Math.max(0, (window.innerHeight - rect.top) / Math.max(1, span)));
-    };
-    const reconcile = () => {
-      const wrap = wrapRef.current,
-        built = gridRef.current;
-      if (wrap && built) {
-        const r = wrap.getBoundingClientRect();
-        if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
-          if (rebuild) cancelAnimationFrame(rebuild);
-          rebuild = requestAnimationFrame(() => {
-            rebuild = null;
-            buildGrid();
-          });
-        }
-      }
-      const s = shiftNow();
-      if (shiftRef.current == null || Math.abs(s - shiftRef.current) > 0.0015) {
-        shiftRef.current = s;
-        draw(s);
-      }
-    };
-    const loop = () => {
-      if (!inView) {
-        raf = null;
-        return;
-      }
-      reconcile();
-      raf = requestAnimationFrame(loop);
-    };
-    const start = () => {
-      if (raf == null && inView) raf = requestAnimationFrame(loop);
-    };
-    const onScroll = () => {
-      reconcile();
-      start();
-    };
-    /* The screen is rebuilt on the next frame after the box changes, not on a
-       debounce: the canvas fills its element, so any delay is a frame of a
-       stretched dot field, and a stretched screen reads as broken. The source
-       crop is recomputed with it, so the photograph is cropped like
-       `object-fit: cover` rather than squeezed. */
-    const ro = new ResizeObserver(() => {
-      if (rebuild) cancelAnimationFrame(rebuild);
-      rebuild = requestAnimationFrame(() => {
-        rebuild = null;
-        buildGrid();
-        reconcile();
-      });
-    });
-    ro.observe(wrapRef.current);
-    const io = new IntersectionObserver(entries => {
-      inView = entries[entries.length - 1].isIntersecting;
-      reconcile();
-      start();
-    }, {
-      rootMargin: '20% 0px'
-    });
-    io.observe(wrapRef.current);
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    reconcile();
-    start();
-    return () => {
-      io.disconnect();
-      ro.disconnect();
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (raf != null) cancelAnimationFrame(raf);
-      if (rebuild) cancelAnimationFrame(rebuild);
-    };
-  }, [ready, buildGrid, draw]);
-  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
-  if (!src) {
-    return /*#__PURE__*/React.createElement("div", {
-      role: "img",
-      "aria-label": alt || 'Platshållare för foto',
-      className: className,
-      style: {
-        width: '100%',
-        aspectRatio,
-        minHeight,
-        background: 'var(--ink-12)',
-        display: 'grid',
-        placeItems: 'center',
-        ...style
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        color: 'var(--ink-65)'
-      }
-    }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio));
-  }
-  return /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
-    role: "img",
-    "aria-label": alt,
-    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
-    style: {
-      position: 'relative',
-      width: '100%',
-      aspectRatio,
-      minHeight,
-      overflow: 'hidden',
-      background: 'var(--reveal-ground)',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("canvas", {
-    ref: canvasRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      inset: 0,
-      display: 'block'
-    }
-  }));
-}
-Object.assign(__ds_scope, { ImageScreen });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ImageScreen.jsx", error: String((e && e.message) || e) }); }
 
 // components/blocks/NumberedList.jsx
 try { (() => {
@@ -2113,6 +1755,4668 @@ function CtaLink({
 Object.assign(__ds_scope, { CtaLink });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/CtaLink.jsx", error: String((e && e.message) || e) }); }
 
+// components/core/Figure.jsx
+try { (() => {
+const RATIOS = {
+  '3:2': '3 / 2',
+  '4:5': '4 / 5',
+  '21:9': '21 / 9'
+};
+
+/* Three ratios only. No rounded corners, no borders, no shadows, no overlay
+   gradients. Explicit ratio holds layout before the image lands. */
+function Figure({
+  src,
+  alt = '',
+  ratio = '3:2',
+  caption,
+  bleed = false,
+  priority = false,
+  minHeight,
+  bare = false,
+  className = '',
+  style
+}) {
+  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
+  return /*#__PURE__*/React.createElement("figure", {
+    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
+    style: {
+      margin: 0,
+      ...style
+    }
+  }, src ? /*#__PURE__*/React.createElement("img", {
+    src: src,
+    alt: alt,
+    loading: priority ? 'eager' : 'lazy',
+    fetchpriority: priority ? 'high' : undefined,
+    style: {
+      width: '100%',
+      aspectRatio,
+      objectFit: 'cover',
+      minHeight
+    }
+  }) : /*#__PURE__*/React.createElement("div", {
+    role: "img",
+    "aria-label": alt || 'Platshållare för foto',
+    style: {
+      width: '100%',
+      aspectRatio,
+      minHeight,
+      background: 'var(--surface-tint)',
+      display: 'grid',
+      placeItems: 'center',
+      overflow: 'hidden'
+    }
+  }, bare ? null : /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--ink-65)'
+    }
+  }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio)), caption ? /*#__PURE__*/React.createElement("figcaption", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)',
+      marginTop: 'var(--space-2)',
+      maxWidth: 'var(--measure-small)',
+      ...(bleed ? {
+        paddingInline: 'var(--margin)',
+        maxWidth: 'calc(var(--measure-small) + 2 * var(--margin))'
+      } : null)
+    }
+  }, caption) : null);
+}
+Object.assign(__ds_scope, { Figure });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Figure.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/GalleryRow.jsx
+try { (() => {
+/* A row of images, each on an explicit column span, each with its own label
+   and short description beneath. Spans are declared rather than divided, so
+   every image edge lands on a column line. */
+function GalleryRow({
+  items = [],
+  spans,
+  ratio = '3:2',
+  style
+}) {
+  const resolved = spans || items.map(() => Math.max(2, Math.floor(8 / Math.max(items.length, 1))));
+  return /*#__PURE__*/React.createElement("section", {
+    style: {
+      paddingBlock: 'var(--section-gap) 0',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      alignItems: 'start'
+    }
+  }, items.map((item, i) => {
+    let start = 1;
+    for (let k = 0; k < i; k++) start += resolved[k] || 2;
+    const span = resolved[i] || 2;
+    return /*#__PURE__*/React.createElement("div", {
+      key: item.label || i,
+      style: {
+        gridColumn: 'span ' + span,
+        marginTop: item.offset || 0
+      },
+      "data-col-start": start
+    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
+      src: item.src,
+      alt: item.alt || '',
+      ratio: item.ratio || ratio
+    }), item.label ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        marginTop: 'var(--space-2)',
+        maxWidth: 'none'
+      }
+    }, item.label) : null, item.body ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        marginTop: 'var(--space-0)',
+        color: 'var(--text-secondary)'
+      }
+    }, item.body) : null);
+  })));
+}
+Object.assign(__ds_scope, { GalleryRow });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/GalleryRow.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/OffsetGallery.jsx
+try { (() => {
+/* Staggered images at explicit start columns and spans, each vertically
+   offset. Nothing aligns to anything except a column line. */
+function OffsetGallery({
+  items = [],
+  style
+}) {
+  /* Absolute start lines only mean what they say against a fixed eight tracks,
+     so the block owns its own grid rather than reusing .grid, whose column
+     count drops to 4 and 2 below LG. Below 768px it is a single column and the
+     offsets are dropped. */
+  const [narrow, setNarrow] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const sync = () => setNarrow(mq.matches);
+    sync();
+    mq.addEventListener('change', sync);
+    return () => mq.removeEventListener('change', sync);
+  }, []);
+  return /*#__PURE__*/React.createElement("section", {
+    style: {
+      paddingBlock: 'var(--section-gap) 0',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: narrow ? 'minmax(0, 1fr)' : 'repeat(8, minmax(0, 1fr))',
+      gap: 'var(--gutter)',
+      rowGap: 'var(--space-5)',
+      paddingInline: 'var(--margin)',
+      maxWidth: 'var(--max-width)',
+      marginInline: 'auto',
+      alignItems: 'start'
+    }
+  }, items.map((item, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      gridColumn: narrow || !(item.start && item.span) ? '1 / -1' : item.start + ' / span ' + item.span,
+      marginTop: narrow ? 0 : item.offset || 0
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
+    src: item.src,
+    alt: item.alt || '',
+    ratio: item.ratio || '3:2',
+    caption: item.caption
+  })))));
+}
+Object.assign(__ds_scope, { OffsetGallery });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/OffsetGallery.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/MetaLine.jsx
+try { (() => {
+/* The metadata line: sector, date, discipline, count. Parts are separated by
+   a short vertical rule of dots with a wide space either side — never a
+   slash (that is the breadcrumb's separator, and the two were reading as the
+   same thing), never a middle dot, never a comma and never a pipe. The rule
+   is drawn in ink-55 so it reads as punctuation rather than as a third word,
+   and it is aria-hidden so a screen reader gets the parts as a plain
+   comma-delimited list.
+
+   A string is accepted and split on the legacy separators, so an existing
+   "Sektor · 2026" line becomes a correct one without a copy edit. */
+const SPLIT = /\s*[·•|/]\s*/;
+
+/* The separator: dots stacked into a short vertical rule, drawn with a
+   repeating radial gradient rather than glyphs or an SVG, so it inherits the
+   type's size (height and dot pitch in em), stays crisp at any DPR and costs
+   one empty element. */
+const RULE = {
+  display: 'inline-block',
+  width: '2px',
+  height: '0.92em',
+  transform: 'translateY(0.08em)',
+  backgroundImage: 'radial-gradient(circle at 50% 50%, var(--ink-55) 0 1px, transparent 1.05px)',
+  backgroundSize: '2px 0.34em',
+  backgroundRepeat: 'repeat-y'
+};
+
+/* Children may arrive wrapped — a text node in an instrumented host, an
+   element from a CMS field — so they are flattened to plain text before the
+   legacy separators are split on. Without this a wrapped string stringifies
+   to "[object Object]". */
+function text(node) {
+  if (node == null || node === false || node === true) return '';
+  if (typeof node === 'string' || typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(text).join('');
+  if (node.props) return text(node.props.children);
+  return '';
+}
+function MetaLine({
+  parts,
+  children,
+  as = 'p',
+  gap = 'var(--space-3)',
+  color = 'var(--text-secondary)',
+  className = 'small',
+  style,
+  ...rest
+}) {
+  const list = Array.isArray(parts) ? parts.filter(Boolean) : text(parts != null ? parts : children).split(SPLIT).filter(Boolean);
+  if (!list.length) return null;
+  return React.createElement(as, {
+    className,
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'baseline',
+      gap,
+      color,
+      margin: 0,
+      maxWidth: 'none',
+      ...style
+    },
+    ...rest
+  }, list.map((p, i) => /*#__PURE__*/React.createElement(React.Fragment, {
+    key: i
+  }, i ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: RULE
+  }) : null, /*#__PURE__*/React.createElement("span", null, p))));
+}
+Object.assign(__ds_scope, { MetaLine });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/MetaLine.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/ScrollHold.jsx
+try { (() => {
+/* Semi-sticky: the block is held back against the page for a fixed stretch of
+   scroll, then released to travel normally.
+
+   Not `position: sticky`, which pins absolutely and reads as a fixed panel.
+   Here the block keeps moving — at `1 - hold` of the page's speed — so
+   everything around it (the wordmark shrinking into the header, the film band
+   letting go) moves past it while it stays roughly where it is. Once
+   `distance` of scroll has passed, the lag stops growing and the block carries
+   on at page speed with a constant offset, so nothing has to be undone.
+
+   The transform takes no space, so the lag lets whatever follows ride up into
+   the held block by up to `distance * hold`. Normally the next section's own
+   top spacing absorbs that — on the landing page `--chapter-gap` is wider than
+   the lag. `reserve` adds the maximum lag as bottom margin for the cases where
+   it does not, at the cost of that much empty ground at rest.
+
+   Reduced motion: no hold. One per page — two blocks lagging at different
+   rates reads as a broken page rather than as depth.
+
+   The hold begins when the block is fully in view, so the visitor sees it
+   arrive at page speed and only then feels it resist.
+
+   In the SM band the hold is shortened by `smScale`. `distance` is authored
+   against a desktop window, and a viewport unit in a phone-height window is
+   worth far less scroll — the same figure there means the reader pushes for
+   most of a screen before the block lets go, which reads as a stuck page. The
+   resistance is unchanged; it just ends sooner. */
+
+function ScrollHold({
+  hold = 0.5,
+  distance = '45vh',
+  lead = 0,
+  reserve = false,
+  smScale = 0.5,
+  children,
+  style
+}) {
+  const ref = React.useRef(null);
+  const [pad, setPad] = React.useState(0);
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let frame = 0;
+    let start = 0;
+    let d = 0;
+    let last = -1;
+    const px = v => {
+      const m = String(v).trim();
+      const n = parseFloat(m) || 0;
+      if (m.endsWith('vh') || m.endsWith('svh') || m.endsWith('dvh')) return n / 100 * window.innerHeight;
+      return n;
+    };
+    /* Geometry is measured only on mount and on resize. Reading offsetTop or
+       offsetHeight inside the scroll handler forces a synchronous layout every
+       frame, against a subtree that is itself being transformed — that is what
+       makes the hold stutter and appear to rubber-band. The maths below is
+       unchanged; only when it reads the DOM is. */
+    const measure = () => {
+      d = px(distance) * (window.innerWidth < 768 ? smScale : 1);
+      /* The hold starts when the block is fully in view, not when it first
+         appears: slowing a block that is still half behind the film band reads
+         as a stuck page rather than as one element resisting the scroll.
+         offsetTop, not a rect — the rect carries the lag transform. */
+      let top = 0;
+      for (let n = el; n; n = n.offsetParent) top += n.offsetTop;
+      start = Math.max(0, top + el.offsetHeight - window.innerHeight - px(lead));
+      if (reserve) setPad(Math.round(d * hold));
+    };
+    const apply = () => {
+      frame = 0;
+      const y = (window.scrollY || window.pageYOffset || 0) - start;
+      const lag = Math.min(Math.max(0, y), d) * hold;
+      /* Write only on change, and always as a translate3d — swapping to
+         `none` at the bottom end retires the layer mid-scroll and shows up as
+         a jump. */
+      if (Math.abs(lag - last) < 0.05) return;
+      last = lag;
+      el.style.transform = 'translate3d(0,' + lag.toFixed(2) + 'px,0)';
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    const onResize = () => {
+      measure();
+      onScroll();
+    };
+    measure();
+    apply();
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onResize);
+    const ro = typeof ResizeObserver === 'function' ? new ResizeObserver(onResize) : null;
+    if (ro) ro.observe(el);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onResize);
+      if (ro) ro.disconnect();
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [hold, distance, lead, reserve, smScale]);
+  return /*#__PURE__*/React.createElement("div", {
+    ref: ref,
+    style: {
+      willChange: 'transform',
+      transform: 'translate3d(0,0,0)',
+      backfaceVisibility: 'hidden',
+      marginBottom: pad ? pad + 'px' : undefined,
+      ...style
+    }
+  }, children);
+}
+Object.assign(__ds_scope, { ScrollHold });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/ScrollHold.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/SheetWipe.jsx
+try { (() => {
+/* The alternative to the dot screen, so the reveal seam has something to be
+   compared against. A sheet with a hairline on its edge, drawn across the box.
+
+   Two behaviours, because covering and arriving are not the same job. Over a
+   picture (`progress`) it is a cover receding: the sheet is paper, it slides
+   off, and the photograph is uncovered. Where there is nothing behind it
+   (`burst`, `loader`, `still` — a field being clicked, text on its way) a
+   paper sheet on paper would be invisible, so it is an ink band travelling
+   instead: the surface is passed over rather than uncovered.
+
+   The hairline lives inside the sheet, so it rides the edge by construction
+   rather than by a second animation kept in step. */
+
+const COVER = {
+  progress: true
+};
+function SheetWipe({
+  mode = 'burst',
+  origin,
+  playKey = 0,
+  running = true,
+  level = 0.6,
+  progress = 0,
+  duration = 1100,
+  intensity = 1,
+  tone = 'ink',
+  className = '',
+  style
+}) {
+  const wrapRef = React.useRef(null);
+  const sheetRef = React.useRef(null);
+  const hairRef = React.useRef(null);
+  const rafRef = React.useRef(0);
+  const cover = !!COVER[mode];
+
+  /* Percentages on a 1px rule resolve against the rule, not the box: every
+     offset here is in pixels off the measured width.
+      The hairline's side is a function of travel, not a constant. A cover moving
+     right reveals with its LEFT edge; moving back, with its right. A band is
+     the opposite: what leads is the far edge. Hard-coding one side puts the rule
+     outside the clip in half the cases. */
+  const put = React.useCallback(t => {
+    const wrap = wrapRef.current,
+      sheet = sheetRef.current,
+      hair = hairRef.current;
+    if (!wrap || !sheet) return;
+    const w = wrap.clientWidth || 1;
+    const clamped = Math.max(0, Math.min(1, t));
+    const back = origin ? origin.x > w * 0.6 : false;
+    if (hair) {
+      const side = cover ? back ? 'right' : 'left' : back ? 'left' : 'right';
+      hair.style.left = side === 'left' ? '0' : 'auto';
+      hair.style.right = side === 'right' ? '0' : 'auto';
+    }
+    if (cover) {
+      sheet.style.transform = 'translateX(' + (back ? -clamped * w : clamped * w) + 'px)';
+      sheet.style.opacity = '1';
+      return;
+    }
+    const band = w * 0.55;
+    const from = back ? w : -band;
+    const to = back ? -band : w;
+    sheet.style.transform = 'translateX(' + (from + (to - from) * clamped) + 'px)';
+    sheet.style.opacity = String(Math.min(1, intensity) * (clamped <= 0.001 || clamped >= 0.999 ? 0 : 1));
+  }, [cover, origin, intensity]);
+  React.useEffect(() => {
+    if (mode !== 'burst') return;
+    if (!playKey) {
+      put(0);
+      return;
+    }
+    const t0 = performance.now();
+    const step = now => {
+      const t = Math.min(1, (now - t0) / duration);
+      put(t);
+      if (t < 1) rafRef.current = requestAnimationFrame(step);
+    };
+    put(0);
+    rafRef.current = requestAnimationFrame(step);
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = 0;
+    };
+  }, [mode, playKey, duration, put]);
+  React.useEffect(() => {
+    if (mode !== 'loader' || !running) return;
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced) {
+      put(0.5);
+      return;
+    }
+    const t0 = performance.now();
+    const period = duration * 1.7;
+    const step = now => {
+      put((now - t0) % period / period);
+      rafRef.current = requestAnimationFrame(step);
+    };
+    rafRef.current = requestAnimationFrame(step);
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = 0;
+    };
+  }, [mode, running, duration, put]);
+  React.useEffect(() => {
+    if (mode === 'still') put(level);
+  }, [mode, level, put]);
+  React.useEffect(() => {
+    if (mode === 'progress') put(progress);
+  }, [mode, progress, put]);
+  const paper = tone === 'paper' ? 'var(--ink)' : 'var(--paper)';
+  const hair = tone === 'paper' ? 'var(--paper)' : 'var(--ink)';
+  const wash = tone === 'paper' ? 'linear-gradient(90deg, transparent, color-mix(in srgb, var(--paper) 26%, transparent) 55%, transparent)' : 'linear-gradient(90deg, transparent, color-mix(in srgb, var(--ink) 26%, transparent) 55%, transparent)';
+  return /*#__PURE__*/React.createElement("div", {
+    ref: wrapRef,
+    "aria-hidden": "true",
+    className: className,
+    style: {
+      position: 'absolute',
+      inset: 0,
+      overflow: 'hidden',
+      pointerEvents: 'none',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: sheetRef,
+    style: {
+      position: 'absolute',
+      top: 0,
+      bottom: 0,
+      left: 0,
+      width: cover ? '100%' : '55%',
+      background: cover ? paper : wash,
+      opacity: cover ? 1 : 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    ref: hairRef,
+    style: {
+      position: 'absolute',
+      top: 0,
+      bottom: 0,
+      width: 1,
+      background: hair
+    }
+  })));
+}
+Object.assign(__ds_scope, { SheetWipe });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/SheetWipe.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/Tabs.jsx
+try { (() => {
+/* The system's tab control: text, a hairline under the whole row, and one ink
+   underline that slides.
+
+   The underline is the only moving part and it follows intent, not selection —
+   point at a tab and it travels there before you have clicked, so the control
+   answers the pointer. Leave the row and it returns to what is actually
+   selected. Nothing else changes: no fills, no pills, no borders around a tab,
+   no icons, no counts.
+
+   Measured rather than declared: the underline reads the tab's own box, so it
+   is exactly as wide as the word, whatever the label or the breakpoint. */
+
+function Tabs({
+  tabs = [],
+  value,
+  onChange,
+  /* Accessible name for the row — what the tabs switch between. */
+  label = '',
+  style
+}) {
+  const wrapRef = React.useRef(null);
+  const refs = React.useRef({});
+  const [hover, setHover] = React.useState(null);
+  const [bar, setBar] = React.useState({
+    left: 0,
+    width: 0,
+    ready: false
+  });
+  const shown = hover != null ? hover : value;
+  React.useEffect(() => {
+    const measure = () => {
+      const wrap = wrapRef.current;
+      const el = refs.current[shown];
+      if (!wrap || !el) return;
+      const w = wrap.getBoundingClientRect();
+      const t = el.getBoundingClientRect();
+      setBar({
+        left: t.left - w.left,
+        width: t.width,
+        ready: true
+      });
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure).catch(() => {});
+    return () => window.removeEventListener('resize', measure);
+  }, [shown, tabs.length]);
+  const onKeyDown = e => {
+    const i = tabs.findIndex(t => t.id === value);
+    if (i < 0) return;
+    let n = null;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') n = Math.min(tabs.length - 1, i + 1);else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') n = Math.max(0, i - 1);else if (e.key === 'Home') n = 0;else if (e.key === 'End') n = tabs.length - 1;
+    if (n == null) return;
+    e.preventDefault();
+    const next = tabs[n];
+    if (onChange) onChange(next.id);
+    const el = refs.current[next.id];
+    if (el) el.focus({
+      preventScroll: true
+    });
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    ref: wrapRef,
+    role: "tablist",
+    "aria-label": label || undefined,
+    onKeyDown: onKeyDown,
+    onMouseLeave: () => setHover(null),
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'flex-end',
+      gap: 'var(--space-3)',
+      borderBottom: '1px solid var(--rule-hairline)',
+      paddingBottom: 'var(--space-1)',
+      ...style
+    }
+  }, tabs.map(t => {
+    const active = t.id === value;
+    return /*#__PURE__*/React.createElement("button", {
+      key: t.id,
+      ref: el => {
+        refs.current[t.id] = el;
+      },
+      type: "button",
+      role: "tab",
+      "aria-selected": active,
+      tabIndex: active ? 0 : -1,
+      onClick: () => onChange && onChange(t.id),
+      onMouseEnter: () => setHover(t.id),
+      onFocus: () => setHover(t.id),
+      onBlur: () => setHover(null),
+      className: "target",
+      style: {
+        appearance: 'none',
+        background: 'none',
+        border: 0,
+        padding: 0,
+        cursor: 'pointer',
+        fontFamily: 'var(--font-text)',
+        fontSize: 'var(--text-small)',
+        lineHeight: 'var(--lh-small)',
+        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
+        transition: 'color var(--dur-micro) var(--ease-quart)'
+      }
+    }, t.label);
+  }), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      bottom: -1,
+      left: bar.left,
+      width: bar.width,
+      height: 1,
+      background: 'var(--underline-active)',
+      pointerEvents: 'none',
+      opacity: bar.ready ? 1 : 0,
+      transition: 'left var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart)'
+    }
+  }));
+}
+Object.assign(__ds_scope, { Tabs });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Tabs.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/Record.jsx
+try { (() => {
+/* The proof block: one line is one job somebody hired us to do.
+   ~120 identical lines, grouped by year, and a readout bar that reads out the
+   line under the cursor. Three things are load-bearing and must not be
+   "improved": the readout bar sticks, its columns never move, and no row links
+   anywhere. Length encodes nothing — every line is the same length, so the
+   only quantity the graphic states is the height of a year block. */
+
+const CELL = {
+  minWidth: 0,
+  whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)'
+};
+/* Reserved in rem, not em: an em box scales with each cell's own font-size and
+   the baselines drift. */
+const KEY_CELL = {
+  ...CELL,
+  height: '1rem',
+  lineHeight: '1rem',
+  color: 'var(--text-secondary)'
+};
+const VAL_CELL = {
+  ...CELL,
+  height: '1.375rem',
+  lineHeight: '1.375rem',
+  color: 'var(--text-primary)',
+  fontWeight: 'var(--weight-medium)'
+};
+/* The discipline list is read in full, so it wraps like ordinary text. Two
+   lines are reserved, which is what most entries need. */
+const DISC_CELL = {
+  ...VAL_CELL,
+  whiteSpace: 'normal',
+  overflow: 'visible',
+  textOverflow: 'clip',
+  height: 'auto',
+  minHeight: '2.75rem'
+};
+
+/* TEST: term-list row. A button that has to read as a line of the record's
+   own text, so everything a button brings is taken back off. */
+const TERM_BTN = {
+  appearance: 'none',
+  background: 'none',
+  border: 0,
+  padding: 0,
+  margin: 0,
+  width: '100%',
+  textAlign: 'left',
+  cursor: 'pointer',
+  font: 'inherit',
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)',
+  lineHeight: 1.3
+};
+const PITCH = 18; /* row box, fixed — hover must not reflow the field */
+/* The filtered view labels every match, and a label is a 21px box, so that
+   view runs on a taller row. The field gets longer; every title gets read. */
+const PITCH_FILTERED = 26;
+const BAR = 1; /* the line */
+const BAR_ACTIVE = 2; /* the line under the cursor */
+const FAN = 10; /* air the cursor row opens above and below itself */
+/* Vertical reading: short upright ticks on a fixed pitch. */
+const V_PITCH = 7;
+const V_PITCH_OPEN = 12; /* the group under the cursor opens up to this */
+const V_PITCH_REST = 4; /* every other group closes to this while one is open */
+const V_PROX = 10; /* extra pitch at the cursor, falling off with distance */
+const V_PROX_R = 6; /* how many lines either side the swell reaches */
+/* While a case is pinned the field is one close control, and says so. */
+const CLOSE_CURSOR = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' stroke='%23103a1c' stroke-width='1.5'/%3E%3C/svg%3E\") 12 12, pointer";
+const V_HEIGHT = 36;
+const V_LIFT = 8; /* the tick under the cursor stands this much taller */
+
+/* Two readings of the same field. The first is the whole record; the second
+   emphasises what the visitor's own dialogue touches. Neither fetches,
+   reorders or removes a row. */
+const VIEWS = ['Allt', 'Intressanta för dig'];
+function Record({
+  entries = [],
+  /* What the finder derived from the dialogue: { text, areas, sectors }.
+     Absent or empty and the second view shows its own prompt instead. */
+  dialogue = null,
+  index = '',
+  title = 'Uppdragsregistret',
+  premise = 'Varje rad är ett uppdrag någon har anlitat oss för. Registret börjar 2022 och innehåller allt vi har tagit sedan dess.',
+  secondLine = '',
+  lead = '',
+  readingRule = '',
+  closingLine = 'Registret visar de senaste uppdragen. Hela beståndet är sökbart.',
+  actionLabel = 'Sök i registret',
+  closeLabel = 'Stäng',
+  actionHref = '#',
+  viewLabels = VIEWS,
+  allLine = 'Varje uppdrag vi har tagit sedan 2022.',
+  /* {n} and {total} are filled in. The denominator carries it: a bare count
+     leaves the word "intressanta" standing for nothing. */
+  relevanceLine = '{n} av {total} rör det du frågade om.',
+  emptyBody = 'Den här vyn filtrerar registret på det du har berättat för oss.',
+  emptyLinkLabel = 'Berätta vad du står i, så visar jag vad som rör det',
+  finderHref = '#',
+  /* Warm state: the visitor gets to see what the filter is actually reading,
+     and to take it back. Never a mystery filter. */
+  filterLabel = 'Filtrerat på',
+  resetLabel = 'Nollställ',
+  /* The starred tab says the view is a subset; this says who made it one. It
+     sits with the reset control, so the explanation and the way out of the
+     filtering are read together. */
+  filterNote = '* Urvalet kommer från ditt samtal med AI:n.',
+  askAgainLabel = 'Prata med AI:n igen',
+  /* The register as a page of its own. Opt-in: no label, no link. */
+  allLabel = '',
+  allHref,
+  /* Handed the conversation opener: the empty state's link opens the finder
+     right here rather than sending the visitor back up the page. */
+  onAsk,
+  /* Clears the derived dialogue. Without it the reset control is left out. */
+  onReset,
+  /* Which view the block opens on. 1 is for demoing the warm state — a real
+     page opens on the whole record. */
+  initialView = 0,
+  /* Optionally controlled, so a page (or the demo console) can put the block
+     in either view. Left out, the tabs own it. */
+  view: viewProp,
+  onViewChange,
+  /* TEST (reversible): term lists in the side column that act as a filter on
+     the whole record. Off by default — drop the prop and the block is exactly
+     what it was. Only ever applies to the first view; the AI-derived second
+     view is untouched. */
+  termFilter = false,
+  termCount = 10,
+  workHeading = 'Filtrera på uppdragstyp',
+  discHeading = 'Filtrera på disciplin',
+  termLine = '{n} av {total} uppdrag är {term}.',
+  termResetLabel = 'Visa alla',
+  termToggleLabel = 'Filtrera',
+  orientation = 'horizontal',
+  /* Vertical reading: the pinned case's way on to the full write-up. */
+  readMoreLabel = 'Läs hela uppdraget',
+  /* Listing: the rows are written out as client names instead of lines, the
+     hovered one folds out its title and preamble, and the pointer becomes
+     this label. Horizontal only. */
+  listing = false,
+  /* Opens with no top air, for when a PageBanner above already carries it. */
+  flushTop = false,
+  openLabel = 'Läs uppdraget',
+  yearHeading = 'Filtrera på år',
+  areasLabel = 'Rättsområden',
+  teamLabel = 'Team',
+  id,
+  style
+}) {
+  const [viewState, setViewState] = React.useState(initialView);
+  const view = viewProp == null ? viewState : viewProp;
+  const setView = v => {
+    setViewState(v);
+    if (onViewChange) onViewChange(v);
+  };
+  const [cursor, setCursor] = React.useState(0);
+  const [printed, setPrinted] = React.useState(false);
+  /* Nothing is lit until the visitor actually points: the default cursor row
+     must not read as a match. */
+  const [touched, setTouched] = React.useState(false);
+  const [scan, setScan] = React.useState(-1);
+  /* { kind: 'work' | 'disc', v } — one term at a time, across both lists. A
+     second click on the lit term takes the filter back off. */
+  const [term, setTerm] = React.useState(null);
+  /* Same as the listings: the filters live behind the mark, and the label
+     comes out on approach. */
+  const [termsOpen, setTermsOpen] = React.useState(false);
+  const [termsWarm, setTermsWarm] = React.useState(false);
+  /* One flag per term list: is there anything below the cut? The fade is only
+     drawn when the answer is yes, so a short list is not faded for nothing. */
+  const scrollRefs = React.useRef([]);
+  const [fade, setFade] = React.useState([false, false]);
+  const sectionRef = React.useRef(null);
+  const rowRefs = React.useRef([]);
+  const fieldRef = React.useRef(null);
+  const ptr = React.useRef(null);
+  const reduced = React.useRef(false);
+  /* Without a pointer there is no hover, so the field reads itself: the row
+     passing through the lower middle of the viewport is the one that turns
+     into text. */
+  const [touch, setTouch] = React.useState(false);
+  /* The filter panel shows its scrollbar only while it is being scrolled. */
+  const termsListRef = React.useRef(null);
+  React.useEffect(() => {
+    const el = termsListRef.current;
+    if (!el) return;
+    let t = 0;
+    /* data-more while anything is below the cut: the panel fades out at
+       its foot then, and only then. */
+    const edge = () => {
+      if (el.scrollHeight - el.scrollTop - el.clientHeight > 4) el.setAttribute('data-more', '');else el.removeAttribute('data-more');
+    };
+    const onScroll = () => {
+      edge();
+      el.setAttribute('data-scrolling', '');
+      window.clearTimeout(t);
+      t = window.setTimeout(() => el.removeAttribute('data-scrolling'), 900);
+    };
+    edge();
+    const ro = new ResizeObserver(edge);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => {
+      ro.disconnect();
+      el.removeEventListener('scroll', onScroll);
+      window.clearTimeout(t);
+    };
+  });
+  const pointerRef = React.useRef(null);
+  /* Listing row: the client written out; the hovered row folds out its title
+     and preamble. The whole row is the link into the case. */
+  const [expanded, setExpanded] = React.useState(null);
+  /* On an open row the client line closes it; the rest leads into the case. */
+  const [overHead, setOverHead] = React.useState(false);
+  /* The stuck year sits on the header wordmark's bottom edge: measured, so it
+     holds whatever size the header has at this viewport. */
+  const [yearTop, setYearTop] = React.useState(22);
+  React.useEffect(() => {
+    if (!listing) return undefined;
+    const measure = () => {
+      const logo = document.querySelector('header img[alt="Vinge"]') || document.querySelector('[data-fixed-chrome] img[alt="Vinge"]') || document.querySelector('img[alt="Vinge"]');
+      const f = fieldRef.current;
+      const probe = f && f.querySelector('[data-year-baseline]');
+      if (!logo || !probe) return;
+      const box = probe.parentElement.parentElement.parentElement;
+      const base = probe.getBoundingClientRect().bottom - box.getBoundingClientRect().top;
+      const next = Math.max(0, Math.round(logo.getBoundingClientRect().bottom - base));
+      setYearTop(p => p === next ? p : next);
+    };
+    measure();
+    const t = window.setTimeout(measure, 600);
+    window.addEventListener('resize', measure);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+    return () => {
+      window.clearTimeout(t);
+      window.removeEventListener('resize', measure);
+    };
+  }, [listing]);
+  /* Scrolling moves the rows under a still pointer without any mouse event, so
+     the pointer and the row it reads are re-solved from its last position. */
+  const listPtr = React.useRef(null);
+  React.useEffect(() => {
+    if (!listing || touch) return undefined;
+    let frame = 0;
+    const apply = () => {
+      frame = 0;
+      const p = listPtr.current;
+      const f = fieldRef.current;
+      if (!p || !f) return;
+      const b = f.getBoundingClientRect();
+      const inside = p.x >= b.left && p.x <= b.right && p.y >= b.top && p.y <= b.bottom;
+      if (!inside) {
+        setTouched(false);
+        return;
+      }
+      const hit = document.elementFromPoint(p.x, p.y);
+      const row = hit && hit.closest ? hit.closest('[data-row-i]') : null;
+      if (row) {
+        setCursor(Number(row.getAttribute('data-row-i')));
+        setTouched(true);
+        setOverHead(!!hit.closest('[data-row-head]'));
+      }
+    };
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(apply);
+    };
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [listing, touch]);
+  const renderListRow = (e, on, rowShut, rowOpacity) => {
+    const open = expanded === e.i;
+    return /*#__PURE__*/React.createElement("div", {
+      key: e.i,
+      style: {
+        display: 'grid',
+        gridTemplateRows: rowShut ? '0fr' : '1fr',
+        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("a", {
+      ref: el => {
+        rowRefs.current[e.i] = el;
+      },
+      href: e.href || '#',
+      tabIndex: rowShut ? -1 : 0,
+      "aria-label": [e.client, e.title].filter(Boolean).join(': '),
+      "aria-expanded": open,
+      "data-row-i": e.i,
+      onMouseEnter: () => {
+        setCursor(e.i);
+        setTouched(true);
+      },
+      onFocus: () => {
+        setCursor(e.i);
+        setTouched(true);
+      },
+      onClick: ev => {
+        if (!open) {
+          ev.preventDefault();
+          setExpanded(e.i);
+          return;
+        }
+        if (ev.target.closest && ev.target.closest('[data-row-head]')) {
+          ev.preventDefault();
+          setExpanded(null);
+        }
+      },
+      style: {
+        display: 'block',
+        overflow: 'hidden',
+        minHeight: 0,
+        color: 'inherit',
+        textDecoration: 'none',
+        outline: 'none',
+        borderBottom: rowShut ? 0 : '1px solid var(--rule-hairline)',
+        paddingBlock: rowShut ? 0 : on ? 'calc(var(--space-1) + var(--space-0))' : 'var(--space-1)',
+        cursor: touch || !open ? 'pointer' : 'none',
+        opacity: rowOpacity,
+        transition: 'opacity var(--dur-fast) var(--ease-quart), padding-block var(--dur-slow) var(--ease-expo)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "data-row-head": "",
+      className: "small",
+      onMouseEnter: () => setOverHead(true),
+      onMouseLeave: () => setOverHead(false),
+      style: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: 'var(--space-3)',
+        maxWidth: 'none',
+        cursor: 'pointer',
+        color: on || open ? 'var(--text-primary)' : 'var(--text-secondary)',
+        transition: 'color var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("span", null, e.client), /*#__PURE__*/React.createElement("svg", {
+      width: "12",
+      height: "12",
+      viewBox: "0 0 12 12",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1",
+      "aria-hidden": "true",
+      style: {
+        flex: '0 0 auto',
+        color: 'var(--ink)',
+        opacity: on && (!open || overHead) ? 1 : 0,
+        transition: 'opacity var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("path", {
+      d: "M0 6h12"
+    }), open ? null : /*#__PURE__*/React.createElement("path", {
+      d: "M6 0v12"
+    }))), /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: open ? '1fr' : '0fr',
+        transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'block',
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-0)',
+        maxWidth: '44rem',
+        paddingBlock: 'var(--space-4)'
+      }
+    }, e.title ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        maxWidth: 'none',
+        color: 'var(--ink)',
+        textWrap: 'pretty'
+      }
+    }, e.title) : null, e.preamble ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-secondary)'
+      }
+    }, e.preamble) : null, (e.disciplines || []).length ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        marginBlockStart: 'calc(var(--space-4) - var(--space-0))',
+        color: 'var(--text-secondary)'
+      }
+    }, e.disciplines.join(', ')) : null)))));
+  };
+  const vertical = orientation === 'vertical';
+  /* A clicked line pins its case open below the field. While pinned the field
+     stops reading the pointer: the next click anywhere on it closes the case. */
+  const [pinned, setPinnedState] = React.useState(null);
+  const pinnedRef = React.useRef(null);
+  const caseRef = React.useRef(null);
+  const bodyRef = React.useRef(null);
+  const [bodyCut, setBodyCut] = React.useState(false);
+  React.useLayoutEffect(() => {
+    const el = bodyRef.current;
+    const next = !!el && el.scrollHeight - el.clientHeight > 4;
+    setBodyCut(p => p === next ? p : next);
+  });
+  const setPinned = v => {
+    pinnedRef.current = v;
+    setPinnedState(v);
+  };
+  const pin = i => {
+    setPinned(i);
+    setCursor(i);
+    setTouched(true);
+    /* A light anchor: the field is brought up under the header so the case
+       opening beneath it lands in view, with the pinned line still above. */
+    window.setTimeout(() => {
+      const f = fieldRef.current;
+      if (!f) return;
+      const top = f.getBoundingClientRect().top + window.scrollY - 112;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: reduced.current ? 'auto' : 'smooth'
+      });
+    }, 60);
+  };
+  const unpin = () => setPinned(null);
+  /* Vertical: the row of groups never wraps. Its width is measured, and every
+     tick's pitch is solved against it, so a swell in one place is paid for by
+     compression everywhere else instead of pushing a group onto a new row. */
+  const [fieldBox, setFieldBox] = React.useState({
+    w: 0,
+    gap: 0
+  });
+  React.useEffect(() => {
+    if (!vertical) return;
+    const el = fieldRef.current;
+    if (!el) return;
+    const read = () => {
+      const w = el.clientWidth;
+      const gap = parseFloat(getComputedStyle(el).columnGap) || 0;
+      setFieldBox(p => p.w === w && p.gap === gap ? p : {
+        w,
+        gap
+      });
+    };
+    read();
+    const ro = new ResizeObserver(read);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [vertical]);
+  /* The trailing title: moved by direct style writes, not state, so following
+     the pointer never re-renders 120 rows. */
+  const tipRef = React.useRef(null);
+  const tipPos = React.useRef({
+    x: 0,
+    y: 0,
+    tx: 0,
+    ty: 0,
+    live: false,
+    frame: 0
+  });
+  const tipTo = (x, y, snap) => {
+    const p = tipPos.current;
+    p.tx = x;
+    p.ty = y;
+    if (snap || !p.live || reduced.current) {
+      p.x = x;
+      p.y = y;
+      p.live = true;
+    }
+    const step = () => {
+      p.frame = 0;
+      p.x += (p.tx - p.x) * 0.14;
+      p.y += (p.ty - p.y) * 0.14;
+      const el = tipRef.current;
+      if (el) el.style.transform = 'translate3d(' + p.x.toFixed(1) + 'px,' + p.y.toFixed(1) + 'px,0)';
+      if (Math.abs(p.tx - p.x) > 0.3 || Math.abs(p.ty - p.y) > 0.3) p.frame = requestAnimationFrame(step);
+    };
+    if (!p.frame) p.frame = requestAnimationFrame(step);
+  };
+  React.useEffect(() => () => {
+    if (tipPos.current.frame) cancelAnimationFrame(tipPos.current.frame);
+  }, []);
+  React.useEffect(() => {
+    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    /* Narrow viewports get the scroll reading too, not just touch devices —
+       a phone-width window in a desktop browser is the same layout. */
+    const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
+    const sync = () => setTouch(mq.matches);
+    sync();
+    if (mq.addEventListener) {
+      mq.addEventListener('change', sync);
+      return () => mq.removeEventListener('change', sync);
+    }
+  }, []);
+
+  /* Touch: the focal band sits at 62% of the viewport, low enough that the row
+     being read is not under the thumb. The nearest row to it is the cursor. */
+  React.useEffect(() => {
+    if (!touch || vertical || listing) return;
+    let frame = 0;
+    const apply = () => {
+      frame = 0;
+      const focal = window.innerHeight * 0.62;
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > window.innerHeight) return;
+        const d = Math.abs(r.top + r.height / 2 - focal);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    apply();
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [touch, vertical]);
+
+  /* A browser only recomputes hover when the pointer moves, so scrolling with
+     a still cursor over the field would leave the reading on whatever row it
+     entered on — or on none at all. The pointer position is kept and the row
+     under it is resolved again on every scroll, so passing the field always
+     reads a line. */
+  React.useEffect(() => {
+    if (touch) return;
+    let frame = 0;
+    const onMove = ev => {
+      ptr.current = {
+        x: ev.clientX,
+        y: ev.clientY
+      };
+    };
+    const apply = () => {
+      frame = 0;
+      const p = ptr.current;
+      const box = fieldRef.current;
+      if (!p || !box || pinnedRef.current != null) return;
+      const b = box.getBoundingClientRect();
+      if (p.x < b.left || p.x > b.right || p.y < b.top || p.y > b.bottom) {
+        if (!box.contains(document.activeElement)) setTouched(false);
+        return;
+      }
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (vertical && !r.width) return;
+        if (listing) {
+          if (p.y >= r.top && p.y <= r.bottom) {
+            best = i;
+            bestD = 0;
+          }
+          return;
+        }
+        const d = vertical ? Math.hypot(r.left + r.width / 2 - p.x, (r.top + r.height / 2 - p.y) * 3) : Math.abs(r.top + r.height / 2 - p.y);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+      if (vertical) tipTo(p.x - b.left, p.y - b.top);
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    window.addEventListener('pointermove', onMove, {
+      passive: true
+    });
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [touch, vertical]);
+
+  /* Listing: grouped by month within the year when the entries carry one. */
+  const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+  const blocks = React.useMemo(() => {
+    const out = [];
+    let n = 0;
+    entries.forEach(e => {
+      const byMonth = listing && e.month;
+      const key = byMonth ? e.year + '-' + e.month : String(e.year);
+      let b = out[out.length - 1];
+      if (!b || b.key !== key) {
+        const m = byMonth ? MONTHS[e.month - 1] : '';
+        b = {
+          key,
+          year: e.year,
+          label: m ? m.charAt(0).toUpperCase() + m.slice(1) : listing ? '' : String(e.year),
+          rows: []
+        };
+        out.push(b);
+      }
+      b.rows.push({
+        ...e,
+        i: n++
+      });
+    });
+    return out;
+  }, [entries, listing]);
+  const yearGroups = React.useMemo(() => {
+    if (!listing) return [{
+      year: 'all',
+      blocks
+    }];
+    const out = [];
+    blocks.forEach(b => {
+      let g = out[out.length - 1];
+      if (!g || g.year !== b.year) {
+        g = {
+          year: b.year,
+          blocks: []
+        };
+        out.push(g);
+      }
+      g.blocks.push(b);
+    });
+    return out;
+  }, [blocks, listing]);
+
+  /* Relevance, as the brief defines it: the lead discipline is one the finder
+     matched, or the sector is. Loose on purpose — a row that touches the
+     question at all belongs in the subset. */
+  const hasDialogue = !!(dialogue && ((dialogue.areas || []).length || (dialogue.sectors || []).length));
+  const lit = React.useMemo(() => {
+    if (!hasDialogue) return [];
+    const areas = new Set(dialogue.areas || []);
+    const sectors = new Set(dialogue.sectors || []);
+    const hit = [];
+    entries.forEach((e, i) => {
+      const lead = (e.disciplines || [])[0];
+      if (areas.has(lead) || sectors.has(e.sector)) hit.push(i);
+    });
+    return hit;
+  }, [entries, dialogue, hasDialogue]);
+  const litSet = React.useMemo(() => new Set(lit), [lit]);
+
+  /* The lists are read off the record itself rather than declared, so they
+     cannot name a term the field does not contain. Most-used first, ties by
+     name so the order is stable across loads. */
+  const termLists = React.useMemo(() => {
+    if (!termFilter) return {
+      work: [],
+      disc: []
+    };
+    const tally = get => {
+      const m = new Map();
+      entries.forEach(e => get(e).forEach(v => {
+        if (v) m.set(v, (m.get(v) || 0) + 1);
+      }));
+      return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv')).slice(0, termCount).map(([v, n]) => ({
+        v,
+        n
+      }));
+    };
+    return {
+      year: listing ? [...new Set(entries.map(e => e.year))].sort((a, b) => b - a).map(y => ({
+        v: String(y),
+        n: entries.filter(e => e.year === y).length
+      })) : [],
+      work: tally(e => [e.work]),
+      disc: tally(e => e.disciplines || [])
+    };
+  }, [entries, termFilter, termCount]);
+
+  /* The term filter belongs to the whole record, so it lives in the first
+     view only — the second one already has a filter and two would fight. */
+  const termOn = termFilter && view === 0 && !!term;
+  const termSet = React.useMemo(() => {
+    if (!termOn) return new Set();
+    const hit = new Set();
+    entries.forEach((e, i) => {
+      const match = term.kind === 'year' ? String(e.year) === term.v : term.kind === 'work' ? e.work === term.v : (e.disciplines || []).indexOf(term.v) >= 0;
+      if (match) hit.add(i);
+    });
+    return hit;
+  }, [entries, term, termOn]);
+  React.useEffect(() => {
+    const els = scrollRefs.current.filter(Boolean);
+    if (!els.length) return;
+    const check = () => {
+      const next = els.map(el => el.scrollHeight - el.scrollTop - el.clientHeight > 4);
+      setFade(prev => prev.length === next.length && prev.every((v, i) => v === next[i]) ? prev : next);
+    };
+    check();
+    const ro = new ResizeObserver(check);
+    els.forEach(el => {
+      ro.observe(el);
+      el.addEventListener('scroll', check, {
+        passive: true
+      });
+    });
+    window.addEventListener('resize', check);
+    return () => {
+      ro.disconnect();
+      els.forEach(el => el.removeEventListener('scroll', check));
+      window.removeEventListener('resize', check);
+    };
+  }, [termsOpen, termLists]);
+
+  /* The record prints once, on entry — never again on scroll-back. */
+  React.useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || printed) return;
+    /* Threshold 0, not a fraction: the field is several viewports tall, so the
+       ratio of the section that can ever be on screen at once is smaller than
+       any fraction worth naming and the record would never print. The margin
+       is what delays the print until the block is properly entered. */
+    const io = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) {
+        setPrinted(true);
+        io.disconnect();
+      }
+    }, {
+      threshold: 0,
+      rootMargin: '-12% 0px'
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [printed]);
+
+  /* The filter reads as one hairline sweep down the field. */
+  React.useEffect(() => {
+    if (view !== 1 || !hasDialogue || reduced.current) {
+      setScan(-1);
+      return;
+    }
+    setScan(0);
+    const a = requestAnimationFrame(() => setScan(1));
+    const b = window.setTimeout(() => setScan(-1), 1300);
+    return () => {
+      cancelAnimationFrame(a);
+      window.clearTimeout(b);
+    };
+  }, [view, hasDialogue, lit]);
+  const move = d => {
+    setTouched(true);
+    const n = Math.min(entries.length - 1, Math.max(0, cursor + d));
+    setCursor(n);
+    const el = rowRefs.current[n];
+    if (el) el.focus({
+      preventScroll: true
+    });
+    if (vertical && el && fieldRef.current) {
+      const r = el.getBoundingClientRect();
+      const b = fieldRef.current.getBoundingClientRect();
+      tipTo(r.left + r.width / 2 - b.left, r.top - b.top);
+    }
+  };
+  const onKeyDown = e => {
+    if (vertical && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      if (pinned != null) unpin();else pin(cursor);
+      return;
+    }
+    if (vertical && e.key === 'Escape' && pinned != null) {
+      e.preventDefault();
+      unpin();
+      return;
+    }
+    if (vertical && pinned != null) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      move(1);
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      move(-1);
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      move(-entries.length);
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      move(entries.length);
+    }
+  };
+  const label = e => [e.year, e.client, e.sector, e.work, (e.disciplines || []).join(', ')].join(', ');
+  /* The bar is initialised with a real row, so the first hover cannot resize it. */
+  const current = entries[cursor] || entries[0];
+  const disc = current ? current.disciplines || [] : [];
+  /* Discipline cell: both readings ship, and CSS picks one — the full
+     comma-separated list in the desktop side column, the abbreviated form in
+     the panel that sits over the field on a small screen. */
+  const discCell = current && disc.length ? React.createElement(React.Fragment, null, React.createElement('span', {
+    'data-disc-full': ''
+  }, disc.join(', ')), React.createElement('span', {
+    'data-disc-short': ''
+  }, disc.length > 1 ? disc[0] + ' +' + (disc.length - 1) : disc[0])) : '';
+  /* The second view emphasises; the first is untouched. */
+  const relevant = view === 1 && hasDialogue;
+  /* Every line ends up as text on a narrow viewport, so that reading runs on
+     the taller row throughout. */
+  const pitch = touch || view === 1 || termOn ? PITCH_FILTERED : PITCH;
+  const terms = hasDialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
+  const sideLine = view === 1 ? hasDialogue ? relevanceLine.replace('{n}', String(lit.length)).replace('{total}', String(entries.length)) : '—' : termOn ? termLine.replace('{n}', String(termSet.size)).replace('{total}', String(entries.length)).replace('{term}', term.v) : allLine;
+  /* The year heads its block and client and sector are written on the line
+     itself, so the readout carries only what neither says. */
+  /* Until the visitor points at a line there is nothing to read out, and the
+     readout says so rather than standing on an arbitrary row. */
+  const readout = touched && current ? [{
+    k: 'Typ av uppdrag',
+    v: current.work
+  }, {
+    k: 'Discipliner',
+    v: discCell,
+    hint: disc.join(', '),
+    wrap: true
+  }] : [{
+    k: 'Typ av uppdrag',
+    v: '—'
+  }, {
+    k: 'Discipliner',
+    v: '—',
+    wrap: true
+  }];
+
+  /* Desired pitch per visible tick, then one scale factor if the row would
+     overrun the measured width. Resting fields that fit are left as they are. */
+  const vPitch = {};
+  if (vertical) {
+    let sum = 0;
+    let groups = 0;
+    blocks.forEach(b => {
+      const rows = termOn ? b.rows.filter(r => termSet.has(r.i)) : b.rows;
+      if (!rows.length) return;
+      groups += 1;
+      const open = touched && b.rows.some(r => r.i === cursor);
+      rows.forEach(r => {
+        /* Pointing at the field opens the cursor's group, with a swell at the
+           cursor inside it, and closes the rest flat. */
+        const near = open ? Math.max(0, 1 - Math.abs(r.i - cursor) / V_PROX_R) : 0;
+        const w = open ? V_PITCH_OPEN + V_PROX * near * near : touched ? V_PITCH_REST : V_PITCH;
+        vPitch[r.i] = w;
+        sum += w;
+      });
+    });
+    const avail = fieldBox.w - Math.max(0, groups - 1) * fieldBox.gap;
+    if (fieldBox.w && sum > avail && avail > 0) {
+      const k = avail / sum;
+      Object.keys(vPitch).forEach(i => {
+        vPitch[i] *= k;
+      });
+    }
+  }
+  return /*#__PURE__*/React.createElement("section", {
+    id: id,
+    ref: sectionRef,
+    style: {
+      paddingBlock: 'var(--section-gap)',
+      ...(flushTop ? {
+        paddingBlockStart: 0
+      } : null),
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      alignItems: 'start',
+      rowGap: 'var(--space-5)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-record-head": true,
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      ...(index || title || premise || secondLine || allLabel ? null : {
+        marginBlockEnd: 'calc(-1 * var(--space-5))'
+      })
+    }
+  }, index ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, index) : null, title ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2"
+  }, title) : null, premise ? /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, premise) : null, secondLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: allHref,
+    variant: "secondary",
+    style: {
+      alignSelf: 'start',
+      fontSize: 'var(--text-small)'
+    },
+    onClick: allHref ? undefined : ev => ev.preventDefault()
+  }, allLabel) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-switch": true,
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-2)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
+    label: "Vy",
+    tabs: viewLabels.map((v, i) => ({
+      id: String(i),
+      label: i === 1 && hasDialogue ? v + ' *' : v
+    })),
+    value: String(view),
+    onChange: v => setView(Number(v))
+  }), view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, emptyBody), /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: finderHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: onAsk ? ev => {
+      ev.preventDefault();
+      onAsk();
+    } : undefined
+  }, emptyLinkLabel)) :
+  /*#__PURE__*/
+  /* Count and filter read as one line: what is shown, and what it
+     was filtered on. */
+  /* Proportional figures: the count does not tick, and Circular's
+     tabular digits carry side bearings wide enough to read as broken
+     word spacing inside a sentence. */
+  React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, sideLine, relevant ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', filterLabel, ": ", terms.join(', ')) : null, termOn ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTerm(null),
+    style: {
+      ...TERM_BTN,
+      display: 'inline',
+      width: 'auto',
+      color: 'var(--text-secondary)',
+      textDecoration: 'underline',
+      textUnderlineOffset: '0.2em'
+    }
+  }, termResetLabel)) : null), relevant ? /*#__PURE__*/React.createElement(React.Fragment, null, filterNote ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, filterNote) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3)'
+    }
+  }, onReset ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: "#",
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: ev => {
+      ev.preventDefault();
+      onReset();
+      setView(0);
+    }
+  }, resetLabel) : null, onAsk ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: finderHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: ev => {
+      ev.preventDefault();
+      onAsk();
+    }
+  }, askAgainLabel) : null)) : null), termFilter && view === 0 ? /*#__PURE__*/React.createElement("div", {
+    "data-record-terms": true
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTermsOpen(!termsOpen),
+    onMouseEnter: () => setTermsWarm(true),
+    onMouseLeave: () => setTermsWarm(false),
+    onFocus: () => setTermsWarm(true),
+    onBlur: () => setTermsWarm(false),
+    "aria-expanded": termsOpen ? 'true' : 'false',
+    "aria-label": termToggleLabel,
+    className: "target",
+    style: {
+      gap: 8,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      flex: '0 0 auto',
+      width: 14,
+      height: 14
+    }
+  }, termsOpen ? [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+    key: d,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 'calc(50% - 0.5px)',
+      width: 14,
+      height: 1,
+      background: 'var(--ink)',
+      transform: 'rotate(' + d + 'deg)'
+    }
+  })) : [14, 10, 6].map((w, n) => /*#__PURE__*/React.createElement("span", {
+    key: w,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 2.5 + n * 4,
+      width: w,
+      height: 1,
+      background: termsWarm ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'background var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      whiteSpace: 'nowrap'
+    }
+  }, termToggleLabel), term && !termsOpen ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'block',
+      width: 4,
+      height: 4,
+      borderRadius: '50%',
+      background: 'var(--ink)'
+    }
+  }) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-list": true,
+    ref: termsListRef,
+    "data-open": termsOpen ? '' : undefined,
+    "aria-hidden": termsOpen ? 'false' : 'true'
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-5)'
+    }
+  }, [].concat(listing ? [{
+    h: yearHeading,
+    kind: 'year',
+    list: termLists.year
+  }] : [], [{
+    h: workHeading,
+    kind: 'work',
+    list: termLists.work
+  }, {
+    h: discHeading,
+    kind: 'disc',
+    list: termLists.disc
+  }]).map((g, gi) => /*#__PURE__*/React.createElement("div", {
+    key: g.kind
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...KEY_CELL,
+      marginBlockEnd: 'var(--space-3)'
+    }
+  }, g.h), /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-scroll": "",
+    ref: el => {
+      scrollRefs.current[gi] = el;
+    },
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      maskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none',
+      WebkitMaskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none'
+    }
+  }, g.list.map(t => {
+    const active = !!term && term.kind === g.kind && term.v === t.v;
+    return /*#__PURE__*/React.createElement("button", {
+      key: t.v,
+      type: "button",
+      "aria-pressed": active,
+      onClick: () => setTerm(active ? null : {
+        kind: g.kind,
+        v: t.v
+      }),
+      style: {
+        ...TERM_BTN,
+        display: 'flex',
+        alignItems: 'baseline',
+        gap: 0,
+        paddingBlock: '0.18rem',
+        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
+        fontWeight: active ? 'var(--weight-medium)' : 'var(--weight-book)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        flex: '0 0 auto',
+        alignSelf: 'center',
+        overflow: 'hidden',
+        width: active ? 11 : 0,
+        height: 11,
+        opacity: active ? 1 : 0,
+        marginInlineEnd: active ? 8 : 0,
+        transition: 'width var(--dur-fast) var(--ease-expo), margin-inline-end var(--dur-fast) var(--ease-expo), opacity var(--dur-fast) var(--ease-expo)'
+      }
+    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      style: {
+        position: 'absolute',
+        left: 0,
+        top: 'calc(50% - 0.5px)',
+        width: 11,
+        height: 1,
+        background: 'var(--ink)',
+        transform: 'rotate(' + d + 'deg)'
+      }
+    }))), /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '1 1 auto',
+        minWidth: 0,
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        whiteSpace: 'nowrap'
+      }
+    }, t.v), /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '0 0 auto',
+        marginInlineStart: 'var(--space-2)',
+        paddingInlineEnd: '2px',
+        fontVariantNumeric: 'tabular-nums',
+        opacity: 0.7
+      }
+    }, t.n));
+  })))))))) : null, /*#__PURE__*/React.createElement("div", {
+    "data-record-body": true,
+    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-record-side": true
+  }, /*#__PURE__*/React.createElement("div", {
+    role: "status",
+    "aria-live": "polite",
+    "data-record-readout": true
+  }, readout.map(r => /*#__PURE__*/React.createElement("div", {
+    key: r.k
+  }, /*#__PURE__*/React.createElement("div", {
+    style: KEY_CELL
+  }, r.k), /*#__PURE__*/React.createElement("div", {
+    "data-record-val": r.wrap ? 'wrap' : '',
+    style: r.wrap ? DISC_CELL : VAL_CELL,
+    title: r.hint
+  }, r.v))))), /*#__PURE__*/React.createElement("div", {
+    "data-record-field": true,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)'
+    }
+  }, lead ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, lead) : null, readingRule ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, readingRule) : null, vertical ? /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexWrap: 'nowrap',
+      alignItems: 'flex-start',
+      columnGap: 'var(--space-5)',
+      rowGap: 'var(--space-4)',
+      cursor: pinned != null ? CLOSE_CURSOR : 'default'
+    },
+    onKeyDown: onKeyDown,
+    onClick: ev => {
+      if (pinned != null) {
+        unpin();
+        return;
+      }
+      const t = ev.target.closest && ev.target.closest('[data-tick]');
+      if (t) pin(Number(t.getAttribute('data-tick')));
+    },
+    onMouseMove: ev => {
+      if (pinned != null) return;
+      const b = ev.currentTarget.getBoundingClientRect();
+      tipTo(ev.clientX - b.left, ev.clientY - b.top);
+    },
+    onMouseLeave: ev => {
+      if (pinned != null) return;
+      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
+    }
+  }, blocks.map(b => {
+    const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
+    const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
+    if (termOn && !anyTerm) return null;
+    const groupOpen = touched && b.rows.some(r => r.i === cursor);
+    return /*#__PURE__*/React.createElement("div", {
+      key: b.year,
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)',
+        flex: '0 0 auto',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        whiteSpace: 'nowrap',
+        width: 0,
+        overflow: 'visible',
+        fontVariantNumeric: 'tabular-nums',
+        opacity: view === 1 && !anyLit ? 0.14 : 1,
+        transition: 'opacity var(--dur-fast) var(--ease-quart)'
+      }
+    }, b.year), /*#__PURE__*/React.createElement("div", {
+      style: {
+        display: 'flex',
+        flexWrap: 'nowrap',
+        alignItems: 'flex-end'
+      }
+    }, b.rows.map(e => {
+      const on = cursor === e.i && touched;
+      const matched = relevant && litSet.has(e.i);
+      const hitTerm = termOn && termSet.has(e.i);
+      if (termOn && !hitTerm) return null;
+      const rowOpacity = !printed ? 0 : pinned != null ? e.i === pinned ? 1 : 0.22 : view === 1 ? matched ? 1 : 0.14 : 1;
+      const pitchW = vPitch[e.i] || V_PITCH;
+      return /*#__PURE__*/React.createElement("div", {
+        key: e.i,
+        ref: el => {
+          rowRefs.current[e.i] = el;
+        },
+        "data-tick": e.i,
+        tabIndex: e.i === cursor ? 0 : -1,
+        "aria-label": label(e),
+        "aria-pressed": pinned === e.i ? 'true' : 'false',
+        onMouseEnter: () => {
+          if (pinned != null) return;
+          setCursor(e.i);
+          setTouched(true);
+        },
+        onFocus: () => {
+          if (pinned != null) return;
+          setCursor(e.i);
+          setTouched(true);
+        },
+        style: {
+          position: 'relative',
+          width: pitchW,
+          height: V_HEIGHT + V_LIFT,
+          flex: '0 0 auto',
+          display: 'flex',
+          alignItems: 'flex-end',
+          justifyContent: 'center',
+          cursor: 'inherit',
+          outline: 'none',
+          opacity: rowOpacity,
+          transition: 'opacity var(--dur-medium) var(--ease-quart), width var(--dur-medium) var(--ease-quart)',
+          transitionDelay: printed && !reduced.current ? e.i * 6 + 'ms, 0ms' : '0ms'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          width: on ? BAR_ACTIVE : BAR,
+          height: on ? V_HEIGHT + V_LIFT : V_HEIGHT,
+          background: on || hitTerm || matched ? 'var(--ink)' : 'var(--underline-rest-secondary)',
+          transition: 'height var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)',
+          pointerEvents: 'none'
+        }
+      }));
+    })));
+  }), /*#__PURE__*/React.createElement("div", {
+    ref: tipRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      pointerEvents: 'none',
+      zIndex: 2,
+      willChange: 'transform'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "small",
+    style: {
+      transform: 'translate(14px, calc(-100% - 14px))',
+      whiteSpace: 'nowrap',
+      background: 'var(--paper, var(--ground-page))',
+      paddingBlock: '0.3rem',
+      paddingInline: '0.55rem',
+      color: 'var(--text-primary)',
+      fontWeight: 'var(--weight-medium)',
+      opacity: touched && current && pinned == null ? 1 : 0,
+      transition: 'opacity var(--dur-fast) var(--ease-quart)'
+    }
+  }, current ? current.client : ''))) : /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexDirection: 'column'
+    },
+    onKeyDown: onKeyDown,
+    onMouseMove: listing ? ev => {
+      listPtr.current = {
+        x: ev.clientX,
+        y: ev.clientY
+      };
+      const el = pointerRef.current;
+      if (!el) return;
+      el.style.transform = 'translate3d(' + ev.clientX + 'px,' + ev.clientY + 'px,0)';
+    } : undefined,
+    onMouseLeave: ev => {
+      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
+    }
+  }, yearGroups.map(yg => {
+    const yearShut = termOn && !yg.blocks.some(b => b.rows.some(r => termSet.has(r.i)));
+    return /*#__PURE__*/React.createElement("div", {
+      key: 'y' + yg.year,
+      style: {
+        position: 'relative'
+      }
+    }, listing ?
+    /*#__PURE__*/
+    /* The year heads its months and stays in view while they pass. */
+    React.createElement("div", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: yearShut ? '0fr' : '1fr',
+        position: 'sticky',
+        top: yearTop,
+        zIndex: 2,
+        marginBlockEnd: yearShut ? 0 : 'var(--space-5)',
+        background: 'var(--paper)',
+        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      "aria-hidden": "true",
+      style: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        bottom: '100%',
+        height: yearTop,
+        background: 'var(--paper)',
+        pointerEvents: 'none'
+      }
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        fontVariantNumeric: 'tabular-nums',
+        fontWeight: 'var(--weight-medium)',
+        color: 'var(--ink)',
+        paddingBlock: 'var(--space-1)'
+      }
+    }, yg.year, /*#__PURE__*/React.createElement("span", {
+      "data-year-baseline": "",
+      style: {
+        display: 'inline-block',
+        width: 0,
+        height: 0
+      }
+    })))) : null, yg.blocks.map(b => {
+      const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
+      const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
+      /* A term filter takes the rest of the record away rather than
+         dimming it: years with nothing in the subset fold shut, and
+         the register closes up around what is left. */
+      const blockShut = termOn && !anyTerm;
+      return /*#__PURE__*/React.createElement("div", {
+        key: b.key,
+        style: {
+          display: 'grid',
+          gridTemplateRows: blockShut ? '0fr' : '1fr',
+          transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          overflow: 'hidden',
+          minHeight: 0,
+          paddingBlockEnd: blockShut ? 0 : listing ? 'var(--space-4)' : 'var(--space-3)',
+          transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
+        }
+      }, /*#__PURE__*/React.createElement("p", {
+        className: "small",
+        style: {
+          fontVariantNumeric: 'tabular-nums',
+          marginBlockEnd: listing ? 'var(--space-1)' : 'var(--space-2)',
+          marginBlockStart: listing ? 'var(--space-3)' : 0,
+          color: listing ? 'var(--ink)' : undefined,
+          opacity: view === 1 && !anyLit ? 0.14 : 1,
+          transition: 'opacity var(--dur-fast) var(--ease-quart)'
+        }
+      }, b.label), /*#__PURE__*/React.createElement("div", null, b.rows.map(e => {
+        /* Nothing is under the cursor until the visitor has
+           actually pointed: the default cursor row must not read
+           as the active one. */
+        const on = cursor === e.i && touched;
+        /* Every match carries its title, so a solid line always
+           has something written next to it. */
+        const matched = relevant && litSet.has(e.i);
+        /* A term match is exposed the same way a dialogue match
+           is: it carries its title and keeps full weight while
+           the rest of the field recedes. */
+        const hitTerm = termOn && termSet.has(e.i);
+        const labelled = view === 1 ? matched || on && !touch : termOn ? hitTerm || on
+        /* Text above the focal band, lines below it: scrolling
+           down sets the reading, scrolling back up returns it. */ : on || touch && e.i <= cursor;
+        const rowShut = termOn && !hitTerm;
+        const rowOpacity = !printed ? 0 : view === 1 ? matched ? 1 : 0.14 : rowShut ? 0 : 1;
+        if (listing) return renderListRow(e, on, rowShut, rowOpacity);
+        return /*#__PURE__*/React.createElement("div", {
+          key: e.i,
+          ref: el => {
+            rowRefs.current[e.i] = el;
+          },
+          tabIndex: e.i === cursor ? 0 : -1,
+          "aria-label": label(e),
+          title: (e.disciplines || []).join(', '),
+          onMouseEnter: () => {
+            setCursor(e.i);
+            setTouched(true);
+          },
+          onFocus: () => {
+            setCursor(e.i);
+            setTouched(true);
+          },
+          style: {
+            position: 'relative',
+            height: rowShut ? 0 : on ? pitch + FAN : pitch,
+            cursor: 'default',
+            outline: 'none',
+            overflow: rowShut ? 'hidden' : 'visible',
+            pointerEvents: rowShut ? 'none' : undefined,
+            opacity: rowOpacity,
+            transition: 'opacity var(--dur-fast) var(--ease-quart), height var(--dur-fast) var(--ease-quart)',
+            transitionDelay: printed && !reduced.current ? e.i * 8 + 'ms, 0ms' : '0ms'
+          }
+        }, /*#__PURE__*/React.createElement("div", {
+          style: {
+            position: 'absolute',
+            inset: 0,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 'var(--space-2)',
+            pointerEvents: 'none'
+          }
+        }, labelled ? /*#__PURE__*/React.createElement("span", {
+          className: "small",
+          style: {
+            flex: '0 1 auto',
+            minWidth: 0,
+            maxWidth: 'none',
+            whiteSpace: 'nowrap',
+            fontWeight: on ? 'var(--weight-medium)' : 'var(--weight-book)',
+            color: on ? 'var(--text-primary)' : 'var(--text-secondary)'
+          }
+        }, e.client, e.sector ? /*#__PURE__*/React.createElement("span", {
+          style: {
+            paddingInline: '0.6em',
+            color: 'var(--text-secondary)'
+          }
+        }, "/") : null, e.sector) : null, /*#__PURE__*/React.createElement("div", {
+          style: {
+            flex: '1 1 12px',
+            minWidth: 0,
+            height: on ? BAR_ACTIVE : BAR,
+            background: on ? 'var(--ink)' : 'var(--underline-rest-secondary)',
+            transition: 'height var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)'
+          }
+        })), /*#__PURE__*/React.createElement("div", {
+          style: {
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            top: -1,
+            bottom: -1
+          }
+        }));
+      }))));
+    }));
+  }), scan >= 0 ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: scan * 100 + '%',
+      height: 1,
+      background: 'var(--ink)',
+      pointerEvents: 'none',
+      transition: scan ? 'top 1100ms var(--ease-quart)' : 'none'
+    }
+  }) : null, listing && !touch ? /*#__PURE__*/React.createElement("div", {
+    ref: pointerRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'fixed',
+      left: 0,
+      top: 0,
+      pointerEvents: 'none',
+      zIndex: 3
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      whiteSpace: 'nowrap',
+      transform: 'translate(-2px, -50%)',
+      color: 'var(--ink)',
+      fontWeight: 'var(--weight-medium)',
+      opacity: touched && expanded === cursor && !overHead ? 1 : 0,
+      transition: 'opacity var(--dur-fast) var(--ease-quart)'
+    }
+  }, openLabel, /*#__PURE__*/React.createElement("svg", {
+    width: "16",
+    height: "10",
+    viewBox: "0 0 16 10",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: "1",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M0 5h15M11 1l4 4-4 4"
+  })))) : null), vertical ?
+  /*#__PURE__*/
+  /* The case under the cursor. Opens on first approach, holds while
+     the pointer is on the lines, and folds shut when it leaves them.
+     A pin keeps it open and adds the body. */
+  React.createElement("div", {
+    "data-record-case": true,
+    style: {
+      display: 'grid',
+      gridTemplateRows: touched && current ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: caseRef,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      maxWidth: '44rem',
+      paddingBlockStart: 'var(--space-2)'
+    }
+  }, current && current.title ? /*#__PURE__*/React.createElement("h3", {
+    style: {
+      margin: 0,
+      fontFamily: 'var(--font-display)',
+      fontWeight: 'normal',
+      fontSize: 'var(--display-3)',
+      lineHeight: 1.1,
+      color: 'var(--ink)',
+      textWrap: 'pretty'
+    }
+  }, current.title) : null, current && current.preamble ? /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, current.preamble) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: pinned != null ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      paddingBlockStart: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: bodyRef,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      maxHeight: '40rem',
+      overflow: 'hidden',
+      maskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none',
+      WebkitMaskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none'
+    }
+  }, current && current.body ? current.body.split(/\n\s*\n/).map((p, n) => /*#__PURE__*/React.createElement("p", {
+    key: 'b' + n,
+    className: "prose",
+    style: {
+      whiteSpace: 'pre-line'
+    }
+  }, p)) : null, current && current.figures && current.figures.length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3) var(--space-5)'
+    }
+  }, current.figures.map((f, n) => /*#__PURE__*/React.createElement("div", {
+    key: n,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-0)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: 'var(--font-display)',
+      fontSize: 'var(--display-3)',
+      lineHeight: 1.1,
+      color: 'var(--ink)'
+    }
+  }, f.value), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, f.label)))) : null, current && (current.team || []).length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-0)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, teamLabel), /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, current.team.join(', '))) : null, current && current.note ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, current.note) : null))))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: pinned != null ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      marginBlockStart: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: "#",
+    variant: "secondary",
+    tabIndex: pinned != null ? 0 : -1,
+    onClick: ev => {
+      ev.preventDefault();
+      unpin();
+    },
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, closeLabel)), /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      height: 1,
+      marginBlockStart: 'var(--space-5)',
+      background: 'var(--underline-rest-secondary)'
+    }
+  }))))) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)'
+    }
+  }, closingLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, closingLine) : null, actionLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: actionHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, actionLabel) : null)))));
+}
+Object.assign(__ds_scope, { Record });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/darkGround.jsx
+try { (() => {
+/* Is this element currently over a dark green surface?
+
+   The headers' wordmark inverts itself by exclusion blend, which handles paper
+   and photographs, but an ink ground is the one case the blend cannot serve:
+   excluding paper artwork against ink yields magenta, and the palette has no
+   third hue. So the ink case is detected rather than blended, and the mark
+   swaps to the mint file with the blend off.
+
+   Detection is by hit test, not by measurement: whatever sits under the middle
+   of the element is asked whether it is inside an inverted scope. That makes a
+   section, an overlay and a fixed panel all answer the same way, and costs one
+   `elementsFromPoint` per scroll frame. */
+
+const DARK = '[data-inverted], [data-dark-ground]';
+function useOverDark(ref, {
+  enabled = true,
+  selector = DARK
+} = {}) {
+  const [over, setOver] = React.useState(false);
+  React.useEffect(() => {
+    if (!enabled) {
+      setOver(false);
+      return undefined;
+    }
+    let frame = 0;
+    const test = () => {
+      frame = 0;
+      const el = ref.current;
+      if (!el || typeof document.elementsFromPoint !== 'function') return;
+      const r = el.getBoundingClientRect();
+      if (!r.width || !r.height) return;
+      /* The left end of the mark, not its centre: the wordmark is wide and its
+         left end is where it meets a section edge first. */
+      const x = Math.max(1, Math.min(window.innerWidth - 1, r.left + Math.min(r.width, 120) / 2));
+      const y = Math.max(1, Math.min(window.innerHeight - 1, r.top + r.height / 2));
+      const under = document.elementsFromPoint(x, y).find(n => n !== el && !el.contains(n) && !n.contains(el));
+      setOver(!!(under && under.closest && under.closest(selector)));
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(test);
+    };
+    test();
+    /* The first test runs before the element has been laid out — the masthead
+       sizes its mark in its own rAF pass — so the rect is empty and the hit
+       test bails. At the top of the document no scroll event ever follows, so
+       the answer would stay false for the whole first screen. Re-test as
+       layout settles, and again when the element's own box changes. */
+    const settle = [window.requestAnimationFrame(test), window.setTimeout(test, 120), window.setTimeout(test, 400)];
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(test).catch(() => {});
+    const ro = typeof ResizeObserver === 'function' ? new ResizeObserver(onScroll) : null;
+    if (ro && ref.current) ro.observe(ref.current);
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame);
+      window.cancelAnimationFrame(settle[0]);
+      window.clearTimeout(settle[1]);
+      window.clearTimeout(settle[2]);
+      if (ro) ro.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+    };
+  }, [ref, enabled, selector]);
+  return over;
+}
+
+/* The mint sibling of a paper wordmark file. */
+function mintLogo(src) {
+  return String(src).replace('-paper', '-mint');
+}
+
+/* The wash sibling: the mark in ink-wash, for a washed section where the
+   exclusion blend would take the paper artwork to a warm near-black instead of
+   to green. Same detection route as the ink case, different file. */
+function washLogo(src) {
+  return String(src).replace('-paper', '-wash');
+}
+Object.assign(__ds_scope, { useOverDark, mintLogo, washLogo });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/darkGround.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/focusSource.jsx
+try { (() => {
+/* Browsers match :focus-visible on text fields even when they were clicked,
+   which is correct for a field you type into blind but wrong here: the ring is
+   meant to say "the keyboard is here". So the document records how focus was
+   last moved, and base.css drops the ring on text fields while that source is
+   the pointer. Installed once, from whichever field mounts first. */
+
+let installed = false;
+function install() {
+  if (installed || typeof document === 'undefined') return;
+  installed = true;
+  const set = v => {
+    document.documentElement.setAttribute('data-focus-source', v);
+  };
+  set('pointer');
+  document.addEventListener('pointerdown', () => set('pointer'), true);
+  document.addEventListener('keydown', e => {
+    /* Only navigation keys hand focus over; typing inside a clicked field
+       must not light the ring up mid-sentence. */
+    if (e.key === 'Tab' || e.key === 'Escape' || e.key.indexOf('Arrow') === 0) set('key');
+  }, true);
+}
+function useFocusSource() {
+  React.useEffect(install, []);
+}
+Object.assign(__ds_scope, { useFocusSource });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/focusSource.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/ListingFilters.jsx
+try { (() => {
+/* The filter bar the two listings share.
+
+   One row always shows: the Filtrera toggle, the count against the whole set,
+   and a way to clear. The fields themselves are a drawer under it, because a
+   listing's first job is the list — a permanent bank of four selects reads as
+   a form and pushes the first row under the fold.
+
+   The fields are data, so the same component serves any listing: the people
+   register passes area, sector and office, the stream passes type, area,
+   sector and year. What must not vary between the two pages is the layout,
+   the counted option labels and the words, so they live here once.
+
+   Two variants:
+     drawer — the fields are behind the toggle. The default, and what both
+       listings use.
+     open — the fields are always shown and the toggle is gone, for a page
+       whose whole purpose is the filtering (a search result, a facet landing
+       page) rather than the list. */
+function ListingFilters({
+  fields = [],
+  value = {},
+  onChange,
+  countLine = '',
+  onClear,
+  showClear = false,
+  open,
+  onToggle,
+  variant = 'drawer',
+  label = 'Filtrera',
+  marked = false,
+  /* A field kept out of the drawer and standing in the top row: typing filters
+     the list immediately, without the drawer having to be opened at all. Its
+     value and change handler are the same as every other field's. */
+  searchId = '',
+  searchLabel = 'Sök',
+  searchPlaceholder = '',
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const [selfOpen, setSelfOpen] = React.useState(false);
+  const [warm, setWarm] = React.useState(false);
+  const controlled = open != null;
+  const isOpen = variant === 'open' ? true : controlled ? !!open : selfOpen;
+  const toggle = () => {
+    if (onToggle) onToggle();
+    if (!controlled) setSelfOpen(v => !v);
+  };
+  const labelShown = warm || isOpen;
+  const field = {
+    width: '100%',
+    marginTop: 6,
+    padding: '0 0 8px',
+    border: 0,
+    borderBottom: '1px solid var(--rule-hairline)',
+    background: 'transparent',
+    color: 'var(--ink)',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    appearance: 'none',
+    borderRadius: 0
+  };
+  const quiet = {
+    border: 0,
+    background: 'transparent',
+    padding: 0,
+    cursor: 'pointer',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    color: 'var(--text-secondary)',
+    textDecoration: 'underline',
+    textDecorationColor: 'var(--underline-rest-secondary)',
+    textUnderlineOffset: '0.22em'
+  };
+  const grid = /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))',
+      gap: 'var(--gutter)'
+    }
+  }, fields.map(f => /*#__PURE__*/React.createElement("label", {
+    key: f.id,
+    style: {
+      display: 'block',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      display: 'block',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, f.label), f.kind === 'search' ? /*#__PURE__*/React.createElement("input", {
+    type: "search",
+    value: value[f.id] || '',
+    placeholder: f.placeholder || '',
+    onChange: e => onChange && onChange(f.id, e.target.value),
+    style: field
+  }) : /*#__PURE__*/React.createElement("select", {
+    value: value[f.id] || '',
+    onChange: e => onChange && onChange(f.id, e.target.value),
+    style: {
+      ...field,
+      cursor: 'pointer'
+    }
+  }, (f.options || []).map(o => /*#__PURE__*/React.createElement("option", {
+    key: o.value,
+    value: o.value
+  }, o.label))))));
+  return /*#__PURE__*/React.createElement("div", {
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      gap: 'var(--space-3)'
+    }
+  }, variant === 'drawer' ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: toggle,
+    onMouseEnter: () => setWarm(true),
+    onMouseLeave: () => setWarm(false),
+    onFocus: () => setWarm(true),
+    onBlur: () => setWarm(false),
+    "aria-expanded": isOpen ? 'true' : 'false',
+    "aria-label": label,
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 8,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      gap: 3,
+      width: 14
+    }
+  }, [14, 10, 6].map(w => /*#__PURE__*/React.createElement("span", {
+    key: w,
+    style: {
+      display: 'block',
+      width: w,
+      height: 1,
+      background: labelShown ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'background var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      maxWidth: labelShown ? '9ch' : 0,
+      opacity: labelShown ? 1 : 0,
+      overflow: 'hidden',
+      whiteSpace: 'nowrap',
+      textDecoration: 'underline',
+      textDecorationThickness: '1px',
+      textUnderlineOffset: '0.2em',
+      textDecorationColor: warm ? 'currentColor' : 'transparent',
+      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-reveal) var(--ease-expo), text-decoration-color var(--dur-reveal) var(--ease-expo)'
+    }
+  }, label), marked && !isOpen ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'block',
+      width: 4,
+      height: 4,
+      borderRadius: '50%',
+      background: 'var(--ink)'
+    }
+  }) : null) : null, countLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none'
+    }
+  }, countLine) : null, showClear ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClear,
+    style: quiet
+  }, "Rensa") : null, searchId ? /*#__PURE__*/React.createElement("label", {
+    style: {
+      marginLeft: 'auto',
+      display: 'flex',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)',
+      minWidth: 0,
+      flex: '1 1 220px',
+      maxWidth: 320
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      flex: 'none',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, searchLabel), /*#__PURE__*/React.createElement("input", {
+    type: "search",
+    value: value[searchId] || '',
+    placeholder: searchPlaceholder,
+    onChange: e => onChange && onChange(searchId, e.target.value),
+    style: {
+      ...field,
+      marginTop: 0,
+      minWidth: 0
+    }
+  })) : null), variant === 'open' ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 'var(--space-4)'
+    }
+  }, grid) : /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": isOpen ? 'false' : 'true',
+    style: {
+      display: 'grid',
+      gridTemplateRows: isOpen ? '1fr' : '0fr',
+      opacity: isOpen ? 1 : 0,
+      marginTop: isOpen ? 'var(--space-4)' : 0,
+      visibility: isOpen ? 'visible' : 'hidden',
+      transition: isOpen ? 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s' : 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s linear 420ms'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, grid)));
+}
+Object.assign(__ds_scope, { ListingFilters });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ListingFilters.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/headerActions.jsx
+try { (() => {
+/* Where the page's own actions go once they have nowhere left to sit.
+
+   The action row lives at the top right of a page, opposite the title, and
+   stays there as long as the page has a top. Once it has been pinned to the
+   header line at the wide measure it is in the header's place rather than the
+   page's, so it hands its items over: the row publishes them here, the header
+   picks them up and draws them as glyphs to the left of the conversation
+   trigger.
+
+   A store rather than a portal or a prop: the row and the header are mounted
+   by different callers — a page passes `items` to ActionRow and never touches
+   SiteHeader's props — and the two are not in one React tree the page owns.
+   One module-level list with subscribers keeps the handover to the two
+   components that care, with no page wiring at all. */
+
+let current = [];
+const subs = new Set();
+function publishHeaderActions(items) {
+  current = Array.isArray(items) ? items : [];
+  for (const fn of subs) fn(current);
+}
+function useHeaderActions() {
+  const [items, setItems] = React.useState(current);
+  React.useEffect(() => {
+    setItems(current);
+    subs.add(setItems);
+    return () => {
+      subs.delete(setItems);
+    };
+  }, []);
+  return items;
+}
+Object.assign(__ds_scope, { publishHeaderActions, useHeaderActions });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/headerActions.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/markLibrary.jsx
+try { (() => {
+/* The line-mark library, 16 marks / 46 parts, imported verbatim from the
+   source SVGs (assets/marks.json is the same data). Every mark is on a
+   0 0 100 100 viewBox; every part has exactly one path, a draw `order` and an
+   `axis` unit vector giving the direction that part naturally travels. */
+const MARKS = {
+  'arch-aperture': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'arch',
+      axis: [0, 0],
+      order: 0,
+      d: 'M 50 84 L 20 84 L 20 42 A 30 30 0 0 1 80 42 L 80 84 Z'
+    }, {
+      part: 'aperture',
+      axis: [0, 1],
+      order: 1,
+      d: 'M 50 48 A 14 14 0 0 1 50 76 A 14 14 0 0 1 50 48 Z'
+    }, {
+      part: 'axis',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 12 L 50 84'
+    }]
+  },
+  'arcs-split': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'arc-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 22.742 22.742 A 27.258 27.258 0 0 1 22.742 77.258'
+    }, {
+      part: 'arc-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 77.258 22.742 A 27.258 27.258 0 0 0 77.258 77.258'
+    }, {
+      part: 'axis',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 10 L 50 90'
+    }]
+  },
+  'circle-baseline': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'circle',
+      axis: [0, -1],
+      order: 0,
+      d: 'M 50 24 A 26 26 0 0 1 50 76 A 26 26 0 0 1 50 24 Z'
+    }, {
+      part: 'baseline',
+      axis: [0, 0],
+      order: 1,
+      d: 'M 10 76 L 90 76'
+    }]
+  },
+  'circles-chord': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'circle-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 34 23 A 27 27 0 0 1 34 77 A 27 27 0 0 1 34 23 Z'
+    }, {
+      part: 'circle-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 66 23 A 27 27 0 0 1 66 77 A 27 27 0 0 1 66 23 Z'
+    }, {
+      part: 'chord',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 7 50 L 93 50'
+    }]
+  },
+  'circles-stack': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'circle-top',
+      axis: [0, -1],
+      order: 0,
+      d: 'M 50 10 A 25 25 0 0 1 50 60 A 25 25 0 0 1 50 10 Z'
+    }, {
+      part: 'circle-bottom',
+      axis: [0, 1],
+      order: 1,
+      d: 'M 50 40 A 25 25 0 0 1 50 90 A 25 25 0 0 1 50 40 Z'
+    }, {
+      part: 'chord',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 22 50 L 78 50'
+    }]
+  },
+  'circles-tangent': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'circle-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 30 30 A 20 20 0 0 1 30 70 A 20 20 0 0 1 30 30 Z'
+    }, {
+      part: 'circle-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 70 30 A 20 20 0 0 1 70 70 A 20 20 0 0 1 70 30 Z'
+    }, {
+      part: 'axis',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 18 L 50 82'
+    }]
+  },
+  'diamond-split': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'chevron-top',
+      axis: [0, -1],
+      order: 0,
+      d: 'M 10 50 L 50 10 L 90 50'
+    }, {
+      part: 'chevron-bottom',
+      axis: [0, 1],
+      order: 1,
+      d: 'M 10 50 L 50 90 L 90 50'
+    }, {
+      part: 'chord',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 10 50 L 90 50'
+    }]
+  },
+  'diamonds-overlap': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'diamond-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 49 36 L 63 50 L 35 78 L 7 50 L 35 22 Z'
+    }, {
+      part: 'diamond-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 79 36 L 93 50 L 65 78 L 37 50 L 65 22 Z'
+    }]
+  },
+  'panels-fold': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'panel-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 46 56 L 46 90 L 10 70 L 10 10 L 46 22 Z'
+    }, {
+      part: 'panel-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 54 56 L 54 22 L 90 10 L 90 70 L 54 90 Z'
+    }]
+  },
+  'pills-pair': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'pill-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 28.5 10 L 40 10 A 7 7 0 0 1 47 17 L 47 83 A 7 7 0 0 1 40 90 L 17 90 A 7 7 0 0 1 10 83 L 10 17 A 7 7 0 0 1 17 10 Z'
+    }, {
+      part: 'pill-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 71.5 10 L 83 10 A 7 7 0 0 1 90 17 L 90 83 A 7 7 0 0 1 83 90 L 60 90 A 7 7 0 0 1 53 83 L 53 17 A 7 7 0 0 1 60 10 Z'
+    }]
+  },
+  'pills-split': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'pill-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 18 14 L 36 14 A 8 8 0 0 1 44 22 L 44 78 A 8 8 0 0 1 36 86 L 18 86 A 8 8 0 0 1 10 78 L 10 22 A 8 8 0 0 1 18 14 Z'
+    }, {
+      part: 'pill-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 64 14 L 82 14 A 8 8 0 0 1 90 22 L 90 78 A 8 8 0 0 1 82 86 L 64 86 A 8 8 0 0 1 56 78 L 56 22 A 8 8 0 0 1 64 14 Z'
+    }, {
+      part: 'axis',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 8 L 50 92'
+    }]
+  },
+  'square-arcs': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'square',
+      axis: [0, 0],
+      order: 0,
+      d: 'M 50 10 L 90 10 L 90 90 L 10 90 L 10 10 Z'
+    }, {
+      part: 'arc-left',
+      axis: [-1, 0],
+      order: 1,
+      d: 'M 10 10 A 40 40 0 0 1 10 90'
+    }, {
+      part: 'arc-right',
+      axis: [1, 0],
+      order: 2,
+      d: 'M 90 10 A 40 40 0 0 0 90 90'
+    }]
+  },
+  'square-inscribed': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'square',
+      axis: [0, 0],
+      order: 0,
+      d: 'M 50 10 L 90 10 L 90 90 L 10 90 L 10 10 Z'
+    }, {
+      part: 'circle',
+      axis: [0, -1],
+      order: 1,
+      d: 'M 50 10 A 40 40 0 0 1 50 90 A 40 40 0 0 1 50 10 Z'
+    }]
+  },
+  'star-radial': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'arm-up',
+      axis: [0, -1],
+      order: 0,
+      d: 'M 50 50 L 50 10'
+    }, {
+      part: 'arm-upper-right',
+      axis: [0.755, -0.656],
+      order: 1,
+      d: 'M 50 50 L 88 17'
+    }, {
+      part: 'arm-lower-right',
+      axis: [0.755, 0.656],
+      order: 2,
+      d: 'M 50 50 L 88 83'
+    }, {
+      part: 'arm-down',
+      axis: [0, 1],
+      order: 3,
+      d: 'M 50 50 L 50 90'
+    }, {
+      part: 'arm-lower-left',
+      axis: [-0.755, 0.656],
+      order: 4,
+      d: 'M 50 50 L 12 83'
+    }, {
+      part: 'arm-upper-left',
+      axis: [-0.755, -0.656],
+      order: 5,
+      d: 'M 50 50 L 12 17'
+    }]
+  },
+  'tri-radial': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'arm-up',
+      axis: [0, -1],
+      order: 0,
+      d: 'M 50 61 L 50 15'
+    }, {
+      part: 'arm-left',
+      axis: [-0.87, 0.5],
+      order: 1,
+      d: 'M 50 61 L 10 84'
+    }, {
+      part: 'arm-right',
+      axis: [0.87, 0.5],
+      order: 2,
+      d: 'M 50 61 L 90 84'
+    }]
+  },
+  'triangle-axis': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'side-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 50 17 L 10 81 L 50 81'
+    }, {
+      part: 'side-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 50 17 L 90 81 L 50 81'
+    }, {
+      part: 'axis',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 10 L 50 90'
+    }]
+  }
+};
+const MARK_NAMES = ["arch-aperture", "arcs-split", "circle-baseline", "circles-chord", "circles-stack", "circles-tangent", "diamond-split", "diamonds-overlap", "panels-fold", "pills-pair", "pills-split", "square-arcs", "square-inscribed", "star-radial", "tri-radial", "triangle-axis"];
+Object.assign(__ds_scope, { MARKS, MARK_NAMES });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/markLibrary.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/Mark.jsx
+try { (() => {
+const EMPTY = {};
+const DUR_TRAVEL = 900; /* travel and trim */
+const DUR_WEIGHT = 700; /* stroke weight */
+const TAU = Math.PI * 2;
+
+/* One media query for the whole page, not one per mark: the field mode mounts
+   sixteen marks at once, and sixteen listeners plus sixteen state updates on
+   every beat change is enough work to make a crossfade land late. */
+const motionSubs = new Set();
+let motionMq = null;
+let motionReduced = false;
+function subscribeMotion(fn) {
+  if (!motionMq && typeof window !== 'undefined') {
+    motionMq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    motionReduced = motionMq.matches;
+    motionMq.addEventListener('change', () => {
+      motionReduced = motionMq.matches;
+      motionSubs.forEach(f => f());
+    });
+  }
+  motionSubs.add(fn);
+  return () => motionSubs.delete(fn);
+}
+function useReducedMotion() {
+  const [reduced, setReduced] = React.useState(() => {
+    if (typeof window === 'undefined') return false;
+    if (!motionMq) motionMq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    motionReduced = motionMq.matches;
+    return motionReduced;
+  });
+  React.useEffect(() => subscribeMotion(() => setReduced(motionReduced)), []);
+  return reduced;
+}
+
+/* A paced draw. Velocity 1 + 0.75·cos(2πp) along the path, integrated once
+   into a time→progress table, so the line eases to a quarter speed across the
+   middle of its travel and never kinks. Monotonic; endpoints exact. */
+function paceTable(steps = 400) {
+  const t = new Float32Array(steps + 1);
+  let acc = 0;
+  for (let i = 1; i <= steps; i++) {
+    const p = (i - 0.5) / steps;
+    acc += 1 / (1 + 0.75 * Math.cos(TAU * p));
+    t[i] = acc;
+  }
+  for (let i = 0; i <= steps; i++) t[i] /= acc;
+  return t;
+}
+const PACE = paceTable();
+function pacedProgress(x) {
+  /* invert the table: given elapsed fraction x, return progress along the path */
+  const n = PACE.length - 1;
+  let lo = 0,
+    hi = n;
+  while (lo < hi) {
+    const mid = lo + hi >> 1;
+    if (PACE[mid] < x) lo = mid + 1;else hi = mid;
+  }
+  const i = Math.max(1, lo);
+  const span = PACE[i] - PACE[i - 1] || 1;
+  return Math.min(1, Math.max(0, (i - 1 + (x - PACE[i - 1]) / span) / n));
+}
+
+/* One mark, inline. Colour is currentColor, so the mark inherits whatever text
+   colour sits on its container; weight is --stroke on the svg, in viewBox
+   units. Three axes and only three: weight, trim, and part travel along each
+   part's own axis. */
+const Mark = React.memo(function Mark({
+  name = 'circles-chord',
+  state,
+  extras,
+  stroke = 1.5,
+  replay = 0,
+  size,
+  title,
+  className = '',
+  style
+}) {
+  const mark = __ds_scope.MARKS[name];
+  const reduced = useReducedMotion();
+  const s = state || EMPTY;
+  const move = s.move || EMPTY;
+  const trim = s.trim || EMPTY;
+  const weights = s.w || EMPTY;
+  const base = s.base != null ? s.base : stroke;
+  const draw = s.draw || null;
+  const paths = React.useRef({});
+  const cur = React.useRef({});
+  const trimKey = JSON.stringify(trim) + '|' + replay;
+
+  /* Optical weight. A mark drawn at one weight on its own grid reads thinner
+     the smaller it is printed, exactly as the icon set does when Carbon's 32
+     grid is scaled down. Marks run from 32px in a corner to 400px on a story
+     cover, which is far too wide a range for one weight, so the stroke is
+     compensated against a reference width: at 320px it is the weight as
+     authored, and below that it thickens with the square root of the
+     reduction — a mark at a quarter of the reference carries twice the line.
+     Never thinner than authored, never more than four times it. */
+  const svgRef = React.useRef(null);
+  const [gain, setGain] = React.useState(1);
+  React.useLayoutEffect(() => {
+    const el = svgRef.current;
+    if (!el || typeof ResizeObserver === 'undefined') return;
+    const REF = 320;
+    const read = () => {
+      const w = el.getBoundingClientRect().width;
+      if (!w) return;
+      const g = Math.min(4, Math.max(1, Math.sqrt(REF / w)));
+      setGain(prev => Math.abs(prev - g) < 0.01 ? prev : g);
+    };
+    read();
+    const ro = new ResizeObserver(read);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+
+  /* Extras are temporary lines a story can bring in mid-way — a ring, a set of
+     ticks — and they rest at zero length rather than full, so a state that
+     does not name them simply does not have them. That is what makes the last
+     beat the library mark again with nothing to undo. */
+  const allParts = React.useMemo(() => {
+    const base = mark ? mark.parts : [];
+    const ex = (extras || []).map((e, i) => ({
+      part: e.part || 'extra-' + i,
+      d: e.d,
+      axis: e.axis || [0, 0],
+      order: 900 + i,
+      extra: true
+    }));
+    return ex.length ? [...base, ...ex] : base;
+  }, [mark, extras]);
+  const restOf = p => p.extra ? 0 : 100;
+
+  /* Trim is written per frame, never handed to a CSS transition. A dasharray
+     only interpolates against another dasharray, so a part going from
+     undashed to trimmed had nothing to interpolate from and snapped — which
+     is why a half circle closed instantly instead of drawing. Animating the
+     numbers ourselves also lets a part arriving at full length have the
+     property removed entirely: a path left dashed at full length loses its
+     real mitre joins. */
+  const applyDash = React.useCallback((part, v) => {
+    cur.current[part] = v;
+    const el = paths.current[part];
+    if (!el) return;
+    if (v >= 99.99) el.style.removeProperty('stroke-dasharray');else el.style.strokeDasharray = v + ' 100';
+  }, []);
+  React.useEffect(() => {
+    if (!mark) return;
+    const legs = [];
+    for (const p of allParts) {
+      if (draw && draw.part === p.part) continue;
+      const from = cur.current[p.part] != null ? cur.current[p.part] : restOf(p);
+      const to = trim[p.part] != null ? trim[p.part] : restOf(p);
+      if (from !== to) legs.push([p.part, from, to]);
+    }
+    if (!legs.length) return;
+    if (reduced) {
+      legs.forEach(([p,, to]) => applyDash(p, to));
+      return;
+    }
+    let raf = null;
+    const t0 = performance.now();
+    const tick = now => {
+      const x = Math.min(1, (now - t0) / DUR_TRAVEL);
+      const e = 1 - Math.pow(1 - x, 4); /* --ease-quart, in numbers */
+      legs.forEach(([p, from, to]) => applyDash(p, from + (to - from) * e));
+      if (x < 1) raf = requestAnimationFrame(tick);else raf = null;
+    };
+    raf = requestAnimationFrame(tick);
+    const guard = window.setTimeout(() => {
+      if (raf != null) cancelAnimationFrame(raf);
+      raf = null;
+      legs.forEach(([p,, to]) => applyDash(p, to));
+    }, DUR_TRAVEL + 140);
+    return () => {
+      if (raf != null) cancelAnimationFrame(raf);
+      window.clearTimeout(guard);
+    };
+  }, [mark, trimKey, reduced, applyDash]);
+  /* The paced draw is the one state change a CSS transition cannot express, so
+     it runs a frame loop — and rAF is throttled on a hidden tab, so a timeout
+     at duration + 140ms cancels the loop and applies the exact end value
+     rather than leaving the mark frozen half-drawn. */
+  const drawKey = draw ? [draw.part, draw.from, draw.to, draw.dur, replay].join('|') : '';
+  React.useEffect(() => {
+    if (!draw) return;
+    const part = draw.part;
+    const from = draw.from != null ? draw.from : 0;
+    const to = draw.to != null ? draw.to : 100;
+    const dur = draw.dur != null ? draw.dur : 1400;
+    const apply = v => applyDash(part, v);
+    if (reduced) {
+      apply(to);
+      return;
+    }
+    apply(from);
+    let raf = null;
+    const t0 = performance.now();
+    const tick = now => {
+      const x = Math.min(1, (now - t0) / dur);
+      apply(from + (to - from) * pacedProgress(x));
+      if (x < 1) raf = requestAnimationFrame(tick);else raf = null;
+    };
+    raf = requestAnimationFrame(tick);
+    const guard = window.setTimeout(() => {
+      if (raf != null) cancelAnimationFrame(raf);
+      raf = null;
+      apply(to);
+    }, dur + 140);
+    return () => {
+      if (raf != null) cancelAnimationFrame(raf);
+      window.clearTimeout(guard);
+    };
+  }, [drawKey, reduced, applyDash]);
+  if (!mark) return null;
+  const travel = reduced ? 0 : DUR_TRAVEL;
+  const wDur = reduced ? 0 : DUR_WEIGHT;
+  return /*#__PURE__*/React.createElement("svg", {
+    ref: svgRef,
+    viewBox: mark.viewBox,
+    fill: "none",
+    stroke: "currentColor",
+    role: title ? 'img' : undefined,
+    "aria-hidden": title ? undefined : 'true',
+    className: className,
+    style: {
+      '--stroke': base * gain,
+      strokeWidth: 'var(--stroke, 1.5)',
+      width: size || '100%',
+      height: size ? size : 'auto',
+      overflow: 'visible',
+      ...style
+    }
+  }, title ? /*#__PURE__*/React.createElement("title", null, title) : null, allParts.map(p => {
+    const k = move[p.part];
+    const tx = k ? p.axis[0] * k : 0;
+    const ty = k ? p.axis[1] * k : 0;
+    const w = weights[p.part];
+    return /*#__PURE__*/React.createElement("g", {
+      key: p.part,
+      "data-part": p.part,
+      "data-axis": p.axis.join(' '),
+      style: {
+        transform: `translate(${tx}px, ${ty}px)`,
+        transition: `transform ${travel}ms var(--ease-quart)`
+      }
+    }, /*#__PURE__*/React.createElement("path", {
+      ref: el => {
+        paths.current[p.part] = el;
+        if (!el) return;
+        /* The ref writes the current length on mount and after every
+           re-render: trim lives in inline style, and React would
+           otherwise leave a remounted path at its resting length. */
+        const v = cur.current[p.part] != null ? cur.current[p.part] : restOf(p);
+        cur.current[p.part] = v;
+        if (v >= 99.99) el.style.removeProperty('stroke-dasharray');else el.style.strokeDasharray = v + ' 100';
+      },
+      "data-order": p.order,
+      pathLength: "100",
+      d: p.d,
+      strokeWidth: w != null ? w * gain : undefined,
+      style: {
+        strokeDashoffset: 0,
+        transition: `stroke-width ${wDur}ms var(--ease-quart)`
+      }
+    }));
+  }));
+});
+Object.assign(__ds_scope, { Mark });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Mark.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/noirPlate.jsx
+try { (() => {
+/* The green noir plate — the system's one photographic treatment, lifted out of
+   `ImageReveal` so anything that shows a photograph can use it: the scroll
+   reveal, the hero film band, a portrait landing.
+
+   It is not a greyscale filter. The image is desaturated and hardened, then
+   composited multiply-with-paper to set the white point and screen-with-ink to
+   set the black point, so shadows sit on --noir-shadow (a warm near-black from the stone hue) and highlights on
+   the paper. The contrast pass before the composite is what makes it
+   read as noir rather than as a desaturated photograph.
+
+   Two forms of the same treatment, one source of truth:
+   - `paintNoirPlate` for canvas painters, which composite it themselves.
+   - `<NoirPlate>` for a DOM element (a live `<video>` cannot be repainted per
+      frame for free), which reproduces the identical composite in CSS blend
+      modes over whatever media it is given. */
+
+/* A colour token resolved to "r, g, b" for canvas painters, which cannot read
+   var(). Resolved against <html>, cached, and re-read whenever <html> changes
+   attributes (data-palette, data-ds-ready) or a stylesheet is added. */
+const tokenCache = new Map();
+let tokenWatch = false;
+function tokenRgb(name, fallback) {
+  if (typeof document === 'undefined' || !document.documentElement) return fallback;
+  if (!tokenWatch && typeof MutationObserver !== 'undefined') {
+    tokenWatch = true;
+    const clear = () => tokenCache.clear();
+    new MutationObserver(clear).observe(document.documentElement, {
+      attributes: true
+    });
+    if (document.head) new MutationObserver(clear).observe(document.head, {
+      childList: true
+    });
+  }
+  if (tokenCache.has(name)) return tokenCache.get(name);
+  const probe = document.createElement('i');
+  probe.style.cssText = 'position:absolute;visibility:hidden;color:rgb(1, 2, 3);color:var(' + name + ')';
+  document.documentElement.appendChild(probe);
+  const css = window.getComputedStyle(probe).color;
+  probe.remove();
+  const c = document.createElement('canvas');
+  c.width = c.height = 1;
+  const x = c.getContext('2d');
+  x.fillStyle = '#010203';
+  x.fillStyle = css;
+  x.fillRect(0, 0, 1, 1);
+  const d = x.getImageData(0, 0, 1, 1).data;
+  const rgb = d[0] === 1 && d[1] === 2 && d[2] === 3 ? fallback : d[0] + ', ' + d[1] + ', ' + d[2];
+  if (rgb !== fallback) tokenCache.set(name, rgb);
+  return rgb;
+}
+/* Kept as names for anything importing them; values follow the tokens. */
+const NOIR_INK = 'var(--noir-shadow)';
+const NOIR_PAPER = 'var(--ground-page)';
+/* The light end of an inverted plate: the clay the inverted type uses. */
+const NOIR_MINT = 'var(--clay)';
+/* Hardness of the plate. 1.5 is the house value — eased back from 1.75,
+   which crushed the midtones; below 1.3 it stops reading
+   as a plate and starts reading as a flat photograph. */
+const NOIR_CONTRAST = 1.5;
+function noirFilter(noir = NOIR_CONTRAST, invert = false) {
+  return 'grayscale(1) contrast(' + noir + ') brightness(' + (1.06 - 0.04 * noir) + ')' + (invert ? ' invert(1)' : '');
+}
+
+/* The plate's own tone at a given luminance, through the same
+   greyscale/contrast/brightness the plate is painted with. Screens that have to
+   close up into the plate read their target tone from here, so the two carry
+   the same weight. */
+function noirTone(lum, noir = NOIR_CONTRAST, invert = false) {
+  const g = (lum - 0.5) * noir + 0.5;
+  const t = 1 - Math.min(1, Math.max(0, g * (1.06 - 0.04 * noir)));
+  return invert ? 1 - t : t;
+}
+
+/* Paints `img` into `ctx` as the plate, cover-cropped to w x h around `focus`
+   ([x, y] fractions, centre by default). The caller owns scaling and clearing. */
+function paintNoirPlate(ctx, img, w, h, noir = NOIR_CONTRAST, invert = false, focus) {
+  const fx = focus ? focus[0] : 0.5,
+    fy = focus ? focus[1] : 0.5;
+  const iw = img.naturalWidth || img.videoWidth,
+    ih = img.naturalHeight || img.videoHeight;
+  if (!iw || !ih) return;
+  const ir = iw / ih,
+    wr = w / h;
+  let sx, sy, sw, sh;
+  if (ir > wr) {
+    sh = ih;
+    sw = sh * wr;
+    sx = (iw - sw) * fx;
+    sy = 0;
+  } else {
+    sw = iw;
+    sh = sw / wr;
+    sx = 0;
+    sy = (ih - sh) * fy;
+  }
+  ctx.filter = noirFilter(noir, invert);
+  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, w, h);
+  ctx.filter = 'none';
+  ctx.globalCompositeOperation = 'multiply';
+  ctx.fillStyle = 'rgb(' + (invert ? tokenRgb('--clay', '212, 205, 201') : tokenRgb('--paper', '229, 223, 219')) + ')';
+  ctx.fillRect(0, 0, w, h);
+  ctx.globalCompositeOperation = 'screen';
+  ctx.fillStyle = 'rgb(' + tokenRgb('--noir-shadow', '20, 19, 16') + ')';
+  ctx.fillRect(0, 0, w, h);
+  ctx.globalCompositeOperation = 'source-over';
+}
+
+/* The same plate around a DOM element. `isolation: isolate` is load-bearing:
+   without it the two blend layers reach past the plate and tint the page.
+
+   The plate's strength is read from `--noir-mix` (default 1, full plate; 0 is
+   the bare colour footage) so a caller animating it per frame can set one
+   inherited custom property on an ancestor instead of re-rendering React. The
+   filter interpolates through calc() and the two composite layers fade with
+   it, so the whole treatment lifts as one. */
+function NoirPlate({
+  noir = NOIR_CONTRAST,
+  mix = null,
+  children,
+  style
+}) {
+  const layer = {
+    position: 'absolute',
+    inset: 0,
+    pointerEvents: 'none'
+  };
+  const m = 'var(--noir-mix, 1)';
+  const filter = 'grayscale(' + m + ') contrast(calc(1 + ' + (noir - 1).toFixed(4) + ' * ' + m + '))' + ' brightness(calc(1 + ' + (0.06 - 0.04 * noir).toFixed(4) + ' * ' + m + '))';
+  const root = {
+    position: 'absolute',
+    inset: 0,
+    isolation: 'isolate',
+    overflow: 'clip',
+    ...style
+  };
+  if (mix != null) root['--noir-mix'] = mix;
+  return /*#__PURE__*/React.createElement("div", {
+    style: root
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'absolute',
+      inset: 0,
+      filter: filter
+    }
+  }, children), /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...layer,
+      background: NOIR_PAPER,
+      mixBlendMode: 'multiply',
+      opacity: m
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...layer,
+      background: NOIR_INK,
+      mixBlendMode: 'screen',
+      opacity: m
+    }
+  }));
+}
+Object.assign(__ds_scope, { tokenRgb, NOIR_INK, NOIR_PAPER, NOIR_MINT, NOIR_CONTRAST, noirFilter, noirTone, paintNoirPlate, NoirPlate });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/noirPlate.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/FilmBand.jsx
+try { (() => {
+/* The hero's moving picture, printed. The band spans the full grid measure,
+   sits flush to the bottom of the opening screen, and is never shown as
+   footage at rest: every frame is re-screened as the house halftone, so the
+   film reads as ink on paper until the visitor asks for it.
+
+   Three behaviours, one lattice — the same rotated, noise-perturbed grid as
+   `ImageReveal` and `DotField`, but resampled from the source every frame:
+
+   1. Rest. Tone drives dot area (area = tone is what makes a halftone average
+      out to continuous tone), histogram-equalised so a dark interior still
+      spreads across the whole range of dot sizes instead of closing up.
+
+   2. Pointer. Not a fade, and not a peephole. From the point the pointer
+      entered, an opening front travels out until it has taken the whole band,
+      and closes back to that point when the pointer leaves. Dots at the front
+      are displaced radially OUTWARD, with a tangential twist and a smear along
+      the pointer's own velocity, so the plate is shoved aside ahead of the
+      front and streams behind a moving cursor; behind the front the screen is
+      off and the footage is bare. What is revealed is the shared green noir
+      plate (`core/noirPlate.jsx`), never the colour photograph — colour would
+      make the opening a different picture rather than a closer look at this
+      one. `focusRadius` is the width of that front, not the size of a disc.
+
+   3. Scroll. No front and no opening: the screen gets finer until it lets go.
+      At rest the band prints the house halftone exactly as it always has;
+      scrolling (`revealDistance`) brings in a second generation of dots
+      between the existing ones, each on its own delay, and eases every dot
+      down toward the finer spacing they now share, so the picture gains
+      resolution. Over the last of the runway the ink fades out altogether and
+      the footage is simply there, in its own colour, with no aperture: the
+      picture arrives by getting clearer, not by being uncovered. The band also
+      grows by `grow` against a bottom edge that does not move. Only past that
+      does it let go from the bottom edge upward: each
+      dot's exit time is its own height in the band plus its noise, so the
+      halftone erodes as a soft rising front rather than a rectangle fading. The
+      band moves up faster than the page (so it leaves the screen while the
+      block beneath is still arriving) and the footage under it goes first,
+      which is what makes the block underneath read as uncovered rather than
+      scrolled to.
+
+   Reduced motion: no drift, no exit animation, one static screen.
+
+   Cost note: this is a per-frame repaint of ~10-20k arcs. It is affordable
+   because the band is short and the dots are bucketed into six paths; do not
+   run two of these on one page, and do not lower `pitch` below 5 at this
+   height. */
+
+const TONES = {
+  get ink() {
+    return __ds_scope.tokenRgb('--ink', '0, 41, 0');
+  },
+  get 'ink-wash'() {
+    return __ds_scope.tokenRgb('--ink-lift', '0, 55, 11');
+  },
+  get 'ink-lift'() {
+    return __ds_scope.tokenRgb('--ink-lift', '0, 55, 11');
+  },
+  get paper() {
+    return __ds_scope.tokenRgb('--paper', '229, 223, 219');
+  }
+};
+const BUCKETS = 6;
+/* Fill order inside each coarse cell — dispersed, so every added generation of
+   dots lands between the ones already printed instead of thickening a corner. */
+
+function smooth01(x, a, b) {
+  const t = Math.min(1, Math.max(0, (x - a) / (b - a)));
+  return t * t * (3 - 2 * t);
+}
+/* Integer hash on lattice index, not on coordinates: a sin-based hash over
+   multiples of the pitch repeats at a low period and lays visible diagonal
+   streaks across the field. */
+function rnd(i, j) {
+  let h = (i | 0) * 374761393 + (j | 0) * 668265263;
+  h = (h ^ h >> 13) * 1274126177;
+  h = h ^ h >> 16;
+  return (h >>> 0) % 100000 / 100000;
+}
+function FilmBand({
+  src = null,
+  poster = null,
+  alt = '',
+  height = '30vh',
+  pitch = 5,
+  tone = 'ink',
+  intensity = 0.95,
+  exposure = 1,
+  focusRadius = 190,
+  screenAngle = 18,
+  fullBleed = false,
+  scrollExit = true,
+  revealDistance = 0,
+  reveal = null,
+  grow = 0.3,
+  exitDistance = 0.34,
+  exit = 0,
+  exitLift = 40,
+  noir = __ds_scope.NOIR_CONTRAST,
+  ground = 'var(--reveal-ground)',
+  drift,
+  style
+}) {
+  const boxRef = React.useRef(null);
+  const plateRef = React.useRef(null);
+  const canvasRef = React.useRef(null);
+  const mediaRef = React.useRef(null);
+  const stillRef = React.useRef(null);
+  const videoRef = React.useRef(null);
+  /* The footage is a few hundred kilobytes and decodes late; the poster is one
+     image. The band therefore screens the poster from the first frame and only
+     hands the plate over to the video once it can actually play, so the
+     opening screen is never an empty ground waiting for a download. */
+  const [videoReady, setVideoReady] = React.useState(false);
+  const geomRef = React.useRef(null);
+  const sampleRef = React.useRef(null);
+  const cdfRef = React.useRef(null);
+  const framesRef = React.useRef(0);
+  const rafRef = React.useRef(0);
+  const readyRef = React.useRef(false);
+  /* Pointer state lives in refs, not state: this is read once per frame and
+     must never cause a React render. */
+  const pRef = React.useRef({
+    x: 0,
+    y: 0,
+    tx: 0,
+    ty: 0,
+    vx: 0,
+    vy: 0,
+    edge: 0,
+    eff: 0,
+    on: false
+  });
+  const wrapRef = React.useRef(null);
+  const exitRef = React.useRef(exit);
+  const revealRef = React.useRef(0);
+  const exitMaskRef = React.useRef('');
+  const isVideo = !!src;
+  const useDrift = drift == null ? !isVideo : drift;
+  /* The ref callbacks only run when the elements mount, and the video mounts
+     before it is playable — so the handover is made here, once. */
+  React.useEffect(() => {
+    if (!isVideo) return;
+    mediaRef.current = videoReady ? videoRef.current : stillRef.current;
+    readyRef.current = false;
+  }, [videoReady, isVideo]);
+  const reduced = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)').matches : false;
+  React.useEffect(() => {
+    if (!scrollExit) exitRef.current = exit;
+  }, [exit, scrollExit]);
+  /* Densification only exists where there is a reveal to run it: a pointer-only
+     band prints the full screen at rest, as it always has. */
+  const densify = revealDistance > 0 || reveal != null;
+  React.useEffect(() => {
+    if (reveal != null) revealRef.current = Math.min(1, Math.max(0, reveal));
+  }, [reveal]);
+
+  /* Scroll exit. The band belongs to the opening screen, so the rig is the
+     page's own scroll offset — no observer, no second source of truth. */
+  React.useEffect(() => {
+    if (!scrollExit) return;
+    const read = () => {
+      const y = window.scrollY || window.pageYOffset || 0;
+      /* The opening comes first and the exit waits for it: `revealDistance` of
+         scroll goes to the front travelling out, the plate letting go of its
+         green and the band growing, and only past that does the bottom edge
+         begin to fade. With no reveal distance the band behaves as before. */
+      const rd = revealDistance > 0 ? Math.max(120, revealDistance * window.innerHeight) : 0;
+      if (rd > 0) revealRef.current = Math.min(1, Math.max(0, y / rd));
+      const d = Math.max(120, exitDistance * window.innerHeight);
+      /* The exit overlaps the last of the opening: the bottom edge starts
+         going just before the band has finished growing, so the two read as
+         one movement instead of a pause between them. */
+      exitRef.current = Math.min(1, Math.max(0, (y - rd * 0.88) / d));
+    };
+    read();
+    window.addEventListener('scroll', read, {
+      passive: true
+    });
+    window.addEventListener('resize', read);
+    return () => {
+      window.removeEventListener('scroll', read);
+      window.removeEventListener('resize', read);
+    };
+  }, [scrollExit, exitDistance, revealDistance]);
+  const build = React.useCallback(() => {
+    const box = boxRef.current,
+      canvas = canvasRef.current,
+      wrap = wrapRef.current;
+    if (!box || !canvas || !wrap) return;
+    /* The band grows by uncovering its own top edge, not by relaying out: the
+       lattice and the crop are built once at the grown height and the box is
+       clipped down to the resting height, so growth costs a clip-path write
+       per frame instead of a full rebuild of the screen. */
+    const baseH = wrap.clientHeight;
+    const growPx = revealDistance > 0 && grow > 0 ? Math.round(baseH * grow) : 0;
+    box.style.height = growPx ? baseH + growPx + 'px' : '100%';
+    const w = box.clientWidth,
+      h = box.clientHeight;
+    if (!w || !h) {
+      geomRef.current = null;
+      return;
+    }
+    /* 1.5 rather than devicePixelRatio: this repaints every frame, and the
+       dots are small enough that the third device pixel buys nothing. */
+    const dpr = Math.min(1.5, window.devicePixelRatio || 1);
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+    canvas.style.width = w + 'px';
+    canvas.style.height = h + 'px';
+    const a = screenAngle * Math.PI / 180,
+      cosA = Math.cos(a),
+      sinA = Math.sin(a);
+    let uMin = Infinity,
+      uMax = -Infinity,
+      vMin = Infinity,
+      vMax = -Infinity;
+    for (const [px, py] of [[0, 0], [w, 0], [0, h], [w, h]]) {
+      const u = px * cosA + py * sinA,
+        v = -px * sinA + py * cosA;
+      if (u < uMin) uMin = u;
+      if (u > uMax) uMax = u;
+      if (v < vMin) vMin = v;
+      if (v > vMax) vMax = v;
+    }
+    const xs = [],
+      ys = [],
+      ns = [],
+      os = [];
+    /* The resting screen is the house halftone, untouched: one generation on
+       the lattice itself, always printed. Where there is a reveal to run, a
+       second generation sits in the middle of every cell and arrives across
+       the scroll — the screen gains dots rather than changing the ones it has. */
+    const gens = densify ? [0, 0.5] : [0];
+    for (const ofs of gens) {
+      let iv = 0;
+      for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch, iv++) {
+        let iu = 0;
+        for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch, iu++) {
+          const uu = u + ofs * pitch,
+            vv = v + ofs * pitch;
+          const x = uu * cosA - vv * sinA,
+            y = uu * sinA + vv * cosA;
+          if (x < -pitch || y < -pitch || x > w + pitch || y > h + pitch) continue;
+          const n = rnd(iu + (ofs ? 9173 : 0), iv);
+          xs.push(x);
+          ys.push(y);
+          ns.push(n);
+          /* 0 = printed at rest; otherwise where in the reveal it arrives, each
+             on its own delay so the generation does not snap in as one. */
+          os.push(ofs ? 0.12 + 0.62 * n : 0);
+        }
+      }
+    }
+    const cols = Math.max(8, Math.round(w / (pitch * 0.6)));
+    const rows = Math.max(8, Math.round(h / (pitch * 0.6)));
+    const off = document.createElement('canvas');
+    off.width = cols;
+    off.height = rows;
+    const p0 = pRef.current;
+    if (!p0.on && p0.edge < 0.5) {
+      p0.x = p0.tx = w / 2;
+      p0.y = p0.ty = h - baseH / 2;
+    }
+    geomRef.current = {
+      w,
+      h,
+      dpr,
+      grow: growPx,
+      xs: Float32Array.from(xs),
+      ys: Float32Array.from(ys),
+      ns: Float32Array.from(ns),
+      os: Float32Array.from(os),
+      cols,
+      rows,
+      off,
+      octx: off.getContext('2d', {
+        willReadFrequently: true
+      }),
+      lum: new Float32Array(cols * rows),
+      tone: new Float32Array(cols * rows)
+    };
+    cdfRef.current = null;
+    sampleRef.current = null;
+  }, [pitch, screenAngle, grow, revealDistance, densify]);
+  React.useEffect(() => {
+    build();
+    if (typeof ResizeObserver === 'undefined') return;
+    /* The wrapper, never the box — the box's height is written by `build`, and
+       observing it would rebuild the screen forever. */
+    const ro = new ResizeObserver(() => build());
+    if (wrapRef.current) ro.observe(wrapRef.current);
+    return () => ro.disconnect();
+  }, [build]);
+
+  /* Drift for the still placeholder: the plate is slowly panned and zoomed so
+     the screen is never a frozen pattern. The sampling crop and the CSS
+     transform on the media element are two expressions of one movement — they
+     must agree, or the unmasked footage sits offset from its own halftone. */
+  const driftAt = t => {
+    if (!useDrift || reduced) return {
+      z: 1,
+      ox: 0,
+      oy: 0
+    };
+    return {
+      z: 1.09 + 0.045 * Math.sin(t / 9000),
+      ox: 0.028 * Math.sin(t / 12500),
+      oy: 0.018 * Math.cos(t / 15500)
+    };
+  };
+  const sample = t => {
+    const g = geomRef.current,
+      el = mediaRef.current;
+    if (!g || !el) return false;
+    const sw0 = el.videoWidth || el.naturalWidth || 0;
+    const sh0 = el.videoHeight || el.naturalHeight || 0;
+    if (!sw0 || !sh0) return false;
+    const {
+      z,
+      ox,
+      oy
+    } = driftAt(t);
+    const ir = sw0 / sh0,
+      wr = g.w / g.h;
+    let cx, cy, cw, ch;
+    if (ir > wr) {
+      ch = sh0;
+      cw = ch * wr;
+    } else {
+      cw = sw0;
+      ch = cw / wr;
+    }
+    cw /= z;
+    ch /= z;
+    cx = (sw0 - cw) / 2 + ox * sw0;
+    cy = (sh0 - ch) / 2 + oy * sh0;
+    cx = Math.min(Math.max(0, cx), sw0 - cw);
+    cy = Math.min(Math.max(0, cy), sh0 - ch);
+    try {
+      g.octx.drawImage(el, cx, cy, cw, ch, 0, 0, g.cols, g.rows);
+    } catch (err) {
+      return false;
+    }
+    const data = g.octx.getImageData(0, 0, g.cols, g.rows).data;
+    const n = g.cols * g.rows;
+    for (let i = 0; i < n; i++) {
+      const j = i * 4;
+      g.lum[i] = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
+    }
+    /* Equalisation is recomputed on a slow cadence, not per frame: per-frame
+       equalisation makes the whole screen breathe as the footage changes, and
+       never at all leaves a dark interior as one solid mass of ink. */
+    if (!cdfRef.current || framesRef.current % 40 === 0) {
+      const hist = new Float32Array(256);
+      for (let i = 0; i < n; i++) hist[g.lum[i] * 255 | 0]++;
+      const cdf = new Float32Array(256);
+      let acc = 0;
+      for (let b = 0; b < 256; b++) {
+        acc += hist[b];
+        cdf[b] = acc / n;
+      }
+      cdfRef.current = cdf;
+    }
+    const cdf = cdfRef.current;
+    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
+    for (let i = 0; i < n; i++) {
+      const rank = 1 - cdf[g.lum[i] * 255 | 0];
+      g.tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
+    }
+    return true;
+  };
+  const paint = () => {
+    const g = geomRef.current,
+      canvas = canvasRef.current;
+    if (!g || !canvas) return;
+    const ctx = canvas.getContext('2d');
+    const p = pRef.current;
+    const e = exitRef.current;
+    const rgb = TONES[tone] || TONES.ink;
+    const maxR = pitch * 0.46;
+    const edge = p.eff;
+    const band = focusRadius;
+    /* Densification. The resting screen is the house halftone at full density;
+       the reveal adds a second generation of dots between them and eases every
+       dot down toward the finer spacing they now share, so the picture gains
+       resolution without the rest state changing. */
+    const dp = smooth01(revealRef.current, 0.02, 0.48);
+    const rScale = 1 - 0.28 * dp;
+    /* Handover. Once the screen has resolved as far as it is going to, the ink
+       itself lets go and the footage underneath is simply there — the picture
+       arrives by getting clearer and clearer, not by being uncovered. */
+    const hand = smooth01(revealRef.current, 0.42, 0.74);
+    if (hand >= 0.999) {
+      ctx.save();
+      ctx.scale(g.dpr, g.dpr);
+      ctx.clearRect(0, 0, g.w, g.h);
+      ctx.restore();
+      return;
+    }
+    ctx.save();
+    ctx.scale(g.dpr, g.dpr);
+    ctx.clearRect(0, 0, g.w, g.h);
+    const paths = [];
+    for (let b = 0; b < BUCKETS; b++) paths.push(new Path2D());
+    for (let i = 0; i < g.xs.length; i++) {
+      let x = g.xs[i],
+        y = g.ys[i];
+      const n = g.ns[i];
+      /* bilinear sample — nearest sampling is what makes a rotated screen jagged */
+      const fx = x / g.w * (g.cols - 1),
+        fy = y / g.h * (g.rows - 1);
+      const x0 = Math.min(g.cols - 1, Math.max(0, fx | 0)),
+        y0 = Math.min(g.rows - 1, Math.max(0, fy | 0));
+      const x1 = x0 + 1 < g.cols ? x0 + 1 : x0,
+        y1 = y0 + 1 < g.rows ? y0 + 1 : y0;
+      const tx = fx - x0,
+        ty = fy - y0;
+      const tv = (g.tone[y0 * g.cols + x0] * (1 - tx) + g.tone[y0 * g.cols + x1] * tx) * (1 - ty) + (g.tone[y1 * g.cols + x0] * (1 - tx) + g.tone[y1 * g.cols + x1] * tx) * ty;
+      if (tv <= 0.01) continue;
+
+      /* Radius is LINEAR in tone, not sqrt: the same screen `ImageReveal`
+         prints. sqrt(tone) is the correct ink-area mapping for a closing
+         plate, but on an open screen it pushes every mid-tone cell to nearly
+         full radius, which is what closes the field up into a dense mass.
+         Linear keeps the light range as bare paper and the range of dot sizes
+         wide, so the band reads as a print rather than a grid. Ink is flat and
+         full-strength; size alone carries tone. */
+      /* Rest dots (arrival 0) are always printed; the added generation comes in
+         on its own delay. */
+      const on = g.os[i] === 0 ? 1 : smooth01(dp - g.os[i], -0.02, 0.22);
+      if (on <= 0.002) continue;
+      let r = maxR * rScale * tv * (0.9 + 0.2 * n) * (0.45 + 0.55 * on);
+      let a = on * (1 - hand);
+      if (edge > 0.5) {
+        const dx = x - p.x,
+          dy = y - p.y;
+        const dist = Math.hypot(dx, dy);
+        /* Position relative to the opening front: below zero the screen has not
+           been reached yet, above one the plate is off and the frame is bare. */
+        const s = (edge - dist) / band;
+        if (s > -0.25) {
+          const c = smooth01(s, 0, 1);
+          /* A crest riding just behind the front: those dots are the ones being
+             shoved out of the way, so they move furthest. */
+          const f = Math.exp(-Math.pow((s - 0.3) / 0.5, 2));
+          const inv = dist > 0.01 ? 1 / dist : 0;
+          const ux = dx * inv,
+            uy = dy * inv;
+          const push = band * 0.42 * f;
+          /* outward + a quarter-turn twist + the pointer's own velocity, so the
+             plate is shoved aside rather than dissolved, and streams behind a
+             moving cursor */
+          x += ux * push - uy * push * 0.28 + p.vx * f * 1.1;
+          y += uy * push + ux * push * 0.28 + p.vy * f * 1.1;
+          r *= (1 - 0.94 * c) * (1 - 0.3 * f);
+          a *= 1 - 0.96 * c;
+        }
+      }
+      if (e > 0.001) {
+        const lt = e * 1.55 - (1 - y / g.h) * 0.5 - n * 0.2;
+        if (lt > 0) {
+          const go = smooth01(lt, 0, 0.55);
+          a *= 1 - go;
+          r *= 1 - 0.55 * go;
+          y -= lt * 26;
+          x += (n - 0.5) * lt * 18;
+        }
+      }
+      if (r <= 0.22 || a <= 0.02) continue;
+      const b = Math.min(BUCKETS - 1, Math.floor(a * BUCKETS));
+      paths[b].moveTo(x + r, y);
+      paths[b].arc(x, y, r, 0, Math.PI * 2);
+    }
+    for (let b = 0; b < BUCKETS; b++) {
+      const a = (b + 0.5) / BUCKETS * intensity;
+      ctx.fillStyle = 'rgba(' + rgb + ', ' + a.toFixed(3) + ')';
+      ctx.fill(paths[b]);
+    }
+    ctx.restore();
+  };
+
+  /* One loop: pointer easing, sampling, paint, and the band's own exit
+     transform. Everything the band does is read from refs here, so a moving
+     pointer never renders React. */
+  React.useEffect(() => {
+    let last = performance.now();
+    const step = now => {
+      rafRef.current = requestAnimationFrame(step);
+      const dt = Math.min(64, now - last);
+      last = now;
+      const p = pRef.current;
+      const g = geomRef.current;
+      const box = boxRef.current,
+        media = mediaRef.current,
+        canvas = canvasRef.current;
+      if (!g || !box) return;
+      const rp = revealRef.current;
+      /* Growth is uncovering: the clip retracts from the top edge, so the band
+         gains height against a bottom edge that has not moved. */
+      const gp = smooth01(rp, 0, 0.92);
+      const visTop = g.grow > 0 ? (1 - gp) * g.grow : 0;
+      if (g.grow > 0) box.style.clipPath = 'inset(' + visTop.toFixed(1) + 'px 0 0 0)';
+      /* With no pointer the scroll front opens from the middle of whatever is
+         currently uncovered, so growth and opening share one centre. */
+      if (!p.on) {
+        p.tx = g.w / 2;
+        p.ty = visTop + (g.h - visTop) * 0.5;
+      }
+
+      /* Lag is the whole character of the opening: the front is centred where
+         the pointer WAS a moment ago and catches up, so fast movement smears. */
+      const ease = 1 - Math.pow(0.0025, dt / 1000);
+      const nx = p.x + (p.tx - p.x) * ease;
+      const ny = p.y + (p.ty - p.y) * ease;
+      p.vx = Math.max(-46, Math.min(46, (nx - p.x) * (16 / Math.max(1, dt)) * 5));
+      p.vy = Math.max(-46, Math.min(46, (ny - p.y) * (16 / Math.max(1, dt)) * 5));
+      p.x = nx;
+      p.y = ny;
+      /* The opening is not a peephole: from the point the pointer entered, the
+         front travels out until it has taken the whole band, and closes back
+         to that point when the pointer leaves. `focusRadius` is now the width
+         of the travelling front, not the size of a disc. */
+      const reach = Math.hypot(Math.max(p.x, g.w - p.x), Math.max(p.y, g.h - p.y)) + focusRadius * 0.8;
+      const target = p.on ? reach : 0;
+      p.edge += (target - p.edge) * (1 - Math.pow(p.on ? 0.03 : 0.0015, dt / 1000));
+      /* Scroll no longer drives a front — it drives the screen's density. The
+         travelling opening is the pointer's alone. */
+      p.eff = p.edge;
+      const e = exitRef.current;
+      const eo = 1 - Math.pow(1 - e, 2);
+      /* A short lift, not a departure: the band only has to let go of the
+         bottom edge — the erosion front is what carries it off, and a full
+         band-height travel drags it up over the wordmark. */
+      box.style.transform = 'translate3d(0,' + Math.round(-eo * exitLift) + 'px,0)';
+      /* The band carries its own ground, because the block it uncovers sits
+         behind it from the start. Ground and screen therefore have to retract
+         together: one soft front, rising from the bottom edge, doing to the
+         paper what the per-dot exit does to the ink. */
+      const m = e > 0.001 ? 'linear-gradient(to top, rgba(0,0,0,0) ' + (e * 132 - 12).toFixed(1) + '%, rgba(0,0,0,1) ' + (e * 132 + 24).toFixed(1) + '%)' : 'none';
+      box.style.webkitMaskImage = m;
+      box.style.maskImage = m;
+      exitMaskRef.current = e > 0.001 ? m : '';
+      box.style.pointerEvents = e > 0.35 ? 'none' : 'auto';
+      /* The retract mask is fully transparent at e≈0.85, so anything still
+         painted past that is a seam, not a picture: one antialiased row at the
+         gradient's own edge reads as a hairline of footage lying across the
+         block underneath. The box goes for good at that point. */
+      const gone = e >= 0.85;
+      if (box.style.visibility === 'hidden' !== gone) box.style.visibility = gone ? 'hidden' : 'visible';
+      if (gone) {
+        if (canvas.style.visibility !== 'hidden') {
+          canvas.style.visibility = 'hidden';
+          if (plateRef.current) plateRef.current.style.opacity = '0';
+        }
+        return;
+      }
+      canvas.style.visibility = 'visible';
+      framesRef.current++;
+      if (isVideo || !readyRef.current || useDrift || p.eff > 0.5 || e > 0.001) {
+        if (sample(now)) readyRef.current = true;
+      }
+      if (!readyRef.current) return;
+      if (media) {
+        const {
+          z,
+          ox,
+          oy
+        } = driftAt(now);
+        media.style.transform = 'translate(' + (-ox * z * 100).toFixed(3) + '%,' + (-oy * z * 100).toFixed(3) + '%) scale(' + z.toFixed(4) + ')';
+      }
+      const plate = plateRef.current;
+      if (plate) {
+        /* The plate is bare wherever the front has passed, and it is the first
+           thing to go on scroll. */
+        const edge = p.eff;
+        const inner = edge > 1 ? Math.max(0, (edge - focusRadius) / edge * 100) : 0;
+        /* Scroll hands the plate over whole, not through an opening: as the ink
+           lets go the footage is simply there, in its own colour. */
+        const sOp = smooth01(rp, 0.4, 0.72);
+        /* Scrolling lets go of the green as well as of the screen: by the time
+           the front has taken the whole band the footage is its own colour.
+           The pointer keeps the plate — a closer look at this picture, not a
+           different one. */
+        plate.style.setProperty('--noir-mix', (1 - smooth01(rp, 0.06, 0.94)).toFixed(3));
+        /* The plate dims on the way out only where the halftone is still there
+           to erode. Past the handover there are no dots left, so a dimming
+           plate would leave bare ground sliding away: the retract mask carries
+           the exit alone. */
+        const fade = Math.pow(1 - Math.min(1, e * 1.6), 1.5);
+        const dim = 1 - (1 - fade) * smooth01(1 - rp, 0.1, 0.6);
+        plate.style.opacity = (Math.max(Math.min(1, Math.max(0, edge - 2) / 6), sOp) * dim).toFixed(3);
+        const mask = 'radial-gradient(circle ' + Math.max(0.5, edge).toFixed(1) + 'px at ' + p.x.toFixed(1) + 'px ' + p.y.toFixed(1) + 'px, rgba(0,0,0,1) 0%, rgba(0,0,0,1) ' + inner.toFixed(1) + '%, rgba(0,0,0,0.35) ' + (inner + (100 - inner) * 0.55).toFixed(1) + '%, rgba(0,0,0,0) 100%)';
+        /* The retract gradient is intersected into the plate's own mask as well
+           as sitting on the box. A live <video> composites on its own layer,
+           and a mask on an ancestor can leave one antialiased row at that
+           layer's bottom edge — which reads as a solid stroke of footage lying
+           across the block underneath as the band fades. Masking the plate
+           itself takes that edge with it. */
+        const em = exitMaskRef.current;
+        /* Past the handover the whole plate is shown: no pointer aperture. */
+        if (sOp > 0.01) {
+          plate.style.maskComposite = 'add';
+          plate.style.webkitMaskComposite = 'source-over';
+          plate.style.webkitMaskImage = em || 'none';
+          plate.style.maskImage = em || 'none';
+          paint();
+          return;
+        }
+        plate.style.maskComposite = em ? 'intersect' : 'add';
+        plate.style.webkitMaskComposite = em ? 'source-in' : 'source-over';
+        plate.style.webkitMaskImage = em ? mask + ', ' + em : mask;
+        plate.style.maskImage = em ? mask + ', ' + em : mask;
+      }
+      paint();
+    };
+    rafRef.current = requestAnimationFrame(step);
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      rafRef.current = 0;
+    };
+  });
+  const mediaStyle = {
+    position: 'absolute',
+    inset: 0,
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    transformOrigin: 'center',
+    pointerEvents: 'none'
+  };
+  const onMove = ev => {
+    const box = boxRef.current;
+    if (!box) return;
+    const r = box.getBoundingClientRect();
+    const p = pRef.current;
+    if (!p.on) {
+      p.x = ev.clientX - r.left;
+      p.y = ev.clientY - r.top;
+    }
+    p.tx = ev.clientX - r.left;
+    p.ty = ev.clientY - r.top;
+    p.on = true;
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: '100%',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: fullBleed ? {
+      width: '100%'
+    } : {
+      maxWidth: 'var(--max-width)',
+      margin: '0 auto',
+      paddingInline: 'var(--margin)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: wrapRef,
+    style: {
+      position: 'relative',
+      height: height
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: boxRef,
+    onPointerMove: onMove,
+    onPointerEnter: onMove,
+    onPointerLeave: () => {
+      pRef.current.on = false;
+    },
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      height: '100%',
+      overflow: 'clip',
+      background: ground,
+      willChange: 'transform, mask-image, clip-path',
+      cursor: 'crosshair'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: plateRef,
+    style: {
+      position: 'absolute',
+      inset: 0,
+      opacity: 0,
+      willChange: 'mask-image, opacity'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.NoirPlate, {
+    noir: noir
+  }, isVideo ? /*#__PURE__*/React.createElement("video", {
+    ref: el => {
+      videoRef.current = el;
+      if (videoReady) mediaRef.current = el;
+    },
+    src: src,
+    poster: poster || undefined,
+    preload: "auto",
+    autoPlay: true,
+    muted: true,
+    loop: true,
+    playsInline: true,
+    "aria-hidden": "true",
+    onLoadedData: () => setVideoReady(true),
+    onCanPlay: () => setVideoReady(true),
+    style: {
+      ...mediaStyle,
+      opacity: videoReady ? 1 : 0
+    }
+  }) : null, isVideo && videoReady ? null : /*#__PURE__*/React.createElement("img", {
+    ref: el => {
+      stillRef.current = el;
+      if (!videoReady) mediaRef.current = el;
+    },
+    src: poster,
+    alt: "",
+    "aria-hidden": "true",
+    style: mediaStyle
+  }))), /*#__PURE__*/React.createElement("canvas", {
+    ref: canvasRef,
+    style: {
+      position: 'absolute',
+      inset: 0,
+      display: 'block',
+      pointerEvents: 'none'
+    }
+  }), alt ? /*#__PURE__*/React.createElement("span", {
+    className: "visually-hidden",
+    style: {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)',
+      whiteSpace: 'nowrap'
+    }
+  }, alt) : null))));
+}
+Object.assign(__ds_scope, { FilmBand });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/FilmBand.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/ImageScreen.jsx
+try { (() => {
+/* A standing halftone screen. Same rotated, histogram-equalised dot field as
+   `ImageReveal`, with the reveal taken out: there is no travelling front, no
+   closure into the plate and no photograph underneath, so the image is a
+   printed screen for as long as it is on the page and never resolves.
+
+   What scroll drives instead is the screen itself. The element's position in
+   the viewport feeds two crossing waves that ride through the dot field —
+   density shifts across the frame as the page moves, and stops when the page
+   stops. Nothing arrives and nothing finishes; the plate is the final state.
+
+   Use it where an image is a surface a page is built on — an article banner
+   with the title over it — and `ImageReveal` where the print arriving is the
+   event. */
+
+const RATIOS = {
+  '3:2': '3 / 2',
+  '4:5': '4 / 5',
+  '21:9': '21 / 9'
+};
+const INK = () => 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
+const TAU = Math.PI * 2;
+function ImageScreen({
+  src,
+  alt = '',
+  ratio = '3:2',
+  bleed = false,
+  minHeight,
+  gridSize = 4,
+  dynamics = 0.6,
+  exposure = 1,
+  screenAngle = 18,
+  drift = 1,
+  className = '',
+  style
+}) {
+  const wrapRef = React.useRef(null);
+  const canvasRef = React.useRef(null);
+  const imgRef = React.useRef(null);
+  const gridRef = React.useRef(null);
+  const shiftRef = React.useRef(null);
+  const [ready, setReady] = React.useState(false);
+  React.useEffect(() => {
+    if (!src) return;
+    let cancelled = false;
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => {
+      if (!cancelled) {
+        imgRef.current = img;
+        setReady(true);
+      }
+    };
+    img.src = src;
+    return () => {
+      cancelled = true;
+    };
+  }, [src]);
+
+  /* One pass over the dot field. `s` is the element's travel through the
+     viewport, 0 as it enters from below to 1 as it leaves at the top; it sets
+     the phase of both waves and nothing else. Every dot is drawn on every
+     frame — there is no band and no arrival. */
+  const draw = React.useCallback(s => {
+    const canvas = canvasRef.current,
+      grid = gridRef.current;
+    if (!canvas || !grid) return;
+    const {
+      w,
+      h,
+      cols,
+      rows,
+      dpr,
+      tone,
+      dyn,
+      pitch,
+      cosA,
+      sinA
+    } = grid;
+    const ctx = canvas.getContext('2d');
+    ctx.save();
+    ctx.scale(dpr, dpr);
+    ctx.clearRect(0, 0, w, h);
+    const maxR = pitch * 0.46;
+    const amp = 0.3 * drift;
+    let uMin = Infinity,
+      uMax = -Infinity,
+      vMin = Infinity,
+      vMax = -Infinity;
+    for (const [x, y] of [[0, 0], [w, 0], [0, h], [w, h]]) {
+      const u = x * cosA + y * sinA,
+        v = -x * sinA + y * cosA;
+      if (u < uMin) uMin = u;
+      if (u > uMax) uMax = u;
+      if (v < vMin) vMin = v;
+      if (v > vMax) vMax = v;
+    }
+    const diag = w + h;
+    const path = new Path2D();
+    for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch) {
+      for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch) {
+        const x = u * cosA - v * sinA,
+          y = u * sinA + v * cosA;
+        if (x < 0 || y < 0 || x >= w || y >= h) continue;
+        const fx = x / w * (cols - 1),
+          fy = y / h * (rows - 1);
+        const x0 = fx | 0,
+          y0 = fy | 0;
+        const x1 = x0 + 1 < cols ? x0 + 1 : x0,
+          y1 = y0 + 1 < rows ? y0 + 1 : y0;
+        const tx = fx - x0,
+          ty = fy - y0;
+        const i00 = y0 * cols + x0,
+          i10 = y0 * cols + x1,
+          i01 = y1 * cols + x0,
+          i11 = y1 * cols + x1;
+        const t = (tone[i00] * (1 - tx) + tone[i10] * tx) * (1 - ty) + (tone[i01] * (1 - tx) + tone[i11] * tx) * ty;
+        if (t <= 0.02) continue;
+        const d = (dyn[i00] * (1 - tx) + dyn[i10] * tx) * (1 - ty) + (dyn[i01] * (1 - tx) + dyn[i11] * tx) * ty;
+
+        /* Two crossing waves, phased by scroll. The second is oblique and
+           slower, so the interference pattern never repeats within a frame.
+           Structure in the image leads slightly, the same bias the reveal
+           uses, so the shift reads as the photograph breathing rather than as
+           a pattern laid over it. */
+        const nd = (x + y) / diag;
+        const wave = Math.sin(nd * TAU * 2.6 - s * 7.5 + (d - 0.5) * dynamics * 1.6) + 0.5 * Math.sin(x * 0.012 - y * 0.017 + s * 4.2);
+        const radius = maxR * t * (1 + amp * wave * 0.6);
+        if (radius < 0.22) continue;
+        path.moveTo(x + radius, y);
+        path.arc(x, y, radius, 0, TAU);
+      }
+    }
+    ctx.fillStyle = INK();
+    ctx.fill(path);
+    ctx.restore();
+  }, [dynamics, drift]);
+  const buildGrid = React.useCallback(() => {
+    const wrap = wrapRef.current,
+      canvas = canvasRef.current,
+      img = imgRef.current;
+    if (!wrap || !canvas || !img) return;
+    const rect = wrap.getBoundingClientRect();
+    const w = Math.max(1, Math.round(rect.width)),
+      h = Math.max(1, Math.round(rect.height));
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+    const cols = Math.max(2, Math.round(w / (gridSize / 2)));
+    const rows = Math.max(2, Math.round(h / (gridSize / 2)));
+    const off = document.createElement('canvas');
+    off.width = cols;
+    off.height = rows;
+    const octx = off.getContext('2d');
+    const ir = img.naturalWidth / img.naturalHeight,
+      wr = w / h;
+    let sx, sy, sw, sh;
+    if (ir > wr) {
+      sh = img.naturalHeight;
+      sw = sh * wr;
+      sx = (img.naturalWidth - sw) / 2;
+      sy = 0;
+    } else {
+      sw = img.naturalWidth;
+      sh = sw / wr;
+      sx = 0;
+      sy = (img.naturalHeight - sh) / 2;
+    }
+    octx.drawImage(img, sx, sy, sw, sh, 0, 0, cols, rows);
+    const data = octx.getImageData(0, 0, cols, rows).data;
+    const n = cols * rows;
+    const lum = new Float32Array(n),
+      tone = new Float32Array(n),
+      dyn = new Float32Array(n);
+    const hist = new Float32Array(256);
+    for (let i = 0; i < n; i++) {
+      const j = i * 4;
+      const l = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
+      lum[i] = l;
+      hist[l * 255 | 0]++;
+    }
+    const cdf = new Float32Array(256);
+    let acc = 0;
+    for (let b = 0; b < 256; b++) {
+      acc += hist[b];
+      cdf[b] = acc / n;
+    }
+    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
+    for (let i = 0; i < n; i++) {
+      const rank = 1 - cdf[lum[i] * 255 | 0];
+      tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
+    }
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const i = r * cols + c,
+          l = lum[i];
+        let g = 0;
+        if (c > 0) g = Math.max(g, Math.abs(l - lum[i - 1]));
+        if (c < cols - 1) g = Math.max(g, Math.abs(l - lum[i + 1]));
+        if (r > 0) g = Math.max(g, Math.abs(l - lum[i - cols]));
+        if (r < rows - 1) g = Math.max(g, Math.abs(l - lum[i + cols]));
+        dyn[i] = Math.min(1, g * 4);
+      }
+    }
+    const a = screenAngle * Math.PI / 180;
+    gridRef.current = {
+      w,
+      h,
+      cols,
+      rows,
+      dpr,
+      tone,
+      dyn,
+      pitch: gridSize,
+      cosA: Math.cos(a),
+      sinA: Math.sin(a)
+    };
+    draw(shiftRef.current == null ? 0 : shiftRef.current);
+  }, [gridSize, screenAngle, exposure, draw]);
+  React.useEffect(() => {
+    if (!ready) return;
+    buildGrid();
+    let raf = null,
+      inView = true,
+      rebuild = null;
+
+    /* Position only: no clock, so a reader who stops sees a still screen and
+       a reader who scrolls back sees the shift run the other way. */
+    const shiftNow = () => {
+      const wrap = wrapRef.current;
+      if (!wrap) return 0;
+      const rect = wrap.getBoundingClientRect();
+      const span = window.innerHeight + rect.height;
+      return Math.min(1, Math.max(0, (window.innerHeight - rect.top) / Math.max(1, span)));
+    };
+    const reconcile = () => {
+      const wrap = wrapRef.current,
+        built = gridRef.current;
+      if (wrap && built) {
+        const r = wrap.getBoundingClientRect();
+        if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
+          if (rebuild) cancelAnimationFrame(rebuild);
+          rebuild = requestAnimationFrame(() => {
+            rebuild = null;
+            buildGrid();
+          });
+        }
+      }
+      const s = shiftNow();
+      if (shiftRef.current == null || Math.abs(s - shiftRef.current) > 0.0015) {
+        shiftRef.current = s;
+        draw(s);
+      }
+    };
+    const loop = () => {
+      if (!inView) {
+        raf = null;
+        return;
+      }
+      reconcile();
+      raf = requestAnimationFrame(loop);
+    };
+    const start = () => {
+      if (raf == null && inView) raf = requestAnimationFrame(loop);
+    };
+    const onScroll = () => {
+      reconcile();
+      start();
+    };
+    /* The screen is rebuilt on the next frame after the box changes, not on a
+       debounce: the canvas fills its element, so any delay is a frame of a
+       stretched dot field, and a stretched screen reads as broken. The source
+       crop is recomputed with it, so the photograph is cropped like
+       `object-fit: cover` rather than squeezed. */
+    const ro = new ResizeObserver(() => {
+      if (rebuild) cancelAnimationFrame(rebuild);
+      rebuild = requestAnimationFrame(() => {
+        rebuild = null;
+        buildGrid();
+        reconcile();
+      });
+    });
+    ro.observe(wrapRef.current);
+    const io = new IntersectionObserver(entries => {
+      inView = entries[entries.length - 1].isIntersecting;
+      reconcile();
+      start();
+    }, {
+      rootMargin: '20% 0px'
+    });
+    io.observe(wrapRef.current);
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    reconcile();
+    start();
+    return () => {
+      io.disconnect();
+      ro.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (raf != null) cancelAnimationFrame(raf);
+      if (rebuild) cancelAnimationFrame(rebuild);
+    };
+  }, [ready, buildGrid, draw]);
+  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
+  if (!src) {
+    return /*#__PURE__*/React.createElement("div", {
+      role: "img",
+      "aria-label": alt || 'Platshållare för foto',
+      className: className,
+      style: {
+        width: '100%',
+        aspectRatio,
+        minHeight,
+        background: 'var(--surface-tint)',
+        display: 'grid',
+        placeItems: 'center',
+        ...style
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        color: 'var(--ink-65)'
+      }
+    }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio));
+  }
+  return /*#__PURE__*/React.createElement("div", {
+    ref: wrapRef,
+    role: "img",
+    "aria-label": alt,
+    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
+    style: {
+      position: 'relative',
+      width: '100%',
+      aspectRatio,
+      minHeight,
+      overflow: 'hidden',
+      background: 'var(--reveal-ground)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("canvas", {
+    ref: canvasRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      inset: 0,
+      display: 'block'
+    }
+  }));
+}
+Object.assign(__ds_scope, { ImageScreen });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ImageScreen.jsx", error: String((e && e.message) || e) }); }
+
 // components/core/DotField.jsx
 try { (() => {
 /* The dot screen, generalised from ImageReveal into a standalone interaction
@@ -2130,10 +6434,20 @@ try { (() => {
    Ink or paper, nothing between. The element paints nothing at rest, so it can
    sit over any ground. */
 
+/* Read from the tokens at paint time; 'mint' is the former name for stone. */
 const TONES = {
-  ink: '3, 41, 24',
-  paper: '247, 246, 250',
-  mint: '221, 236, 226'
+  get ink() {
+    return __ds_scope.tokenRgb('--ink', '0, 41, 0');
+  },
+  get paper() {
+    return __ds_scope.tokenRgb('--paper', '229, 223, 219');
+  },
+  get stone() {
+    return __ds_scope.tokenRgb('--stone', '201, 201, 202');
+  },
+  get mint() {
+    return __ds_scope.tokenRgb('--stone', '201, 201, 202');
+  }
 };
 const BUCKETS = 7;
 function smooth01(x, a, b) {
@@ -3024,521 +7338,6 @@ function OfficeMap({
 Object.assign(__ds_scope, { VINGE_OFFICES, OfficeMap });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/OfficeMap.jsx", error: String((e && e.message) || e) }); }
 
-// components/core/Figure.jsx
-try { (() => {
-const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
-};
-
-/* Three ratios only. No rounded corners, no borders, no shadows, no overlay
-   gradients. Explicit ratio holds layout before the image lands. */
-function Figure({
-  src,
-  alt = '',
-  ratio = '3:2',
-  caption,
-  bleed = false,
-  priority = false,
-  minHeight,
-  bare = false,
-  className = '',
-  style
-}) {
-  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
-  return /*#__PURE__*/React.createElement("figure", {
-    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
-    style: {
-      margin: 0,
-      ...style
-    }
-  }, src ? /*#__PURE__*/React.createElement("img", {
-    src: src,
-    alt: alt,
-    loading: priority ? 'eager' : 'lazy',
-    fetchpriority: priority ? 'high' : undefined,
-    style: {
-      width: '100%',
-      aspectRatio,
-      objectFit: 'cover',
-      minHeight
-    }
-  }) : /*#__PURE__*/React.createElement("div", {
-    role: "img",
-    "aria-label": alt || 'Platshållare för foto',
-    style: {
-      width: '100%',
-      aspectRatio,
-      minHeight,
-      background: 'var(--ink-12)',
-      display: 'grid',
-      placeItems: 'center',
-      overflow: 'hidden'
-    }
-  }, bare ? null : /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio)), caption ? /*#__PURE__*/React.createElement("figcaption", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)',
-      marginTop: 'var(--space-2)',
-      maxWidth: 'var(--measure-small)',
-      ...(bleed ? {
-        paddingInline: 'var(--margin)',
-        maxWidth: 'calc(var(--measure-small) + 2 * var(--margin))'
-      } : null)
-    }
-  }, caption) : null);
-}
-Object.assign(__ds_scope, { Figure });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Figure.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/GalleryRow.jsx
-try { (() => {
-/* A row of images, each on an explicit column span, each with its own label
-   and short description beneath. Spans are declared rather than divided, so
-   every image edge lands on a column line. */
-function GalleryRow({
-  items = [],
-  spans,
-  ratio = '3:2',
-  style
-}) {
-  const resolved = spans || items.map(() => Math.max(2, Math.floor(8 / Math.max(items.length, 1))));
-  return /*#__PURE__*/React.createElement("section", {
-    style: {
-      paddingBlock: 'var(--section-gap) 0',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      alignItems: 'start'
-    }
-  }, items.map((item, i) => {
-    let start = 1;
-    for (let k = 0; k < i; k++) start += resolved[k] || 2;
-    const span = resolved[i] || 2;
-    return /*#__PURE__*/React.createElement("div", {
-      key: item.label || i,
-      style: {
-        gridColumn: 'span ' + span,
-        marginTop: item.offset || 0
-      },
-      "data-col-start": start
-    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
-      src: item.src,
-      alt: item.alt || '',
-      ratio: item.ratio || ratio
-    }), item.label ? /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        marginTop: 'var(--space-2)',
-        maxWidth: 'none'
-      }
-    }, item.label) : null, item.body ? /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        marginTop: 'var(--space-0)',
-        color: 'var(--text-secondary)'
-      }
-    }, item.body) : null);
-  })));
-}
-Object.assign(__ds_scope, { GalleryRow });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/GalleryRow.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/OffsetGallery.jsx
-try { (() => {
-/* Staggered images at explicit start columns and spans, each vertically
-   offset. Nothing aligns to anything except a column line. */
-function OffsetGallery({
-  items = [],
-  style
-}) {
-  /* Absolute start lines only mean what they say against a fixed eight tracks,
-     so the block owns its own grid rather than reusing .grid, whose column
-     count drops to 4 and 2 below LG. Below 768px it is a single column and the
-     offsets are dropped. */
-  const [narrow, setNarrow] = React.useState(false);
-  React.useEffect(() => {
-    const mq = window.matchMedia('(max-width: 767px)');
-    const sync = () => setNarrow(mq.matches);
-    sync();
-    mq.addEventListener('change', sync);
-    return () => mq.removeEventListener('change', sync);
-  }, []);
-  return /*#__PURE__*/React.createElement("section", {
-    style: {
-      paddingBlock: 'var(--section-gap) 0',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: narrow ? 'minmax(0, 1fr)' : 'repeat(8, minmax(0, 1fr))',
-      gap: 'var(--gutter)',
-      rowGap: 'var(--space-5)',
-      paddingInline: 'var(--margin)',
-      maxWidth: 'var(--max-width)',
-      marginInline: 'auto',
-      alignItems: 'start'
-    }
-  }, items.map((item, i) => /*#__PURE__*/React.createElement("div", {
-    key: i,
-    style: {
-      gridColumn: narrow || !(item.start && item.span) ? '1 / -1' : item.start + ' / span ' + item.span,
-      marginTop: narrow ? 0 : item.offset || 0
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
-    src: item.src,
-    alt: item.alt || '',
-    ratio: item.ratio || '3:2',
-    caption: item.caption
-  })))));
-}
-Object.assign(__ds_scope, { OffsetGallery });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/OffsetGallery.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/MetaLine.jsx
-try { (() => {
-/* The metadata line: sector, date, discipline, count. Parts are separated by
-   a short vertical rule of dots with a wide space either side — never a
-   slash (that is the breadcrumb's separator, and the two were reading as the
-   same thing), never a middle dot, never a comma and never a pipe. The rule
-   is drawn in ink-55 so it reads as punctuation rather than as a third word,
-   and it is aria-hidden so a screen reader gets the parts as a plain
-   comma-delimited list.
-
-   A string is accepted and split on the legacy separators, so an existing
-   "Sektor · 2026" line becomes a correct one without a copy edit. */
-const SPLIT = /\s*[·•|/]\s*/;
-
-/* The separator: dots stacked into a short vertical rule, drawn with a
-   repeating radial gradient rather than glyphs or an SVG, so it inherits the
-   type's size (height and dot pitch in em), stays crisp at any DPR and costs
-   one empty element. */
-const RULE = {
-  display: 'inline-block',
-  width: '2px',
-  height: '0.92em',
-  transform: 'translateY(0.08em)',
-  backgroundImage: 'radial-gradient(circle at 50% 50%, var(--ink-55) 0 1px, transparent 1.05px)',
-  backgroundSize: '2px 0.34em',
-  backgroundRepeat: 'repeat-y'
-};
-
-/* Children may arrive wrapped — a text node in an instrumented host, an
-   element from a CMS field — so they are flattened to plain text before the
-   legacy separators are split on. Without this a wrapped string stringifies
-   to "[object Object]". */
-function text(node) {
-  if (node == null || node === false || node === true) return '';
-  if (typeof node === 'string' || typeof node === 'number') return String(node);
-  if (Array.isArray(node)) return node.map(text).join('');
-  if (node.props) return text(node.props.children);
-  return '';
-}
-function MetaLine({
-  parts,
-  children,
-  as = 'p',
-  gap = 'var(--space-3)',
-  color = 'var(--text-secondary)',
-  className = 'small',
-  style,
-  ...rest
-}) {
-  const list = Array.isArray(parts) ? parts.filter(Boolean) : text(parts != null ? parts : children).split(SPLIT).filter(Boolean);
-  if (!list.length) return null;
-  return React.createElement(as, {
-    className,
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'baseline',
-      gap,
-      color,
-      margin: 0,
-      maxWidth: 'none',
-      ...style
-    },
-    ...rest
-  }, list.map((p, i) => /*#__PURE__*/React.createElement(React.Fragment, {
-    key: i
-  }, i ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: RULE
-  }) : null, /*#__PURE__*/React.createElement("span", null, p))));
-}
-Object.assign(__ds_scope, { MetaLine });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/MetaLine.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/ScrollHold.jsx
-try { (() => {
-/* Semi-sticky: the block is held back against the page for a fixed stretch of
-   scroll, then released to travel normally.
-
-   Not `position: sticky`, which pins absolutely and reads as a fixed panel.
-   Here the block keeps moving — at `1 - hold` of the page's speed — so
-   everything around it (the wordmark shrinking into the header, the film band
-   letting go) moves past it while it stays roughly where it is. Once
-   `distance` of scroll has passed, the lag stops growing and the block carries
-   on at page speed with a constant offset, so nothing has to be undone.
-
-   The transform takes no space, so the lag lets whatever follows ride up into
-   the held block by up to `distance * hold`. Normally the next section's own
-   top spacing absorbs that — on the landing page `--chapter-gap` is wider than
-   the lag. `reserve` adds the maximum lag as bottom margin for the cases where
-   it does not, at the cost of that much empty ground at rest.
-
-   Reduced motion: no hold. One per page — two blocks lagging at different
-   rates reads as a broken page rather than as depth.
-
-   The hold begins when the block is fully in view, so the visitor sees it
-   arrive at page speed and only then feels it resist. */
-
-function ScrollHold({
-  hold = 0.5,
-  distance = '45vh',
-  lead = 0,
-  reserve = false,
-  children,
-  style
-}) {
-  const ref = React.useRef(null);
-  const [pad, setPad] = React.useState(0);
-  React.useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    let frame = 0;
-    let start = 0;
-    let d = 0;
-    let last = -1;
-    const px = v => {
-      const m = String(v).trim();
-      const n = parseFloat(m) || 0;
-      if (m.endsWith('vh') || m.endsWith('svh') || m.endsWith('dvh')) return n / 100 * window.innerHeight;
-      return n;
-    };
-    /* Geometry is measured only on mount and on resize. Reading offsetTop or
-       offsetHeight inside the scroll handler forces a synchronous layout every
-       frame, against a subtree that is itself being transformed — that is what
-       makes the hold stutter and appear to rubber-band. The maths below is
-       unchanged; only when it reads the DOM is. */
-    const measure = () => {
-      d = px(distance);
-      /* The hold starts when the block is fully in view, not when it first
-         appears: slowing a block that is still half behind the film band reads
-         as a stuck page rather than as one element resisting the scroll.
-         offsetTop, not a rect — the rect carries the lag transform. */
-      let top = 0;
-      for (let n = el; n; n = n.offsetParent) top += n.offsetTop;
-      start = Math.max(0, top + el.offsetHeight - window.innerHeight - px(lead));
-      if (reserve) setPad(Math.round(d * hold));
-    };
-    const apply = () => {
-      frame = 0;
-      const y = (window.scrollY || window.pageYOffset || 0) - start;
-      const lag = Math.min(Math.max(0, y), d) * hold;
-      /* Write only on change, and always as a translate3d — swapping to
-         `none` at the bottom end retires the layer mid-scroll and shows up as
-         a jump. */
-      if (Math.abs(lag - last) < 0.05) return;
-      last = lag;
-      el.style.transform = 'translate3d(0,' + lag.toFixed(2) + 'px,0)';
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    const onResize = () => {
-      measure();
-      onScroll();
-    };
-    measure();
-    apply();
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onResize);
-    const ro = typeof ResizeObserver === 'function' ? new ResizeObserver(onResize) : null;
-    if (ro) ro.observe(el);
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onResize);
-      if (ro) ro.disconnect();
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [hold, distance, lead, reserve]);
-  return /*#__PURE__*/React.createElement("div", {
-    ref: ref,
-    style: {
-      willChange: 'transform',
-      transform: 'translate3d(0,0,0)',
-      backfaceVisibility: 'hidden',
-      marginBottom: pad ? pad + 'px' : undefined,
-      ...style
-    }
-  }, children);
-}
-Object.assign(__ds_scope, { ScrollHold });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/ScrollHold.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/SheetWipe.jsx
-try { (() => {
-/* The alternative to the dot screen, so the reveal seam has something to be
-   compared against. A sheet with a hairline on its edge, drawn across the box.
-
-   Two behaviours, because covering and arriving are not the same job. Over a
-   picture (`progress`) it is a cover receding: the sheet is paper, it slides
-   off, and the photograph is uncovered. Where there is nothing behind it
-   (`burst`, `loader`, `still` — a field being clicked, text on its way) a
-   paper sheet on paper would be invisible, so it is an ink band travelling
-   instead: the surface is passed over rather than uncovered.
-
-   The hairline lives inside the sheet, so it rides the edge by construction
-   rather than by a second animation kept in step. */
-
-const COVER = {
-  progress: true
-};
-function SheetWipe({
-  mode = 'burst',
-  origin,
-  playKey = 0,
-  running = true,
-  level = 0.6,
-  progress = 0,
-  duration = 1100,
-  intensity = 1,
-  tone = 'ink',
-  className = '',
-  style
-}) {
-  const wrapRef = React.useRef(null);
-  const sheetRef = React.useRef(null);
-  const hairRef = React.useRef(null);
-  const rafRef = React.useRef(0);
-  const cover = !!COVER[mode];
-
-  /* Percentages on a 1px rule resolve against the rule, not the box: every
-     offset here is in pixels off the measured width.
-      The hairline's side is a function of travel, not a constant. A cover moving
-     right reveals with its LEFT edge; moving back, with its right. A band is
-     the opposite: what leads is the far edge. Hard-coding one side puts the rule
-     outside the clip in half the cases. */
-  const put = React.useCallback(t => {
-    const wrap = wrapRef.current,
-      sheet = sheetRef.current,
-      hair = hairRef.current;
-    if (!wrap || !sheet) return;
-    const w = wrap.clientWidth || 1;
-    const clamped = Math.max(0, Math.min(1, t));
-    const back = origin ? origin.x > w * 0.6 : false;
-    if (hair) {
-      const side = cover ? back ? 'right' : 'left' : back ? 'left' : 'right';
-      hair.style.left = side === 'left' ? '0' : 'auto';
-      hair.style.right = side === 'right' ? '0' : 'auto';
-    }
-    if (cover) {
-      sheet.style.transform = 'translateX(' + (back ? -clamped * w : clamped * w) + 'px)';
-      sheet.style.opacity = '1';
-      return;
-    }
-    const band = w * 0.55;
-    const from = back ? w : -band;
-    const to = back ? -band : w;
-    sheet.style.transform = 'translateX(' + (from + (to - from) * clamped) + 'px)';
-    sheet.style.opacity = String(Math.min(1, intensity) * (clamped <= 0.001 || clamped >= 0.999 ? 0 : 1));
-  }, [cover, origin, intensity]);
-  React.useEffect(() => {
-    if (mode !== 'burst') return;
-    if (!playKey) {
-      put(0);
-      return;
-    }
-    const t0 = performance.now();
-    const step = now => {
-      const t = Math.min(1, (now - t0) / duration);
-      put(t);
-      if (t < 1) rafRef.current = requestAnimationFrame(step);
-    };
-    put(0);
-    rafRef.current = requestAnimationFrame(step);
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  }, [mode, playKey, duration, put]);
-  React.useEffect(() => {
-    if (mode !== 'loader' || !running) return;
-    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduced) {
-      put(0.5);
-      return;
-    }
-    const t0 = performance.now();
-    const period = duration * 1.7;
-    const step = now => {
-      put((now - t0) % period / period);
-      rafRef.current = requestAnimationFrame(step);
-    };
-    rafRef.current = requestAnimationFrame(step);
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  }, [mode, running, duration, put]);
-  React.useEffect(() => {
-    if (mode === 'still') put(level);
-  }, [mode, level, put]);
-  React.useEffect(() => {
-    if (mode === 'progress') put(progress);
-  }, [mode, progress, put]);
-  const paper = tone === 'paper' ? 'var(--ink)' : 'var(--paper)';
-  const hair = tone === 'paper' ? 'var(--paper)' : 'var(--ink)';
-  const wash = tone === 'paper' ? 'linear-gradient(90deg, transparent, color-mix(in srgb, var(--paper) 26%, transparent) 55%, transparent)' : 'linear-gradient(90deg, transparent, color-mix(in srgb, var(--ink) 26%, transparent) 55%, transparent)';
-  return /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
-    "aria-hidden": "true",
-    className: className,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      overflow: 'hidden',
-      pointerEvents: 'none',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: sheetRef,
-    style: {
-      position: 'absolute',
-      top: 0,
-      bottom: 0,
-      left: 0,
-      width: cover ? '100%' : '55%',
-      background: cover ? paper : wash,
-      opacity: cover ? 1 : 0
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    ref: hairRef,
-    style: {
-      position: 'absolute',
-      top: 0,
-      bottom: 0,
-      width: 1,
-      background: hair
-    }
-  })));
-}
-Object.assign(__ds_scope, { SheetWipe });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/SheetWipe.jsx", error: String((e && e.message) || e) }); }
-
 // components/core/RevealEffect.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -3637,1621 +7436,789 @@ function RevealEffect({
 Object.assign(__ds_scope, { setRevealImage, getRevealImage, registerRevealEffect, setRevealEffect, getRevealEffect, listRevealEffects, RevealEffects, RevealEffect });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/RevealEffect.jsx", error: String((e && e.message) || e) }); }
 
-// components/conversation/WorkingIndicator.jsx
+// components/blocks/ImageReveal.jsx
 try { (() => {
-const CLASS = {
-  'display-2': 'display-2',
-  'display-3': 'display-3',
-  lead: 'lead',
-  prose: 'prose',
-  small: 'small'
+const RATIOS = {
+  '3:2': '3 / 2',
+  '4:5': '4 / 5',
+  '21:9': '21 / 9'
 };
-
-/* Under 300ms nothing exists — a flash of a loader is worse than a pause.
-
-   Past it, the ghost is the answer's own silhouette. The copy that is about to
-   arrive is laid out invisibly at its real type sizes, every line box measured,
-   and the effect painted through a mask cut to exactly those lines. So a
-   display-size preamble ghosts as two tall lines, its body as four short ones,
-   a portrait as a 4:5 block — and the answer lands in the space its ghost was
-   already holding, with nothing reflowing.
-
-   One effect instance across the whole silhouette, not one per line: a single
-   pass reads as one thing arriving. */
-
-function lineRects(el, base) {
-  const out = [];
-  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
-  let node;
-  while (node = walker.nextNode()) {
-    const len = node.textContent.length;
-    if (!len) continue;
-    const range = document.createRange();
-    let line = null;
-    for (let i = 0; i < len; i++) {
-      range.setStart(node, i);
-      range.setEnd(node, i + 1);
-      const r = range.getBoundingClientRect();
-      if (!r.width && !r.height) continue;
-      if (line && Math.abs(r.top - line.top) < 2) {
-        line.right = Math.max(line.right, r.right);
-      } else {
-        if (line) out.push(line);
-        line = {
-          top: r.top,
-          bottom: r.bottom,
-          left: r.left,
-          right: r.right
-        };
-      }
-    }
-    if (line) out.push(line);
-  }
-  return out.map(l => {
-    /* The ink box, not the line box: a ghost the full leading tall reads as a
-       stack of bars rather than as text. */
-    const lh = l.bottom - l.top;
-    const ink = Math.max(4, lh * 0.62);
-    return {
-      x: l.left - base.left,
-      y: l.top - base.top + (lh - ink) * 0.52,
-      w: Math.max(2, l.right - l.left),
-      h: ink
-    };
-  });
+const INK = () => 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
+/* Inverted, the dots are laid on ink, so they take mint rather than paper —
+   same swap the plate makes (`NOIR_MINT`). */
+const MINT = () => 'rgb(' + __ds_scope.tokenRgb('--clay', '212, 205, 201') + ')';
+const TAU = Math.PI * 2;
+/* How much faster a driven reveal un-prints than it prints. */
+const REWIND = 2.6;
+function smooth01(x, a, b) {
+  const t = Math.min(1, Math.max(0, (x - a) / (b - a)));
+  return t * t * (3 - 2 * t);
 }
-function WorkingIndicator({
-  active = false,
-  delay = 300,
-  blocks = [],
-  note = 'Läser uppdragsregistret.',
-  src = null,
+
+/* A rotated halftone screen, painted in by a travelling wave.
+   Four things keep it from reading as a pixelated bitmap: the screen sits at
+   an angle to the pixel grid; tone is histogram-equalised per image, so a
+   predominantly dark photograph still spreads across the full range of dot
+   sizes instead of saturating; dot radius is capped below the point where
+   neighbours merge; and the reveal is a soft diagonal front with two crossing
+   sine waves riding on it, so density pulses through rather than switching on.
+   Ink and paper only — the photograph crossfades in at full visibility. */
+/* Device pixels, capped by total area. A viewport-sized reveal on a retina
+   display would otherwise allocate two 50+ megapixel canvases and clear one of
+   them every frame, which is enough to take the tab down. Above the cap the
+   screen is drawn at lower resolution rather than not at all. */
+const MAX_CANVAS_PX = 4.2e6;
+function fitDpr(w, h) {
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const px = w * h * dpr * dpr;
+  return px <= MAX_CANVAS_PX ? dpr : Math.max(1, dpr * Math.sqrt(MAX_CANVAS_PX / px));
+}
+function ImageReveal({
   effect,
+  src,
+  alt = '',
+  ratio = '3:2',
+  bleed = false,
+  minHeight,
+  gridSize = 4,
+  dynamics = 0.6,
+  exposure = 1,
+  screenAngle = 18,
+  playAt = 0.65,
+  duration = 2200,
+  noir = __ds_scope.NOIR_CONTRAST,
+  axis = 'y',
+  align,
+  resolved,
+  restTone = 1,
+  latch,
+  play,
+  restAt = 0,
+  inverted = false,
+  progress,
+  inkColor,
+  focus,
+  frameRef,
+  className = '',
   style
 }) {
-  const [shown, setShown] = React.useState(false);
-  const [mask, setMask] = React.useState(null);
-  const holdRef = React.useRef(null);
+  /* The crop's focal point, [x, y] as fractions of the image. The photograph,
+     the plate and the screen all crop around the same point. */
+  const fx = focus ? focus[0] : 0.5,
+    fy = focus ? focus[1] : 0.5;
+  /* Once triggered the reveal plays on its own clock, so it always runs at the
+     same speed and always finishes — a slow reader and a fast one see the same
+     print. Rewinding is the horizontal-track case: on a carousel the screen is
+     the readout of which card is where, so a card falling back below the
+     trigger has to return to dots. Down the page it does not rewind. */
+  const rewinds = latch != null ? !latch : axis === 'x';
+  /* A driven reveal that rests at nothing has nothing to stand on either: the
+     box is empty until it is asked for, so the reveal ground arrives with the
+     print and leaves with it. A reveal that rests as a plate (`restAt` above
+     zero, or a scroll-bound one) carries the ground from the start. */
+  const grounded = play == null || play || restAt > 0;
+  const wrapRef = React.useRef(null);
+  const canvasRef = React.useRef(null);
+  const duoRef = React.useRef(null);
+  const photoRef = React.useRef(null);
+  const imgRef = React.useRef(null);
+  const gridRef = React.useRef(null);
+  const scrollerRef = React.useRef(null);
+  const progressRef = React.useRef(null);
+  const colorRef = React.useRef(null);
+  /* t: 0 → 1 across the whole reveal, screen first and colour after. Reset to
+     zero whenever the image is fully out of the viewport, at either edge, so a
+     return trip prints it again from dots. */
+  const clockRef = React.useRef({
+    t: 0,
+    last: 0,
+    running: false
+  });
+  const [ready, setReady] = React.useState(false);
+  /* The dot screen is this component's own painter, and it is also the 'dots'
+     entry in the reveal registry. When the house effect is something else, the
+     scroll position is handed to that implementation instead — the same
+     progress, a different reveal, no second scroll rig. */
+  const houseEffect = effect || __ds_scope.getRevealEffect();
+  const delegated = houseEffect !== 'dots';
+  const [scrollP, setScrollP] = React.useState(0);
   React.useEffect(() => {
-    if (!active) {
-      setShown(false);
-      setMask(null);
-      return;
+    if (!src) return;
+    let cancelled = false;
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => {
+      if (!cancelled) {
+        imgRef.current = img;
+        setReady(true);
+      }
+    };
+    img.src = src;
+    return () => {
+      cancelled = true;
+    };
+  }, [src]);
+  const draw = React.useCallback((p, q, v, colorOverride) => {
+    const canvas = canvasRef.current,
+      grid = gridRef.current;
+    if (!canvas || !grid) return;
+    const photoT = smooth01(p, 0.93, 0.96);
+    /* Colour runs at the end of the same clock, after the screen has closed
+       up into the plate. A carousel can hand colour over explicitly instead,
+       since which card is active there is a decision, not a position. */
+    /* Colour is never later than the screen, whichever clock drives it: an
+       eased override still climbing — or a positional clock draining colour on
+       the way back out — leaves the plate at full strength over a photograph
+       that is still visible, which reads as a flick to the negative. The
+       screen's own closure is a floor under the handover in both directions. */
+    const closed = smooth01(p, 0.88, 1);
+    /* Two régimes. On the positional clock the screen's own closure floors the
+       handover, so the plate can never outlast the photograph. Where colour is
+       handed over explicitly it is the whole story: the print finishes in the
+       duotone — the green monochrome a field of portraits rests in — and only
+       the resolved card comes all the way to colour. `restTone` below 1 rests
+       part-way instead. */
+    const colorT = colorOverride != null ? 1 - restTone * (1 - colorOverride) : Math.max(q, closed);
+    if (photoRef.current) photoRef.current.style.opacity = String(photoT);
+    if (duoRef.current) duoRef.current.style.opacity = String(photoT * (1 - colorT));
+    canvas.style.opacity = String(1 - photoT);
+    if (photoT >= 1) return;
+    const {
+      w,
+      h,
+      cols,
+      rows,
+      dpr,
+      tone,
+      tonePlate,
+      dyn,
+      pitch,
+      cosA,
+      sinA
+    } = grid;
+    const ctx = canvas.getContext('2d');
+    ctx.save();
+    ctx.scale(dpr, dpr);
+    ctx.clearRect(0, 0, w, h);
+
+    /* Closure. At the end of the travel the dots stop behaving like a screen:
+       radius switches from the equalised screen tone to the plate's own tone,
+       mapped by ink AREA rather than radius (area = tone is what makes a
+       halftone average out to the same value as continuous tone), so the dots
+       swell, merge, and close up into the plate in place. The crossfade
+       underneath is then between two images of the same weight. */
+    const closeT = smooth01(p, 0.78, 0.92);
+    const maxR = pitch * 0.46; /* screen phase: dots never merge */
+    const closeR = pitch * 0.6; /* closed phase: full coverage at tone 1 */
+    const sizeT = 0.72 + 0.28 * smooth01(p, 0, 0.92);
+    /* Travelling reveal front. It clears the frame by roughly half the travel,
+       so a partly-visible image already reads as a legible ink print of the
+       photograph rather than a diagonal band of specks; the remaining travel
+       is spent on dot growth and closure. */
+    const front = -0.15 + p * 2.3;
+    const settle = smooth01(p, 0.6, 1); /* rhythm fades out as it resolves */
+    const bias = dynamics * 0.22;
+
+    /* Bounding box of the element in the rotated screen basis, so the loop
+       covers the image tightly rather than a square that contains it. */
+    let uMin = Infinity,
+      uMax = -Infinity,
+      vMin = Infinity,
+      vMax = -Infinity;
+    for (const [x, y] of [[0, 0], [w, 0], [0, h], [w, h]]) {
+      const u = x * cosA + y * sinA,
+        v = -x * sinA + y * cosA;
+      if (u < uMin) uMin = u;
+      if (u > uMax) uMax = u;
+      if (v < vMin) vMin = v;
+      if (v > vMax) vMax = v;
     }
-    const id = window.setTimeout(() => setShown(true), delay);
-    return () => window.clearTimeout(id);
-  }, [active, delay]);
-  React.useLayoutEffect(() => {
-    if (!shown) return;
-    const el = holdRef.current;
-    if (!el) return;
-    const measure = () => {
-      const base = el.getBoundingClientRect();
-      const rects = [];
-      el.querySelectorAll('[data-ghost-text]').forEach(n => rects.push(...lineRects(n, base)));
-      el.querySelectorAll('[data-ghost-box]').forEach(n => {
-        const r = n.getBoundingClientRect();
-        rects.push({
-          x: r.left - base.left,
-          y: r.top - base.top,
-          w: r.width,
-          h: r.height
-        });
-      });
-      if (!rects.length) {
-        setMask(null);
+    const diag = w + h;
+    /* One path for every dot: at this density the per-dot fill call, not the
+       geometry, is what costs frames. Single ink colour, so one path suffices. */
+    const path = new Path2D();
+    for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch) {
+      for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch) {
+        const x = u * cosA - v * sinA,
+          y = u * sinA + v * cosA;
+        if (x < 0 || y < 0 || x >= w || y >= h) continue;
+
+        /* bilinear sample of the tone map — nearest sampling is what makes a
+           rotated screen look jagged */
+        const fx = x / w * (cols - 1),
+          fy = y / h * (rows - 1);
+        const x0 = fx | 0,
+          y0 = fy | 0;
+        const x1 = x0 + 1 < cols ? x0 + 1 : x0,
+          y1 = y0 + 1 < rows ? y0 + 1 : y0;
+        const tx = fx - x0,
+          ty = fy - y0;
+        const i00 = y0 * cols + x0,
+          i10 = y0 * cols + x1,
+          i01 = y1 * cols + x0,
+          i11 = y1 * cols + x1;
+        const t = (tone[i00] * (1 - tx) + tone[i10] * tx) * (1 - ty) + (tone[i01] * (1 - tx) + tone[i11] * tx) * ty;
+        let rBase = maxR * t;
+        if (closeT > 0) {
+          const tp = (tonePlate[i00] * (1 - tx) + tonePlate[i10] * tx) * (1 - ty) + (tonePlate[i01] * (1 - tx) + tonePlate[i11] * tx) * ty;
+          rBase = rBase + (closeR * Math.sqrt(tp) - rBase) * closeT;
+        }
+        if (rBase <= 0.02) continue;
+        const d = (dyn[i00] * (1 - tx) + dyn[i10] * tx) * (1 - ty) + (dyn[i01] * (1 - tx) + dyn[i11] * tx) * ty;
+
+        /* Diagonal front, nudged earlier where the image has structure. */
+        const nd = (x + y) / diag;
+        const bandT = smooth01(front - nd + (d - 0.5) * bias, -0.35, 0.22);
+        if (bandT <= 0) continue;
+
+        /* Two crossing waves: one riding the front, one slower and oblique.
+           Both settle to 1 as the image resolves, so the last frame is still. */
+        const pulse = 0.68 + 0.32 * Math.sin(nd * TAU * 2.6 - p * 9) + 0.14 * Math.sin(x * 0.012 - y * 0.017 + p * 5);
+        const rhythm = 1 + (pulse - 1) * (1 - settle);
+        if (rhythm <= 0) continue;
+        const radius = rBase * sizeT * bandT * rhythm;
+        if (radius < 0.22) continue;
+        path.moveTo(x + radius, y);
+        path.arc(x, y, radius, 0, TAU);
+      }
+    }
+    ctx.fillStyle = inkColor || (inverted ? MINT() : INK());
+    ctx.fill(path);
+    ctx.restore();
+  }, [dynamics, exposure, inverted, restTone, inkColor]);
+
+  /* The plate is cheap to repaint and must never stretch with its box, so it
+     is its own pass, called immediately on any size change. The screen behind
+     it (histogram, tone maps, dot render) is the expensive part and is
+     rebuilt on a debounce. */
+  const paintPlate = React.useCallback(() => {
+    const wrap = wrapRef.current,
+      duo = duoRef.current,
+      img = imgRef.current;
+    if (!wrap || !duo || !img) return;
+    const rect = wrap.getBoundingClientRect();
+    const w = Math.max(1, Math.round(rect.width)),
+      h = Math.max(1, Math.round(rect.height));
+    const dpr = fitDpr(w, h);
+    const ir = img.naturalWidth / img.naturalHeight,
+      wr = w / h;
+    let sx, sy, sw, sh;
+    if (ir > wr) {
+      sh = img.naturalHeight;
+      sw = sh * wr;
+      sx = (img.naturalWidth - sw) * fx;
+      sy = 0;
+    } else {
+      sw = img.naturalWidth;
+      sh = sw / wr;
+      sx = 0;
+      sy = (img.naturalHeight - sh) * fy;
+    }
+    duo.width = w * dpr;
+    duo.height = h * dpr;
+    duo.style.width = '100%';
+    duo.style.height = '100%';
+    const dctx = duo.getContext('2d');
+    dctx.save();
+    dctx.scale(dpr, dpr);
+    dctx.clearRect(0, 0, w, h);
+    /* The house plate, shared with the film band — see `core/noirPlate.jsx`. */
+    __ds_scope.paintNoirPlate(dctx, img, w, h, noir, inverted, [fx, fy]);
+    dctx.restore();
+  }, [noir, inverted, fx, fy]);
+  const buildGrid = React.useCallback(() => {
+    const wrap = wrapRef.current,
+      canvas = canvasRef.current,
+      img = imgRef.current;
+    if (!wrap || !canvas || !img) return;
+    const rect = wrap.getBoundingClientRect();
+    const w = Math.max(1, Math.round(rect.width)),
+      h = Math.max(1, Math.round(rect.height));
+    const dpr = fitDpr(w, h);
+    canvas.width = w * dpr;
+    canvas.height = h * dpr;
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+
+    /* Tone map at twice the screen frequency, so bilinear sampling of the
+       rotated screen has something smooth to read. */
+    const cols = Math.max(2, Math.round(w / (gridSize / 2)));
+    const rows = Math.max(2, Math.round(h / (gridSize / 2)));
+    const off = document.createElement('canvas');
+    off.width = cols;
+    off.height = rows;
+    const octx = off.getContext('2d');
+    const ir = img.naturalWidth / img.naturalHeight,
+      wr = w / h;
+    let sx, sy, sw, sh;
+    if (ir > wr) {
+      sh = img.naturalHeight;
+      sw = sh * wr;
+      sx = (img.naturalWidth - sw) * fx;
+      sy = 0;
+    } else {
+      sw = img.naturalWidth;
+      sh = sw / wr;
+      sx = 0;
+      sy = (img.naturalHeight - sh) * fy;
+    }
+    octx.drawImage(img, sx, sy, sw, sh, 0, 0, cols, rows);
+    paintPlate();
+    const data = octx.getImageData(0, 0, cols, rows).data;
+    const n = cols * rows;
+    const lum = new Float32Array(n),
+      tone = new Float32Array(n),
+      tonePlate = new Float32Array(n),
+      dyn = new Float32Array(n);
+    const hist = new Float32Array(256);
+    for (let i = 0; i < n; i++) {
+      const j = i * 4;
+      const l = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
+      lum[i] = l;
+      hist[l * 255 | 0]++;
+    }
+    /* Histogram equalisation on darkness. A photograph weighted to the shadows
+       (this one is) otherwise puts nearly every cell at full dot radius, which
+       is what turns a halftone into a solid mass. Equalising spreads the cells
+       across the whole range of dot sizes, so paper stays visible. */
+    const cdf = new Float32Array(256);
+    let acc = 0;
+    for (let b = 0; b < 256; b++) {
+      acc += hist[b];
+      cdf[b] = acc / n;
+    }
+    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
+    for (let i = 0; i < n; i++) {
+      /* rank of this cell's darkness within the image — or of its lightness,
+         when the print is inverted and the dots are paper on ink. */
+      const rank = inverted ? cdf[lum[i] * 255 | 0] : 1 - cdf[lum[i] * 255 | 0];
+      tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
+      /* The plate's own tone, through the same greyscale/contrast/brightness
+         the plate is painted with. This is what the screen closes up
+         to, so the two carry the same weight. */
+      tonePlate[i] = __ds_scope.noirTone(lum[i], noir, inverted);
+    }
+    /* "Dynamics": local contrast, i.e. where the image has structure. Biases
+       which dots arrive first inside the reveal band. */
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const i = r * cols + c,
+          l = lum[i];
+        let g = 0;
+        if (c > 0) g = Math.max(g, Math.abs(l - lum[i - 1]));
+        if (c < cols - 1) g = Math.max(g, Math.abs(l - lum[i + 1]));
+        if (r > 0) g = Math.max(g, Math.abs(l - lum[i - cols]));
+        if (r < rows - 1) g = Math.max(g, Math.abs(l - lum[i + cols]));
+        dyn[i] = Math.min(1, g * 4);
+      }
+    }
+    const a = screenAngle * Math.PI / 180;
+    gridRef.current = {
+      w,
+      h,
+      cols,
+      rows,
+      dpr,
+      tone,
+      tonePlate,
+      dyn,
+      pitch: gridSize,
+      cosA: Math.cos(a),
+      sinA: Math.sin(a)
+    };
+    draw(progressRef.current ? progressRef.current.p : 0, progressRef.current ? progressRef.current.q : 0, progressRef.current ? progressRef.current.v : 0, colorRef.current);
+  }, [gridSize, screenAngle, exposure, noir, inverted, draw, paintPlate, fx, fy]);
+  const playRef = React.useRef(play);
+  playRef.current = play;
+  /* Scrubbed: somebody else owns the clock (a hero dispersing its mark as the
+     page scrolls) and hands the reveal a position. Read every frame. */
+  const scrubRef = React.useRef(progress);
+  scrubRef.current = progress;
+  const kickRef = React.useRef(null);
+  React.useEffect(() => {
+    if (play == null && progress == null) return;
+    if (kickRef.current) kickRef.current();
+  }, [play, progress]);
+
+  /* A driven reveal cannot rely on being kicked exactly once. The kick can
+     arrive before the image has loaded (no loop to start yet), and the loop
+     ends itself the moment the clock reaches its target — so a `play` that was
+     already true when the loop died leaves a photograph frozen at nothing
+     until some unrelated scroll event happens to restart it. This re-arms the
+     loop until the clock has actually arrived, then stops: it is a watchdog,
+     not a second timeline. `start()` is a no-op while the loop is alive. */
+  React.useEffect(() => {
+    if (play == null) return;
+    const id = window.setInterval(() => {
+      const t = clockRef.current.t;
+      if (play ? t >= 1 : t <= restAt + 0.001) {
+        window.clearInterval(id);
         return;
       }
-      const path = rects.map(r => 'M' + r.x.toFixed(1) + ' ' + r.y.toFixed(1) + 'h' + r.w.toFixed(1) + 'v' + r.h.toFixed(1) + 'h-' + r.w.toFixed(1) + 'Z').join(' ');
-      setMask({
-        path: path,
-        height: Math.round(base.height)
-      });
-    };
-    measure();
-    const ro = new ResizeObserver(measure);
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, [shown, blocks]);
-  if (!shown) return null;
-  return /*#__PURE__*/React.createElement("div", {
-    role: "status",
-    "aria-live": "polite",
-    style: {
-      display: 'grid',
-      gap: 'var(--space-2)',
-      ...style
+      if (kickRef.current) kickRef.current();
+    }, 200);
+    return () => window.clearInterval(id);
+  }, [play, restAt]);
+  React.useEffect(() => {
+    if (!ready) return;
+    buildGrid();
+    let raf = null,
+      timer = null,
+      inView = true,
+      rebuild = null;
+    /* On the x axis, find the track that actually scrolls. */
+    if (axis === 'x' && !scrollerRef.current) {
+      let el = wrapRef.current ? wrapRef.current.parentElement : null;
+      while (el && el !== document.body) {
+        const ox = getComputedStyle(el).overflowX;
+        if ((ox === 'auto' || ox === 'scroll') && el.scrollWidth > el.clientWidth + 1) {
+          scrollerRef.current = el;
+          break;
+        }
+        el = el.parentElement;
+      }
     }
-  }, /*#__PURE__*/React.createElement("div", {
+    const progressNow = () => {
+      const wrap = wrapRef.current;
+      if (!wrap) return null;
+      /* `frameRef`: the box the reader actually sees, when the image is laid
+         out wider than its visible frame and cropped by a parent. Visibility
+         is measured on the frame, not on the oversize image. */
+      const rect = (frameRef && frameRef.current || wrap).getBoundingClientRect();
+      /* Same two clocks on either axis. On 'x' they are measured against the
+         scrolling track rather than the window, so a carousel's active card
+         reads as centred and its neighbours as partly visible. */
+      let near, far, size, viewNear, viewFar;
+      if (axis === 'x') {
+        const track = scrollerRef.current;
+        const tr = track ? track.getBoundingClientRect() : null;
+        viewNear = tr ? tr.left : 0;
+        viewFar = tr ? tr.right : window.innerWidth;
+        near = rect.left;
+        far = rect.right;
+        size = rect.width;
+      } else {
+        viewNear = 0;
+        viewFar = window.innerHeight;
+        near = rect.top;
+        far = rect.bottom;
+        size = rect.height;
+      }
+      const viewSize = Math.max(1, viewFar - viewNear);
+      const visible = Math.min(far, viewFar) - Math.max(near, viewNear);
+      const span = Math.max(1, Math.min(size, viewSize));
+      const v = Math.min(1, Math.max(0, visible / span));
+      /* p: visibility, drives the screen and the plate.
+         q: the colour clock. Against a centre-aligned viewport it runs from
+         "just fully visible" to "centred"; against a start-aligned track (a
+         left-aligned carousel) it runs to "snapped to the start edge", which
+         is where that layout's active item rests. */
+      const startAligned = (align || (axis === 'x' ? 'start' : 'center')) === 'start';
+      let dist, travel;
+      if (startAligned) {
+        dist = Math.abs(near - viewNear);
+        travel = Math.max(1, size * 0.6);
+      } else {
+        dist = Math.abs(near + size / 2 - (viewNear + viewSize / 2));
+        travel = Math.max(1, Math.abs(viewSize - size) / 2);
+      }
+      const centred = Math.min(1, Math.max(0, 1 - dist / travel));
+
+      /* Two hands on the same clock. Coming into view, the reveal is scrolled:
+         t tracks the visible fraction up to LEAD, so the reader is pulling the
+         screen in. At `playAt` the clock takes over and runs the rest out by
+         itself, at its own speed, so the image always finishes printing
+         whether the reader stops, races past, or scrolls on. */
+      if (scrubRef.current != null) {
+        const t = Math.min(1, Math.max(0, scrubRef.current));
+        clockRef.current.t = t;
+        return {
+          p: Math.min(1, t / 0.62),
+          q: smooth01(t, 0.62, 1),
+          v: t,
+          centred: t
+        };
+      }
+      const clock = clockRef.current;
+      const nowMs = performance.now();
+      const dt = clock.last ? Math.min(0.1, (nowMs - clock.last) / 1000) : 0;
+      clock.last = nowMs;
+      /* Driven, not scrolled. With `play` set the reveal is somebody's
+         decision — a pointer on the row, a card becoming the active one — so
+         the clock runs forward while it is true and backwards while it is
+         false. Backwards to zero is the plate unprinting itself: the same
+         frames in reverse, ending on nothing — but run at `REWIND` times the
+         speed, since an exit that takes as long as the print reads as the card
+         hesitating on its way out. */
+      if (playRef.current != null) {
+        const secsAll = Math.max(0.1, duration / 1000);
+        /* `restAt` is where a driven reveal sits when it is not playing. Zero
+           is nothing on the ground; a value in the screen's own range parks it
+           as a full dot screen instead, which is what a card waiting its turn
+           on a dark ground has to be — a plate, not an empty box. */
+        clockRef.current.t = Math.min(1, Math.max(restAt, clock.t + (playRef.current ? dt : -dt * REWIND) / secsAll));
+        const t = clock.t;
+        return {
+          p: Math.min(1, t / 0.62),
+          q: smooth01(t, 0.62, 1),
+          v: t,
+          centred: t
+        };
+      }
+      const LEAD = 0.5;
+      const secs = Math.max(0.1, duration / 1000 * (1 - LEAD));
+      const posT = LEAD * Math.min(1, v / Math.max(0.05, playAt));
+      if (v <= 0) {
+        clock.t = 0;
+        clock.running = false;
+      } else if (v >= playAt) clock.running = true;else if (rewinds) clock.running = false;
+      if (clock.running) clock.t = Math.min(1, Math.max(clock.t, LEAD) + dt / secs);else clock.t = rewinds ? posT : Math.max(clock.t, posT);
+      const t = clock.t;
+      /* Screen resolves over the first stretch of the clock, colour follows. */
+      return {
+        p: Math.min(1, t / 0.62),
+        q: smooth01(t, 0.62, 1),
+        v,
+        centred
+      };
+    };
+    const reconcile = () => {
+      /* The built grid is only valid for the box it was measured against. A
+         layout change (a carousel card widening) has to rebuild it, but not
+         every frame of the change: the canvas stretches to its element while
+         the box animates, and the screen is re-rendered once it comes to rest.
+         Rebuilding per frame is heavy enough to stall the animation itself. */
+      const wrap = wrapRef.current,
+        built = gridRef.current;
+      if (wrap && built) {
+        const r = wrap.getBoundingClientRect();
+        if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
+          paintPlate(); /* immediate: the plate must not stretch */
+          if (rebuild) clearTimeout(rebuild);
+          rebuild = setTimeout(() => {
+            rebuild = null;
+            buildGrid();
+          }, 120);
+        }
+      }
+      const now = progressNow();
+      if (!now) return;
+      /* An explicit `resolved` flag eases toward its target so the handover to
+         colour still reads as a transition rather than a switch. */
+      let over = null;
+      if (resolved != null) {
+        const target = resolved ? 1 : 0;
+        const cur = colorRef.current == null ? target : colorRef.current;
+        over = cur + (target - cur) * 0.12;
+        if (Math.abs(target - over) < 0.004) over = target;
+        colorRef.current = over;
+      }
+      const prev = progressRef.current;
+      const moved = !prev || Math.abs(now.p - prev.p) > 0.002 || Math.abs(now.q - prev.q) > 0.002 || Math.abs(now.v - prev.v) > 0.002;
+      const toning = over != null && Math.abs(over - (prev ? prev.over ?? -1 : -1)) > 0.001;
+      if (moved || toning) {
+        progressRef.current = {
+          ...now,
+          over
+        };
+        if (delegated) setScrollP(now.p);else draw(now.p, now.q, now.v, over);
+      }
+    };
+    /* State is derived from position every frame while the image is in view,
+       and once more on any scroll or resize event. Neither source is trusted
+       alone: rAF is throttled in background frames, and scroll events are not
+       guaranteed to fire for every position change. */
+    const loop = () => {
+      /* A driven reveal has no scroll to lean on: its clock is the only thing
+         moving, and the IntersectionObserver is not reliable in every frame
+         this system renders in, so `play` keeps the loop alive on its own —
+         and only while it has somewhere to go. A list of fifteen rows would
+         otherwise hold fifteen permanent frame loops for one pointer. */
+      const driven = playRef.current != null;
+      if (!inView && !driven) {
+        raf = null;
+        return;
+      }
+      reconcile();
+      if (driven) {
+        const t = clockRef.current.t;
+        if (playRef.current && t >= 1 || !playRef.current && t <= restAt + 0.001) {
+          raf = null;
+          return;
+        }
+      }
+      raf = requestAnimationFrame(loop);
+    };
+    const start = () => {
+      if (raf != null) return;
+      if (playRef.current != null) {
+        clockRef.current.last = 0;
+        raf = requestAnimationFrame(loop);
+        return;
+      }
+      if (inView) raf = requestAnimationFrame(loop);
+    };
+    kickRef.current = start;
+    const onScroll = () => {
+      reconcile();
+      start();
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(() => {
+        timer = null;
+        reconcile();
+      }, 90);
+    };
+    const onResize = () => {
+      buildGrid();
+      reconcile();
+    };
+    /* The wrapper's size is not resolved at image-load time inside a flex or
+       grid track, and a window resize may never come. Rebuild whenever the
+       element's own box changes instead. */
+    const ro = new ResizeObserver(() => {
+      const wrap = wrapRef.current,
+        built = gridRef.current;
+      const r = wrap ? wrap.getBoundingClientRect() : null;
+      paintPlate();
+      /* A box that was measured at nothing has to be rebuilt at once, not on a
+         debounce: inside a flex or grid track the element can mount at a
+         fraction of a pixel, and in driven mode the frame loop parks as soon
+         as the clock reaches its rest value — so the deferred rebuild in
+         `reconcile` never runs and the screen stays a two-pixel canvas
+         stretched over the card. */
+      const undersized = !built || built.w < 8 || built.h < 8 || r && (r.width > built.w * 1.2 || r.height > built.h * 1.2);
+      if (undersized) {
+        buildGrid();
+        reconcile();
+        return;
+      }
+      if (rebuild) clearTimeout(rebuild);
+      rebuild = setTimeout(() => {
+        rebuild = null;
+        buildGrid();
+        reconcile();
+      }, 120);
+    });
+    ro.observe(wrapRef.current);
+    /* One post-layout pass, for the same reason: the first measurement can
+       land before the track has resolved and nothing else will ask again. */
+    const settle = window.setTimeout(() => {
+      const wrap = wrapRef.current,
+        built = gridRef.current;
+      if (!wrap || !built) return;
+      const r = wrap.getBoundingClientRect();
+      if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
+        buildGrid();
+        reconcile();
+      }
+    }, 60);
+    const io = new IntersectionObserver(entries => {
+      inView = entries[entries.length - 1].isIntersecting;
+      reconcile();
+      start();
+    }, {
+      rootMargin: '20% 0px'
+    });
+    io.observe(wrapRef.current);
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onResize);
+    document.addEventListener('visibilitychange', onScroll);
+    const track = scrollerRef.current;
+    if (track) track.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    reconcile();
+    start();
+    return () => {
+      kickRef.current = null;
+      io.disconnect();
+      ro.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onResize);
+      document.removeEventListener('visibilitychange', onScroll);
+      if (track) track.removeEventListener('scroll', onScroll);
+      if (raf != null) cancelAnimationFrame(raf);
+      if (timer) clearTimeout(timer);
+      if (rebuild) clearTimeout(rebuild);
+      window.clearTimeout(settle);
+    };
+  }, [ready, buildGrid, draw, playAt, duration, axis, align, paintPlate, resolved, rewinds, restAt]);
+  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
+  if (!src) {
+    return /*#__PURE__*/React.createElement("div", {
+      role: "img",
+      "aria-label": alt || 'Platshållare för foto',
+      className: className,
+      style: {
+        width: '100%',
+        aspectRatio,
+        minHeight,
+        background: 'var(--surface-tint)',
+        display: 'grid',
+        placeItems: 'center',
+        ...style
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        color: 'var(--ink-65)'
+      }
+    }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio));
+  }
+  return /*#__PURE__*/React.createElement("div", {
+    ref: wrapRef,
+    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
     style: {
       position: 'relative',
-      maxWidth: 'var(--measure-prose)'
+      width: '100%',
+      aspectRatio,
+      minHeight,
+      overflow: 'hidden',
+      background: inverted ? 'var(--ink)' : grounded ? 'var(--reveal-ground)' : 'transparent',
+      transition: 'background-color var(--dur-reveal) var(--ease-quart)',
+      ...style
     }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: holdRef,
-    "aria-hidden": "true",
-    style: {
-      visibility: 'hidden',
-      display: 'grid',
-      gap: 'var(--space-2)'
-    }
-  }, blocks.map((b, i) => b.image ? /*#__PURE__*/React.createElement("div", {
-    key: i,
-    "data-ghost-box": true,
-    style: {
-      width: b.width || '34%',
-      aspectRatio: (b.image || '4:5').replace(':', ' / ')
-    }
-  }) : /*#__PURE__*/React.createElement("p", {
-    key: i,
-    "data-ghost-text": true,
-    className: CLASS[b.size] || 'prose'
-  }, b.text))), mask ? /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("img", {
+    ref: photoRef,
+    src: src,
+    alt: alt,
     style: {
       position: 'absolute',
       inset: 0,
-      clipPath: 'path("' + mask.path + '")',
-      WebkitClipPath: 'path("' + mask.path + '")'
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+      objectPosition: fx * 100 + '% ' + fy * 100 + '%',
+      opacity: delegated ? 1 : 0
     }
-  }, /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
-    effect: effect,
-    mode: "loader",
-    src: src || undefined,
-    pitch: 3.5,
-    intensity: 0.55
-  })) : null), note ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, note) : null);
-}
-Object.assign(__ds_scope, { WorkingIndicator });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/WorkingIndicator.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/Tabs.jsx
-try { (() => {
-/* The system's tab control: text, a hairline under the whole row, and one ink
-   underline that slides.
-
-   The underline is the only moving part and it follows intent, not selection —
-   point at a tab and it travels there before you have clicked, so the control
-   answers the pointer. Leave the row and it returns to what is actually
-   selected. Nothing else changes: no fills, no pills, no borders around a tab,
-   no icons, no counts.
-
-   Measured rather than declared: the underline reads the tab's own box, so it
-   is exactly as wide as the word, whatever the label or the breakpoint. */
-
-function Tabs({
-  tabs = [],
-  value,
-  onChange,
-  /* Accessible name for the row — what the tabs switch between. */
-  label = '',
-  style
-}) {
-  const wrapRef = React.useRef(null);
-  const refs = React.useRef({});
-  const [hover, setHover] = React.useState(null);
-  const [bar, setBar] = React.useState({
-    left: 0,
-    width: 0,
-    ready: false
-  });
-  const shown = hover != null ? hover : value;
-  React.useEffect(() => {
-    const measure = () => {
-      const wrap = wrapRef.current;
-      const el = refs.current[shown];
-      if (!wrap || !el) return;
-      const w = wrap.getBoundingClientRect();
-      const t = el.getBoundingClientRect();
-      setBar({
-        left: t.left - w.left,
-        width: t.width,
-        ready: true
-      });
-    };
-    measure();
-    window.addEventListener('resize', measure);
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure).catch(() => {});
-    return () => window.removeEventListener('resize', measure);
-  }, [shown, tabs.length]);
-  const onKeyDown = e => {
-    const i = tabs.findIndex(t => t.id === value);
-    if (i < 0) return;
-    let n = null;
-    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') n = Math.min(tabs.length - 1, i + 1);else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') n = Math.max(0, i - 1);else if (e.key === 'Home') n = 0;else if (e.key === 'End') n = tabs.length - 1;
-    if (n == null) return;
-    e.preventDefault();
-    const next = tabs[n];
-    if (onChange) onChange(next.id);
-    const el = refs.current[next.id];
-    if (el) el.focus({
-      preventScroll: true
-    });
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
-    role: "tablist",
-    "aria-label": label || undefined,
-    onKeyDown: onKeyDown,
-    onMouseLeave: () => setHover(null),
-    style: {
-      position: 'relative',
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'flex-end',
-      gap: 'var(--space-3)',
-      borderBottom: '1px solid var(--rule-hairline)',
-      paddingBottom: 'var(--space-1)',
-      ...style
-    }
-  }, tabs.map(t => {
-    const active = t.id === value;
-    return /*#__PURE__*/React.createElement("button", {
-      key: t.id,
-      ref: el => {
-        refs.current[t.id] = el;
-      },
-      type: "button",
-      role: "tab",
-      "aria-selected": active,
-      tabIndex: active ? 0 : -1,
-      onClick: () => onChange && onChange(t.id),
-      onMouseEnter: () => setHover(t.id),
-      onFocus: () => setHover(t.id),
-      onBlur: () => setHover(null),
-      className: "target",
-      style: {
-        appearance: 'none',
-        background: 'none',
-        border: 0,
-        padding: 0,
-        cursor: 'pointer',
-        fontFamily: 'var(--font-text)',
-        fontSize: 'var(--text-small)',
-        lineHeight: 'var(--lh-small)',
-        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
-        transition: 'color var(--dur-micro) var(--ease-quart)'
-      }
-    }, t.label);
-  }), /*#__PURE__*/React.createElement("span", {
+  }), /*#__PURE__*/React.createElement("canvas", {
+    ref: duoRef,
     "aria-hidden": "true",
     style: {
       position: 'absolute',
-      bottom: -1,
-      left: bar.left,
-      width: bar.width,
-      height: 1,
-      background: 'var(--underline-active)',
-      pointerEvents: 'none',
-      opacity: bar.ready ? 1 : 0,
-      transition: 'left var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart)'
-    }
-  }));
-}
-Object.assign(__ds_scope, { Tabs });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Tabs.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/Record.jsx
-try { (() => {
-/* The proof block: one line is one job somebody hired us to do.
-   ~120 identical lines, grouped by year, and a readout bar that reads out the
-   line under the cursor. Three things are load-bearing and must not be
-   "improved": the readout bar sticks, its columns never move, and no row links
-   anywhere. Length encodes nothing — every line is the same length, so the
-   only quantity the graphic states is the height of a year block. */
-
-const CELL = {
-  minWidth: 0,
-  whiteSpace: 'nowrap',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  fontFamily: 'var(--font-text)',
-  fontSize: 'var(--text-small)'
-};
-/* Reserved in rem, not em: an em box scales with each cell's own font-size and
-   the baselines drift. */
-const KEY_CELL = {
-  ...CELL,
-  height: '1rem',
-  lineHeight: '1rem',
-  color: 'var(--text-secondary)'
-};
-const VAL_CELL = {
-  ...CELL,
-  height: '1.375rem',
-  lineHeight: '1.375rem',
-  color: 'var(--text-primary)',
-  fontWeight: 'var(--weight-medium)'
-};
-/* The discipline list is read in full, so it wraps like ordinary text. Two
-   lines are reserved, which is what most entries need. */
-const DISC_CELL = {
-  ...VAL_CELL,
-  whiteSpace: 'normal',
-  overflow: 'visible',
-  textOverflow: 'clip',
-  height: 'auto',
-  minHeight: '2.75rem'
-};
-
-/* TEST: term-list row. A button that has to read as a line of the record's
-   own text, so everything a button brings is taken back off. */
-const TERM_BTN = {
-  appearance: 'none',
-  background: 'none',
-  border: 0,
-  padding: 0,
-  margin: 0,
-  width: '100%',
-  textAlign: 'left',
-  cursor: 'pointer',
-  font: 'inherit',
-  fontFamily: 'var(--font-text)',
-  fontSize: 'var(--text-small)',
-  lineHeight: 1.3
-};
-const PITCH = 18; /* row box, fixed — hover must not reflow the field */
-/* The filtered view labels every match, and a label is a 21px box, so that
-   view runs on a taller row. The field gets longer; every title gets read. */
-const PITCH_FILTERED = 26;
-const BAR = 1; /* the line */
-const BAR_ACTIVE = 2; /* the line under the cursor */
-const FAN = 10; /* air the cursor row opens above and below itself */
-
-/* Two readings of the same field. The first is the whole record; the second
-   emphasises what the visitor's own dialogue touches. Neither fetches,
-   reorders or removes a row. */
-const VIEWS = ['Allt', 'Intressanta för dig'];
-function Record({
-  entries = [],
-  /* What the finder derived from the dialogue: { text, areas, sectors }.
-     Absent or empty and the second view shows its own prompt instead. */
-  dialogue = null,
-  index = '',
-  title = 'Uppdragsregistret',
-  premise = 'Varje rad är ett uppdrag någon har anlitat oss för. Registret börjar 2022 och innehåller allt vi har tagit sedan dess.',
-  secondLine = '',
-  lead = '',
-  readingRule = '',
-  closingLine = 'Registret visar de senaste uppdragen. Hela beståndet är sökbart.',
-  actionLabel = 'Sök i registret',
-  actionHref = '#',
-  viewLabels = VIEWS,
-  allLine = 'Varje uppdrag vi har tagit sedan 2022.',
-  /* {n} and {total} are filled in. The denominator carries it: a bare count
-     leaves the word "intressanta" standing for nothing. */
-  relevanceLine = '{n} av {total} rör det du frågade om.',
-  emptyBody = 'Den här vyn filtrerar registret på det du har berättat för oss.',
-  emptyLinkLabel = 'Berätta vad du står i, så visar jag vad som rör det',
-  finderHref = '#',
-  /* Warm state: the visitor gets to see what the filter is actually reading,
-     and to take it back. Never a mystery filter. */
-  filterLabel = 'Filtrerat på',
-  resetLabel = 'Nollställ',
-  /* The starred tab says the view is a subset; this says who made it one. It
-     sits with the reset control, so the explanation and the way out of the
-     filtering are read together. */
-  filterNote = '* Urvalet kommer från ditt samtal med AI:n.',
-  askAgainLabel = 'Prata med AI:n igen',
-  /* The register as a page of its own. Opt-in: no label, no link. */
-  allLabel = '',
-  allHref,
-  /* Handed the conversation opener: the empty state's link opens the finder
-     right here rather than sending the visitor back up the page. */
-  onAsk,
-  /* Clears the derived dialogue. Without it the reset control is left out. */
-  onReset,
-  /* Which view the block opens on. 1 is for demoing the warm state — a real
-     page opens on the whole record. */
-  initialView = 0,
-  /* Optionally controlled, so a page (or the demo console) can put the block
-     in either view. Left out, the tabs own it. */
-  view: viewProp,
-  onViewChange,
-  /* TEST (reversible): term lists in the side column that act as a filter on
-     the whole record. Off by default — drop the prop and the block is exactly
-     what it was. Only ever applies to the first view; the AI-derived second
-     view is untouched. */
-  termFilter = false,
-  termCount = 10,
-  workHeading = 'Filtrera på uppdragstyp',
-  discHeading = 'Filtrera på disciplin',
-  termLine = '{n} av {total} uppdrag är {term}.',
-  termResetLabel = 'Visa alla',
-  termToggleLabel = 'Filtrera',
-  id,
-  style
-}) {
-  const [viewState, setViewState] = React.useState(initialView);
-  const view = viewProp == null ? viewState : viewProp;
-  const setView = v => {
-    setViewState(v);
-    if (onViewChange) onViewChange(v);
-  };
-  const [cursor, setCursor] = React.useState(0);
-  const [printed, setPrinted] = React.useState(false);
-  /* Nothing is lit until the visitor actually points: the default cursor row
-     must not read as a match. */
-  const [touched, setTouched] = React.useState(false);
-  const [scan, setScan] = React.useState(-1);
-  /* { kind: 'work' | 'disc', v } — one term at a time, across both lists. A
-     second click on the lit term takes the filter back off. */
-  const [term, setTerm] = React.useState(null);
-  /* Same as the listings: the filters live behind the mark, and the label
-     comes out on approach. */
-  const [termsOpen, setTermsOpen] = React.useState(false);
-  const [termsWarm, setTermsWarm] = React.useState(false);
-  /* One flag per term list: is there anything below the cut? The fade is only
-     drawn when the answer is yes, so a short list is not faded for nothing. */
-  const scrollRefs = React.useRef([]);
-  const [fade, setFade] = React.useState([false, false]);
-  const sectionRef = React.useRef(null);
-  const rowRefs = React.useRef([]);
-  const fieldRef = React.useRef(null);
-  const ptr = React.useRef(null);
-  const reduced = React.useRef(false);
-  /* Without a pointer there is no hover, so the field reads itself: the row
-     passing through the lower middle of the viewport is the one that turns
-     into text. */
-  const [touch, setTouch] = React.useState(false);
-  React.useEffect(() => {
-    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    /* Narrow viewports get the scroll reading too, not just touch devices —
-       a phone-width window in a desktop browser is the same layout. */
-    const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
-    const sync = () => setTouch(mq.matches);
-    sync();
-    if (mq.addEventListener) {
-      mq.addEventListener('change', sync);
-      return () => mq.removeEventListener('change', sync);
-    }
-  }, []);
-
-  /* Touch: the focal band sits at 62% of the viewport, low enough that the row
-     being read is not under the thumb. The nearest row to it is the cursor. */
-  React.useEffect(() => {
-    if (!touch) return;
-    let frame = 0;
-    const apply = () => {
-      frame = 0;
-      const focal = window.innerHeight * 0.62;
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((el, i) => {
-        if (!el) return;
-        const r = el.getBoundingClientRect();
-        if (r.bottom < 0 || r.top > window.innerHeight) return;
-        const d = Math.abs(r.top + r.height / 2 - focal);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    apply();
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [touch]);
-
-  /* A browser only recomputes hover when the pointer moves, so scrolling with
-     a still cursor over the field would leave the reading on whatever row it
-     entered on — or on none at all. The pointer position is kept and the row
-     under it is resolved again on every scroll, so passing the field always
-     reads a line. */
-  React.useEffect(() => {
-    if (touch) return;
-    let frame = 0;
-    const onMove = ev => {
-      ptr.current = {
-        x: ev.clientX,
-        y: ev.clientY
-      };
-    };
-    const apply = () => {
-      frame = 0;
-      const p = ptr.current;
-      const box = fieldRef.current;
-      if (!p || !box) return;
-      const b = box.getBoundingClientRect();
-      if (p.x < b.left || p.x > b.right || p.y < b.top || p.y > b.bottom) {
-        if (!box.contains(document.activeElement)) setTouched(false);
-        return;
-      }
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((el, i) => {
-        if (!el) return;
-        const r = el.getBoundingClientRect();
-        const d = Math.abs(r.top + r.height / 2 - p.y);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    window.addEventListener('pointermove', onMove, {
-      passive: true
-    });
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      window.removeEventListener('pointermove', onMove);
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [touch]);
-  const blocks = React.useMemo(() => {
-    const out = [];
-    let n = 0;
-    entries.forEach(e => {
-      let b = out[out.length - 1];
-      if (!b || b.year !== e.year) {
-        b = {
-          year: e.year,
-          rows: []
-        };
-        out.push(b);
-      }
-      b.rows.push({
-        ...e,
-        i: n++
-      });
-    });
-    return out;
-  }, [entries]);
-
-  /* Relevance, as the brief defines it: the lead discipline is one the finder
-     matched, or the sector is. Loose on purpose — a row that touches the
-     question at all belongs in the subset. */
-  const hasDialogue = !!(dialogue && ((dialogue.areas || []).length || (dialogue.sectors || []).length));
-  const lit = React.useMemo(() => {
-    if (!hasDialogue) return [];
-    const areas = new Set(dialogue.areas || []);
-    const sectors = new Set(dialogue.sectors || []);
-    const hit = [];
-    entries.forEach((e, i) => {
-      const lead = (e.disciplines || [])[0];
-      if (areas.has(lead) || sectors.has(e.sector)) hit.push(i);
-    });
-    return hit;
-  }, [entries, dialogue, hasDialogue]);
-  const litSet = React.useMemo(() => new Set(lit), [lit]);
-
-  /* The lists are read off the record itself rather than declared, so they
-     cannot name a term the field does not contain. Most-used first, ties by
-     name so the order is stable across loads. */
-  const termLists = React.useMemo(() => {
-    if (!termFilter) return {
-      work: [],
-      disc: []
-    };
-    const tally = get => {
-      const m = new Map();
-      entries.forEach(e => get(e).forEach(v => {
-        if (v) m.set(v, (m.get(v) || 0) + 1);
-      }));
-      return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv')).slice(0, termCount).map(([v, n]) => ({
-        v,
-        n
-      }));
-    };
-    return {
-      work: tally(e => [e.work]),
-      disc: tally(e => e.disciplines || [])
-    };
-  }, [entries, termFilter, termCount]);
-
-  /* The term filter belongs to the whole record, so it lives in the first
-     view only — the second one already has a filter and two would fight. */
-  const termOn = termFilter && view === 0 && !!term;
-  const termSet = React.useMemo(() => {
-    if (!termOn) return new Set();
-    const hit = new Set();
-    entries.forEach((e, i) => {
-      const match = term.kind === 'work' ? e.work === term.v : (e.disciplines || []).indexOf(term.v) >= 0;
-      if (match) hit.add(i);
-    });
-    return hit;
-  }, [entries, term, termOn]);
-  React.useEffect(() => {
-    const els = scrollRefs.current.filter(Boolean);
-    if (!els.length) return;
-    const check = () => {
-      const next = els.map(el => el.scrollHeight - el.scrollTop - el.clientHeight > 4);
-      setFade(prev => prev.length === next.length && prev.every((v, i) => v === next[i]) ? prev : next);
-    };
-    check();
-    const ro = new ResizeObserver(check);
-    els.forEach(el => {
-      ro.observe(el);
-      el.addEventListener('scroll', check, {
-        passive: true
-      });
-    });
-    window.addEventListener('resize', check);
-    return () => {
-      ro.disconnect();
-      els.forEach(el => el.removeEventListener('scroll', check));
-      window.removeEventListener('resize', check);
-    };
-  }, [termsOpen, termLists]);
-
-  /* The record prints once, on entry — never again on scroll-back. */
-  React.useEffect(() => {
-    const el = sectionRef.current;
-    if (!el || printed) return;
-    /* Threshold 0, not a fraction: the field is several viewports tall, so the
-       ratio of the section that can ever be on screen at once is smaller than
-       any fraction worth naming and the record would never print. The margin
-       is what delays the print until the block is properly entered. */
-    const io = new IntersectionObserver(es => {
-      if (es.some(e => e.isIntersecting)) {
-        setPrinted(true);
-        io.disconnect();
-      }
-    }, {
-      threshold: 0,
-      rootMargin: '-12% 0px'
-    });
-    io.observe(el);
-    return () => io.disconnect();
-  }, [printed]);
-
-  /* The filter reads as one hairline sweep down the field. */
-  React.useEffect(() => {
-    if (view !== 1 || !hasDialogue || reduced.current) {
-      setScan(-1);
-      return;
-    }
-    setScan(0);
-    const a = requestAnimationFrame(() => setScan(1));
-    const b = window.setTimeout(() => setScan(-1), 1300);
-    return () => {
-      cancelAnimationFrame(a);
-      window.clearTimeout(b);
-    };
-  }, [view, hasDialogue, lit]);
-  const move = d => {
-    setTouched(true);
-    const n = Math.min(entries.length - 1, Math.max(0, cursor + d));
-    setCursor(n);
-    const el = rowRefs.current[n];
-    if (el) el.focus({
-      preventScroll: true
-    });
-  };
-  const onKeyDown = e => {
-    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-      e.preventDefault();
-      move(1);
-    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-      e.preventDefault();
-      move(-1);
-    } else if (e.key === 'Home') {
-      e.preventDefault();
-      move(-entries.length);
-    } else if (e.key === 'End') {
-      e.preventDefault();
-      move(entries.length);
-    }
-  };
-  const label = e => [e.year, e.client, e.sector, e.work, (e.disciplines || []).join(', ')].join(', ');
-  /* The bar is initialised with a real row, so the first hover cannot resize it. */
-  const current = entries[cursor] || entries[0];
-  const disc = current ? current.disciplines || [] : [];
-  /* Discipline cell: both readings ship, and CSS picks one — the full
-     comma-separated list in the desktop side column, the abbreviated form in
-     the panel that sits over the field on a small screen. */
-  const discCell = current && disc.length ? React.createElement(React.Fragment, null, React.createElement('span', {
-    'data-disc-full': ''
-  }, disc.join(', ')), React.createElement('span', {
-    'data-disc-short': ''
-  }, disc.length > 1 ? disc[0] + ' +' + (disc.length - 1) : disc[0])) : '';
-  /* The second view emphasises; the first is untouched. */
-  const relevant = view === 1 && hasDialogue;
-  /* Every line ends up as text on a narrow viewport, so that reading runs on
-     the taller row throughout. */
-  const pitch = touch || view === 1 || termOn ? PITCH_FILTERED : PITCH;
-  const terms = hasDialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
-  const sideLine = view === 1 ? hasDialogue ? relevanceLine.replace('{n}', String(lit.length)).replace('{total}', String(entries.length)) : '—' : termOn ? termLine.replace('{n}', String(termSet.size)).replace('{total}', String(entries.length)).replace('{term}', term.v) : allLine;
-  /* The year heads its block and client and sector are written on the line
-     itself, so the readout carries only what neither says. */
-  /* Until the visitor points at a line there is nothing to read out, and the
-     readout says so rather than standing on an arbitrary row. */
-  const readout = touched && current ? [{
-    k: 'Typ av uppdrag',
-    v: current.work
-  }, {
-    k: 'Discipliner',
-    v: discCell,
-    hint: disc.join(', '),
-    wrap: true
-  }] : [{
-    k: 'Typ av uppdrag',
-    v: '—'
-  }, {
-    k: 'Discipliner',
-    v: '—',
-    wrap: true
-  }];
-  return /*#__PURE__*/React.createElement("section", {
-    id: id,
-    ref: sectionRef,
-    style: {
-      paddingBlock: 'var(--section-gap)',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      alignItems: 'start',
-      rowGap: 'var(--space-5)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    "data-record-head": true,
-    className: "place-body-wide",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-3)'
-    }
-  }, index ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, index) : null, /*#__PURE__*/React.createElement("h2", {
-    className: "display-2"
-  }, title), /*#__PURE__*/React.createElement("p", {
-    className: "prose"
-  }, premise), secondLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: allHref,
-    variant: "secondary",
-    style: {
-      alignSelf: 'start',
-      fontSize: 'var(--text-small)'
-    },
-    onClick: allHref ? undefined : ev => ev.preventDefault()
-  }, allLabel) : null), /*#__PURE__*/React.createElement("div", {
-    "data-record-switch": true,
-    className: "place-body-wide",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-2)'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
-    label: "Vy",
-    tabs: viewLabels.map((v, i) => ({
-      id: String(i),
-      label: i === 1 && hasDialogue ? v + ' *' : v
-    })),
-    value: String(view),
-    onChange: v => setView(Number(v))
-  }), view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, emptyBody), /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: finderHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: onAsk ? ev => {
-      ev.preventDefault();
-      onAsk();
-    } : undefined
-  }, emptyLinkLabel)) :
-  /*#__PURE__*/
-  /* Count and filter read as one line: what is shown, and what it
-     was filtered on. */
-  /* Proportional figures: the count does not tick, and Circular's
-     tabular digits carry side bearings wide enough to read as broken
-     word spacing inside a sentence. */
-  React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, sideLine, relevant ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', filterLabel, ": ", terms.join(', ')) : null, termOn ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTerm(null),
-    style: {
-      ...TERM_BTN,
-      display: 'inline',
-      width: 'auto',
-      color: 'var(--text-secondary)',
-      textDecoration: 'underline',
-      textUnderlineOffset: '0.2em'
-    }
-  }, termResetLabel)) : null), relevant ? /*#__PURE__*/React.createElement(React.Fragment, null, filterNote ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, filterNote) : null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: 'var(--space-3)'
-    }
-  }, onReset ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: "#",
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: ev => {
-      ev.preventDefault();
-      onReset();
-      setView(0);
-    }
-  }, resetLabel) : null, onAsk ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: finderHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: ev => {
-      ev.preventDefault();
-      onAsk();
-    }
-  }, askAgainLabel) : null)) : null), termFilter && view === 0 ? /*#__PURE__*/React.createElement("div", {
-    "data-record-terms": true
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTermsOpen(!termsOpen),
-    onMouseEnter: () => setTermsWarm(true),
-    onMouseLeave: () => setTermsWarm(false),
-    onFocus: () => setTermsWarm(true),
-    onBlur: () => setTermsWarm(false),
-    "aria-expanded": termsOpen ? 'true' : 'false',
-    "aria-label": termToggleLabel,
-    className: "target",
-    style: {
-      gap: 8,
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      position: 'relative',
+      inset: 0,
       display: 'block',
-      flex: '0 0 auto',
-      width: 14,
-      height: 14
+      opacity: 0
     }
-  }, termsOpen ? [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-    key: d,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 'calc(50% - 0.5px)',
-      width: 14,
-      height: 1,
-      background: 'var(--ink)',
-      transform: 'rotate(' + d + 'deg)'
-    }
-  })) : [14, 10, 6].map((w, n) => /*#__PURE__*/React.createElement("span", {
-    key: w,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 2.5 + n * 4,
-      width: w,
-      height: 1,
-      background: termsWarm ? 'var(--ink)' : 'var(--text-secondary)',
-      transition: 'background var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'block',
-      whiteSpace: 'nowrap'
-    }
-  }, termToggleLabel), term && !termsOpen ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      width: 4,
-      height: 4,
-      borderRadius: '50%',
-      background: 'var(--ink)'
-    }
-  }) : null), /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-list": true,
-    "data-open": termsOpen ? '' : undefined,
-    "aria-hidden": termsOpen ? 'false' : 'true'
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-5)'
-    }
-  }, [{
-    h: workHeading,
-    kind: 'work',
-    list: termLists.work
-  }, {
-    h: discHeading,
-    kind: 'disc',
-    list: termLists.disc
-  }].map((g, gi) => /*#__PURE__*/React.createElement("div", {
-    key: g.kind
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      ...KEY_CELL,
-      marginBlockEnd: 'var(--space-3)'
-    }
-  }, g.h), /*#__PURE__*/React.createElement("div", {
-    ref: el => {
-      scrollRefs.current[gi] = el;
-    },
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      maxHeight: 'calc((100svh - 19rem) / 2)',
-      overflowY: 'auto',
-      overscrollBehavior: 'contain',
-      maskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none',
-      WebkitMaskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none'
-    }
-  }, g.list.map(t => {
-    const active = !!term && term.kind === g.kind && term.v === t.v;
-    return /*#__PURE__*/React.createElement("button", {
-      key: t.v,
-      type: "button",
-      "aria-pressed": active,
-      onClick: () => setTerm(active ? null : {
-        kind: g.kind,
-        v: t.v
-      }),
-      style: {
-        ...TERM_BTN,
-        display: 'flex',
-        alignItems: 'baseline',
-        gap: 0,
-        paddingBlock: '0.18rem',
-        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
-        fontWeight: active ? 'var(--weight-medium)' : 'var(--weight-book)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      "aria-hidden": "true",
-      style: {
-        position: 'relative',
-        flex: '0 0 auto',
-        alignSelf: 'center',
-        overflow: 'hidden',
-        width: active ? 11 : 0,
-        height: 11,
-        opacity: active ? 1 : 0,
-        marginInlineEnd: active ? 8 : 0,
-        transition: 'width var(--dur-fast) var(--ease-expo), margin-inline-end var(--dur-fast) var(--ease-expo), opacity var(--dur-fast) var(--ease-expo)'
-      }
-    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-      key: d,
-      style: {
-        position: 'absolute',
-        left: 0,
-        top: 'calc(50% - 0.5px)',
-        width: 11,
-        height: 1,
-        background: 'var(--ink)',
-        transform: 'rotate(' + d + 'deg)'
-      }
-    }))), /*#__PURE__*/React.createElement("span", {
-      style: {
-        flex: '1 1 auto',
-        minWidth: 0,
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        whiteSpace: 'nowrap'
-      }
-    }, t.v), /*#__PURE__*/React.createElement("span", {
-      style: {
-        flex: '0 0 auto',
-        marginInlineStart: 'var(--space-2)',
-        fontVariantNumeric: 'tabular-nums',
-        opacity: 0.7
-      }
-    }, t.n));
-  })))))))) : null, /*#__PURE__*/React.createElement("div", {
-    "data-record-body": true,
-    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined
-  }, /*#__PURE__*/React.createElement("div", {
-    "data-record-side": true
-  }, /*#__PURE__*/React.createElement("div", {
-    role: "status",
-    "aria-live": "polite",
-    "data-record-readout": true
-  }, readout.map(r => /*#__PURE__*/React.createElement("div", {
-    key: r.k
-  }, /*#__PURE__*/React.createElement("div", {
-    style: KEY_CELL
-  }, r.k), /*#__PURE__*/React.createElement("div", {
-    style: r.wrap ? DISC_CELL : VAL_CELL,
-    title: r.hint
-  }, r.v))))), /*#__PURE__*/React.createElement("div", {
-    "data-record-field": true,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)'
-    }
-  }, lead ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, lead) : null, readingRule ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, readingRule) : null, /*#__PURE__*/React.createElement("div", {
-    ref: fieldRef,
-    style: {
-      position: 'relative',
-      display: 'flex',
-      flexDirection: 'column'
-    },
-    onKeyDown: onKeyDown,
-    onMouseLeave: ev => {
-      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
-    }
-  }, blocks.map(b => {
-    const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
-    const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
-    /* A term filter takes the rest of the record away rather than
-       dimming it: years with nothing in the subset fold shut, and
-       the register closes up around what is left. */
-    const blockShut = termOn && !anyTerm;
-    return /*#__PURE__*/React.createElement("div", {
-      key: b.year,
-      style: {
-        display: 'grid',
-        gridTemplateRows: blockShut ? '0fr' : '1fr',
-        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("div", {
-      style: {
-        overflow: 'hidden',
-        minHeight: 0,
-        paddingBlockEnd: blockShut ? 0 : 'var(--space-3)',
-        transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        fontVariantNumeric: 'tabular-nums',
-        marginBlockEnd: 'var(--space-2)',
-        opacity: view === 1 && !anyLit ? 0.14 : 1,
-        transition: 'opacity var(--dur-fast) var(--ease-quart)'
-      }
-    }, b.year), /*#__PURE__*/React.createElement("div", null, b.rows.map(e => {
-      /* Nothing is under the cursor until the visitor has
-         actually pointed: the default cursor row must not read
-         as the active one. */
-      const on = cursor === e.i && touched;
-      /* Every match carries its title, so a solid line always
-         has something written next to it. */
-      const matched = relevant && litSet.has(e.i);
-      /* A term match is exposed the same way a dialogue match
-         is: it carries its title and keeps full weight while
-         the rest of the field recedes. */
-      const hitTerm = termOn && termSet.has(e.i);
-      const labelled = view === 1 ? matched || on && !touch : termOn ? hitTerm || on
-      /* Text above the focal band, lines below it: scrolling
-         down sets the reading, scrolling back up returns it. */ : on || touch && e.i <= cursor;
-      const rowShut = termOn && !hitTerm;
-      const rowOpacity = !printed ? 0 : view === 1 ? matched ? 1 : 0.14 : rowShut ? 0 : 1;
-      return /*#__PURE__*/React.createElement("div", {
-        key: e.i,
-        ref: el => {
-          rowRefs.current[e.i] = el;
-        },
-        tabIndex: e.i === cursor ? 0 : -1,
-        "aria-label": label(e),
-        title: (e.disciplines || []).join(', '),
-        onMouseEnter: () => {
-          setCursor(e.i);
-          setTouched(true);
-        },
-        onFocus: () => {
-          setCursor(e.i);
-          setTouched(true);
-        },
-        style: {
-          position: 'relative',
-          height: rowShut ? 0 : on ? pitch + FAN : pitch,
-          cursor: 'default',
-          outline: 'none',
-          overflow: rowShut ? 'hidden' : 'visible',
-          pointerEvents: rowShut ? 'none' : undefined,
-          opacity: rowOpacity,
-          transition: 'opacity var(--dur-fast) var(--ease-quart), height var(--dur-fast) var(--ease-quart)',
-          transitionDelay: printed && !reduced.current ? e.i * 8 + 'ms, 0ms' : '0ms'
-        }
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          position: 'absolute',
-          inset: 0,
-          display: 'flex',
-          alignItems: 'center',
-          gap: 'var(--space-2)',
-          pointerEvents: 'none'
-        }
-      }, labelled ? /*#__PURE__*/React.createElement("span", {
-        className: "small",
-        style: {
-          flex: '0 1 auto',
-          minWidth: 0,
-          maxWidth: 'none',
-          whiteSpace: 'nowrap',
-          fontWeight: on ? 'var(--weight-medium)' : 'var(--weight-book)',
-          color: on ? 'var(--text-primary)' : 'var(--text-secondary)'
-        }
-      }, e.client, /*#__PURE__*/React.createElement("span", {
-        style: {
-          paddingInline: '0.6em',
-          color: 'var(--text-secondary)'
-        }
-      }, "/"), e.sector) : null, /*#__PURE__*/React.createElement("div", {
-        style: {
-          flex: '1 1 12px',
-          minWidth: 0,
-          height: on ? BAR_ACTIVE : BAR,
-          background: on ? 'var(--ink)' : 'var(--underline-rest-secondary)',
-          transition: 'height var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)'
-        }
-      })), /*#__PURE__*/React.createElement("div", {
-        style: {
-          position: 'absolute',
-          left: 0,
-          right: 0,
-          top: -1,
-          bottom: -1
-        }
-      }));
-    }))));
-  }), scan >= 0 ? /*#__PURE__*/React.createElement("div", {
+  }), delegated ? null : /*#__PURE__*/React.createElement("canvas", {
+    ref: canvasRef,
     "aria-hidden": "true",
     style: {
       position: 'absolute',
-      left: 0,
-      right: 0,
-      top: scan * 100 + '%',
-      height: 1,
-      background: 'var(--ink)',
-      pointerEvents: 'none',
-      transition: scan ? 'top 1100ms var(--ease-quart)' : 'none'
+      inset: 0,
+      display: 'block'
     }
-  }) : null), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'baseline',
-      gap: 'var(--space-2)'
-    }
-  }, closingLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, closingLine) : null, actionLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: actionHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    }
-  }, actionLabel) : null)))));
+  }), delegated ? /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
+    effect: houseEffect,
+    mode: "progress",
+    progress: scrollP,
+    src: src
+  }) : null);
 }
-Object.assign(__ds_scope, { Record });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/darkGround.jsx
-try { (() => {
-/* Is this element currently over a dark green surface?
-
-   The headers' wordmark inverts itself by exclusion blend, which handles paper
-   and photographs, but an ink ground is the one case the blend cannot serve:
-   excluding paper artwork against ink yields magenta, and the palette has no
-   third hue. So the ink case is detected rather than blended, and the mark
-   swaps to the mint file with the blend off.
-
-   Detection is by hit test, not by measurement: whatever sits under the middle
-   of the element is asked whether it is inside an inverted scope. That makes a
-   section, an overlay and a fixed panel all answer the same way, and costs one
-   `elementsFromPoint` per scroll frame. */
-
-const DARK = '[data-inverted], [data-dark-ground]';
-function useOverDark(ref, {
-  enabled = true,
-  selector = DARK
-} = {}) {
-  const [over, setOver] = React.useState(false);
-  React.useEffect(() => {
-    if (!enabled) {
-      setOver(false);
-      return undefined;
-    }
-    let frame = 0;
-    const test = () => {
-      frame = 0;
-      const el = ref.current;
-      if (!el || typeof document.elementsFromPoint !== 'function') return;
-      const r = el.getBoundingClientRect();
-      if (!r.width || !r.height) return;
-      /* The left end of the mark, not its centre: the wordmark is wide and its
-         left end is where it meets a section edge first. */
-      const x = Math.max(1, Math.min(window.innerWidth - 1, r.left + Math.min(r.width, 120) / 2));
-      const y = Math.max(1, Math.min(window.innerHeight - 1, r.top + r.height / 2));
-      const under = document.elementsFromPoint(x, y).find(n => n !== el && !el.contains(n) && !n.contains(el));
-      setOver(!!(under && under.closest && under.closest(selector)));
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(test);
-    };
-    test();
-    /* The first test runs before the element has been laid out — the masthead
-       sizes its mark in its own rAF pass — so the rect is empty and the hit
-       test bails. At the top of the document no scroll event ever follows, so
-       the answer would stay false for the whole first screen. Re-test as
-       layout settles, and again when the element's own box changes. */
-    const settle = [window.requestAnimationFrame(test), window.setTimeout(test, 120), window.setTimeout(test, 400)];
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(test).catch(() => {});
-    const ro = typeof ResizeObserver === 'function' ? new ResizeObserver(onScroll) : null;
-    if (ro && ref.current) ro.observe(ref.current);
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      if (frame) window.cancelAnimationFrame(frame);
-      window.cancelAnimationFrame(settle[0]);
-      window.clearTimeout(settle[1]);
-      window.clearTimeout(settle[2]);
-      if (ro) ro.disconnect();
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-    };
-  }, [ref, enabled, selector]);
-  return over;
-}
-
-/* The mint sibling of a paper wordmark file. */
-function mintLogo(src) {
-  return String(src).replace('-paper', '-mint');
-}
-
-/* The wash sibling: the mark in ink-wash, for a washed section where the
-   exclusion blend would take the paper artwork to a warm near-black instead of
-   to green. Same detection route as the ink case, different file. */
-function washLogo(src) {
-  return String(src).replace('-paper', '-wash');
-}
-Object.assign(__ds_scope, { useOverDark, mintLogo, washLogo });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/darkGround.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/focusSource.jsx
-try { (() => {
-/* Browsers match :focus-visible on text fields even when they were clicked,
-   which is correct for a field you type into blind but wrong here: the ring is
-   meant to say "the keyboard is here". So the document records how focus was
-   last moved, and base.css drops the ring on text fields while that source is
-   the pointer. Installed once, from whichever field mounts first. */
-
-let installed = false;
-function install() {
-  if (installed || typeof document === 'undefined') return;
-  installed = true;
-  const set = v => {
-    document.documentElement.setAttribute('data-focus-source', v);
-  };
-  set('pointer');
-  document.addEventListener('pointerdown', () => set('pointer'), true);
-  document.addEventListener('keydown', e => {
-    /* Only navigation keys hand focus over; typing inside a clicked field
-       must not light the ring up mid-sentence. */
-    if (e.key === 'Tab' || e.key === 'Escape' || e.key.indexOf('Arrow') === 0) set('key');
-  }, true);
-}
-function useFocusSource() {
-  React.useEffect(install, []);
-}
-Object.assign(__ds_scope, { useFocusSource });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/focusSource.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/ListingFilters.jsx
-try { (() => {
-/* The filter bar the two listings share.
-
-   One row always shows: the Filtrera toggle, the count against the whole set,
-   and a way to clear. The fields themselves are a drawer under it, because a
-   listing's first job is the list — a permanent bank of four selects reads as
-   a form and pushes the first row under the fold.
-
-   The fields are data, so the same component serves any listing: the people
-   register passes area, sector and office, the stream passes type, area,
-   sector and year. What must not vary between the two pages is the layout,
-   the counted option labels and the words, so they live here once.
-
-   Two variants:
-     drawer — the fields are behind the toggle. The default, and what both
-       listings use.
-     open — the fields are always shown and the toggle is gone, for a page
-       whose whole purpose is the filtering (a search result, a facet landing
-       page) rather than the list. */
-function ListingFilters({
-  fields = [],
-  value = {},
-  onChange,
-  countLine = '',
-  onClear,
-  showClear = false,
-  open,
-  onToggle,
-  variant = 'drawer',
-  label = 'Filtrera',
-  marked = false,
-  /* A field kept out of the drawer and standing in the top row: typing filters
-     the list immediately, without the drawer having to be opened at all. Its
-     value and change handler are the same as every other field's. */
-  searchId = '',
-  searchLabel = 'Sök',
-  searchPlaceholder = '',
-  style
-}) {
-  __ds_scope.useFocusSource();
-  const [selfOpen, setSelfOpen] = React.useState(false);
-  const [warm, setWarm] = React.useState(false);
-  const controlled = open != null;
-  const isOpen = variant === 'open' ? true : controlled ? !!open : selfOpen;
-  const toggle = () => {
-    if (onToggle) onToggle();
-    if (!controlled) setSelfOpen(v => !v);
-  };
-  const labelShown = warm || isOpen;
-  const field = {
-    width: '100%',
-    marginTop: 6,
-    padding: '0 0 8px',
-    border: 0,
-    borderBottom: '1px solid var(--rule-hairline)',
-    background: 'transparent',
-    color: 'var(--ink)',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)',
-    appearance: 'none',
-    borderRadius: 0
-  };
-  const quiet = {
-    border: 0,
-    background: 'transparent',
-    padding: 0,
-    cursor: 'pointer',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)',
-    color: 'var(--text-secondary)',
-    textDecoration: 'underline',
-    textDecorationColor: 'var(--underline-rest-secondary)',
-    textUnderlineOffset: '0.22em'
-  };
-  const grid = /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))',
-      gap: 'var(--gutter)'
-    }
-  }, fields.map(f => /*#__PURE__*/React.createElement("label", {
-    key: f.id,
-    style: {
-      display: 'block',
-      minWidth: 0
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      display: 'block',
-      maxWidth: 'none',
-      color: 'var(--text-secondary)'
-    }
-  }, f.label), f.kind === 'search' ? /*#__PURE__*/React.createElement("input", {
-    type: "search",
-    value: value[f.id] || '',
-    placeholder: f.placeholder || '',
-    onChange: e => onChange && onChange(f.id, e.target.value),
-    style: field
-  }) : /*#__PURE__*/React.createElement("select", {
-    value: value[f.id] || '',
-    onChange: e => onChange && onChange(f.id, e.target.value),
-    style: {
-      ...field,
-      cursor: 'pointer'
-    }
-  }, (f.options || []).map(o => /*#__PURE__*/React.createElement("option", {
-    key: o.value,
-    value: o.value
-  }, o.label))))));
-  return /*#__PURE__*/React.createElement("div", {
-    style: style
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'center',
-      gap: 'var(--space-3)'
-    }
-  }, variant === 'drawer' ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: toggle,
-    onMouseEnter: () => setWarm(true),
-    onMouseLeave: () => setWarm(false),
-    onFocus: () => setWarm(true),
-    onBlur: () => setWarm(false),
-    "aria-expanded": isOpen ? 'true' : 'false',
-    "aria-label": label,
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: 8,
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'flex-start',
-      gap: 3,
-      width: 14
-    }
-  }, [14, 10, 6].map(w => /*#__PURE__*/React.createElement("span", {
-    key: w,
-    style: {
-      display: 'block',
-      width: w,
-      height: 1,
-      background: labelShown ? 'var(--ink)' : 'var(--text-secondary)',
-      transition: 'background var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'block',
-      maxWidth: labelShown ? '9ch' : 0,
-      opacity: labelShown ? 1 : 0,
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-      textDecoration: 'underline',
-      textDecorationThickness: '1px',
-      textUnderlineOffset: '0.2em',
-      textDecorationColor: warm ? 'currentColor' : 'transparent',
-      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-reveal) var(--ease-expo), text-decoration-color var(--dur-reveal) var(--ease-expo)'
-    }
-  }, label), marked && !isOpen ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      width: 4,
-      height: 4,
-      borderRadius: '50%',
-      background: 'var(--ink)'
-    }
-  }) : null) : null, countLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, countLine) : null, showClear ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClear,
-    style: quiet
-  }, "Rensa") : null, searchId ? /*#__PURE__*/React.createElement("label", {
-    style: {
-      marginLeft: 'auto',
-      display: 'flex',
-      alignItems: 'baseline',
-      gap: 'var(--space-2)',
-      minWidth: 0,
-      flex: '1 1 220px',
-      maxWidth: 320
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      flex: 'none',
-      maxWidth: 'none',
-      color: 'var(--text-secondary)'
-    }
-  }, searchLabel), /*#__PURE__*/React.createElement("input", {
-    type: "search",
-    value: value[searchId] || '',
-    placeholder: searchPlaceholder,
-    onChange: e => onChange && onChange(searchId, e.target.value),
-    style: {
-      ...field,
-      marginTop: 0,
-      minWidth: 0
-    }
-  })) : null), variant === 'open' ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 'var(--space-4)'
-    }
-  }, grid) : /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": isOpen ? 'false' : 'true',
-    style: {
-      display: 'grid',
-      gridTemplateRows: isOpen ? '1fr' : '0fr',
-      opacity: isOpen ? 1 : 0,
-      marginTop: isOpen ? 'var(--space-4)' : 0,
-      visibility: isOpen ? 'visible' : 'hidden',
-      transition: isOpen ? 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s' : 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s linear 420ms'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, grid)));
-}
-Object.assign(__ds_scope, { ListingFilters });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ListingFilters.jsx", error: String((e && e.message) || e) }); }
+Object.assign(__ds_scope, { ImageReveal });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ImageReveal.jsx", error: String((e && e.message) || e) }); }
 
 // components/conversation/Composer.jsx
 try { (() => {
@@ -5485,2243 +8452,177 @@ function Composer({
 Object.assign(__ds_scope, { Composer });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/Composer.jsx", error: String((e && e.message) || e) }); }
 
-// components/core/headerActions.jsx
+// components/conversation/WorkingIndicator.jsx
 try { (() => {
-/* Where the page's own actions go once they have nowhere left to sit.
-
-   The action row lives at the top right of a page, opposite the title, and
-   stays there as long as the page has a top. Once it has been pinned to the
-   header line at the wide measure it is in the header's place rather than the
-   page's, so it hands its items over: the row publishes them here, the header
-   picks them up and draws them as glyphs to the left of the conversation
-   trigger.
-
-   A store rather than a portal or a prop: the row and the header are mounted
-   by different callers — a page passes `items` to ActionRow and never touches
-   SiteHeader's props — and the two are not in one React tree the page owns.
-   One module-level list with subscribers keeps the handover to the two
-   components that care, with no page wiring at all. */
-
-let current = [];
-const subs = new Set();
-function publishHeaderActions(items) {
-  current = Array.isArray(items) ? items : [];
-  for (const fn of subs) fn(current);
-}
-function useHeaderActions() {
-  const [items, setItems] = React.useState(current);
-  React.useEffect(() => {
-    setItems(current);
-    subs.add(setItems);
-    return () => {
-      subs.delete(setItems);
-    };
-  }, []);
-  return items;
-}
-Object.assign(__ds_scope, { publishHeaderActions, useHeaderActions });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/headerActions.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/markLibrary.jsx
-try { (() => {
-/* The line-mark library, 16 marks / 46 parts, imported verbatim from the
-   source SVGs (assets/marks.json is the same data). Every mark is on a
-   0 0 100 100 viewBox; every part has exactly one path, a draw `order` and an
-   `axis` unit vector giving the direction that part naturally travels. */
-const MARKS = {
-  'arch-aperture': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'arch',
-      axis: [0, 0],
-      order: 0,
-      d: 'M 50 84 L 20 84 L 20 42 A 30 30 0 0 1 80 42 L 80 84 Z'
-    }, {
-      part: 'aperture',
-      axis: [0, 1],
-      order: 1,
-      d: 'M 50 48 A 14 14 0 0 1 50 76 A 14 14 0 0 1 50 48 Z'
-    }, {
-      part: 'axis',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 50 12 L 50 84'
-    }]
-  },
-  'arcs-split': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'arc-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 22.742 22.742 A 27.258 27.258 0 0 1 22.742 77.258'
-    }, {
-      part: 'arc-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 77.258 22.742 A 27.258 27.258 0 0 0 77.258 77.258'
-    }, {
-      part: 'axis',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 50 10 L 50 90'
-    }]
-  },
-  'circle-baseline': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'circle',
-      axis: [0, -1],
-      order: 0,
-      d: 'M 50 24 A 26 26 0 0 1 50 76 A 26 26 0 0 1 50 24 Z'
-    }, {
-      part: 'baseline',
-      axis: [0, 0],
-      order: 1,
-      d: 'M 10 76 L 90 76'
-    }]
-  },
-  'circles-chord': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'circle-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 34 23 A 27 27 0 0 1 34 77 A 27 27 0 0 1 34 23 Z'
-    }, {
-      part: 'circle-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 66 23 A 27 27 0 0 1 66 77 A 27 27 0 0 1 66 23 Z'
-    }, {
-      part: 'chord',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 7 50 L 93 50'
-    }]
-  },
-  'circles-stack': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'circle-top',
-      axis: [0, -1],
-      order: 0,
-      d: 'M 50 10 A 25 25 0 0 1 50 60 A 25 25 0 0 1 50 10 Z'
-    }, {
-      part: 'circle-bottom',
-      axis: [0, 1],
-      order: 1,
-      d: 'M 50 40 A 25 25 0 0 1 50 90 A 25 25 0 0 1 50 40 Z'
-    }, {
-      part: 'chord',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 22 50 L 78 50'
-    }]
-  },
-  'circles-tangent': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'circle-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 30 30 A 20 20 0 0 1 30 70 A 20 20 0 0 1 30 30 Z'
-    }, {
-      part: 'circle-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 70 30 A 20 20 0 0 1 70 70 A 20 20 0 0 1 70 30 Z'
-    }, {
-      part: 'axis',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 50 18 L 50 82'
-    }]
-  },
-  'diamond-split': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'chevron-top',
-      axis: [0, -1],
-      order: 0,
-      d: 'M 10 50 L 50 10 L 90 50'
-    }, {
-      part: 'chevron-bottom',
-      axis: [0, 1],
-      order: 1,
-      d: 'M 10 50 L 50 90 L 90 50'
-    }, {
-      part: 'chord',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 10 50 L 90 50'
-    }]
-  },
-  'diamonds-overlap': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'diamond-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 49 36 L 63 50 L 35 78 L 7 50 L 35 22 Z'
-    }, {
-      part: 'diamond-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 79 36 L 93 50 L 65 78 L 37 50 L 65 22 Z'
-    }]
-  },
-  'panels-fold': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'panel-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 46 56 L 46 90 L 10 70 L 10 10 L 46 22 Z'
-    }, {
-      part: 'panel-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 54 56 L 54 22 L 90 10 L 90 70 L 54 90 Z'
-    }]
-  },
-  'pills-pair': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'pill-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 28.5 10 L 40 10 A 7 7 0 0 1 47 17 L 47 83 A 7 7 0 0 1 40 90 L 17 90 A 7 7 0 0 1 10 83 L 10 17 A 7 7 0 0 1 17 10 Z'
-    }, {
-      part: 'pill-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 71.5 10 L 83 10 A 7 7 0 0 1 90 17 L 90 83 A 7 7 0 0 1 83 90 L 60 90 A 7 7 0 0 1 53 83 L 53 17 A 7 7 0 0 1 60 10 Z'
-    }]
-  },
-  'pills-split': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'pill-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 18 14 L 36 14 A 8 8 0 0 1 44 22 L 44 78 A 8 8 0 0 1 36 86 L 18 86 A 8 8 0 0 1 10 78 L 10 22 A 8 8 0 0 1 18 14 Z'
-    }, {
-      part: 'pill-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 64 14 L 82 14 A 8 8 0 0 1 90 22 L 90 78 A 8 8 0 0 1 82 86 L 64 86 A 8 8 0 0 1 56 78 L 56 22 A 8 8 0 0 1 64 14 Z'
-    }, {
-      part: 'axis',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 50 8 L 50 92'
-    }]
-  },
-  'square-arcs': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'square',
-      axis: [0, 0],
-      order: 0,
-      d: 'M 50 10 L 90 10 L 90 90 L 10 90 L 10 10 Z'
-    }, {
-      part: 'arc-left',
-      axis: [-1, 0],
-      order: 1,
-      d: 'M 10 10 A 40 40 0 0 1 10 90'
-    }, {
-      part: 'arc-right',
-      axis: [1, 0],
-      order: 2,
-      d: 'M 90 10 A 40 40 0 0 0 90 90'
-    }]
-  },
-  'square-inscribed': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'square',
-      axis: [0, 0],
-      order: 0,
-      d: 'M 50 10 L 90 10 L 90 90 L 10 90 L 10 10 Z'
-    }, {
-      part: 'circle',
-      axis: [0, -1],
-      order: 1,
-      d: 'M 50 10 A 40 40 0 0 1 50 90 A 40 40 0 0 1 50 10 Z'
-    }]
-  },
-  'star-radial': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'arm-up',
-      axis: [0, -1],
-      order: 0,
-      d: 'M 50 50 L 50 10'
-    }, {
-      part: 'arm-upper-right',
-      axis: [0.755, -0.656],
-      order: 1,
-      d: 'M 50 50 L 88 17'
-    }, {
-      part: 'arm-lower-right',
-      axis: [0.755, 0.656],
-      order: 2,
-      d: 'M 50 50 L 88 83'
-    }, {
-      part: 'arm-down',
-      axis: [0, 1],
-      order: 3,
-      d: 'M 50 50 L 50 90'
-    }, {
-      part: 'arm-lower-left',
-      axis: [-0.755, 0.656],
-      order: 4,
-      d: 'M 50 50 L 12 83'
-    }, {
-      part: 'arm-upper-left',
-      axis: [-0.755, -0.656],
-      order: 5,
-      d: 'M 50 50 L 12 17'
-    }]
-  },
-  'tri-radial': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'arm-up',
-      axis: [0, -1],
-      order: 0,
-      d: 'M 50 61 L 50 15'
-    }, {
-      part: 'arm-left',
-      axis: [-0.87, 0.5],
-      order: 1,
-      d: 'M 50 61 L 10 84'
-    }, {
-      part: 'arm-right',
-      axis: [0.87, 0.5],
-      order: 2,
-      d: 'M 50 61 L 90 84'
-    }]
-  },
-  'triangle-axis': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'side-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 50 17 L 10 81 L 50 81'
-    }, {
-      part: 'side-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 50 17 L 90 81 L 50 81'
-    }, {
-      part: 'axis',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 50 10 L 50 90'
-    }]
-  }
+const CLASS = {
+  'display-2': 'display-2',
+  'display-3': 'display-3',
+  lead: 'lead',
+  prose: 'prose',
+  small: 'small'
 };
-const MARK_NAMES = ["arch-aperture", "arcs-split", "circle-baseline", "circles-chord", "circles-stack", "circles-tangent", "diamond-split", "diamonds-overlap", "panels-fold", "pills-pair", "pills-split", "square-arcs", "square-inscribed", "star-radial", "tri-radial", "triangle-axis"];
-Object.assign(__ds_scope, { MARKS, MARK_NAMES });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/markLibrary.jsx", error: String((e && e.message) || e) }); }
 
-// components/core/Mark.jsx
-try { (() => {
-const EMPTY = {};
-const DUR_TRAVEL = 900; /* travel and trim */
-const DUR_WEIGHT = 700; /* stroke weight */
-const TAU = Math.PI * 2;
+/* Under 300ms nothing exists — a flash of a loader is worse than a pause.
 
-/* One media query for the whole page, not one per mark: the field mode mounts
-   sixteen marks at once, and sixteen listeners plus sixteen state updates on
-   every beat change is enough work to make a crossfade land late. */
-const motionSubs = new Set();
-let motionMq = null;
-let motionReduced = false;
-function subscribeMotion(fn) {
-  if (!motionMq && typeof window !== 'undefined') {
-    motionMq = window.matchMedia('(prefers-reduced-motion: reduce)');
-    motionReduced = motionMq.matches;
-    motionMq.addEventListener('change', () => {
-      motionReduced = motionMq.matches;
-      motionSubs.forEach(f => f());
-    });
+   Past it, the ghost is the answer's own silhouette. The copy that is about to
+   arrive is laid out invisibly at its real type sizes, every line box measured,
+   and the effect painted through a mask cut to exactly those lines. So a
+   display-size preamble ghosts as two tall lines, its body as four short ones,
+   a portrait as a 4:5 block — and the answer lands in the space its ghost was
+   already holding, with nothing reflowing.
+
+   One effect instance across the whole silhouette, not one per line: a single
+   pass reads as one thing arriving. */
+
+function lineRects(el, base) {
+  const out = [];
+  const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+  let node;
+  while (node = walker.nextNode()) {
+    const len = node.textContent.length;
+    if (!len) continue;
+    const range = document.createRange();
+    let line = null;
+    for (let i = 0; i < len; i++) {
+      range.setStart(node, i);
+      range.setEnd(node, i + 1);
+      const r = range.getBoundingClientRect();
+      if (!r.width && !r.height) continue;
+      if (line && Math.abs(r.top - line.top) < 2) {
+        line.right = Math.max(line.right, r.right);
+      } else {
+        if (line) out.push(line);
+        line = {
+          top: r.top,
+          bottom: r.bottom,
+          left: r.left,
+          right: r.right
+        };
+      }
+    }
+    if (line) out.push(line);
   }
-  motionSubs.add(fn);
-  return () => motionSubs.delete(fn);
-}
-function useReducedMotion() {
-  const [reduced, setReduced] = React.useState(() => {
-    if (typeof window === 'undefined') return false;
-    if (!motionMq) motionMq = window.matchMedia('(prefers-reduced-motion: reduce)');
-    motionReduced = motionMq.matches;
-    return motionReduced;
+  return out.map(l => {
+    /* The ink box, not the line box: a ghost the full leading tall reads as a
+       stack of bars rather than as text. */
+    const lh = l.bottom - l.top;
+    const ink = Math.max(4, lh * 0.62);
+    return {
+      x: l.left - base.left,
+      y: l.top - base.top + (lh - ink) * 0.52,
+      w: Math.max(2, l.right - l.left),
+      h: ink
+    };
   });
-  React.useEffect(() => subscribeMotion(() => setReduced(motionReduced)), []);
-  return reduced;
 }
-
-/* A paced draw. Velocity 1 + 0.75·cos(2πp) along the path, integrated once
-   into a time→progress table, so the line eases to a quarter speed across the
-   middle of its travel and never kinks. Monotonic; endpoints exact. */
-function paceTable(steps = 400) {
-  const t = new Float32Array(steps + 1);
-  let acc = 0;
-  for (let i = 1; i <= steps; i++) {
-    const p = (i - 0.5) / steps;
-    acc += 1 / (1 + 0.75 * Math.cos(TAU * p));
-    t[i] = acc;
-  }
-  for (let i = 0; i <= steps; i++) t[i] /= acc;
-  return t;
-}
-const PACE = paceTable();
-function pacedProgress(x) {
-  /* invert the table: given elapsed fraction x, return progress along the path */
-  const n = PACE.length - 1;
-  let lo = 0,
-    hi = n;
-  while (lo < hi) {
-    const mid = lo + hi >> 1;
-    if (PACE[mid] < x) lo = mid + 1;else hi = mid;
-  }
-  const i = Math.max(1, lo);
-  const span = PACE[i] - PACE[i - 1] || 1;
-  return Math.min(1, Math.max(0, (i - 1 + (x - PACE[i - 1]) / span) / n));
-}
-
-/* One mark, inline. Colour is currentColor, so the mark inherits whatever text
-   colour sits on its container; weight is --stroke on the svg, in viewBox
-   units. Three axes and only three: weight, trim, and part travel along each
-   part's own axis. */
-const Mark = React.memo(function Mark({
-  name = 'circles-chord',
-  state,
-  extras,
-  stroke = 1.5,
-  replay = 0,
-  size,
-  title,
-  className = '',
+function WorkingIndicator({
+  active = false,
+  delay = 300,
+  blocks = [],
+  note = 'Läser uppdragsregistret.',
+  src = null,
+  effect,
   style
 }) {
-  const mark = __ds_scope.MARKS[name];
-  const reduced = useReducedMotion();
-  const s = state || EMPTY;
-  const move = s.move || EMPTY;
-  const trim = s.trim || EMPTY;
-  const weights = s.w || EMPTY;
-  const base = s.base != null ? s.base : stroke;
-  const draw = s.draw || null;
-  const paths = React.useRef({});
-  const cur = React.useRef({});
-  const trimKey = JSON.stringify(trim) + '|' + replay;
-
-  /* Optical weight. A mark drawn at one weight on its own grid reads thinner
-     the smaller it is printed, exactly as the icon set does when Carbon's 32
-     grid is scaled down. Marks run from 32px in a corner to 400px on a story
-     cover, which is far too wide a range for one weight, so the stroke is
-     compensated against a reference width: at 320px it is the weight as
-     authored, and below that it thickens with the square root of the
-     reduction — a mark at a quarter of the reference carries twice the line.
-     Never thinner than authored, never more than four times it. */
-  const svgRef = React.useRef(null);
-  const [gain, setGain] = React.useState(1);
+  const [shown, setShown] = React.useState(false);
+  const [mask, setMask] = React.useState(null);
+  const holdRef = React.useRef(null);
+  React.useEffect(() => {
+    if (!active) {
+      setShown(false);
+      setMask(null);
+      return;
+    }
+    const id = window.setTimeout(() => setShown(true), delay);
+    return () => window.clearTimeout(id);
+  }, [active, delay]);
   React.useLayoutEffect(() => {
-    const el = svgRef.current;
-    if (!el || typeof ResizeObserver === 'undefined') return;
-    const REF = 320;
-    const read = () => {
-      const w = el.getBoundingClientRect().width;
-      if (!w) return;
-      const g = Math.min(4, Math.max(1, Math.sqrt(REF / w)));
-      setGain(prev => Math.abs(prev - g) < 0.01 ? prev : g);
+    if (!shown) return;
+    const el = holdRef.current;
+    if (!el) return;
+    const measure = () => {
+      const base = el.getBoundingClientRect();
+      const rects = [];
+      el.querySelectorAll('[data-ghost-text]').forEach(n => rects.push(...lineRects(n, base)));
+      el.querySelectorAll('[data-ghost-box]').forEach(n => {
+        const r = n.getBoundingClientRect();
+        rects.push({
+          x: r.left - base.left,
+          y: r.top - base.top,
+          w: r.width,
+          h: r.height
+        });
+      });
+      if (!rects.length) {
+        setMask(null);
+        return;
+      }
+      const path = rects.map(r => 'M' + r.x.toFixed(1) + ' ' + r.y.toFixed(1) + 'h' + r.w.toFixed(1) + 'v' + r.h.toFixed(1) + 'h-' + r.w.toFixed(1) + 'Z').join(' ');
+      setMask({
+        path: path,
+        height: Math.round(base.height)
+      });
     };
-    read();
-    const ro = new ResizeObserver(read);
+    measure();
+    const ro = new ResizeObserver(measure);
     ro.observe(el);
     return () => ro.disconnect();
-  }, []);
-
-  /* Extras are temporary lines a story can bring in mid-way — a ring, a set of
-     ticks — and they rest at zero length rather than full, so a state that
-     does not name them simply does not have them. That is what makes the last
-     beat the library mark again with nothing to undo. */
-  const allParts = React.useMemo(() => {
-    const base = mark ? mark.parts : [];
-    const ex = (extras || []).map((e, i) => ({
-      part: e.part || 'extra-' + i,
-      d: e.d,
-      axis: e.axis || [0, 0],
-      order: 900 + i,
-      extra: true
-    }));
-    return ex.length ? [...base, ...ex] : base;
-  }, [mark, extras]);
-  const restOf = p => p.extra ? 0 : 100;
-
-  /* Trim is written per frame, never handed to a CSS transition. A dasharray
-     only interpolates against another dasharray, so a part going from
-     undashed to trimmed had nothing to interpolate from and snapped — which
-     is why a half circle closed instantly instead of drawing. Animating the
-     numbers ourselves also lets a part arriving at full length have the
-     property removed entirely: a path left dashed at full length loses its
-     real mitre joins. */
-  const applyDash = React.useCallback((part, v) => {
-    cur.current[part] = v;
-    const el = paths.current[part];
-    if (!el) return;
-    if (v >= 99.99) el.style.removeProperty('stroke-dasharray');else el.style.strokeDasharray = v + ' 100';
-  }, []);
-  React.useEffect(() => {
-    if (!mark) return;
-    const legs = [];
-    for (const p of allParts) {
-      if (draw && draw.part === p.part) continue;
-      const from = cur.current[p.part] != null ? cur.current[p.part] : restOf(p);
-      const to = trim[p.part] != null ? trim[p.part] : restOf(p);
-      if (from !== to) legs.push([p.part, from, to]);
-    }
-    if (!legs.length) return;
-    if (reduced) {
-      legs.forEach(([p,, to]) => applyDash(p, to));
-      return;
-    }
-    let raf = null;
-    const t0 = performance.now();
-    const tick = now => {
-      const x = Math.min(1, (now - t0) / DUR_TRAVEL);
-      const e = 1 - Math.pow(1 - x, 4); /* --ease-quart, in numbers */
-      legs.forEach(([p, from, to]) => applyDash(p, from + (to - from) * e));
-      if (x < 1) raf = requestAnimationFrame(tick);else raf = null;
-    };
-    raf = requestAnimationFrame(tick);
-    const guard = window.setTimeout(() => {
-      if (raf != null) cancelAnimationFrame(raf);
-      raf = null;
-      legs.forEach(([p,, to]) => applyDash(p, to));
-    }, DUR_TRAVEL + 140);
-    return () => {
-      if (raf != null) cancelAnimationFrame(raf);
-      window.clearTimeout(guard);
-    };
-  }, [mark, trimKey, reduced, applyDash]);
-  /* The paced draw is the one state change a CSS transition cannot express, so
-     it runs a frame loop — and rAF is throttled on a hidden tab, so a timeout
-     at duration + 140ms cancels the loop and applies the exact end value
-     rather than leaving the mark frozen half-drawn. */
-  const drawKey = draw ? [draw.part, draw.from, draw.to, draw.dur, replay].join('|') : '';
-  React.useEffect(() => {
-    if (!draw) return;
-    const part = draw.part;
-    const from = draw.from != null ? draw.from : 0;
-    const to = draw.to != null ? draw.to : 100;
-    const dur = draw.dur != null ? draw.dur : 1400;
-    const apply = v => applyDash(part, v);
-    if (reduced) {
-      apply(to);
-      return;
-    }
-    apply(from);
-    let raf = null;
-    const t0 = performance.now();
-    const tick = now => {
-      const x = Math.min(1, (now - t0) / dur);
-      apply(from + (to - from) * pacedProgress(x));
-      if (x < 1) raf = requestAnimationFrame(tick);else raf = null;
-    };
-    raf = requestAnimationFrame(tick);
-    const guard = window.setTimeout(() => {
-      if (raf != null) cancelAnimationFrame(raf);
-      raf = null;
-      apply(to);
-    }, dur + 140);
-    return () => {
-      if (raf != null) cancelAnimationFrame(raf);
-      window.clearTimeout(guard);
-    };
-  }, [drawKey, reduced, applyDash]);
-  if (!mark) return null;
-  const travel = reduced ? 0 : DUR_TRAVEL;
-  const wDur = reduced ? 0 : DUR_WEIGHT;
-  return /*#__PURE__*/React.createElement("svg", {
-    ref: svgRef,
-    viewBox: mark.viewBox,
-    fill: "none",
-    stroke: "currentColor",
-    role: title ? 'img' : undefined,
-    "aria-hidden": title ? undefined : 'true',
-    className: className,
-    style: {
-      '--stroke': base * gain,
-      strokeWidth: 'var(--stroke, 1.5)',
-      width: size || '100%',
-      height: size ? size : 'auto',
-      overflow: 'visible',
-      ...style
-    }
-  }, title ? /*#__PURE__*/React.createElement("title", null, title) : null, allParts.map(p => {
-    const k = move[p.part];
-    const tx = k ? p.axis[0] * k : 0;
-    const ty = k ? p.axis[1] * k : 0;
-    const w = weights[p.part];
-    return /*#__PURE__*/React.createElement("g", {
-      key: p.part,
-      "data-part": p.part,
-      "data-axis": p.axis.join(' '),
-      style: {
-        transform: `translate(${tx}px, ${ty}px)`,
-        transition: `transform ${travel}ms var(--ease-quart)`
-      }
-    }, /*#__PURE__*/React.createElement("path", {
-      ref: el => {
-        paths.current[p.part] = el;
-        if (!el) return;
-        /* The ref writes the current length on mount and after every
-           re-render: trim lives in inline style, and React would
-           otherwise leave a remounted path at its resting length. */
-        const v = cur.current[p.part] != null ? cur.current[p.part] : restOf(p);
-        cur.current[p.part] = v;
-        if (v >= 99.99) el.style.removeProperty('stroke-dasharray');else el.style.strokeDasharray = v + ' 100';
-      },
-      "data-order": p.order,
-      pathLength: "100",
-      d: p.d,
-      strokeWidth: w != null ? w * gain : undefined,
-      style: {
-        strokeDashoffset: 0,
-        transition: `stroke-width ${wDur}ms var(--ease-quart)`
-      }
-    }));
-  }));
-});
-Object.assign(__ds_scope, { Mark });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Mark.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/noirPlate.jsx
-try { (() => {
-/* The green noir plate — the system's one photographic treatment, lifted out of
-   `ImageReveal` so anything that shows a photograph can use it: the scroll
-   reveal, the hero film band, a portrait landing.
-
-   It is not a greyscale filter. The image is desaturated and hardened, then
-   composited multiply-with-paper to set the white point and screen-with-ink to
-   set the black point, so shadows sit on the house dark green and highlights on
-   the lavender white. The contrast pass before the composite is what makes it
-   read as noir rather than as a desaturated photograph.
-
-   Two forms of the same treatment, one source of truth:
-   - `paintNoirPlate` for canvas painters, which composite it themselves.
-   - `<NoirPlate>` for a DOM element (a live `<video>` cannot be repainted per
-      frame for free), which reproduces the identical composite in CSS blend
-      modes over whatever media it is given. */
-
-const NOIR_INK = 'rgb(3, 41, 24)';
-const NOIR_PAPER = 'rgb(247, 246, 250)';
-/* The light end of an inverted plate. On ink ground the highlights are the
-   mint the inverted type already uses (`--mint`), not paper: plain white over
-   the deep green is the one place the palette has no third colour for. */
-const NOIR_MINT = 'rgb(221, 236, 226)';
-/* Hardness of the plate. 1.55 is the house value; below 1.3 it stops reading
-   as a plate and starts reading as a flat photograph. */
-const NOIR_CONTRAST = 1.55;
-function noirFilter(noir = NOIR_CONTRAST, invert = false) {
-  return 'grayscale(1) contrast(' + noir + ') brightness(' + (1.06 - 0.04 * noir) + ')' + (invert ? ' invert(1)' : '');
-}
-
-/* The plate's own tone at a given luminance, through the same
-   greyscale/contrast/brightness the plate is painted with. Screens that have to
-   close up into the plate read their target tone from here, so the two carry
-   the same weight. */
-function noirTone(lum, noir = NOIR_CONTRAST, invert = false) {
-  const g = (lum - 0.5) * noir + 0.5;
-  const t = 1 - Math.min(1, Math.max(0, g * (1.06 - 0.04 * noir)));
-  return invert ? 1 - t : t;
-}
-
-/* Paints `img` into `ctx` as the plate, cover-cropped to w x h. The caller owns
-   scaling and clearing. */
-function paintNoirPlate(ctx, img, w, h, noir = NOIR_CONTRAST, invert = false) {
-  const iw = img.naturalWidth || img.videoWidth,
-    ih = img.naturalHeight || img.videoHeight;
-  if (!iw || !ih) return;
-  const ir = iw / ih,
-    wr = w / h;
-  let sx, sy, sw, sh;
-  if (ir > wr) {
-    sh = ih;
-    sw = sh * wr;
-    sx = (iw - sw) / 2;
-    sy = 0;
-  } else {
-    sw = iw;
-    sh = sw / wr;
-    sx = 0;
-    sy = (ih - sh) / 2;
-  }
-  ctx.filter = noirFilter(noir, invert);
-  ctx.drawImage(img, sx, sy, sw, sh, 0, 0, w, h);
-  ctx.filter = 'none';
-  ctx.globalCompositeOperation = 'multiply';
-  ctx.fillStyle = invert ? NOIR_MINT : NOIR_PAPER;
-  ctx.fillRect(0, 0, w, h);
-  ctx.globalCompositeOperation = 'screen';
-  ctx.fillStyle = NOIR_INK;
-  ctx.fillRect(0, 0, w, h);
-  ctx.globalCompositeOperation = 'source-over';
-}
-
-/* The same plate around a DOM element. `isolation: isolate` is load-bearing:
-   without it the two blend layers reach past the plate and tint the page.
-
-   The plate's strength is read from `--noir-mix` (default 1, full plate; 0 is
-   the bare colour footage) so a caller animating it per frame can set one
-   inherited custom property on an ancestor instead of re-rendering React. The
-   filter interpolates through calc() and the two composite layers fade with
-   it, so the whole treatment lifts as one. */
-function NoirPlate({
-  noir = NOIR_CONTRAST,
-  mix = null,
-  children,
-  style
-}) {
-  const layer = {
-    position: 'absolute',
-    inset: 0,
-    pointerEvents: 'none'
-  };
-  const m = 'var(--noir-mix, 1)';
-  const filter = 'grayscale(' + m + ') contrast(calc(1 + ' + (noir - 1).toFixed(4) + ' * ' + m + '))' + ' brightness(calc(1 + ' + (0.06 - 0.04 * noir).toFixed(4) + ' * ' + m + '))';
-  const root = {
-    position: 'absolute',
-    inset: 0,
-    isolation: 'isolate',
-    overflow: 'clip',
-    ...style
-  };
-  if (mix != null) root['--noir-mix'] = mix;
+  }, [shown, blocks]);
+  if (!shown) return null;
   return /*#__PURE__*/React.createElement("div", {
-    style: root
-  }, /*#__PURE__*/React.createElement("div", {
+    role: "status",
+    "aria-live": "polite",
     style: {
-      position: 'absolute',
-      inset: 0,
-      filter: filter
-    }
-  }, children), /*#__PURE__*/React.createElement("div", {
-    style: {
-      ...layer,
-      background: NOIR_PAPER,
-      mixBlendMode: 'multiply',
-      opacity: m
-    }
-  }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      ...layer,
-      background: NOIR_INK,
-      mixBlendMode: 'screen',
-      opacity: m
-    }
-  }));
-}
-Object.assign(__ds_scope, { NOIR_INK, NOIR_PAPER, NOIR_MINT, NOIR_CONTRAST, noirFilter, noirTone, paintNoirPlate, NoirPlate });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/noirPlate.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/FilmBand.jsx
-try { (() => {
-/* The hero's moving picture, printed. The band spans the full grid measure,
-   sits flush to the bottom of the opening screen, and is never shown as
-   footage at rest: every frame is re-screened as the house halftone, so the
-   film reads as ink on paper until the visitor asks for it.
-
-   Three behaviours, one lattice — the same rotated, noise-perturbed grid as
-   `ImageReveal` and `DotField`, but resampled from the source every frame:
-
-   1. Rest. Tone drives dot area (area = tone is what makes a halftone average
-      out to continuous tone), histogram-equalised so a dark interior still
-      spreads across the whole range of dot sizes instead of closing up.
-
-   2. Pointer. Not a fade, and not a peephole. From the point the pointer
-      entered, an opening front travels out until it has taken the whole band,
-      and closes back to that point when the pointer leaves. Dots at the front
-      are displaced radially OUTWARD, with a tangential twist and a smear along
-      the pointer's own velocity, so the plate is shoved aside ahead of the
-      front and streams behind a moving cursor; behind the front the screen is
-      off and the footage is bare. What is revealed is the shared green noir
-      plate (`core/noirPlate.jsx`), never the colour photograph — colour would
-      make the opening a different picture rather than a closer look at this
-      one. `focusRadius` is the width of that front, not the size of a disc.
-
-   3. Scroll. No front and no opening: the screen gets finer until it lets go.
-      At rest the band prints the house halftone exactly as it always has;
-      scrolling (`revealDistance`) brings in a second generation of dots
-      between the existing ones, each on its own delay, and eases every dot
-      down toward the finer spacing they now share, so the picture gains
-      resolution. Over the last of the runway the ink fades out altogether and
-      the footage is simply there, in its own colour, with no aperture: the
-      picture arrives by getting clearer, not by being uncovered. The band also
-      grows by `grow` against a bottom edge that does not move. Only past that
-      does it let go from the bottom edge upward: each
-      dot's exit time is its own height in the band plus its noise, so the
-      halftone erodes as a soft rising front rather than a rectangle fading. The
-      band moves up faster than the page (so it leaves the screen while the
-      block beneath is still arriving) and the footage under it goes first,
-      which is what makes the block underneath read as uncovered rather than
-      scrolled to.
-
-   Reduced motion: no drift, no exit animation, one static screen.
-
-   Cost note: this is a per-frame repaint of ~10-20k arcs. It is affordable
-   because the band is short and the dots are bucketed into six paths; do not
-   run two of these on one page, and do not lower `pitch` below 5 at this
-   height. */
-
-const TONES = {
-  ink: '3, 41, 24',
-  'ink-wash': '18, 61, 42',
-  paper: '247, 246, 250'
-};
-const BUCKETS = 6;
-/* Fill order inside each coarse cell — dispersed, so every added generation of
-   dots lands between the ones already printed instead of thickening a corner. */
-
-function smooth01(x, a, b) {
-  const t = Math.min(1, Math.max(0, (x - a) / (b - a)));
-  return t * t * (3 - 2 * t);
-}
-/* Integer hash on lattice index, not on coordinates: a sin-based hash over
-   multiples of the pitch repeats at a low period and lays visible diagonal
-   streaks across the field. */
-function rnd(i, j) {
-  let h = (i | 0) * 374761393 + (j | 0) * 668265263;
-  h = (h ^ h >> 13) * 1274126177;
-  h = h ^ h >> 16;
-  return (h >>> 0) % 100000 / 100000;
-}
-function FilmBand({
-  src = null,
-  poster = null,
-  alt = '',
-  height = '30vh',
-  pitch = 5,
-  tone = 'ink',
-  intensity = 0.95,
-  exposure = 1,
-  focusRadius = 190,
-  screenAngle = 18,
-  fullBleed = false,
-  scrollExit = true,
-  revealDistance = 0,
-  reveal = null,
-  grow = 0.3,
-  exitDistance = 0.34,
-  exit = 0,
-  exitLift = 40,
-  noir = __ds_scope.NOIR_CONTRAST,
-  ground = 'var(--reveal-ground)',
-  drift,
-  style
-}) {
-  const boxRef = React.useRef(null);
-  const plateRef = React.useRef(null);
-  const canvasRef = React.useRef(null);
-  const mediaRef = React.useRef(null);
-  const stillRef = React.useRef(null);
-  const videoRef = React.useRef(null);
-  /* The footage is a few hundred kilobytes and decodes late; the poster is one
-     image. The band therefore screens the poster from the first frame and only
-     hands the plate over to the video once it can actually play, so the
-     opening screen is never an empty ground waiting for a download. */
-  const [videoReady, setVideoReady] = React.useState(false);
-  const geomRef = React.useRef(null);
-  const sampleRef = React.useRef(null);
-  const cdfRef = React.useRef(null);
-  const framesRef = React.useRef(0);
-  const rafRef = React.useRef(0);
-  const readyRef = React.useRef(false);
-  /* Pointer state lives in refs, not state: this is read once per frame and
-     must never cause a React render. */
-  const pRef = React.useRef({
-    x: 0,
-    y: 0,
-    tx: 0,
-    ty: 0,
-    vx: 0,
-    vy: 0,
-    edge: 0,
-    eff: 0,
-    on: false
-  });
-  const wrapRef = React.useRef(null);
-  const exitRef = React.useRef(exit);
-  const revealRef = React.useRef(0);
-  const exitMaskRef = React.useRef('');
-  const isVideo = !!src;
-  const useDrift = drift == null ? !isVideo : drift;
-  /* The ref callbacks only run when the elements mount, and the video mounts
-     before it is playable — so the handover is made here, once. */
-  React.useEffect(() => {
-    if (!isVideo) return;
-    mediaRef.current = videoReady ? videoRef.current : stillRef.current;
-    readyRef.current = false;
-  }, [videoReady, isVideo]);
-  const reduced = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)').matches : false;
-  React.useEffect(() => {
-    if (!scrollExit) exitRef.current = exit;
-  }, [exit, scrollExit]);
-  /* Densification only exists where there is a reveal to run it: a pointer-only
-     band prints the full screen at rest, as it always has. */
-  const densify = revealDistance > 0 || reveal != null;
-  React.useEffect(() => {
-    if (reveal != null) revealRef.current = Math.min(1, Math.max(0, reveal));
-  }, [reveal]);
-
-  /* Scroll exit. The band belongs to the opening screen, so the rig is the
-     page's own scroll offset — no observer, no second source of truth. */
-  React.useEffect(() => {
-    if (!scrollExit) return;
-    const read = () => {
-      const y = window.scrollY || window.pageYOffset || 0;
-      /* The opening comes first and the exit waits for it: `revealDistance` of
-         scroll goes to the front travelling out, the plate letting go of its
-         green and the band growing, and only past that does the bottom edge
-         begin to fade. With no reveal distance the band behaves as before. */
-      const rd = revealDistance > 0 ? Math.max(120, revealDistance * window.innerHeight) : 0;
-      if (rd > 0) revealRef.current = Math.min(1, Math.max(0, y / rd));
-      const d = Math.max(120, exitDistance * window.innerHeight);
-      /* The exit overlaps the last of the opening: the bottom edge starts
-         going just before the band has finished growing, so the two read as
-         one movement instead of a pause between them. */
-      exitRef.current = Math.min(1, Math.max(0, (y - rd * 0.88) / d));
-    };
-    read();
-    window.addEventListener('scroll', read, {
-      passive: true
-    });
-    window.addEventListener('resize', read);
-    return () => {
-      window.removeEventListener('scroll', read);
-      window.removeEventListener('resize', read);
-    };
-  }, [scrollExit, exitDistance, revealDistance]);
-  const build = React.useCallback(() => {
-    const box = boxRef.current,
-      canvas = canvasRef.current,
-      wrap = wrapRef.current;
-    if (!box || !canvas || !wrap) return;
-    /* The band grows by uncovering its own top edge, not by relaying out: the
-       lattice and the crop are built once at the grown height and the box is
-       clipped down to the resting height, so growth costs a clip-path write
-       per frame instead of a full rebuild of the screen. */
-    const baseH = wrap.clientHeight;
-    const growPx = revealDistance > 0 && grow > 0 ? Math.round(baseH * grow) : 0;
-    box.style.height = growPx ? baseH + growPx + 'px' : '100%';
-    const w = box.clientWidth,
-      h = box.clientHeight;
-    if (!w || !h) {
-      geomRef.current = null;
-      return;
-    }
-    /* 1.5 rather than devicePixelRatio: this repaints every frame, and the
-       dots are small enough that the third device pixel buys nothing. */
-    const dpr = Math.min(1.5, window.devicePixelRatio || 1);
-    canvas.width = Math.round(w * dpr);
-    canvas.height = Math.round(h * dpr);
-    canvas.style.width = w + 'px';
-    canvas.style.height = h + 'px';
-    const a = screenAngle * Math.PI / 180,
-      cosA = Math.cos(a),
-      sinA = Math.sin(a);
-    let uMin = Infinity,
-      uMax = -Infinity,
-      vMin = Infinity,
-      vMax = -Infinity;
-    for (const [px, py] of [[0, 0], [w, 0], [0, h], [w, h]]) {
-      const u = px * cosA + py * sinA,
-        v = -px * sinA + py * cosA;
-      if (u < uMin) uMin = u;
-      if (u > uMax) uMax = u;
-      if (v < vMin) vMin = v;
-      if (v > vMax) vMax = v;
-    }
-    const xs = [],
-      ys = [],
-      ns = [],
-      os = [];
-    /* The resting screen is the house halftone, untouched: one generation on
-       the lattice itself, always printed. Where there is a reveal to run, a
-       second generation sits in the middle of every cell and arrives across
-       the scroll — the screen gains dots rather than changing the ones it has. */
-    const gens = densify ? [0, 0.5] : [0];
-    for (const ofs of gens) {
-      let iv = 0;
-      for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch, iv++) {
-        let iu = 0;
-        for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch, iu++) {
-          const uu = u + ofs * pitch,
-            vv = v + ofs * pitch;
-          const x = uu * cosA - vv * sinA,
-            y = uu * sinA + vv * cosA;
-          if (x < -pitch || y < -pitch || x > w + pitch || y > h + pitch) continue;
-          const n = rnd(iu + (ofs ? 9173 : 0), iv);
-          xs.push(x);
-          ys.push(y);
-          ns.push(n);
-          /* 0 = printed at rest; otherwise where in the reveal it arrives, each
-             on its own delay so the generation does not snap in as one. */
-          os.push(ofs ? 0.12 + 0.62 * n : 0);
-        }
-      }
-    }
-    const cols = Math.max(8, Math.round(w / (pitch * 0.6)));
-    const rows = Math.max(8, Math.round(h / (pitch * 0.6)));
-    const off = document.createElement('canvas');
-    off.width = cols;
-    off.height = rows;
-    const p0 = pRef.current;
-    if (!p0.on && p0.edge < 0.5) {
-      p0.x = p0.tx = w / 2;
-      p0.y = p0.ty = h - baseH / 2;
-    }
-    geomRef.current = {
-      w,
-      h,
-      dpr,
-      grow: growPx,
-      xs: Float32Array.from(xs),
-      ys: Float32Array.from(ys),
-      ns: Float32Array.from(ns),
-      os: Float32Array.from(os),
-      cols,
-      rows,
-      off,
-      octx: off.getContext('2d', {
-        willReadFrequently: true
-      }),
-      lum: new Float32Array(cols * rows),
-      tone: new Float32Array(cols * rows)
-    };
-    cdfRef.current = null;
-    sampleRef.current = null;
-  }, [pitch, screenAngle, grow, revealDistance, densify]);
-  React.useEffect(() => {
-    build();
-    if (typeof ResizeObserver === 'undefined') return;
-    /* The wrapper, never the box — the box's height is written by `build`, and
-       observing it would rebuild the screen forever. */
-    const ro = new ResizeObserver(() => build());
-    if (wrapRef.current) ro.observe(wrapRef.current);
-    return () => ro.disconnect();
-  }, [build]);
-
-  /* Drift for the still placeholder: the plate is slowly panned and zoomed so
-     the screen is never a frozen pattern. The sampling crop and the CSS
-     transform on the media element are two expressions of one movement — they
-     must agree, or the unmasked footage sits offset from its own halftone. */
-  const driftAt = t => {
-    if (!useDrift || reduced) return {
-      z: 1,
-      ox: 0,
-      oy: 0
-    };
-    return {
-      z: 1.09 + 0.045 * Math.sin(t / 9000),
-      ox: 0.028 * Math.sin(t / 12500),
-      oy: 0.018 * Math.cos(t / 15500)
-    };
-  };
-  const sample = t => {
-    const g = geomRef.current,
-      el = mediaRef.current;
-    if (!g || !el) return false;
-    const sw0 = el.videoWidth || el.naturalWidth || 0;
-    const sh0 = el.videoHeight || el.naturalHeight || 0;
-    if (!sw0 || !sh0) return false;
-    const {
-      z,
-      ox,
-      oy
-    } = driftAt(t);
-    const ir = sw0 / sh0,
-      wr = g.w / g.h;
-    let cx, cy, cw, ch;
-    if (ir > wr) {
-      ch = sh0;
-      cw = ch * wr;
-    } else {
-      cw = sw0;
-      ch = cw / wr;
-    }
-    cw /= z;
-    ch /= z;
-    cx = (sw0 - cw) / 2 + ox * sw0;
-    cy = (sh0 - ch) / 2 + oy * sh0;
-    cx = Math.min(Math.max(0, cx), sw0 - cw);
-    cy = Math.min(Math.max(0, cy), sh0 - ch);
-    try {
-      g.octx.drawImage(el, cx, cy, cw, ch, 0, 0, g.cols, g.rows);
-    } catch (err) {
-      return false;
-    }
-    const data = g.octx.getImageData(0, 0, g.cols, g.rows).data;
-    const n = g.cols * g.rows;
-    for (let i = 0; i < n; i++) {
-      const j = i * 4;
-      g.lum[i] = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
-    }
-    /* Equalisation is recomputed on a slow cadence, not per frame: per-frame
-       equalisation makes the whole screen breathe as the footage changes, and
-       never at all leaves a dark interior as one solid mass of ink. */
-    if (!cdfRef.current || framesRef.current % 40 === 0) {
-      const hist = new Float32Array(256);
-      for (let i = 0; i < n; i++) hist[g.lum[i] * 255 | 0]++;
-      const cdf = new Float32Array(256);
-      let acc = 0;
-      for (let b = 0; b < 256; b++) {
-        acc += hist[b];
-        cdf[b] = acc / n;
-      }
-      cdfRef.current = cdf;
-    }
-    const cdf = cdfRef.current;
-    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
-    for (let i = 0; i < n; i++) {
-      const rank = 1 - cdf[g.lum[i] * 255 | 0];
-      g.tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
-    }
-    return true;
-  };
-  const paint = () => {
-    const g = geomRef.current,
-      canvas = canvasRef.current;
-    if (!g || !canvas) return;
-    const ctx = canvas.getContext('2d');
-    const p = pRef.current;
-    const e = exitRef.current;
-    const rgb = TONES[tone] || TONES.ink;
-    const maxR = pitch * 0.46;
-    const edge = p.eff;
-    const band = focusRadius;
-    /* Densification. The resting screen is the house halftone at full density;
-       the reveal adds a second generation of dots between them and eases every
-       dot down toward the finer spacing they now share, so the picture gains
-       resolution without the rest state changing. */
-    const dp = smooth01(revealRef.current, 0.02, 0.48);
-    const rScale = 1 - 0.28 * dp;
-    /* Handover. Once the screen has resolved as far as it is going to, the ink
-       itself lets go and the footage underneath is simply there — the picture
-       arrives by getting clearer and clearer, not by being uncovered. */
-    const hand = smooth01(revealRef.current, 0.42, 0.74);
-    if (hand >= 0.999) {
-      ctx.save();
-      ctx.scale(g.dpr, g.dpr);
-      ctx.clearRect(0, 0, g.w, g.h);
-      ctx.restore();
-      return;
-    }
-    ctx.save();
-    ctx.scale(g.dpr, g.dpr);
-    ctx.clearRect(0, 0, g.w, g.h);
-    const paths = [];
-    for (let b = 0; b < BUCKETS; b++) paths.push(new Path2D());
-    for (let i = 0; i < g.xs.length; i++) {
-      let x = g.xs[i],
-        y = g.ys[i];
-      const n = g.ns[i];
-      /* bilinear sample — nearest sampling is what makes a rotated screen jagged */
-      const fx = x / g.w * (g.cols - 1),
-        fy = y / g.h * (g.rows - 1);
-      const x0 = Math.min(g.cols - 1, Math.max(0, fx | 0)),
-        y0 = Math.min(g.rows - 1, Math.max(0, fy | 0));
-      const x1 = x0 + 1 < g.cols ? x0 + 1 : x0,
-        y1 = y0 + 1 < g.rows ? y0 + 1 : y0;
-      const tx = fx - x0,
-        ty = fy - y0;
-      const tv = (g.tone[y0 * g.cols + x0] * (1 - tx) + g.tone[y0 * g.cols + x1] * tx) * (1 - ty) + (g.tone[y1 * g.cols + x0] * (1 - tx) + g.tone[y1 * g.cols + x1] * tx) * ty;
-      if (tv <= 0.01) continue;
-
-      /* Radius is LINEAR in tone, not sqrt: the same screen `ImageReveal`
-         prints. sqrt(tone) is the correct ink-area mapping for a closing
-         plate, but on an open screen it pushes every mid-tone cell to nearly
-         full radius, which is what closes the field up into a dense mass.
-         Linear keeps the light range as bare paper and the range of dot sizes
-         wide, so the band reads as a print rather than a grid. Ink is flat and
-         full-strength; size alone carries tone. */
-      /* Rest dots (arrival 0) are always printed; the added generation comes in
-         on its own delay. */
-      const on = g.os[i] === 0 ? 1 : smooth01(dp - g.os[i], -0.02, 0.22);
-      if (on <= 0.002) continue;
-      let r = maxR * rScale * tv * (0.9 + 0.2 * n) * (0.45 + 0.55 * on);
-      let a = on * (1 - hand);
-      if (edge > 0.5) {
-        const dx = x - p.x,
-          dy = y - p.y;
-        const dist = Math.hypot(dx, dy);
-        /* Position relative to the opening front: below zero the screen has not
-           been reached yet, above one the plate is off and the frame is bare. */
-        const s = (edge - dist) / band;
-        if (s > -0.25) {
-          const c = smooth01(s, 0, 1);
-          /* A crest riding just behind the front: those dots are the ones being
-             shoved out of the way, so they move furthest. */
-          const f = Math.exp(-Math.pow((s - 0.3) / 0.5, 2));
-          const inv = dist > 0.01 ? 1 / dist : 0;
-          const ux = dx * inv,
-            uy = dy * inv;
-          const push = band * 0.42 * f;
-          /* outward + a quarter-turn twist + the pointer's own velocity, so the
-             plate is shoved aside rather than dissolved, and streams behind a
-             moving cursor */
-          x += ux * push - uy * push * 0.28 + p.vx * f * 1.1;
-          y += uy * push + ux * push * 0.28 + p.vy * f * 1.1;
-          r *= (1 - 0.94 * c) * (1 - 0.3 * f);
-          a *= 1 - 0.96 * c;
-        }
-      }
-      if (e > 0.001) {
-        const lt = e * 1.55 - (1 - y / g.h) * 0.5 - n * 0.2;
-        if (lt > 0) {
-          const go = smooth01(lt, 0, 0.55);
-          a *= 1 - go;
-          r *= 1 - 0.55 * go;
-          y -= lt * 26;
-          x += (n - 0.5) * lt * 18;
-        }
-      }
-      if (r <= 0.22 || a <= 0.02) continue;
-      const b = Math.min(BUCKETS - 1, Math.floor(a * BUCKETS));
-      paths[b].moveTo(x + r, y);
-      paths[b].arc(x, y, r, 0, Math.PI * 2);
-    }
-    for (let b = 0; b < BUCKETS; b++) {
-      const a = (b + 0.5) / BUCKETS * intensity;
-      ctx.fillStyle = 'rgba(' + rgb + ', ' + a.toFixed(3) + ')';
-      ctx.fill(paths[b]);
-    }
-    ctx.restore();
-  };
-
-  /* One loop: pointer easing, sampling, paint, and the band's own exit
-     transform. Everything the band does is read from refs here, so a moving
-     pointer never renders React. */
-  React.useEffect(() => {
-    let last = performance.now();
-    const step = now => {
-      rafRef.current = requestAnimationFrame(step);
-      const dt = Math.min(64, now - last);
-      last = now;
-      const p = pRef.current;
-      const g = geomRef.current;
-      const box = boxRef.current,
-        media = mediaRef.current,
-        canvas = canvasRef.current;
-      if (!g || !box) return;
-      const rp = revealRef.current;
-      /* Growth is uncovering: the clip retracts from the top edge, so the band
-         gains height against a bottom edge that has not moved. */
-      const gp = smooth01(rp, 0, 0.92);
-      const visTop = g.grow > 0 ? (1 - gp) * g.grow : 0;
-      if (g.grow > 0) box.style.clipPath = 'inset(' + visTop.toFixed(1) + 'px 0 0 0)';
-      /* With no pointer the scroll front opens from the middle of whatever is
-         currently uncovered, so growth and opening share one centre. */
-      if (!p.on) {
-        p.tx = g.w / 2;
-        p.ty = visTop + (g.h - visTop) * 0.5;
-      }
-
-      /* Lag is the whole character of the opening: the front is centred where
-         the pointer WAS a moment ago and catches up, so fast movement smears. */
-      const ease = 1 - Math.pow(0.0025, dt / 1000);
-      const nx = p.x + (p.tx - p.x) * ease;
-      const ny = p.y + (p.ty - p.y) * ease;
-      p.vx = Math.max(-46, Math.min(46, (nx - p.x) * (16 / Math.max(1, dt)) * 5));
-      p.vy = Math.max(-46, Math.min(46, (ny - p.y) * (16 / Math.max(1, dt)) * 5));
-      p.x = nx;
-      p.y = ny;
-      /* The opening is not a peephole: from the point the pointer entered, the
-         front travels out until it has taken the whole band, and closes back
-         to that point when the pointer leaves. `focusRadius` is now the width
-         of the travelling front, not the size of a disc. */
-      const reach = Math.hypot(Math.max(p.x, g.w - p.x), Math.max(p.y, g.h - p.y)) + focusRadius * 0.8;
-      const target = p.on ? reach : 0;
-      p.edge += (target - p.edge) * (1 - Math.pow(p.on ? 0.03 : 0.0015, dt / 1000));
-      /* Scroll no longer drives a front — it drives the screen's density. The
-         travelling opening is the pointer's alone. */
-      p.eff = p.edge;
-      const e = exitRef.current;
-      const eo = 1 - Math.pow(1 - e, 2);
-      /* A short lift, not a departure: the band only has to let go of the
-         bottom edge — the erosion front is what carries it off, and a full
-         band-height travel drags it up over the wordmark. */
-      box.style.transform = 'translate3d(0,' + Math.round(-eo * exitLift) + 'px,0)';
-      /* The band carries its own ground, because the block it uncovers sits
-         behind it from the start. Ground and screen therefore have to retract
-         together: one soft front, rising from the bottom edge, doing to the
-         paper what the per-dot exit does to the ink. */
-      const m = e > 0.001 ? 'linear-gradient(to top, rgba(0,0,0,0) ' + (e * 132 - 12).toFixed(1) + '%, rgba(0,0,0,1) ' + (e * 132 + 24).toFixed(1) + '%)' : 'none';
-      box.style.webkitMaskImage = m;
-      box.style.maskImage = m;
-      exitMaskRef.current = e > 0.001 ? m : '';
-      box.style.pointerEvents = e > 0.35 ? 'none' : 'auto';
-      /* The retract mask is fully transparent at e≈0.85, so anything still
-         painted past that is a seam, not a picture: one antialiased row at the
-         gradient's own edge reads as a hairline of footage lying across the
-         block underneath. The box goes for good at that point. */
-      const gone = e >= 0.85;
-      if (box.style.visibility === 'hidden' !== gone) box.style.visibility = gone ? 'hidden' : 'visible';
-      if (gone) {
-        if (canvas.style.visibility !== 'hidden') {
-          canvas.style.visibility = 'hidden';
-          if (plateRef.current) plateRef.current.style.opacity = '0';
-        }
-        return;
-      }
-      canvas.style.visibility = 'visible';
-      framesRef.current++;
-      if (isVideo || !readyRef.current || useDrift || p.eff > 0.5 || e > 0.001) {
-        if (sample(now)) readyRef.current = true;
-      }
-      if (!readyRef.current) return;
-      if (media) {
-        const {
-          z,
-          ox,
-          oy
-        } = driftAt(now);
-        media.style.transform = 'translate(' + (-ox * z * 100).toFixed(3) + '%,' + (-oy * z * 100).toFixed(3) + '%) scale(' + z.toFixed(4) + ')';
-      }
-      const plate = plateRef.current;
-      if (plate) {
-        /* The plate is bare wherever the front has passed, and it is the first
-           thing to go on scroll. */
-        const edge = p.eff;
-        const inner = edge > 1 ? Math.max(0, (edge - focusRadius) / edge * 100) : 0;
-        /* Scroll hands the plate over whole, not through an opening: as the ink
-           lets go the footage is simply there, in its own colour. */
-        const sOp = smooth01(rp, 0.4, 0.72);
-        /* Scrolling lets go of the green as well as of the screen: by the time
-           the front has taken the whole band the footage is its own colour.
-           The pointer keeps the plate — a closer look at this picture, not a
-           different one. */
-        plate.style.setProperty('--noir-mix', (1 - smooth01(rp, 0.06, 0.94)).toFixed(3));
-        /* The plate dims on the way out only where the halftone is still there
-           to erode. Past the handover there are no dots left, so a dimming
-           plate would leave bare ground sliding away: the retract mask carries
-           the exit alone. */
-        const fade = Math.pow(1 - Math.min(1, e * 1.6), 1.5);
-        const dim = 1 - (1 - fade) * smooth01(1 - rp, 0.1, 0.6);
-        plate.style.opacity = (Math.max(Math.min(1, Math.max(0, edge - 2) / 6), sOp) * dim).toFixed(3);
-        const mask = 'radial-gradient(circle ' + Math.max(0.5, edge).toFixed(1) + 'px at ' + p.x.toFixed(1) + 'px ' + p.y.toFixed(1) + 'px, rgba(0,0,0,1) 0%, rgba(0,0,0,1) ' + inner.toFixed(1) + '%, rgba(0,0,0,0.35) ' + (inner + (100 - inner) * 0.55).toFixed(1) + '%, rgba(0,0,0,0) 100%)';
-        /* The retract gradient is intersected into the plate's own mask as well
-           as sitting on the box. A live <video> composites on its own layer,
-           and a mask on an ancestor can leave one antialiased row at that
-           layer's bottom edge — which reads as a solid stroke of footage lying
-           across the block underneath as the band fades. Masking the plate
-           itself takes that edge with it. */
-        const em = exitMaskRef.current;
-        /* Past the handover the whole plate is shown: no pointer aperture. */
-        if (sOp > 0.01) {
-          plate.style.maskComposite = 'add';
-          plate.style.webkitMaskComposite = 'source-over';
-          plate.style.webkitMaskImage = em || 'none';
-          plate.style.maskImage = em || 'none';
-          paint();
-          return;
-        }
-        plate.style.maskComposite = em ? 'intersect' : 'add';
-        plate.style.webkitMaskComposite = em ? 'source-in' : 'source-over';
-        plate.style.webkitMaskImage = em ? mask + ', ' + em : mask;
-        plate.style.maskImage = em ? mask + ', ' + em : mask;
-      }
-      paint();
-    };
-    rafRef.current = requestAnimationFrame(step);
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  });
-  const mediaStyle = {
-    position: 'absolute',
-    inset: 0,
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-    transformOrigin: 'center',
-    pointerEvents: 'none'
-  };
-  const onMove = ev => {
-    const box = boxRef.current;
-    if (!box) return;
-    const r = box.getBoundingClientRect();
-    const p = pRef.current;
-    if (!p.on) {
-      p.x = ev.clientX - r.left;
-      p.y = ev.clientY - r.top;
-    }
-    p.tx = ev.clientX - r.left;
-    p.ty = ev.clientY - r.top;
-    p.on = true;
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    style: {
-      width: '100%',
+      display: 'grid',
+      gap: 'var(--space-2)',
       ...style
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: fullBleed ? {
-      width: '100%'
-    } : {
-      maxWidth: 'var(--max-width)',
-      margin: '0 auto',
-      paddingInline: 'var(--margin)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
     style: {
       position: 'relative',
-      height: height
+      maxWidth: 'var(--measure-prose)'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    ref: boxRef,
-    onPointerMove: onMove,
-    onPointerEnter: onMove,
-    onPointerLeave: () => {
-      pRef.current.on = false;
-    },
-    style: {
-      position: 'absolute',
-      left: 0,
-      right: 0,
-      bottom: 0,
-      height: '100%',
-      overflow: 'clip',
-      background: ground,
-      willChange: 'transform, mask-image, clip-path',
-      cursor: 'crosshair'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: plateRef,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      opacity: 0,
-      willChange: 'mask-image, opacity'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.NoirPlate, {
-    noir: noir
-  }, isVideo ? /*#__PURE__*/React.createElement("video", {
-    ref: el => {
-      videoRef.current = el;
-      if (videoReady) mediaRef.current = el;
-    },
-    src: src,
-    poster: poster || undefined,
-    preload: "auto",
-    autoPlay: true,
-    muted: true,
-    loop: true,
-    playsInline: true,
-    "aria-hidden": "true",
-    onLoadedData: () => setVideoReady(true),
-    onCanPlay: () => setVideoReady(true),
-    style: {
-      ...mediaStyle,
-      opacity: videoReady ? 1 : 0
-    }
-  }) : null, isVideo && videoReady ? null : /*#__PURE__*/React.createElement("img", {
-    ref: el => {
-      stillRef.current = el;
-      if (!videoReady) mediaRef.current = el;
-    },
-    src: poster,
-    alt: "",
-    "aria-hidden": "true",
-    style: mediaStyle
-  }))), /*#__PURE__*/React.createElement("canvas", {
-    ref: canvasRef,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      display: 'block',
-      pointerEvents: 'none'
-    }
-  }), alt ? /*#__PURE__*/React.createElement("span", {
-    className: "visually-hidden",
-    style: {
-      position: 'absolute',
-      width: 1,
-      height: 1,
-      overflow: 'hidden',
-      clip: 'rect(0 0 0 0)',
-      whiteSpace: 'nowrap'
-    }
-  }, alt) : null))));
-}
-Object.assign(__ds_scope, { FilmBand });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/FilmBand.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/ImageReveal.jsx
-try { (() => {
-const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
-};
-const INK = 'rgb(3, 41, 24)';
-const PAPER = 'rgb(247, 246, 250)';
-/* Inverted, the dots are laid on ink, so they take mint rather than paper —
-   same swap the plate makes (`NOIR_MINT`). */
-const MINT = 'rgb(221, 236, 226)';
-const TAU = Math.PI * 2;
-/* How much faster a driven reveal un-prints than it prints. */
-const REWIND = 2.6;
-function smooth01(x, a, b) {
-  const t = Math.min(1, Math.max(0, (x - a) / (b - a)));
-  return t * t * (3 - 2 * t);
-}
-
-/* A rotated halftone screen, painted in by a travelling wave.
-   Four things keep it from reading as a pixelated bitmap: the screen sits at
-   an angle to the pixel grid; tone is histogram-equalised per image, so a
-   predominantly dark photograph still spreads across the full range of dot
-   sizes instead of saturating; dot radius is capped below the point where
-   neighbours merge; and the reveal is a soft diagonal front with two crossing
-   sine waves riding on it, so density pulses through rather than switching on.
-   Ink and paper only — the photograph crossfades in at full visibility. */
-/* Device pixels, capped by total area. A viewport-sized reveal on a retina
-   display would otherwise allocate two 50+ megapixel canvases and clear one of
-   them every frame, which is enough to take the tab down. Above the cap the
-   screen is drawn at lower resolution rather than not at all. */
-const MAX_CANVAS_PX = 4.2e6;
-function fitDpr(w, h) {
-  const dpr = Math.min(window.devicePixelRatio || 1, 2);
-  const px = w * h * dpr * dpr;
-  return px <= MAX_CANVAS_PX ? dpr : Math.max(1, dpr * Math.sqrt(MAX_CANVAS_PX / px));
-}
-function ImageReveal({
-  effect,
-  src,
-  alt = '',
-  ratio = '3:2',
-  bleed = false,
-  minHeight,
-  gridSize = 4,
-  dynamics = 0.6,
-  exposure = 1,
-  screenAngle = 18,
-  playAt = 0.65,
-  duration = 2200,
-  noir = 1.55,
-  axis = 'y',
-  align,
-  resolved,
-  restTone = 1,
-  latch,
-  play,
-  restAt = 0,
-  inverted = false,
-  className = '',
-  style
-}) {
-  /* Once triggered the reveal plays on its own clock, so it always runs at the
-     same speed and always finishes — a slow reader and a fast one see the same
-     print. Rewinding is the horizontal-track case: on a carousel the screen is
-     the readout of which card is where, so a card falling back below the
-     trigger has to return to dots. Down the page it does not rewind. */
-  const rewinds = latch != null ? !latch : axis === 'x';
-  /* A driven reveal that rests at nothing has nothing to stand on either: the
-     box is empty until it is asked for, so the reveal ground arrives with the
-     print and leaves with it. A reveal that rests as a plate (`restAt` above
-     zero, or a scroll-bound one) carries the ground from the start. */
-  const grounded = play == null || play || restAt > 0;
-  const wrapRef = React.useRef(null);
-  const canvasRef = React.useRef(null);
-  const duoRef = React.useRef(null);
-  const photoRef = React.useRef(null);
-  const imgRef = React.useRef(null);
-  const gridRef = React.useRef(null);
-  const scrollerRef = React.useRef(null);
-  const progressRef = React.useRef(null);
-  const colorRef = React.useRef(null);
-  /* t: 0 → 1 across the whole reveal, screen first and colour after. Reset to
-     zero whenever the image is fully out of the viewport, at either edge, so a
-     return trip prints it again from dots. */
-  const clockRef = React.useRef({
-    t: 0,
-    last: 0,
-    running: false
-  });
-  const [ready, setReady] = React.useState(false);
-  /* The dot screen is this component's own painter, and it is also the 'dots'
-     entry in the reveal registry. When the house effect is something else, the
-     scroll position is handed to that implementation instead — the same
-     progress, a different reveal, no second scroll rig. */
-  const houseEffect = effect || __ds_scope.getRevealEffect();
-  const delegated = houseEffect !== 'dots';
-  const [scrollP, setScrollP] = React.useState(0);
-  React.useEffect(() => {
-    if (!src) return;
-    let cancelled = false;
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => {
-      if (!cancelled) {
-        imgRef.current = img;
-        setReady(true);
-      }
-    };
-    img.src = src;
-    return () => {
-      cancelled = true;
-    };
-  }, [src]);
-  const draw = React.useCallback((p, q, v, colorOverride) => {
-    const canvas = canvasRef.current,
-      grid = gridRef.current;
-    if (!canvas || !grid) return;
-    const photoT = smooth01(p, 0.93, 0.96);
-    /* Colour runs at the end of the same clock, after the screen has closed
-       up into the plate. A carousel can hand colour over explicitly instead,
-       since which card is active there is a decision, not a position. */
-    /* Colour is never later than the screen, whichever clock drives it: an
-       eased override still climbing — or a positional clock draining colour on
-       the way back out — leaves the plate at full strength over a photograph
-       that is still visible, which reads as a flick to the negative. The
-       screen's own closure is a floor under the handover in both directions. */
-    const closed = smooth01(p, 0.88, 1);
-    /* Two régimes. On the positional clock the screen's own closure floors the
-       handover, so the plate can never outlast the photograph. Where colour is
-       handed over explicitly it is the whole story: the print finishes in the
-       duotone — the green monochrome a field of portraits rests in — and only
-       the resolved card comes all the way to colour. `restTone` below 1 rests
-       part-way instead. */
-    const colorT = colorOverride != null ? 1 - restTone * (1 - colorOverride) : Math.max(q, closed);
-    if (photoRef.current) photoRef.current.style.opacity = String(photoT);
-    if (duoRef.current) duoRef.current.style.opacity = String(photoT * (1 - colorT));
-    canvas.style.opacity = String(1 - photoT);
-    if (photoT >= 1) return;
-    const {
-      w,
-      h,
-      cols,
-      rows,
-      dpr,
-      tone,
-      tonePlate,
-      dyn,
-      pitch,
-      cosA,
-      sinA
-    } = grid;
-    const ctx = canvas.getContext('2d');
-    ctx.save();
-    ctx.scale(dpr, dpr);
-    ctx.clearRect(0, 0, w, h);
-
-    /* Closure. At the end of the travel the dots stop behaving like a screen:
-       radius switches from the equalised screen tone to the plate's own tone,
-       mapped by ink AREA rather than radius (area = tone is what makes a
-       halftone average out to the same value as continuous tone), so the dots
-       swell, merge, and close up into the plate in place. The crossfade
-       underneath is then between two images of the same weight. */
-    const closeT = smooth01(p, 0.78, 0.92);
-    const maxR = pitch * 0.46; /* screen phase: dots never merge */
-    const closeR = pitch * 0.6; /* closed phase: full coverage at tone 1 */
-    const sizeT = 0.72 + 0.28 * smooth01(p, 0, 0.92);
-    /* Travelling reveal front. It clears the frame by roughly half the travel,
-       so a partly-visible image already reads as a legible ink print of the
-       photograph rather than a diagonal band of specks; the remaining travel
-       is spent on dot growth and closure. */
-    const front = -0.15 + p * 2.3;
-    const settle = smooth01(p, 0.6, 1); /* rhythm fades out as it resolves */
-    const bias = dynamics * 0.22;
-
-    /* Bounding box of the element in the rotated screen basis, so the loop
-       covers the image tightly rather than a square that contains it. */
-    let uMin = Infinity,
-      uMax = -Infinity,
-      vMin = Infinity,
-      vMax = -Infinity;
-    for (const [x, y] of [[0, 0], [w, 0], [0, h], [w, h]]) {
-      const u = x * cosA + y * sinA,
-        v = -x * sinA + y * cosA;
-      if (u < uMin) uMin = u;
-      if (u > uMax) uMax = u;
-      if (v < vMin) vMin = v;
-      if (v > vMax) vMax = v;
-    }
-    const diag = w + h;
-    /* One path for every dot: at this density the per-dot fill call, not the
-       geometry, is what costs frames. Single ink colour, so one path suffices. */
-    const path = new Path2D();
-    for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch) {
-      for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch) {
-        const x = u * cosA - v * sinA,
-          y = u * sinA + v * cosA;
-        if (x < 0 || y < 0 || x >= w || y >= h) continue;
-
-        /* bilinear sample of the tone map — nearest sampling is what makes a
-           rotated screen look jagged */
-        const fx = x / w * (cols - 1),
-          fy = y / h * (rows - 1);
-        const x0 = fx | 0,
-          y0 = fy | 0;
-        const x1 = x0 + 1 < cols ? x0 + 1 : x0,
-          y1 = y0 + 1 < rows ? y0 + 1 : y0;
-        const tx = fx - x0,
-          ty = fy - y0;
-        const i00 = y0 * cols + x0,
-          i10 = y0 * cols + x1,
-          i01 = y1 * cols + x0,
-          i11 = y1 * cols + x1;
-        const t = (tone[i00] * (1 - tx) + tone[i10] * tx) * (1 - ty) + (tone[i01] * (1 - tx) + tone[i11] * tx) * ty;
-        let rBase = maxR * t;
-        if (closeT > 0) {
-          const tp = (tonePlate[i00] * (1 - tx) + tonePlate[i10] * tx) * (1 - ty) + (tonePlate[i01] * (1 - tx) + tonePlate[i11] * tx) * ty;
-          rBase = rBase + (closeR * Math.sqrt(tp) - rBase) * closeT;
-        }
-        if (rBase <= 0.02) continue;
-        const d = (dyn[i00] * (1 - tx) + dyn[i10] * tx) * (1 - ty) + (dyn[i01] * (1 - tx) + dyn[i11] * tx) * ty;
-
-        /* Diagonal front, nudged earlier where the image has structure. */
-        const nd = (x + y) / diag;
-        const bandT = smooth01(front - nd + (d - 0.5) * bias, -0.35, 0.22);
-        if (bandT <= 0) continue;
-
-        /* Two crossing waves: one riding the front, one slower and oblique.
-           Both settle to 1 as the image resolves, so the last frame is still. */
-        const pulse = 0.68 + 0.32 * Math.sin(nd * TAU * 2.6 - p * 9) + 0.14 * Math.sin(x * 0.012 - y * 0.017 + p * 5);
-        const rhythm = 1 + (pulse - 1) * (1 - settle);
-        if (rhythm <= 0) continue;
-        const radius = rBase * sizeT * bandT * rhythm;
-        if (radius < 0.22) continue;
-        path.moveTo(x + radius, y);
-        path.arc(x, y, radius, 0, TAU);
-      }
-    }
-    ctx.fillStyle = inverted ? MINT : INK;
-    ctx.fill(path);
-    ctx.restore();
-  }, [dynamics, exposure, inverted, restTone]);
-
-  /* The plate is cheap to repaint and must never stretch with its box, so it
-     is its own pass, called immediately on any size change. The screen behind
-     it (histogram, tone maps, dot render) is the expensive part and is
-     rebuilt on a debounce. */
-  const paintPlate = React.useCallback(() => {
-    const wrap = wrapRef.current,
-      duo = duoRef.current,
-      img = imgRef.current;
-    if (!wrap || !duo || !img) return;
-    const rect = wrap.getBoundingClientRect();
-    const w = Math.max(1, Math.round(rect.width)),
-      h = Math.max(1, Math.round(rect.height));
-    const dpr = fitDpr(w, h);
-    const ir = img.naturalWidth / img.naturalHeight,
-      wr = w / h;
-    let sx, sy, sw, sh;
-    if (ir > wr) {
-      sh = img.naturalHeight;
-      sw = sh * wr;
-      sx = (img.naturalWidth - sw) / 2;
-      sy = 0;
-    } else {
-      sw = img.naturalWidth;
-      sh = sw / wr;
-      sx = 0;
-      sy = (img.naturalHeight - sh) / 2;
-    }
-    duo.width = w * dpr;
-    duo.height = h * dpr;
-    duo.style.width = '100%';
-    duo.style.height = '100%';
-    const dctx = duo.getContext('2d');
-    dctx.save();
-    dctx.scale(dpr, dpr);
-    dctx.clearRect(0, 0, w, h);
-    /* The house plate, shared with the film band — see `core/noirPlate.jsx`. */
-    __ds_scope.paintNoirPlate(dctx, img, w, h, noir, inverted);
-    dctx.restore();
-  }, [noir, inverted]);
-  const buildGrid = React.useCallback(() => {
-    const wrap = wrapRef.current,
-      canvas = canvasRef.current,
-      img = imgRef.current;
-    if (!wrap || !canvas || !img) return;
-    const rect = wrap.getBoundingClientRect();
-    const w = Math.max(1, Math.round(rect.width)),
-      h = Math.max(1, Math.round(rect.height));
-    const dpr = fitDpr(w, h);
-    canvas.width = w * dpr;
-    canvas.height = h * dpr;
-    canvas.style.width = '100%';
-    canvas.style.height = '100%';
-
-    /* Tone map at twice the screen frequency, so bilinear sampling of the
-       rotated screen has something smooth to read. */
-    const cols = Math.max(2, Math.round(w / (gridSize / 2)));
-    const rows = Math.max(2, Math.round(h / (gridSize / 2)));
-    const off = document.createElement('canvas');
-    off.width = cols;
-    off.height = rows;
-    const octx = off.getContext('2d');
-    const ir = img.naturalWidth / img.naturalHeight,
-      wr = w / h;
-    let sx, sy, sw, sh;
-    if (ir > wr) {
-      sh = img.naturalHeight;
-      sw = sh * wr;
-      sx = (img.naturalWidth - sw) / 2;
-      sy = 0;
-    } else {
-      sw = img.naturalWidth;
-      sh = sw / wr;
-      sx = 0;
-      sy = (img.naturalHeight - sh) / 2;
-    }
-    octx.drawImage(img, sx, sy, sw, sh, 0, 0, cols, rows);
-    paintPlate();
-    const data = octx.getImageData(0, 0, cols, rows).data;
-    const n = cols * rows;
-    const lum = new Float32Array(n),
-      tone = new Float32Array(n),
-      tonePlate = new Float32Array(n),
-      dyn = new Float32Array(n);
-    const hist = new Float32Array(256);
-    for (let i = 0; i < n; i++) {
-      const j = i * 4;
-      const l = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
-      lum[i] = l;
-      hist[l * 255 | 0]++;
-    }
-    /* Histogram equalisation on darkness. A photograph weighted to the shadows
-       (this one is) otherwise puts nearly every cell at full dot radius, which
-       is what turns a halftone into a solid mass. Equalising spreads the cells
-       across the whole range of dot sizes, so paper stays visible. */
-    const cdf = new Float32Array(256);
-    let acc = 0;
-    for (let b = 0; b < 256; b++) {
-      acc += hist[b];
-      cdf[b] = acc / n;
-    }
-    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
-    for (let i = 0; i < n; i++) {
-      /* rank of this cell's darkness within the image — or of its lightness,
-         when the print is inverted and the dots are paper on ink. */
-      const rank = inverted ? cdf[lum[i] * 255 | 0] : 1 - cdf[lum[i] * 255 | 0];
-      tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
-      /* The plate's own tone, through the same greyscale/contrast/brightness
-         the plate is painted with. This is what the screen closes up
-         to, so the two carry the same weight. */
-      tonePlate[i] = __ds_scope.noirTone(lum[i], noir, inverted);
-    }
-    /* "Dynamics": local contrast, i.e. where the image has structure. Biases
-       which dots arrive first inside the reveal band. */
-    for (let r = 0; r < rows; r++) {
-      for (let c = 0; c < cols; c++) {
-        const i = r * cols + c,
-          l = lum[i];
-        let g = 0;
-        if (c > 0) g = Math.max(g, Math.abs(l - lum[i - 1]));
-        if (c < cols - 1) g = Math.max(g, Math.abs(l - lum[i + 1]));
-        if (r > 0) g = Math.max(g, Math.abs(l - lum[i - cols]));
-        if (r < rows - 1) g = Math.max(g, Math.abs(l - lum[i + cols]));
-        dyn[i] = Math.min(1, g * 4);
-      }
-    }
-    const a = screenAngle * Math.PI / 180;
-    gridRef.current = {
-      w,
-      h,
-      cols,
-      rows,
-      dpr,
-      tone,
-      tonePlate,
-      dyn,
-      pitch: gridSize,
-      cosA: Math.cos(a),
-      sinA: Math.sin(a)
-    };
-    draw(progressRef.current ? progressRef.current.p : 0, progressRef.current ? progressRef.current.q : 0, progressRef.current ? progressRef.current.v : 0, colorRef.current);
-  }, [gridSize, screenAngle, exposure, noir, inverted, draw, paintPlate]);
-  const playRef = React.useRef(play);
-  playRef.current = play;
-  const kickRef = React.useRef(null);
-  React.useEffect(() => {
-    if (play == null) return;
-    if (kickRef.current) kickRef.current();
-  }, [play]);
-
-  /* A driven reveal cannot rely on being kicked exactly once. The kick can
-     arrive before the image has loaded (no loop to start yet), and the loop
-     ends itself the moment the clock reaches its target — so a `play` that was
-     already true when the loop died leaves a photograph frozen at nothing
-     until some unrelated scroll event happens to restart it. This re-arms the
-     loop until the clock has actually arrived, then stops: it is a watchdog,
-     not a second timeline. `start()` is a no-op while the loop is alive. */
-  React.useEffect(() => {
-    if (play == null) return;
-    const id = window.setInterval(() => {
-      const t = clockRef.current.t;
-      if (play ? t >= 1 : t <= restAt + 0.001) {
-        window.clearInterval(id);
-        return;
-      }
-      if (kickRef.current) kickRef.current();
-    }, 200);
-    return () => window.clearInterval(id);
-  }, [play, restAt]);
-  React.useEffect(() => {
-    if (!ready) return;
-    buildGrid();
-    let raf = null,
-      timer = null,
-      inView = true,
-      rebuild = null;
-    /* On the x axis, find the track that actually scrolls. */
-    if (axis === 'x' && !scrollerRef.current) {
-      let el = wrapRef.current ? wrapRef.current.parentElement : null;
-      while (el && el !== document.body) {
-        const ox = getComputedStyle(el).overflowX;
-        if ((ox === 'auto' || ox === 'scroll') && el.scrollWidth > el.clientWidth + 1) {
-          scrollerRef.current = el;
-          break;
-        }
-        el = el.parentElement;
-      }
-    }
-    const progressNow = () => {
-      const wrap = wrapRef.current;
-      if (!wrap) return null;
-      const rect = wrap.getBoundingClientRect();
-      /* Same two clocks on either axis. On 'x' they are measured against the
-         scrolling track rather than the window, so a carousel's active card
-         reads as centred and its neighbours as partly visible. */
-      let near, far, size, viewNear, viewFar;
-      if (axis === 'x') {
-        const track = scrollerRef.current;
-        const tr = track ? track.getBoundingClientRect() : null;
-        viewNear = tr ? tr.left : 0;
-        viewFar = tr ? tr.right : window.innerWidth;
-        near = rect.left;
-        far = rect.right;
-        size = rect.width;
-      } else {
-        viewNear = 0;
-        viewFar = window.innerHeight;
-        near = rect.top;
-        far = rect.bottom;
-        size = rect.height;
-      }
-      const viewSize = Math.max(1, viewFar - viewNear);
-      const visible = Math.min(far, viewFar) - Math.max(near, viewNear);
-      const span = Math.max(1, Math.min(size, viewSize));
-      const v = Math.min(1, Math.max(0, visible / span));
-      /* p: visibility, drives the screen and the plate.
-         q: the colour clock. Against a centre-aligned viewport it runs from
-         "just fully visible" to "centred"; against a start-aligned track (a
-         left-aligned carousel) it runs to "snapped to the start edge", which
-         is where that layout's active item rests. */
-      const startAligned = (align || (axis === 'x' ? 'start' : 'center')) === 'start';
-      let dist, travel;
-      if (startAligned) {
-        dist = Math.abs(near - viewNear);
-        travel = Math.max(1, size * 0.6);
-      } else {
-        dist = Math.abs(near + size / 2 - (viewNear + viewSize / 2));
-        travel = Math.max(1, Math.abs(viewSize - size) / 2);
-      }
-      const centred = Math.min(1, Math.max(0, 1 - dist / travel));
-
-      /* Two hands on the same clock. Coming into view, the reveal is scrolled:
-         t tracks the visible fraction up to LEAD, so the reader is pulling the
-         screen in. At `playAt` the clock takes over and runs the rest out by
-         itself, at its own speed, so the image always finishes printing
-         whether the reader stops, races past, or scrolls on. */
-      const clock = clockRef.current;
-      const nowMs = performance.now();
-      const dt = clock.last ? Math.min(0.1, (nowMs - clock.last) / 1000) : 0;
-      clock.last = nowMs;
-      /* Driven, not scrolled. With `play` set the reveal is somebody's
-         decision — a pointer on the row, a card becoming the active one — so
-         the clock runs forward while it is true and backwards while it is
-         false. Backwards to zero is the plate unprinting itself: the same
-         frames in reverse, ending on nothing — but run at `REWIND` times the
-         speed, since an exit that takes as long as the print reads as the card
-         hesitating on its way out. */
-      if (playRef.current != null) {
-        const secsAll = Math.max(0.1, duration / 1000);
-        /* `restAt` is where a driven reveal sits when it is not playing. Zero
-           is nothing on the ground; a value in the screen's own range parks it
-           as a full dot screen instead, which is what a card waiting its turn
-           on a dark ground has to be — a plate, not an empty box. */
-        clockRef.current.t = Math.min(1, Math.max(restAt, clock.t + (playRef.current ? dt : -dt * REWIND) / secsAll));
-        const t = clock.t;
-        return {
-          p: Math.min(1, t / 0.62),
-          q: smooth01(t, 0.62, 1),
-          v: t,
-          centred: t
-        };
-      }
-      const LEAD = 0.5;
-      const secs = Math.max(0.1, duration / 1000 * (1 - LEAD));
-      const posT = LEAD * Math.min(1, v / Math.max(0.05, playAt));
-      if (v <= 0) {
-        clock.t = 0;
-        clock.running = false;
-      } else if (v >= playAt) clock.running = true;else if (rewinds) clock.running = false;
-      if (clock.running) clock.t = Math.min(1, Math.max(clock.t, LEAD) + dt / secs);else clock.t = rewinds ? posT : Math.max(clock.t, posT);
-      const t = clock.t;
-      /* Screen resolves over the first stretch of the clock, colour follows. */
-      return {
-        p: Math.min(1, t / 0.62),
-        q: smooth01(t, 0.62, 1),
-        v,
-        centred
-      };
-    };
-    const reconcile = () => {
-      /* The built grid is only valid for the box it was measured against. A
-         layout change (a carousel card widening) has to rebuild it, but not
-         every frame of the change: the canvas stretches to its element while
-         the box animates, and the screen is re-rendered once it comes to rest.
-         Rebuilding per frame is heavy enough to stall the animation itself. */
-      const wrap = wrapRef.current,
-        built = gridRef.current;
-      if (wrap && built) {
-        const r = wrap.getBoundingClientRect();
-        if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
-          paintPlate(); /* immediate: the plate must not stretch */
-          if (rebuild) clearTimeout(rebuild);
-          rebuild = setTimeout(() => {
-            rebuild = null;
-            buildGrid();
-          }, 120);
-        }
-      }
-      const now = progressNow();
-      if (!now) return;
-      /* An explicit `resolved` flag eases toward its target so the handover to
-         colour still reads as a transition rather than a switch. */
-      let over = null;
-      if (resolved != null) {
-        const target = resolved ? 1 : 0;
-        const cur = colorRef.current == null ? target : colorRef.current;
-        over = cur + (target - cur) * 0.12;
-        if (Math.abs(target - over) < 0.004) over = target;
-        colorRef.current = over;
-      }
-      const prev = progressRef.current;
-      const moved = !prev || Math.abs(now.p - prev.p) > 0.002 || Math.abs(now.q - prev.q) > 0.002 || Math.abs(now.v - prev.v) > 0.002;
-      const toning = over != null && Math.abs(over - (prev ? prev.over ?? -1 : -1)) > 0.001;
-      if (moved || toning) {
-        progressRef.current = {
-          ...now,
-          over
-        };
-        if (delegated) setScrollP(now.p);else draw(now.p, now.q, now.v, over);
-      }
-    };
-    /* State is derived from position every frame while the image is in view,
-       and once more on any scroll or resize event. Neither source is trusted
-       alone: rAF is throttled in background frames, and scroll events are not
-       guaranteed to fire for every position change. */
-    const loop = () => {
-      /* A driven reveal has no scroll to lean on: its clock is the only thing
-         moving, and the IntersectionObserver is not reliable in every frame
-         this system renders in, so `play` keeps the loop alive on its own —
-         and only while it has somewhere to go. A list of fifteen rows would
-         otherwise hold fifteen permanent frame loops for one pointer. */
-      const driven = playRef.current != null;
-      if (!inView && !driven) {
-        raf = null;
-        return;
-      }
-      reconcile();
-      if (driven) {
-        const t = clockRef.current.t;
-        if (playRef.current && t >= 1 || !playRef.current && t <= restAt + 0.001) {
-          raf = null;
-          return;
-        }
-      }
-      raf = requestAnimationFrame(loop);
-    };
-    const start = () => {
-      if (raf != null) return;
-      if (playRef.current != null) {
-        clockRef.current.last = 0;
-        raf = requestAnimationFrame(loop);
-        return;
-      }
-      if (inView) raf = requestAnimationFrame(loop);
-    };
-    kickRef.current = start;
-    const onScroll = () => {
-      reconcile();
-      start();
-      if (timer) clearTimeout(timer);
-      timer = setTimeout(() => {
-        timer = null;
-        reconcile();
-      }, 90);
-    };
-    const onResize = () => {
-      buildGrid();
-      reconcile();
-    };
-    /* The wrapper's size is not resolved at image-load time inside a flex or
-       grid track, and a window resize may never come. Rebuild whenever the
-       element's own box changes instead. */
-    const ro = new ResizeObserver(() => {
-      const wrap = wrapRef.current,
-        built = gridRef.current;
-      const r = wrap ? wrap.getBoundingClientRect() : null;
-      paintPlate();
-      /* A box that was measured at nothing has to be rebuilt at once, not on a
-         debounce: inside a flex or grid track the element can mount at a
-         fraction of a pixel, and in driven mode the frame loop parks as soon
-         as the clock reaches its rest value — so the deferred rebuild in
-         `reconcile` never runs and the screen stays a two-pixel canvas
-         stretched over the card. */
-      const undersized = !built || built.w < 8 || built.h < 8 || r && (r.width > built.w * 1.2 || r.height > built.h * 1.2);
-      if (undersized) {
-        buildGrid();
-        reconcile();
-        return;
-      }
-      if (rebuild) clearTimeout(rebuild);
-      rebuild = setTimeout(() => {
-        rebuild = null;
-        buildGrid();
-        reconcile();
-      }, 120);
-    });
-    ro.observe(wrapRef.current);
-    /* One post-layout pass, for the same reason: the first measurement can
-       land before the track has resolved and nothing else will ask again. */
-    const settle = window.setTimeout(() => {
-      const wrap = wrapRef.current,
-        built = gridRef.current;
-      if (!wrap || !built) return;
-      const r = wrap.getBoundingClientRect();
-      if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
-        buildGrid();
-        reconcile();
-      }
-    }, 60);
-    const io = new IntersectionObserver(entries => {
-      inView = entries[entries.length - 1].isIntersecting;
-      reconcile();
-      start();
-    }, {
-      rootMargin: '20% 0px'
-    });
-    io.observe(wrapRef.current);
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onResize);
-    document.addEventListener('visibilitychange', onScroll);
-    const track = scrollerRef.current;
-    if (track) track.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    reconcile();
-    start();
-    return () => {
-      kickRef.current = null;
-      io.disconnect();
-      ro.disconnect();
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onResize);
-      document.removeEventListener('visibilitychange', onScroll);
-      if (track) track.removeEventListener('scroll', onScroll);
-      if (raf != null) cancelAnimationFrame(raf);
-      if (timer) clearTimeout(timer);
-      if (rebuild) clearTimeout(rebuild);
-      window.clearTimeout(settle);
-    };
-  }, [ready, buildGrid, draw, playAt, duration, axis, align, paintPlate, resolved, rewinds, restAt]);
-  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
-  if (!src) {
-    return /*#__PURE__*/React.createElement("div", {
-      role: "img",
-      "aria-label": alt || 'Platshållare för foto',
-      className: className,
-      style: {
-        width: '100%',
-        aspectRatio,
-        minHeight,
-        background: 'var(--ink-12)',
-        display: 'grid',
-        placeItems: 'center',
-        ...style
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        color: 'var(--ink-65)'
-      }
-    }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio));
-  }
-  return /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
-    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
-    style: {
-      position: 'relative',
-      width: '100%',
-      aspectRatio,
-      minHeight,
-      overflow: 'hidden',
-      background: inverted ? INK : grounded ? 'var(--reveal-ground)' : 'transparent',
-      transition: 'background-color var(--dur-reveal) var(--ease-quart)',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("img", {
-    ref: photoRef,
-    src: src,
-    alt: alt,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      width: '100%',
-      height: '100%',
-      objectFit: 'cover',
-      opacity: delegated ? 1 : 0
-    }
-  }), /*#__PURE__*/React.createElement("canvas", {
-    ref: duoRef,
+    ref: holdRef,
     "aria-hidden": "true",
     style: {
-      position: 'absolute',
-      inset: 0,
-      display: 'block',
-      opacity: 0
+      visibility: 'hidden',
+      display: 'grid',
+      gap: 'var(--space-2)'
     }
-  }), delegated ? null : /*#__PURE__*/React.createElement("canvas", {
-    ref: canvasRef,
-    "aria-hidden": "true",
+  }, blocks.map((b, i) => b.image ? /*#__PURE__*/React.createElement("div", {
+    key: i,
+    "data-ghost-box": true,
+    style: {
+      width: b.width || '34%',
+      aspectRatio: (b.image || '4:5').replace(':', ' / ')
+    }
+  }) : /*#__PURE__*/React.createElement("p", {
+    key: i,
+    "data-ghost-text": true,
+    className: CLASS[b.size] || 'prose'
+  }, b.text))), mask ? /*#__PURE__*/React.createElement("div", {
     style: {
       position: 'absolute',
       inset: 0,
-      display: 'block'
+      clipPath: 'path("' + mask.path + '")',
+      WebkitClipPath: 'path("' + mask.path + '")'
     }
-  }), delegated ? /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
-    effect: houseEffect,
-    mode: "progress",
-    progress: scrollP,
-    src: src
-  }) : null);
+  }, /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
+    effect: effect,
+    mode: "loader",
+    src: src || undefined,
+    pitch: 3.5,
+    intensity: 0.55
+  })) : null), note ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, note) : null);
 }
-Object.assign(__ds_scope, { ImageReveal });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ImageReveal.jsx", error: String((e && e.message) || e) }); }
+Object.assign(__ds_scope, { WorkingIndicator });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/WorkingIndicator.jsx", error: String((e && e.message) || e) }); }
 
 // components/icons/iconSet.jsx
 try { (() => {
@@ -7949,7 +8850,7 @@ function ArtworkPlate({
       height: '100%',
       maxHeight: '100%',
       maxWidth: '100%',
-      background: 'repeating-linear-gradient(135deg, var(--ink-5) 0 6px, var(--paper) 6px 12px)',
+      background: 'repeating-linear-gradient(135deg, var(--wash) 0 6px, var(--paper) 6px 12px)',
       display: 'grid',
       placeItems: 'center',
       padding: 'var(--space-4)'
@@ -8414,8 +9315,8 @@ function ArtworkPin({
     whiteSpace: 'nowrap'
   };
 
-  /* Two columns divided by a hairline, the action a third. Tight: the label is
-     a caption on a photograph, not a card. */
+  /* Two columns divided by a hairline — the dot itself is the action. Tight:
+     the label is a caption on a photograph, not a card. */
   const colStyle = {
     display: 'flex',
     alignItems: 'center',
@@ -8498,27 +9399,7 @@ function ArtworkPin({
       ...colStyle,
       color: 'var(--text-secondary)'
     }
-  }, meta), /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: ruleStyle
-  }), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setLightbox(true),
-    "aria-label": openLabel,
-    style: {
-      appearance: 'none',
-      border: 0,
-      background: 'none',
-      padding: '0 10px',
-      color: 'var(--text-primary)',
-      cursor: 'pointer',
-      display: 'grid',
-      placeItems: 'center'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "maximize",
-    size: "sm"
-  }))), /*#__PURE__*/React.createElement("button", {
+  }, meta)), /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: () => setLightbox(true),
     onFocus: () => {
@@ -10423,7 +11304,7 @@ function Row({
     onClick: onClick,
     className: "target",
     onMouseEnter: e => {
-      e.currentTarget.style.background = 'var(--ink-5)';
+      e.currentTarget.style.background = 'var(--surface-tint)';
     },
     onMouseLeave: e => {
       e.currentTarget.style.background = 'transparent';
@@ -11704,11 +12585,12 @@ function ConversationSurface({
   header,
   footer,
   aside,
-  asideWidth = 'clamp(280px, 32%, 420px)',
+  asideWidth = 'max(280px, 32%)',
   width = '85vw',
   docked = false,
   dockWidth = 'clamp(288px, 26vw, 380px)',
   onExpand,
+  onDock,
   onEnd,
   onDockSettled,
   fold = 0,
@@ -12169,8 +13051,8 @@ function ConversationSurface({
      point them at: writing `var(--paper)` into `--paper` is a cycle, and a
      cyclic custom property resolves to nothing at all — the panel would lose
      its ground and its ink with it. */
-  const ink = onDark ? 'var(--mint)' : onGreen ? 'var(--ink-wash)' : 'var(--ink)';
-  const inkSoft = onDark ? 'var(--mint-70)' : onGreen ? 'var(--ink-wash-65)' : 'var(--ink-65)';
+  const ink = onDark ? 'var(--text-primary-inverted)' : onGreen ? 'var(--ink-lift)' : 'var(--ink)';
+  const inkSoft = onDark ? 'var(--stone-70)' : onGreen ? 'var(--ink-lift-70)' : 'var(--ink-65)';
   const dockScope = geom ? {
     color: ink,
     ...(groundCss ? {
@@ -12400,9 +13282,9 @@ function ConversationSurface({
          thing standing in front of the page. The rule arrives with it. */
       borderLeft: geom ? '1px solid ' + (out ? 'transparent' : 'currentColor') : '0',
       ...(geom ? null : {
-        '--surface-tint': 'color-mix(in srgb, var(--ink-wash) 7%, var(--wash))',
-        '--rule-hairline': 'color-mix(in srgb, var(--ink-wash) 15%, var(--wash))',
-        '--rule-footer': 'color-mix(in srgb, var(--ink-wash) 15%, var(--wash))'
+        '--surface-tint': 'var(--clay)',
+        '--rule-hairline': 'var(--ink-lift-12)',
+        '--rule-footer': 'var(--ink-lift-12)'
       }),
       position: 'relative',
       /* Docked, the body keeps the full panel width regardless of how far
@@ -12416,7 +13298,10 @@ function ConversationSurface({
       pointerEvents: 'auto',
       minHeight: 0,
       display: 'grid',
-      gridTemplateColumns: geom ? 'minmax(0, 1fr)' : aside ? 'minmax(0, 1fr) ' + asideWidth : 'minmax(0, 1fr)',
+      /* The transcript column is held to its reading measure and no wider;
+         whatever the drawer has left over goes to the aside rather than
+         standing empty between the lines and the hairline. */
+      gridTemplateColumns: geom ? 'minmax(0, 1fr)' : aside ? 'minmax(0, 78ch) minmax(' + asideWidth + ', 1fr)' : 'minmax(0, 1fr)',
       /* Arriving and leaving are the frame's movement, one level up; what
          changes here is the drawer's own width and what it looks like. */
       /* The ground switches rather than fades: the panel reaches the footer
@@ -12548,7 +13433,7 @@ function ConversationSurface({
       overscrollBehavior: 'contain',
       opacity: out ? 0.28 : 1,
       transition: motion('opacity ' + dockDur + ' var(--ease-expo), padding ' + dockDur + ' var(--ease-expo)'),
-      borderLeft: geom ? '0' : '1px solid color-mix(in srgb, var(--ink-wash) 8%, var(--wash))',
+      borderLeft: geom ? '0' : '1px solid var(--ink-lift-12)',
       padding: geom ? 'var(--space-2)' : 'var(--space-3)'
     }
   }, /*#__PURE__*/React.createElement("div", {
@@ -12564,7 +13449,40 @@ function ConversationSurface({
         bottom: 0
       } : {})
     }
-  }, showSentinels ? 'Fokusvakt — slut' : null)), docked ? /*#__PURE__*/React.createElement("div", {
+  }, showSentinels ? 'Fokusvakt — slut' : null)), !docked && !inline && aside && onDock ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onDock,
+    "aria-label": "F\xE4ll in panelen",
+    onMouseEnter: e => {
+      e.currentTarget.style.color = 'var(--text-primary)';
+    },
+    onMouseLeave: e => {
+      e.currentTarget.style.color = 'var(--text-secondary)';
+    },
+    className: "small",
+    style: {
+      position: 'absolute',
+      right: 'var(--space-3)',
+      bottom: 'var(--space-3)',
+      zIndex: 2,
+      appearance: 'none',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 6,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-secondary)',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      transition: 'color var(--dur-micro) var(--ease-quart)'
+    }
+  }, "F\xE4ll in", /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--right",
+    size: "sm"
+  })) : null, docked ? /*#__PURE__*/React.createElement("div", {
     onMouseEnter: enter,
     onMouseLeave: () => setNear(false),
     onFocusCapture: () => {
@@ -13144,6 +14062,10 @@ function GuidedConversation({
     instant: instant,
     onDockSettled: () => settledRef.current(),
     onExpand: () => setDocked(false),
+    onDock: () => {
+      pending.current = null;
+      setDocked(true);
+    },
     style: style,
     header: /*#__PURE__*/React.createElement(__ds_scope.ConversationHeader, {
       sticky: true,
@@ -13511,6 +14433,40 @@ try { (() => {
    mark restates the claim rather than carrying anything of its own. */
 
 const FADE = 'opacity var(--dur-medium) var(--ease-quart)';
+
+/* A scroll of the page, eased like everything else in the system. The browser's
+   own `behavior: smooth` runs on its own curve and its own clock, which reads
+   as a different piece of software moving the page. */
+function tweenScroll(to, dur) {
+  const from = window.scrollY || window.pageYOffset || 0;
+  /* The reachable end of the page is read on every frame, not once: a fold-out
+     grows the document while the scroll is running, and a target clamped
+     against the collapsed height would stop the page short. */
+  const clamp = y => Math.max(0, Math.min(y, document.documentElement.scrollHeight - window.innerHeight));
+  if (Math.abs(clamp(to) - from) < 2) return () => {};
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    window.scrollTo({
+      top: clamp(to),
+      behavior: 'auto'
+    });
+    return () => {};
+  }
+  const t0 = performance.now();
+  let raf = 0;
+  const step = now => {
+    const k = Math.min(1, (now - t0) / dur);
+    const target = clamp(to);
+    window.scrollTo({
+      top: from + (target - from) * (1 - Math.pow(1 - k, 5)),
+      behavior: 'auto'
+    });
+    if (k < 1) raf = requestAnimationFrame(step);
+  };
+  raf = requestAnimationFrame(step);
+  return () => {
+    if (raf) cancelAnimationFrame(raf);
+  };
+}
 function Chapter({
   index,
   kicker,
@@ -13523,6 +14479,8 @@ function Chapter({
   beats = [],
   mark = 'circles-chord',
   stroke = 0.9,
+  /* The ground the chapter takes when open: the wash, or lichen. */
+  ground = 'wash',
   extras,
   defaultOpen = false,
   markSize = 330,
@@ -13532,6 +14490,7 @@ function Chapter({
   const [open, setOpen] = React.useState(defaultOpen);
   const [active, setActive] = React.useState(-1);
   const beatRefs = React.useRef([]);
+  const finaleRef = React.useRef(null);
   const stickyRef = React.useRef(null);
   const markRef = React.useRef(null);
   const panelRef = React.useRef(null);
@@ -13551,6 +14510,42 @@ function Chapter({
   const fromText = React.useRef(null);
   const uid = React.useId();
   const panelId = (id || uid) + '-panel';
+  /* The SM band cannot put the mark beside the story — there is one column.
+     So the mark stays in the middle of the screen and the story travels over
+     it: the illustration is the ground the text is read against, fading back
+     almost to nothing while a passage covers it and coming up again in the
+     space between passages. */
+  const [sm, setSm] = React.useState(false);
+  const smRef = React.useRef(false);
+  const [markFade, setMarkFade] = React.useState(1);
+  /* Where the mark comes to rest at the end of the story, in section
+     coordinates; null while it is still following the screen. */
+  const [parkY, setParkY] = React.useState(null);
+  /* The mark's own height, so the sticky rest position can be offset instead
+     of centred with a transform: a translate would lift the illustration above
+     the section's top edge at rest, over whatever precedes the chapter. */
+  const [markH, setMarkH] = React.useState(0);
+  /* 1 to open, -1 to close: which scroll the SM band owes once the new layout
+     has rendered. */
+  const smScrollRef = React.useRef(0);
+  React.useEffect(() => {
+    const el = markRef.current;
+    if (!el || typeof ResizeObserver !== 'function') return;
+    const ro = new ResizeObserver(() => setMarkH(el.offsetHeight));
+    ro.observe(el);
+    setMarkH(el.offsetHeight);
+    return () => ro.disconnect();
+  }, [open, sm]);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const read = () => {
+      smRef.current = mq.matches;
+      setSm(mq.matches);
+    };
+    read();
+    mq.addEventListener('change', read);
+    return () => mq.removeEventListener('change', read);
+  }, []);
 
   /* Scroll drives the beats: the active beat is the one whose box holds the
      middle of the viewport, and it is resolved from position rather than from
@@ -13586,8 +14581,45 @@ function Chapter({
          and nothing floats over them. */
       const p = panelRef.current;
       if (p) {
-        const vis = p.getBoundingClientRect().top < window.innerHeight * 0.45;
+        /* In the SM band the way out is offered as soon as the story begins:
+           the panel is the whole column there, so waiting for it to reach
+           mid-screen leaves the reader a screen deep with no way back. */
+        const vis = p.getBoundingClientRect().top < window.innerHeight * (smRef.current ? 0.92 : 0.45);
         setCloseVisible(v => v === vis ? v : vis);
+      }
+      /* How much of the mark is currently covered by running text — the
+         chapter's own head included, not just the story. Measured against the
+         shorter of the two boxes so a short line passing over a large mark
+         still counts as a full crossing. */
+      /* In the SM band the mark is the ground the story is read against: a
+         constant low presence behind the text. At the end the passages give
+         way to a space of its own — there the mark stops following the
+         screen, parks in the middle of that space and comes up whole, and
+         the links are offered under it. */
+      if (smRef.current && open) {
+        const f = finaleRef.current;
+        const sec2 = sectionRef.current;
+        let park = null;
+        let fade = 0.16;
+        if (f && sec2 && markH) {
+          const sy = window.scrollY || window.pageYOffset || 0;
+          const secTop = sec2.getBoundingClientRect().top + sy;
+          const fr = f.getBoundingClientRect();
+          const target = fr.top + sy + fr.height / 2 - markH / 2 - secTop;
+          const sticky = sy + window.innerHeight / 2 - markH / 2 - secTop;
+          if (sticky >= target) park = Math.round(target);
+          /* The mark comes up over the approach, not on arrival: the fade
+             starts about three quarters of a screen before the end space and
+             is whole by the time it parks there. */
+          const runway = window.innerHeight * 0.75;
+          const p = Math.max(0, Math.min(1, (sticky - (target - runway)) / runway));
+          fade = 0.16 + 0.84 * (p * p * (3 - 2 * p));
+        }
+        setParkY(v => v === park ? v : park);
+        setMarkFade(v => Math.abs(v - fade) < 0.01 ? v : fade);
+      } else {
+        setParkY(v => v === null ? v : null);
+        setMarkFade(v => v === 1 ? v : 1);
       }
       const els = beatRefs.current.filter(Boolean);
       if (!els.length) return;
@@ -13651,6 +14683,28 @@ function Chapter({
       setCloseShift(0);
       setCloseVisible(false);
     };
+    /* SM: nothing teleports. The two layouts are the same single column, so
+       the claim does not move between them — the only movement is the page
+       scrolling the head over the mark, which is sticky from the first frame.
+       Fading the text out and back in here would be a change with no
+       destination. */
+    if (smRef.current) {
+      smScrollRef.current = dir;
+      /* Taking the mark out of the column (or putting it back) shifts the
+         whole head by its height in one layout pass. The positions are
+         recorded here so that shift can be played back as a move instead of
+         being taken as a jump. */
+      fromText.current = textRef.current ? textRef.current.getBoundingClientRect() : null;
+      fromTop.current = stickyRef.current ? stickyRef.current.getBoundingClientRect() : null;
+      enterDir.current = 0;
+      closingRef.current = false;
+      setOpen(o => !o);
+      setActive(-1);
+      closeShiftRef.current = 0;
+      setCloseShift(0);
+      setCloseVisible(false);
+      return;
+    }
     if (reduce) {
       commit();
       return;
@@ -13675,6 +14729,76 @@ function Chapter({
      inside it that travel from centred to left-aligned. The text leads and the
      mark follows, so the change reads as one choreographed move. */
   React.useLayoutEffect(() => {
+    /* SM has no FLIP: the column does not change, so there is nothing to move
+       from and nothing to move to. Any inline state the wider layouts left on
+       the text blocks is cleared, and the page is scrolled instead. */
+    if (smRef.current) {
+      const req = smScrollRef.current;
+      smScrollRef.current = 0;
+      const fromTextRect = fromText.current;
+      const fromMarkRect = fromTop.current;
+      fromTop.current = null;
+      fromText.current = null;
+      enterDir.current = 0;
+      closingRef.current = false;
+      if (textRef.current) {
+        textRef.current.querySelectorAll('[data-flip]').forEach(el => {
+          el.style.transition = '';
+          el.style.opacity = '';
+          el.style.transform = '';
+        });
+      }
+      if (!req) return;
+      const sec = sectionRef.current;
+      if (!sec) return;
+      const y = window.scrollY || window.pageYOffset || 0;
+      /* The column unfolds: head and mark are held at the places the reader
+         last saw them and released into their new ones, while the panel grows
+         from nothing underneath. Nothing teleports — the only step is the
+         page scrolling itself, which the reader is already doing. */
+      const FOLD = 820;
+      const timers = [];
+      /* Where the page should end up is measured BEFORE anything is held in
+         place: a FLIP transform is part of the box's rect, so a target read
+         after it would be off by the whole move and carry the head off the
+         top of the screen. */
+      let scrollTo = null;
+      if (req > 0) {
+        const h = textRef.current && textRef.current.querySelector('h2');
+        if (h) {
+          const r = h.getBoundingClientRect();
+          scrollTo = y + r.top - (window.innerHeight * 0.34 - r.height / 2);
+        }
+      } else {
+        const r = sec.getBoundingClientRect();
+        scrollTo = y + r.top + r.height / 2 - window.innerHeight / 2;
+      }
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        [[textRef.current, fromTextRect], [stickyRef.current, fromMarkRect]].forEach(([el, from]) => {
+          if (!el || !from) return;
+          const dy = Math.round(from.top - el.getBoundingClientRect().top);
+          if (!dy) return;
+          el.style.transition = 'none';
+          el.style.transform = `translateY(${dy}px)`;
+          requestAnimationFrame(() => {
+            el.style.transition = `transform ${FOLD}ms var(--ease-expo)`;
+            el.style.transform = 'translateY(0px)';
+          });
+          timers.push(setTimeout(() => {
+            el.style.transition = '';
+            el.style.transform = '';
+          }, FOLD + 80));
+        });
+      }
+      const after = stop => () => {
+        timers.forEach(clearTimeout);
+        if (stop) stop();
+      };
+      /* Opening carries the claim up onto the mark, a little above centre so
+         the illustration sits behind the words; closing settles the cover
+         back in the middle of the screen. */
+      return after(scrollTo == null ? null : tweenScroll(scrollTo, FOLD));
+    }
     /* Both directions run at the medium speed of the content scale. */
     const STAGE = 800;
     const EASE = 'var(--ease-expo)';
@@ -13776,11 +14900,35 @@ function Chapter({
     const el = panelRef.current;
     if (!open || !el) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    /* SM: the story unfolds — the panel grows from nothing to its own height
+       under the head, so the page below is pushed rather than replaced. */
+    if (smRef.current) {
+      const h = el.scrollHeight;
+      el.style.overflow = 'hidden';
+      el.style.transition = 'none';
+      el.style.height = '0px';
+      el.style.opacity = '0';
+      const raf = requestAnimationFrame(() => {
+        el.style.transition = 'height 820ms var(--ease-expo), opacity var(--dur-medium) var(--ease-quart) 160ms';
+        el.style.height = h + 'px';
+        el.style.opacity = '1';
+      });
+      const t = setTimeout(() => {
+        el.style.transition = '';
+        el.style.height = '';
+        el.style.overflow = '';
+        el.style.opacity = '';
+      }, 940);
+      return () => {
+        cancelAnimationFrame(raf);
+        clearTimeout(t);
+      };
+    }
     el.style.transition = 'none';
     el.style.opacity = '0';
     el.style.transform = 'translateY(var(--reveal-rise))';
     const raf = requestAnimationFrame(() => {
-      el.style.transition = 'opacity var(--dur-scroll) var(--ease-expo) 900ms, transform var(--dur-scroll) var(--ease-expo) 900ms';
+      el.style.transition = smRef.current ? 'opacity var(--dur-medium) var(--ease-expo), transform var(--dur-medium) var(--ease-expo)' : 'opacity var(--dur-scroll) var(--ease-expo) 900ms, transform var(--dur-scroll) var(--ease-expo) 900ms';
       el.style.opacity = '1';
       el.style.transform = 'translateY(0px)';
     });
@@ -13793,7 +14941,9 @@ function Chapter({
     ref: sectionRef,
     id: id,
     "data-washed": open ? '' : undefined,
+    "data-ground": open && ground !== 'wash' ? ground : undefined,
     style: {
+      position: 'relative',
       paddingBlock: 'var(--section-gap)',
       transition: 'background-color var(--dur-medium) var(--ease-quart), color var(--dur-medium) var(--ease-quart)',
       ...style
@@ -13855,25 +15005,52 @@ function Chapter({
     style: open ? {
       alignItems: 'start',
       rowGap: 'var(--space-4)'
-    } : {
+    }
+    /* Not `.grid`, but the page margin and max width are the page's
+       either way — a closed chapter is centred inside the same measure
+       every other block starts on, not edge to edge. Without it the
+       claim and its support line run into the screen edges in the SM
+       band, where the type's own measure is wider than the viewport. */ : {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
       textAlign: 'center',
-      gap: 'var(--space-5)'
+      gap: 'var(--space-5)',
+      paddingInline: 'var(--margin)',
+      maxWidth: 'var(--max-width)',
+      marginInline: 'auto'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: open ? 'place-pair-image' : undefined,
-    style: open ? {
+    className: open && !sm ? 'place-pair-image' : undefined,
+    style: open ? sm
+    /* Out of the grid's flow entirely: a sticky box can only travel
+       inside its own grid area, and in the SM band that area is one
+       row the height of the mark. Absolute against the section gives
+       it the whole story to travel down. */ ? {
+      position: 'absolute',
+      inset: 0,
+      zIndex: 0,
+      pointerEvents: 'none',
+      paddingInline: 'var(--margin)'
+    } : {
       alignSelf: 'stretch'
     } : {
       width: '100%'
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: stickyRef,
-    style: {
+    style: open && sm && parkY != null ? {
+      position: 'absolute',
+      top: parkY,
+      left: 0,
+      right: 0,
+      paddingInline: 'inherit',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)'
+    } : {
       position: open ? 'sticky' : 'static',
-      top: open ? 'clamp(var(--space-6), 18vh, 200px)' : undefined,
+      top: open ? sm ? `calc(50svh - ${Math.round(markH / 2)}px)` : 'clamp(var(--space-6), 18vh, 200px)' : undefined,
       display: 'flex',
       flexDirection: 'column',
       gap: 'var(--space-4)'
@@ -13883,7 +15060,9 @@ function Chapter({
     style: {
       width: '100%',
       maxWidth: markSize,
-      marginInline: 'auto'
+      marginInline: 'auto',
+      opacity: open && sm ? markFade : 1,
+      transition: 'opacity var(--dur-medium) var(--ease-quart)'
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.Mark, {
     name: mark,
@@ -13898,6 +15077,10 @@ function Chapter({
       display: 'flex',
       flexDirection: 'column',
       gap: 'var(--space-3)',
+      ...(open && sm ? {
+        position: 'relative',
+        zIndex: 1
+      } : null),
       ...(open ? null : {
         alignItems: 'center',
         width: '100%'
@@ -13980,15 +15163,24 @@ function Chapter({
         display: 'flex',
         flexDirection: 'column',
         gap: 'var(--space-2)',
-        paddingBlock: 'var(--space-6)'
-      } : {
-        minHeight: '58svh',
+        paddingBlock: sm ? '0 var(--space-6)' : 'var(--space-6)'
+      }
+      /* The mark sits under the whole story at a constant
+         low presence, so the passages no longer have to be
+         held apart to let it come back up between them. */ : {
+        minHeight: sm ? '52svh' : '58svh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         gap: 'var(--space-2)'
       }
-    }, /*#__PURE__*/React.createElement("p", {
+    }, last && sm ? /*#__PURE__*/React.createElement("div", {
+      ref: finaleRef,
+      "aria-hidden": "true",
+      style: {
+        height: (markH ? Math.round(markH) : 300) + 96
+      }
+    }) : null, /*#__PURE__*/React.createElement("p", {
       className: "prose",
       style: {
         color: i === active ? 'var(--text-primary)' : 'var(--text-secondary)',
@@ -14078,13 +15270,18 @@ function Matters({
   premise,
   matters = [],
   linkLabel = 'Hela historien',
+  tightTop = false,
   id,
   style
 }) {
   return /*#__PURE__*/React.createElement("section", {
     id: id,
+    "data-matters": "",
     style: {
       paddingBlock: 'var(--chapter-gap)',
+      ...(tightTop ? {
+        paddingBlockStart: 'var(--space-8)'
+      } : null),
       ...style
     }
   }, /*#__PURE__*/React.createElement("div", {
@@ -14158,11 +15355,7 @@ function Matters({
     style: {
       marginTop: 'var(--space-3)'
     }
-  }, m.body) : null, m.meta ? /*#__PURE__*/React.createElement(__ds_scope.MetaLine, {
-    style: {
-      marginTop: 'var(--space-3)'
-    }
-  }, m.meta) : null), m.more ? /*#__PURE__*/React.createElement("div", {
+  }, m.body) : null), m.more ? /*#__PURE__*/React.createElement("div", {
     "data-matter-more": ""
   }, /*#__PURE__*/React.createElement("p", {
     className: "display-3",
@@ -15668,13 +16861,13 @@ function PageBanner({
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "place-hero"
-  }, /*#__PURE__*/React.createElement(__ds_scope.RiseIn, null, /*#__PURE__*/React.createElement("h1", {
+  }, /*#__PURE__*/React.createElement("h1", {
     className: "display-1",
     style: {
       margin: 0,
       maxWidth: 'none'
     }
-  }, title))), intro ? /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React.createElement(__ds_scope.RiseIn, null, title))), intro ? /*#__PURE__*/React.createElement("p", {
     className: "lead place-lead",
     style: {
       margin: 'var(--space-4) 0 0',
@@ -15831,7 +17024,59 @@ function ClosingFooter({
      it is back at zero does upward scroll move the page again. */
   const RUN = 700; /* px of scroll the hand-over is worth */
   const [p, setP] = React.useState(0);
+  /* How far the field has drifted up inside its pin. */
+  const [drift, setDrift] = React.useState(0);
+  /* SM has no room for a gesture the page swallows at its very end: the
+     footer's field is a screen of its own there, so the hand-over is pinned
+     scroll instead. The block holds the field for one screen, spends the next
+     stretch handing it over to the offices, and then releases — scrolling on
+     reveals the switchboard and the rest of the footer. */
+  const [sm, setSm] = React.useState(false);
+  const handoverRef = React.useRef(null);
   React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const read = () => setSm(mq.matches);
+    read();
+    mq.addEventListener('change', read);
+    return () => mq.removeEventListener('change', read);
+  }, []);
+  React.useEffect(() => {
+    if (!sm) return undefined;
+    const el = handoverRef.current;
+    if (!el) return undefined;
+    let raf = null;
+    const read = () => {
+      raf = null;
+      /* The field is held before it is handed over: the first stretch of the
+         pin spends no progress at all, so the reader arrives, the field stands
+         still for a moment, and only then do the offices start. */
+      const hold = window.innerHeight * 0.5;
+      const run = Math.max(1, el.offsetHeight - window.innerHeight - hold);
+      const passed = -el.getBoundingClientRect().top;
+      /* Semi-sticky, not pinned: through the hold the field keeps moving, at
+         a little under half the page's speed, so it reads as held back rather
+         than frozen. It comes to a stop only for the hand-over itself. */
+      const d = Math.min(Math.max(passed, 0), hold) * 0.3;
+      setDrift(v => Math.abs(v - d) < 0.5 ? v : d);
+      const q = Math.min(1, Math.max(0, (passed - hold) / run));
+      setP(v => Math.abs(v - q) < 0.002 ? v : q);
+    };
+    const schedule = () => {
+      if (raf == null) raf = requestAnimationFrame(read);
+    };
+    window.addEventListener('scroll', schedule, {
+      passive: true
+    });
+    window.addEventListener('resize', schedule);
+    read();
+    return () => {
+      window.removeEventListener('scroll', schedule);
+      window.removeEventListener('resize', schedule);
+      if (raf != null) cancelAnimationFrame(raf);
+    };
+  }, [sm]);
+  React.useEffect(() => {
+    if (sm) return undefined;
     let acc = 0;
     const atEnd = () => {
       const doc = document.documentElement;
@@ -15906,7 +17151,7 @@ function ClosingFooter({
       window.removeEventListener('touchmove', onTouchMove);
       window.removeEventListener('scroll', onScroll);
     };
-  }, []);
+  }, [sm]);
   /* One progress value, two stages. The finder leaves first: it travels up
      and out over the first 40% of the hand-over. Only once it is gone do the
      offices start, each on its own slice of the rest — four lines arriving in
@@ -15915,6 +17160,11 @@ function ClosingFooter({
   const clamp01 = v => Math.min(1, Math.max(0, v));
   const outP = clamp01(p / 0.4);
   const inP = clamp01((p - 0.4) / 0.6);
+  /* SM: the two lists are one column, read top to bottom, so they arrive that
+     way — every line, cities and menu alike, gets its own slice of the
+     hand-over and none of them share a moment. */
+  const seqCount = (offices ? offices.length : 0) + (secondaryMenu ? secondaryMenu.length : 0);
+  const seq = n => clamp01((inP - n / seqCount * 0.9) / (0.9 / seqCount));
   const layer = (shown, amount) => ({
     gridArea: '1 / 1',
     opacity: shown ? amount : 1 - amount,
@@ -15928,29 +17178,46 @@ function ClosingFooter({
        up, because the footer ends with the mark itself. */,
     "data-page-footer": "",
     style: {
-      background: '#032918',
-      '--rule-footer': 'color-mix(in srgb, #F7F6FA 20%, transparent)',
-      '--rule-hairline': 'color-mix(in srgb, #F7F6FA 20%, transparent)',
+      background: 'var(--ink)',
+      '--rule-footer': 'var(--stone-20)',
+      '--rule-hairline': 'var(--stone-20)',
       paddingBottom: 'var(--space-5)',
       ...style
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: {
+    ref: handoverRef,
+    style: sm ? {
+      position: 'relative',
+      height: 'calc(100svh + 50svh + 85svh)'
+    } : undefined
+  }, /*#__PURE__*/React.createElement("div", {
+    style: sm ? {
+      position: 'sticky',
+      top: 0,
+      minHeight: '100svh',
+      display: 'grid',
+      alignItems: 'center',
+      overflow: 'hidden'
+    } : {
       display: 'grid',
       alignItems: 'start'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: layer(false, outP),
+    style: sm ? {
+      ...layer(false, outP),
+      transform: 'translateY(calc(' + (-drift).toFixed(1) + 'px + ' + (outP ? (-outP * 40).toFixed(2) + '%' : '0px') + '))'
+    } : layer(false, outP),
     "aria-hidden": outP > 0.8 ? 'true' : undefined
   }, finder), /*#__PURE__*/React.createElement("div", {
     style: {
       gridArea: '1 / 1',
       pointerEvents: inP > 0.2 ? 'auto' : 'none',
-      paddingBlock: 'var(--space-7) var(--space-6)'
+      paddingBlock: sm ? 'var(--space-5)' : 'var(--space-7) var(--space-6)'
     },
     "aria-hidden": inP > 0.2 ? undefined : 'true'
   }, /*#__PURE__*/React.createElement("div", {
-    className: "grid"
+    className: "grid",
+    "data-footer-offices": true
   }, /*#__PURE__*/React.createElement("ul", {
     className: "place-half-left",
     style: {
@@ -15964,7 +17231,7 @@ function ClosingFooter({
     const cityKey = typeof city === 'string' ? city : city.label;
     /* Each line has its own slice of the scroll left after the
        finder has gone, so the four arrive one by one. */
-    const q = clamp01((inP - i * 0.18) / 0.34);
+    const q = sm ? seq(i) : clamp01((inP - i * 0.18) / 0.34);
     return /*#__PURE__*/React.createElement("li", {
       key: cityKey,
       className: "display-2",
@@ -16010,7 +17277,7 @@ function ClosingFooter({
     }
   }, secondaryMenu.map((item, i) => {
     const step = 0.5 / Math.max(secondaryMenu.length, 1);
-    const q = clamp01((inP - (i + 1) * step) / 0.34);
+    const q = sm ? seq(offices.length + i) : clamp01((inP - (i + 1) * step) / 0.34);
     return /*#__PURE__*/React.createElement("li", {
       key: item.label,
       style: {
@@ -16036,8 +17303,9 @@ function ClosingFooter({
         textUnderlineOffset: '0.18em'
       }
     }, item.label));
-  })) : null))), /*#__PURE__*/React.createElement("div", {
+  })) : null)))), /*#__PURE__*/React.createElement("div", {
     className: "grid",
+    "data-footer-contact": true,
     style: {
       paddingTop: 'var(--space-4)'
     }
@@ -16105,6 +17373,7 @@ function ClosingFooter({
     }
   })))) : null), /*#__PURE__*/React.createElement("div", {
     className: "grid",
+    "data-footer-end": true,
     style: {
       paddingTop: 'var(--space-6)',
       gridTemplateRows: 'auto auto auto',
@@ -16122,6 +17391,7 @@ function ClosingFooter({
     }
   })), /*#__PURE__*/React.createElement("div", {
     className: "place-half-left",
+    "data-footer-sign": true,
     style: {
       gridRow: '2 / 4',
       paddingTop: 'var(--space-3)',
@@ -16146,6 +17416,7 @@ function ClosingFooter({
     }
   }, byline) : null), /*#__PURE__*/React.createElement("div", {
     className: "place-half-right",
+    "data-footer-legal": true,
     style: {
       gridRow: '2 / 4',
       paddingTop: 'var(--space-3)',
@@ -18333,6 +19604,12 @@ function WordmarkMasthead({
      nothing else on the page says where the filtering came from. */
   chatActive = false,
   chatActiveLabel = 'Samtal — sidan är filtrerad på det du har berättat',
+  /* Handed over rather than scaled down. When another block owns the opening
+     graphic (the vertical lockup in `LogoHero`), the masthead renders no hero
+     of its own: the header wordmark is invisible at the top, fades in at
+     `fromHeight` once the scroll passes `fadeFrom`, is fully in at `fadeTo`,
+     and shrinks to the header measure by `shrinkTo` (all scroll px). */
+  handoff,
   children,
   style
 }) {
@@ -18344,6 +19621,8 @@ function WordmarkMasthead({
      down and rebuilt on every menu toggle. */
   const menuRef = React.useRef(menuOpen);
   menuRef.current = menuOpen;
+  const handoffRef = React.useRef(handoff);
+  handoffRef.current = handoff;
   /* With no `onChat` the masthead mounts the exchange itself, so the trigger
      works with nothing wired on the page. */
   const houses = conversation && !onChat;
@@ -18426,6 +19705,29 @@ function WordmarkMasthead({
     const apply = () => {
       frame = 0;
       const logo = logoRef.current;
+      const hand = handoffRef.current;
+      if (hand && logo) {
+        const y = window.scrollY || window.pageYOffset || 0;
+        /* Laid out at the arrival size and only scaled down, for the same
+           reason as below: never rasterise small and magnify. */
+        const fromH = Math.max(headerLogoHeight, hand.fromHeight || headerLogoHeight);
+        logo.style.width = fromH * RATIO + 'px';
+        logo.style.height = fromH + 'px';
+        const min = headerLogoHeight / fromH;
+        const clamp = v => Math.min(1, Math.max(0, v));
+        const fade = clamp((y - hand.fadeFrom) / Math.max(1, hand.fadeTo - hand.fadeFrom));
+        const s = clamp((y - hand.fadeTo) / Math.max(1, hand.shrinkTo - hand.fadeTo));
+        const e = s * s * (3 - 2 * s);
+        const open = menuRef.current;
+        /* `fromX`: where the arriving wordmark stands to the right of the
+           slot, so it can take over from a mark that is not flush left and
+           settle into the slot as it shrinks. */
+        const dx = open ? 0 : (hand.fromX || 0) * (1 - e);
+        logo.style.transform = 'translate3d(' + dx.toFixed(2) + 'px,0,0) scale(' + (open ? min : 1 + (min - 1) * e) + ')';
+        logo.style.opacity = String(open ? 1 : fade);
+        logo.style.visibility = open || fade > 0 ? 'visible' : 'hidden';
+        return;
+      }
       const anchor = anchorRef.current;
       const target = targetRef.current;
       const hero = heroRef.current;
@@ -18810,7 +20112,7 @@ function WordmarkMasthead({
   })), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
     name: menuOpen ? 'close' : 'menu',
     size: "lg"
-  }))))), /*#__PURE__*/React.createElement("section", {
+  }))))), handoff ? null : /*#__PURE__*/React.createElement("section", {
     ref: heroRef,
     style: {
       minHeight: heroMinHeight,
@@ -18844,6 +20146,1067 @@ function WordmarkMasthead({
 }
 Object.assign(__ds_scope, { WordmarkMasthead });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/WordmarkMasthead.jsx", error: String((e && e.message) || e) }); }
+
+// components/layout/CarouselHero.jsx
+try { (() => {
+/* The landing page's opening as a statement over a carousel.
+
+   At rest: the vertical lockup on column 1, the statement on 5 / 9 in lead,
+   and under it one image across the full eight-column measure, standing as
+   the house dot screen (ImageReveal, scrubbed by the page scroll).
+
+   Once the image has printed, the carousel manifests on its own clock, over
+   the Medium duration: the card narrows from eight columns to six and pushes
+   the next card into the last two as a peek on the screen, the statement
+   fades up and out, and the caption and controls come up under
+   the track. Scrolling back to the top runs it in reverse. No pinning: the
+   page scrolls throughout.
+
+   From there the track is the house carousel — constant card geometry, a card
+   reaching the start line resolves, its neighbours hold the screen, arrows
+   run the expo tween at the Slow duration.
+
+   Leaving, the block fades and rises a step. The scroll-driven values read
+   one eased copy of the scroll position, so nothing has a hard edge. */
+
+const clamp01 = v => Math.min(1, Math.max(0, v));
+const smooth = (x, a, b) => {
+  const t = clamp01((x - a) / Math.max(1e-6, b - a));
+  return t * t * (3 - 2 * t);
+};
+const LW = 483.889,
+  LH = 593.162;
+/* The lockup, drawn here rather than loaded, so its wordmark can be handed to
+   the header on its own. The word's box in lockup units. */
+const V_PATH = 'M416.797 0L241.945 364.391L67.0948 0H0L207.83 433.114H276.066L483.889 0H416.797Z';
+const WORD_PATH = 'M131.315 513.773L94.2017 592.526H79.2616L41.8879 513.773H54.3117L86.529 583.971H86.9428L118.889 513.773H131.315ZM141.558 592.526H153.164V513.77H141.555L141.558 592.526ZM258.373 592.526V513.773H246.764V583.971H246.489L187.721 513.773H170.036V592.526H181.64V522.86H181.914L240.795 592.529H258.371M387.812 548.142V522.802H442.007V513.773H376.198V592.526H442.007V583.504H387.812V556.07H439.686V548.142H387.809M359.507 553.151H315.27V562.182H347.899V570.791C347.899 581.99 343.531 584.712 323.189 584.712H312.271C293.147 584.712 286.598 580.357 286.598 566.9V541.593C286.598 525.893 289.876 521.594 312.002 521.594H326.33C342.981 521.594 347.621 524.669 347.621 532.25V536.768H359.225V530.675C359.225 517.966 347.354 513.138 331.922 513.138H305.032C287.544 513.138 274.995 519.222 274.995 540.543V564.906C274.995 589.27 287 593.162 314.311 593.162H325.506C348.713 593.162 359.507 588.747 359.507 570.263V553.151Z';
+const WORD = {
+  x: 41.888,
+  y: 513.138,
+  h: 593.162 - 513.138
+};
+const cssMs = (name, fb) => parseFloat(getComputedStyle(document.documentElement).getPropertyValue(name)) || fb;
+function CarouselHero({
+  headline = 'När avgörande affärer ska genomföras och komplexa frågor lösas.',
+  slides = [],
+  logoSrc = 'assets/logo-paper.svg',
+  alt = 'Vinge',
+  imageHeight = '50svh',
+  /* Scroll, in viewport heights, over which the image prints. The carousel
+     manifests at 70% of it, while the print is closing up. */
+  printDistance = 0.35,
+  /* Where the image rests before it is scrolled: a point in the print. */
+  restPrint = 0.3,
+  /* The hero's screen pitch: the same 6 as LogoHero, coarser than the
+     house default of 4 that body images use. */
+  gridSize = 6,
+  /* Put the page on --ground-takeover while the hero is at rest. Sets
+     html[data-hero-top]; the page fades its own ground on it. */
+  topGround = true,
+  /* Show the resting hero image as the plain photograph instead of the dot
+     screen. Once the carousel opens it hands over to the house raster cards
+     underneath, and comes back when the reader returns to the top. */
+  plain = false,
+  onMenu,
+  onChat,
+  menuOpen = false,
+  chatActive = false,
+  conversation,
+  conversationProps,
+  style
+}) {
+  const sectionRef = React.useRef(null);
+  const fadeRef = React.useRef(null);
+  const lockRef = React.useRef(null);
+  const wordRef = React.useRef(null);
+  const trackRef = React.useRef(null);
+  const rowRef = React.useRef(null);
+  const [m, setM] = React.useState(null);
+  const [scrub, setScrub] = React.useState(restPrint);
+  const [open, setOpen] = React.useState(false);
+  const [rowIn, setRowIn] = React.useState(false);
+  const rowInRef = React.useRef(false);
+  const [active, setActive] = React.useState(0);
+  const activeRef = React.useRef(0);
+  const frameRefs = React.useMemo(() => slides.map(() => React.createRef()), [slides.length]);
+  activeRef.current = active;
+  const [handoff, setHandoff] = React.useState(null);
+  const openRef = React.useRef(false);
+  const moving = React.useRef(false);
+  const rafRef = React.useRef(null);
+  const geo = React.useRef({});
+  const count = slides.length;
+  React.useLayoutEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const measure = () => {
+      const cs = getComputedStyle(el);
+      const pad = parseFloat(cs.paddingLeft) || 0;
+      const gutter = parseFloat(cs.columnGap) || 0;
+      const cols = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--cols'), 10) || 8;
+      const port = el.clientWidth;
+      if (!port) return;
+      const content = port - 2 * pad;
+      setM(prev => prev && prev.port === port && prev.cols === cols && prev.gutter === gutter ? prev : {
+        pad,
+        gutter,
+        cols,
+        port,
+        content,
+        col: (content - (cols - 1) * gutter) / cols
+      });
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  const span = !m ? 6 : m.cols >= 8 ? 6 : m.cols >= 4 ? 3 : 0;
+  const cardW = !m ? null : span ? span * m.col + (span - 1) * m.gutter : Math.round(m.content * 0.84);
+  const fullW = m ? m.content : null;
+  geo.current = {
+    m,
+    cardW,
+    fullW
+  };
+
+  /* Scroll: the print, the trigger, the exit. */
+  React.useEffect(() => {
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let top = 0,
+      height = 0,
+      trackTop = 0,
+      vh = window.innerHeight,
+      raf = 0,
+      sm = null,
+      lastScrub = -1,
+      swapAt = 1e9;
+    const measure = () => {
+      const sec = sectionRef.current,
+        lock = lockRef.current;
+      if (!sec) return;
+      vh = window.innerHeight;
+      top = 0;
+      for (let n = sec; n; n = n.offsetParent) top += n.offsetTop;
+      height = sec.offsetHeight;
+      /* The handover. The lockup's wordmark scrolls up until it lies exactly
+         on the header's wordmark slot; at that scroll position the two swap
+         over a few pixels, and the header's copy — laid out at the lockup
+         word's size and offset — shrinks into the slot from there. */
+      const slot = document.querySelector('header[data-fixed-chrome] a[aria-label="Vinge"]');
+      if (lock && slot) {
+        let lt = 0,
+          ll = 0;
+        for (let n = lock; n; n = n.offsetParent) {
+          lt += n.offsetTop;
+          ll += n.offsetLeft;
+        }
+        const lw = lock.offsetWidth,
+          lh = lock.offsetHeight;
+        const s = slot.getBoundingClientRect();
+        const wordTop = lt + lh * WORD.y / LH;
+        const wordLeft = ll + lw * WORD.x / LW;
+        swapAt = wordTop - s.top;
+        const next = {
+          fromHeight: lh * WORD.h / LH,
+          fromX: wordLeft - s.left,
+          fadeFrom: swapAt - 10,
+          fadeTo: swapAt + 10,
+          shrinkTo: swapAt + vh * 0.2
+        };
+        setHandoff(prev => prev && Math.abs(prev.fromHeight - next.fromHeight) < 0.5 && Math.abs(prev.fadeFrom - next.fadeFrom) < 0.5 && Math.abs(prev.fromX - next.fromX) < 0.5 ? prev : next);
+      }
+    };
+    const frame = () => {
+      raf = 0;
+      const y = (window.scrollY || window.pageYOffset || 0) - top;
+      /* The lockup's word leaves over the same few pixels the header's copy
+         arrives over — on the raw position, since it has to line up. */
+      if (wordRef.current) wordRef.current.style.opacity = String(1 - clamp01((y + top - (swapAt - 10)) / 20));
+      /* Read, not cached: the carousel's place in the block moves whenever
+         anything above it settles (the lockup, the statement's font), and a
+         stale value starts the exit early. offsetTop ignores the exit's own
+         transform, and it is read before this frame writes anything. */
+      const tr = trackRef.current,
+        sec = sectionRef.current;
+      if (tr && sec) {
+        let o = 0;
+        for (let n = tr; n && n !== sec; n = n.offsetParent) o += n.offsetTop;
+        trackTop = o;
+        height = sec.offsetHeight;
+      }
+      /* Where the caption row's content ends in the block (its own reveal
+         transform ignored), so the carousel opens the moment that row fits
+         in the window rather than arriving below the fold. */
+      let rowBottom = 0;
+      const row = rowRef.current;
+      if (row && sec) {
+        let o = 0;
+        for (let n = row; n && n !== sec; n = n.offsetParent) o += n.offsetTop;
+        rowBottom = o + row.offsetHeight - (parseFloat(getComputedStyle(row).paddingBottom) || 0);
+      }
+      if (sm == null || reduced) sm = y;else sm += (y - sm) * 0.16;
+      if (Math.abs(y - sm) < 0.3) sm = y;
+      const d = printDistance * vh;
+      const s = restPrint + (1 - restPrint) * smooth(sm, 0, d);
+      const nextScrub = s >= 0.999 ? 1 : s;
+      if (Math.abs(nextScrub - lastScrub) > 0.002 || nextScrub === 1 && lastScrub !== 1) {
+        lastScrub = nextScrub;
+        setScrub(nextScrub);
+      }
+      /* On the raw position, not the eased copy, so the carousel starts the
+         moment the print is done. Hysteresis, so a reader resting on the line
+         does not toggle it. */
+      const openAt = Math.max(1, Math.min(d * 0.7, rowBottom ? rowBottom - vh : d * 0.7));
+      const want = openRef.current ? y > openAt * 0.8 : y >= openAt;
+      if (want !== openRef.current) {
+        openRef.current = want;
+        setOpen(want);
+      }
+      /* The caption row has its own reveal: on a short window it fits later
+         than the carousel opens, and it waits until it does. */
+      const fitAt = rowBottom ? rowBottom - vh : 0;
+      const rowWant = want && (rowInRef.current ? y > fitAt - 24 : y >= fitAt);
+      if (rowWant !== rowInRef.current) {
+        rowInRef.current = rowWant;
+        setRowIn(rowWant);
+      }
+      /* The exit: starts when the carousel's top edge reaches the top of the
+         window, and is gone by the time the block's bottom is 45% of the way
+         up — before the caption row is anywhere near the header. */
+      const exitEnd = height - vh * 0.45;
+      const e = smooth(sm, Math.min(trackTop, exitEnd - 1), exitEnd);
+      if (fadeRef.current) {
+        fadeRef.current.style.opacity = String(1 - e);
+        fadeRef.current.style.transform = reduced ? 'none' : 'translate3d(0,' + (-e * 0.08 * vh).toFixed(1) + 'px,0)';
+      }
+      if (sm !== y) raf = requestAnimationFrame(frame);
+    };
+    const kick = () => {
+      if (!raf) raf = requestAnimationFrame(frame);
+    };
+    const onResize = () => {
+      measure();
+      kick();
+    };
+    measure();
+    frame();
+    const ro = new ResizeObserver(onResize);
+    if (sectionRef.current) ro.observe(sectionRef.current);
+    window.addEventListener('scroll', kick, {
+      passive: true
+    });
+    window.addEventListener('resize', onResize);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('scroll', kick);
+      window.removeEventListener('resize', onResize);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, [printDistance, restPrint]);
+
+  /* Folding with another card in front: the track goes home first. The
+     page ground follows the same state: --ground-takeover while the hero is at rest,
+     paper once the carousel has manifested — a state with a transition, as
+     on the person page, never a scrub. */
+  React.useEffect(() => {
+    /* Folding back does not rewind: whichever card is in front widens back
+       to the full measure where it stands, and the others fade. */
+    if (!topGround) return;
+    const b = document.documentElement;
+    if (open) b.removeAttribute('data-hero-top');else b.setAttribute('data-hero-top', '');
+  }, [open, topGround]);
+  React.useEffect(() => () => document.documentElement.removeAttribute('data-hero-top'), []);
+  React.useEffect(() => {
+    const el = trackRef.current;
+    if (!el || !m) return;
+    const onScroll = () => {
+      if (!openRef.current && !moving.current) {
+        const hold = activeRef.current * (geo.current.cardW + m.gutter);
+        if (Math.abs(el.scrollLeft - hold) > 1) el.scrollLeft = hold;
+        return;
+      }
+      if (moving.current) return;
+      const start = el.scrollLeft + m.pad;
+      let best = 0,
+        bestD = Infinity;
+      Array.from(el.children).forEach((child, i) => {
+        const d = Math.abs(child.offsetLeft - start);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      setActive(best);
+    };
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => el.removeEventListener('scroll', onScroll);
+  }, [m]);
+  React.useEffect(() => () => {
+    if (rafRef.current) cancelAnimationFrame(rafRef.current);
+  }, []);
+  const goTo = next => {
+    const el = trackRef.current;
+    const {
+      m: gm,
+      cardW: cw
+    } = geo.current;
+    if (!el || !gm || cw == null) return;
+    next = Math.min(count - 1, Math.max(0, next));
+    const target = next * (cw + gm.gutter);
+    const from = el.scrollLeft;
+    setActive(next);
+    if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    if (Math.abs(target - from) < 1) {
+      el.scrollLeft = target;
+      return;
+    }
+    const dur = cssMs('--dur-slow', 1200);
+    moving.current = true;
+    el.style.scrollSnapType = 'none';
+    const t0 = performance.now();
+    const step = now => {
+      const k = Math.min(1, (now - t0) / dur);
+      el.scrollLeft = from + (target - from) * (1 - Math.pow(1 - k, 5));
+      if (k < 1) {
+        rafRef.current = requestAnimationFrame(step);
+        return;
+      }
+      el.scrollLeft = target;
+      el.style.scrollSnapType = '';
+      moving.current = false;
+      rafRef.current = null;
+    };
+    rafRef.current = requestAnimationFrame(step);
+  };
+  const go = dir => {
+    const el = trackRef.current;
+    const {
+      m: gm,
+      cardW: cw
+    } = geo.current;
+    if (!el || !gm || cw == null) return;
+    goTo(Math.round(el.scrollLeft / (cw + gm.gutter)) + dir);
+  };
+  const masthead = React.useMemo(() => /*#__PURE__*/React.createElement(__ds_scope.WordmarkMasthead, {
+    logoSrc: logoSrc,
+    onMenu: onMenu,
+    onChat: onChat,
+    menuOpen: menuOpen,
+    chatActive: chatActive,
+    conversation: conversation,
+    conversationProps: conversationProps,
+    handoff: handoff || {
+      fromHeight: 26,
+      fadeFrom: 1e6,
+      fadeTo: 1e6 + 1,
+      shrinkTo: 1e6 + 2
+    }
+  }), [logoSrc, onMenu, onChat, menuOpen, chatActive, conversation, conversationProps, handoff]);
+  const scrubbing = scrub < 1;
+  const trailing = m && cardW != null ? Math.max(m.pad, m.port - m.pad - cardW) : undefined;
+  const push = 'var(--dur-medium) var(--ease-expo)';
+  return /*#__PURE__*/React.createElement(React.Fragment, null, masthead, /*#__PURE__*/React.createElement("section", {
+    ref: sectionRef,
+    "data-carousel-hero": "",
+    style: {
+      position: 'relative',
+      color: 'var(--text-primary)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: fadeRef,
+    style: {
+      willChange: 'transform, opacity'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      paddingTop: 'var(--space-4)',
+      alignItems: 'end'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: lockRef,
+    style: {
+      gridColumn: '1 / 2',
+      gridRow: 1,
+      alignSelf: 'start'
+    }
+  }, /*#__PURE__*/React.createElement("svg", {
+    role: "img",
+    "aria-label": alt,
+    viewBox: '0 0 ' + LW + ' ' + LH,
+    style: {
+      display: 'block',
+      width: '100%',
+      height: 'auto',
+      overflow: 'visible'
+    }
+  }, /*#__PURE__*/React.createElement("path", {
+    d: V_PATH,
+    fill: "currentColor"
+  }), /*#__PURE__*/React.createElement("path", {
+    ref: wordRef,
+    d: WORD_PATH,
+    fill: "currentColor"
+  }))), /*#__PURE__*/React.createElement("div", {
+    "data-hero-statement": "",
+    style: {
+      gridRow: 2,
+      marginTop: 'var(--space-7)',
+      position: 'relative'
+    }
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "lead",
+    style: {
+      maxWidth: '30ch',
+      textWrap: 'balance',
+      opacity: open ? 0 : 1,
+      transform: open ? 'translateY(calc(-1 * var(--reveal-rise)))' : 'none',
+      transition: 'opacity ' + push + ', transform ' + push
+    }
+  }, headline)), /*#__PURE__*/React.createElement("p", {
+    className: "place-meta-right",
+    "aria-live": "polite",
+    "aria-hidden": !open,
+    style: {
+      gridRow: 2,
+      alignSelf: 'end',
+      textAlign: 'right',
+      margin: 0,
+      display: 'flex',
+      alignItems: 'baseline',
+      justifyContent: 'flex-end',
+      opacity: open ? 1 : 0,
+      transform: open ? 'none' : 'translateY(var(--reveal-rise))',
+      transition: 'opacity ' + push + ', transform ' + push
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "display-2",
+    style: {
+      maxWidth: 'none'
+    }
+  }, active + 1), /*#__PURE__*/React.createElement("span", {
+    className: "display-3",
+    style: {
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, "/", count))), /*#__PURE__*/React.createElement("div", {
+    ref: trackRef,
+    role: "region",
+    "aria-roledescription": "karusell",
+    "aria-label": "Bilder",
+    style: {
+      display: 'flex',
+      alignItems: 'flex-start',
+      gap: 'var(--gutter)',
+      overflowX: 'auto',
+      scrollSnapType: open ? 'x mandatory' : 'none',
+      scrollPaddingLeft: 'var(--margin)',
+      scrollbarWidth: 'none',
+      paddingInline: 'var(--margin)',
+      paddingRight: trailing,
+      maxWidth: 'var(--max-width)',
+      marginInline: 'auto',
+      marginTop: 'var(--space-3)',
+      overscrollBehaviorX: 'contain'
+    }
+  }, slides.map((s, i) => {
+    /* The lead is the card in front: the first on arrival, the
+       active one when the reader folds back to the top. */
+    const lead = i === active;
+    const w = lead && !open ? fullW : cardW;
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      ref: frameRefs[i],
+      style: {
+        flex: '0 0 ' + (w != null ? w + 'px' : lead ? '100%' : '75%'),
+        minWidth: 0,
+        scrollSnapAlign: 'start',
+        opacity: lead || open ? 1 : 0,
+        overflow: 'hidden',
+        transition: 'flex-basis ' + push + ', opacity ' + push
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: fullW != null ? {
+        width: fullW,
+        transform: 'translate3d(' + -(fullW - w) / 2 + 'px,0,0)',
+        transition: 'transform ' + push
+      } : undefined
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        position: 'relative'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+      src: s.src,
+      alt: s.alt || s.label || '',
+      axis: "x",
+      gridSize: gridSize,
+      focus: s.focus,
+      frameRef: frameRefs[i],
+      progress: lead && scrubbing ? scrub : undefined,
+      resolved: lead && scrubbing ? undefined : lead,
+      restTone: 0,
+      style: {
+        aspectRatio: 'auto',
+        height: imageHeight,
+        background: 'transparent'
+      }
+    }), plain && lead ? /*#__PURE__*/React.createElement("div", {
+      "aria-hidden": "true",
+      style: {
+        position: 'absolute',
+        inset: 0,
+        opacity: open ? 0 : 1,
+        pointerEvents: 'none',
+        transition: 'opacity ' + push
+      }
+    }, /*#__PURE__*/React.createElement("img", {
+      src: s.src,
+      alt: "",
+      style: {
+        display: 'block',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+        objectPosition: s.focus ? s.focus[0] * 100 + '% ' + s.focus[1] * 100 + '%' : 'center'
+      }
+    })) : null)));
+  })), /*#__PURE__*/React.createElement("div", {
+    ref: rowRef,
+    className: "grid",
+    style: {
+      marginTop: 'var(--space-3)',
+      paddingBottom: 'var(--space-4)',
+      alignItems: 'start',
+      rowGap: 'var(--space-2)',
+      opacity: rowIn ? 1 : 0,
+      transform: rowIn ? 'none' : 'translateY(var(--reveal-rise))',
+      pointerEvents: rowIn ? 'auto' : 'none',
+      transition: 'opacity ' + push + ', transform ' + push
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-hero-caption": "",
+    "aria-live": "polite",
+    style: {
+      display: 'grid',
+      gridRow: 1
+    }
+  }, slides.map((s, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    "aria-hidden": i !== active,
+    style: {
+      gridArea: '1 / 1',
+      opacity: i === active ? 1 : 0,
+      transform: i === active ? 'none' : 'translateY(8px)',
+      transition: 'opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo)'
+    }
+  }, s.label ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      maxWidth: 'none'
+    }
+  }, s.label) : null, s.body ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      marginTop: 'var(--space-3)',
+      color: 'var(--text-secondary)'
+    }
+  }, s.body) : null))), /*#__PURE__*/React.createElement("div", {
+    "data-hero-controls": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.CarouselNav, {
+    counter: false,
+    index: active,
+    count: count,
+    onPrev: () => go(-1),
+    onNext: () => go(1),
+    prevLabel: "F\xF6reg\xE5ende bild",
+    nextLabel: "N\xE4sta bild"
+  }))))));
+}
+Object.assign(__ds_scope, { CarouselHero });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/CarouselHero.jsx", error: String((e && e.message) || e) }); }
+
+// components/layout/LogoHero.jsx
+try { (() => {
+/* The landing page's opening: the vertical lockup, centred, and nothing else.
+
+   On scroll three things happen at once. The lockup drifts at a fraction of
+   the scroll speed, so it lags behind the page. The V disperses through the
+   house raster reveal (`ImageReveal`, scrubbed from 1 back to 0): the solid
+   mark opens into the plate, the plate into the dot screen, and the screen
+   runs off the page along the reveal's own diagonal front. The wordmark under
+   it fades, reappears in the fixed header at the size it had in the hero, and
+   shrinks to the header measure. The header is `WordmarkMasthead`, mounted
+   here with a `handoff` so the two agree on distances.
+
+   The easter egg. Bring the pointer near the V and it turns, slightly, to
+   follow it, and it turns out to have been built from dots all along: the
+   same screen the dispersion uses (same pitch, same angle), sized the way the
+   reveal sizes its screen mid-print (its two crossing waves, standing
+   as diagonal bands of full dots and specks) and the bands slide with the
+   turn like a highlight on a tilted surface, and set in depth by the same size. Every dot is placed and sized so that seen
+   head-on its projection lands exactly on the screen, which is why the front
+   view is a V. Away from the V it eases back to head-on and to the solid
+   mark. */
+
+const LW = 483.889,
+  LH = 593.162,
+  VH = 433.114;
+const V_PATH = 'M416.797 0L241.945 364.391L67.0948 0H0L207.83 433.114H276.066L483.889 0H416.797Z';
+const V_POLY = [[416.797, 0], [241.945, 364.391], [67.0948, 0], [0, 0], [207.83, 433.114], [276.066, 433.114], [483.889, 0]];
+const WORD_PATH = 'M131.315 513.773L94.2017 592.526H79.2616L41.8879 513.773H54.3117L86.529 583.971H86.9428L118.889 513.773H131.315ZM141.558 592.526H153.164V513.77H141.555L141.558 592.526ZM258.373 592.526V513.773H246.764V583.971H246.489L187.721 513.773H170.036V592.526H181.64V522.86H181.914L240.795 592.529H258.371M387.812 548.142V522.802H442.007V513.773H376.198V592.526H442.007V583.504H387.812V556.07H439.686V548.142H387.809M359.507 553.151H315.27V562.182H347.899V570.791C347.899 581.99 343.531 584.712 323.189 584.712H312.271C293.147 584.712 286.598 580.357 286.598 566.9V541.593C286.598 525.893 289.876 521.594 312.002 521.594H326.33C342.981 521.594 347.621 524.669 347.621 532.25V536.768H359.225V530.675C359.225 517.966 347.354 513.138 331.922 513.138H305.032C287.544 513.138 274.995 519.222 274.995 540.543V564.906C274.995 589.27 287 593.162 314.311 593.162H325.506C348.713 593.162 359.507 588.747 359.507 570.263V553.151Z';
+const WORD_TOP = 505;
+const FOCAL = 1200;
+/* The reveal's dot rhythm (see ImageReveal): one wave riding the diagonal,
+   one slower and oblique. REVEAL_P is the point in the print the hover shows. */
+const REVEAL_P = 0.42;
+const REVEAL_FRONT = -0.15 + REVEAL_P * 2.3;
+const pulseAt = (nd, x, y, p) => 0.68 + 0.32 * Math.sin(nd * Math.PI * 2 * 2.6 - p * 9) + 0.14 * Math.sin(x * 0.012 - y * 0.017 + p * 5);
+const TAU = Math.PI * 2;
+const clamp01 = v => Math.min(1, Math.max(0, v));
+const smooth = (x, a, b) => {
+  const t = clamp01((x - a) / (b - a));
+  return t * t * (3 - 2 * t);
+};
+function inside(x, y) {
+  let hit = false;
+  for (let i = 0, j = V_POLY.length - 1; i < V_POLY.length; j = i++) {
+    const [xi, yi] = V_POLY[i],
+      [xj, yj] = V_POLY[j];
+    if (yi > y !== yj > y && x < (xj - xi) * (y - yi) / (yj - yi) + xi) hit = !hit;
+  }
+  return hit;
+}
+function LogoHero({
+  logoSrc = 'assets/logo-paper.svg',
+  alt = 'Vinge',
+  /* Fraction of the scroll the lockup does NOT follow. 0 scrolls with the
+     page, 1 pins it. */
+  drift = 0.45,
+  /* Scroll distance, in viewport heights, over which the V disperses. */
+  disperse = 0.6,
+  gridSize = 6,
+  screenAngle = 18,
+  /* The easter egg. Maximum turn in degrees, and the depth of the dot planes
+     in px. Both deliberately small. */
+  easterEgg = true,
+  tilt = 9,
+  depth = 70,
+  onMenu,
+  onChat,
+  menuOpen = false,
+  chatActive = false,
+  conversation,
+  conversationProps,
+  style
+}) {
+  const heroRef = React.useRef(null);
+  const lockRef = React.useRef(null);
+  const vRef = React.useRef(null);
+  const wordRef = React.useRef(null);
+  const revealRef = React.useRef(null);
+  const canvasRef = React.useRef(null);
+  const dotsRef = React.useRef(null);
+  const [vSrc, setVSrc] = React.useState(null);
+  const [ink, setInk] = React.useState(null);
+  const [scrub, setScrub] = React.useState(1);
+  const [handoff, setHandoff] = React.useState(null);
+
+  /* The V as a raster, in the ground's own ink, for the reveal to screen. On
+     white: the reveal reads darkness, and the wrapper multiplies, so the white
+     drops out against whatever ground the hero sits on. */
+  React.useEffect(() => {
+    const el = heroRef.current;
+    if (!el) return;
+    const colour = getComputedStyle(el).color;
+    setInk(colour);
+    const c = document.createElement('canvas');
+    c.width = 968;
+    c.height = Math.round(968 * VH / LW);
+    const ctx = c.getContext('2d');
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, c.width, c.height);
+    ctx.scale(c.width / LW, c.height / VH);
+    ctx.fillStyle = colour;
+    ctx.fill(new Path2D(V_PATH));
+    setVSrc(c.toDataURL('image/png'));
+  }, []);
+
+  /* Scroll: drift, dispersion, the wordmark's exit, and the distances the
+     header needs for its half of the handover. */
+  React.useEffect(() => {
+    let frame = 0;
+    const measure = () => {
+      const lock = lockRef.current;
+      if (!lock) return;
+      const vh = window.innerHeight;
+      const h = lock.offsetHeight;
+      const next = {
+        fromHeight: Math.round(h * (593.162 - 513.138) / LH),
+        fadeFrom: vh * 0.1,
+        fadeTo: vh * 0.2,
+        shrinkTo: vh * 0.5
+      };
+      setHandoff(prev => prev && prev.fromHeight === next.fromHeight && prev.fadeFrom === next.fadeFrom ? prev : next);
+    };
+    const apply = () => {
+      frame = 0;
+      const lock = lockRef.current,
+        word = wordRef.current;
+      if (!lock) return;
+      const y = Math.max(0, window.scrollY || window.pageYOffset || 0);
+      const vh = window.innerHeight;
+      lock.style.transform = 'translate3d(0,' + (y * drift).toFixed(1) + 'px,0)';
+      if (word) word.style.opacity = String(1 - smooth(y, vh * 0.03, vh * 0.14));
+      const t = 1 - clamp01(y / Math.max(1, vh * disperse));
+      setScrub(prev => Math.abs(prev - t) < 0.002 && t !== 0 && t !== 1 ? prev : t);
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    const onResize = () => {
+      measure();
+      onScroll();
+    };
+    measure();
+    apply();
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onResize);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onResize);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [drift, disperse]);
+
+  /* The dot V: the reveal's own lattice, clipped to the mark. */
+  const buildDots = React.useCallback(() => {
+    const box = vRef.current,
+      canvas = canvasRef.current;
+    if (!box || !canvas) return;
+    const w = box.offsetWidth,
+      h = box.offsetHeight;
+    if (!w || !h) return;
+    const pad = Math.ceil(depth * 0.6 + gridSize * 2);
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = (w + pad * 2) * dpr;
+    canvas.height = (h + pad * 2) * dpr;
+    canvas.style.width = w + pad * 2 + 'px';
+    canvas.style.height = h + pad * 2 + 'px';
+    canvas.style.left = -pad + 'px';
+    canvas.style.top = -pad + 'px';
+    const a = screenAngle * Math.PI / 180,
+      cosA = Math.cos(a),
+      sinA = Math.sin(a);
+    let uMin = Infinity,
+      uMax = -Infinity,
+      vMin = Infinity,
+      vMax = -Infinity;
+    for (const [x, y] of [[0, 0], [w, 0], [0, h], [w, h]]) {
+      const u = x * cosA + y * sinA,
+        v = -x * sinA + y * cosA;
+      uMin = Math.min(uMin, u);
+      uMax = Math.max(uMax, u);
+      vMin = Math.min(vMin, v);
+      vMax = Math.max(vMax, v);
+    }
+    const k = LW / w,
+      list = [];
+    for (let v = Math.floor(vMin / gridSize) * gridSize; v <= vMax; v += gridSize) {
+      for (let u = Math.floor(uMin / gridSize) * gridSize; u <= uMax; u += gridSize) {
+        const x = u * cosA - v * sinA,
+          y = u * sinA + v * cosA;
+        if (x < 0 || y < 0 || x >= w || y >= h || !inside(x * k, y * k)) continue;
+        const iu = Math.round(u / gridSize),
+          iv = Math.round(v / gridSize);
+        /* Sized the way ImageReveal sizes its screen mid-print: the diagonal
+           front and the two crossing waves, frozen at REVEAL_P. Depth follows
+           the same size, so the big dots sit forward, plus a three-plane
+           interleave that splits neighbours once it turns. */
+        const nd = (x + y) / (w + h);
+        const band = smooth(REVEAL_FRONT - nd, -0.35, 0.22);
+        const f = clamp01(band * pulseAt(nd, x, y, REVEAL_P) / 1.14);
+        const plane = ((iu + 2 * iv) % 3 + 3) % 3;
+        const z = (0.5 - f) * depth * 1.4 + (plane - 1) * depth * 0.25;
+        const grow = (FOCAL + z) / FOCAL;
+        list.push({
+          X: (x - w / 2) * grow,
+          Y: (y - h / 2) * grow,
+          Z: z,
+          grow,
+          x,
+          y,
+          nd,
+          band
+        });
+      }
+    }
+    dotsRef.current = {
+      list,
+      w,
+      h,
+      pad,
+      dpr
+    };
+  }, [gridSize, screenAngle, depth]);
+  React.useEffect(() => {
+    if (!easterEgg) return;
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduced) return;
+    buildDots();
+    const ro = new ResizeObserver(buildDots);
+    if (vRef.current) ro.observe(vRef.current);
+    /* mx, my: the pointer in the V box's own px, eased like the turn. */
+    const cur = {
+        rx: 0,
+        ry: 0,
+        n: 0,
+        mx: 0,
+        my: 0
+      },
+      tgt = {
+        rx: 0,
+        ry: 0,
+        n: 0,
+        mx: 0,
+        my: 0
+      };
+    const t0 = performance.now();
+    let raf = 0;
+    const draw = () => {
+      const dots = dotsRef.current,
+        canvas = canvasRef.current,
+        rev = revealRef.current;
+      if (!dots || !canvas) return;
+      const show = smooth(cur.n, 0.02, 0.3);
+      canvas.style.opacity = String(show);
+      if (rev) rev.style.opacity = String(1 - show);
+      const ctx = canvas.getContext('2d');
+      ctx.setTransform(dots.dpr, 0, 0, dots.dpr, 0, 0);
+      ctx.clearRect(0, 0, dots.w + dots.pad * 2, dots.h + dots.pad * 2);
+      if (show <= 0) return;
+      /* Head-on the dots close up into the mark (0.62 of the pitch covers
+         it); as the pointer comes in they open to the tone field's size. */
+      const open = smooth(cur.n, 0.15, 0.85),
+        closed = gridSize * 0.62,
+        maxR = gridSize * 0.46;
+      /* The sheen's phase is the turn itself, so it moves with the pointer
+         and eases with it; a full turn either way slides it half a band. */
+      const ph = REVEAL_P + (cur.ry - cur.rx * 0.6) / Math.max(1, tilt) * 0.35;
+      const ry = cur.ry * Math.PI / 180,
+        rx = cur.rx * Math.PI / 180;
+      const cy = Math.cos(ry),
+        sy = Math.sin(ry),
+        cx = Math.cos(rx),
+        sx = Math.sin(rx);
+      const ox = dots.pad + dots.w / 2,
+        oy = dots.pad + dots.h / 2;
+      const path = new Path2D();
+      for (const d of dots.list) {
+        const X1 = d.X * cy + d.Z * sy,
+          Z1 = -d.X * sy + d.Z * cy;
+        const Y2 = d.Y * cx - Z1 * sx,
+          Z2 = d.Y * sx + Z1 * cx;
+        const s = FOCAL / (FOCAL + Z2);
+        /* A sheen: the reveal's two crossing waves, left standing across the
+           mark as diagonal bands of full dots and specks, and slid along by
+           the turn, the way a highlight moves over a tilted surface. */
+        const dr = Math.max(0, maxR * Math.min(1, pulseAt(d.nd, d.x, d.y, ph)));
+        const r = (closed + (dr - closed) * open) * d.grow * s;
+        if (r < 0.22) continue;
+        const px = ox + X1 * s,
+          py = oy + Y2 * s;
+        path.moveTo(px + r, py);
+        path.arc(px, py, r, 0, TAU);
+      }
+      ctx.fillStyle = ink || getComputedStyle(heroRef.current).color;
+      ctx.fill(path);
+    };
+    const loop = () => {
+      raf = 0;
+      const e = 0.07;
+      cur.rx += (tgt.rx - cur.rx) * e;
+      cur.ry += (tgt.ry - cur.ry) * e;
+      cur.n += (tgt.n - cur.n) * e;
+      cur.mx += (tgt.mx - cur.mx) * 0.1;
+      cur.my += (tgt.my - cur.my) * 0.1;
+      const settled = Math.abs(tgt.rx - cur.rx) < 0.01 && Math.abs(tgt.ry - cur.ry) < 0.01 && Math.abs(tgt.n - cur.n) < 0.002;
+      if (settled) {
+        cur.rx = tgt.rx;
+        cur.ry = tgt.ry;
+        cur.n = tgt.n;
+      }
+      draw();
+      if (!settled) raf = window.requestAnimationFrame(loop);
+    };
+    const kick = () => {
+      if (!raf) raf = window.requestAnimationFrame(loop);
+    };
+    const onMove = ev => {
+      const box = vRef.current;
+      if (!box) return;
+      const r = box.getBoundingClientRect();
+      const dx = (ev.clientX - (r.left + r.width / 2)) / r.width;
+      const dy = (ev.clientY - (r.top + r.height / 2)) / r.height;
+      tgt.mx = ev.clientX - r.left;
+      tgt.my = ev.clientY - r.top;
+      if (cur.n < 0.01) {
+        cur.mx = tgt.mx;
+        cur.my = tgt.my;
+      }
+      /* Near means about half the mark's own width past its edge; only at
+         the top of the page, before the dispersion has started. */
+      const atTop = (window.scrollY || 0) < 4;
+      const n = atTop ? 1 - smooth(Math.hypot(dx, dy), 0.55, 1.15) : 0;
+      tgt.n = n;
+      tgt.ry = -Math.max(-1, Math.min(1, dx)) * tilt * n;
+      tgt.rx = Math.max(-1, Math.min(1, dy)) * tilt * n;
+      kick();
+    };
+    const rest = () => {
+      tgt.n = 0;
+      tgt.rx = 0;
+      tgt.ry = 0;
+      kick();
+    };
+    const onScroll = () => {
+      if ((window.scrollY || 0) >= 4 && tgt.n) rest();
+    };
+    window.addEventListener('pointermove', onMove, {
+      passive: true
+    });
+    document.documentElement.addEventListener('pointerleave', rest);
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('blur', rest);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('pointermove', onMove);
+      document.documentElement.removeEventListener('pointerleave', rest);
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('blur', rest);
+      if (raf) window.cancelAnimationFrame(raf);
+    };
+  }, [easterEgg, buildDots, tilt, gridSize, ink]);
+
+  /* The header re-renders only when something it reads changes, not on every
+     frame of the scrub. */
+  const masthead = React.useMemo(() => /*#__PURE__*/React.createElement(__ds_scope.WordmarkMasthead, {
+    logoSrc: logoSrc,
+    onMenu: onMenu,
+    onChat: onChat,
+    menuOpen: menuOpen,
+    chatActive: chatActive,
+    conversation: conversation,
+    conversationProps: conversationProps,
+    handoff: handoff || {
+      fromHeight: 60,
+      fadeFrom: 1e6,
+      fadeTo: 1e6 + 1,
+      shrinkTo: 1e6 + 2
+    }
+  }), [logoSrc, onMenu, onChat, menuOpen, chatActive, conversation, conversationProps, handoff]);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, masthead, /*#__PURE__*/React.createElement("section", {
+    ref: heroRef,
+    "data-logo-hero": "",
+    style: {
+      position: 'relative',
+      height: '100svh',
+      display: 'grid',
+      placeItems: 'center',
+      color: 'var(--text-primary)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("h1", {
+    style: {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)',
+      margin: 0
+    }
+  }, alt), /*#__PURE__*/React.createElement("div", {
+    ref: lockRef,
+    role: "img",
+    "aria-label": alt,
+    style: {
+      position: 'relative',
+      height: 'clamp(240px, 50svh, 540px)',
+      aspectRatio: LW + ' / ' + LH,
+      willChange: 'transform',
+      /* The blend sits on the lockup itself: the transform isolates it, so a
+         multiply on anything inside would only blend against the lockup's
+         own empty group and the raster's white would show. */
+      mixBlendMode: 'multiply',
+      opacity: vSrc ? 1 : 0,
+      transition: 'opacity var(--dur-reveal) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: vRef,
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: 0,
+      height: VH / LH * 100 + '%'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: revealRef,
+    style: {
+      position: 'absolute',
+      inset: 0
+    }
+  }, vSrc ? /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+    effect: "dots",
+    src: vSrc,
+    alt: "",
+    progress: scrub,
+    inkColor: ink,
+    gridSize: gridSize,
+    screenAngle: screenAngle,
+    style: {
+      aspectRatio: 'auto',
+      height: '100%',
+      background: 'transparent'
+    }
+  }) : null), /*#__PURE__*/React.createElement("canvas", {
+    ref: canvasRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      display: 'block',
+      pointerEvents: 'none',
+      opacity: 0
+    }
+  })), /*#__PURE__*/React.createElement("svg", {
+    ref: wordRef,
+    "aria-hidden": "true",
+    viewBox: '0 ' + WORD_TOP + ' ' + LW + ' ' + (LH - WORD_TOP),
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      width: '100%',
+      height: (LH - WORD_TOP) / LH * 100 + '%',
+      display: 'block',
+      overflow: 'visible'
+    }
+  }, /*#__PURE__*/React.createElement("path", {
+    d: WORD_PATH,
+    fill: "currentColor"
+  })))));
+}
+Object.assign(__ds_scope, { LogoHero });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/LogoHero.jsx", error: String((e && e.message) || e) }); }
 
 // repo/templates/about-page/ds-base.js
 try { (() => {
@@ -26456,6 +28819,8 @@ __ds_ns.IconNames = __ds_scope.IconNames;
 
 __ds_ns.IconLibrary = __ds_scope.IconLibrary;
 
+__ds_ns.CarouselHero = __ds_scope.CarouselHero;
+
 __ds_ns.CtaBlock = __ds_scope.CtaBlock;
 
 __ds_ns.Hero = __ds_scope.Hero;
@@ -26463,6 +28828,8 @@ __ds_ns.Hero = __ds_scope.Hero;
 __ds_ns.ImageTextPair = __ds_scope.ImageTextPair;
 
 __ds_ns.IndexList = __ds_scope.IndexList;
+
+__ds_ns.LogoHero = __ds_scope.LogoHero;
 
 __ds_ns.PageBanner = __ds_scope.PageBanner;
 

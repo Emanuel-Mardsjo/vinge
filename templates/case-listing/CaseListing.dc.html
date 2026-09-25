@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Case listing" description="Uppdrag: the canonical page banner, then the record written out as client names grouped by year. Hovering a name folds out its title and preamble; the side filter pushes in by year, type of work and area." -->
+<helmet><script src="./ds-base.js"></script><script src="./record-cases.js"></script><script src="./record.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="Uppdrag" trail="{{ trail }}" hint-size="100%,260px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="uppdrag" listing="{{ true }}" title="" premise="" all-line="" closing-line="" action-label="" entries="{{ entries }}" view-labels="{{ viewLabels }}" term-filter="{{ true }}" term-count="{{ termCount }}" finder-href="/hitta-ratt-person" empty-body="Urval anpassat för dig" empty-link-label="Vad söker du?" open-label="Läs uppdraget" flush-top="{{ true }}" hint-size="100%,1400px"></x-import>
+</main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" hint-size="100%,720px"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { menuOpen: false };
+
+  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  /* Same shared navigation as every template; polls once until the bundle lands. */
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window.VingeDesignSystem_8582c7;
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  componentWillUnmount() { if (this._navWait) clearInterval(this._navWait); }
+
+  renderVals() {
+    const nav = this.nav();
+    return {
+      entries: (window.VingeRecordEntriesLive || window.VingeRecordEntries || []).slice().sort((a, b) => b.year - a.year),
+      viewLabels: ['Allt', 'Ditt urval'],
+      termCount: 8,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+      trail: [{ label: 'Start', href: '/' }, 'Uppdrag'],
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -59,7 +59,7 @@
 <div style="grid-column:1 / -1;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(232px,100%),1fr));gap:var(--space-5) var(--gutter)">
 <sc-for list="{{ rows }}" as="p" hint-placeholder-count="12">
 <a href="{{ p.href }}" ref="{{ p.ref }}" onMouseEnter="{{ p.enter }}" onMouseLeave="{{ leave }}" onFocus="{{ p.enter }}" onBlur="{{ leave }}" data-person="" data-recede="{{ p.recede }}" style="display:block;min-width:0;color:inherit;text-decoration:none;opacity:1;transition:opacity var(--dur-reveal) var(--ease-expo)">
-<div style="position:relative;width:100%;aspect-ratio:4 / 5;background:var(--ink-5);overflow:hidden">
+<div style="position:relative;width:100%;aspect-ratio:4 / 5;background:var(--surface-tint);overflow:hidden">
 <sc-if value="{{ p.live }}">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ p.imageSrc }}" alt="{{ p.alt }}" ratio="4:5" grid-size="{{ gridSize }}" dynamics="{{ dynamics }}" play-at="{{ playAt }}" duration="{{ duration }}" resolved="{{ p.resolved }}" hint-size="100%,100%"></x-import>
 </sc-if>

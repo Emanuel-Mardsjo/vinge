@@ -180,7 +180,7 @@
 <sc-for list="{{ authors }}" as="author" hint-placeholder-count="0">
 <div>
 <div data-author onMouseEnter="{{ author.enter }}" onMouseMove="{{ author.move }}" onMouseLeave="{{ author.leave }}" style="display:flex;align-items:center;gap:var(--space-2);min-height:44px">
-<sc-if value="{{ author.portrait }}" hint-placeholder-val="{{ false }}"><span data-author-avatar style="flex:none;width:40px;height:40px;border-radius:50%;overflow:hidden;background:var(--ink-12)"><img data-avatar-src="{{ author.portrait }}" alt="" style="display:block;width:100%;height:100%;object-fit:cover"></span></sc-if>
+<sc-if value="{{ author.portrait }}" hint-placeholder-val="{{ false }}"><span data-author-avatar style="flex:none;width:40px;height:40px;border-radius:50%;overflow:hidden;background:var(--surface-tint)"><img data-avatar-src="{{ author.portrait }}" alt="" style="display:block;width:100%;height:100%;object-fit:cover"></span></sc-if>
 <a href="{{ author.href }}" onMouseEnter="{{ author.enter }}" onFocus="{{ author.enter }}" onBlur="{{ author.leave }}">{{ author.name }}</a>
 <button type="button" onClick="{{ author.toggle }}" onMouseEnter="{{ author.leave }}" aria-expanded="{{ author.expanded }}" aria-label="Kontaktuppgifter" style="flex:none;margin-left:auto;display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:0;background:none;color:var(--text-primary);cursor:pointer">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Icon" name="{{ author.toggleIcon }}" size="{{ 16 }}" hint-size="16px,16px"></x-import>

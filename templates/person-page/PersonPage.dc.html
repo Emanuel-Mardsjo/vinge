@@ -15,7 +15,7 @@
 <!-- Never unmounted while it has been opened: the surface animates itself in
      and out, and removing it from the document takes the movement with it. -->
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ chatOpen }}" prompt="{{ chatPrompt }}" on-close="{{ closeChat }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
-<div data-tone style="position:relative;background:transparent;--mix:calc(var(--hero-t,0) * 100%);--text-primary:color-mix(in oklab,var(--mint),var(--ink) var(--mix));--text-secondary:color-mix(in oklab,var(--mint-70),var(--ink-65) var(--mix));--paper:color-mix(in oklab,var(--mint),#F7F6FA var(--mix));--paper-70:color-mix(in oklab,var(--mint-70),#B4BDBA var(--mix));--surface:color-mix(in oklab,var(--ink),#F7F6FA var(--mix));--underline-rest:color-mix(in oklab,var(--mint-70),var(--ink-65) var(--mix));--underline-active:var(--text-primary);--focus-ring:var(--text-primary);--rule-hairline:color-mix(in oklab,color-mix(in oklab,var(--mint) 30%,var(--ink)),var(--ink-12) var(--mix));color:var(--text-primary)">
+<div data-tone style="position:relative;background:transparent;--mix:calc(var(--hero-t,0) * 100%);--text-primary:color-mix(in oklab,var(--text-primary-inverted),var(--ink) var(--mix));--text-secondary:color-mix(in oklab,var(--mint-70),var(--ink-65) var(--mix));--paper:color-mix(in oklab,var(--text-primary-inverted),var(--ground-page) var(--mix));--paper-70:color-mix(in oklab,var(--mint-70),var(--stone-70) var(--mix));--surface:color-mix(in oklab,var(--ink),var(--ground-page) var(--mix));--underline-rest:color-mix(in oklab,var(--mint-70),var(--ink-65) var(--mix));--underline-active:var(--text-primary);--focus-ring:var(--text-primary);--rule-hairline:color-mix(in oklab,color-mix(in oklab,var(--text-primary-inverted) 30%,var(--ink)),var(--ink-12) var(--mix));color:var(--text-primary)">
 <div class="grid" style="position:absolute;inset:0;padding-top:var(--space-4);pointer-events:none">
 <div style="grid-column:1 / -1;position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1));z-index:5;align-self:start">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ActionRow" items="{{ actions }}" sticky="{{ true }}" teleport="{{ true }}" align="end" style="width:100%" hint-size="100%,24px"></x-import>
@@ -95,9 +95,12 @@ Innan hon kom till Vinge tjänstgjorde hon som tingsnotarie vid Stockholms tings
 </div>
 <div class="place-body-wide" style="display:flex;flex-direction:column;gap:var(--space-5)">
 <sc-for list="{{ awards }}" as="a" hint-placeholder-count="2">
-<div data-award="" data-open="{{ a.open }}" tabIndex="0" onFocus="{{ a.enter }}" onBlur="{{ leaveAward }}" style="outline-offset:8px">
-<p class="display-3" style="margin:0;max-width:28ch">{{ a.text }}</p>
-<img data-award-badge="" src="{{ a.badgeSrc }}" alt="{{ a.badge }}" loading="lazy" style="flex:none;width:104px;height:104px;object-fit:contain">
+<div data-award="" data-open="{{ a.open }}" data-centered="{{ a.centered }}" tabIndex="0" onFocus="{{ a.enter }}" onBlur="{{ leaveAward }}" style="outline-offset:8px">
+<div data-award-mark="">
+<svg data-award-wing="left" viewBox="0 0 245 470" aria-hidden="true"><path d="M100 100Q177.4 84 175 5Q97.6 21 100 100ZM65 165Q112.1 103.9 60 47Q12.9 108.1 65 165ZM55 270Q79.3 192.3 7 155Q-17.3 232.7 55 270ZM95 355Q80.5 278.9 3 280Q17.5 356.1 95 355ZM160 412Q114.1 347.9 43 382Q88.9 446.1 160 412ZM240 435Q170.2 399.4 123 462Q192.8 497.6 240 435ZM73 178Q150.8 176.8 163 100Q85.2 101.2 73 178ZM72 285Q145.1 256.9 130 180Q56.9 208.1 72 285ZM145 378Q183.7 311.6 125 262Q86.3 328.4 145 378ZM240 422Q245.1 347.9 173 330Q167.9 404.1 240 422Z"></path></svg>
+<p class="display-3" style="margin:0;max-width:28ch;text-align:center;text-wrap:balance">{{ a.text }}</p>
+<svg data-award-wing="right" viewBox="0 0 245 470" aria-hidden="true"><path transform="translate(245 0) scale(-1 1)" d="M100 100Q177.4 84 175 5Q97.6 21 100 100ZM65 165Q112.1 103.9 60 47Q12.9 108.1 65 165ZM55 270Q79.3 192.3 7 155Q-17.3 232.7 55 270ZM95 355Q80.5 278.9 3 280Q17.5 356.1 95 355ZM160 412Q114.1 347.9 43 382Q88.9 446.1 160 412ZM240 435Q170.2 399.4 123 462Q192.8 497.6 240 435ZM73 178Q150.8 176.8 163 100Q85.2 101.2 73 178ZM72 285Q145.1 256.9 130 180Q56.9 208.1 72 285ZM145 378Q183.7 311.6 125 262Q86.3 328.4 145 378ZM240 422Q245.1 347.9 173 330Q167.9 404.1 240 422Z"></path></svg>
+</div>
 </div>
 </sc-for>
 </div>
@@ -175,7 +178,7 @@ const FOLLOW_UPS = [
 ];
 
 class Component extends DCLogic {
-  state = { open: -1, award: -1, mq: '', mArea: '', mSector: '', mYear: '', menuOpen: false, chatOpen: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] };
+  state = { open: -1, award: -1, centerAward: -1, mq: '', mArea: '', mSector: '', mYear: '', menuOpen: false, chatOpen: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] };
 
   /* What the standing panel states: the criteria the visitor has handed over,
      in the order they were given. A picked answer carries a register tag its
@@ -306,6 +309,14 @@ class Component extends DCLogic {
     /* Measured against the screen, not the header line: the page turns while
        the hero is still on its way out, about half a screen early. */
     const h = window.innerHeight;
+    /* The award line nearest the middle of the screen wears the wings. */
+    let best = -1, bestD = h * 0.3;
+    document.querySelectorAll('[data-award]').forEach((n, i) => {
+      const r = n.getBoundingClientRect();
+      const dist = Math.abs(r.top + r.height / 2 - h / 2);
+      if (dist < bestD) { bestD = dist; best = i; }
+    });
+    if (best !== this.state.centerAward) this.setState({ centerAward: best });
     /* Three grounds on one page. The profile opens on ink and settles on
        paper, both carried by --hero-t; the testimonials are read on the light
        green, which is a ground of its own rather than a point between those
@@ -596,6 +607,7 @@ class Component extends DCLogic {
         badge: a.badge,
         badgeSrc: a.badgeSrc,
         open: this.state.award === i ? '' : undefined,
+        centered: this.state.centerAward === i ? '' : undefined,
         enter: this.enterAward(i),
       })),
       leaveAward: this.leaveAward,

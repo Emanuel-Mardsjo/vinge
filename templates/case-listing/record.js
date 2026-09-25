@@ -79,20 +79,10 @@
   });
 
 
-  /* The published record replaces the generated field when it is loaded;
-     the generated one is only a fallback. */
+  /* The listing is the whole published record; the generated field is only
+     a fallback for when it is not loaded. */
   const real = (window.VingeRecordCases || []).slice();
-  /* A selection, not the whole record: the same count per year as the
-     generated field, picked evenly across each year so every month shows. */
-  if (real.length) {
-    const pickRows = [];
-    COUNTS.forEach(([year, n]) => {
-      const y = real.filter((e) => e.year === year);
-      const k = Math.min(n, y.length);
-      for (let i = 0; i < k; i++) pickRows.push(y[Math.floor(i * y.length / k)]);
-    });
-    entries.splice(0, entries.length, ...pickRows);
-  }
+  if (real.length) entries.splice(0, entries.length, ...real);
   const lc = (s) => (s || '').charAt(0).toLowerCase() + (s || '').slice(1);
   entries.forEach((e) => {
     if (!e || e.title) return;

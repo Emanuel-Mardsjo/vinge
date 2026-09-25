@@ -7,78 +7,36 @@
 </head>
 <body>
 <x-dc>
-<!-- @template name="Landing page" description="Wordmark hero that shrinks into a fixed, exclusion-blended header, with the find-a-lawyer prompt block beneath it." -->
-<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record.js"></script><script src="./people.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}
-/* Hero entrance. One movement, four cues: the wordmark wipes open from its
-   left edge, the two triggers settle, the payoff line rises, and the film band
-   comes up from the bottom edge it will be held at. Everything is CSS keyed on
-   the elements' own selectors rather than inline styles, so a re-render of the
-   page (menu, chat) never replays it. */
+<!-- @template name="Landing page" description="Vertical-lockup hero whose V disperses on scroll while the wordmark hands over to a fixed, exclusion-blended header, with the find-a-lawyer prompt block beneath it." -->
+<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record-cases.js"></script><script src="./record.js"></script><script src="./people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{--hero-t:0;transition:--hero-t var(--dur-medium) var(--ease-quart)}html[data-hero-top]{--hero-t:1}html{background:color-mix(in oklab,var(--ground-takeover) calc(var(--hero-t) * 100%),var(--ground-page)) !important}body{margin:0;min-height:100vh;--mix:calc(var(--hero-t) * 100%);--paper:color-mix(in oklab,var(--ground-takeover) var(--mix),var(--ground-page));--surface:var(--paper);--reveal-ground:var(--paper);background:var(--paper);color:var(--ink)}
 /* The loading placeholders the runtime reserves space with are not part of
-   the composition — the hero holds its own space, so they stay invisible and
-   only the four cues below are seen. */
+   the composition — the hero holds its own space. */
 .sc-placeholder{background:transparent;border-color:transparent}
-@keyframes hero-drop{from{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:none}}
 @keyframes hero-rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 @keyframes hero-fade{from{opacity:0}to{opacity:1}}
-@keyframes hero-line{from{transform:translateY(110%)}to{transform:none}}
-@keyframes hero-band{from{transform:translateY(100%)}to{transform:none}}
-/* The wordmark comes down into the page, the two triggers up into it. */
-/* On the anchor, not the artwork: the artwork's own transform is written every
-   frame by the masthead's scroll handler, and an animation on it outranks that
-   inline style. `backwards` rather than `both` for the same reason — once the
-   entrance is over the element is back under its own styles. */
-header a[aria-label="Vinge"]{animation:hero-drop 1000ms var(--ease-expo) backwards}
+/* The two header triggers settle into the page; the lockup fades in itself. */
 header a[aria-label="Vinge"]+div{animation:hero-rise 700ms var(--ease-quart) 150ms both}
-[data-hero-payoff]{grid-column:1 / -1;max-width:none}
-/* The grid the payoff sits in comes from the design system's stylesheets, which
-   arrive after the markup has painted. Until then the line is in plain flow at
-   the left edge, and lands in its column with a jump. Held back until the
-   sheets are in — `data-ds-ready` is set by ds-base.js. */
-[data-hero-payoff-row]{visibility:hidden}
-html[data-ds-ready] [data-hero-payoff-row]{visibility:visible}
-/* Each line is clipped by its own row and rises out of it, row by row, each
-   one a beat behind the band — the band moves first, the type follows. */
-[data-hero-payoff] span{display:block;overflow:hidden}
-[data-hero-payoff] span > span{display:block;animation:hero-line 900ms var(--ease-expo) both}
-[data-hero-payoff] span:nth-child(1) > span{animation-delay:620ms}
-[data-hero-payoff] span:nth-child(2) > span{animation-delay:740ms}
-[data-hero-payoff] span:nth-child(3) > span{animation-delay:860ms}
-[data-hero-band]{animation:hero-band 1000ms var(--ease-expo) 500ms both}
-@media (min-width:768px){[data-hero-payoff]{grid-column:3 / 5}}
-@media (min-width:1280px){[data-hero-payoff]{grid-column:6 / 9}}
-@media (prefers-reduced-motion: reduce){header a[aria-label="Vinge"],header a[aria-label="Vinge"]+div,[data-hero-payoff] span > span,[data-hero-band]{animation:hero-fade var(--dur-reveal) linear both;transform:none}}</style></helmet>
+@media (prefers-reduced-motion: reduce){header a[aria-label="Vinge"]+div{animation:hero-fade var(--dur-reveal) linear both;transform:none}}</style></helmet>
 <div style="min-height:100vh">
-<div data-washed="" style="position:relative;height:100svh;background:#F7F6FA">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.WordmarkMasthead" logo-src="../../assets/logo-paper.svg" hero-min-height="auto" on-chat="{{ openChat }}" on-menu="{{ toggleMenu }}" chat-active="{{ filtering }}" menu-open="{{ menuOpen }}" hint-size="100%,40svh"></x-import>
-<div class="grid" data-hero-payoff-row="" style="position:absolute;left:0;right:0;bottom:calc(30vh + var(--space-4))">
-<p class="lead" data-hero-payoff=""><span><span>När avgörande affärer ska genomföras</span></span><span><span>och komplexa frågor lösas.</span></span></p>
+<sc-if value="{{ carouselHero }}" hint-placeholder-val="{{ true }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.CarouselHero" logo-src="../../assets/logo-paper.svg" alt="Vinge" headline="När avgörande affärer ska genomföras och komplexa frågor lösas." slides="{{ heroSlides }}" plain="{{ plainHero }}" on-chat="{{ openChat }}" on-menu="{{ toggleMenu }}" chat-active="{{ filtering }}" menu-open="{{ menuOpen }}" hint-size="100%,100svh"></x-import>
+</sc-if>
+<sc-if value="{{ logoHero }}" hint-placeholder-val="{{ false }}">
+<div data-washed="" style="position:relative;background:var(--ground-page)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.LogoHero" logo-src="../../assets/logo-paper.svg" alt="Vinge" on-chat="{{ openChat }}" on-menu="{{ toggleMenu }}" chat-active="{{ filtering }}" menu-open="{{ menuOpen }}" hint-size="100%,100svh"></x-import>
 </div>
-</div>
-<!-- The band's runway: 40vh of band plus 70vh of scroll it is held at the
-     bottom of the screen for, which is the stretch the scroll-bound opening
-     runs in. The hold is `position: sticky` with a top offset, not a bottom
-     one — bottom-sticky does nothing in this document — so the browser keeps
-     the band pinned on the compositor instead of a transform chasing the
-     scroll a frame behind. Everything below starts 70vh later than the band's
-     own height would put it, so the prompt block is uncovered exactly as
-     before — one length delays the whole cue. -->
-<div style="position:relative;z-index:2;height:100vh;margin-top:-30vh;pointer-events:none">
-<div data-hero-band="" data-washed="" style="position:sticky;top:calc(100svh - 30vh);pointer-events:auto;background:transparent">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.FilmBand" src="../../assets/demo/hero-office.webm" poster="../../assets/demo/boardroom.png" alt="Tomt mötesrum med glasväggar och utsikt över staden" height="30vh" tone="ink-wash" ground="#F7F6FA" full-bleed="{{ filmFullBleed }}" pitch="{{ filmPitch }}" reveal-distance="{{ filmReveal }}" grow="{{ filmGrow }}" hint-size="100%,30vh"></x-import>
-</div>
-</div>
-<div style="position:relative;z-index:1;margin-top:-30vh">
+</sc-if>
+<div style="position:relative;z-index:1">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ScrollHold" hold="{{ heroHold }}" distance="85vh" lead="18vh" reserve="{{ holdReserve }}" hint-size="100%,420px">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad står du inför?" suggestions="{{ promptSuggestions }}" aside="Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver." on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
 </x-import>
 </div>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="affaren" mark="circles-chord" stroke="0.9" extras="{{ extrasAffaren }}" claim="Ett förvärv är aldrig bara ett förvärv." support="Det mesta av arbetet är inte argumentation. Det är att få två parter som vill olika saker att kunna skriva under samma dag." cta-label="Vad som håller ihop en affär" premise="Strategi, finansiering, konkurrens, människor och avtal behöver hålla ihop – ofta under stor tidspress. Du behöver se vad som faktiskt kan påverka affären, vilka frågor som kräver din uppmärksamhet och vad som för processen framåt." source="169 transaktioner under 2024 · 213 miljarder kronor
 Mergermarket, svenska M&amp;A-ligan 2024 · Band 1 Corporate/M&amp;A, Chambers Global" beats="{{ beatsAffaren }}" hint-size="100%,560px"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden · 15 sektorer · Stockholm, Göteborg, Malmö, Bryssel · 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" ground="lichen" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden · 15 sektorer · Stockholm, Göteborg, Malmö, Bryssel · 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ArtworkPin" id="rummet" src="../../assets/images/present-04.png" alt="Möte runt ett bord i ett grönt rum" pin="{{ artworkPin }}" artist="Ingrid Bäcklund" work="Sediment nr 3" year="2021" artwork-src="../../assets/art/artwork-01.png" artwork-alt="Sediment nr 3, akvarell på papper" hint-size="100%,100svh"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" title="Erfarenhet av situationer som din." all-line="Erfarenhet av situationer som din." closing-line="Uppdrag relevanta för det du söker." action-label="Se fler uppdrag" entries="{{ recordEntries }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="/uppdrag" all-href="/uppdrag" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" all-label="Se alla våra uppdrag" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Matters" id="uppdragen" matters="{{ matters }}" link-label="Läs hur vi arbetade" hint-size="100%,1700px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" title="Vår expertis syns mellan raderna" all-line="" closing-line="" action-label="Se fler uppdrag" entries="{{ recordEntries }}" orientation="{{ recordOrientation }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="/uppdrag" all-href="/uppdrag" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Matters" id="uppdragen" tight-top="{{ mattersTight }}" matters="{{ matters }}" link-label="Läs hur vi arbetade" hint-size="100%,1700px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ start }}" hint-size="100%,720px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ menuItems }}" utility="{{ menuUtility }}" highlights="{{ menuHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
@@ -90,7 +48,7 @@ Mergermarket, svenska M&amp;A-ligan 2024 · Band 1 Corporate/M&amp;A, Chambers G
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script>
+<script type="text/x-dc" data-dc-script data-props="{&quot;hero&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;carousel&quot;,&quot;carousel-plain&quot;,&quot;logo&quot;],&quot;default&quot;:&quot;carousel&quot;,&quot;tsType&quot;:&quot;'carousel' | 'carousel-plain' | 'logo'&quot;},&quot;recordLines&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;horizontal&quot;,&quot;vertical&quot;],&quot;default&quot;:&quot;vertical&quot;,&quot;tsType&quot;:&quot;'horizontal' | 'vertical'&quot;}}">
 const DOT_SRC = '../../assets/demo/boardroom.png';
 
 const IMG = '../../assets/images/';
@@ -103,7 +61,6 @@ const MATTERS = [
     kicker: 'Försvar och säkerhet · augusti 2026',
     headline: 'Fyra fregatter till svenska marinen.',
     body: 'Ett uppdrag som krävde fem perspektiv samtidigt – från offentlig upphandling och investeringar till immaterialrätt, avtal och bolagsrätt.',
-    meta: '7 jurister · 5 verksamhetsområden',
     /* The framed piece on the back wall is one of the house's own, so this
        image is the pinned block at column size rather than a plain reveal. */
     world: { src: IMG + 'anonymous-01.png', alt: 'Ett mötesrum sett från dörröppningen', body: 'Det som stod på spel: örlogsvarvet där fregatterna ska byggas.', artwork: { pin: { x: 0.573, y: 0.259 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 5', year: 2022, artworkSrc: '../../assets/art/artwork-02.png', artworkAlt: 'Sediment nr 5, akvarell på papper' } },
@@ -114,7 +71,6 @@ const MATTERS = [
     kicker: 'Hälsa och omsorg · juni 2026',
     headline: 'Ambeas bud på Humana',
     body: 'Ett offentligt uppköpserbjudande på 2,96 miljarder kronor – med aktier, kontanter och tilläggsköpeskilling och kompetens från nio verksamhetsområden.',
-    meta: '32 jurister · 9 verksamhetsområden',
     world: { src: IMG + 'anonymous-03.png', alt: 'Någon passerar ett mötesrum', body: 'Det som stod på spel: ett av omsorgsboendena i budet.', artwork: { pin: { x: 0.875, y: 0.293 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 3', year: 2021, artworkSrc: '../../assets/art/artwork-01.png', artworkAlt: 'Sediment nr 3, akvarell på papper' } },
     person: { src: IMG + 'present-05.png', alt: 'Två jurister sitter i samtal vid fönstret', body: 'Ansvarig partner, namnet bekräftas före publicering.' },
     href: '/uppdrag/ambea-humana',
@@ -123,7 +79,6 @@ const MATTERS = [
     kicker: 'Sport · augusti 2026',
     headline: 'Och en mittfältare till Hull City.',
     body: 'Mjällby AIF, regerande allsvenska mästare, sålde Elliot Stroud till Premier League. Två av våra jurister. En av dem satt också på fregatterna.',
-    meta: '2 jurister · 1 verksamhetsområde',
     world: { src: IMG + 'office-06.png', alt: 'Skänk i dagsljus med en person som passerar', body: 'Det som stod på spel: klubbens arena i Hällevik.' },
     person: { src: IMG + 'anonymous-08.png', alt: 'Jurist läser handlingar i ett fönsterrum', body: 'Johan Cederblad, drev överlåtelsen.' },
     href: '/uppdrag/mjallby-hull-city',
@@ -178,7 +133,7 @@ class Component extends DCLogic {
      this session, and nothing carries over from a previous one. The state
      lives in memory, so scrolling away and back keeps it while a reload
      drops it. */
-  state = { menuOpen: false, open: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, recordView: 0, peopleView: 0, dialogue: null, criteria: [], widget: false, widgetOpen: undefined, widgetScreen: undefined };
+  state = { menuOpen: false, open: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, recordView: 0, peopleView: 0, dialogue: null, criteria: [], recordOrientation: 'horizontal', widget: false, widgetOpen: undefined, widgetScreen: undefined };
 
   /* The widget runs itself; the page only reads back what it is doing so the
      console can show the current screen. `undefined` means "not driven". */
@@ -341,6 +296,11 @@ class Component extends DCLogic {
     const dialogue = this.state.dialogue;
     const chat = !this.state.open ? 'closed' : this.state.done ? 'answered' : 'question';
     return [
+      {
+        id: 'record-layout', label: 'Register — lines', value: this.state.recordOrientationPicked ? this.state.recordOrientation : (this.props.recordLines ?? 'vertical'),
+        states: [{ id: 'horizontal', label: 'Horizontal' }, { id: 'vertical', label: 'Vertical' }],
+        onPick: (v) => this.setState({ recordOrientation: v, recordOrientationPicked: true }),
+      },
       {
         id: 'record-filter', label: 'Register — filter source', value: dialogue ? 'derived' : 'none',
         states: [{ id: 'none', label: 'Nothing asked' }, { id: 'derived', label: 'Dialogue derived' }],
@@ -510,6 +470,15 @@ class Component extends DCLogic {
       filmGrow: 1.5,
       filmFullBleed: true,
       heroHold: 0.62,
+      carouselHero: (this.props.hero ?? 'carousel') !== 'logo',
+      plainHero: this.props.hero === 'carousel-plain',
+      logoHero: (this.props.hero ?? 'carousel') === 'logo',
+      heroSlides: [
+        { src: IMG + 'anonymous-02.png', alt: 'Jurist vid ett skrivbord, sedd genom en öppen dörr', label: 'Rådgivare vid ett av årets största offentliga uppköp i Norden', body: 'Vi biträdde köparen genom budprocessen, finansieringen och myndighetsprövningen, från första kontakt till fullföljt förvärv.' },
+        { src: IMG + 'office-02.png', alt: 'Kontoret i dagsljus', label: 'Havsbaserad vindkraft får klartecken efter fyra års prövning', body: 'Ett tillstånd som öppnar för en ny generation energiprojekt längs västkusten, och en praxis som fler kommer att luta sig mot.' },
+        { src: IMG + 'inviting-03.png', alt: 'Mötesrum med utsikt', label: 'Portföljaffär som ritar om fastighetsmarknaden i Öresundsregionen', body: 'Strukturering, due diligence och förhandling av ett bestånd med över hundra fastigheter på båda sidor sundet.' },
+        { src: IMG + 'present-06.png', alt: 'Två jurister i samtal', label: 'Kommissionen godkänner sammanslagning utan åtaganden', body: 'Ett ärende som visar hur tidig dialog med Bryssel kan korta en koncentrationsprövning med flera månader.' },
+      ],
       holdReserve: true,
       beatsAffaren: beats.affaren,
       extrasAffaren: beats.affaren && beats.affaren.extras,
@@ -522,8 +491,11 @@ class Component extends DCLogic {
       matters: MATTERS.slice(0, 2),
       /* Newest first: the register is read as "what have they done lately",
          and the block groups by the order the entries arrive in. */
-      recordEntries: (window.VingeRecordEntries || []).slice().sort((a, b) => b.year - a.year),
+      recordEntries: (window.VingeRecordEntriesLive || window.VingeRecordEntries || []).slice().sort((a, b) => b.year - a.year),
       recordDialogue: this.state.dialogue,
+      recordOrientation: this.state.recordOrientationPicked ? this.state.recordOrientation : (this.props.recordLines ?? 'vertical'),
+      /* The vertical register is short, so the chapter gap after it reads as a hole. */
+      mattersTight: (this.state.recordOrientationPicked ? this.state.recordOrientation : (this.props.recordLines ?? 'vertical')) === 'vertical',
       recordViewLabels: ['Allt', 'Ditt urval'],
       peopleViewLabels: ['Allt', 'Relevanta för dig'],
       recordView: this.state.recordView,

@@ -1,97 +1,156 @@
-/* Two colours. Everything else is ink blended into paper at a fixed
-   percentage: 65, 55, 12 and 5, and no others. No accent, no third hue, no
-   neutral greys. */
+/* Colour, in three layers. Components read layer 3 only.
+
+   1. Roots — the only literal values in the system. Four colours and one number.
+   2. Ramps — every other colour, derived from the roots by a fixed mix. Change a
+      root and its ramp follows; nothing below the roots is typed by hand.
+   3. Semantics — the roles components use (surface, text, rule, focus). Each
+      scope (paper, washed, inverted) re-points the roles at a ramp; no
+      component ever needs to know which ground it sits on.
+
+   Canon: "warm pines". The previous palette is kept under
+   html[data-palette="legacy"] for comparison — see the end of this file. */
 
 :root {
-  --paper: #F7F6FA;   /* page ground, cool white with a faint violet cast */
-  --ink: #032918;     /* all primary text, deep green — 14.2:1 on paper */
+  /* 1. Roots ------------------------------------------------------------ */
+  --paper: #E5DFDB;   /* page ground — warm white, a touch toward red, following clay */
+  --wash:  #DFD9D5;   /* second ground, one step below paper, same warm hue */
+  --stone: #C9C9CA;   /* grey with a faint cool cast — the light end of the ink ramps */
+  --lichen: #D5D4CC;  /* a second wash: greyed light olive, the ink's hue drained almost to grey — one chapter per page, for a touch of life */
+  --clay:  #D4CDC9;   /* third ground, a step below the wash, a touch warmer toward red — takeover fills only */
+  --ink:   #002900;   /* all primary text, deep green — 14.3:1 on paper */
+  --lift:  0.055;     /* @kind other */ /* how much lighter ink is on the wash (OKLCH lightness) */
 
-  --ink-65: #586863;  /* secondary text, captions, metadata — ~5.5:1 */
-  --ink-55: #707E7A;  /* resting underline on secondary CTAs — ~3.9:1, non-text only */
-  --ink-12: #DADCDE;  /* the footer rule. Nothing else. */
-  --ink-5:  #EBEBEE;  /* ground for the visitor's own chat turns. Non-text only. */
+  /* 2. Ramps ------------------------------------------------------------ */
+  /* Ink on paper. */
+  --ink-65: color-mix(in srgb, var(--ink) 65%, var(--paper)); /* #556F54 secondary text — 5.0:1 */
+  --ink-55: color-mix(in srgb, var(--ink) 55%, var(--paper)); /* #6E836C resting underline — non-text only */
+  --ink-12: color-mix(in srgb, var(--ink) 12%, var(--paper)); /* #D7DAD4 hairline rule */
+  --ink-5:  color-mix(in srgb, var(--ink) 5%,  var(--paper)); /* ink tint — rules and marks only, never a background fill */
 
-  --paper-70: #B4BDBA; /* secondary text on an inverted ground */
+  /* Ink on the wash: ink lifted, then the same mix against the wash. The
+     secondary step is 70 rather than 65 — the one place the ramp moves, to
+     hold 4.5:1 on the darker ground. */
+  --ink-lift:    oklch(from var(--ink) calc(l + var(--lift)) c h);    /* #00370B text on wash — 11.2:1 */
+  --ink-lift-70: color-mix(in srgb, var(--ink-lift) 70%, var(--wash)); /* secondary text on wash — ~5:1 */
+  --ink-lift-12: color-mix(in srgb, var(--ink-lift) 12%, var(--wash)); /* #D0D4CD hairline on wash */
+  --ink-lift-5:  color-mix(in srgb, var(--ink-lift) 5%,  var(--wash)); /* #E0E0DD tint on wash */
 
-  /* The wash. The lightest green the palette has, used as a ground under a
-     section that is holding the reader — a story being read rather than a
-     page being scanned. Ink goes up with it: on the wash the text is the ink
-     hue lifted, so the whole section warms a step without changing hue. */
-  --wash: #E3EFE7;      /* light green ground */
-  --ink-wash: #123D2A;  /* primary text on the wash — ~8.8:1 */
-  --ink-wash-65: #4E645A; /* secondary text on the wash — ~5:1 */
+  /* Stone on ink. */
+  --stone-70: color-mix(in srgb, var(--stone) 72%, var(--ink)); /* #929B8F secondary text on ink — 5.5:1 */
+  --stone-20: color-mix(in srgb, var(--stone) 20%, var(--ink)); /* #294928 hairline on ink */
+  --stone-8:  color-mix(in srgb, var(--stone) 8%,  var(--ink)); /* tint on ink */
 
-  /* On dark. Text on the ink ground is not paper: paper's violet cast reads as
-     plain white against the deep green. These two are the ink hue lifted, so an
-     inverted surface stays green all the way through. Ink grounds only. */
-  --mint: #DDECE2;    /* primary text on ink — 13.1:1 */
-  --mint-70: #A5BCAF; /* secondary text on ink — ~7.7:1 */
+  /* Photographs. The noir plate's black point: stone's hue taken down to a
+     near-black, so photographs sit in the warm neutral rather than in ink.
+     Highlights stay on paper. */
+  --noir-shadow: oklch(0.17 0.008 85); /* ~#141310 — warm near-black, a touch toward yellow. Deep, so the plate reads noir without the green carrying it */
 
-  /* The ground every halftone reveal prints on — ImageReveal, ImageScreen and
-     the film band. Paper: the print is ink on paper, and a green ground under
-     every photograph on the page was too much of it. Where light green does
-     belong in the imagery is being explored in
-     `explorations/reveal-green.card.html`. */
-  --reveal-ground: var(--paper);
-
-  /* Semantic aliases. Use these in components. */
+  /* 3. Semantics (paper scope — the default) ----------------------------- */
   --surface: var(--paper);
+  /* Background fills are never mixed from the ink: a green cast on a fill is
+     only ever lichen, and only where it is asked for. A tint is the next warm
+     ground down. */
+  --surface-tint: var(--wash);
   --surface-inverted: var(--ink);
-  /* The lightest tint the palette has, as a ground: the visitor's own turns in
-     the conversation surface. Not a card system — this is the only fill.
-     ink-12 is the rule weight and reads as a grey box behind 15px type; at 5
-     percent the block registers without becoming an element of its own. */
-  --surface-tint: var(--ink-5);
   --text-primary: var(--ink);
   --text-secondary: var(--ink-65);
-  --text-primary-inverted: var(--mint);
-  --text-secondary-inverted: var(--mint-70);
+  --text-primary-inverted: var(--clay);
+  --text-secondary-inverted: var(--stone-70);
   --underline-rest: var(--ink-65);
   --underline-rest-secondary: var(--ink-55);
   --underline-active: var(--ink);
-  --rule-footer: var(--ink-12);
-  /* The same hairline, for the two other sanctioned uses: specification table
-     rows, and the optional rule above a labelled block. Nothing else. */
   --rule-hairline: var(--ink-12);
+  --rule-footer: var(--ink-12);
   --focus-ring: var(--ink);
-  --focus-ring-inverted: var(--mint);
-
-  /* The one overlay ground in the system: ink over the page while a surface is
-     open above it. Near-opaque, so the page reads as the deep green rather than
-     as a grey veil over paper — what is underneath is out of reach, and dimming
-     it halfway only makes it look available. Overlay only: never behind text,
-     never as a fill.
-     --scrim is kept as the older name for the same value. */
+  --focus-ring-inverted: var(--clay);
+  /* Ink over the page while a surface is open above it. Overlay only. */
   --overlay: color-mix(in srgb, var(--ink) 96%, transparent);
   --scrim: var(--overlay);
+  /* The ground every halftone reveal prints on. */
+  --reveal-ground: var(--paper);
+  /* The page's own paper, resolved here once so it holds inside a scope that
+     re-points --paper (a hero on paper nested in a washed block). */
+  --ground-page: var(--paper);
+  /* The fill a page takes while a takeover is in front: the landing hero at
+     rest. Never a block background — the whole page fades to it and back. */
+  --ground-takeover: var(--clay);
+
+  /* Former names, kept so nothing breaks. Prefer the names above. */
+  --ink-wash: var(--ink-lift);
+  --ink-wash-65: var(--ink-lift-70);
+  --mint: var(--stone);
+  --mint-70: var(--stone-70);
+  --paper-70: var(--stone-70);
 }
 
-/* Washed section scope. The ground a story sits on while it is being read.
-   Same two colours, one step lighter and one step greener. */
+/* Washed scope — a section on the second ground. */
 [data-washed] {
   --surface: var(--wash);
   --paper: var(--wash);
-  --text-primary: var(--ink-wash);
-  --text-secondary: var(--ink-wash-65);
-  --underline-rest: var(--ink-wash-65);
-  --underline-active: var(--ink-wash);
-  --focus-ring: var(--ink-wash);
+  --surface-tint: var(--clay);
+  --text-primary: var(--ink-lift);
+  --text-secondary: var(--ink-lift-70);
+  --underline-rest: var(--ink-lift-70);
+  --underline-rest-secondary: var(--ink-lift-70);
+  --underline-active: var(--ink-lift);
+  --rule-hairline: var(--ink-lift-12);
+  --rule-footer: var(--ink-lift-12);
+  --focus-ring: var(--ink-lift);
   background: var(--wash);
-  color: var(--ink-wash);
+  color: var(--ink-lift);
 }
 
-/* Inverted section scope. Apply to one section per page at most. */
+/* Lichen — the washed scope on the green wash. The tints are re-mixed here
+   because the root ones are computed against --wash. */
+[data-washed][data-ground="lichen"] {
+  --wash: var(--lichen);
+  --surface: var(--lichen);
+  --paper: var(--lichen);
+  --surface-tint: oklch(from var(--lichen) calc(l - 0.035) c h);
+  --text-secondary: color-mix(in srgb, var(--ink-lift) 70%, var(--lichen));
+  --underline-rest: color-mix(in srgb, var(--ink-lift) 70%, var(--lichen));
+  --underline-rest-secondary: color-mix(in srgb, var(--ink-lift) 70%, var(--lichen));
+  --rule-hairline: color-mix(in srgb, var(--ink-lift) 12%, var(--lichen));
+  --rule-footer: color-mix(in srgb, var(--ink-lift) 12%, var(--lichen));
+  background: var(--lichen);
+}
+
+/* Inverted scope — ink ground. One section per page at most. --paper and
+   --paper-70 are re-pointed so a child that reaches for them directly
+   inverts without knowing where it sits. */
 [data-inverted] {
   --surface: var(--ink);
-  /* paper and paper-70 are re-pointed inside the scope, so a child that reaches
-     for them directly inverts to the green pair without knowing where it sits. */
-  --paper: var(--mint);
-  --paper-70: var(--mint-70);
-  --text-primary: var(--mint);
-  --text-secondary: var(--mint-70);
-  --underline-rest: var(--mint-70);
-  --underline-active: var(--mint);
-  --focus-ring: var(--mint);
+  --paper: var(--clay);
+  --paper-70: var(--stone-70);
+  --surface-tint: var(--stone-8);
+  --text-primary: var(--clay);
+  --text-secondary: var(--stone-70);
+  --underline-rest: var(--stone-70);
+  --underline-rest-secondary: var(--stone-70);
+  --underline-active: var(--clay);
+  --rule-hairline: var(--stone-20);
+  --rule-footer: var(--stone-20);
+  --focus-ring: var(--clay);
   background: var(--ink);
-  color: var(--mint);
+  color: var(--clay);
+}
+
+/* Legacy palette — the system before "warm pines", for comparison only. Set
+   data-palette="legacy" on <html>. The old tints were hand-set rather than
+   mixed, so they are restated exactly. Logo files are not swapped. */
+html[data-palette="legacy"] {
+  --paper: #F7F6FA;
+  --wash:  #E3EFE7;
+  --stone: #DDECE2;
+  --clay:  #DDECE2;   /* legacy had no clay; inverted type was the old stone */
+  --ink:   #032918;
+  --ink-65: #586863;
+  --ink-55: #707E7A;
+  --ink-12: #DADCDE;
+  --ink-5:  #EBEBEE;
+  --ink-lift: #123D2A;
+  --ink-lift-70: #4E645A;
+  --stone-70: #A5BCAF;
+  --paper-70: #B4BDBA;
+  --noir-shadow: #032918;
 }

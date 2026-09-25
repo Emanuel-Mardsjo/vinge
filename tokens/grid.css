@@ -99,6 +99,27 @@
    four-column band both fall to the right half; in the two-column band they
    take the measure. */
 [data-footer-aside], [data-footer-marks] { grid-column: 1 / -1; }
+/* SM: one column, so the signature and the legal links cannot share the two
+   subgrid rows they split at wider bands — they stack, each sized by its own
+   content. */
+@media (max-width: 767px) {
+  [data-footer-offices] { row-gap: var(--space-6) !important; }
+  /* One rhythm down the stacked footer: the same step between the
+     switchboard, the marks, the rule and the signature, instead of three
+     different ones, and a shorter tail under the last line. */
+  [data-footer-contact] { padding-top: var(--space-4) !important; row-gap: var(--space-4) !important; }
+  [data-footer-end] { grid-template-rows: auto !important; padding-top: var(--space-4) !important; row-gap: var(--space-3) !important; }
+  [data-footer-end] > [data-footer-sign],
+  [data-footer-end] > [data-footer-legal] { grid-row: auto !important; grid-template-rows: none !important; }
+  [data-footer-end] > [data-footer-sign] { padding-top: var(--space-3) !important; }
+  [data-footer-end] > [data-footer-legal] { padding-top: 0 !important; }
+  footer[data-page-footer] { padding-bottom: var(--space-4) !important; }
+  /* The fine print under the rule is the one place that drops below the
+     scale's smallest size: byline, legal links and entity line are footnotes
+     to the page, not content in it. Scoped to this block rather than given a
+     token, so it stays a deliberate exception instead of a sixth text size. */
+  [data-footer-end] .small, [data-footer-end] .cta--small { font-size: 12px !important; }
+}
 @media (min-width: 768px) {
   [data-footer-aside] { grid-column: 3 / 5; }
   [data-footer-marks] { grid-column: 3 / 5; }
@@ -141,6 +162,23 @@
   [data-hero-aside] { grid-column: 5 / 9; }
 }
 
+/* CarouselHero's caption row: the caption keeps the column the card's text
+starts on, the controls sit under the peeking card, flush right. Stacked in
+the two-column band. */
+/* The hero statement: the right half from MD up, the full measure below. */
+[data-hero-statement] { grid-column: 1 / -1; }
+@media (min-width: 768px) { [data-hero-statement] { grid-column: 3 / 5; } }
+@media (min-width: 1280px) { [data-hero-statement] { grid-column: 5 / 9; } }
+[data-hero-caption], [data-hero-controls] { grid-column: 1 / -1; }
+@media (min-width: 768px) {
+  [data-hero-caption] { grid-column: 1 / 3; grid-row: 1; }
+  [data-hero-controls] { grid-column: 3 / 5; grid-row: 1; }
+}
+@media (min-width: 1280px) {
+  [data-hero-caption] { grid-column: 1 / 7; }
+  [data-hero-controls] { grid-column: 7 / 9; }
+}
+
 /* Matters: three matters, each two images and a short story. DOM order is
    world, person, text; the rows are declared, so the text always sits on top
    as the matter's introduction, resumes below the pair on the same lines, and
@@ -149,6 +187,33 @@
    portrait held to part of the measure so the pair still reads as a pair. */
 [data-matter] > * { grid-column: 1 / -1; min-width: 0; }
 [data-matter] > [data-matter-person] { grid-column: 1 / 2; }
+
+/* SM: one column, so the matter is read as a sequence — the statement first,
+   then the two photographs, then the way in. The images leave the measure in
+   opposite directions, the landscape off the right edge and the portrait off
+   the left, so the pair still reads as a pair without repeating a width.
+   Captions stay on the grid. */
+@media (max-width: 767px) {
+  /* Order, not fixed rows: an absent continuation would otherwise reserve an
+     empty row and leave a gap the size of the rhythm. */
+  [data-matter] { row-gap: var(--space-5); }
+  [data-matter] > [data-matter-text] { order: 1; }
+  [data-matter] > [data-matter-world] { order: 2; }
+  [data-matter] > [data-matter-person] { order: 3; }
+  [data-matter] > [data-matter-more] { order: 4; }
+  [data-matter] > [data-matter-cta] { order: 5; margin-top: calc(var(--space-4) - var(--space-5)); }
+  [data-matters] { padding-bottom: var(--space-4) !important; }
+  [data-matter] > [data-matter-world] > :first-child {
+    margin-inline: calc(-1 * var(--margin)) !important;
+    width: calc(100% + var(--margin) * 2) !important;
+    max-width: none !important;
+  }
+  [data-matter] > [data-matter-person] > :first-child {
+    margin-left: calc(-1 * var(--margin)) !important;
+    width: calc(100% + var(--margin) + var(--gutter) + 14%) !important;
+    max-width: none !important;
+  }
+}
 
 @media (min-width: 768px) {
   [data-matter] > [data-matter-text] { grid-column: 1 / 4; grid-row: 1; }
@@ -217,11 +282,25 @@
    also the ugliest graphics that will ever touch this page — so they are not
    on it at rest. Hovering or focusing the line brings its badge in on the
    right; leaving takes it away again. */
-[data-award] { display: flex; align-items: flex-start; gap: var(--space-4); }
-[data-award] > [data-award-badge] { opacity: 0; transform: translateY(var(--space-1)); transition: opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo); }
-[data-award][data-open] > [data-award-badge] { opacity: 1; transform: none; }
-@media (hover: hover) { [data-award]:hover > [data-award-badge] { opacity: 1; transform: none; } }
-@media (prefers-reduced-motion: reduce) { [data-award] > [data-award-badge] { transform: none; transition: opacity var(--dur-micro) linear; } }
+[data-award] { display: flex; justify-content: flex-start; }
+/* The line at the middle of the screen is framed by two laurel wings in clay:
+   a quiet mark of distinction that follows the scroll, one line at a time. */
+[data-award-mark] { position: relative; width: fit-content; }
+[data-award-wing] { position: absolute; top: -14%; height: 128%; width: auto; aspect-ratio: 245 / 470; fill: var(--clay); opacity: 0; pointer-events: none; transition: opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo); }
+[data-award-wing="left"] { right: calc(100% + var(--space-2)); transform: translateX(var(--space-2)) scale(0.92); }
+[data-award-wing="right"] { left: calc(100% + var(--space-2)); transform: translateX(calc(var(--space-2) * -1)) scale(0.92); }
+[data-award][data-centered] [data-award-wing] { opacity: 1; transform: none; }
+/* Below the wide grid the line starts on the page margin, with no room
+   outside it: the mark makes room for its wings inside the column. */
+@media (max-width: 1279px) {
+  [data-award-mark] { --wing: clamp(40px, 7vw, 64px); /* @kind spacing */ padding-inline: calc(var(--wing) + var(--space-1)); }
+  [data-award-wing] { height: auto; width: var(--wing); top: 50%; translate: 0 -50%; }
+  [data-award-wing="left"] { right: auto; left: 0; }
+  [data-award-wing="right"] { left: auto; right: 0; }
+  /* The label sits right above the first line here; room for the wing's reach. */
+  [data-award]:first-child { margin-top: var(--space-5); }
+}
+@media (prefers-reduced-motion: reduce) { [data-award-wing] { transform: none !important; transition: opacity var(--dur-micro) linear; } }
 @media (min-width: 1280px) { [data-mandate] > [data-mandate-areas] { display: block; } }
 
 @media (min-width: 768px) {
@@ -246,6 +325,9 @@
    readout and the field glide right instead of jumping. */
 [data-record-body], [data-record-terms] {
   --record-filter-h: calc(1.4rem + var(--space-5));
+  /* The page header is fixed, so anything that pins in the record has to pin
+     under it rather than over it. */
+  --header-pin: calc(44px + var(--space-3) * 2);
 }
 [data-record-body] {
   grid-column: 1 / -1; grid-row: 4;
@@ -257,7 +339,7 @@
 [data-record-head] { grid-row: 1; }
 [data-record-switch] { grid-row: 2; }
 [data-record-side] {
-  position: sticky; top: var(--record-filter-h); z-index: 40; min-width: 0;
+  position: sticky; top: calc(var(--header-pin) + var(--record-filter-h)); z-index: 20; min-width: 0;
   background: var(--surface);
   padding-block: var(--space-2) var(--space-3);
   display: flex; flex-direction: column; gap: var(--space-3);
@@ -266,9 +348,27 @@
 [data-record-readout] > * { min-width: 0; }
 /* The term lists. Folded down under the control on a narrow viewport; at LG
    taken out of flow and moved in from the left into their own column. */
-[data-record-terms] { grid-column: 1 / -1; grid-row: 3 / span 2; align-self: start; margin-block: 0 var(--space-5); display: flex; flex-direction: column; align-items: flex-start; position: sticky; top: 0; z-index: 41; background: var(--surface); padding-block: var(--space-2) 0; }
+[data-record-terms] { grid-column: 1 / -1; grid-row: 3 / span 2; align-self: start; margin-block: 0 var(--space-5); display: flex; flex-direction: column; align-items: flex-start; position: sticky; top: var(--header-pin); z-index: 21; background: var(--surface); padding-block: var(--space-2) 0; }
 /* Without a filter the readout has nothing above it to clear. */
-[data-record-body]:first-of-type [data-record-side], [data-record-switch] + [data-record-body] [data-record-side] { top: 0; }
+[data-record-body]:first-of-type [data-record-side], [data-record-switch] + [data-record-body] [data-record-side] { top: var(--header-pin); }
+/* SM: the filter is not worth pinning — one column has no room for a control
+   riding over the field. It sits at the top of the block and scrolls away,
+   and the readout pins alone, tight under the header, with the band between
+   the two covered so rows cannot show through behind the header. */
+@media (max-width: 767px) {
+  [data-record-terms] { position: static; }
+  [data-record-side] { top: calc(var(--header-pin) - var(--space-2)); padding-block: var(--space-1); gap: var(--space-1); }
+  [data-record-side]::before {
+    content: ""; position: absolute; bottom: 100%; height: calc(var(--header-pin) - var(--space-2));
+    left: calc(-1 * var(--margin)); right: calc(-1 * var(--margin));
+    background: var(--surface);
+  }
+  /* One column leaves a title no room to stay on one line, so the readout is
+     not a reserved box here: the cells wrap and the pinned container takes
+     the height the active title actually needs. */
+  [data-record-val] { height: auto !important; min-height: 0 !important; white-space: normal !important; overflow: visible !important; text-overflow: clip !important; }
+  [data-record-readout] { gap: var(--space-1) var(--gutter); }
+}
 [data-record-terms-list] {
   align-self: stretch; width: 100%;
   display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden; margin-top: 0;
@@ -281,8 +381,10 @@
 /* Discipline list: the full comma-separated set has room in the desktop side
    column; stacked over the field on a small screen it stays abbreviated. */
 [data-disc-full] { display: none; }
+[data-record-terms-scroll] { max-height: calc((100svh - 19rem) / 2); overflow-y: auto; overscroll-behavior: contain; }
 
 @media (min-width: 1280px) {
+  [data-record-terms-scroll] { max-height: none; overflow: visible; }
   [data-record-head] { grid-row: 1; }
   [data-record-switch] { grid-row: 2; }
   /* `display: contents` rather than a subgrid box: a subgrid item spanning two
@@ -293,7 +395,7 @@
   [data-record-terms] { display: contents; }
   [data-record-terms] > button {
     grid-column: 1 / 3; grid-row: 2 / span 2; align-self: start; justify-self: start;
-    position: sticky; top: var(--space-6); z-index: 41; margin-block: 0;
+    position: sticky; top: calc(var(--header-pin) + var(--space-4)); z-index: 21; margin-block: 0;
     background: var(--surface);
   }
   [data-record-body] {
@@ -325,10 +427,37 @@
      so the whole block reads as one push from the left. */
   [data-record-terms-list] {
     grid-column: 1 / 3; grid-row: 3; justify-self: stretch; align-self: start; width: 100%;
-    position: sticky; top: calc(var(--space-6) + var(--record-filter-h)); left: auto; z-index: 41;
+    position: sticky; top: calc(var(--header-pin) + var(--space-4) + var(--record-filter-h)); left: auto; z-index: 21;
     grid-template-rows: 1fr; margin-top: 0; background: var(--surface);
     transform: translateX(calc(-100% - var(--gutter)));
     transition: opacity var(--dur-medium) var(--ease-expo), transform var(--dur-medium) var(--ease-expo), visibility 0s linear var(--dur-medium);
+  }
+  /* Closed, the list is still in the grid (so it can slide back in), but it
+     must not hold the section open below a short field. */
+  [data-record-terms-list]:not([data-open]) { margin-bottom: -100svh; }
+  /* The panel scrolls as one, capped to the viewport below its sticky top.
+     No overscroll containment: at either end the page takes over again. */
+  [data-record-terms-list] {
+    max-height: calc(100svh - var(--header-pin) - var(--space-4) - var(--record-filter-h) - var(--space-4));
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding-inline-end: var(--space-2);
+  }
+  [data-record-terms-list] > div { overflow: visible !important; min-width: 0; }
+  [data-record-terms-list] { grid-template-columns: minmax(0, 1fr); }
+  [data-record-terms-list][data-more] {
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 4rem), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 4rem), transparent);
+  }
+  /* The system's hairline scrollbar, only while the panel is being scrolled
+     (Record sets data-scrolling for a moment after each scroll). */
+  [data-record-terms-list]::-webkit-scrollbar-thumb { background: transparent; background-clip: content-box; }
+  [data-record-terms-list][data-scrolling]::-webkit-scrollbar-thumb { background: var(--ink-12); background-clip: content-box; }
+  [data-record-terms-list][data-scrolling]::-webkit-scrollbar-thumb:hover { background: var(--ink-55); background-clip: content-box; }
+  @supports not selector(::-webkit-scrollbar) {
+    [data-record-terms-list] { scrollbar-color: transparent transparent; }
+    [data-record-terms-list][data-scrolling] { scrollbar-color: var(--ink-12) transparent; }
   }
   [data-record-terms-list][data-open] {
     margin-top: 0; transform: none;

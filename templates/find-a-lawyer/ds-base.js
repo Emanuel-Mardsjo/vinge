@@ -35,8 +35,8 @@
        page instead, which leaves the blend alone. */
     gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}'
       + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}'
-      + 'html{background:#F7F6FA}'
-      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:#F7F6FA;visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
+      + 'html{background:var(--ground-page,#E5DFDB)}'
+      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:var(--ground-page,#E5DFDB);visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
       + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
     const veil = () => {
@@ -80,7 +80,7 @@
     '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
     '/nyheter': '../news-listing/NewsListing.dc.html',
     '/insikter': '../news-listing/NewsListing.dc.html',
-    '/uppdrag': '../news-listing/NewsListing.dc.html',
+    '/uppdrag': '../case-listing/CaseListing.dc.html',
     '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
     '/karriar': '../about-page/AboutPage.dc.html',
   };
