@@ -65,7 +65,7 @@ const MATTERS = [
        image is the pinned block at column size rather than a plain reveal. */
     world: { src: IMG + 'anonymous-01.png', alt: 'Ett mötesrum sett från dörröppningen', body: 'Det som stod på spel: örlogsvarvet där fregatterna ska byggas.', artwork: { pin: { x: 0.573, y: 0.259 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 5', year: 2022, artworkSrc: '../../assets/art/artwork-02.png', artworkAlt: 'Sediment nr 5, akvarell på papper' } },
     person: { src: IMG + 'present-03.png', alt: 'Jurist på väg genom kontorets lounge', body: 'Eva Fredrikson, ledde uppdraget.' },
-    href: '/uppdrag/fregatter-svenska-marinen',
+    href: '../article-page/ArticlePage.dc.html',
   },
   {
     kicker: 'Hälsa och omsorg · juni 2026',
@@ -73,7 +73,7 @@ const MATTERS = [
     body: 'Ett offentligt uppköpserbjudande på 2,96 miljarder kronor – med aktier, kontanter och tilläggsköpeskilling och kompetens från nio verksamhetsområden.',
     world: { src: IMG + 'anonymous-03.png', alt: 'Någon passerar ett mötesrum', body: 'Det som stod på spel: ett av omsorgsboendena i budet.', artwork: { pin: { x: 0.875, y: 0.293 }, artist: 'Ingrid Bäcklund', work: 'Sediment nr 3', year: 2021, artworkSrc: '../../assets/art/artwork-01.png', artworkAlt: 'Sediment nr 3, akvarell på papper' } },
     person: { src: IMG + 'present-05.png', alt: 'Två jurister sitter i samtal vid fönstret', body: 'Ansvarig partner, namnet bekräftas före publicering.' },
-    href: '/uppdrag/ambea-humana',
+    href: '../article-page/ArticlePage.dc.html',
   },
   {
     kicker: 'Sport · augusti 2026',
@@ -81,7 +81,7 @@ const MATTERS = [
     body: 'Mjällby AIF, regerande allsvenska mästare, sålde Elliot Stroud till Premier League. Två av våra jurister. En av dem satt också på fregatterna.',
     world: { src: IMG + 'office-06.png', alt: 'Skänk i dagsljus med en person som passerar', body: 'Det som stod på spel: klubbens arena i Hällevik.' },
     person: { src: IMG + 'anonymous-08.png', alt: 'Jurist läser handlingar i ett fönsterrum', body: 'Johan Cederblad, drev överlåtelsen.' },
-    href: '/uppdrag/mjallby-hull-city',
+    href: '../article-page/ArticlePage.dc.html',
   },
 ];
 
@@ -297,6 +297,11 @@ class Component extends DCLogic {
     const chat = !this.state.open ? 'closed' : this.state.done ? 'answered' : 'question';
     return [
       {
+        id: 'hero', label: 'Hero', value: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')),
+        states: [{ id: 'carousel', label: 'Carousel' }, { id: 'carousel-plain', label: 'Carousel — plain' }, { id: 'logo', label: 'Logo' }],
+        onPick: (v) => this.setState({ hero: v, heroPicked: true }),
+      },
+      {
         id: 'record-layout', label: 'Register — lines', value: this.state.recordOrientationPicked ? this.state.recordOrientation : (this.props.recordLines ?? 'vertical'),
         states: [{ id: 'horizontal', label: 'Horizontal' }, { id: 'vertical', label: 'Vertical' }],
         onPick: (v) => this.setState({ recordOrientation: v, recordOrientationPicked: true }),
@@ -470,9 +475,9 @@ class Component extends DCLogic {
       filmGrow: 1.5,
       filmFullBleed: true,
       heroHold: 0.62,
-      carouselHero: (this.props.hero ?? 'carousel') !== 'logo',
-      plainHero: this.props.hero === 'carousel-plain',
-      logoHero: (this.props.hero ?? 'carousel') === 'logo',
+      carouselHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')) !== 'logo',
+      plainHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')) === 'carousel-plain',
+      logoHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')) === 'logo',
       heroSlides: [
         { src: IMG + 'anonymous-02.png', alt: 'Jurist vid ett skrivbord, sedd genom en öppen dörr', label: 'Rådgivare vid ett av årets största offentliga uppköp i Norden', body: 'Vi biträdde köparen genom budprocessen, finansieringen och myndighetsprövningen, från första kontakt till fullföljt förvärv.' },
         { src: IMG + 'office-02.png', alt: 'Kontoret i dagsljus', label: 'Havsbaserad vindkraft får klartecken efter fyra års prövning', body: 'Ett tillstånd som öppnar för en ny generation energiprojekt längs västkusten, och en praxis som fler kommer att luta sig mot.' },

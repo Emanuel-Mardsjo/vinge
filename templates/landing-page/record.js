@@ -106,6 +106,10 @@
 
   /* Own global as well: a stale copy under repo/ is compiled into the bundle
      and reassigns VingeRecordEntries after this file has run. */
+  /* Every mandate opens the article template. The published hrefs point at
+     vinge.se, which the prototype does not carry. */
+  entries.forEach((e) => { if (e) e.href = '../article-page/ArticlePage.dc.html'; });
+
   window.VingeRecordEntries = entries;
   window.VingeRecordEntriesLive = entries;
 
