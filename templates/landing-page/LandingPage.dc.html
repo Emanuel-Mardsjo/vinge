@@ -8,7 +8,7 @@
 <body>
 <x-dc>
 <!-- @template name="Landing page" description="Vertical-lockup hero whose V disperses on scroll while the wordmark hands over to a fixed, exclusion-blended header, with the find-a-lawyer prompt block beneath it." -->
-<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record-cases.js"></script><script src="./record.js"></script><script src="./people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{--hero-t:0;transition:--hero-t var(--dur-medium) var(--ease-quart)}html[data-hero-top]{--hero-t:1}html{background:color-mix(in oklab,var(--ground-takeover) calc(var(--hero-t) * 100%),var(--ground-page)) !important}body{margin:0;min-height:100vh;--mix:calc(var(--hero-t) * 100%);--paper:color-mix(in oklab,var(--ground-takeover) var(--mix),var(--ground-page));--surface:var(--paper);--reveal-ground:var(--paper);background:var(--paper);color:var(--ink)}
+<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record-cases.js"></script><script src="./record.js"></script><script src="./people.js"></script><script src="../people-listing/people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{--hero-t:0;transition:--hero-t var(--dur-medium) var(--ease-quart)}html[data-hero-top]{--hero-t:1}html{background:color-mix(in oklab,var(--ground-takeover) calc(var(--hero-t) * 100%),var(--ground-page)) !important}body{margin:0;min-height:100vh;--mix:calc(var(--hero-t) * 100%);--paper:color-mix(in oklab,var(--ground-takeover) var(--mix),var(--ground-page));--surface:var(--paper);--reveal-ground:var(--paper);background:var(--paper);color:var(--ink)}
 /* The loading placeholders the runtime reserves space with are not part of
    the composition — the hero holds its own space. */
 .sc-placeholder{background:transparent;border-color:transparent}
@@ -35,20 +35,20 @@ header a[aria-label="Vinge"]+div{animation:hero-rise 700ms var(--ease-quart) 150
 Mergermarket, svenska M&amp;A-ligan 2024 · Band 1 Corporate/M&amp;A, Chambers Global" beats="{{ beatsAffaren }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" ground="lichen" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden · 15 sektorer · Stockholm, Göteborg, Malmö, Bryssel · 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ArtworkPin" id="rummet" src="../../assets/images/present-04.png" alt="Möte runt ett bord i ett grönt rum" pin="{{ artworkPin }}" artist="Ingrid Bäcklund" work="Sediment nr 3" year="2021" artwork-src="../../assets/art/artwork-01.png" artwork-alt="Sediment nr 3, akvarell på papper" hint-size="100%,100svh"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" title="Vår expertis syns mellan raderna" all-line="" closing-line="" action-label="Se fler uppdrag" entries="{{ recordEntries }}" orientation="{{ recordOrientation }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="/uppdrag" all-href="/uppdrag" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" views="{{ aiTabs }}" case-href="../article-page/ArticlePage.dc.html" title="Vår expertis syns mellan raderna" all-line="" closing-line="" action-label="Se fler uppdrag" entries="{{ recordEntries }}" orientation="{{ recordOrientation }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="/uppdrag" all-href="/uppdrag" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Matters" id="uppdragen" tight-top="{{ mattersTight }}" matters="{{ matters }}" link-label="Läs hur vi arbetade" hint-size="100%,1700px"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" views="{{ aiTabs }}" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ start }}" hint-size="100%,720px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ menuItems }}" utility="{{ menuUtility }}" highlights="{{ menuHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ContactWidget" hidden="{{ widgetOff }}" open="{{ widgetOpen }}" screen="{{ widgetScreen }}" on-open-change="{{ setWidgetOpen }}" on-screen-change="{{ setWidgetScreen }}" hint-size="0,0"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.DemoConsole" groups="{{ demoGroups }}" hint-size="0,0"></x-import>
 <!-- Never unmounted while it has been opened: the surface animates itself in
      and out, and removing it from the document takes the movement with it. -->
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ open }}" prompt="{{ chatPrompt }}" on-close="{{ close }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" starters-version="{{ startersVersion }}" open="{{ open }}" prompt="{{ chatPrompt }}" on-close="{{ close }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
 </div>
 
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;hero&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;carousel&quot;,&quot;carousel-plain&quot;,&quot;logo&quot;],&quot;default&quot;:&quot;carousel&quot;,&quot;tsType&quot;:&quot;'carousel' | 'carousel-plain' | 'logo'&quot;},&quot;recordLines&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;horizontal&quot;,&quot;vertical&quot;],&quot;default&quot;:&quot;vertical&quot;,&quot;tsType&quot;:&quot;'horizontal' | 'vertical'&quot;}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;hero&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;carousel&quot;,&quot;carousel-plain&quot;,&quot;logo&quot;],&quot;default&quot;:&quot;carousel-plain&quot;,&quot;tsType&quot;:&quot;'carousel' | 'carousel-plain' | 'logo'&quot;},&quot;recordLines&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;horizontal&quot;,&quot;vertical&quot;],&quot;default&quot;:&quot;vertical&quot;,&quot;tsType&quot;:&quot;'horizontal' | 'vertical'&quot;},&quot;finderStarters&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;v1&quot;,&quot;v2&quot;],&quot;default&quot;:&quot;v2&quot;,&quot;tsType&quot;:&quot;'v1' | 'v2'&quot;}}">
 const DOT_SRC = '../../assets/demo/boardroom.png';
 
 const IMG = '../../assets/images/';
@@ -133,7 +133,7 @@ class Component extends DCLogic {
      this session, and nothing carries over from a previous one. The state
      lives in memory, so scrolling away and back keeps it while a reload
      drops it. */
-  state = { menuOpen: false, open: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, recordView: 0, peopleView: 0, dialogue: null, criteria: [], recordOrientation: 'horizontal', widget: false, widgetOpen: undefined, widgetScreen: undefined };
+  state = { menuOpen: false, open: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, recordView: 0, peopleView: 0, aiTabs: false, dialogue: null, criteria: [], recordOrientation: 'horizontal', widget: false, widgetOpen: undefined, widgetScreen: undefined };
 
   /* The widget runs itself; the page only reads back what it is doing so the
      console can show the current screen. `undefined` means "not driven". */
@@ -200,10 +200,9 @@ class Component extends DCLogic {
   remember = (text) => {
     const d = window.VingeDeriveDialogue && window.VingeDeriveDialogue(text);
     if (!d) return;
-    /* One exchange with the finder is enough to switch both filtered blocks
-       to their second view — the visitor has said what they are after, so the
-       register and the bench open on that rather than on everything. */
-    this.setState({ dialogue: d, recordView: 1, peopleView: 1 });
+    /* The blocks stay on the whole record: the derived filter only marks the
+       second tab with an asterisk, and the visitor chooses to open it. */
+    this.setState({ dialogue: d });
   };
 
   /* The words the visitor typed are handed to the guided exchange as its
@@ -297,7 +296,7 @@ class Component extends DCLogic {
     const chat = !this.state.open ? 'closed' : this.state.done ? 'answered' : 'question';
     return [
       {
-        id: 'hero', label: 'Hero', value: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')),
+        id: 'hero', label: 'Hero', value: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel-plain')),
         states: [{ id: 'carousel', label: 'Carousel' }, { id: 'carousel-plain', label: 'Carousel — plain' }, { id: 'logo', label: 'Logo' }],
         onPick: (v) => this.setState({ hero: v, heroPicked: true }),
       },
@@ -311,9 +310,13 @@ class Component extends DCLogic {
         states: [{ id: 'none', label: 'Nothing asked' }, { id: 'derived', label: 'Dialogue derived' }],
         onPick: (v) => {
           if (v === 'none') { this.resetDialogue(); this.setState({ recordView: 0, peopleView: 0 }); return; }
-          const d = window.VingeRecordDialogue;
-          this.setState({ dialogue: d, recordView: 1, peopleView: 1 });
+          this.setState({ dialogue: window.VingeRecordDialogue });
         },
+      },
+      {
+        id: 'ai-tabs', label: 'AI view tabs', value: this.state.aiTabs ? 'shown' : 'hidden',
+        states: [{ id: 'hidden', label: 'Hidden' }, { id: 'shown', label: 'Shown' }],
+        onPick: (v) => this.setState({ aiTabs: v === 'shown', recordView: 0, peopleView: 0 }),
       },
       {
         id: 'contact-widget', label: 'Contact widget', value: this.state.widget ? 'on' : 'off',
@@ -330,6 +333,11 @@ class Component extends DCLogic {
           if (v === 'closed') { this.setState({ widgetOpen: false }); return; }
           this.setState({ widget: true, widgetOpen: true, widgetScreen: v === 'errands' ? 'menu' : v === 'flow' ? 0 : 'match' });
         },
+      },
+      {
+        id: 'starters', label: 'Samtalet — start', value: this.startersVersion(),
+        states: [{ id: 'v1', label: 'v1 — errands' }, { id: 'v2', label: 'v2 — three ways in' }],
+        onPick: (v) => this.setState({ startersVersion: v }),
       },
       {
         id: 'chat', label: 'Samtalet', value: chat,
@@ -357,6 +365,8 @@ class Component extends DCLogic {
   }
 
   noop = () => {};
+
+  startersVersion() { return this.state.startersVersion || this.props.finderStarters || 'v2'; }
 
   /* One trigger for both directions: the masthead's glyph swaps to a close
      while the takeover is open. */
@@ -475,11 +485,11 @@ class Component extends DCLogic {
       filmGrow: 1.5,
       filmFullBleed: true,
       heroHold: 0.62,
-      carouselHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')) !== 'logo',
-      plainHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')) === 'carousel-plain',
-      logoHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel')) === 'logo',
+      carouselHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel-plain')) !== 'logo',
+      plainHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel-plain')) === 'carousel-plain',
+      logoHero: (this.state.heroPicked ? this.state.hero : (this.props.hero ?? 'carousel-plain')) === 'logo',
       heroSlides: [
-        { src: IMG + 'anonymous-02.png', alt: 'Jurist vid ett skrivbord, sedd genom en öppen dörr', label: 'Rådgivare vid ett av årets största offentliga uppköp i Norden', body: 'Vi biträdde köparen genom budprocessen, finansieringen och myndighetsprövningen, från första kontakt till fullföljt förvärv.' },
+        { src: IMG + 'stair-01.png', alt: 'Två kollegor i samtal på väg uppför en svängd trappa', focus: [0.4, 0.25], label: 'Rådgivare vid ett av årets största offentliga uppköp i Norden', body: 'Vi biträdde köparen genom budprocessen, finansieringen och myndighetsprövningen, från första kontakt till fullföljt förvärv.' },
         { src: IMG + 'office-02.png', alt: 'Kontoret i dagsljus', label: 'Havsbaserad vindkraft får klartecken efter fyra års prövning', body: 'Ett tillstånd som öppnar för en ny generation energiprojekt längs västkusten, och en praxis som fler kommer att luta sig mot.' },
         { src: IMG + 'inviting-03.png', alt: 'Mötesrum med utsikt', label: 'Portföljaffär som ritar om fastighetsmarknaden i Öresundsregionen', body: 'Strukturering, due diligence och förhandling av ett bestånd med över hundra fastigheter på båda sidor sundet.' },
         { src: IMG + 'present-06.png', alt: 'Två jurister i samtal', label: 'Kommissionen godkänner sammanslagning utan åtaganden', body: 'Ett ärende som visar hur tidig dialog med Bryssel kan korta en koncentrationsprövning med flera månader.' },
@@ -503,6 +513,7 @@ class Component extends DCLogic {
       mattersTight: (this.state.recordOrientationPicked ? this.state.recordOrientation : (this.props.recordLines ?? 'vertical')) === 'vertical',
       recordViewLabels: ['Allt', 'Ditt urval'],
       peopleViewLabels: ['Allt', 'Relevanta för dig'],
+      aiTabs: this.state.aiTabs,
       recordView: this.state.recordView,
       setRecordView: this.setRecordView,
       peopleView: this.state.peopleView,
@@ -525,6 +536,7 @@ class Component extends DCLogic {
       menuUtility: nav.utility,
       menuHighlights: nav.highlights,
       open: this.state.open,
+      startersVersion: this.startersVersion(),
       chatPrompt: this.state.turns.length && this.state.turns[0].speaker === 'visitor' ? this.state.turns[0].text : null,
       filtering: !!this.state.dialogue,
       turns: turns.map((t, i) => ({ ...t, isTurn: !t.payload, demoted: i < last })),

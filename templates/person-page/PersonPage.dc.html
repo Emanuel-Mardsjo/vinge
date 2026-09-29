@@ -39,8 +39,8 @@
 </section>
 </div>
 <section class="grid" style="padding-top:var(--section-gap);padding-bottom:var(--section-gap)">
-<div class="place-half-left">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="https://images.weserv.nl/?url=www.vinge.se/media/alcp5wjf/knutsson_amanda_highres.jpg&amp;w=1000&amp;h=1250&amp;fit=cover" alt="Amanda Knutsson" ratio="4:5" hint-size="100%,600px"></x-import>
+<div style="grid-column:2 / 5">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Figure" src="https://images.weserv.nl/?url=www.vinge.se/media/alcp5wjf/knutsson_amanda_highres.jpg&amp;w=1000&amp;h=1250&amp;fit=cover" alt="Amanda Knutsson" ratio="4:5" hint-size="100%,600px"></x-import>
 </div>
 <div class="place-half-right" style="position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1) + var(--space-4));align-self:start;display:flex;flex-direction:column;gap:var(--space-5)">
 <div>
@@ -96,10 +96,10 @@ Innan hon kom till Vinge tjänstgjorde hon som tingsnotarie vid Stockholms tings
 <div class="place-body-wide" style="display:flex;flex-direction:column;gap:var(--space-5)">
 <sc-for list="{{ awards }}" as="a" hint-placeholder-count="2">
 <div data-award="" data-open="{{ a.open }}" data-centered="{{ a.centered }}" tabIndex="0" onFocus="{{ a.enter }}" onBlur="{{ leaveAward }}" style="outline-offset:8px">
-<div data-award-mark="">
-<svg data-award-wing="left" viewBox="0 0 245 470" aria-hidden="true"><path d="M100 100Q177.4 84 175 5Q97.6 21 100 100ZM65 165Q112.1 103.9 60 47Q12.9 108.1 65 165ZM55 270Q79.3 192.3 7 155Q-17.3 232.7 55 270ZM95 355Q80.5 278.9 3 280Q17.5 356.1 95 355ZM160 412Q114.1 347.9 43 382Q88.9 446.1 160 412ZM240 435Q170.2 399.4 123 462Q192.8 497.6 240 435ZM73 178Q150.8 176.8 163 100Q85.2 101.2 73 178ZM72 285Q145.1 256.9 130 180Q56.9 208.1 72 285ZM145 378Q183.7 311.6 125 262Q86.3 328.4 145 378ZM240 422Q245.1 347.9 173 330Q167.9 404.1 240 422Z"></path></svg>
+<div data-award-mark="" data-frame="{{ awardFrame }}">
+<span data-award-frame="" aria-hidden="true"><x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" key="{{ a.frameKey }}" dc-props="{{ a.revealOut }}" hint-size="100%,100%"></x-import></span>
+<p data-award-year="" class="small" style="margin:0;max-width:none">{{ a.year }}</p>
 <p class="display-3" style="margin:0;max-width:28ch;text-align:center;text-wrap:balance">{{ a.text }}</p>
-<svg data-award-wing="right" viewBox="0 0 245 470" aria-hidden="true"><path transform="translate(245 0) scale(-1 1)" d="M100 100Q177.4 84 175 5Q97.6 21 100 100ZM65 165Q112.1 103.9 60 47Q12.9 108.1 65 165ZM55 270Q79.3 192.3 7 155Q-17.3 232.7 55 270ZM95 355Q80.5 278.9 3 280Q17.5 356.1 95 355ZM160 412Q114.1 347.9 43 382Q88.9 446.1 160 412ZM240 435Q170.2 399.4 123 462Q192.8 497.6 240 435ZM73 178Q150.8 176.8 163 100Q85.2 101.2 73 178ZM72 285Q145.1 256.9 130 180Q56.9 208.1 72 285ZM145 378Q183.7 311.6 125 262Q86.3 328.4 145 378ZM240 422Q245.1 347.9 173 330Q167.9 404.1 240 422Z"></path></svg>
 </div>
 </div>
 </sc-for>
@@ -133,7 +133,7 @@ Innan hon kom till Vinge tjänstgjorde hon som tingsnotarie vid Stockholms tings
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ askFinder }}" hint-size="100%,720px"></x-import>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900}}">
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;awardFrame&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;legend&quot;,&quot;double&quot;,&quot;cartouche&quot;],&quot;default&quot;:&quot;legend&quot;,&quot;tsType&quot;:&quot;'legend' | 'double' | 'cartouche'&quot;,&quot;section&quot;:&quot;Recognition&quot;}}">
 /* The page opens on facts the register already holds, so nothing here is
    written prose that can go stale: the line under the name is counted from the
    mandates on every load, including who the person keeps turning up beside. */
@@ -309,7 +309,7 @@ class Component extends DCLogic {
     /* Measured against the screen, not the header line: the page turns while
        the hero is still on its way out, about half a screen early. */
     const h = window.innerHeight;
-    /* The award line nearest the middle of the screen wears the wings. */
+    /* The award line nearest the middle of the screen is framed and dated. */
     let best = -1, bestD = h * 0.3;
     document.querySelectorAll('[data-award]').forEach((n, i) => {
       const r = n.getBoundingClientRect();
@@ -317,6 +317,11 @@ class Component extends DCLogic {
       if (dist < bestD) { bestD = dist; best = i; }
     });
     if (best !== this.state.centerAward) this.setState({ centerAward: best });
+    /* The frame artwork is drawn at each mark's own size. */
+    const boxes = Array.from(document.querySelectorAll('[data-award-mark]')).map((n) => n.offsetWidth + 'x' + n.offsetHeight);
+    const boxKey = boxes.join(',');
+    if (boxKey !== this._boxKey) { this._boxKey = boxKey; this.setState({ awardBoxes: boxes }); }
+    this.syncAwards(h);
     /* Three grounds on one page. The profile opens on ink and settles on
        paper, both carried by --hero-t; the testimonials are read on the light
        green, which is a ground of its own rather than a point between those
@@ -358,6 +363,84 @@ class Component extends DCLogic {
     window.requestAnimationFrame(() => window.dispatchEvent(new Event('scroll')));
   };
 
+  /* The frame round each award line. Exactly one line is framed while the
+     section is on screen: the one nearest the middle of the screen, with a
+     little hysteresis so a line sitting at the midpoint does not flutter.
+     When that changes, the handover is timed, not scrolled:
+     out   the line that lost the frame wipes it off along the reveal's
+           diagonal toward the bottom right over --dur-medium, the print
+           running on a little past its peak, and its year fades.
+     in    the line that gained it prints in over --dur-slow, eased expo,
+           starting at once, so it prints in while the other is still leaving.
+           While it stands, the print is scrubbed by the line's position across
+           its reach (SPAN): one forward sweep of the waves per pass, moving
+           whenever the page moves and holding when it stops.
+     PEAK is LogoHero's REVEAL_P, where the waves stand as diagonal bands; the
+     plate starts at 0.62, so the frame never closes into a solid rule. */
+  syncAwards(vh) {
+    /* The reveal's waves run with its own progress (phase p × 9 and p × 5,
+       p = t / 0.62) and settle out past p ≈ 0.6, so the shimmer lives in
+       t ≈ 0.14–0.40. The sweep spans all of it: the diagonals travel more
+       than half a band per pass, and the frame never closes. */
+    const LOW = 0.14, HIGH = 0.40, PEAK = HIGH, RUN = 0.04, HYST = 24;
+    const now = performance.now();
+    const root = getComputedStyle(document.documentElement);
+    const durOut = this._durMedium || (this._durMedium = parseFloat(root.getPropertyValue('--dur-medium')) || 800);
+    const durIn = this._durSlow || (this._durSlow = parseFloat(root.getPropertyValue('--dur-slow')) || 1200);
+    const expo = (k) => k >= 1 ? 1 : 1 - Math.pow(2, -10 * k);
+    const marks = Array.from(document.querySelectorAll('[data-award-mark]'));
+    const offs = marks.map((n) => { const r = n.getBoundingClientRect(); return r.top + r.height / 2 - vh / 2; });
+    const dist = offs.map(Math.abs);
+    const reach = vh * 0.5;
+    let best = -1;
+    dist.forEach((d, i) => { if (d < reach && (best < 0 || d < dist[best])) best = i; });
+    const cur = this._awActive == null ? -1 : this._awActive;
+    if (best >= 0 && cur >= 0 && best !== cur && dist[cur] < reach && dist[best] > dist[cur] - HYST) best = cur;
+    const st = this._awardSt || (this._awardSt = []);
+    marks.forEach((n, i) => { if (!st[i]) st[i] = { phase: 'idle', t0: 0 }; });
+    if (best !== cur) {
+      const handing = cur >= 0 && st[cur] && st[cur].phase === 'in';
+      if (handing) { st[cur].phase = 'out'; st[cur].t0 = now; marks[cur] && marks[cur].setAttribute('data-gone', ''); }
+      if (best >= 0) { st[best].phase = 'in'; st[best].t0 = now; marks[best].removeAttribute('data-gone'); }
+      this._awActive = best;
+    }
+    let ticking = false;
+    const prog = marks.map((n, i) => {
+      const s = st[i];
+      if (s.phase === 'in') {
+        const k = expo(Math.max(0, Math.min(1, (now - s.t0) / durIn)));
+        if (k < 1) ticking = true;
+        n.style.setProperty('--award-t', k);
+        /* One sweep per pass, no loop: the print runs forward as the line
+           travels up through its reach and back only if the reader reverses. */
+        /* The sweep spans the line's whole time holding the frame: from where
+           it takes over (half way to the line above it, or the edge of reach)
+           to where it hands on (half way to the line below it). */
+        const enter = i > 0 ? Math.min(reach, (offs[i] - offs[i - 1]) / 2) : reach;
+        const leave = i < offs.length - 1 ? Math.min(reach, (offs[i + 1] - offs[i]) / 2) : reach;
+        const u = Math.max(0, Math.min(1, (enter - offs[i]) / (enter + leave)));
+        return k * PEAK;
+      }
+      if (s.phase === 'out') {
+        const k = Math.min(1, (now - s.t0) / durOut);
+        if (k >= 1) { s.phase = 'idle'; return 0; }
+        ticking = true;
+        return PEAK + RUN * expo(k);
+      }
+      n.style.setProperty('--award-t', 0);
+      return 0;
+    });
+    if (ticking && !this._frame) this._frame = window.requestAnimationFrame(this.sync);
+    /* The shimmer: the reveal's own diagonal waves, advanced by scroll
+       position (one band per ~60px), while the print holds at PEAK with the
+       front fully across the frame. Forward on the way down, back on the way
+       up, still when the page is still. */
+    const shimmer = Math.round(window.scrollY / 60 * 20) / 20;
+    const scrub = prog.map((p) => Math.round(p * 100) / 100);
+    const key = scrub.join(',') + '|' + (prog.some((p) => p > 0) ? shimmer : '');
+    if (key !== this._scrubKey) { this._scrubKey = key; this.setState({ awardScrubOut: scrub, awardShimmer: shimmer }); }
+  }
+
   onScroll = () => { if (!this._frame) this._frame = window.requestAnimationFrame(this.sync); };
 
   componentDidMount() {
@@ -386,11 +469,13 @@ class Component extends DCLogic {
   awardList() {
     return [
       {
+        year: 2026,
         text: 'Rankad i band 3 för Corporate/M&A, Chambers Europe 2026.',
         badge: 'Chambers Top Ranked, Europe 2026',
         badgeSrc: 'https://images.weserv.nl/?url=www.vinge.se/media/bzgjawut/thalin-christoffer.jpg&w=312&h=312&fit=contain&cbg=white',
       },
       {
+        year: 2025,
         text: 'Utsedd till Leading Partner inom publik M&A, Legal 500 EMEA 2025.',
         badge: 'Legal 500 EMEA 2025, Leading Partner',
         badgeSrc: 'https://images.weserv.nl/?url=www.vinge.se/media/4obhtd0g/leading-partner-2025.png&w=312&h=312&fit=contain&cbg=transparent',
@@ -501,7 +586,33 @@ class Component extends DCLogic {
     return { items: [], utility: [], highlights: [] };
   }
 
+  /* The frame round the active award, drawn as artwork for the dot screen to
+     be a halftone of: ink on white at the mark's own size, multiplied onto the
+     ground so the white drops out. It is printed by the house reveal scrubbed
+     from scroll, the landing hero's mark in reverse, and stops short of the
+     plate, so it is always a screen and never a solid rule. The stroke is
+     heavy enough to carry a halftone; a hairline would print as noise. */
+  frameSrc(kind, box, turned) {
+    if (!box) return undefined;
+    const [w, h] = box.split('x').map(Number);
+    if (!w || !h) return undefined;
+    const B = 12, ink = '#002900', o = B / 2;
+    let art;
+    if (kind === 'double') {
+      const i = B + 7;
+      art = '<rect x="' + o + '" y="' + o + '" width="' + (w - B) + '" height="' + (h - B) + '" fill="none" stroke="' + ink + '" stroke-width="' + B + '"/>'
+        + '<rect x="' + i + '" y="' + i + '" width="' + (w - 2 * i) + '" height="' + (h - 2 * i) + '" fill="none" stroke="' + ink + '" stroke-width="2"/>';
+    } else if (kind === 'cartouche') {
+      art = '<rect x="' + o + '" y="' + o + '" width="' + (w - B) + '" height="' + (h - B) + '" rx="' + ((h - B) / 2) + '" fill="none" stroke="' + ink + '" stroke-width="' + B + '"/>';
+    } else {
+      const g = 96, cx = w / 2;
+      art = '<path d="M' + (cx - g / 2) + ' ' + o + 'H' + o + 'V' + (h - o) + 'H' + (w - o) + 'V' + o + 'H' + (cx + g / 2) + '" fill="none" stroke="' + ink + '" stroke-width="' + B + '"/>';
+    }
+    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="' + w * 2 + '" height="' + h * 2 + '" viewBox="0 0 ' + w + ' ' + h + '"><rect width="' + w + '" height="' + h + '" fill="#fff"/>' + (turned ? '<g transform="rotate(180 ' + w / 2 + ' ' + h / 2 + ')">' + art + '</g>' : art) + '</svg>');
+  }
+
   renderVals() {
+    const frame = this.props.awardFrame ?? 'legend';
     const nav = this.nav();
     const d = this.derive();
     const shown = this.matches();
@@ -602,12 +713,24 @@ class Component extends DCLogic {
         enter: this.enter(i),
       })),
       leave: this.leave,
+      awardFrame: frame,
       awards: this.awardList().map((a, i) => ({
         text: a.text,
+        year: a.year,
         badge: a.badge,
         badgeSrc: a.badgeSrc,
         open: this.state.award === i ? '' : undefined,
         centered: this.state.centerAward === i ? '' : undefined,
+        active: this.state.centerAward === i,
+        /* Remount the print whenever the mark's size changes: the reveal builds
+           its screen from the artwork once, so stale artwork at an old aspect
+           gets cover-cropped and loses two of the frame's sides. */
+        frameKey: frame + ':' + ((this.state.awardBoxes || [])[i] || 'none'),
+        revealOut: {
+          src: this.frameSrc(frame, (this.state.awardBoxes || [])[i]),
+          alt: '', progress: (this.state.awardScrubOut || [])[i] || 0, shimmer: this.state.awardShimmer || 0, gridSize: 3, dynamics: 0,
+          style: { position: 'absolute', inset: 0, width: '100%', height: '100%', aspectRatio: 'auto', background: 'transparent' },
+        },
         enter: this.enterAward(i),
       })),
       leaveAward: this.leaveAward,

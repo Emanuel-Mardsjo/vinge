@@ -35,8 +35,8 @@
        page instead, which leaves the blend alone. */
     gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}'
       + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}'
-      + 'html{background:var(--ground-page,#E5DFDB)}'
-      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:var(--ground-page,#E5DFDB);visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
+      + 'html{background:var(--ground-page,#F3F0EE)}'
+      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:var(--ground-page,#F3F0EE);visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
       + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
     const veil = () => {

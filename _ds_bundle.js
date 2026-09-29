@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"5b2de234c972","components/blocks/Chapter.jsx":"f41941619697","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"c01ada0126a2","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"a01e7581153f","components/blocks/ImageScreen.jsx":"e38a66717aa6","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"c699d8829f4f","components/blocks/Matters.jsx":"803a49b89c6d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"aaaae3a19295","components/blocks/Record.jsx":"9984c50d3813","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"89d25ed6a0f5","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"d90b8425f2db","components/conversation/ConversationHeader.jsx":"fd61f9c37f45","components/conversation/ConversationRail.jsx":"7d2ba116cf44","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"f503320e770d","components/conversation/ConversationSurface.jsx":"465309474f96","components/conversation/ConversationTurn.jsx":"0d6ca72eff67","components/conversation/GuidedConversation.jsx":"88ed06f08f08","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"82bd1a4dc3fa","components/conversation/scripts.jsx":"0ef6f60f695b","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"a0c2e23468a2","components/core/Figure.jsx":"9da91fc57281","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"35d250358778","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"57b229adff41","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"3c656ac0b5e8","components/layout/CarouselHero.jsx":"bee13e12f01f","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"32433e0ba746","components/layout/PageBanner.jsx":"3ec15835ca06","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"e7b15a311934","components/navigation/MenuHighlights.jsx":"d4f987a8715b","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"21a9ee96232f","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"3098b4b487d2","components/navigation/WordmarkMasthead.jsx":"e4d4c88b575c","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"5b2de234c972","components/blocks/Chapter.jsx":"f41941619697","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"c01ada0126a2","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"a84f1c5881c0","components/blocks/ImageScreen.jsx":"e38a66717aa6","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"a50d0964646b","components/blocks/Matters.jsx":"803a49b89c6d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"bc957421d25a","components/blocks/Record.jsx":"fafcf1f1c5dd","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"4a9519abe488","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"d90b8425f2db","components/conversation/ConversationHeader.jsx":"1e50bedf4874","components/conversation/ConversationRail.jsx":"1d83551fe90e","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"a709220e373a","components/conversation/ConversationSurface.jsx":"0693ab6ccc53","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"c3bda65f1ea2","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"fbf5ed39b664","components/conversation/scripts.jsx":"d632e2240adf","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"7fbf6b5d164e","components/core/Figure.jsx":"961be532d220","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"af1018abba8f","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"05a78b7071a6","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"84ff8def38f6","components/layout/CarouselHero.jsx":"1ec461c38ec7","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"32433e0ba746","components/layout/PageBanner.jsx":"3ec15835ca06","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"5c69e9d028cf","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"dad1d3e33cbd","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"288cb368d53d","components/navigation/WordmarkMasthead.jsx":"712e91d97653","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -858,122 +858,6 @@ const OrbMark = React.forwardRef(function OrbMark({
 Object.assign(__ds_scope, { OrbMark });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/brand/OrbMark.jsx", error: String((e && e.message) || e) }); }
 
-// components/conversation/ConversationHeader.jsx
-try { (() => {
-/* Identity and the two ways out, nothing else. The wordmark stands for the
-   firm; the surface carries no product name, so there is no title to write.
-   Stäng sets the exchange aside — it is kept, and the header's chat trigger
-   brings it back, here or on a later page. Avsluta samtalet is the visitor
-   saying they are finished, and is the only thing that throws the exchange
-   away; it is left out until there is something to end. Sticky over a scrolled
-   transcript the header keeps the paper ground and takes the one sanctioned
-   hairline, so scrolled type never runs into it. */
-
-function ConversationHeader({
-  sticky = false,
-  scrolled = false,
-  onClose,
-  onEnd,
-  endLabel = 'Avsluta samtalet',
-  logoSrc = '/assets/logo.svg',
-  /* What this exchange has already done to the page, and how to take it back.
-     Both are left out until the filtering is actually on. */
-  filterNote,
-  onResetFilter,
-  resetFilterLabel = 'Nollställ sidan',
-  style
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-2)',
-      position: sticky ? 'sticky' : 'static',
-      top: 0,
-      zIndex: 2,
-      background: 'var(--surface)',
-      paddingBottom: 'var(--space-2)',
-      borderBottom: sticky && scrolled ? '1px solid var(--rule-hairline)' : '1px solid transparent',
-      transition: 'border-color var(--dur-micro) var(--ease-quart)',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      gap: 'var(--space-4)'
-    }
-  }, /*#__PURE__*/React.createElement("img", {
-    src: logoSrc,
-    alt: "Vinge",
-    style: {
-      height: 18,
-      width: 'auto'
-    }
-  }), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      alignItems: 'baseline',
-      gap: 'var(--space-4)'
-    }
-  }, onEnd ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onEnd,
-    className: "small target",
-    style: {
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      color: 'var(--text-secondary)'
-    }
-  }, endLabel) : null, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClose,
-    className: "cta cta--small target",
-    style: {
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      fontWeight: 'var(--weight-book)'
-    }
-  }, "St\xE4ng"))), filterNote ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'baseline',
-      gap: 'var(--space-3)',
-      paddingBottom: 'var(--space-1)'
-    }
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      margin: 0,
-      color: 'var(--text-secondary)'
-    }
-  }, filterNote), onResetFilter ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onResetFilter,
-    className: "cta cta--secondary target",
-    style: {
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)'
-    }
-  }, resetFilterLabel) : null) : null);
-}
-Object.assign(__ds_scope, { ConversationHeader });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ConversationHeader.jsx", error: String((e && e.message) || e) }); }
-
 // components/conversation/ConversationTurn.jsx
 try { (() => {
 /* One turn. The visitor sits right in the lightest tint the palette has, the
@@ -1003,6 +887,13 @@ function ConversationTurn({
   text,
   body,
   note,
+  /* Set between the answer and the question it ends on — what the answer
+     turned up, on a phone — so the question stays last, next to the choices
+     that answer it. */
+  between,
+  /* The question set at the answer's own size, so a reply reads as one
+     statement and one question of equal weight. Used on a phone. */
+  bodyAsTitle = false,
   style
 }) {
   if (speaker === 'visitor') {
@@ -1046,11 +937,17 @@ function ConversationTurn({
       color: marked || !demoted ? 'var(--text-primary)' : 'var(--text-secondary)',
       transition: 'color var(--dur-reveal) var(--ease-expo)'
     }
-  }, text), body ? /*#__PURE__*/React.createElement("p", {
-    className: "prose",
+  }, text), between ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      justifySelf: 'stretch',
+      paddingTop: 'var(--space-1)',
+      paddingBottom: 'var(--space-2)'
+    }
+  }, between) : null, body ? /*#__PURE__*/React.createElement("p", {
+    className: bodyAsTitle ? preamble : 'prose',
     style: {
       maxWidth: 'var(--measure-prose)',
-      color: 'var(--text-secondary)'
+      color: bodyAsTitle ? 'var(--text-primary)' : 'var(--text-secondary)'
     }
   }, body) : null, note ? /*#__PURE__*/React.createElement("p", {
     className: "small",
@@ -1320,16 +1217,19 @@ const SCRIPT_FORVARV = {
     working: 'Läser uppdragsregistret.',
     rail: {
       label: 'Förvärvet',
+      lead: 'Det här är relevant för förvärvet:',
       items: [{
         kind: 'link',
         id: 'ma',
         label: 'Företagsförvärv och M&A',
+        why: 'Hur vi driver förvärv med motpart i Tyskland.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/foretagsforvarv-och-ma'
       }, {
         kind: 'link',
         id: 'record-041',
         label: '[Nordisk industrikoncern förvärvar tysk tillverkare]',
+        why: 'Ett uppdrag med samma upplägg som ert.',
         meta: 'Uppdrag [2026-041]',
         href: '/uppdrag/2026-041'
       },
@@ -1369,22 +1269,26 @@ const SCRIPT_FORVARV = {
     working: 'Läser uppdragsregistret.',
     rail: {
       label: 'Spåren',
+      lead: 'Tre områden frågan kan röra:',
       items: [{
         kind: 'link',
         id: 'konkurrens',
         label: 'EU- och konkurrensrätt',
+        why: 'Om förvärvet måste anmälas till Konkurrensverket.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/eu-och-konkurrensratt'
       }, {
         kind: 'link',
         id: 'arbetsratt',
         label: 'Arbetsrätt',
+        why: 'Vad som gäller för de anställda i Sverige.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/arbetsratt'
       }, {
         kind: 'link',
         id: 'miljoratt',
         label: 'Miljörätt',
+        why: 'Om anläggningen har tillstånd som följer med.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/miljoratt'
       }]
@@ -1411,6 +1315,7 @@ const SCRIPT_FORVARV = {
     working: 'Läser uppdragsregistret.',
     rail: {
       label: 'Anmälningarna',
+      lead: 'För anmälningarna:',
       items: [{
         ...GLADER,
         featured: true
@@ -1418,12 +1323,14 @@ const SCRIPT_FORVARV = {
         kind: 'link',
         id: 'fdi',
         label: 'Utländska direktinvesteringar (FDI)',
+        why: 'Granskningen av utländska köpare i Sverige.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/utlandska-direktinvesteringar'
       }, {
         kind: 'link',
         id: 'insight-fdi',
         label: 'EU:s nya förordning om utländska direktinvesteringar',
+        why: 'Vad de nya reglerna ändrar för er tidplan.',
         meta: 'Insikt',
         href: '/insikter/2026/eus-nya-forordning-om-utlandska-direktinvesteringar'
       }],
@@ -1438,6 +1345,7 @@ const SCRIPT_FORVARV = {
     working: 'Söker igenom uppdrag.',
     rail: {
       label: 'Namnet',
+      lead: 'Den vi föreslår, och de som står närmast:',
       /* The recommendation is a panel item like the others, standing open.
          The transcript says the answer; the panel holds the people. */
       items: [{
@@ -1447,12 +1355,14 @@ const SCRIPT_FORVARV = {
         kind: 'link',
         id: 'cross-border',
         label: 'Gränsöverskridande förvärv',
+        why: 'Förvärv där köpare och bolag är i olika länder.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/foretagsforvarv-och-ma/gransoverskridande'
       }, {
         kind: 'link',
         id: 'verksamhetsovergang',
         label: 'Verksamhetsövergång vid förvärv',
+        why: 'När de anställda följer med verksamheten.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/arbetsratt/verksamhetsovergang'
       }, MALM, BERGH, SODERLUND],
@@ -1525,16 +1435,19 @@ const SCRIPT_TVIST = {
     working: 'Läser uppdragsregistret.',
     rail: {
       label: 'Tvisten',
+      lead: 'Det här är relevant för tvisten:',
       items: [{
         kind: 'link',
         id: 'tvist',
         label: 'Tvistlösning',
+        why: 'Hur vi för talan i leverantörstvister.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/tvistlosning'
       }, {
         kind: 'link',
         id: 'record-207',
         label: '[Leverantörstvist i Göteborgs tingsrätt]',
+        why: 'En tvist av samma slag, i samma domstol.',
         meta: 'Uppdrag [2025-207]',
         href: '/uppdrag/2025-207'
       }, {
@@ -1564,10 +1477,12 @@ const SCRIPT_TVIST = {
     working: 'Söker i uppdragsregistret.',
     rail: {
       label: 'Svaromålet',
+      lead: 'För svaromålet:',
       items: [{
         kind: 'link',
         id: 'skilje',
         label: 'Skiljeförfarande',
+        why: 'Om avtalet hänvisar tvisten till skiljeförfarande.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/tvistlosning/skiljeforfarande'
       }]
@@ -1581,6 +1496,7 @@ const SCRIPT_TVIST = {
     working: 'Söker igenom uppdrag.',
     rail: {
       label: 'Namnet',
+      lead: 'Den vi föreslår, och de som står närmast:',
       items: [{
         ...AZELIUS,
         featured: true
@@ -1588,6 +1504,7 @@ const SCRIPT_TVIST = {
         kind: 'link',
         id: 'entreprenad',
         label: 'Kommersiella avtal och leveranstvister',
+        why: 'Tvister om leveranser och kommersiella avtal.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/tvistlosning/kommersiella-avtal'
       }, HANSSON],
@@ -1621,6 +1538,7 @@ const SCRIPT_JOBB = {
     working: 'Läser karriärsidorna.',
     rail: {
       label: 'Karriär',
+      lead: 'Om du söker jobb hos oss:',
       /* Not an addition to a list of practice areas: the whole rail becomes
          the careers rail. */
       replaces: true,
@@ -1628,18 +1546,21 @@ const SCRIPT_JOBB = {
         kind: 'link',
         id: 'jobb',
         label: 'Lediga tjänster',
+        why: 'Alla tjänster som är öppna nu.',
         meta: 'Karriär',
         href: '/karriar/lediga-tjanster'
       }, {
         kind: 'link',
         id: 'notarie',
         label: 'Sommarnotarie',
+        why: 'Datum, krav och hur du ansöker.',
         meta: 'Karriär',
         href: '/karriar/sommarnotarie'
       }, {
         kind: 'link',
         id: 'livet',
         label: 'Att arbeta på Vinge',
+        why: 'Hur det är att arbeta här.',
         meta: 'Karriär',
         href: '/karriar'
       }]
@@ -1672,11 +1593,13 @@ const SCRIPT_PRIVAT = {
     working: 'Läser uppdragsregistret.',
     rail: {
       label: 'Vidare',
+      lead: 'Här hittar du ombud:',
       replaces: true,
       items: [{
         kind: 'link',
         id: 'samfundet',
         label: '[Advokatsamfundet] — hitta advokat',
+        why: 'Hjälper privatpersoner att hitta ombud.',
         meta: 'Extern',
         href: 'https://www.advokatsamfundet.se/hitta-advokat/'
       }]
@@ -1709,6 +1632,7 @@ const SCRIPT_NAMN = {
     working: 'Söker i personregistret.',
     rail: {
       label: 'Personen',
+      lead: 'Personen du söker:',
       replaces: true,
       items: [{
         ...GLADER,
@@ -1717,6 +1641,7 @@ const SCRIPT_NAMN = {
         kind: 'link',
         id: 'konkurrens',
         label: 'EU- och konkurrensrätt',
+        why: 'Om förvärvet måste anmälas till Konkurrensverket.',
         meta: 'Verksamhetsområde',
         href: '/verksamhetsomraden/eu-och-konkurrensratt'
       }]
@@ -1728,8 +1653,424 @@ const SCRIPT_NAMN = {
     body: 'Tid stämmer du av direkt med Marcus, eller via växeln.'
   }]
 };
-const SCRIPTS = [SCRIPT_FORVARV, SCRIPT_TVIST, SCRIPT_JOBB, SCRIPT_PRIVAT, SCRIPT_NAMN];
-Object.assign(__ds_scope, { SCRIPT_FORVARV, SCRIPT_TVIST, SCRIPT_JOBB, SCRIPT_PRIVAT, SCRIPT_NAMN, SCRIPTS });
+
+/* "Jag behöver hjälp att hitta rätt person": the visitor has no name and no
+   words of their own yet, so the machine asks — what it is about, how far
+   along, where — and lands on people. Three questions, one answer. */
+const SCRIPT_HITTA = {
+  id: 'hitta',
+  label: 'Find the right person — three turns',
+  prompt: 'Vad tänker du på?',
+  opening: 'Jag behöver hjälp att hitta rätt person',
+  turns: [{
+    id: 'omrade',
+    text: 'Då börjar vi med vad det gäller.',
+    body: 'Vad vill du prata om?',
+    kind: 'radio',
+    sets: 'Ärende',
+    options: [{
+      text: 'Ett förvärv eller en försäljning',
+      tag: 'M&A'
+    }, {
+      text: 'En tvist',
+      tag: 'Tvist'
+    }, {
+      text: 'Anställda och arbetsrätt',
+      tag: 'Arbetsrätt'
+    }, {
+      text: 'Konkurrens och myndigheter',
+      tag: 'Konkurrens'
+    }],
+    working: 'Läser uppdragsregistret.'
+  }, {
+    id: 'lage',
+    text: 'Det avgör vilka som är aktuella.',
+    body: 'Hur långt har det gått?',
+    kind: 'radio',
+    sets: 'Läge',
+    options: [{
+      text: 'Vi undersöker möjligheten',
+      tag: 'Tidigt'
+    }, {
+      text: 'Det pågår redan',
+      tag: 'Pågår'
+    }, {
+      text: 'Det är bråttom',
+      tag: 'Bråttom'
+    }],
+    working: 'Läser uppdragsregistret.',
+    /* People from the first answer on: the panel is useful before the
+       questions are done, and each answer after this one adds to it. */
+    rail: {
+      label: 'Området',
+      lead: 'Några som arbetar med det här:',
+      items: [{
+        ...KNUTSSON,
+        featured: true
+      }, GLADER, {
+        kind: 'link',
+        id: 'record-hitta',
+        label: '[Ett uppdrag av samma slag]',
+        why: 'Hur vi arbetade med en liknande fråga.',
+        meta: 'Uppdrag [2026-017]',
+        href: '/uppdrag/2026-017'
+      }]
+    }
+  }, {
+    id: 'ort',
+    text: 'Då återstår var du behöver personen.',
+    body: 'Vilket kontor passar dig?',
+    kind: 'radio',
+    sets: 'Ort',
+    options: [{
+      text: 'Stockholm',
+      tag: 'Stockholm'
+    }, {
+      text: 'Göteborg',
+      tag: 'Göteborg'
+    }, {
+      text: 'Malmö',
+      tag: 'Malmö'
+    }, {
+      text: 'Spelar ingen roll',
+      tag: 'Oberoende av ort'
+    }],
+    working: 'Söker igenom uppdrag.',
+    rail: {
+      label: 'Läget',
+      lead: 'Fler med erfarenhet i samma läge:',
+      items: [SODERLUND, BERGH, MALM]
+    }
+  }, {
+    id: 'namnet',
+    variant: 'answer',
+    text: 'Henrik Ossborn tar nya uppdrag den här veckan.',
+    body: 'Han står först i panelen, med de två som ligger närmast. Skälet står vid varje namn.',
+    kind: 'text',
+    working: 'Söker igenom uppdrag.',
+    rail: {
+      label: 'Namnet',
+      lead: 'Den vi föreslår, och de som står närmast:',
+      items: [{
+        ...SODERLUND,
+        featured: true
+      }, KNUTSSON, MALM],
+      /* Sharper, not longer: the names the earlier answers turned up stay
+         in their own chapters, and the ones not carried forward fade. */
+      supersedes: ['glader', 'bergh', 'knutsson', 'soderlund', 'malm']
+    }
+  }],
+  followUps: [{
+    variant: 'refusal',
+    text: 'Den bedömningen gör en jurist, inte jag.',
+    body: 'Jag kan säga vem som har relevant erfarenhet. Växeln kopplar om det är bråttom: 08-614 30 00.'
+  }]
+};
+
+/* "Jag vill göra karriär hos er" (manus-karriar.md): Elin, law student in
+   term seven, Göteborg. The recruiters stand in the rail from the click, before
+   a single question is answered; each answer narrows them, and one is left.
+   Source: vinge.se/karriar/, read 2026-09-28. Two lines are dated and must be
+   re-read before a demo: Sommarnotarie 2027 opening in November, and the
+   student/jurist contact split per office (confirm with Vinge). */
+/* Slugs and portraits match the people pool (templates/people-listing/people.js). */
+/* Phone is the office switchboard and email follows the firm's pattern: DEMO DATA. */
+const RECRUIT_PHONE = {
+  Stockholm: '010 614 30 00',
+  'Göteborg': '010 614 10 00',
+  'Malmö': '010 614 55 00'
+};
+const recruiter = (id, name, office, basis, slug, img) => ({
+  kind: 'person',
+  id,
+  name,
+  role: 'Rekrytering',
+  office,
+  basis,
+  href: profile(slug),
+  imageSrc: portrait(img),
+  phone: RECRUIT_PHONE[office],
+  email: slug.replace(/-/g, '.') + '@vinge.se',
+  reason: 'Kontaktperson för ' + basis.toLowerCase() + ' i ' + office + '.',
+  source: 'vinge.se/karriar'
+});
+const MOBERG = recruiter('moberg', 'Maja Moberg', 'Stockholm', 'Studenter, jurister och affärsstöd', 'maja-moberg', '/media/3cmd15nl/moberg_maja__some.jpg');
+const HALLDEN = recruiter('hallden', 'Josefin Halldén', 'Göteborg', 'Studenter', 'josefin-hallden', '/media/2leh1qjo/hallden_josefine__some.jpg');
+const CEDERBLAD = recruiter('cederblad', 'Karin Cederblad', 'Göteborg', 'Jurister och affärsstöd', 'karin-cederblad', '/media/1babgyej/cederblad_karin_socialmedia.jpg');
+const GUSTAFSSON = recruiter('gustafsson', 'Clara Gustafsson', 'Malmö', 'Studenter', 'clara-gustafsson', '/media/eand2hct/clara-gustafsson-some.jpg');
+const ANDERSSON = recruiter('andersson', 'Maria Andersson', 'Malmö', 'Jurister och affärsstöd', 'maria-andersson', '/media/aixbimqx/andersson_maria__some.jpg');
+const SCRIPT_KARRIAR = {
+  id: 'karriar',
+  label: 'Careers — six turns',
+  prompt: 'Vad tänker du på?',
+  opening: 'Jag vill göra karriär hos er',
+  turns: [{
+    /* No acknowledgement before the question: she clicked, she wrote
+       nothing, so there is nothing to acknowledge. */
+    id: 'vag',
+    text: 'Var står du i dag?',
+    kind: 'radio',
+    settles: [{
+      label: 'Ärende',
+      value: 'karriär'
+    }],
+    sets: 'Väg',
+    options: [{
+      text: 'Jag studerar juridik',
+      tag: 'Student'
+    }, {
+      text: 'Jag har tagit examen',
+      tag: 'Examen'
+    }, {
+      text: 'Jag arbetar redan som jurist',
+      tag: 'Erfaren'
+    }, {
+      text: 'Jag vill arbeta inom affärsstöd',
+      tag: 'Affärsstöd'
+    }],
+    working: 'Läser karriärsidorna.',
+    rail: {
+      label: 'Rekryteringen',
+      lead: 'De som har rekryteringen på Vinge:',
+      replaces: true,
+      items: [MOBERG, HALLDEN, CEDERBLAD, GUSTAFSSON, ANDERSSON]
+    }
+  }, {
+    /* The boundaries are Vinge's own eligibility rules. */
+    id: 'stadium',
+    text: 'Hur långt har du kommit?',
+    kind: 'radio',
+    sets: 'Stadium',
+    options: [{
+      text: 'Termin 1–3',
+      tag: 'Tidig'
+    }, {
+      text: 'Termin 4–6',
+      tag: 'Mitt'
+    }, {
+      text: 'Termin 7 eller senare',
+      tag: 'Sen'
+    }],
+    working: 'Läser karriärsidorna.',
+    rail: {
+      label: 'Student',
+      lead: 'För dig som studerar:',
+      items: [{
+        kind: 'link',
+        id: 'student',
+        label: 'Student på Vinge',
+        why: 'Program, event och krav för studenter.',
+        meta: 'Karriär',
+        href: '/karriar/student'
+      }],
+      supersedes: ['cederblad', 'andersson']
+    }
+  }, {
+    id: 'program',
+    text: 'Vad vill du veta mer om?',
+    kind: 'checkbox',
+    legend: 'Flera kan stämma.',
+    sets: 'Program',
+    options: [{
+      text: 'Sommarnotarie',
+      tag: 'Sommarnotarie'
+    }, {
+      text: 'Praktik under terminen',
+      tag: 'Praktik'
+    }, {
+      text: 'Jobb vid sidan av studierna',
+      tag: 'Extrajobb'
+    }, {
+      text: 'Trainee i Bryssel',
+      tag: 'Trainee'
+    }, {
+      text: 'Vet inte än',
+      tag: 'Alla'
+    }],
+    working: 'Läser karriärsidorna.'
+  }, {
+    /* Decides the contact person. Brussels is not an option: it only
+       concerns the trainee post, which is already in the rail. */
+    id: 'kontor',
+    text: 'Sommarnotarier finns i Stockholm, Göteborg och Malmö. Traineeplatsen är i Bryssel.',
+    body: 'Var vill du helst vara?',
+    kind: 'radio',
+    sets: 'Kontor',
+    options: [{
+      text: 'Stockholm',
+      tag: 'Stockholm'
+    }, {
+      text: 'Göteborg',
+      tag: 'Göteborg'
+    }, {
+      text: 'Malmö',
+      tag: 'Malmö'
+    }, {
+      text: 'Spelar ingen roll',
+      tag: 'Oberoende av ort'
+    }],
+    working: 'Läser karriärsidorna.',
+    rail: {
+      label: 'Programmen',
+      lead: 'Det du valde:',
+      items: [{
+        kind: 'link',
+        id: 'sommarnotarie',
+        label: 'Sommarnotarie 2027',
+        why: '6–8 veckor, ansökan öppnar i november.',
+        meta: 'Karriär',
+        href: '/karriar/student/sommarnotarie'
+      }, {
+        kind: 'link',
+        id: 'trainee',
+        label: 'Trainee i Bryssel',
+        why: 'Sex månader, annonseras bland lediga jobb.',
+        meta: 'Karriär',
+        href: '/karriar/trainee-bryssel'
+      }],
+      supersedes: ['student']
+    }
+  }, {
+    /* She asks whether her grades are enough. The machine does not assess a
+       candidate and does not repeat the grades back. The office question
+       stays open. */
+    id: 'vagran',
+    variant: 'refusal',
+    text: 'Det bedömer de som rekryterar, inte jag.',
+    body: 'Ansökan är CV, personligt brev och betyg. Svar kommer inom 14 dagar.',
+    kind: 'keep',
+    working: 'Läser karriärsidorna.',
+    rail: {
+      label: 'Processen',
+      lead: 'Hur en ansökan går till:',
+      items: [{
+        kind: 'link',
+        id: 'process',
+        label: 'Så funkar vår rekryteringsprocess',
+        why: 'Ansökan, intervjuer och jävs- och bakgrundskontroll.',
+        meta: 'Karriär',
+        href: '/karriar/rekryteringsprocess'
+      }]
+    }
+  }, {
+    id: 'namnet',
+    variant: 'answer',
+    text: 'Josefin Halldén har studentrekryteringen i Göteborg.',
+    body: 'Traineeplatsen i Bryssel söks under lediga jobb när den annonseras.',
+    kind: 'text',
+    working: 'Läser karriärsidorna.',
+    rail: {
+      label: 'Namnet',
+      lead: 'Din kontaktperson:',
+      items: [{
+        ...HALLDEN,
+        id: 'hallden-final',
+        featured: true,
+        reason: 'Kontaktperson för sommarnotarier, praktik och studentjobb.',
+        source: 'Sommarnotariesidan'
+      }],
+      supersedes: ['moberg', 'gustafsson', 'hallden']
+    }
+  }],
+  /* Anything pasted after the name — a CV, a personal number — is not taken
+     here, and nothing of it is repeated back. */
+  followUps: [{
+    variant: 'answer',
+    text: 'Ansökningar tas emot under lediga jobb, inte här.',
+    body: 'Ingen ansökan görs här. Inget sparas.'
+  }]
+};
+
+/* Everyone the scripts name, for the starters' name search — as the person
+   alone. The reason, source and basis each script writes belong to that
+   script's errand; a name search has no errand, so they are left off and the
+   card says who they are and how to reach them. */
+const bare = ({
+  reason,
+  source,
+  basis,
+  ...p
+}) => ({
+  ...p,
+  plain: true
+});
+const STENBECK = {
+  kind: 'person',
+  id: 'stenbeck',
+  name: 'Johanna Stenbeck',
+  role: 'Junior assistant',
+  office: 'Stockholm',
+  href: profile('johanna-stenbeck'),
+  imageSrc: portrait('/media/cyzpqor5/stenbeck-johanna-some.jpg'),
+  phone: '+46 10 614 30 00',
+  email: 'johanna.stenbeck@vinge.se'
+};
+const PEOPLE = [GLADER, KNUTSSON, MALM, AZELIUS, SODERLUND, BERGH, HANSSON, STENBECK].map(bare);
+
+/* The name search's answer, built for whoever was found: no questions, no
+   working beat, the person straight into the panel. Anything typed after it
+   is answered from SCRIPT_NAMN's follow-ups. */
+const lookupPerson = (query, pool = PEOPLE) => {
+  const f = v => String(v || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const words = f(query).split(/\s+/).filter(Boolean);
+  const hit = pool.find(p => words.length && words.every(w => f(p.name).indexOf(w) >= 0)) || pool.find(p => words.some(w => w.length > 2 && f(p.name).indexOf(w) >= 0)) || PEOPLE[0];
+  const first = hit.name.split(' ')[0];
+  return {
+    person: hit,
+    turn: {
+      variant: 'answer',
+      text: hit.name + (hit.role ? ', ' : '') + (!hit.role ? '' : /^Partner, /.test(hit.role) ? hit.role.replace(/^Partner, /, 'partner i ') : hit.role.charAt(0).toLowerCase() + hit.role.slice(1)) + (hit.office ? ' i ' + hit.office : '') + '.',
+      body: 'Direktnummer och e-post står vid namnet. Vill du hellre gå via växeln kopplar de dig till ' + first + ': 08-614 30 00.'
+    },
+    rail: {
+      label: 'Personen',
+      lead: 'Personen du söker:',
+      replaces: true,
+      items: [{
+        ...hit,
+        featured: true
+      }]
+    }
+  };
+};
+
+/* The whole directory, for the name search in the prototype: the scripted
+   people first (they carry real contact lines), then everyone the people
+   listing loads as `window.VingePeopleAll`. Contact lines for the rest are
+   DEMO DATA — the office switchboard and an address in the firm's pattern. */
+const OFFICE_PHONE = {
+  Stockholm: '010 614 30 00',
+  'Göteborg': '010 614 10 00',
+  'Malmö': '010 614 55 00',
+  Bryssel: '+32 2 501 07 00',
+  Bruxelles: '+32 2 501 07 00'
+};
+let directoryCache = null;
+const directory = () => {
+  const all = typeof window !== 'undefined' && window.VingePeopleAll || [];
+  if (directoryCache && directoryCache.n === all.length) return directoryCache.list;
+  const seen = new Set(PEOPLE.map(p => p.name));
+  const rest = all.filter(p => p && p.name && !seen.has(p.name)).map(p => ({
+    kind: 'person',
+    id: p.slug || p.name,
+    name: p.name,
+    role: p.role || undefined,
+    office: p.office === 'Bruxelles' ? 'Bryssel' : p.office,
+    href: p.slug ? profile(p.slug) : p.href,
+    imageSrc: p.portrait ? portrait(p.portrait) : p.imageSrc || undefined,
+    phone: OFFICE_PHONE[p.office] || OFFICE_PHONE.Stockholm,
+    email: p.slug ? p.slug.replace(/-/g, '.') + '@vinge.se' : undefined,
+    plain: true
+  }));
+  const list = PEOPLE.concat(rest);
+  directoryCache = {
+    n: all.length,
+    list
+  };
+  return list;
+};
+const SCRIPTS = [SCRIPT_FORVARV, SCRIPT_TVIST, SCRIPT_JOBB, SCRIPT_PRIVAT, SCRIPT_NAMN, SCRIPT_HITTA, SCRIPT_KARRIAR];
+Object.assign(__ds_scope, { SCRIPT_FORVARV, SCRIPT_TVIST, SCRIPT_JOBB, SCRIPT_PRIVAT, SCRIPT_NAMN, SCRIPT_HITTA, SCRIPT_KARRIAR, PEOPLE, lookupPerson, directory, SCRIPTS });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/scripts.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/CtaLink.jsx
@@ -1754,186 +2095,6 @@ function CtaLink({
 }
 Object.assign(__ds_scope, { CtaLink });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/CtaLink.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/Figure.jsx
-try { (() => {
-const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
-};
-
-/* Three ratios only. No rounded corners, no borders, no shadows, no overlay
-   gradients. Explicit ratio holds layout before the image lands. */
-function Figure({
-  src,
-  alt = '',
-  ratio = '3:2',
-  caption,
-  bleed = false,
-  priority = false,
-  minHeight,
-  bare = false,
-  className = '',
-  style
-}) {
-  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
-  return /*#__PURE__*/React.createElement("figure", {
-    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
-    style: {
-      margin: 0,
-      ...style
-    }
-  }, src ? /*#__PURE__*/React.createElement("img", {
-    src: src,
-    alt: alt,
-    loading: priority ? 'eager' : 'lazy',
-    fetchpriority: priority ? 'high' : undefined,
-    style: {
-      width: '100%',
-      aspectRatio,
-      objectFit: 'cover',
-      minHeight
-    }
-  }) : /*#__PURE__*/React.createElement("div", {
-    role: "img",
-    "aria-label": alt || 'Platshållare för foto',
-    style: {
-      width: '100%',
-      aspectRatio,
-      minHeight,
-      background: 'var(--surface-tint)',
-      display: 'grid',
-      placeItems: 'center',
-      overflow: 'hidden'
-    }
-  }, bare ? null : /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio)), caption ? /*#__PURE__*/React.createElement("figcaption", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)',
-      marginTop: 'var(--space-2)',
-      maxWidth: 'var(--measure-small)',
-      ...(bleed ? {
-        paddingInline: 'var(--margin)',
-        maxWidth: 'calc(var(--measure-small) + 2 * var(--margin))'
-      } : null)
-    }
-  }, caption) : null);
-}
-Object.assign(__ds_scope, { Figure });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Figure.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/GalleryRow.jsx
-try { (() => {
-/* A row of images, each on an explicit column span, each with its own label
-   and short description beneath. Spans are declared rather than divided, so
-   every image edge lands on a column line. */
-function GalleryRow({
-  items = [],
-  spans,
-  ratio = '3:2',
-  style
-}) {
-  const resolved = spans || items.map(() => Math.max(2, Math.floor(8 / Math.max(items.length, 1))));
-  return /*#__PURE__*/React.createElement("section", {
-    style: {
-      paddingBlock: 'var(--section-gap) 0',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      alignItems: 'start'
-    }
-  }, items.map((item, i) => {
-    let start = 1;
-    for (let k = 0; k < i; k++) start += resolved[k] || 2;
-    const span = resolved[i] || 2;
-    return /*#__PURE__*/React.createElement("div", {
-      key: item.label || i,
-      style: {
-        gridColumn: 'span ' + span,
-        marginTop: item.offset || 0
-      },
-      "data-col-start": start
-    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
-      src: item.src,
-      alt: item.alt || '',
-      ratio: item.ratio || ratio
-    }), item.label ? /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        marginTop: 'var(--space-2)',
-        maxWidth: 'none'
-      }
-    }, item.label) : null, item.body ? /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        marginTop: 'var(--space-0)',
-        color: 'var(--text-secondary)'
-      }
-    }, item.body) : null);
-  })));
-}
-Object.assign(__ds_scope, { GalleryRow });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/GalleryRow.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/OffsetGallery.jsx
-try { (() => {
-/* Staggered images at explicit start columns and spans, each vertically
-   offset. Nothing aligns to anything except a column line. */
-function OffsetGallery({
-  items = [],
-  style
-}) {
-  /* Absolute start lines only mean what they say against a fixed eight tracks,
-     so the block owns its own grid rather than reusing .grid, whose column
-     count drops to 4 and 2 below LG. Below 768px it is a single column and the
-     offsets are dropped. */
-  const [narrow, setNarrow] = React.useState(false);
-  React.useEffect(() => {
-    const mq = window.matchMedia('(max-width: 767px)');
-    const sync = () => setNarrow(mq.matches);
-    sync();
-    mq.addEventListener('change', sync);
-    return () => mq.removeEventListener('change', sync);
-  }, []);
-  return /*#__PURE__*/React.createElement("section", {
-    style: {
-      paddingBlock: 'var(--section-gap) 0',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: narrow ? 'minmax(0, 1fr)' : 'repeat(8, minmax(0, 1fr))',
-      gap: 'var(--gutter)',
-      rowGap: 'var(--space-5)',
-      paddingInline: 'var(--margin)',
-      maxWidth: 'var(--max-width)',
-      marginInline: 'auto',
-      alignItems: 'start'
-    }
-  }, items.map((item, i) => /*#__PURE__*/React.createElement("div", {
-    key: i,
-    style: {
-      gridColumn: narrow || !(item.start && item.span) ? '1 / -1' : item.start + ' / span ' + item.span,
-      marginTop: narrow ? 0 : item.offset || 0
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
-    src: item.src,
-    alt: item.alt || '',
-    ratio: item.ratio || '3:2',
-    caption: item.caption
-  })))));
-}
-Object.assign(__ds_scope, { OffsetGallery });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/OffsetGallery.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/MetaLine.jsx
 try { (() => {
@@ -2478,6 +2639,11 @@ const V_PROX_R = 6; /* how many lines either side the swell reaches */
 /* While a case is pinned the field is one close control, and says so. */
 const CLOSE_CURSOR = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' stroke='%23103a1c' stroke-width='1.5'/%3E%3C/svg%3E\") 12 12, pointer";
 const V_HEIGHT = 36;
+/* SM vertical: the field becomes a side-scrolling rail. One fixed pitch, wide
+   enough that each line is its own stop, and the line on the left edge is the
+   one being read. */
+const R_PITCH = 16;
+const R_HEIGHT = 48;
 const V_LIFT = 8; /* the tick under the cursor stands this much taller */
 
 /* Two readings of the same field. The first is the whole record; the second
@@ -2500,6 +2666,10 @@ function Record({
   closeLabel = 'Stäng',
   actionHref = '#',
   viewLabels = VIEWS,
+  /* Show the two-view switch. Off, the block is the whole record only and the
+     AI-derived view is unreachable. Pages keep it off by default and let the
+     demo console bring it back. */
+  views = true,
   allLine = 'Varje uppdrag vi har tagit sedan 2022.',
   /* {n} and {total} are filled in. The denominator carries it: a bare count
      leaves the word "intressanta" standing for nothing. */
@@ -2545,6 +2715,10 @@ function Record({
   orientation = 'horizontal',
   /* Vertical reading: the pinned case's way on to the full write-up. */
   readMoreLabel = 'Läs hela uppdraget',
+  /* SM rail: where the read-more link goes when the entry has no href of its
+     own. On a phone the case is read on its own page, not expanded here. */
+  caseHref = '#',
+  clientLabel = 'Klient',
   /* Listing: the rows are written out as client names instead of lines, the
      hovered one folds out its title and preamble, and the pointer becomes
      this label. Horizontal only. */
@@ -2559,12 +2733,26 @@ function Record({
   style
 }) {
   const [viewState, setViewState] = React.useState(initialView);
-  const view = viewProp == null ? viewState : viewProp;
+  const view = views ? viewProp == null ? viewState : viewProp : 0;
   const setView = v => {
     setViewState(v);
     if (onViewChange) onViewChange(v);
   };
   const [cursor, setCursor] = React.useState(0);
+  /* The filter control and the readout pin as one group. The readout is the
+     taller of the two, so it would unpin first and slide up under the
+     control; its height is handed to the grid so the control's sticky range
+     ends at the same scroll position (see grid.css). */
+  const sideRef = React.useRef(null);
+  React.useEffect(() => {
+    const s = sideRef.current;
+    if (!s || typeof ResizeObserver === 'undefined') return undefined;
+    const host = s.closest('.grid');
+    if (!host) return undefined;
+    const ro = new ResizeObserver(() => host.style.setProperty('--record-side-h', s.offsetHeight + 'px'));
+    ro.observe(s);
+    return () => ro.disconnect();
+  }, [termFilter, view]);
   const [printed, setPrinted] = React.useState(false);
   /* Nothing is lit until the visitor actually points: the default cursor row
      must not read as a match. */
@@ -2590,6 +2778,7 @@ function Record({
      passing through the lower middle of the viewport is the one that turns
      into text. */
   const [touch, setTouch] = React.useState(false);
+  const [small, setSmall] = React.useState(false);
   /* The filter panel shows its scrollbar only while it is being scrolled. */
   const termsListRef = React.useRef(null);
   React.useEffect(() => {
@@ -2811,7 +3000,10 @@ function Record({
       }
     }, e.disciplines.join(', ')) : null)))));
   };
-  const vertical = orientation === 'vertical';
+  /* SM: both orientations read as the side-scrolling rail. The horizontal
+     field's rows only work with a cursor over them. */
+  const vertical = orientation === 'vertical' || small && !listing;
+  const rail = vertical && small;
   /* A clicked line pins its case open below the field. While pinned the field
      stops reading the pointer: the next click anywhere on it closes the case. */
   const [pinned, setPinnedState] = React.useState(null);
@@ -2907,13 +3099,97 @@ function Record({
     /* Narrow viewports get the scroll reading too, not just touch devices —
        a phone-width window in a desktop browser is the same layout. */
     const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
-    const sync = () => setTouch(mq.matches);
+    const sm = window.matchMedia('(max-width: 767px)');
+    const sync = () => {
+      setTouch(mq.matches);
+      setSmall(sm.matches);
+    };
     sync();
     if (mq.addEventListener) {
       mq.addEventListener('change', sync);
-      return () => mq.removeEventListener('change', sync);
+      sm.addEventListener('change', sync);
+      return () => {
+        mq.removeEventListener('change', sync);
+        sm.removeEventListener('change', sync);
+      };
     }
   }, []);
+
+  /* SM rail: nothing is read until the visitor scrolls it. From then on the
+     line nearest the rail's left edge is the cursor, and moving the rail
+     lets go of a pinned case, since the case below follows the edge. */
+  const [railMore, setRailMore] = React.useState(true);
+  const [railHit, setRailHit] = React.useState(true);
+  const markRef = React.useRef(null);
+  /* Each line that arrives under the marker springs it up and lets it settle,
+     so the change of line is felt, not only read below. */
+  React.useEffect(() => {
+    const m = markRef.current;
+    if (!rail || !touched || !m || reduced.current || !m.animate) return;
+    m.animate([{
+      height: R_HEIGHT + V_LIFT - 3 + 'px'
+    }, {
+      height: R_HEIGHT + V_LIFT + 'px'
+    }], {
+      duration: 180,
+      easing: 'cubic-bezier(0.25, 1, 0.5, 1)'
+    });
+  }, [cursor, rail, touched]);
+  React.useEffect(() => {
+    if (!rail) return undefined;
+    const el = fieldRef.current;
+    if (!el) return undefined;
+    let frame = 0;
+    let moved = false;
+    /* Read on the scroll event itself, not a frame later: the fixed marker at
+       the edge and the case below must change on the same frame the line
+       arrives under it. Offsets are scroll-independent, so no rect reads. */
+    const pick = () => {
+      const x = el.scrollLeft + R_PITCH / 2;
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((t, i) => {
+        if (!t || !t.offsetWidth || !t.hasAttribute('data-tick')) return;
+        const d = Math.abs(t.offsetLeft + R_PITCH / 2 - x);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+      /* Between two years there is no line at the edge, so the marker goes
+         rather than standing in the gap. */
+      const under = best >= 0 && bestD < R_PITCH / 2;
+      setRailHit(p => p === under ? p : under);
+    };
+    const read = () => {
+      frame = 0;
+      const next = el.scrollWidth - el.scrollLeft - el.clientWidth > 4;
+      setRailMore(p => p === next ? p : next);
+    };
+    const onScroll = () => {
+      moved = true;
+      if (pinnedRef.current != null) setPinned(null);
+      pick();
+      if (!frame) frame = requestAnimationFrame(read);
+    };
+    read();
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    const ro = new ResizeObserver(() => {
+      if (!frame) frame = requestAnimationFrame(read);
+    });
+    ro.observe(el);
+    return () => {
+      el.removeEventListener('scroll', onScroll);
+      ro.disconnect();
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [rail, view, term]);
 
   /* Touch: the focal band sits at 62% of the viewport, low enough that the row
      being read is not under the thumb. The nearest row to it is the cursor. */
@@ -3191,7 +3467,12 @@ function Record({
     if (el) el.focus({
       preventScroll: true
     });
-    if (vertical && el && fieldRef.current) {
+    if (rail && el && fieldRef.current) {
+      fieldRef.current.scrollTo({
+        left: el.offsetLeft,
+        behavior: reduced.current ? 'auto' : 'smooth'
+      });
+    } else if (vertical && el && fieldRef.current) {
       const r = el.getBoundingClientRect();
       const b = fieldRef.current.getBoundingClientRect();
       tipTo(r.left + r.width / 2 - b.left, r.top - b.top);
@@ -3246,7 +3527,7 @@ function Record({
      itself, so the readout carries only what neither says. */
   /* Until the visitor points at a line there is nothing to read out, and the
      readout says so rather than standing on an arbitrary row. */
-  const readout = touched && current ? [{
+  const readout = (touched || rail) && current ? [{
     k: 'Typ av uppdrag',
     v: current.work
   }, {
@@ -3266,7 +3547,7 @@ function Record({
   /* Desired pitch per visible tick, then one scale factor if the row would
      overrun the measured width. Resting fields that fit are left as they are. */
   const vPitch = {};
-  if (vertical) {
+  if (vertical && !rail) {
     let sum = 0;
     let groups = 0;
     blocks.forEach(b => {
@@ -3348,7 +3629,7 @@ function Record({
       flexDirection: 'column',
       gap: 'var(--space-2)'
     }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
+  }, views ? /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
     label: "Vy",
     tabs: viewLabels.map((v, i) => ({
       id: String(i),
@@ -3356,7 +3637,7 @@ function Record({
     })),
     value: String(view),
     onChange: v => setView(Number(v))
-  }), view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
+  }) : null, view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
     className: "small",
     style: {
       color: 'var(--text-secondary)'
@@ -3602,9 +3883,11 @@ function Record({
     }, t.n));
   })))))))) : null, /*#__PURE__*/React.createElement("div", {
     "data-record-body": true,
+    "data-rail": rail ? '' : undefined,
     "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined
   }, /*#__PURE__*/React.createElement("div", {
-    "data-record-side": true
+    "data-record-side": true,
+    ref: sideRef
   }, /*#__PURE__*/React.createElement("div", {
     role: "status",
     "aria-live": "polite",
@@ -3635,18 +3918,60 @@ function Record({
       color: 'var(--text-secondary)'
     }
   }, readingRule) : null, vertical ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative'
+    }
+  }, rail ? /*#__PURE__*/React.createElement("div", {
+    ref: markRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      bottom: 0,
+      width: BAR_ACTIVE,
+      height: R_HEIGHT + V_LIFT,
+      background: 'var(--ink)',
+      zIndex: 2,
+      pointerEvents: 'none',
+      opacity: printed && railHit ? 1 : 0,
+      transition: 'height var(--dur-fast) var(--ease-quart), opacity 90ms linear'
+    }
+  }) : null, /*#__PURE__*/React.createElement("div", {
     ref: fieldRef,
+    "data-record-rail": rail ? '' : undefined,
     style: {
       position: 'relative',
       display: 'flex',
       flexWrap: 'nowrap',
       alignItems: 'flex-start',
-      columnGap: 'var(--space-5)',
+      columnGap: rail ? 'var(--space-6)' : 'var(--space-5)',
       rowGap: 'var(--space-4)',
-      cursor: pinned != null ? CLOSE_CURSOR : 'default'
+      cursor: rail ? 'default' : pinned != null ? CLOSE_CURSOR : 'default',
+      ...(rail ? {
+        /* Bleeds off the right margin, so the rail reads as running on
+           past the screen; the fade says the same while there is more. */
+        marginInlineEnd: 'calc(-1 * var(--margin))',
+        overflowX: 'auto',
+        overflowY: 'hidden',
+        scrollSnapType: 'x mandatory',
+        overscrollBehaviorX: 'contain',
+        scrollbarWidth: 'none',
+        WebkitOverflowScrolling: 'touch',
+        maskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none',
+        WebkitMaskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none'
+      } : null)
     },
     onKeyDown: onKeyDown,
     onClick: ev => {
+      if (rail) {
+        /* A tap brings its line to the edge, which is what reads it. */
+        const t = ev.target.closest && ev.target.closest('[data-tick]');
+        if (t) ev.currentTarget.scrollTo({
+          left: t.offsetLeft,
+          behavior: reduced.current ? 'auto' : 'smooth'
+        });
+        return;
+      }
       if (pinned != null) {
         unpin();
         return;
@@ -3655,12 +3980,12 @@ function Record({
       if (t) pin(Number(t.getAttribute('data-tick')));
     },
     onMouseMove: ev => {
-      if (pinned != null) return;
+      if (rail || pinned != null) return;
       const b = ev.currentTarget.getBoundingClientRect();
       tipTo(ev.clientX - b.left, ev.clientY - b.top);
     },
     onMouseLeave: ev => {
-      if (pinned != null) return;
+      if (rail || pinned != null) return;
       if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
     }
   }, blocks.map(b => {
@@ -3685,7 +4010,17 @@ function Record({
         overflow: 'visible',
         fontVariantNumeric: 'tabular-nums',
         opacity: view === 1 && !anyLit ? 0.14 : 1,
-        transition: 'opacity var(--dur-fast) var(--ease-quart)'
+        transition: 'opacity var(--dur-fast) var(--ease-quart)',
+        ...(rail ? {
+          position: 'sticky',
+          left: 0,
+          width: 'auto',
+          alignSelf: 'flex-start',
+          zIndex: 1,
+          background: 'var(--paper)',
+          paddingInlineEnd: 'var(--space-2)',
+          color: groupOpen ? 'var(--ink)' : undefined
+        } : null)
       }
     }, b.year), /*#__PURE__*/React.createElement("div", {
       style: {
@@ -3694,12 +4029,14 @@ function Record({
         alignItems: 'flex-end'
       }
     }, b.rows.map(e => {
-      const on = cursor === e.i && touched;
+      /* On the rail the fixed marker is the active line. */
+      const on = cursor === e.i && touched && !rail;
       const matched = relevant && litSet.has(e.i);
       const hitTerm = termOn && termSet.has(e.i);
       if (termOn && !hitTerm) return null;
       const rowOpacity = !printed ? 0 : pinned != null ? e.i === pinned ? 1 : 0.22 : view === 1 ? matched ? 1 : 0.14 : 1;
-      const pitchW = vPitch[e.i] || V_PITCH;
+      const pitchW = rail ? R_PITCH : vPitch[e.i] || V_PITCH;
+      const tickH = rail ? R_HEIGHT : V_HEIGHT;
       return /*#__PURE__*/React.createElement("div", {
         key: e.i,
         ref: el => {
@@ -3710,23 +4047,24 @@ function Record({
         "aria-label": label(e),
         "aria-pressed": pinned === e.i ? 'true' : 'false',
         onMouseEnter: () => {
-          if (pinned != null) return;
+          if (rail || pinned != null) return;
           setCursor(e.i);
           setTouched(true);
         },
         onFocus: () => {
-          if (pinned != null) return;
+          if (rail || pinned != null) return;
           setCursor(e.i);
           setTouched(true);
         },
         style: {
           position: 'relative',
           width: pitchW,
-          height: V_HEIGHT + V_LIFT,
+          height: tickH + V_LIFT,
           flex: '0 0 auto',
           display: 'flex',
           alignItems: 'flex-end',
-          justifyContent: 'center',
+          justifyContent: rail ? 'flex-start' : 'center',
+          scrollSnapAlign: rail ? 'start' : undefined,
           cursor: 'inherit',
           outline: 'none',
           opacity: rowOpacity,
@@ -3736,14 +4074,21 @@ function Record({
       }, /*#__PURE__*/React.createElement("div", {
         style: {
           width: on ? BAR_ACTIVE : BAR,
-          height: on ? V_HEIGHT + V_LIFT : V_HEIGHT,
+          height: on ? tickH + V_LIFT : tickH,
           background: on || hitTerm || matched ? 'var(--ink)' : 'var(--underline-rest-secondary)',
           transition: 'height var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)',
           pointerEvents: 'none'
         }
       }));
     })));
-  }), /*#__PURE__*/React.createElement("div", {
+  }), rail ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      flex: '0 0 auto',
+      width: 'calc(100% - ' + R_PITCH + 'px - var(--space-6))',
+      height: 1
+    }
+  }) : null, /*#__PURE__*/React.createElement("div", {
     ref: tipRef,
     "aria-hidden": "true",
     style: {
@@ -3764,10 +4109,10 @@ function Record({
       paddingInline: '0.55rem',
       color: 'var(--text-primary)',
       fontWeight: 'var(--weight-medium)',
-      opacity: touched && current && pinned == null ? 1 : 0,
+      opacity: touched && current && pinned == null && !rail ? 1 : 0,
       transition: 'opacity var(--dur-fast) var(--ease-quart)'
     }
-  }, current ? current.client : ''))) : /*#__PURE__*/React.createElement("div", {
+  }, current ? current.client : '')))) : /*#__PURE__*/React.createElement("div", {
     ref: fieldRef,
     style: {
       position: 'relative',
@@ -4062,12 +4407,19 @@ function Record({
   /* The case under the cursor. Opens on first approach, holds while
      the pointer is on the lines, and folds shut when it leaves them.
      A pin keeps it open and adds the body. */
+  /* SM rail: the case reads above the lines, so the rail sits where
+     the thumb is. It is open from the start on the first line, so it
+     never folds out and pushes the rail down mid-scroll. */
   React.createElement("div", {
     "data-record-case": true,
     style: {
       display: 'grid',
-      gridTemplateRows: touched && current ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+      gridTemplateRows: (touched || rail) && current ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)',
+      ...(rail ? {
+        order: -1,
+        paddingBlockStart: 'var(--rail-gap, var(--space-5))'
+      } : null)
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -4083,7 +4435,11 @@ function Record({
       maxWidth: '44rem',
       paddingBlockStart: 'var(--space-2)'
     }
-  }, current && current.title ? /*#__PURE__*/React.createElement("h3", {
+  }, rail && current ? /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: KEY_CELL
+  }, clientLabel), /*#__PURE__*/React.createElement("div", {
+    style: VAL_CELL
+  }, current.client)) : null, current && (current.title || rail) ? /*#__PURE__*/React.createElement("h3", {
     style: {
       margin: 0,
       fontFamily: 'var(--font-display)',
@@ -4091,11 +4447,36 @@ function Record({
       fontSize: 'var(--display-3)',
       lineHeight: 1.1,
       color: 'var(--ink)',
-      textWrap: 'pretty'
+      textWrap: 'pretty',
+      ...(rail && pinned == null ? {
+        height: 'calc(var(--rail-title-lines, 3) * 1lh)',
+        overflow: 'hidden',
+        display: '-webkit-box',
+        WebkitBoxOrient: 'vertical',
+        WebkitLineClamp: 'var(--rail-title-lines, 3)'
+      } : null)
     }
-  }, current.title) : null, current && current.preamble ? /*#__PURE__*/React.createElement("p", {
-    className: "prose"
-  }, current.preamble) : null, /*#__PURE__*/React.createElement("div", {
+  }, current.title) : null, current && (current.preamble || rail) ? /*#__PURE__*/React.createElement("p", {
+    className: "prose",
+    style: rail && pinned == null ? {
+      height: 'calc(var(--rail-pre-lines, 4) * 1lh)',
+      overflow: 'hidden',
+      display: '-webkit-box',
+      WebkitBoxOrient: 'vertical',
+      WebkitLineClamp: 'var(--rail-pre-lines, 4)'
+    } : undefined
+  }, current.preamble) : null, rail && readMoreLabel ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: current && current.href || caseHref,
+    variant: "secondary",
+    tabIndex: 0,
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, readMoreLabel)) : null, /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
       gridTemplateRows: pinned != null ? '1fr' : '0fr',
@@ -4300,6 +4681,11 @@ function useOverDark(ref, {
   return over;
 }
 
+/* Imagery under a header element: the one ground the exclusion blend is kept
+   for. A section painted with a CSS background image is invisible to the hit
+   test, so it opts in with `data-media`. */
+const MEDIA = 'img, picture, video, canvas, [data-media]';
+
 /* The mint sibling of a paper wordmark file. */
 function mintLogo(src) {
   return String(src).replace('-paper', '-mint');
@@ -4311,7 +4697,7 @@ function mintLogo(src) {
 function washLogo(src) {
   return String(src).replace('-paper', '-wash');
 }
-Object.assign(__ds_scope, { useOverDark, mintLogo, washLogo });
+Object.assign(__ds_scope, { useOverDark, MEDIA, mintLogo, washLogo });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/darkGround.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/focusSource.jsx
@@ -4342,251 +4728,6 @@ function useFocusSource() {
 }
 Object.assign(__ds_scope, { useFocusSource });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/focusSource.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/ListingFilters.jsx
-try { (() => {
-/* The filter bar the two listings share.
-
-   One row always shows: the Filtrera toggle, the count against the whole set,
-   and a way to clear. The fields themselves are a drawer under it, because a
-   listing's first job is the list — a permanent bank of four selects reads as
-   a form and pushes the first row under the fold.
-
-   The fields are data, so the same component serves any listing: the people
-   register passes area, sector and office, the stream passes type, area,
-   sector and year. What must not vary between the two pages is the layout,
-   the counted option labels and the words, so they live here once.
-
-   Two variants:
-     drawer — the fields are behind the toggle. The default, and what both
-       listings use.
-     open — the fields are always shown and the toggle is gone, for a page
-       whose whole purpose is the filtering (a search result, a facet landing
-       page) rather than the list. */
-function ListingFilters({
-  fields = [],
-  value = {},
-  onChange,
-  countLine = '',
-  onClear,
-  showClear = false,
-  open,
-  onToggle,
-  variant = 'drawer',
-  label = 'Filtrera',
-  marked = false,
-  /* A field kept out of the drawer and standing in the top row: typing filters
-     the list immediately, without the drawer having to be opened at all. Its
-     value and change handler are the same as every other field's. */
-  searchId = '',
-  searchLabel = 'Sök',
-  searchPlaceholder = '',
-  style
-}) {
-  __ds_scope.useFocusSource();
-  const [selfOpen, setSelfOpen] = React.useState(false);
-  const [warm, setWarm] = React.useState(false);
-  const controlled = open != null;
-  const isOpen = variant === 'open' ? true : controlled ? !!open : selfOpen;
-  const toggle = () => {
-    if (onToggle) onToggle();
-    if (!controlled) setSelfOpen(v => !v);
-  };
-  const labelShown = warm || isOpen;
-  const field = {
-    width: '100%',
-    marginTop: 6,
-    padding: '0 0 8px',
-    border: 0,
-    borderBottom: '1px solid var(--rule-hairline)',
-    background: 'transparent',
-    color: 'var(--ink)',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)',
-    appearance: 'none',
-    borderRadius: 0
-  };
-  const quiet = {
-    border: 0,
-    background: 'transparent',
-    padding: 0,
-    cursor: 'pointer',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)',
-    color: 'var(--text-secondary)',
-    textDecoration: 'underline',
-    textDecorationColor: 'var(--underline-rest-secondary)',
-    textUnderlineOffset: '0.22em'
-  };
-  const grid = /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))',
-      gap: 'var(--gutter)'
-    }
-  }, fields.map(f => /*#__PURE__*/React.createElement("label", {
-    key: f.id,
-    style: {
-      display: 'block',
-      minWidth: 0
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      display: 'block',
-      maxWidth: 'none',
-      color: 'var(--text-secondary)'
-    }
-  }, f.label), f.kind === 'search' ? /*#__PURE__*/React.createElement("input", {
-    type: "search",
-    value: value[f.id] || '',
-    placeholder: f.placeholder || '',
-    onChange: e => onChange && onChange(f.id, e.target.value),
-    style: field
-  }) : /*#__PURE__*/React.createElement("select", {
-    value: value[f.id] || '',
-    onChange: e => onChange && onChange(f.id, e.target.value),
-    style: {
-      ...field,
-      cursor: 'pointer'
-    }
-  }, (f.options || []).map(o => /*#__PURE__*/React.createElement("option", {
-    key: o.value,
-    value: o.value
-  }, o.label))))));
-  return /*#__PURE__*/React.createElement("div", {
-    style: style
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'center',
-      gap: 'var(--space-3)'
-    }
-  }, variant === 'drawer' ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: toggle,
-    onMouseEnter: () => setWarm(true),
-    onMouseLeave: () => setWarm(false),
-    onFocus: () => setWarm(true),
-    onBlur: () => setWarm(false),
-    "aria-expanded": isOpen ? 'true' : 'false',
-    "aria-label": label,
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: 8,
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'flex-start',
-      gap: 3,
-      width: 14
-    }
-  }, [14, 10, 6].map(w => /*#__PURE__*/React.createElement("span", {
-    key: w,
-    style: {
-      display: 'block',
-      width: w,
-      height: 1,
-      background: labelShown ? 'var(--ink)' : 'var(--text-secondary)',
-      transition: 'background var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'block',
-      maxWidth: labelShown ? '9ch' : 0,
-      opacity: labelShown ? 1 : 0,
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-      textDecoration: 'underline',
-      textDecorationThickness: '1px',
-      textUnderlineOffset: '0.2em',
-      textDecorationColor: warm ? 'currentColor' : 'transparent',
-      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-reveal) var(--ease-expo), text-decoration-color var(--dur-reveal) var(--ease-expo)'
-    }
-  }, label), marked && !isOpen ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      width: 4,
-      height: 4,
-      borderRadius: '50%',
-      background: 'var(--ink)'
-    }
-  }) : null) : null, countLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, countLine) : null, showClear ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClear,
-    style: quiet
-  }, "Rensa") : null, searchId ? /*#__PURE__*/React.createElement("label", {
-    style: {
-      marginLeft: 'auto',
-      display: 'flex',
-      alignItems: 'baseline',
-      gap: 'var(--space-2)',
-      minWidth: 0,
-      flex: '1 1 220px',
-      maxWidth: 320
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      flex: 'none',
-      maxWidth: 'none',
-      color: 'var(--text-secondary)'
-    }
-  }, searchLabel), /*#__PURE__*/React.createElement("input", {
-    type: "search",
-    value: value[searchId] || '',
-    placeholder: searchPlaceholder,
-    onChange: e => onChange && onChange(searchId, e.target.value),
-    style: {
-      ...field,
-      marginTop: 0,
-      minWidth: 0
-    }
-  })) : null), variant === 'open' ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 'var(--space-4)'
-    }
-  }, grid) : /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": isOpen ? 'false' : 'true',
-    style: {
-      display: 'grid',
-      gridTemplateRows: isOpen ? '1fr' : '0fr',
-      opacity: isOpen ? 1 : 0,
-      marginTop: isOpen ? 'var(--space-4)' : 0,
-      visibility: isOpen ? 'visible' : 'hidden',
-      transition: isOpen ? 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s' : 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s linear 420ms'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, grid)));
-}
-Object.assign(__ds_scope, { ListingFilters });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ListingFilters.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/headerActions.jsx
 try { (() => {
@@ -5212,7 +5353,7 @@ try { (() => {
 
    It is not a greyscale filter. The image is desaturated and hardened, then
    composited multiply-with-paper to set the white point and screen-with-ink to
-   set the black point, so shadows sit on --noir-shadow (a warm near-black from the stone hue) and highlights on
+   set the black point, so shadows sit on --noir-shadow (a warm near-black warm neutral) and highlights on
    the paper. The contrast pass before the composite is what makes it
    read as noir rather than as a desaturated photograph.
 
@@ -5305,7 +5446,7 @@ function paintNoirPlate(ctx, img, w, h, noir = NOIR_CONTRAST, invert = false, fo
   ctx.drawImage(img, sx, sy, sw, sh, 0, 0, w, h);
   ctx.filter = 'none';
   ctx.globalCompositeOperation = 'multiply';
-  ctx.fillStyle = 'rgb(' + (invert ? tokenRgb('--clay', '212, 205, 201') : tokenRgb('--paper', '229, 223, 219')) + ')';
+  ctx.fillStyle = 'rgb(' + (invert ? tokenRgb('--clay', '220, 214, 210') : tokenRgb('--paper', '243, 240, 238')) + ')';
   ctx.fillRect(0, 0, w, h);
   ctx.globalCompositeOperation = 'screen';
   ctx.fillStyle = 'rgb(' + tokenRgb('--noir-shadow', '20, 19, 16') + ')';
@@ -6487,7 +6628,7 @@ try { (() => {
    Ink or paper, nothing between. The element paints nothing at rest, so it can
    sit over any ground. */
 
-/* Read from the tokens at paint time; 'mint' is the former name for stone. */
+/* Read from the tokens at paint time; 'stone' and 'mint' are former names for clay. */
 const TONES = {
   get ink() {
     return __ds_scope.tokenRgb('--ink', '0, 41, 0');
@@ -6495,11 +6636,14 @@ const TONES = {
   get paper() {
     return __ds_scope.tokenRgb('--paper', '229, 223, 219');
   },
+  get clay() {
+    return __ds_scope.tokenRgb('--clay', '220, 214, 210');
+  },
   get stone() {
-    return __ds_scope.tokenRgb('--stone', '201, 201, 202');
+    return __ds_scope.tokenRgb('--clay', '220, 214, 210');
   },
   get mint() {
-    return __ds_scope.tokenRgb('--stone', '201, 201, 202');
+    return __ds_scope.tokenRgb('--clay', '220, 214, 210');
   }
 };
 const BUCKETS = 7;
@@ -7499,7 +7643,7 @@ const RATIOS = {
 const INK = () => 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
 /* Inverted, the dots are laid on ink, so they take mint rather than paper —
    same swap the plate makes (`NOIR_MINT`). */
-const MINT = () => 'rgb(' + __ds_scope.tokenRgb('--clay', '212, 205, 201') + ')';
+const MINT = () => 'rgb(' + __ds_scope.tokenRgb('--clay', '220, 214, 210') + ')';
 const TAU = Math.PI * 2;
 /* How much faster a driven reveal un-prints than it prints. */
 const REWIND = 2.6;
@@ -7532,6 +7676,7 @@ function fitDpr(w, h) {
   return px <= MAX_CANVAS_PX ? dpr : Math.max(1, dpr * Math.sqrt(MAX_CANVAS_PX / px));
 }
 function ImageReveal({
+  shimmer,
   effect,
   src,
   alt = '',
@@ -7640,8 +7785,14 @@ function ImageReveal({
        the resolved card comes all the way to colour. `restTone` below 1 rests
        part-way instead. */
     const colorT = colorOverride != null ? 1 - restTone * (1 - colorOverride) : Math.max(q, closed);
+    /* Inverted, the plate under the screen is a negative, and a negative over
+       a photograph that is already showing reads as a flicker however brief.
+       So on ink the handover to colour is complete before the photograph
+       starts to come up (photoT starts at 0.93): the negative only ever sits
+       under the dots, never over the picture. */
+    const colorFinal = inverted ? Math.max(colorT, smooth01(p, 0.86, 0.93)) : colorT;
     if (photoRef.current) photoRef.current.style.opacity = String(photoT);
-    if (duoRef.current) duoRef.current.style.opacity = String(photoT * (1 - colorT));
+    if (duoRef.current) duoRef.current.style.opacity = String(photoT * (1 - colorFinal));
     canvas.style.opacity = String(1 - photoT);
     if (photoT >= 1) return;
     const {
@@ -7677,6 +7828,7 @@ function ImageReveal({
        photograph rather than a diagonal band of specks; the remaining travel
        is spent on dot growth and closure. */
     const front = -0.15 + p * 2.3;
+    const sh = shimmerRef.current;
     const settle = smooth01(p, 0.6, 1); /* rhythm fades out as it resolves */
     const bias = dynamics * 0.22;
 
@@ -7734,7 +7886,7 @@ function ImageReveal({
 
         /* Two crossing waves: one riding the front, one slower and oblique.
            Both settle to 1 as the image resolves, so the last frame is still. */
-        const pulse = 0.68 + 0.32 * Math.sin(nd * TAU * 2.6 - p * 9) + 0.14 * Math.sin(x * 0.012 - y * 0.017 + p * 5);
+        const pulse = 0.68 + 0.32 * Math.sin(nd * TAU * 2.6 - p * 9 - sh) + 0.14 * Math.sin(x * 0.012 - y * 0.017 + p * 5 + sh * 0.55);
         const rhythm = 1 + (pulse - 1) * (1 - settle);
         if (rhythm <= 0) continue;
         const radius = rBase * sizeT * bandT * rhythm;
@@ -7895,6 +8047,12 @@ function ImageReveal({
      page scrolls) and hands the reveal a position. Read every frame. */
   const scrubRef = React.useRef(progress);
   scrubRef.current = progress;
+  /* Shimmer: a phase, in radians, added to the two crossing waves on top of
+     what progress gives them. Lets a held print keep its calibrated diagonals
+     travelling (driven by scroll, say) without advancing the front or closing
+     the screen. */
+  const shimmerRef = React.useRef(shimmer || 0);
+  shimmerRef.current = shimmer || 0;
   const kickRef = React.useRef(null);
   React.useEffect(() => {
     if (play == null && progress == null) return;
@@ -8075,7 +8233,8 @@ function ImageReveal({
         colorRef.current = over;
       }
       const prev = progressRef.current;
-      const moved = !prev || Math.abs(now.p - prev.p) > 0.002 || Math.abs(now.q - prev.q) > 0.002 || Math.abs(now.v - prev.v) > 0.002;
+      now.sh = shimmerRef.current;
+      const moved = !prev || Math.abs(now.sh - (prev.sh || 0)) > 0.01 || Math.abs(now.p - prev.p) > 0.002 || Math.abs(now.q - prev.q) > 0.002 || Math.abs(now.v - prev.v) > 0.002;
       const toning = over != null && Math.abs(over - (prev ? prev.over ?? -1 : -1)) > 0.001;
       if (moved || toning) {
         progressRef.current = {
@@ -8576,6 +8735,109 @@ function lineRects(el, base) {
     };
   });
 }
+
+/* Held for a moment after mounting, unless the thing is already there
+   (restored, or re-shown): the stagger is what makes a list arrive item by
+   item rather than all at once. */
+function useGhostHold(skip, index = 0, base = 420, step = 140) {
+  const [hold, setHold] = React.useState(!skip);
+  React.useEffect(() => {
+    if (skip) {
+      setHold(false);
+      return undefined;
+    }
+    const id = window.setTimeout(() => setHold(false), base + index * step);
+    return () => window.clearTimeout(id);
+  }, []);
+  return hold;
+}
+
+/* The loader, laid over something that has already arrived but is not shown
+   yet: the same raster the working indicator paints, cut to the element's own
+   lines of text and its pictures, so a link or a person resolves out of its
+   own silhouette. The element hides itself while `hold` is on (visibility,
+   so it keeps its space); this overlay opts back into visibility. */
+function GhostLoader({
+  targetRef,
+  hold,
+  src,
+  effect
+}) {
+  const [mask, setMask] = React.useState(null);
+  React.useLayoutEffect(() => {
+    if (!hold) {
+      setMask(null);
+      return undefined;
+    }
+    /* The target is usually this overlay's own parent, and a parent's ref is
+       attached after its children's layout effects have run — so on mount
+       the element may not be there yet. Wait a frame for it. */
+    let el = targetRef.current;
+    let ro = null,
+      raf = 0,
+      dead = false;
+    const measure = () => {
+      const base = el.getBoundingClientRect();
+      const rects = lineRects(el, base);
+      el.querySelectorAll('img, [data-ghost-box]').forEach(n => {
+        const r = n.getBoundingClientRect();
+        if (r.width && r.height) rects.push({
+          x: r.left - base.left,
+          y: r.top - base.top,
+          w: r.width,
+          h: r.height
+        });
+      });
+      const seen = rects.filter(r => r.y < base.height && r.y + r.h > 0 && r.w > 0);
+      if (!seen.length) {
+        setMask(null);
+        return;
+      }
+      setMask(seen.map(r => 'M' + r.x.toFixed(1) + ' ' + r.y.toFixed(1) + 'h' + r.w.toFixed(1) + 'v' + r.h.toFixed(1) + 'h-' + r.w.toFixed(1) + 'Z').join(' '));
+    };
+    const start = () => {
+      if (dead) return;
+      el = targetRef.current;
+      if (!el) {
+        raf = window.requestAnimationFrame(start);
+        return;
+      }
+      measure();
+      ro = new ResizeObserver(measure);
+      ro.observe(el);
+      /* Pictures that land later change the silhouette. */
+      el.querySelectorAll('img').forEach(im => {
+        if (!im.complete) im.addEventListener('load', measure, {
+          once: true
+        });
+      });
+    };
+    start();
+    return () => {
+      dead = true;
+      window.cancelAnimationFrame(raf);
+      if (ro) ro.disconnect();
+    };
+  }, [hold]);
+  if (!hold || !mask) return null;
+  return /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      inset: 0,
+      visibility: 'visible',
+      pointerEvents: 'none',
+      clipPath: 'path("' + mask + '")',
+      WebkitClipPath: 'path("' + mask + '")'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
+    effect: effect,
+    mode: "loader",
+    src: src || undefined,
+    pitch: 3.5,
+    intensity: 0.55
+  }));
+}
 function WorkingIndicator({
   active = false,
   delay = 300,
@@ -8682,8 +8944,277 @@ function WorkingIndicator({
     }
   }, note) : null);
 }
-Object.assign(__ds_scope, { WorkingIndicator });
+Object.assign(__ds_scope, { useGhostHold, GhostLoader, WorkingIndicator });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/WorkingIndicator.jsx", error: String((e && e.message) || e) }); }
+
+// components/core/Figure.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* The house rule for pictures: until an image has loaded, its box plays the
+   loader raster — the same shimmer the conversation's ghosts use — and the
+   picture fades up over it once it lands. Never an empty tone, never a
+   broken-image flash. Sizing given in `style` goes to the box; the image
+   fills it. */
+function ImageLoad({
+  src,
+  alt = '',
+  style,
+  className,
+  loading,
+  fetchpriority,
+  ...rest
+}) {
+  const ref = React.useRef(null);
+  const [loaded, setLoaded] = React.useState(false);
+  React.useLayoutEffect(() => {
+    const el = ref.current;
+    setLoaded(!!(el && el.complete && el.naturalWidth));
+  }, [src]);
+  const {
+    width,
+    height,
+    aspectRatio,
+    minHeight,
+    maxWidth,
+    flex,
+    alignSelf,
+    justifySelf,
+    gridColumn,
+    gridRow,
+    margin,
+    display,
+    transition,
+    ...img
+  } = style || {};
+  return /*#__PURE__*/React.createElement("span", {
+    className: className,
+    style: {
+      position: 'relative',
+      display: display === 'inline-block' ? 'inline-block' : 'block',
+      overflow: 'hidden',
+      width,
+      height,
+      aspectRatio,
+      minHeight,
+      maxWidth,
+      flex,
+      alignSelf,
+      justifySelf,
+      gridColumn,
+      gridRow,
+      margin,
+      transition,
+      background: loaded ? undefined : 'var(--surface-tint)'
+    }
+  }, /*#__PURE__*/React.createElement("img", _extends({
+    ref: ref,
+    src: src,
+    alt: alt,
+    loading: loading,
+    fetchpriority: fetchpriority,
+    onLoad: () => setLoaded(true),
+    onError: () => setLoaded(true)
+  }, rest, {
+    style: {
+      display: 'block',
+      width: '100%',
+      height: height || aspectRatio ? '100%' : 'auto',
+      objectFit: 'cover',
+      ...img,
+      opacity: loaded ? 1 : 0,
+      transition: 'opacity var(--dur-reveal) var(--ease-expo)'
+    }
+  })), loaded ? null : /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    "data-ghost-box": "",
+    style: {
+      position: 'absolute',
+      inset: 0,
+      pointerEvents: 'none'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
+    mode: "loader",
+    pitch: 3.5,
+    intensity: 0.55
+  })));
+}
+const RATIOS = {
+  '3:2': '3 / 2',
+  '4:5': '4 / 5',
+  '21:9': '21 / 9'
+};
+
+/* Three ratios only. No rounded corners, no borders, no shadows, no overlay
+   gradients. Explicit ratio holds layout before the image lands. */
+function Figure({
+  src,
+  alt = '',
+  ratio = '3:2',
+  caption,
+  bleed = false,
+  priority = false,
+  minHeight,
+  bare = false,
+  className = '',
+  style
+}) {
+  const aspectRatio = RATIOS[ratio] || RATIOS['3:2'];
+  return /*#__PURE__*/React.createElement("figure", {
+    className: [bleed ? 'full-bleed' : '', className].filter(Boolean).join(' ') || undefined,
+    style: {
+      margin: 0,
+      ...style
+    }
+  }, src ? /*#__PURE__*/React.createElement(ImageLoad, {
+    src: src,
+    alt: alt,
+    loading: priority ? 'eager' : 'lazy',
+    fetchpriority: priority ? 'high' : undefined,
+    style: {
+      width: '100%',
+      aspectRatio,
+      objectFit: 'cover',
+      minHeight
+    }
+  }) : /*#__PURE__*/React.createElement("div", {
+    role: "img",
+    "aria-label": alt || 'Platshållare för foto',
+    style: {
+      width: '100%',
+      aspectRatio,
+      minHeight,
+      background: 'var(--surface-tint)',
+      display: 'grid',
+      placeItems: 'center',
+      overflow: 'hidden'
+    }
+  }, bare ? null : /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--ink-65)'
+    }
+  }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio)), caption ? /*#__PURE__*/React.createElement("figcaption", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)',
+      marginTop: 'var(--space-2)',
+      maxWidth: 'var(--measure-small)',
+      ...(bleed ? {
+        paddingInline: 'var(--margin)',
+        maxWidth: 'calc(var(--measure-small) + 2 * var(--margin))'
+      } : null)
+    }
+  }, caption) : null);
+}
+Object.assign(__ds_scope, { ImageLoad, Figure });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Figure.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/GalleryRow.jsx
+try { (() => {
+/* A row of images, each on an explicit column span, each with its own label
+   and short description beneath. Spans are declared rather than divided, so
+   every image edge lands on a column line. */
+function GalleryRow({
+  items = [],
+  spans,
+  ratio = '3:2',
+  style
+}) {
+  const resolved = spans || items.map(() => Math.max(2, Math.floor(8 / Math.max(items.length, 1))));
+  return /*#__PURE__*/React.createElement("section", {
+    style: {
+      paddingBlock: 'var(--section-gap) 0',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      alignItems: 'start'
+    }
+  }, items.map((item, i) => {
+    let start = 1;
+    for (let k = 0; k < i; k++) start += resolved[k] || 2;
+    const span = resolved[i] || 2;
+    return /*#__PURE__*/React.createElement("div", {
+      key: item.label || i,
+      style: {
+        gridColumn: 'span ' + span,
+        marginTop: item.offset || 0
+      },
+      "data-col-start": start
+    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
+      src: item.src,
+      alt: item.alt || '',
+      ratio: item.ratio || ratio
+    }), item.label ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        marginTop: 'var(--space-2)',
+        maxWidth: 'none'
+      }
+    }, item.label) : null, item.body ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        marginTop: 'var(--space-0)',
+        color: 'var(--text-secondary)'
+      }
+    }, item.body) : null);
+  })));
+}
+Object.assign(__ds_scope, { GalleryRow });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/GalleryRow.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/OffsetGallery.jsx
+try { (() => {
+/* Staggered images at explicit start columns and spans, each vertically
+   offset. Nothing aligns to anything except a column line. */
+function OffsetGallery({
+  items = [],
+  style
+}) {
+  /* Absolute start lines only mean what they say against a fixed eight tracks,
+     so the block owns its own grid rather than reusing .grid, whose column
+     count drops to 4 and 2 below LG. Below 768px it is a single column and the
+     offsets are dropped. */
+  const [narrow, setNarrow] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const sync = () => setNarrow(mq.matches);
+    sync();
+    mq.addEventListener('change', sync);
+    return () => mq.removeEventListener('change', sync);
+  }, []);
+  return /*#__PURE__*/React.createElement("section", {
+    style: {
+      paddingBlock: 'var(--section-gap) 0',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: narrow ? 'minmax(0, 1fr)' : 'repeat(8, minmax(0, 1fr))',
+      gap: 'var(--gutter)',
+      rowGap: 'var(--space-5)',
+      paddingInline: 'var(--margin)',
+      maxWidth: 'var(--max-width)',
+      marginInline: 'auto',
+      alignItems: 'start'
+    }
+  }, items.map((item, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      gridColumn: narrow || !(item.start && item.span) ? '1 / -1' : item.start + ' / span ' + item.span,
+      marginTop: narrow ? 0 : item.offset || 0
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
+    src: item.src,
+    alt: item.alt || '',
+    ratio: item.ratio || '3:2',
+    caption: item.caption
+  })))));
+}
+Object.assign(__ds_scope, { OffsetGallery });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/OffsetGallery.jsx", error: String((e && e.message) || e) }); }
 
 // components/icons/iconSet.jsx
 try { (() => {
@@ -8734,6 +9265,8 @@ const iconSet = {
     'maximize': '<path d="M19 5H27V13M27 5L18 14M13 27H5V19M5 27L14 18"/>',
     'download': '<path d="M16 4V22M8 14L16 22L24 14M5 27H27"/>',
     'contact-card': '<path d="M3 6H29V26H3V6Z"/><circle cx="11" cy="14" r="3"/><path d="M6 22C6 19.5 8.2 18 11 18C13.8 18 16 19.5 16 22"/><path d="M20 13H26M20 18H26"/>',
+    /* A person. Marks a row that is someone rather than a page. */
+    'user': '<circle cx="16" cy="10" r="6"/><path d="M5 29C5 22.5 9.9 18 16 18C22.1 18 27 22.5 27 29"/>',
     'document': '<path d="M7 3H19L25 9V29H7V3Z"/><path d="M19 3V9H25"/>',
     /* A brand mark, so it is the set's second solid glyph: the wordmark of
        another company must be reproduced as that company draws it. */
@@ -9961,6 +10494,296 @@ function ArtworkPin({
 Object.assign(__ds_scope, { ArtworkPin });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ArtworkPin.jsx", error: String((e && e.message) || e) }); }
 
+// components/blocks/ListingFilters.jsx
+try { (() => {
+/* The filter bar the two listings share.
+
+   One row always shows: the Filtrera toggle, the count against the whole set,
+   and a way to clear. The fields themselves are a drawer under it, because a
+   listing's first job is the list — a permanent bank of four selects reads as
+   a form and pushes the first row under the fold.
+
+   The fields are data, so the same component serves any listing: the people
+   register passes area, sector and office, the stream passes type, area,
+   sector and year. What must not vary between the two pages is the layout,
+   the counted option labels and the words, so they live here once.
+
+   Two variants:
+     drawer — the fields are behind the toggle. The default, and what both
+       listings use.
+     open — the fields are always shown and the toggle is gone, for a page
+       whose whole purpose is the filtering (a search result, a facet landing
+       page) rather than the list. */
+function ListingFilters({
+  fields = [],
+  value = {},
+  onChange,
+  countLine = '',
+  onClear,
+  showClear = false,
+  open,
+  onToggle,
+  variant = 'drawer',
+  label = 'Filtrera',
+  marked = false,
+  /* A field kept out of the drawer and standing in the top row: typing filters
+     the list immediately, without the drawer having to be opened at all. Its
+     value and change handler are the same as every other field's. */
+  searchId = '',
+  searchLabel = 'Sök',
+  searchPlaceholder = '',
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const [selfOpen, setSelfOpen] = React.useState(false);
+  const [warm, setWarm] = React.useState(false);
+  const controlled = open != null;
+  const isOpen = variant === 'open' ? true : controlled ? !!open : selfOpen;
+  const toggle = () => {
+    if (onToggle) onToggle();
+    if (!controlled) setSelfOpen(v => !v);
+  };
+  const labelShown = warm || isOpen;
+  const field = {
+    width: '100%',
+    marginTop: 6,
+    padding: '0 0 8px',
+    border: 0,
+    borderBottom: '1px solid var(--rule-hairline)',
+    background: 'transparent',
+    color: 'var(--ink)',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    appearance: 'none',
+    borderRadius: 0
+  };
+  const quiet = {
+    border: 0,
+    background: 'transparent',
+    padding: 0,
+    cursor: 'pointer',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    color: 'var(--text-secondary)',
+    textDecoration: 'underline',
+    textDecorationColor: 'var(--underline-rest-secondary)',
+    textUnderlineOffset: '0.22em'
+  };
+
+  /* A search field with the set's own clear control, shown once something is
+     typed. */
+  const searchField = (id, placeholder, extra, label) => {
+    const v = value[id] || '';
+    return /*#__PURE__*/React.createElement("span", {
+      style: {
+        position: 'relative',
+        display: 'block',
+        minWidth: 0,
+        flex: extra && extra.flex
+      }
+    }, /*#__PURE__*/React.createElement("input", {
+      type: "search",
+      value: v,
+      placeholder: placeholder || '',
+      "aria-label": label,
+      onChange: e => onChange && onChange(id, e.target.value),
+      onKeyDown: e => {
+        if (e.key === 'Escape' && v) {
+          e.preventDefault();
+          onChange && onChange(id, '');
+        }
+      },
+      style: {
+        ...field,
+        ...extra,
+        flex: undefined,
+        paddingRight: v ? 32 : undefined
+      }
+    }), v ? /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      "aria-label": "Rensa s\xF6kningen",
+      onClick: e => {
+        onChange && onChange(id, '');
+        const inp = e.currentTarget.parentElement.querySelector('input');
+        if (inp) inp.focus();
+      },
+      style: {
+        position: 'absolute',
+        right: -10,
+        bottom: 0,
+        width: 44,
+        height: 44,
+        display: 'grid',
+        placeItems: 'center',
+        background: 'none',
+        border: 0,
+        padding: 0,
+        cursor: 'pointer',
+        color: 'var(--text-secondary)'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: "close",
+      size: "sm"
+    })) : null);
+  };
+  const grid = /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))',
+      gap: 'var(--gutter)'
+    }
+  }, fields.map(f => /*#__PURE__*/React.createElement("label", {
+    key: f.id,
+    style: {
+      display: 'block',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      display: 'block',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, f.label), f.kind === 'search' ? searchField(f.id, f.placeholder) : /*#__PURE__*/React.createElement("select", {
+    value: value[f.id] || '',
+    onChange: e => onChange && onChange(f.id, e.target.value),
+    style: {
+      ...field,
+      cursor: 'pointer'
+    }
+  }, (f.options || []).map(o => /*#__PURE__*/React.createElement("option", {
+    key: o.value,
+    value: o.value
+  }, o.label))))));
+  return /*#__PURE__*/React.createElement("div", {
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      gap: 'var(--space-3)'
+    }
+  }, variant === 'drawer' ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: toggle,
+    onMouseEnter: () => setWarm(true),
+    onMouseLeave: () => setWarm(false),
+    onFocus: () => setWarm(true),
+    onBlur: () => setWarm(false),
+    "aria-expanded": isOpen ? 'true' : 'false',
+    "aria-label": label,
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 8,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      gap: 3,
+      width: 14
+    }
+  }, [14, 10, 6].map(w => /*#__PURE__*/React.createElement("span", {
+    key: w,
+    style: {
+      display: 'block',
+      width: w,
+      height: 1,
+      background: labelShown ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'background var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      maxWidth: labelShown ? '9ch' : 0,
+      opacity: labelShown ? 1 : 0,
+      overflow: 'hidden',
+      whiteSpace: 'nowrap',
+      textDecoration: 'underline',
+      textDecorationThickness: '1px',
+      textUnderlineOffset: '0.2em',
+      textDecorationColor: warm ? 'currentColor' : 'transparent',
+      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-reveal) var(--ease-expo), text-decoration-color var(--dur-reveal) var(--ease-expo)'
+    }
+  }, label), marked && !isOpen ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'block',
+      width: 4,
+      height: 4,
+      borderRadius: '50%',
+      background: 'var(--ink)'
+    }
+  }) : null) : null, countLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none'
+    }
+  }, countLine) : null, showClear ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClear,
+    style: quiet
+  }, "Rensa") : null, searchId ? /*#__PURE__*/React.createElement("label", {
+    style: {
+      marginLeft: 'auto',
+      display: 'flex',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)',
+      minWidth: 0,
+      flex: '1 1 220px',
+      maxWidth: 320
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      flex: 'none',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, searchLabel), searchField(searchId, searchPlaceholder, {
+    marginTop: 0,
+    minWidth: 0,
+    flex: '1 1 auto'
+  })) : null), variant === 'open' ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 'var(--space-4)'
+    }
+  }, grid) : /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": isOpen ? 'false' : 'true',
+    style: {
+      display: 'grid',
+      gridTemplateRows: isOpen ? '1fr' : '0fr',
+      opacity: isOpen ? 1 : 0,
+      marginTop: isOpen ? 'var(--space-4)' : 0,
+      visibility: isOpen ? 'visible' : 'hidden',
+      transition: isOpen ? 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s' : 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s linear 420ms'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, grid)));
+}
+Object.assign(__ds_scope, { ListingFilters });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ListingFilters.jsx", error: String((e && e.message) || e) }); }
+
 // components/blocks/PeopleCarousel.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -10045,7 +10868,7 @@ function PeopleCarousel({
   style
 }) {
   const [viewState, setViewState] = React.useState(initialView);
-  const view = viewProp == null ? viewState : viewProp;
+  const view = views ? viewProp == null ? viewState : viewProp : 0;
   const setView = v => {
     setViewState(v);
     if (onViewChange) onViewChange(v);
@@ -10557,7 +11380,7 @@ function ChoiceComposer({
   options = [],
   legend,
   placeholder = 'Eller skriv med egna ord',
-  openPlaceholder = 'Skriv ditt svar',
+  openPlaceholder = 'Skriv med egna ord',
   disabled = false,
   disabledNote = 'Läser uppdragsregistret.',
   maxLength = 280,
@@ -10579,6 +11402,15 @@ function ChoiceComposer({
   const fieldRef = React.useRef(null);
   const inputRef = React.useRef(null);
   const measureRef = React.useRef(null);
+  const [narrow, setNarrow] = React.useState(() => typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(max-width: 767px)').matches);
+  React.useEffect(() => {
+    if (!window.matchMedia) return undefined;
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setNarrow(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
   const offered = kind === 'radio' || kind === 'checkbox' ? options : [];
   const hint = offered.length ? placeholder : openPlaceholder;
 
@@ -10588,6 +11420,77 @@ function ChoiceComposer({
     setPicked([]);
     setFolded(false);
   }, [sig, kind]);
+
+  /* The answers fold out after the reply has landed, not with it: the
+     question is read first, then the ways of answering it open under the
+     field on the medium step. */
+  /* Closing runs the same movement backwards: the set that is going stays
+     drawn while it folds away, and only then is the next one put in. */
+  const [unfolded, setUnfolded] = React.useState(false);
+  const [held, setHeld] = React.useState(offered);
+  const liftRef = React.useRef(null);
+  React.useEffect(() => {
+    const root = document.documentElement;
+    const el = liftRef.current;
+    if (!el || !unfolded) {
+      root.style.setProperty('--composer-lift', '0px');
+      return undefined;
+    }
+    /* The card's full height, known before it has opened: reserved at once and
+       announced, so the transcript can move the reply clear of it on the same
+       beat as the fold rather than after it. */
+    const full = () => {
+      const fs = el.querySelector('fieldset');
+      const pad = parseFloat(window.getComputedStyle(el).paddingBottom) || 0;
+      return Math.ceil((fs ? fs.offsetHeight : el.scrollHeight) + pad);
+    };
+    /* Announced once, with the settled height and the card's real top edge,
+       so the transcript makes one movement rather than one per frame. */
+    let last = -1,
+      sent = -1,
+      t = 0;
+    const set = () => {
+      const h = full();
+      if (h === last) return;
+      last = h;
+      root.style.setProperty('--composer-lift', h + 'px');
+      window.clearTimeout(t);
+      t = window.setTimeout(() => {
+        if (h === sent) return;
+        sent = h;
+        const host = el.parentElement;
+        const top = host ? host.getBoundingClientRect().top - h : null;
+        window.dispatchEvent(new CustomEvent('vinge:composer-lift', {
+          detail: {
+            height: h,
+            top: top
+          }
+        }));
+      }, 120);
+    };
+    set();
+    const fs = el.querySelector('fieldset');
+    const ro = new ResizeObserver(set);
+    if (fs) ro.observe(fs);
+    return () => {
+      ro.disconnect();
+      window.clearTimeout(t);
+    };
+  }, [unfolded, held]);
+  React.useEffect(() => () => document.documentElement.style.setProperty('--composer-lift', '0px'), []);
+  React.useEffect(() => {
+    let a = 0,
+      b = 0;
+    setUnfolded(false);
+    a = window.setTimeout(() => {
+      setHeld(offered);
+      if (offered.length) b = window.setTimeout(() => setUnfolded(true), 450);
+    }, held.length ? 420 : 0);
+    return () => {
+      window.clearTimeout(a);
+      window.clearTimeout(b);
+    };
+  }, [sig]);
   React.useEffect(() => {
     if (measureRef.current) setCaret(measureRef.current.offsetWidth);
   }, [hint]);
@@ -10659,22 +11562,58 @@ function ChoiceComposer({
     setPicked(p => p.indexOf(o.text) >= 0 ? p.filter(x => x !== o.text) : p.concat([o.text]));
   };
   const ready = typed || kind === 'checkbox' && picked.length > 0;
+
+  /* The offered answers are the visitor's to give, so they sit as one card
+     on the tint the visitor's own turns take, set off from the transcript
+     above; tighter on a phone, where the card shares the screen with the
+     answer it replies to. */
+  /* Compact at every width: the card is a set of answers, not a panel. */
+  const card = {
+    background: 'var(--surface-tint)',
+    padding: 'var(--space-1) var(--space-2) 0'
+  };
   return /*#__PURE__*/React.createElement("div", {
     style: {
+      position: 'relative',
       display: 'grid',
       gap: 'var(--space-3)',
       ...style
     }
-  }, offered.length ? /*#__PURE__*/React.createElement("fieldset", {
+  }, held.length ?
+  /*#__PURE__*/
+  /* Stands over the foot of the transcript rather than in the flow, so
+     folding it in and out never resizes the column above: nothing the
+     visitor is reading moves. The room it takes is reserved at the end
+     of the transcript through --composer-lift. */
+  React.createElement("div", {
+    ref: liftRef,
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: '100%',
+      paddingBottom: 'var(--space-2)',
+      display: 'grid',
+      gridTemplateRows: unfolded ? '1fr' : '0fr',
+      opacity: unfolded ? 1 : 0,
+      pointerEvents: unfolded ? undefined : 'none',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("fieldset", {
     disabled: disabled,
     "aria-label": legend || undefined,
     style: {
       border: 0,
       margin: 0,
-      padding: 0,
       display: 'grid',
-      gap: 'var(--space-2)',
-      minInlineSize: 0
+      gap: 'var(--space-1)',
+      minInlineSize: 0,
+      ...card
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -10682,7 +11621,7 @@ function ChoiceComposer({
       alignItems: 'baseline',
       justifyContent: 'space-between',
       gap: 'var(--space-2)',
-      marginBottom: 'var(--space-2)'
+      minHeight: 32
     }
   }, legend ? /*#__PURE__*/React.createElement("p", {
     className: "small",
@@ -10721,14 +11660,28 @@ function ChoiceComposer({
     name: "chevron--down",
     size: "sm"
   })))), /*#__PURE__*/React.createElement("div", {
-    hidden: folded,
+    "aria-hidden": folded ? 'true' : undefined,
     style: {
-      display: folded ? 'none' : 'grid',
-      gap: 'var(--space-2)',
-      borderTop: '1px solid var(--rule-hairline)',
-      paddingTop: 'var(--space-2)'
+      display: 'grid',
+      gridTemplateRows: folded ? '0fr' : '1fr',
+      opacity: folded ? 0 : 1,
+      visibility: folded ? 'hidden' : 'visible',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo), visibility 0s linear ' + (folded ? 'var(--dur-medium)' : '0s')
     }
-  }, offered.map(o => {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0,
+      borderTop: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-finder-scroll": "",
+    style: {
+      maxHeight: '32vh',
+      overflowY: 'auto',
+      overscrollBehavior: 'contain'
+    }
+  }, held.map((o, oi) => {
     const on = kind === 'radio' ? false : picked.indexOf(o.text) >= 0;
     const dim = typed;
     return /*#__PURE__*/React.createElement("label", {
@@ -10737,13 +11690,13 @@ function ChoiceComposer({
         display: 'flex',
         alignItems: 'flex-start',
         gap: 'var(--space-2)',
-        paddingBottom: 'var(--space-2)',
-        borderBottom: '1px solid ' + (on ? 'var(--underline-active)' : 'var(--rule-hairline)'),
+        padding: '10px 0',
+        borderBottom: oi === held.length - 1 && !on ? '1px solid transparent' : '1px solid ' + (on ? 'var(--underline-active)' : 'var(--rule-hairline)'),
         cursor: disabled ? 'default' : 'pointer',
         opacity: dim ? 0.45 : 1,
         fontFamily: 'var(--font-text)',
-        fontSize: 'var(--text-base)',
-        lineHeight: 'var(--lh-base)',
+        fontSize: 'var(--text-small)',
+        lineHeight: 'var(--lh-small)',
         color: on ? 'var(--text-primary)' : 'var(--text-secondary)',
         transition: 'color var(--dur-micro) var(--ease-quart), border-color var(--dur-micro) var(--ease-quart), opacity var(--dur-micro) var(--ease-quart)'
       },
@@ -10784,7 +11737,7 @@ function ChoiceComposer({
         minWidth: 0
       }
     }, o.text));
-  }))) : null, /*#__PURE__*/React.createElement("div", {
+  }))))))) : null, /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
       gap: 'var(--space-1)'
@@ -11953,8 +12906,190 @@ function ContactWidget({
 Object.assign(__ds_scope, { contactWidgetErrands, contactWidgetOther, contactWidgetSteps, contactWidgetMatch, ContactWidget });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ContactWidget.jsx", error: String((e && e.message) || e) }); }
 
+// components/conversation/ConversationHeader.jsx
+try { (() => {
+/* Identity and the two ways out, nothing else. The wordmark stands for the
+   firm; the surface carries no product name, so there is no title to write.
+   Stäng sets the exchange aside — it is kept, and the header's chat trigger
+   brings it back, here or on a later page. Avsluta samtalet is the visitor
+   saying they are finished, and is the only thing that throws the exchange
+   away; it is left out until there is something to end. Sticky over a scrolled
+   transcript the header keeps the paper ground and takes the one sanctioned
+   hairline, so scrolled type never runs into it. */
+
+function ConversationHeader({
+  sticky = false,
+  scrolled = false,
+  onClose,
+  onEnd,
+  endLabel = 'Avsluta samtalet',
+  logoSrc = '/assets/logo.svg',
+  /* What this exchange has already done to the page, and how to take it back.
+     Both are left out until the filtering is actually on. */
+  filterNote,
+  onResetFilter,
+  resetFilterLabel = 'Nollställ sidan',
+  /* A switchboard number shown as one small call link beside Stäng. Used on
+     a phone once the exchange is under way, where the panel no longer carries
+     it, so leaving by telephone is always one tap away. */
+  phone,
+  /* Stäng drawn as a cross, for a phone's header where the row is short. */
+  closeIcon = false,
+  /* Back to the opening board of starters, from any flow. Left out until
+     something has been said. */
+  onRestart,
+  restartLabel = 'Tillbaka till start',
+  style
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-2)',
+      position: sticky ? 'sticky' : 'static',
+      top: 0,
+      zIndex: 2,
+      background: 'var(--surface)',
+      paddingBottom: 'var(--space-2)',
+      borderBottom: sticky && scrolled ? '1px solid var(--rule-hairline)' : '1px solid transparent',
+      transition: 'border-color var(--dur-micro) var(--ease-quart)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      gap: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement("img", {
+    src: logoSrc,
+    alt: "Vinge",
+    style: {
+      height: 18,
+      width: 'auto'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: closeIcon ? 'center' : 'baseline',
+      gap: 'var(--space-4)'
+    }
+  }, phone ? /*#__PURE__*/React.createElement("a", {
+    href: 'tel:+46' + String(phone).replace(/[^0-9]/g, '').replace(/^0/, ''),
+    "aria-label": 'Ring växeln ' + phone,
+    className: "small target",
+    style: {
+      fontFamily: 'var(--font-text)',
+      color: 'var(--text-primary)',
+      textDecoration: 'underline',
+      textDecorationColor: 'var(--underline-rest)',
+      textUnderlineOffset: '0.22em',
+      whiteSpace: 'nowrap'
+    }
+  }, phone) : null, onEnd ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onEnd,
+    "aria-label": endLabel,
+    className: "small target",
+    style: {
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      color: 'var(--text-secondary)',
+      whiteSpace: 'nowrap'
+    }
+  }, closeIcon ? 'Avsluta' : endLabel) : null, closeIcon ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClose,
+    "aria-label": "St\xE4ng",
+    style: {
+      display: 'grid',
+      placeItems: 'center',
+      alignSelf: 'center',
+      width: 44,
+      height: 44,
+      marginRight: -12,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: "lg"
+  })) : /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClose,
+    className: "cta cta--small target",
+    style: {
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      fontWeight: 'var(--weight-book)'
+    }
+  }, "St\xE4ng"))), onRestart ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onRestart,
+    className: "small target",
+    style: {
+      alignSelf: 'flex-start',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      minHeight: 44,
+      marginLeft: -4,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--left",
+    size: "sm"
+  }), /*#__PURE__*/React.createElement("span", null, restartLabel)) : null, filterNote ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'baseline',
+      gap: 'var(--space-3)',
+      paddingBottom: 'var(--space-1)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-secondary)'
+    }
+  }, filterNote), onResetFilter ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onResetFilter,
+    className: "cta cta--secondary target",
+    style: {
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)'
+    }
+  }, resetFilterLabel) : null) : null);
+}
+Object.assign(__ds_scope, { ConversationHeader });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ConversationHeader.jsx", error: String((e && e.message) || e) }); }
+
 // components/conversation/ConversationRail.jsx
 try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /* The rail: the right-hand region of the conversation drawer.
 
    Two things live in it and nothing else. At the top, permanently, how to
@@ -12070,7 +13205,12 @@ function Item({
     return () => window.clearTimeout(id);
   }, [index]);
   const gone = !!item.superseded;
+  /* Resolves out of the loader raster, one item after the next. */
+  const hold = __ds_scope.useGhostHold(!!instant, index, 480, 140);
+  const linkRef = React.useRef(null);
   const wrap = {
+    position: 'relative',
+    visibility: hold ? 'hidden' : 'visible',
     opacity: shown ? gone ? 0.4 : 1 : 0,
     transform: shown ? 'none' : 'translateY(calc(var(--reveal-rise) * 0.35))',
     transition: 'opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo)'
@@ -12108,7 +13248,10 @@ function Item({
         paddingBottom: 'var(--space-3)',
         borderBottom: '1px solid var(--rule-hairline)'
       }
-    }, /*#__PURE__*/React.createElement("button", {
+    }, /*#__PURE__*/React.createElement(__ds_scope.GhostLoader, {
+      targetRef: rowRef,
+      hold: hold
+    }), /*#__PURE__*/React.createElement("button", {
       type: "button",
       onClick: toggle,
       "aria-expanded": open ? 'true' : 'false',
@@ -12182,7 +13325,7 @@ function Item({
         overflow: 'hidden',
         minHeight: 0
       }
-    }, item.reason && item.source ? /*#__PURE__*/React.createElement("span", {
+    }, item.plain ? null : item.reason && item.source ? /*#__PURE__*/React.createElement("span", {
       style: {
         display: 'grid',
         gap: '2px'
@@ -12232,17 +13375,21 @@ function Item({
     }, "Ersatt l\xE4ngre ned.") : null);
   }
   return /*#__PURE__*/React.createElement("li", {
+    ref: linkRef,
     style: wrap
-  }, /*#__PURE__*/React.createElement(Row, {
+  }, /*#__PURE__*/React.createElement(__ds_scope.GhostLoader, {
+    targetRef: linkRef,
+    hold: hold
+  }), /*#__PURE__*/React.createElement(Row, {
     href: item.href,
     onActivate: onNavigate ? e => onNavigate(item, e) : undefined
-  }, /*#__PURE__*/React.createElement("span", null, item.label), item.meta ? /*#__PURE__*/React.createElement("span", {
+  }, /*#__PURE__*/React.createElement("span", null, item.label), item.why || item.meta ? /*#__PURE__*/React.createElement("span", {
     className: "small",
     style: {
       display: 'block',
       color: 'var(--text-secondary)'
     }
-  }, item.meta) : null, gone ? /*#__PURE__*/React.createElement("span", {
+  }, item.why || item.meta) : null, gone ? /*#__PURE__*/React.createElement("span", {
     className: "small",
     style: {
       display: 'block',
@@ -12250,10 +13397,464 @@ function Item({
     }
   }, "Ersatt l\xE4ngre ned.") : null));
 }
-function ConversationRail({
-  switchboard = '08-614 30 00',
-  offices = ['Stockholm', 'Göteborg', 'Malmö', 'Bryssel'],
+
+/* The switchboard, per office. Each office has its own number and they share
+   one address, so the offices are tabs over one number rather than a list
+   beside it: Stockholm stands open, the others are one press away. */
+const OFFICE_CONTACTS = [{
+  office: 'Stockholm',
+  phone: '010 614 30 00'
+}, {
+  office: 'Göteborg',
+  phone: '010 614 10 00'
+}, {
+  office: 'Malmö',
+  phone: '010 614 55 00'
+}, {
+  office: 'Bryssel',
+  phone: '+32 2 501 07 00'
+}];
+const telHref = p => {
+  const s = String(p).trim();
+  if (s.charAt(0) === '+') return 'tel:' + s.replace(/[^+0-9]/g, '');
+  return 'tel:+46' + s.replace(/[^0-9]/g, '').replace(/^0/, '');
+};
+function RailContact({
+  switchboard,
+  offices = OFFICE_CONTACTS,
+  email = 'contact@vinge.se',
   hours = 'Växeln svarar vardagar 08.30–17.00',
+  style
+}) {
+  /* Older callers passed office names and one number; each name then gets
+     that number. */
+  const list = (offices || []).map(o => typeof o === 'string' ? {
+    office: o,
+    phone: switchboard || '010 614 30 00'
+  } : o);
+  const [on, setOn] = React.useState(0);
+  const cur = list[on] || list[0] || {
+    phone: switchboard
+  };
+  const uid = React.useId ? React.useId() : 'rc';
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gap: 'var(--space-2)',
+      paddingBottom: 'var(--space-3)',
+      borderBottom: '1px solid var(--rule-hairline)',
+      ...style
+    }
+  }, list.length > 1 ? /*#__PURE__*/React.createElement("div", {
+    role: "tablist",
+    "aria-label": "Kontor",
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3)'
+    }
+  }, list.map((o, i) => {
+    const active = i === on;
+    return /*#__PURE__*/React.createElement("button", {
+      key: o.office,
+      type: "button",
+      role: "tab",
+      id: uid + '-t' + i,
+      "aria-selected": active ? 'true' : 'false',
+      "aria-controls": uid + '-p',
+      tabIndex: active ? 0 : -1,
+      onClick: () => setOn(i),
+      onKeyDown: e => {
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        e.preventDefault();
+        const n = (i + (e.key === 'ArrowRight' ? 1 : -1) + list.length) % list.length;
+        setOn(n);
+        const el = document.getElementById(uid + '-t' + n);
+        if (el) el.focus();
+      },
+      className: "small",
+      style: {
+        appearance: 'none',
+        background: 'none',
+        border: 0,
+        cursor: 'pointer',
+        padding: '0 0 4px',
+        display: 'inline-flex',
+        alignItems: 'flex-end',
+        fontFamily: 'var(--font-text)',
+        fontSize: 'var(--text-small)',
+        lineHeight: 'var(--lh-small)',
+        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
+        boxShadow: active ? 'inset 0 -1px 0 var(--underline-active)' : 'none',
+        transition: 'color var(--dur-micro) var(--ease-quart), box-shadow var(--dur-micro) var(--ease-quart)'
+      }
+    }, o.office);
+  })) : null, /*#__PURE__*/React.createElement("div", {
+    id: uid + '-p',
+    role: list.length > 1 ? 'tabpanel' : undefined,
+    "aria-labelledby": list.length > 1 ? uid + '-t' + on : undefined,
+    style: {
+      display: 'grid',
+      gap: 'var(--space-1)'
+    }
+  }, /*#__PURE__*/React.createElement("a", {
+    href: telHref(cur.phone),
+    "aria-label": 'Ring ' + (cur.office ? cur.office + ' ' : '') + cur.phone,
+    style: {
+      fontFamily: 'var(--font-display)',
+      fontSize: 'var(--display-3)',
+      lineHeight: 'var(--lh-display-3)',
+      letterSpacing: 'var(--tracking-display-3)',
+      color: 'var(--text-primary)',
+      textDecoration: 'none'
+    }
+  }, cur.phone), email ? /*#__PURE__*/React.createElement("a", {
+    href: 'mailto:' + email,
+    className: "small",
+    style: {
+      justifySelf: 'start',
+      fontFamily: 'var(--font-text)',
+      color: 'var(--text-primary)',
+      textDecoration: 'underline',
+      textDecorationColor: 'var(--underline-rest)',
+      textUnderlineOffset: '0.22em'
+    }
+  }, email) : null, hours ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-secondary)'
+    }
+  }, hours) : null));
+}
+
+/* The phone's findings: what one answer turned up, standing under that answer
+   in the transcript. Compressed to a line or two per item — the name and the
+   one line saying why it is there — because at this width a card per link
+   would outgrow the reply it belongs to. A person is their name, office and
+   why they are suggested, folded; opening the row gives the direct line,
+   the address and the profile. */
+function FoundRow({
+  fresh,
+  index,
+  children
+}) {
+  const ref = React.useRef(null);
+  const hold = __ds_scope.useGhostHold(!fresh, index, 520, 140);
+  return /*#__PURE__*/React.createElement("div", {
+    ref: ref,
+    style: {
+      position: 'relative',
+      visibility: hold ? 'hidden' : 'visible'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.GhostLoader, {
+    targetRef: ref,
+    hold: hold
+  }), children);
+}
+function FoundList({
+  found,
+  visited = [],
+  active = null,
+  returnHere = false,
+  fresh = false,
+  onNavigate,
+  style
+}) {
+  const [openId, setOpenId] = React.useState(null);
+  if (!found || !found.items || !found.items.length) return null;
+  const small = {
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)'
+  };
+  const clamp = n => ({
+    display: '-webkit-box',
+    WebkitBoxOrient: 'vertical',
+    WebkitLineClamp: n,
+    overflow: 'hidden'
+  });
+  /* The page the visitor is on, if it came from here: a band of clay
+     across the whole screen and the title at medium weight, so the chat
+     reads as the navigation it is — you are here. The band reaches past the
+     column's padding to both edges. */
+  const here = {
+    background: 'var(--clay)',
+    marginInline: 'calc(-1 * var(--space-3))',
+    paddingInline: 'var(--space-3)'
+  };
+  const go = it => e => {
+    if (onNavigate) {
+      e.preventDefault();
+      onNavigate(it, e);
+    }
+  };
+  const row = {
+    display: 'grid',
+    alignItems: 'center',
+    gap: 'var(--space-2)',
+    minHeight: 44,
+    padding: '8px 0',
+    borderBottom: '1px solid var(--rule-hairline)',
+    color: 'var(--text-primary)',
+    textDecoration: 'none'
+  };
+  const renderItem = it => {
+    if (it.kind === 'person') {
+      const on = openId === (it.id || it.name);
+      const pid = 'found-' + String(it.id || it.name).toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      const cta = {
+        fontFamily: 'var(--font-text)',
+        fontSize: 'var(--text-base)',
+        lineHeight: 'var(--lh-base)',
+        justifySelf: 'start',
+        minHeight: 44,
+        display: 'inline-flex',
+        alignItems: 'center',
+        color: 'var(--text-primary)',
+        textDecoration: 'underline',
+        textDecorationColor: 'var(--underline-rest)',
+        textUnderlineOffset: '0.22em'
+      };
+      return /*#__PURE__*/React.createElement("div", {
+        key: it.id || it.name,
+        "data-return": returnHere && it.id && it.id === active ? '' : undefined,
+        style: {
+          borderBottom: '1px solid var(--rule-hairline)'
+        }
+      }, /*#__PURE__*/React.createElement("button", {
+        type: "button",
+        onClick: () => setOpenId(on ? null : it.id || it.name),
+        "aria-expanded": on ? 'true' : 'false',
+        "aria-controls": pid,
+        style: {
+          ...row,
+          borderBottom: 0,
+          gridTemplateColumns: (it.imageSrc ? on ? '88px ' : '40px ' : '') + 'minmax(0, 1fr) auto',
+          alignItems: on ? 'start' : 'center',
+          padding: '8px 0',
+          width: '100%',
+          background: 'none',
+          border: 0,
+          cursor: 'pointer',
+          textAlign: 'left'
+        }
+      }, it.imageSrc ? /*#__PURE__*/React.createElement(__ds_scope.ImageLoad, {
+        src: it.imageSrc,
+        alt: "",
+        style: {
+          width: on ? 88 : 40,
+          height: on ? 110 : 50,
+          objectFit: 'cover',
+          transition: 'width var(--dur-fast) var(--ease-expo), height var(--dur-fast) var(--ease-expo)'
+        }
+      }) : null, /*#__PURE__*/React.createElement("span", {
+        style: {
+          display: 'grid',
+          minWidth: 0
+        }
+      }, /*#__PURE__*/React.createElement("span", {
+        style: {
+          ...small,
+          color: 'var(--text-primary)',
+          fontWeight: it.id && it.id === active ? 'var(--weight-medium, 500)' : undefined
+        }
+      }, it.name, it.office ? /*#__PURE__*/React.createElement("span", {
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }, ' · ' + it.office) : null), on && it.role ? /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }, it.role) : null, it.basis ? /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          ...clamp(2),
+          color: 'var(--text-secondary)'
+        }
+      }, it.basis) : null), /*#__PURE__*/React.createElement("span", {
+        "aria-hidden": "true",
+        style: {
+          display: 'grid',
+          placeItems: 'center',
+          color: 'var(--text-secondary)',
+          transform: on ? 'rotate(180deg)' : 'none',
+          transition: 'transform var(--dur-micro) var(--ease-quart)'
+        }
+      }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+        name: "chevron--down",
+        size: "sm"
+      }))), /*#__PURE__*/React.createElement("div", {
+        id: pid,
+        hidden: !on,
+        style: {
+          display: on ? 'grid' : 'none',
+          padding: '0 0 var(--space-2)'
+        }
+      }, /*#__PURE__*/React.createElement("dl", {
+        style: {
+          display: 'grid',
+          margin: 0,
+          minWidth: 0
+        }
+      }, it.phone ? /*#__PURE__*/React.createElement("div", {
+        style: {
+          display: 'grid',
+          padding: 'var(--space-1) 0',
+          borderTop: '1px solid var(--rule-hairline)'
+        }
+      }, /*#__PURE__*/React.createElement("dt", {
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }, "Telefon"), /*#__PURE__*/React.createElement("dd", {
+        style: {
+          margin: 0
+        }
+      }, /*#__PURE__*/React.createElement("a", {
+        href: 'tel:' + String(it.phone).replace(/[^+0-9]/g, ''),
+        style: cta
+      }, it.phone))) : null, it.email ? /*#__PURE__*/React.createElement("div", {
+        style: {
+          display: 'grid',
+          padding: 'var(--space-1) 0',
+          borderTop: '1px solid var(--rule-hairline)'
+        }
+      }, /*#__PURE__*/React.createElement("dt", {
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }, "E-post"), /*#__PURE__*/React.createElement("dd", {
+        style: {
+          margin: 0
+        }
+      }, /*#__PURE__*/React.createElement("a", {
+        href: 'mailto:' + it.email,
+        style: {
+          ...cta,
+          overflowWrap: 'anywhere'
+        }
+      }, it.email))) : null, it.href ? /*#__PURE__*/React.createElement("div", {
+        style: {
+          display: 'grid',
+          padding: 'var(--space-1) 0 0',
+          borderTop: '1px solid var(--rule-hairline)'
+        }
+      }, /*#__PURE__*/React.createElement("dt", {
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }, "Profil"), /*#__PURE__*/React.createElement("dd", {
+        style: {
+          margin: 0
+        }
+      }, /*#__PURE__*/React.createElement("a", {
+        href: it.href,
+        onClick: go(it),
+        style: cta
+      }, "Se profilen"))) : null)));
+    }
+    return /*#__PURE__*/React.createElement("a", {
+      key: it.id || it.label,
+      href: it.href,
+      onClick: go(it),
+      "aria-current": it.id && it.id === active ? 'page' : undefined,
+      "data-return": returnHere && it.id && it.id === active ? '' : undefined,
+      style: {
+        ...row,
+        gridTemplateColumns: 'minmax(0, 1fr) auto',
+        ...(it.id && it.id === active ? here : null)
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'grid',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        ...small,
+        ...clamp(2),
+        color: 'var(--text-primary)',
+        fontWeight: it.id && it.id === active ? 'var(--weight-medium, 500)' : undefined
+      }
+    }, it.label), it.why || it.meta ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        ...clamp(2),
+        color: 'var(--text-secondary)'
+      }
+    }, it.why || it.meta) : null), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: "arrow--right",
+      size: "sm",
+      style: {
+        color: 'var(--text-secondary)'
+      }
+    }));
+  };
+  const people = found.items.filter(it => it.kind === 'person');
+  const pages = found.items.filter(it => it.kind !== 'person');
+  /* The people are what the firm most wants found, so they stand apart: their
+     own card on the visitor's tint, under their own heading, ahead of the
+     pages. */
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gap: 'var(--space-2)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-secondary)'
+    }
+  }, found.lead || found.label), people.length ? /*#__PURE__*/React.createElement("section", {
+    "aria-label": "Kontaktpersoner",
+    style: {
+      display: 'grid',
+      background: 'var(--surface-tint)',
+      padding: 'var(--space-1) var(--space-2) 0'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: '0 0 var(--space-1)',
+      color: 'var(--text-primary)'
+    }
+  }, people.length === 1 ? 'Kontaktperson' : 'Kontaktpersoner'), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      borderTop: '1px solid var(--rule-hairline)'
+    }
+  }, people.map((it, i) => /*#__PURE__*/React.createElement(FoundRow, {
+    key: it.id || it.name,
+    fresh: fresh,
+    index: i
+  }, renderItem(it))))) : null, pages.length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      borderTop: '1px solid var(--rule-hairline)',
+      display: 'grid'
+    }
+  }, pages.map((it, i) => /*#__PURE__*/React.createElement(FoundRow, {
+    key: it.id || it.label,
+    fresh: fresh,
+    index: people.length + i
+  }, renderItem(it)))) : null);
+}
+function ConversationRail({
+  switchboard,
+  offices,
+  hours = 'Växeln svarar vardagar 08.30–17.00',
+  /* Off on a phone: there the switchboard stands in the transcript's opening
+     and in the conversation header, and the sheet holds only what was found. */
+  contact = true,
+  /* Shown faded when the contact block is off and nothing has been found yet. */
+  emptyNote = 'Relevanta jurister, områden och artiklar samlas här under samtalets gång.',
   chapters = [],
   active = null,
   mode = 'swap',
@@ -12275,36 +13876,22 @@ function ConversationRail({
       gap: 'var(--space-4)',
       ...style
     }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gap: 'var(--space-1)',
-      paddingBottom: 'var(--space-3)',
-      borderBottom: '1px solid var(--rule-hairline)'
-    }
-  }, /*#__PURE__*/React.createElement("a", {
-    href: 'tel:+46' + switchboard.replace(/[^0-9]/g, '').replace(/^0/, ''),
-    style: {
-      fontFamily: 'var(--font-display)',
-      fontSize: 'var(--display-3)',
-      lineHeight: 'var(--lh-display-3)',
-      letterSpacing: 'var(--tracking-display-3)',
-      color: 'var(--text-primary)',
-      textDecoration: 'none'
-    }
-  }, switchboard), /*#__PURE__*/React.createElement("p", {
+  }, contact ? /*#__PURE__*/React.createElement(RailContact, _extends({
+    switchboard: switchboard
+  }, offices ? {
+    offices
+  } : null, hours !== undefined ? {
+    hours
+  } : null)) : null, !contact && !filled.length && emptyNote ? /*#__PURE__*/React.createElement("p", {
     className: "small",
     style: {
       margin: 0,
-      color: 'var(--text-secondary)'
+      color: 'var(--text-secondary)',
+      opacity: 0.7,
+      textWrap: 'pretty',
+      maxWidth: '32ch'
     }
-  }, offices.join(' · ')), hours ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      margin: 0,
-      color: 'var(--text-secondary)'
-    }
-  }, hours) : null), away ? /*#__PURE__*/React.createElement("button", {
+  }, emptyNote) : null, away ? /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: onReturn,
     style: {
@@ -12326,8 +13913,9 @@ function ConversationRail({
     const read = away && i === at;
     const faded = mode === 'expand' && away && !read;
     return /*#__PURE__*/React.createElement("section", {
-      key: c.label + i,
-      "data-anchor": i === newest ? '' : undefined,
+      key: c.key || c.label + i,
+      "data-anchor": i === newest && !c.top ? '' : undefined,
+      "data-rail-top": c.top ? '' : undefined,
       style: {
         display: 'grid',
         gap: 'var(--space-2)',
@@ -12360,7 +13948,7 @@ function ConversationRail({
     }))));
   }));
 }
-Object.assign(__ds_scope, { ConversationRail });
+Object.assign(__ds_scope, { OFFICE_CONTACTS, RailContact, FoundList, ConversationRail });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ConversationRail.jsx", error: String((e && e.message) || e) }); }
 
 // components/conversation/ConversationRegister.jsx
@@ -12490,15 +14078,17 @@ try { (() => {
    and none of it is binding: every line types itself into the field, and
    writing something else has always been the first-class way in. */
 
+const DISPLAY_ROW = 'calc(var(--display-3) * 1.25 + var(--space-4) * 2)';
 function Line({
   text,
   onPick,
-  size = 'base'
+  size = 'base',
+  item
 }) {
   const display = size === 'display';
   return /*#__PURE__*/React.createElement("button", {
     type: "button",
-    onClick: () => onPick && onPick(text),
+    onClick: () => onPick && onPick(text, item),
     onMouseEnter: e => {
       e.currentTarget.style.color = 'var(--text-primary)';
       const a = e.currentTarget.querySelector('[data-chev]');
@@ -12522,15 +14112,19 @@ function Line({
          into. Without it the shift widens the scroll box, which turns on a
          horizontal scrollbar and — the transcript's overflow being auto on
          both axes — a vertical one with it, on hover. */
-      padding: display ? 'var(--space-4) 3px var(--space-4) 0' : 'var(--space-2) 3px var(--space-2) 0',
+      padding: display ? '0 3px 0 0' : 'var(--space-2) 3px var(--space-2) 0',
       cursor: 'pointer',
       minHeight: 44,
+      /* A display row has a fixed height, shared with the field it unfolds
+         into, so opening one never moves the rows under it. */
+      height: display ? DISPLAY_ROW : undefined,
+      boxSizing: 'border-box',
       fontFamily: display ? 'var(--font-display)' : 'var(--font-text)',
       fontSize: display ? 'var(--display-3)' : 'var(--text-base)',
       /* The display face carries a tall line box, which would put more air
          above the word than below it. Trimmed to the text itself, so the
          padding is the only spacing and it is equal on both sides. */
-      lineHeight: display ? 1 : 'var(--lh-base)',
+      lineHeight: display ? 1.25 : 'var(--lh-base)',
       letterSpacing: display ? 'var(--tracking-display-3)' : 'normal',
       color: 'var(--text-primary)',
       textWrap: 'pretty'
@@ -12549,10 +14143,216 @@ function Line({
     size: "md"
   })));
 }
+
+/* A line that unfolds in place into a field, in the type of the line it
+   replaces — so a display-size entry becomes a display-size field and nothing
+   jumps. Two modes:
+
+   search — "Jag vet vem jag söker". The visitor already has a name, so no
+   conversation is started. The people the name could be are reported through
+   `onChange` and shown where people are always shown: the panel on a wide
+   screen, under the field on a phone (`renderHits`).
+
+   write — "Skriv med egna ord vad du står inför". The board's own way of
+   writing freely, in place of a separate field at the foot. Sent, it becomes
+   the visitor's first turn and the field moves to the foot as the chat input.
+
+   Once anything is typed the rest of the board fades back — still there, no
+   longer competing. Escape, or leaving it empty, folds it back to the line. */
+const fold = v => String(v || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+function FieldLine({
+  text,
+  mode = 'search',
+  size = 'base',
+  placeholder,
+  people = [],
+  onSubmit,
+  onActive,
+  onChange,
+  renderHits
+}) {
+  const display = size === 'display';
+  const search = mode === 'search';
+  const [open, setOpen] = React.useState(false);
+  const [q, setQ] = React.useState('');
+  const ref = React.useRef(null);
+  /* Folded or set aside, a half-typed line is dropped. */
+  React.useEffect(() => {
+    if (!open) setQ('');else if (ref.current) ref.current.focus();
+  }, [open]);
+  const typing = open && q.trim().length > 0;
+  const words = fold(q).split(/\s+/).filter(Boolean);
+  const hits = React.useMemo(() => search && words.length && q.trim().length >= 2
+  /* First names that start with what was typed, then surnames that do,
+     then anything containing it — "Mar" is the Marcuses before Hammarskiöld. */ ? people.map(p => {
+    const n = fold(p.name);
+    if (!words.every(w => n.indexOf(w) >= 0)) return null;
+    const parts = n.split(/\s+/);
+    const r = parts[0].indexOf(words[0]) === 0 ? 0 : parts.some(t => t.indexOf(words[0]) === 0) ? 1 : 2;
+    return {
+      p,
+      r
+    };
+  }).filter(Boolean).sort((a, b) => a.r - b.r).slice(0, 6).map(h => h.p) : [], [q, people, search]);
+  React.useEffect(() => {
+    if (onActive) onActive(typing);
+  }, [typing]);
+  React.useEffect(() => {
+    if (search && onChange) onChange(typing ? q : '', typing ? hits : null);
+  }, [typing, hits]);
+  React.useEffect(() => () => {
+    if (onActive) onActive(false);
+    if (search && onChange) onChange('', null);
+  }, []);
+  const submit = value => {
+    const v = String(value || '').trim();
+    if (!v) return;
+    if (onSubmit) onSubmit(v);
+    setQ('');
+    setOpen(false);
+  };
+  const type = display ? {
+    fontFamily: 'var(--font-display)',
+    fontSize: 'var(--display-3)',
+    lineHeight: 1.25,
+    height: 'calc(var(--display-3) * 1.25)',
+    letterSpacing: 'var(--tracking-display-3)'
+  } : {
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-base)',
+    lineHeight: 'var(--lh-base)'
+  };
+  if (!open) return /*#__PURE__*/React.createElement("div", {
+    style: {
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement(Line, {
+    text: text,
+    size: size,
+    onPick: () => setOpen(true)
+  }));
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gap: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("form", {
+    role: search ? 'search' : undefined,
+    onSubmit: e => {
+      e.preventDefault();
+      submit(search && hits.length === 1 ? hits[0].name : q);
+    },
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'minmax(0, 1fr) auto auto',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      minHeight: 44,
+      height: display ? DISPLAY_ROW : undefined,
+      boxSizing: 'content-box',
+      padding: display ? '0 3px 0 0' : 'var(--space-2) 3px var(--space-2) 0',
+      borderBottom: '1px solid var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    ref: ref,
+    type: "text",
+    inputMode: search ? 'search' : 'text',
+    enterKeyHint: search ? 'search' : 'send',
+    value: q,
+    "aria-label": text,
+    placeholder: placeholder || (search ? 'Skriv ett namn' : 'Beskriv det med egna ord'),
+    autoComplete: "off",
+    spellCheck: !search,
+    onChange: e => setQ(e.target.value),
+    onKeyDown: e => {
+      if (e.key === 'Escape') {
+        e.stopPropagation();
+        setQ('');
+        setOpen(false);
+      }
+    },
+    onBlur: e => {
+      if (!q.trim() && !(e.relatedTarget && e.currentTarget.form && e.currentTarget.form.contains(e.relatedTarget))) window.setTimeout(() => {
+        if (!ref.current || document.activeElement !== ref.current) setOpen(false);
+      }, 120);
+    },
+    style: {
+      width: '100%',
+      minWidth: 0,
+      border: 0,
+      outline: 'none',
+      background: 'none',
+      padding: 0,
+      margin: 0,
+      font: 'inherit',
+      ...type,
+      color: 'var(--text-primary)'
+    }
+  }), q ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-label": search ? 'Rensa sökningen' : 'Rensa',
+    onMouseDown: e => e.preventDefault(),
+    onClick: () => {
+      setQ('');
+      if (ref.current) ref.current.focus();
+    },
+    style: {
+      display: 'grid',
+      placeItems: 'center',
+      width: 44,
+      height: 44,
+      margin: '-10px 0',
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: display ? 'md' : 'sm'
+  })) : /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    "aria-label": search ? 'Sök' : 'Skicka',
+    style: {
+      display: 'grid',
+      placeItems: 'center end',
+      justifySelf: 'end',
+      width: 44,
+      height: 44,
+      margin: '-10px 0',
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: search ? 'search' : 'arrow--right',
+    size: display ? 'lg' : 'md'
+  }))), search && typing && q.trim().length >= 2 && !hits.length ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-secondary)'
+    }
+  }, "Inget namn st\xE4mmer \xE4nnu. Tryck p\xE5 s\xF6k f\xF6r att fr\xE5ga oss.") : search && hits.length && renderHits ? renderHits(hits) : null);
+}
+
+/* v1: the three errands, the first with its three prompts. */
 const CONVERSATION_STARTERS = [{
   id: 'jurist',
   title: 'Prata med rätt rådgivare',
-  prompts: ['Jag vet vem jag söker', 'Jag behöver hjälp att hitta rätt person', 'Jag vill kontakta Vinge generellt']
+  prompts: [{
+    text: 'Jag vet vem jag söker',
+    search: true,
+    placeholder: 'Skriv ett namn'
+  }, {
+    text: 'Jag behöver hjälp att hitta rätt person',
+    script: 'hitta'
+  }, 'Jag vill kontakta Vinge generellt']
 }, {
   id: 'jobb',
   title: 'Söker mitt drömjobb'
@@ -12560,12 +14360,102 @@ const CONVERSATION_STARTERS = [{
   id: 'annat',
   title: 'Har en fråga om annat'
 }];
+
+/* v2: three ways in and nothing else, each a whole sentence at display size.
+   The third is the free field itself, so the board carries no separate one. */
+const CONVERSATION_STARTERS_V2 = [{
+  text: 'Jag vet vem jag söker',
+  search: true,
+  placeholder: 'Skriv ett namn'
+}, {
+  text: 'Jag behöver hjälp att hitta rätt person',
+  script: 'hitta'
+}, {
+  text: 'Jag vill göra karriär hos er',
+  script: 'karriar'
+}, {
+  text: 'Låt mig beskriva vad jag står inför',
+  write: true,
+  placeholder: 'Beskriv din situation'
+}];
 function ConversationStarters({
-  groups = CONVERSATION_STARTERS,
+  variant = 'v1',
+  groups,
+  entries = CONVERSATION_STARTERS_V2,
   onPick,
+  onSearch,
+  onWrite,
+  onSearchActive,
+  onSearchChange,
+  renderHits,
+  people = [],
   style
 }) {
-  const [first, ...rest] = groups;
+  const [searching, setSearching] = React.useState(false);
+  const active = v => {
+    setSearching(v);
+    if (onSearchActive) onSearchActive(v);
+  };
+  /* What steps back while something is typed: faded in place, not removed. */
+  const recede = (children, key, extra) => /*#__PURE__*/React.createElement("div", {
+    key: key,
+    style: {
+      opacity: searching ? 0.32 : 1,
+      transition: 'opacity var(--dur-fast) var(--ease-quart)',
+      ...extra
+    }
+  }, children);
+  const field = (item, size) => {
+    if (item.search && onSearch) return /*#__PURE__*/React.createElement(FieldLine, {
+      text: item.text,
+      mode: "search",
+      size: size,
+      placeholder: item.placeholder,
+      people: people,
+      onSubmit: onSearch,
+      onActive: active,
+      onChange: onSearchChange,
+      renderHits: renderHits
+    });
+    if (item.write) return /*#__PURE__*/React.createElement(FieldLine, {
+      text: item.text,
+      mode: "write",
+      size: size,
+      placeholder: item.placeholder,
+      onSubmit: v => onWrite ? onWrite(v) : onPick && onPick(v),
+      onActive: active
+    });
+    return null;
+  };
+  if (variant === 'v2') {
+    /* Only the open field holds its ground; the others fade while it is used. */
+    return /*#__PURE__*/React.createElement("ul", {
+      style: {
+        listStyle: 'none',
+        margin: 0,
+        padding: 0,
+        display: 'grid',
+        alignContent: 'start',
+        ...style
+      }
+    }, entries.map(item => {
+      const f = field(item, 'display');
+      return /*#__PURE__*/React.createElement("li", {
+        key: item.text
+      }, f ? /*#__PURE__*/React.createElement(FieldHold, {
+        searching: searching,
+        field: f
+      }) : recede(/*#__PURE__*/React.createElement(Line, {
+        text: item.text,
+        item: item,
+        onPick: onPick,
+        size: "display"
+      }), item.text, {
+        borderBottom: '1px solid var(--rule-hairline)'
+      }));
+    }));
+  }
+  const [first, ...rest] = groups || CONVERSATION_STARTERS;
   return /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
@@ -12590,30 +14480,61 @@ function ConversationStarters({
       padding: 0,
       display: 'grid'
     }
-  }, (first.prompts || []).map(p => /*#__PURE__*/React.createElement("li", {
-    key: p,
-    style: {
+  }, (first.prompts || []).map(p => {
+    const item = typeof p === 'string' ? {
+      text: p
+    } : p;
+    const f = field(item, 'base');
+    if (f) return /*#__PURE__*/React.createElement("li", {
+      key: item.text
+    }, /*#__PURE__*/React.createElement(FieldHold, {
+      searching: searching,
+      field: f
+    }));
+    return /*#__PURE__*/React.createElement("li", {
+      key: item.text
+    }, recede(/*#__PURE__*/React.createElement(Line, {
+      text: item.text,
+      item: item,
+      onPick: onPick
+    }), item.text, {
       borderBottom: '1px solid var(--rule-hairline)'
-    }
-  }, /*#__PURE__*/React.createElement(Line, {
-    text: p,
-    onPick: onPick
-  }))))) : null, rest.map(g => /*#__PURE__*/React.createElement("div", {
-    key: g.id || g.title,
-    style: {
-      borderBottom: '1px solid var(--rule-hairline)'
-    }
-  }, /*#__PURE__*/React.createElement(Line, {
+    }));
+  }))) : null, rest.map(g => recede(/*#__PURE__*/React.createElement(Line, {
     text: g.title,
+    item: g,
     onPick: onPick,
     size: "display"
-  }))));
+  }), g.id || g.title, {
+    borderBottom: '1px solid var(--rule-hairline)'
+  })));
 }
-Object.assign(__ds_scope, { CONVERSATION_STARTERS, ConversationStarters });
+
+/* A field line fades with the rest unless it is the one being typed in:
+   each field reports its own activity, so the one with focus is the one that
+   stays. */
+function FieldHold({
+  searching,
+  field
+}) {
+  const [mine, setMine] = React.useState(false);
+  return /*#__PURE__*/React.createElement("div", {
+    onFocus: () => setMine(true),
+    onBlur: e => {
+      if (!e.currentTarget.contains(e.relatedTarget)) setMine(false);
+    },
+    style: {
+      opacity: searching && !mine ? 0.32 : 1,
+      transition: 'opacity var(--dur-fast) var(--ease-quart)'
+    }
+  }, field);
+}
+Object.assign(__ds_scope, { CONVERSATION_STARTERS, CONVERSATION_STARTERS_V2, ConversationStarters });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ConversationStarters.jsx", error: String((e && e.message) || e) }); }
 
 // components/conversation/ConversationSurface.jsx
 try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /* The conversation surface: a drawer, not a card in the middle of the screen.
    It comes in against the right edge, 85vw wide and the full height of the
    viewport, so the page stays visible down its left margin — inverted and
@@ -12662,13 +14583,113 @@ function ConversationSurface({
   jumpToLatest = 0,
   inline = false,
   showSentinels = false,
+  /* What the panel holds, in a few words ("4 sidor · 1 person"). On a phone
+     the panel is not a column: it is a sheet raised from a tray row above the
+     composer, and this is what the tray says. Empty means nothing is turned up
+     yet, and the tray is not drawn. */
+  asideSummary = '',
+  /* The tray's lead word. 'Hittat' at the newest turn; the chapter's own name
+     while an older answer is being read, so the tray says which answer the
+     sheet is showing. `asideBack` marks that second state. */
+  asideLabel = 'Hittat',
+  asideBack = false,
   style
 }) {
   const boxRef = React.useRef(null);
+  /* SM. Below 768px there is no width to divide: the drawer becomes the whole
+     screen, the panel becomes a sheet over the transcript, and docked is a bar
+     along the bottom edge instead of a column pushing the page in. An inline
+     surface is a card or a showcase frame and keeps the wide layout. */
+  const [narrow, setNarrow] = React.useState(() => !inline && typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(max-width: 767px)').matches);
+  React.useEffect(() => {
+    if (inline || !window.matchMedia) {
+      setNarrow(false);
+      return undefined;
+    }
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setNarrow(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, [inline]);
+  const [sheet, setSheet] = React.useState(false);
+  /* Unfolding from the bar: the full-screen chat is placed with only the
+     bar's height showing, for one frame, and then rises into place, so it
+     grows out of the bar instead of appearing over the page. */
+  const [rise, setRise] = React.useState(false);
+  const wasDocked = React.useRef(docked);
+  React.useLayoutEffect(() => {
+    const was = wasDocked.current;
+    wasDocked.current = docked;
+    if (!(narrow && was && !docked && open) || instant) return;
+    setRise(true);
+  }, [docked, narrow, open, instant]);
+  /* Cleared on its own clock, two frames after it is set, so nothing that
+     re-renders in between can cancel it and leave the chat parked low. */
+  React.useEffect(() => {
+    if (!rise) return undefined;
+    let b = 0;
+    const a = requestAnimationFrame(() => {
+      b = requestAnimationFrame(() => setRise(false));
+    });
+    return () => {
+      cancelAnimationFrame(a);
+      cancelAnimationFrame(b);
+    };
+  }, [rise]);
+  const [drag, setDrag] = React.useState(0);
+  const dragRef = React.useRef(null);
+  /* The tray carries a dot while it holds something the visitor has not
+     opened yet, and loses it the moment the sheet is raised. */
+  const [seen, setSeen] = React.useState(asideSummary);
+  const openSheet = () => {
+    setSheet(true);
+    if (!asideBack) setSeen(asideSummary);
+  };
+  React.useEffect(() => {
+    if (sheet && !asideBack) setSeen(asideSummary);
+  }, [sheet, asideSummary, asideBack]);
+  React.useEffect(() => {
+    if (!narrow || !open) setSheet(false);
+  }, [narrow, open]);
+  React.useEffect(() => {
+    setSheet(false);
+  }, [docked, fold]);
+  /* The keyboard. A fixed full-screen surface is sized to the layout viewport,
+     which the on-screen keyboard does not shrink, so the composer would sit
+     behind it. The surface follows the visual viewport instead. */
+  const [vv, setVv] = React.useState(null);
+  React.useEffect(() => {
+    const v = window.visualViewport;
+    if (!narrow || !open || docked || !v) {
+      setVv(null);
+      return undefined;
+    }
+    const read = () => setVv({
+      h: v.height,
+      top: v.offsetTop
+    });
+    read();
+    v.addEventListener('resize', read);
+    v.addEventListener('scroll', read);
+    return () => {
+      v.removeEventListener('resize', read);
+      v.removeEventListener('scroll', read);
+    };
+  }, [narrow, open, docked]);
   const scrollRef = React.useRef(null);
   const startRef = React.useRef(null);
   const endRef = React.useRef(null);
   const [atBottom, setAtBottom] = React.useState(true);
+  /* Whether there is more below the fold, and whether the visitor is moving
+     the transcript right now. On a phone the scrollbar is hidden at rest and
+     the fold is drawn as a fade instead; the bar shows while scrolling. */
+  const [more, setMore] = React.useState(false);
+  const [scrolling, setScrolling] = React.useState(false);
+  const scrollIdle = React.useRef(0);
+  const readMore = el => {
+    if (el) setMore(el.scrollHeight - el.scrollTop - el.clientHeight > 4);
+  };
   const atBottomRef = React.useRef(true);
   const contentRef = React.useRef(null);
   const asideScrollRef = React.useRef(null);
@@ -12699,11 +14720,37 @@ function ConversationSurface({
      otherwise arrive with its first line already above the top edge. The top of
      the newest block goes to the reading line, and short content still ends up
      flush at the bottom because the target is capped by the scroll range. */
-  const anchorTo = (el, target, pad) => {
+  /* `smooth` glides there instead of cutting: a new turn travels up into
+     place so the visitor can follow where their words went. */
+  const reduceMotion = typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const anchorTo = (el, target, pad, smooth) => {
     if (!el) return;
     const max = Math.max(0, el.scrollHeight - el.clientHeight);
     const top = target ? el.scrollTop + (target.getBoundingClientRect().top - el.getBoundingClientRect().top) - (pad || 0) : max;
-    el.scrollTop = Math.max(0, Math.min(top, max));
+    const to = Math.max(0, Math.min(top, max));
+    if (smooth && !reduceMotion && Math.abs(to - el.scrollTop) > 2) el.scrollTo({
+      top: to,
+      behavior: 'smooth'
+    });else el.scrollTop = to;
+    return to;
+  };
+  /* The newest thing the visitor said goes to the top of the column, even
+     before anything has been written under it: a spacer after the transcript
+     makes up whatever the reply has not yet filled, so the message can travel
+     all the way up while the reply is still being read. */
+  const spacerRef = React.useRef(null);
+  const placeNewest = (el, content, smooth) => {
+    const said = content ? content.querySelectorAll('[data-visitor]') : [];
+    const v = said.length ? said[said.length - 1] : null;
+    const sp = spacerRef.current;
+    if (sp) {
+      sp.style.height = '0px';
+      if (v) {
+        const below = content.getBoundingClientRect().bottom - v.getBoundingClientRect().top;
+        sp.style.height = Math.max(0, el.clientHeight - below - 12 - 24) + 'px';
+      }
+    }
+    return anchorTo(el, v, 12, smooth);
   };
   const lastBlock = host => {
     if (!host) return null;
@@ -12730,15 +14777,92 @@ function ConversationSurface({
     atBottomRef.current = true;
     intentRef.current = false;
     const pin = () => {
-      anchorTo(el, null);
+      /* Once the visitor has moved the transcript, it is theirs until they
+         say something new: a resize (the scrollbar showing, a row arriving)
+         never pulls them back to the anchor. */
+      /* Nothing said (the board of starters, or back to it after a flow): the
+         spacer that lifted the last message has nothing to lift, whatever the
+         scroll intent left over from the flow. */
+      if (spacerRef.current && !content.querySelector('[data-visitor]')) spacerRef.current.style.height = '0px';
+      if (intentRef.current) {
+        readMore(el);
+        return;
+      }
+      if (spacerRef.current) spacerRef.current.style.height = '0px';
+      /* An opening that asks to be read from its top (the phone's, with the
+         switchboard first) is held there rather than at its foot. */
+      const back = content.querySelector('[data-return]');
+      if (content.querySelector('[data-pin-top]')) {
+        if (!intentRef.current) el.scrollTop = 0;
+      }
+      /* Back from a page the exchange opened: the link that was followed,
+         centred in the column, until the visitor moves. */else if (back) {
+        if (!intentRef.current) {
+          const box = el.getBoundingClientRect(),
+            b = back.getBoundingClientRect();
+          const max = Math.max(0, el.scrollHeight - el.clientHeight);
+          el.scrollTop = Math.max(0, Math.min(max, el.scrollTop + (b.top - box.top) - (el.clientHeight - b.height) / 2));
+        }
+      } else {
+        /* As in any chat: the visitor's newest message goes to the top of the
+           column and the reply is written out beneath it, read from its
+           first line. Content shorter than the column still sits at the
+           foot, because the target is capped by the scroll range. */
+        const to = placeNewest(el, content, settled);
+        pinnedTopRef.current = to;
+        readMore(el);
+        return;
+      }
       pinnedTopRef.current = el.scrollTop;
+      readMore(el);
     };
+    /* The scroller's own height changes whenever the foot changes — the offered
+       answers folding in and out — and re-pinning on every frame of that
+       movement pulled the transcript up and down under the reply. Only the
+       content growing, or the width changing, re-pins; a height-only change
+       of the scroller keeps the reading position where it is. */
+    /* The offered answers stand over the foot of the column. When they open,
+       the newest reply is lifted clear of them — smoothly, on the fold's own
+       beat — unless the visitor has scrolled away themselves. */
+    const onLift = e => {
+      const lift = e && e.detail && e.detail.height || 0;
+      if (!lift || intentRef.current) return;
+      const cardTop = e.detail.top;
+      const turns = content.querySelectorAll('[data-chapter]');
+      const turn = turns[turns.length - 1];
+      if (!turn) return;
+      const box = el.getBoundingClientRect(),
+        t = turn.getBoundingClientRect();
+      const edge = typeof cardTop === 'number' ? cardTop : box.bottom - lift;
+      const over = t.bottom - edge + 12;
+      if (over <= 0) return;
+      /* Never past the turn's own top: a long reply is read from its start. */
+      const room = Math.max(0, t.top - box.top - 8);
+      el.scrollTo({
+        top: el.scrollTop + Math.min(over, room),
+        behavior: 'smooth'
+      });
+    };
+    window.addEventListener('vinge:composer-lift', onLift);
+    let lastW = el.clientWidth,
+      lastC = content.offsetHeight;
     const ro = new ResizeObserver(() => {
-      if (atBottomRef.current) pin();
+      const w = el.clientWidth,
+        ch = content.offsetHeight;
+      const contentMoved = ch !== lastC || w !== lastW;
+      lastW = w;
+      lastC = ch;
+      if (!contentMoved) {
+        readMore(el);
+        return;
+      }
+      if (atBottomRef.current) pin();else readMore(el);
     });
     ro.observe(content);
     ro.observe(el);
+    let settled = false;
     pin();
+    settled = true;
     const intent = () => {
       intentRef.current = true;
     };
@@ -12752,6 +14876,7 @@ function ConversationSurface({
     el.addEventListener('keydown', intent);
     return () => {
       ro.disconnect();
+      window.removeEventListener('vinge:composer-lift', onLift);
       el.removeEventListener('wheel', intent);
       el.removeEventListener('touchmove', intent);
       el.removeEventListener('pointerdown', intent);
@@ -12804,6 +14929,12 @@ function ConversationSurface({
   const onScroll = () => {
     const el = scrollRef.current;
     if (!el) return;
+    readMore(el);
+    if (intentRef.current) {
+      setScrolling(true);
+      window.clearTimeout(scrollIdle.current);
+      scrollIdle.current = window.setTimeout(() => setScrolling(false), 900);
+    }
     /* Which chapter is at the reading line is always reported, including when
        the position happens to equal the one we set — otherwise scrolling back
        down to the newest turn leaves the panel showing an older chapter. */
@@ -12827,8 +14958,9 @@ function ConversationSurface({
     if (!el) return;
     atBottomRef.current = true;
     intentRef.current = false;
-    anchorTo(el, null);
-    pinnedTopRef.current = el.scrollTop;
+    {
+      pinnedTopRef.current = placeNewest(el, contentRef.current, true);
+    }
     setAtBottom(true);
     if (onChapter) onChapter(null);
   }, [jumpToLatest]);
@@ -12842,8 +14974,17 @@ function ConversationSurface({
       content = asideContentRef.current;
     if (!el || !content || typeof MutationObserver === 'undefined') return;
     const mo = new MutationObserver(records => {
-      const arrived = records.some(r => [...r.addedNodes].some(n => n.nodeType === 1 && n.tagName === 'SECTION'));
-      if (!arrived) return;
+      const added = [];
+      records.forEach(r => [...r.addedNodes].forEach(n => {
+        if (n.nodeType === 1 && n.tagName === 'SECTION') added.push(n);
+      }));
+      if (!added.length) return;
+      /* A chapter that replaces the panel wholesale (search results) is read
+         from the top of the panel, not anchored to. */
+      if (added.every(n => n.hasAttribute('data-rail-top'))) {
+        el.scrollTop = 0;
+        return;
+      }
       window.setTimeout(() => anchorTo(el, lastBlock(content), 4), 40);
     });
     mo.observe(content, {
@@ -12934,15 +15075,28 @@ function ConversationSurface({
     /* Already docked: restored from the page before, or mid-sequence. */
     if (stageRef.current !== 'none') return undefined;
     toStage('wipe');
-    const ids = [window.setTimeout(() => toStage('dock'), 200), window.setTimeout(() => {
+    /* On a phone the fold is the whole screen travelling down into the bar,
+       so it is given the reveal duration and the page turns only once the
+       bar has arrived: the visitor sees where the chat went before the new
+       page comes up under it. */
+    const t = narrow ? {
+      dock: 20,
+      rest: 500,
+      settle: 540
+    } : {
+      dock: 200,
+      rest: 560,
+      settle: 620
+    };
+    const ids = [window.setTimeout(() => toStage('dock'), t.dock), window.setTimeout(() => {
       holdRef.current = true;
       setNear(false);
       toStage('rest');
-    }, 560), window.setTimeout(() => {
+    }, t.rest), window.setTimeout(() => {
       if (settledRef.current) settledRef.current();
-    }, 620)];
+    }, t.settle)];
     return () => ids.forEach(id => window.clearTimeout(id));
-  }, [docked, inline]);
+  }, [docked, inline, narrow]);
 
   /* A fold asked for from outside: the panel is docked and standing open under
      the cursor, and a link in it has been followed. It withdraws to the peek
@@ -12960,8 +15114,20 @@ function ConversationSurface({
 
   /* The first beat leaves the drawer exactly where it is and only takes the
      transcript off it, so geometry follows `geom` and not `docked`. */
-  const geom = docked && dockStage !== 'wipe';
-  const out = geom && !near && dockStage === 'rest';
+  /* The render that first sees `docked` comes before the effect that starts
+     the sequence, and would otherwise read the stage as 'none': the
+     transcript unmounted and the drawer snapped to the panel before a single
+     beat had played. Until the sequence has begun, docked means 'wipe'. */
+  const stage = docked && dockStage === 'none' ? 'wipe' : dockStage;
+  /* On a phone the chat does not un-print first: the whole screen, words and
+     all, slides down until only the bar's height is left showing, and only
+     then becomes the bar. So its geometry switches at rest, not at the dock
+     beat. */
+  const geom = docked && (narrow ? stage === 'rest' : stage !== 'wipe');
+  const sliding = narrow && docked && !geom;
+  /* The bar never withdraws: it is already as small as a way back can be. */
+  const out = geom && !near && stage === 'rest' && !narrow;
+  const bar = 'calc(56px + env(safe-area-inset-bottom, 0px))';
   /* A panel restored from the page before is already where it was: for the
      frame it takes to establish that, nothing is allowed to travel. */
   const motion = s => instant ? 'none' : s;
@@ -13099,7 +15265,9 @@ function ConversationSurface({
       window.removeEventListener('resize', tick);
     };
   }, [inline, geom, open]);
-  const away = geom && atFooter;
+  /* The bar stays at the footer and takes its ground instead: along the
+     bottom edge it covers no column, and leaving would strand the way back. */
+  const away = geom && atFooter && !narrow;
   const groundCss = geom && dockGround ? dockGround.css : null;
   const onDark = !!(geom && dockGround && dockGround.dark);
   const onGreen = !!(geom && dockGround && dockGround.green);
@@ -13113,7 +15281,7 @@ function ConversationSurface({
      cyclic custom property resolves to nothing at all — the panel would lose
      its ground and its ink with it. */
   const ink = onDark ? 'var(--text-primary-inverted)' : onGreen ? 'var(--ink-lift)' : 'var(--ink)';
-  const inkSoft = onDark ? 'var(--stone-70)' : onGreen ? 'var(--ink-lift-70)' : 'var(--ink-65)';
+  const inkSoft = onDark ? 'var(--clay-70)' : onGreen ? 'var(--ink-lift-70)' : 'var(--ink-65)';
   const dockScope = geom ? {
     color: ink,
     ...(groundCss ? {
@@ -13175,10 +15343,18 @@ function ConversationSurface({
     const clear = () => {
       root.removeAttribute('data-finder-docked');
       root.removeAttribute('data-finder-away');
+      root.removeAttribute('data-finder-bar');
       root.style.setProperty('--finder-dock', '0px');
       root.style.setProperty('--finder-shift', '0px');
+      root.style.removeProperty('--finder-bar');
     };
-    if (geom && open) {
+    /* On a phone nothing is pushed sideways; the page gives up the bar's
+       height at its foot so the last line is never under it. */
+    if (geom && open && narrow) {
+      clear();
+      root.setAttribute('data-finder-bar', '');
+      root.style.setProperty('--finder-bar', bar);
+    } else if (geom && open) {
       root.style.setProperty('--finder-dock', peek);
       root.style.setProperty('--finder-shift', out ? '0px' : 'calc(' + dockW + ' - ' + peek + ')');
       root.setAttribute('data-finder-docked', '');
@@ -13187,7 +15363,7 @@ function ConversationSurface({
       if (away) root.setAttribute('data-finder-away', '');else root.removeAttribute('data-finder-away');
     } else clear();
     return clear;
-  }, [geom, open, inline, dockW, out, away]);
+  }, [geom, open, inline, dockW, out, away, narrow]);
 
   /* The suppression is on the root because the page moves with the panel: the
      body's own padding and the fixed chrome's inset would otherwise animate
@@ -13271,7 +15447,7 @@ function ConversationSurface({
      drawer is a light step of.
       It sits outside the drawer's stacking context so it covers the page rather
      than the drawer, and stops taking clicks while the drawer is leaving. */
-  const ground = inline || geom && dockStage !== 'dock' ? null : /*#__PURE__*/React.createElement("div", {
+  const ground = inline || geom && stage !== 'dock' ? null : /*#__PURE__*/React.createElement("div", {
     onClick: onClose,
     "data-finder-ground": "",
     style: {
@@ -13279,11 +15455,51 @@ function ConversationSurface({
       inset: 0,
       zIndex: 38,
       background: 'var(--ink)',
-      opacity: (opening || closing || geom ? 0 : 1) * 0.9,
+      opacity: (opening || closing || geom || sliding ? 0 : 1) * 0.9,
       pointerEvents: off || geom ? 'none' : 'auto',
       transition: motion('opacity ' + dockDur + ' var(--ease-expo)')
     }
   });
+
+  /* The narrow frame: the whole screen while the exchange is open, following
+     the visual viewport so the keyboard never covers the composer; the bar's
+     height when docked, and the whole screen again while the bar's sheet is
+     raised over the page. It arrives from the bottom edge, where a phone's
+     sheets come from. */
+  const narrowFrame = narrow ? geom ? {
+    top: 'auto',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    width: '100%',
+    height: sheet ? '100%' : bar,
+    transform: 'none',
+    transition: 'none'
+  } : {
+    top: vv ? vv.top : 0,
+    left: 0,
+    right: 0,
+    bottom: 'auto',
+    width: '100%',
+    height: vv ? vv.h : '100%',
+    transform: gone ? 'translateY(100%)' : rise || sliding ? 'translateY(calc(100% - ' + bar + '))' : 'none',
+    transition: rise ? 'none' : motion('height var(--dur-fast) var(--ease-expo), transform ' + (sliding || docked ? 'var(--dur-reveal)' : 'var(--dur-medium)') + ' var(--ease-expo), visibility 0s linear ' + (gone ? 'var(--dur-medium)' : '0s'))
+  } : null;
+  const sheetMove = sheet ? 'translateY(' + drag + 'px)' : 'translateY(100%)';
+  const grab = {
+    onTouchStart: e => {
+      dragRef.current = e.touches[0].clientY;
+    },
+    onTouchMove: e => {
+      if (dragRef.current == null) return;
+      setDrag(Math.max(0, e.touches[0].clientY - dragRef.current));
+    },
+    onTouchEnd: () => {
+      if (drag > 80) setSheet(false);
+      dragRef.current = null;
+      setDrag(0);
+    }
+  };
   return /*#__PURE__*/React.createElement(React.Fragment, null, ground, /*#__PURE__*/React.createElement("div", {
     "data-finder-frame": ""
     /* The drawer is held to the right edge and the full viewport height: no
@@ -13312,6 +15528,7 @@ function ConversationSurface({
          instantly. */
       visibility: gone ? 'hidden' : 'visible',
       transition: motion('width ' + dockDur + ' var(--ease-expo), transform var(--dur-medium) var(--ease-expo), visibility 0s linear ' + (gone ? 'var(--dur-medium)' : '0s')),
+      ...narrowFrame,
       ...dockScope,
       ...style
     }
@@ -13323,8 +15540,13 @@ function ConversationSurface({
     /* The drawer is a washed scope: the conversation is a thing being read,
        not a page being scanned, so it sits on the light green rather than on
        paper. Tint and hairline are re-pointed with it, so the visitor's own
-       turns stay a step of the same green instead of a grey box. */,
-    "data-washed": geom ? undefined : '',
+       turns stay a step of the same green instead of a grey box. */
+    /* On a phone the chat is the whole screen, so it is the page's own
+       paper, and the wash goes to what stands on it: the visitor's turns,
+       the offered answers, the contact card. */
+    /* Every width now follows the phone: paper ground, wash for what stands
+       on it. */,
+    "data-washed": undefined,
     onMouseEnter: docked ? enter : undefined,
     onMouseLeave: docked ? () => setNear(false) : undefined,
     onFocusCapture: docked ? () => {
@@ -13338,14 +15560,27 @@ function ConversationSurface({
       /* Docked it is page furniture, not a thing being read: the page's own
          ground, and a single hairline instead of a block of green against
          the site. */
-      background: geom ? groundCss || 'var(--paper)' : 'var(--wash)',
+      background: geom && narrow ? groundCss || 'var(--ground-paper)' : geom ? groundCss || 'var(--paper)' : 'var(--ground-paper)',
       /* Withdrawn, the panel is only its two glyphs: no line draws it as a
          thing standing in front of the page. The rule arrives with it. */
-      borderLeft: geom ? '1px solid ' + (out ? 'transparent' : 'currentColor') : '0',
+      borderLeft: geom && !narrow ? '1px solid ' + (out ? 'transparent' : 'currentColor') : '0',
+      /* Re-stated in full rather than inherited: the surface may be
+         mounted inside an inverted or washed section, and the phone's
+         chat is always the paper scope. */
       ...(geom ? null : {
-        '--surface-tint': 'var(--clay)',
-        '--rule-hairline': 'var(--ink-lift-12)',
-        '--rule-footer': 'var(--ink-lift-12)'
+        '--paper': 'var(--ground-paper)',
+        '--wash': 'var(--ground-wash)',
+        '--surface': 'var(--ground-paper)',
+        '--surface-tint': 'var(--ground-wash)',
+        '--text-primary': 'var(--ink)',
+        '--text-secondary': 'var(--ink-65)',
+        '--underline-rest': 'var(--ink-65)',
+        '--underline-rest-secondary': 'var(--ink-55)',
+        '--underline-active': 'var(--ink)',
+        '--rule-hairline': 'var(--ink-12)',
+        '--rule-footer': 'var(--ink-12)',
+        '--focus-ring': 'var(--ink)',
+        color: 'var(--ink)'
       }),
       position: 'relative',
       /* Docked, the body keeps the full panel width regardless of how far
@@ -13353,7 +15588,7 @@ function ConversationSurface({
          and the glyphs at its right edge stay put. Contracting to it from
          the drawer is the dock beat's own movement, so the width travels
          on the same curve the frame does. */
-      width: geom ? dockWidth : '100%',
+      width: geom && !narrow ? dockWidth : '100%',
       marginLeft: 'auto',
       height: '100%',
       pointerEvents: 'auto',
@@ -13362,12 +15597,12 @@ function ConversationSurface({
       /* The transcript column is held to its reading measure and no wider;
          whatever the drawer has left over goes to the aside rather than
          standing empty between the lines and the hairline. */
-      gridTemplateColumns: geom ? 'minmax(0, 1fr)' : aside ? 'minmax(0, 78ch) minmax(' + asideWidth + ', 1fr)' : 'minmax(0, 1fr)',
+      gridTemplateColumns: geom || narrow ? 'minmax(0, 1fr)' : aside ? 'minmax(0, 78ch) minmax(' + asideWidth + ', 1fr)' : 'minmax(0, 1fr)',
       /* Arriving and leaving are the frame's movement, one level up; what
          changes here is the drawer's own width and what it looks like. */
       /* The ground switches rather than fades: the panel reaches the footer
          with the page, and a crossfade there only makes it trail. */
-      transition: motion('width ' + dockDur + ' var(--ease-expo)' + (geom && dockStage === 'rest' ? '' : ', background-color ' + dockDur + ' var(--ease-expo)') + ', border-color ' + dockDur + ' var(--ease-expo)')
+      transition: motion('width ' + dockDur + ' var(--ease-expo)' + (geom && stage === 'rest' ? '' : ', background-color ' + dockDur + ' var(--ease-expo)') + ', border-color ' + dockDur + ' var(--ease-expo)')
     }
   }, /*#__PURE__*/React.createElement("button", {
     ref: startRef,
@@ -13380,22 +15615,27 @@ function ConversationSurface({
         top: 0
       } : {})
     }
-  }, showSentinels ? 'Fokusvakt — början' : null), docked && dockStage !== 'wipe' ? null : /*#__PURE__*/React.createElement("div", {
+  }, showSentinels ? 'Fokusvakt — början' : null), geom || docked && !narrow && stage !== 'wipe' ? null : /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
-      gridTemplateRows: 'auto minmax(0, 1fr) auto',
+      gridTemplateRows: narrow ? 'auto minmax(0, 1fr) auto auto' : 'auto minmax(0, 1fr) auto',
       minHeight: 0,
       height: '100%',
-      paddingInline: 'var(--space-4)',
+      /* On a phone the inset moves onto each row instead, so the
+         transcript's scroller runs edge to edge and a band inside it
+         can reach both sides of the screen. */
+      paddingInline: narrow ? 0 : 'var(--space-4)',
       paddingBlock: showSentinels ? 'var(--space-4)' : 0,
-      opacity: docked ? 0 : 1,
+      opacity: docked && !narrow ? 0 : 1,
       overflow: docked ? 'hidden' : undefined,
       pointerEvents: docked ? 'none' : undefined,
       transition: motion('opacity var(--dur-micro) var(--ease-quart)')
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      paddingBlock: 'var(--space-3)',
+      paddingBlock: narrow ? 'calc(var(--space-2) + env(safe-area-inset-top, 0px)) var(--space-2)' : 'var(--space-3)',
+      paddingInline: narrow ? 'var(--space-3)' : undefined,
+      boxSizing: 'border-box',
       maxWidth: '78ch',
       width: '100%'
     }
@@ -13403,22 +15643,49 @@ function ConversationSurface({
     ref: takeScroll,
     onScroll: onScroll,
     "data-finder-scroll": "",
+    "data-quiet": narrow && !scrolling ? '' : undefined,
     style: {
       overflowY: 'auto',
       overscrollBehavior: 'contain',
       overflowAnchor: 'none',
       display: 'block',
+      paddingInline: narrow ? 'var(--space-3)' : undefined,
+      ...(narrow && more ? {
+        WebkitMaskImage: 'linear-gradient(to bottom, #000 calc(100% - 56px), transparent)',
+        maskImage: 'linear-gradient(to bottom, #000 calc(100% - 56px), transparent)'
+      } : null),
       paddingBottom: 'var(--space-4)'
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: contentRef,
-    style: {
+    style: narrow
+    /* A phone fills the column, so an opening can hold its parts at
+       the top and the foot of the screen rather than stacked from the
+       top. Turns stack from the top exactly as before. */ ? {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-5)',
+      minHeight: '100%'
+    } : {
       display: 'grid',
       alignContent: 'start',
       gap: 'var(--space-5)',
       maxWidth: '78ch'
     }
-  }, children), atBottom ? null : /*#__PURE__*/React.createElement("div", {
+  }, children), /*#__PURE__*/React.createElement("div", {
+    ref: spacerRef,
+    "aria-hidden": "true",
+    style: {
+      height: 0,
+      flex: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      height: 'var(--composer-lift, 0px)',
+      flex: 'none'
+    }
+  }), atBottom || narrow ? null : /*#__PURE__*/React.createElement("div", {
     style: {
       position: 'sticky',
       bottom: 0,
@@ -13464,13 +15731,208 @@ function ConversationSurface({
     style: {
       color: 'var(--text-primary)'
     }
-  })))), /*#__PURE__*/React.createElement("div", {
+  })))), narrow && aside && asideSummary ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: openSheet,
+    "aria-expanded": sheet ? 'true' : 'false',
+    "aria-label": 'Visa det samtalet har hittat: ' + asideSummary,
     style: {
-      paddingBlock: 'var(--space-3) var(--space-4)',
+      display: 'grid',
+      gridTemplateColumns: 'auto minmax(0, 1fr) auto',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      width: '100%',
+      minHeight: 48,
+      padding: 0,
+      margin: 0,
+      background: 'none',
+      border: 0,
+      borderTop: '1px solid var(--rule-hairline)',
+      borderBottom: '1px solid var(--rule-hairline)',
+      cursor: 'pointer',
+      textAlign: 'left',
+      color: 'var(--text-primary)',
+      fontFamily: 'var(--font-text)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)',
+      whiteSpace: 'nowrap'
+    }
+  }, asideLabel), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap'
+    }
+  }, asideSummary), asideSummary !== seen && !asideBack ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      flex: 'none',
+      width: 6,
+      height: 6,
+      borderRadius: '50%',
+      background: 'currentColor'
+    }
+  }) : null), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--up",
+    size: "md"
+  })) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      paddingBlock: narrow ? '0 calc(var(--space-3) + env(safe-area-inset-bottom, 0px))' : '0 var(--space-4)',
+      paddingInline: narrow ? 'var(--space-3)' : undefined,
+      boxSizing: 'border-box',
       maxWidth: '78ch',
       width: '100%'
     }
-  }, footer)), aside ? /*#__PURE__*/React.createElement("div", {
+  }, footer)), aside && narrow ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": sheet ? undefined : 'true',
+    style: {
+      position: 'absolute',
+      inset: 0,
+      zIndex: 4,
+      pointerEvents: sheet ? 'auto' : 'none',
+      visibility: sheet ? 'visible' : 'hidden',
+      transition: motion('visibility 0s linear ' + (sheet ? '0s' : 'var(--dur-medium)'))
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    onClick: () => setSheet(false),
+    style: {
+      position: 'absolute',
+      inset: 0,
+      background: 'var(--ink)',
+      opacity: sheet ? 0.5 : 0,
+      transition: motion('opacity var(--dur-medium) var(--ease-expo)')
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    role: "region",
+    "aria-label": "Det samtalet har hittat",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      top: 'calc(48px + env(safe-area-inset-top, 0px))',
+      display: 'grid',
+      gridTemplateRows: 'auto minmax(0, 1fr) auto',
+      background: geom ? groundCss || 'var(--paper)' : 'var(--ground-paper)',
+      transform: sheetMove,
+      transition: drag ? 'none' : motion('transform var(--dur-medium) var(--ease-expo)')
+    }
+  }, /*#__PURE__*/React.createElement("div", _extends({}, grab, {
+    style: {
+      display: 'grid',
+      gap: 'var(--space-1)',
+      padding: 'var(--space-1) var(--space-3) 0',
+      borderBottom: '1px solid var(--rule-hairline)',
+      touchAction: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      justifySelf: 'center',
+      width: 32,
+      height: 3,
+      borderRadius: 2,
+      background: 'currentColor',
+      opacity: 0.24
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'minmax(0, 1fr) auto',
+      alignItems: 'center',
+      gap: 'var(--space-2)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, asideLabel), asideSummary ? '  ' + asideSummary : ''), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setSheet(false),
+    "aria-label": "Tillbaka till samtalet",
+    style: {
+      display: 'grid',
+      placeItems: 'center',
+      width: 44,
+      height: 44,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--down",
+    size: "lg"
+  })))), /*#__PURE__*/React.createElement("div", {
+    ref: takeAside,
+    "data-finder-scroll": "",
+    style: {
+      minHeight: 0,
+      overflowY: 'auto',
+      overscrollBehavior: 'contain',
+      padding: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: asideContentRef
+  }, aside)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: 'var(--space-2) var(--space-3) calc(var(--space-3) + env(safe-area-inset-bottom, 0px))',
+      borderTop: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => {
+      if (docked) {
+        setSheet(false);
+        if (onExpand) onExpand();
+        return;
+      }
+      const box = boxRef.current;
+      const field = box ? box.querySelector('textarea[aria-label="Ditt svar"], input[aria-label="Ditt svar"]') : null;
+      if (field) field.focus({
+        preventScroll: true
+      });
+      setSheet(false);
+    },
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'minmax(0, 1fr) auto',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      width: '100%',
+      minHeight: 48,
+      padding: '0 0 0.3em',
+      background: 'none',
+      border: 0,
+      borderBottom: '1px solid var(--underline-rest)',
+      cursor: 'text',
+      textAlign: 'left',
+      fontFamily: 'var(--font-text)',
+      fontSize: 16,
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", null, docked ? 'Fortsätt chatta' : 'Skriv med egna ord'), /*#__PURE__*/React.createElement(__ds_scope.OrbMark, {
+    size: 20,
+    tone: onDark ? 'paper' : 'ink'
+  }))))) : aside ? /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
       gridTemplateRows: geom ? 'minmax(0, 1fr) auto' : 'minmax(0, 1fr)',
@@ -13510,7 +15972,7 @@ function ConversationSurface({
         bottom: 0
       } : {})
     }
-  }, showSentinels ? 'Fokusvakt — slut' : null)), !docked && !inline && aside && onDock ? /*#__PURE__*/React.createElement("button", {
+  }, showSentinels ? 'Fokusvakt — slut' : null)), !docked && !inline && !narrow && aside && onDock ? /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: onDock,
     "aria-label": "F\xE4ll in panelen",
@@ -13543,7 +16005,80 @@ function ConversationSurface({
   }, "F\xE4ll in", /*#__PURE__*/React.createElement(__ds_scope.Icon, {
     name: "chevron--right",
     size: "sm"
-  })) : null, docked ? /*#__PURE__*/React.createElement("div", {
+  })) : null, docked && narrow ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      zIndex: 2,
+      height: bar,
+      display: 'grid',
+      gridTemplateColumns: 'minmax(0, 1fr) auto',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      padding: '0 var(--space-1) env(safe-area-inset-bottom, 0px) var(--space-3)',
+      boxSizing: 'border-box',
+      background: groundCss || 'var(--paper)',
+      borderTop: '1px solid var(--rule-hairline)',
+      opacity: geom ? 1 : 0,
+      transition: motion('opacity ' + dockDur + ' var(--ease-expo)')
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onExpand,
+    "aria-label": "Tillbaka till samtalet",
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      minWidth: 0,
+      height: 48,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-primary)',
+      fontFamily: 'var(--font-text)',
+      textAlign: 'left'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.OrbMark, {
+    ref: orbRef,
+    size: 24,
+    tone: onDark ? 'paper' : 'ink'
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap'
+    }
+  }, "Tillbaka till samtalet"), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--up",
+    size: "md",
+    style: {
+      marginLeft: 'auto',
+      color: 'var(--text-secondary)'
+    }
+  })), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onEnd || onClose,
+    "aria-label": "Avsluta samtalet",
+    style: {
+      display: 'grid',
+      placeItems: 'center',
+      width: 44,
+      height: 44,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: "lg"
+  }))) : docked ? /*#__PURE__*/React.createElement("div", {
     onMouseEnter: enter,
     onMouseLeave: () => setNear(false),
     onFocusCapture: () => {
@@ -13643,6 +16178,7 @@ Object.assign(__ds_scope, { ConversationSurface });
 
 // components/conversation/GuidedConversation.jsx
 try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /* The exchange is a session, not a modal. It ends when the visitor ends it,
    and nothing else ends it: not closing the surface, not following a link, not
    reloading, not moving between pages, not the panel docking or withdrawing.
@@ -13656,7 +16192,7 @@ try { (() => {
      aside  — withdrawn by the visitor, kept and resumable
    Restoring `aside` brings nothing on screen; the header's chat trigger
    resumes it with the transcript intact. */
-const SESSION_KEY = 'vinge.finder.session';
+const SESSION_KEY = 'vinge.finder.session.v2'; /* bump when script data changes shape, so old snapshots are dropped */
 const readSession = () => {
   try {
     const raw = window.sessionStorage.getItem(SESSION_KEY);
@@ -13707,6 +16243,40 @@ const writeSession = v => {
    were. Nothing in the interface says a script is running — no counter, no
    badge, no controls. Resetting is reloading. */
 
+/* A turn that has just been said comes in rather than appearing: it rises a
+   short way and fades up, on the reveal step, so the eye can follow the
+   visitor's own words into the transcript and the reply arriving under them.
+   Turns already on record (restored, re-shown) are simply there. */
+function Arrive({
+  fresh,
+  children,
+  ...rest
+}) {
+  const [inPlace, setInPlace] = React.useState(!fresh);
+  React.useEffect(() => {
+    if (inPlace) return undefined;
+    let b = 0;
+    const a = requestAnimationFrame(() => {
+      b = requestAnimationFrame(() => setInPlace(true));
+    });
+    return () => {
+      cancelAnimationFrame(a);
+      cancelAnimationFrame(b);
+    };
+  }, []);
+  const {
+    style,
+    ...attrs
+  } = rest;
+  return /*#__PURE__*/React.createElement("div", _extends({}, attrs, {
+    style: {
+      ...style,
+      opacity: inPlace ? 1 : 0,
+      transform: inPlace ? 'none' : 'translateY(calc(var(--reveal-rise, 24px) * 0.5))',
+      transition: 'opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo)'
+    }
+  }), children);
+}
 function GuidedConversation({
   open = true,
   phase,
@@ -13718,6 +16288,11 @@ function GuidedConversation({
   dockWidth,
   starters = true,
   starterGroups,
+  /* The opening board. v1: three errands with the first one's prompts, and
+     the free field at the foot. v2: three display-size ways in — name search,
+     the guided flow, writing freely — with the free field one of them, so
+     the foot carries no field until something has been said. */
+  startersVersion = 'v2',
   logoSrc = '/assets/logo.svg',
   dotSrc,
   onClose,
@@ -13752,6 +16327,33 @@ function GuidedConversation({
      panel standing open gets the same last beat as a full dock. */
   const [fold, setFold] = React.useState(0);
   const [draft, setDraft] = React.useState('');
+  /* A name being typed in the starters' search: everything but the wordmark,
+     Stäng and the search's own section fades while it lasts. */
+  const [searching, setSearching] = React.useState(false);
+  /* The people the typed name matches. On a wide screen they stand in the
+     panel, as the same cards the panel always uses; on a phone, under the
+     field. */
+  const [hits, setHits] = React.useState(null);
+  /* Each settled query is one search: its people load out of the raster, one
+     after the next, rather than being swapped under the cursor per keystroke.
+     The generation remounts them so the loader plays again. */
+  const [shownHits, setShownHits] = React.useState(null);
+  const [hitGen, setHitGen] = React.useState(0);
+  React.useEffect(() => {
+    if (!hits || !hits.length) {
+      setShownHits(null);
+      return undefined;
+    }
+    const id = window.setTimeout(() => {
+      setShownHits(hits);
+      setHitGen(n => n + 1);
+    }, 260);
+    return () => window.clearTimeout(id);
+  }, [hits]);
+  const recede = {
+    opacity: searching ? 0.32 : 1,
+    transition: 'opacity var(--dur-fast) var(--ease-quart)'
+  };
   const [working, setWorking] = React.useState(false);
   const [read, setRead] = React.useState(null);
   const [jump, setJump] = React.useState(0);
@@ -13762,12 +16364,37 @@ function GuidedConversation({
   const [railActive, setRailActive] = React.useState(null);
   const wasBack = React.useRef(false);
   const [extra, setExtra] = React.useState(() => rec ? rec.extra || 0 : 0);
+  /* A starter can hand the exchange to a script of its own: the name search
+     answers at once and carries on with SCRIPT_NAMN's follow-ups, not the
+     acquisition's questions. */
+  const [scriptId, setScriptId] = React.useState(() => rec ? rec.scriptId || null : null);
+  const active = scriptId && __ds_scope.SCRIPTS.find(x => x.id === scriptId) || script;
+  /* The pages opened from the exchange, and the answer the last one came
+     from: coming back on a phone lands on that answer, with what has been
+     read marked, rather than at the foot of the transcript. */
+  const [visited, setVisited] = React.useState(() => rec ? rec.visited || [] : []);
+  const [returnTo, setReturnTo] = React.useState(() => rec && rec.returnTo != null ? rec.returnTo : null);
   const timer = React.useRef(0);
   const seeded = React.useRef(!!rec);
   /* Ended, and so not to be written again until something is said: without
      this the persisting effect below rewrites the record it has just cleared. */
   const ended = React.useRef(false);
   const isOpen = open || restored;
+
+  /* On a phone the keyboard would cover the starters the moment the surface
+     opens, so the field waits to be tapped. */
+  const [narrowView, setNarrowView] = React.useState(() => !inline && typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(max-width: 767px)').matches);
+  React.useEffect(() => {
+    if (inline || !window.matchMedia) {
+      setNarrowView(false);
+      return undefined;
+    }
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setNarrowView(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, [inline]);
 
   /* Written on every change, not at the dock: a reload, a link followed from
      the page rather than the panel, or a browser's own back button all arrive
@@ -13782,9 +16409,12 @@ function GuidedConversation({
       fired,
       shape,
       extra,
+      visited,
+      returnTo,
+      scriptId,
       state
     });
-  }, [persist, inline, turns, chapters, fired, shape, extra, state]);
+  }, [persist, inline, turns, chapters, fired, shape, extra, visited, returnTo, scriptId, state]);
   React.useEffect(() => {
     if (!instant) return undefined;
     const id = window.requestAnimationFrame(() => window.requestAnimationFrame(() => setInstant(false)));
@@ -13801,7 +16431,7 @@ function GuidedConversation({
     if (!open) return;
     setDocked(false);
   }, [open]);
-  const turnList = script.turns || [];
+  const turnList = active.turns || [];
   const dead = fired >= turnList.length;
 
   /* One rail delta per turn. A superseded item is not removed — it stays in
@@ -13832,16 +16462,21 @@ function GuidedConversation({
       }]);
     });
   };
-  const fire = React.useCallback((index, delay) => {
+
+  /* `from` runs a script other than the active one — a starter that hands the
+     exchange to its own script fires before the switch has rendered. */
+  const fire = React.useCallback((index, delay, from) => {
+    const run = from || active;
+    const list = run.turns || [];
     setWorking(true);
     window.clearTimeout(timer.current);
     timer.current = window.setTimeout(() => {
-      const t = turnList[index];
+      const t = list[index];
       setWorking(false);
       if (!t) {
         /* Past the end of the script the field stays open and the machine
            keeps to what the record holds. */
-        const f = (script.followUps || [])[extra % Math.max(1, (script.followUps || []).length)];
+        const f = (run.followUps || [])[extra % Math.max(1, (run.followUps || []).length)];
         setExtra(n => n + 1);
         if (f) setTurns(prev => prev.concat([{
           speaker: 'machine',
@@ -13857,7 +16492,15 @@ function GuidedConversation({
         variant: t.variant || 'question',
         text: t.text,
         body: t.body,
-        chapter: t.rail ? chapters.length : Math.max(0, chapters.length - 1)
+        chapter: t.rail ? chapters.length : Math.max(0, chapters.length - 1),
+        /* What this answer turned up, kept with the answer itself: on a phone
+           it is shown under the reply rather than in a panel beside it. */
+        at: Date.now(),
+        found: t.rail && t.rail.items && t.rail.items.length ? {
+          label: t.rail.label,
+          lead: t.rail.lead,
+          items: t.rail.items
+        } : null
       }]));
       /* A refusal leaves the standing question in place: the composer keeps
          the shape it had. */
@@ -13870,7 +16513,7 @@ function GuidedConversation({
       applyRail(t.rail);
       setFired(index + 1);
     }, delay || 1100);
-  }, [turnList, script, extra, chapters.length]);
+  }, [turnList, active, extra, chapters.length]);
   const reset = React.useCallback(() => {
     window.clearTimeout(timer.current);
     setTurns([]);
@@ -13881,6 +16524,9 @@ function GuidedConversation({
     setWorking(false);
     setRead(null);
     setExtra(0);
+    setVisited([]);
+    setReturnTo(null);
+    setScriptId(null);
   }, []);
 
   /* Opened with words — from the hero field or the showcase's default state —
@@ -13966,14 +16612,108 @@ function GuidedConversation({
     setDraft('');
     /* A starter is not a menu item: picking one types it and the exchange goes
        on exactly as if the visitor had written it. */
+    setReturnTo(null);
     setTurns(prev => prev.concat([{
       speaker: 'visitor',
       text: text,
+      at: Date.now(),
       chapter: Math.max(0, chapters.length - 1)
     }]));
     setRead(null);
     setJump(n => n + 1);
     fire(fired);
+  };
+
+  /* A starter with a script of its own: its words are the first turn, and
+     that script — not the page's canon — runs from there. */
+  const startScript = (id, text) => {
+    const run = __ds_scope.SCRIPTS.find(x => x.id === id);
+    if (!run) {
+      commit({
+        text
+      });
+      return;
+    }
+    ended.current = false;
+    window.clearTimeout(timer.current);
+    setDraft('');
+    setReturnTo(null);
+    setRead(null);
+    setExtra(0);
+    setChapters([]);
+    setShape(null);
+    setSearching(false);
+    setHits(null);
+    setScriptId(id);
+    setFired(0);
+    setTurns([{
+      speaker: 'visitor',
+      text: text,
+      at: Date.now(),
+      chapter: 0
+    }]);
+    setJump(n => n + 1);
+    fire(0, 1100, run);
+  };
+  const pickStarter = (text, item) => item && item.script ? startScript(item.script, text) : commit({
+    text
+  });
+
+  /* The name search. Same result as the exchange landing on a person — the
+     name as the visitor's turn, the answer under it, the person standing open
+     in the panel (under the answer on a phone) — but nothing is asked and
+     nothing loads: the visitor already knew who they wanted. */
+  const search = name => {
+    ended.current = false;
+    window.clearTimeout(timer.current);
+    const r = __ds_scope.lookupPerson(name, __ds_scope.directory());
+    const now = Date.now();
+    setDraft('');
+    setReturnTo(null);
+    setRead(null);
+    setWorking(false);
+    setSearching(false);
+    setHits(null);
+    setShownHits(null);
+    setTurns([{
+      speaker: 'visitor',
+      text: name,
+      at: now,
+      chapter: 0
+    }, {
+      speaker: 'machine',
+      variant: r.turn.variant,
+      text: r.turn.text,
+      body: r.turn.body,
+      chapter: 0,
+      at: now,
+      found: {
+        label: r.rail.label,
+        lead: r.rail.lead,
+        items: r.rail.items
+      }
+    }]);
+    setChapters([{
+      label: r.rail.label,
+      items: r.rail.items
+    }]);
+    setShape({
+      kind: 'text',
+      options: []
+    });
+    setScriptId('namn');
+    setFired(Number.MAX_SAFE_INTEGER);
+    setExtra(0);
+    setJump(n => n + 1);
+  };
+
+  /* Back to the board of starters, whichever flow is running: the transcript
+     and the panel are cleared and the session record with them, but the
+     surface stays open. */
+  const restart = () => {
+    if (persist && !inline) writeSession(null);
+    reset();
+    setDocked(false);
   };
 
   /* Two different verbs, and the difference is the whole point. Stäng, the
@@ -13989,6 +16729,9 @@ function GuidedConversation({
       fired,
       shape,
       extra,
+      visited,
+      returnTo,
+      scriptId,
       state: 'aside'
     });
     if (onClose) onClose();
@@ -14022,6 +16765,9 @@ function GuidedConversation({
       fired,
       shape,
       extra,
+      visited,
+      returnTo,
+      scriptId,
       state: 'docked'
     });
   };
@@ -14044,6 +16790,10 @@ function GuidedConversation({
   };
   const navigate = (item, e) => {
     if (e) e.preventDefault();
+    /* The newest last: the last item followed is the page being read. */
+    if (item && item.id) setVisited(v => v.filter(x => x !== item.id).concat([item.id]));
+    const from = turns.findIndex(t => t.found && t.found.items.some(it => it === item || it.id && it.id === item.id));
+    if (from >= 0) setReturnTo(from);
     /* Docked and expanded under the cursor: the link was read in a panel that
        is standing open, so it folds to the peek before the page turns — the
        same last beat a full dock ends on, not an instant jump. */
@@ -14090,7 +16840,7 @@ function GuidedConversation({
   });
   /* Only an answer that has been scrolled back to is marked: at the newest
      state the panel is simply current and needs no source pointed out. */
-  const markIndex = read != null && answerChapter[read] != null && read !== lastAnswer ? read : -1;
+  const markIndex = narrowView ? -1 : read != null && answerChapter[read] != null && read !== lastAnswer ? read : -1;
   const targetChapter = markIndex === -1 ? null : answerChapter[markIndex];
   /* The panel updates when the dot arrives, not the moment the scroll crosses
      the answer: the travel is the hand-off, and a rail that changed mid-flight
@@ -14109,6 +16859,22 @@ function GuidedConversation({
     options: [],
     legend: null
   };
+  /* The panel in a few words, for the phone's tray and docked bar. Superseded
+     items are still reachable but no longer counted as what was found. */
+  /* Scrolled back to an older answer, the tray speaks for that answer's
+     chapter alone, under its name, and the sheet opens on it: the phone's
+     version of the rail following the reading position. */
+  const backChapter = railActive != null && chapters[railActive] ? chapters[railActive] : null;
+  let nPages = 0,
+    nPeople = 0;
+  (backChapter ? [backChapter] : chapters).forEach(c => (c.items || []).forEach(it => {
+    if (it.superseded && !backChapter) return;
+    if (it.kind === 'person') nPeople += 1;else nPages += 1;
+  }));
+  const asideSummary = [nPages ? nPages + (nPages === 1 ? ' sida' : ' sidor') : '', nPeople ? nPeople + (nPeople === 1 ? ' person' : ' personer') : ''].filter(Boolean).join(' · ');
+  /* A phone keeps the switchboard out of the panel: it stands under the
+     starters before anything is said, and in the header from then on. */
+  const talking = turns.length > 0 || working;
   return /*#__PURE__*/React.createElement(__ds_scope.ConversationSurface, {
     open: isOpen,
     phase: phase,
@@ -14128,15 +16894,30 @@ function GuidedConversation({
       setDocked(true);
     },
     style: style,
+    asideSummary: narrowView && !docked ? '' : asideSummary,
+    asideLabel: backChapter && !narrowView ? backChapter.label : 'Hittat',
+    asideBack: !!backChapter && !narrowView,
     header: /*#__PURE__*/React.createElement(__ds_scope.ConversationHeader, {
       sticky: true,
       scrolled: turns.length > 2,
       onClose: setAside,
       onEnd: turns.length ? end : null,
-      logoSrc: logoSrc
+      onRestart: turns.length || working ? restart : null,
+      logoSrc: logoSrc,
+      phone: narrowView && talking ? '08-614 30 00' : undefined,
+      closeIcon: narrowView
     }),
     aside: /*#__PURE__*/React.createElement(__ds_scope.ConversationRail, {
-      chapters: chapters,
+      chapters: hits && hits.length && !narrowView ? shownHits ? [{
+        key: 'hits-' + hitGen,
+        top: true,
+        label: 'Sökträffar',
+        items: shownHits.map((p, i) => ({
+          ...p,
+          featured: i === 0
+        }))
+      }] : [] : chapters,
+      contact: !narrowView && !talking && !(hits && hits.length),
       active: railActive,
       mode: railMode,
       instant: instant,
@@ -14144,9 +16925,12 @@ function GuidedConversation({
         setRead(null);
         setJump(n => n + 1);
       },
-      onNavigate: navigate
+      onNavigate: navigate,
+      style: hits && hits.length && !narrowView ? undefined : recede
     }),
-    footer: /*#__PURE__*/React.createElement(__ds_scope.ChoiceComposer, {
+    footer: startersVersion === 'v2' && !talking ? null : /*#__PURE__*/React.createElement(Arrive, {
+      fresh: startersVersion === 'v2'
+    }, /*#__PURE__*/React.createElement(__ds_scope.ChoiceComposer, {
       value: draft,
       onChange: setDraft,
       onSubmit: commit,
@@ -14155,34 +16939,117 @@ function GuidedConversation({
       legend: live.legend,
       disabled: working,
       disabledNote: turnList[fired] && turnList[fired].working || 'Läser uppdragsregistret.',
-      autoFocus: true,
-      dotSrc: dotSrc
-    })
-  }, turns.length === 0 && !working ? /*#__PURE__*/React.createElement(__ds_scope.ConversationStarters, {
+      autoFocus: !narrowView,
+      dotSrc: dotSrc,
+      style: recede
+    }))
+  }, narrowView && !talking ?
+  /*#__PURE__*/
+  /* The phone's opening: the switchboard at the top, the errands held
+     together at the foot, next to the field they type into. */
+  React.createElement("div", {
+    "data-pin-top": "",
+    style: {
+      flex: '1 0 auto',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      gap: 'clamp(var(--space-3), 8vh, var(--space-6))'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.RailContact, {
+    style: {
+      borderBottom: 0,
+      paddingBottom: 0,
+      paddingTop: 'var(--space-2)',
+      ...recede
+    }
+  }), /*#__PURE__*/React.createElement(__ds_scope.ConversationStarters, {
+    key: isOpen && !docked ? "open" : "shut",
+    variant: startersVersion,
     groups: starterGroups,
-    onPick: text => commit({
+    onPick: pickStarter,
+    onWrite: text => commit({
       text
-    })
-  }) : null, turns.map((t, i) => /*#__PURE__*/React.createElement("div", {
+    }),
+    onSearch: search,
+    onSearchActive: setSearching,
+    onSearchChange: (q, h) => setHits(h),
+    renderHits: narrowView ? () => shownHits ? /*#__PURE__*/React.createElement(__ds_scope.FoundList, {
+      key: 'hits-' + hitGen,
+      found: {
+        lead: shownHits.length === 1 ? 'Personen som stämmer:' : 'Personer som stämmer:',
+        items: shownHits
+      },
+      fresh: true,
+      onNavigate: navigate
+    }) : null : undefined,
+    people: __ds_scope.directory()
+  })) : turns.length === 0 && !working ? /*#__PURE__*/React.createElement(__ds_scope.ConversationStarters, {
+    key: isOpen && !docked ? "open" : "shut",
+    variant: startersVersion,
+    groups: starterGroups,
+    onPick: pickStarter,
+    onWrite: text => commit({
+      text
+    }),
+    onSearch: search,
+    onSearchActive: setSearching,
+    onSearchChange: (q, h) => setHits(h),
+    renderHits: narrowView ? () => shownHits ? /*#__PURE__*/React.createElement(__ds_scope.FoundList, {
+      key: 'hits-' + hitGen,
+      found: {
+        lead: shownHits.length === 1 ? 'Personen som stämmer:' : 'Personer som stämmer:',
+        items: shownHits
+      },
+      fresh: true,
+      onNavigate: navigate
+    }) : null : undefined,
+    people: __ds_scope.directory()
+  }) : null, turns.map((t, i) => /*#__PURE__*/React.createElement(Arrive, {
     key: i,
+    fresh: !!t.at && Date.now() - t.at < 1500,
+    "data-visitor": t.speaker === 'visitor' ? '' : undefined,
     "data-chapter": t.speaker === 'machine' ? i : undefined,
     style: {
       display: 'grid',
       gap: 'var(--space-4)'
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.ConversationTurn, {
-    marked: markIndex === -1 ? flash && i === lastAnswer : i === markIndex,
+    bodyAsTitle: narrowView,
+    marked: narrowView ? false : markIndex === -1 ? flash && i === lastAnswer : i === markIndex,
     speaker: t.speaker,
     variant: t.variant,
     text: t.text,
     body: t.body,
-    demoted: i < last
+    demoted: i < last,
+    between: narrowView && t.speaker === 'machine' && t.found ? /*#__PURE__*/React.createElement(__ds_scope.FoundList, {
+      found: t.found,
+      visited: visited,
+      active: visited.length ? visited[visited.length - 1] : null,
+      returnHere: returnTo === i,
+      fresh: !!t.at && Date.now() - t.at < 2500,
+      onNavigate: navigate
+    }) : null
   }))), working ? /*#__PURE__*/React.createElement(__ds_scope.WorkingIndicator, {
     active: true,
     delay: 0,
     src: dotSrc,
     note: turnList[fired] && turnList[fired].working || 'Läser uppdragsregistret.',
-    blocks: turnList[fired] ? [{
+    blocks: turnList[fired] ? narrowView
+    /* On a phone the ghost holds the whole reply in its own order:
+       the answer, what it turned up, then the question. */ ? [{
+      text: turnList[fired].text,
+      size: 'display-3'
+    }].concat(turnList[fired].rail && turnList[fired].rail.items ? [{
+      text: turnList[fired].rail.lead || turnList[fired].rail.label,
+      size: 'small'
+    }].concat(turnList[fired].rail.items.map(it => ({
+      text: it.label || it.name,
+      size: 'small'
+    }))) : []).concat(turnList[fired].body ? [{
+      text: turnList[fired].body,
+      size: 'display-3'
+    }] : []) : [{
       text: turnList[fired].text,
       size: 'display-3'
     }].concat(turnList[fired].body ? [{
@@ -17087,11 +19954,9 @@ function ClosingFooter({
   const [p, setP] = React.useState(0);
   /* How far the field has drifted up inside its pin. */
   const [drift, setDrift] = React.useState(0);
-  /* SM has no room for a gesture the page swallows at its very end: the
-     footer's field is a screen of its own there, so the hand-over is pinned
-     scroll instead. The block holds the field for one screen, spends the next
-     stretch handing it over to the offices, and then releases — scrolling on
-     reveals the switchboard and the rest of the footer. */
+  /* SM has no room for a gesture the page swallows at its very end, and a
+     pinned hand-over read as the page ending. There the field and the offices
+     are one ordinary scroll (see the SM effect below). */
   const [sm, setSm] = React.useState(false);
   const handoverRef = React.useRef(null);
   React.useEffect(() => {
@@ -17101,26 +19966,24 @@ function ClosingFooter({
     mq.addEventListener('change', read);
     return () => mq.removeEventListener('change', read);
   }, []);
+  /* SM: no hold and no hand-over. The field sits in the page and the offices
+     and links follow it in ordinary flow, their first lines already above the
+     fold so the page reads as going on. Each line is held faint until it rises
+     into the lower part of the screen, and is solid by the time it is read.
+     Written straight to the elements: the scroll is the only input. */
   React.useEffect(() => {
     if (!sm) return undefined;
-    const el = handoverRef.current;
-    if (!el) return undefined;
+    const root = handoverRef.current;
+    if (!root) return undefined;
     let raf = null;
     const read = () => {
       raf = null;
-      /* The field is held before it is handed over: the first stretch of the
-         pin spends no progress at all, so the reader arrives, the field stands
-         still for a moment, and only then do the offices start. */
-      const hold = window.innerHeight * 0.5;
-      const run = Math.max(1, el.offsetHeight - window.innerHeight - hold);
-      const passed = -el.getBoundingClientRect().top;
-      /* Semi-sticky, not pinned: through the hold the field keeps moving, at
-         a little under half the page's speed, so it reads as held back rather
-         than frozen. It comes to a stop only for the hand-over itself. */
-      const d = Math.min(Math.max(passed, 0), hold) * 0.3;
-      setDrift(v => Math.abs(v - d) < 0.5 ? v : d);
-      const q = Math.min(1, Math.max(0, (passed - hold) / run));
-      setP(v => Math.abs(v - q) < 0.002 ? v : q);
+      const h = window.innerHeight;
+      root.querySelectorAll('[data-footer-fade]').forEach(el => {
+        const top = el.getBoundingClientRect().top;
+        const q = Math.min(1, Math.max(0, (h * 0.9 - top) / (h * 0.3)));
+        el.style.opacity = (0.28 + 0.72 * q).toFixed(3);
+      });
     };
     const schedule = () => {
       if (raf == null) raf = requestAnimationFrame(read);
@@ -17240,42 +20103,43 @@ function ClosingFooter({
     "data-page-footer": "",
     style: {
       background: 'var(--ink)',
-      '--rule-footer': 'var(--stone-20)',
-      '--rule-hairline': 'var(--stone-20)',
-      paddingBottom: 'var(--space-5)',
+      '--rule-footer': 'var(--clay-20)',
+      '--rule-hairline': 'var(--clay-20)',
+      paddingBottom: sm ? 'var(--space-5)' : 'clamp(var(--space-3), 5vh, var(--space-5))',
+      /* LG: the ending is exactly one screen. The gaps between its rows are
+         set in vh, so a short screen closes them up and a tall one opens them,
+         and any height left over collects under the lists. */
+      ...(sm ? null : {
+        minHeight: '100svh',
+        display: 'flex',
+        flexDirection: 'column'
+      }),
       ...style
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: handoverRef,
-    style: sm ? {
-      position: 'relative',
-      height: 'calc(100svh + 50svh + 85svh)'
-    } : undefined
+    style: sm ? undefined : {
+      flex: '1 0 auto'
+    }
   }, /*#__PURE__*/React.createElement("div", {
     style: sm ? {
-      position: 'sticky',
-      top: 0,
-      minHeight: '100svh',
-      display: 'grid',
-      alignItems: 'center',
-      overflow: 'hidden'
+      display: 'block'
     } : {
       display: 'grid',
       alignItems: 'start'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: sm ? {
-      ...layer(false, outP),
-      transform: 'translateY(calc(' + (-drift).toFixed(1) + 'px + ' + (outP ? (-outP * 40).toFixed(2) + '%' : '0px') + '))'
-    } : layer(false, outP),
-    "aria-hidden": outP > 0.8 ? 'true' : undefined
+    style: sm ? undefined : layer(false, outP),
+    "aria-hidden": !sm && outP > 0.8 ? 'true' : undefined
   }, finder), /*#__PURE__*/React.createElement("div", {
-    style: {
+    style: sm ? {
+      paddingBlock: 'var(--space-5)'
+    } : {
       gridArea: '1 / 1',
       pointerEvents: inP > 0.2 ? 'auto' : 'none',
-      paddingBlock: sm ? 'var(--space-5)' : 'var(--space-7) var(--space-6)'
+      paddingBlock: 'clamp(var(--space-6), 14vh, var(--space-8)) clamp(var(--space-4), 6vh, var(--space-6))'
     },
-    "aria-hidden": inP > 0.2 ? undefined : 'true'
+    "aria-hidden": sm || inP > 0.2 ? undefined : 'true'
   }, /*#__PURE__*/React.createElement("div", {
     className: "grid",
     "data-footer-offices": true
@@ -17286,21 +20150,22 @@ function ClosingFooter({
       margin: 0,
       padding: 0,
       display: 'grid',
-      gap: 'var(--space-1)'
+      gap: sm ? 'var(--space-1)' : 'clamp(0px, 1vh, var(--space-2))'
     }
   }, offices.map((city, i) => {
     const cityKey = typeof city === 'string' ? city : city.label;
     /* Each line has its own slice of the scroll left after the
        finder has gone, so the four arrive one by one. */
-    const q = sm ? seq(i) : clamp01((inP - i * 0.18) / 0.34);
+    const q = clamp01((inP - i * 0.18) / 0.34);
     return /*#__PURE__*/React.createElement("li", {
       key: cityKey,
       className: "display-2",
+      "data-footer-fade": sm ? '' : undefined,
       style: {
         maxWidth: 'none',
         color: 'var(--text-primary)',
-        opacity: q,
-        transform: 'translateY(calc(var(--reveal-rise) * ' + (1 - q).toFixed(3) + '))',
+        opacity: sm ? undefined : q,
+        transform: sm ? undefined : 'translateY(calc(var(--reveal-rise) * ' + (1 - q).toFixed(3) + '))',
         willChange: 'opacity, transform'
       }
     }, /*#__PURE__*/React.createElement("a", {
@@ -17332,24 +20197,25 @@ function ClosingFooter({
       margin: 0,
       padding: 0,
       display: 'grid',
-      gap: 'var(--space-2)',
+      gap: sm ? 'var(--space-2)' : 'clamp(var(--space-1), 1.8vh, var(--space-3))',
       justifyItems: 'start',
       alignContent: 'start'
     }
   }, secondaryMenu.map((item, i) => {
     const step = 0.5 / Math.max(secondaryMenu.length, 1);
-    const q = sm ? seq(offices.length + i) : clamp01((inP - (i + 1) * step) / 0.34);
+    const q = clamp01((inP - (i + 1) * step) / 0.34);
     return /*#__PURE__*/React.createElement("li", {
       key: item.label,
+      "data-footer-fade": sm ? '' : undefined,
       style: {
-        opacity: q,
-        transform: 'translateY(calc(var(--reveal-rise) * ' + (1 - q).toFixed(3) + '))',
+        opacity: sm ? undefined : q,
+        transform: sm ? undefined : 'translateY(calc(var(--reveal-rise) * ' + (1 - q).toFixed(3) + '))',
         willChange: 'opacity, transform',
         display: 'flex'
       }
     }, /*#__PURE__*/React.createElement("a", {
       href: inert(item.href) ? undefined : item.href,
-      className: "prose target",
+      className: "small target",
       onMouseEnter: e => {
         e.currentTarget.style.textDecorationColor = 'var(--underline-active)';
       },
@@ -17368,7 +20234,7 @@ function ClosingFooter({
     className: "grid",
     "data-footer-contact": true,
     style: {
-      paddingTop: 'var(--space-4)'
+      paddingTop: sm ? 'var(--space-4)' : 'clamp(var(--space-2), 3vh, var(--space-4))'
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "place-half-left",
@@ -17436,7 +20302,7 @@ function ClosingFooter({
     className: "grid",
     "data-footer-end": true,
     style: {
-      paddingTop: 'var(--space-6)',
+      paddingTop: sm ? 'var(--space-6)' : 'clamp(var(--space-4), 8vh, var(--space-6))',
       gridTemplateRows: 'auto auto auto',
       rowGap: 'var(--space-2)'
     }
@@ -17565,6 +20431,10 @@ function MenuHighlights({
      too. This is how far in from the track's right edge they sit — the page
      margin, wherever the caller has put the shelf's own edge. */
   arrowInset = 0,
+  /* SM: the shelf sits below the fold of a scrolling menu. Set, the first
+     card is brought in and printed once the shelf is scrolled into view —
+     the hero carousel's reveal — instead of waiting for the arrows. */
+  revealOnView = false,
   prevLabel = 'Föregående',
   nextLabel = 'Nästa',
   style
@@ -17758,6 +20628,34 @@ function MenuHighlights({
     };
     rafRef.current = requestAnimationFrame(step);
   };
+  const goRef = React.useRef(null);
+  goRef.current = go;
+  const activeRef = React.useRef(active);
+  activeRef.current = active;
+  const rootRef = React.useRef(null);
+  React.useEffect(() => {
+    const el = rootRef.current;
+    if (!revealOnView || !el || typeof IntersectionObserver === 'undefined') return undefined;
+    /* Both ways: scrolled back out of view, the shelf returns to rest — the
+       track glides back to the start on the arrows' own tween and the first
+       card un-prints to its dot screen — so coming back down prints it once
+       more. */
+    const reset = () => {
+      if (goRef.current) goRef.current(-(activeRef.current + 1));
+    };
+    const io = new IntersectionObserver(es => {
+      const e = es[es.length - 1];
+      if (e.isIntersecting && e.intersectionRatio >= 0.45) {
+        if (goRef.current && activeRef.current === -1) goRef.current(1);
+      }
+      /* Below 0.3, not at 0: on SM the shelf's top always peeks on the first
+         screen, so it never fully leaves. The gap to 0.45 is the hysteresis. */else if ((!e.isIntersecting || e.intersectionRatio < 0.3) && activeRef.current !== -1) reset();
+    }, {
+      threshold: [0, 0.3, 0.45]
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [revealOnView]);
   if (!items.length) return null;
   const arrow = {
     display: 'flex',
@@ -17774,6 +20672,7 @@ function MenuHighlights({
   const basis = 'calc(' + (100 - peek * 100) + '% - var(--space-2))';
   const caption = active > -1 ? items[active].label || '' : '';
   return /*#__PURE__*/React.createElement("div", {
+    ref: rootRef,
     style: {
       position: 'relative',
       display: 'grid',
@@ -17854,8 +20753,15 @@ function MenuHighlights({
       resolved: on ? true : undefined,
       restAt: 0.3,
       duration: 1300
-    } : {
-      resolved: on
+    }
+    /* Colour is forced for the card in place only. Every
+       other card is handed back to the positional clock
+       (`undefined`, not `false`): a false flag holds colour
+       at zero, so the negative plate stayed over the
+       photograph after the screen had closed. The clock
+       floors colour on the screen's own closure, so the
+       plate lasts exactly as long as the raster does. */ : {
+      resolved: on ? true : undefined
     }))));
   })), /*#__PURE__*/React.createElement("span", {
     ref: captionRef,
@@ -18375,6 +21281,25 @@ function SiteHeader({
   const [chatHover, setChatHover] = React.useState(false);
   const [menuHover, setMenuHover] = React.useState(false);
 
+  /* On the ink ground the blend comes off and the mark takes the mint file, so
+     the wordmark is the same light green as the type it sits with — paper
+     artwork there would read as plain white. */
+  const logoRef = React.useRef(null);
+  const overDark = __ds_scope.useOverDark(logoRef, {
+    enabled: !atFooter
+  });
+  const onInk = plain || overDark;
+  const blend = onInk ? 'normal' : 'exclusion';
+  /* The triggers read their own ground: ink on the light grounds, paper on
+     ink, and paper under the exclusion blend only over imagery. */
+  const triggersRef = React.useRef(null);
+  const tInk = __ds_scope.useOverDark(triggersRef) || plain;
+  const tMedia = __ds_scope.useOverDark(triggersRef, {
+    enabled: !tInk && !plate,
+    selector: __ds_scope.MEDIA
+  }) && !tInk && !plate;
+  const triggerInk = plate || !tInk && !tMedia;
+
   /* The plate is the 44px target itself — a square, at target size, not a
      chip: no radius and no border exist in this system. */
   const trigger = {
@@ -18386,20 +21311,11 @@ function SiteHeader({
     display: 'grid',
     placeItems: 'center',
     background: plate ? 'var(--paper)' : 'none',
-    color: plate ? 'var(--ink)' : 'var(--paper)',
+    color: triggerInk ? 'var(--ink)' : 'var(--paper)',
     cursor: 'pointer',
     pointerEvents: 'auto',
     transition: 'background-color var(--dur-micro) var(--ease-quart), color var(--dur-micro) var(--ease-quart)'
   };
-  /* On the ink ground the blend comes off and the mark takes the mint file, so
-     the wordmark is the same light green as the type it sits with — paper
-     artwork there would read as plain white. */
-  const logoRef = React.useRef(null);
-  const overDark = __ds_scope.useOverDark(logoRef, {
-    enabled: !atFooter
-  });
-  const onInk = plain || overDark;
-  const blend = onInk ? 'normal' : 'exclusion';
 
   /* The chat trigger works on every page without the page wiring it: with no
      `onChat`, the header mounts the exchange itself and the trigger opens it.
@@ -18532,7 +21448,7 @@ function SiteHeader({
     "data-fixed-chrome": "",
     style: {
       ...row,
-      mixBlendMode: plate ? 'normal' : blend
+      mixBlendMode: tMedia ? 'exclusion' : 'normal'
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: rowRef,
@@ -18583,7 +21499,7 @@ function SiteHeader({
       /* One line per action, here as in ActionRow: the row is
          the same items, handed over. */
       whiteSpace: 'nowrap',
-      color: plate ? 'var(--ink)' : 'var(--paper)',
+      color: triggerInk ? 'var(--ink)' : 'var(--paper)',
       textDecoration: 'none',
       borderBottom: '1px solid currentColor',
       paddingBottom: '3px'
@@ -18595,6 +21511,7 @@ function SiteHeader({
       flex: '0 0 auto'
     }
   }), /*#__PURE__*/React.createElement("span", null, item.label)))))) : null, /*#__PURE__*/React.createElement("div", {
+    ref: triggersRef,
     style: {
       display: 'flex',
       alignItems: 'center',
@@ -18636,7 +21553,7 @@ function SiteHeader({
   }, /*#__PURE__*/React.createElement(__ds_scope.OrbMark, {
     ref: orbRef,
     size: 24,
-    tone: plate ? 'ink' : 'paper'
+    tone: triggerInk ? 'ink' : 'paper'
   }))), /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: onMenu,
@@ -18807,6 +21724,18 @@ function TakeoverMenu({
   style
 }) {
   const [hover, setHover] = React.useState(-1);
+  /* SM: the takeover is one scroll. The list takes the first screen at a fixed
+     size, the utility line follows it, and the shelf sits under both with
+     only its top edge peeking — scrolling on brings it up, and it prints the
+     way the hero carousel does when it arrives. */
+  const [sm, setSm] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const read = () => setSm(mq.matches);
+    read();
+    mq.addEventListener('change', read);
+    return () => mq.removeEventListener('change', read);
+  }, []);
   /* Three states, not two. -1 is the list at rest, every line at full ink. An
      index is that line lit and the rest faded. -2 is the pointer inside the
      list but on none of the lines — a dead seam between two items: the whole
@@ -19184,6 +22113,10 @@ function TakeoverMenu({
     const el = listScrollRef.current;
     const ul = listRef.current;
     if (!el || !ul || !open) return;
+    if (sm) {
+      if (fit !== 1) setFit(1);
+      return;
+    }
     const measure = () => {
       const room = el.clientHeight;
       const content = ul.getBoundingClientRect().height;
@@ -19208,7 +22141,7 @@ function TakeoverMenu({
       if (ro) ro.disconnect();
       timers.forEach(t => window.clearTimeout(t));
     };
-  }, [open, items, fit]);
+  }, [open, items, fit, sm]);
 
   /* One measurement for both ends, run on scroll, on open and whenever the
      column is resized: a fade that is always drawn would imply more names
@@ -19249,9 +22182,12 @@ function TakeoverMenu({
     /* Focus lands on the dialog itself, not on the first link: focusing a
        link would put one item in its active state and dim the others, so
        the list would open looking already hovered. */
-    if (boxRef.current) boxRef.current.focus({
-      preventScroll: true
-    });
+    if (boxRef.current) {
+      boxRef.current.scrollTop = 0;
+      boxRef.current.focus({
+        preventScroll: true
+      });
+    }
     return () => {
       window.removeEventListener('keydown', onKey);
       document.body.style.overflow = prev;
@@ -19281,16 +22217,27 @@ function TakeoverMenu({
       transform: OFFSCREEN,
       willChange: 'transform',
       pointerEvents: open ? 'auto' : 'none',
-      display: 'grid',
-      gridTemplateRows: 'minmax(0, 1fr) auto',
-      alignContent: 'end',
+      ...(sm ? {
+        display: 'flex',
+        flexDirection: 'column',
+        overflowY: 'auto',
+        overflowX: 'hidden',
+        overscrollBehavior: 'contain',
+        scrollbarWidth: 'none'
+      } : {
+        display: 'grid',
+        gridTemplateRows: 'minmax(0, 1fr) auto',
+        alignContent: 'end'
+      }),
       paddingBlock: 'calc(var(--space-5) + 44px) var(--space-5)',
       paddingInline: 'var(--margin)',
       ...style
     }
   }, /*#__PURE__*/React.createElement("nav", {
     "aria-label": label,
-    style: {
+    style: sm ? {
+      display: 'contents'
+    } : {
       display: 'grid',
       gridTemplateColumns: highlights.length ? 'auto minmax(0, 1fr) minmax(0, 40%)' : 'auto minmax(0, 1fr)',
       columnGap: 'var(--space-4)',
@@ -19304,7 +22251,15 @@ function TakeoverMenu({
   }, /*#__PURE__*/React.createElement("div", {
     ref: listScrollRef,
     onScroll: readListEdges,
-    style: {
+    style: sm ? {
+      /* SM: the list and the utility line fill the first screen less a
+         4rem strip, and that strip is the top of the shelf. */
+      order: 1,
+      display: 'flex',
+      flexDirection: 'column',
+      flexShrink: 0,
+      minHeight: 'calc(100svh - 44px - var(--space-5) * 3 - var(--space-4) - 1.5rem - 4rem)'
+    } : {
       display: 'flex',
       flexDirection: 'column',
       overflowY: 'auto',
@@ -19324,7 +22279,7 @@ function TakeoverMenu({
       padding: 0,
       display: 'grid',
       flexShrink: 0,
-      fontSize: 'calc(clamp(1rem, 5vw, 4.8rem) * ' + fit + ')'
+      fontSize: sm ? 'clamp(2.125rem, 10.5vw, 3rem)' : 'calc(clamp(1rem, 5vw, 4.8rem) * ' + fit + ')'
     }
   }, items.map((item, i) => {
     const folds = !!(item.children && item.children.length);
@@ -19400,7 +22355,9 @@ function TakeoverMenu({
            shrinking them. The vh term keeps all of them on screen
            — divided by the number of items, so a longer menu steps
            down instead of overflowing. */
-        fontSize: quiet ? '0.32em' : 'inherit',
+        /* SM: the list is set at a fixed display size, so the quiet
+           register is sized to read as body text beside it. */
+        fontSize: quiet ? sm ? '0.44em' : '0.32em' : 'inherit',
         fontFamily: quiet ? 'var(--font-text)' : undefined,
         lineHeight: quiet ? 1.25 : 0.98,
         letterSpacing: quiet ? '0' : '-0.006em',
@@ -19412,8 +22369,11 @@ function TakeoverMenu({
         display: 'flex',
         alignItems: 'center',
         gap: '0.3em',
-        paddingBlock: quiet ? '0.5em 0.5em' : '0.1em 0.24em',
-        marginTop: firstQuiet ? '1.5em' : undefined,
+        /* SM: taller line boxes, so each line is a thumb-sized target
+           (at least 44px) with the air inside the anchor, where it
+           still counts as the link. */
+        paddingBlock: quiet ? sm ? '0.5em' : '0.5em 0.5em' : sm ? '0.2em 0.3em' : '0.1em 0.24em',
+        marginTop: firstQuiet ? sm ? '1.25em' : '1.5em' : undefined,
         marginBottom: lastQuiet ? '1.15em' : undefined,
         maxWidth: 'none',
         textDecoration: 'none',
@@ -19478,6 +22438,17 @@ function TakeoverMenu({
       alignSelf: 'end',
       height: listBox ? listBox + 'px' : '100%',
       maxHeight: '100%',
+      /* SM: under the list in the same scroll, and only there while
+         something is folded out. */
+      ...(sm ? {
+        order: 2,
+        display: expanded > -1 ? 'block' : 'none',
+        height: 'auto',
+        maxHeight: 'none',
+        overflowY: 'visible',
+        alignSelf: 'stretch',
+        marginTop: 'var(--space-5)'
+      } : null),
       /* The out-of-view ends are masked, not covered by a gradient
          overlay: the column scrolls over ink and a mask needs no second
          layer to sit on top of the links and eat their hover. Only the
@@ -19547,7 +22518,18 @@ function TakeoverMenu({
       transition: 'opacity .3s cubic-bezier(0.19,1,0.22,1), transform .42s cubic-bezier(0.19,1,0.22,1)'
     }
   }, "\u2192"))))))), highlights.length ? /*#__PURE__*/React.createElement("div", {
-    style: {
+    style: sm ? {
+      order: 4,
+      flexShrink: 0,
+      marginTop: 'var(--space-5)',
+      marginRight: 'calc(-1 * var(--margin))',
+      marginBottom: 'calc(var(--space-2) + 1.6em + 44px)',
+      height: 'min(64svh, 118vw)',
+      minWidth: 0,
+      display: 'grid',
+      position: 'relative',
+      zIndex: 2
+    } : {
       alignSelf: 'end',
       minWidth: 0,
       minHeight: 0,
@@ -19561,7 +22543,8 @@ function TakeoverMenu({
   }, /*#__PURE__*/React.createElement(__ds_scope.MenuHighlights, {
     items: highlights,
     onNavigate: onNavigate,
-    arrowInset: "calc(max(var(--margin), (100vw - var(--max-width)) / 2))"
+    revealOnView: sm && open,
+    arrowInset: sm ? 'var(--margin)' : 'calc(max(var(--margin), (100vw - var(--max-width)) / 2))'
   })) : null), utility.length ? /*#__PURE__*/React.createElement("div", {
     ref: utilityRef,
     style: {
@@ -19570,7 +22553,11 @@ function TakeoverMenu({
       width: '100%',
       marginInline: 'auto',
       marginTop: 'var(--space-4)',
-      pointerEvents: expanded > -1 ? 'none' : undefined
+      pointerEvents: expanded > -1 ? 'none' : undefined,
+      ...(sm ? {
+        order: 3,
+        flexShrink: 0
+      } : null)
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: el => {
@@ -19948,6 +22935,21 @@ function WordmarkMasthead({
     };
   }, []);
   const markReady = probed && artworkIn;
+
+  /* The triggers read their own ground, since it can differ from the mark's.
+     Ink on the light grounds, ink-wash on the wash, paper on ink; only over
+     imagery do they keep paper under the exclusion blend. */
+  const triggersRef = React.useRef(null);
+  const tInk = __ds_scope.useOverDark(triggersRef) || plain;
+  const tMedia = __ds_scope.useOverDark(triggersRef, {
+    enabled: !tInk,
+    selector: __ds_scope.MEDIA
+  }) && !tInk;
+  const tWash = __ds_scope.useOverDark(triggersRef, {
+    enabled: !tInk && !tMedia,
+    selector: '[data-washed]'
+  }) && !tInk && !tMedia;
+  const tPaper = tInk || tMedia;
   const trigger = {
     appearance: 'none',
     background: 'none',
@@ -19957,8 +22959,9 @@ function WordmarkMasthead({
     height: 44,
     display: 'grid',
     placeItems: 'center',
-    color: onWash ? 'var(--ink-wash)' : 'var(--paper)',
-    cursor: 'pointer'
+    color: tPaper ? 'var(--paper)' : tWash ? 'var(--ink-wash)' : 'var(--ink)',
+    cursor: 'pointer',
+    transition: 'color var(--dur-micro) var(--ease-quart)'
   };
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("header", {
     "data-fixed-chrome": "",
@@ -20043,7 +23046,32 @@ function WordmarkMasthead({
       maxWidth: 'none',
       opacity: v.on ? 1 : 0
     }
-  })))), /*#__PURE__*/React.createElement("div", {
+  })))))), /*#__PURE__*/React.createElement("div", {
+    "data-fixed-chrome": "",
+    style: {
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      right: 'var(--finder-dock, 0px)',
+      zIndex: menuOpen ? 55 : 30,
+      pointerEvents: 'none',
+      transition: 'right var(--dur-fast) var(--ease-expo)',
+      mixBlendMode: tMedia ? 'exclusion' : 'normal',
+      visibility: markReady ? 'visible' : 'hidden'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      maxWidth: 'var(--max-width)',
+      margin: '0 auto',
+      paddingInline: 'var(--margin)',
+      paddingBlock: 'var(--space-3)',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'flex-end',
+      gap: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: triggersRef,
     style: {
       display: 'flex',
       alignItems: 'center',
@@ -20112,7 +23140,7 @@ function WordmarkMasthead({
   }, /*#__PURE__*/React.createElement(__ds_scope.OrbMark, {
     ref: orbRef,
     size: 24,
-    tone: onWash ? 'ink' : 'paper'
+    tone: tPaper ? 'paper' : 'ink'
   }), chatActive ? /*#__PURE__*/React.createElement("span", {
     "aria-hidden": "true",
     style: {
@@ -20264,9 +23292,10 @@ function CarouselHero({
   /* Put the page on --ground-takeover while the hero is at rest. Sets
      html[data-hero-top]; the page fades its own ground on it. */
   topGround = true,
-  /* Show the resting hero image as the plain photograph instead of the dot
-     screen. Once the carousel opens it hands over to the house raster cards
-     underneath, and comes back when the reader returns to the top. */
+  /* Show the lead image as the plain photograph instead of the dot screen.
+     It rises into place on its own clock at load, not on scroll; the first
+     scroll opens the carousel and the raster cards arrive on the right as
+     the peek. The card in front stays a photograph throughout. */
   plain = false,
   onMenu,
   onChat,
@@ -20292,6 +23321,74 @@ function CarouselHero({
   const frameRefs = React.useMemo(() => slides.map(() => React.createRef()), [slides.length]);
   activeRef.current = active;
   const [handoff, setHandoff] = React.useState(null);
+  /* The hero holds back until it can land in one piece: the grid stylesheet
+     applied (the statement's column comes from it), the type loaded, and in
+     plain mode the lead photograph decoded, so the print never runs over an
+     empty box. Then the block fades in once, in place. */
+  const [settled, setSettled] = React.useState(false);
+  React.useEffect(() => {
+    let dead = false,
+      raf = 0;
+    const done = () => {
+      if (!dead) setSettled(true);
+    };
+    const css = new Promise(res => {
+      const t0 = performance.now();
+      const poll = () => {
+        const ok = getComputedStyle(document.documentElement).getPropertyValue('--cols').trim();
+        if (ok || performance.now() - t0 > 4000) res();else raf = requestAnimationFrame(poll);
+      };
+      poll();
+    });
+    const fonts = document.fonts && document.fonts.ready ? document.fonts.ready.catch(() => {}) : Promise.resolve();
+    const src = plain && slides[0] && slides[0].src;
+    const pic = !src ? Promise.resolve() : new Promise(res => {
+      const img = new Image();
+      img.onload = () => (img.decode ? img.decode().catch(() => {}) : Promise.resolve()).then(res);
+      img.onerror = res;
+      img.src = src;
+    });
+    const cap = new Promise(res => window.setTimeout(res, 8000));
+    Promise.race([Promise.all([css, fonts, pic]), cap]).then(done);
+    return () => {
+      dead = true;
+      cancelAnimationFrame(raf);
+    };
+  }, [plain, slides[0] && slides[0].src]);
+  /* Plain: the lead prints on its own clock at load — the house reveal,
+     driven by time instead of scroll. 1 is the finished photograph. */
+  const [intro, setIntro] = React.useState(plain ? 0 : 1);
+  React.useEffect(() => {
+    if (!plain) {
+      setIntro(1);
+      return;
+    }
+    if (!settled) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setIntro(1);
+      return;
+    }
+    setIntro(0);
+    const dur = 2600,
+      delay = 300;
+    let raf = 0,
+      t0 = 0,
+      dead = false;
+    const step = now => {
+      if (!t0) t0 = now;
+      const k = clamp01((now - t0 - delay) / dur);
+      setIntro(k * k * (3 - 2 * k));
+      if (k < 1) raf = requestAnimationFrame(step);
+    };
+    /* Two frames for the reveal's own canvases to build before the clock runs. */
+    raf = requestAnimationFrame(() => {
+      raf = requestAnimationFrame(step);
+    });
+    return () => {
+      dead = true;
+      cancelAnimationFrame(raf);
+    };
+  }, [plain, settled]);
   const openRef = React.useRef(false);
   const moving = React.useRef(false);
   const rafRef = React.useRef(null);
@@ -20575,6 +23672,8 @@ function CarouselHero({
     style: {
       position: 'relative',
       color: 'var(--text-primary)',
+      opacity: settled ? 1 : 0,
+      transition: 'opacity var(--dur-reveal) var(--ease-quart)',
       ...style
     }
   }, /*#__PURE__*/React.createElement("div", {
@@ -20708,34 +23807,15 @@ function CarouselHero({
       gridSize: gridSize,
       focus: s.focus,
       frameRef: frameRefs[i],
-      progress: lead && scrubbing ? scrub : undefined,
-      resolved: lead && scrubbing ? undefined : lead,
+      progress: lead && plain && intro < 1 ? intro : lead && scrubbing && !plain ? scrub : undefined,
+      resolved: lead && (scrubbing && !plain || plain && intro < 1) ? undefined : lead,
       restTone: 0,
       style: {
         aspectRatio: 'auto',
         height: imageHeight,
         background: 'transparent'
       }
-    }), plain && lead ? /*#__PURE__*/React.createElement("div", {
-      "aria-hidden": "true",
-      style: {
-        position: 'absolute',
-        inset: 0,
-        opacity: open ? 0 : 1,
-        pointerEvents: 'none',
-        transition: 'opacity ' + push
-      }
-    }, /*#__PURE__*/React.createElement("img", {
-      src: s.src,
-      alt: "",
-      style: {
-        display: 'block',
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
-        objectPosition: s.focus ? s.focus[0] * 100 + '% ' + s.focus[1] * 100 + '%' : 'center'
-      }
-    })) : null)));
+    }))));
   })), /*#__PURE__*/React.createElement("div", {
     ref: rowRef,
     className: "grid",
@@ -28798,11 +31878,19 @@ __ds_ns.ContactWidget = __ds_scope.ContactWidget;
 
 __ds_ns.ConversationHeader = __ds_scope.ConversationHeader;
 
+__ds_ns.OFFICE_CONTACTS = __ds_scope.OFFICE_CONTACTS;
+
+__ds_ns.RailContact = __ds_scope.RailContact;
+
+__ds_ns.FoundList = __ds_scope.FoundList;
+
 __ds_ns.ConversationRail = __ds_scope.ConversationRail;
 
 __ds_ns.ConversationRegister = __ds_scope.ConversationRegister;
 
 __ds_ns.CONVERSATION_STARTERS = __ds_scope.CONVERSATION_STARTERS;
+
+__ds_ns.CONVERSATION_STARTERS_V2 = __ds_scope.CONVERSATION_STARTERS_V2;
 
 __ds_ns.ConversationStarters = __ds_scope.ConversationStarters;
 
@@ -28820,6 +31908,8 @@ __ds_ns.OpenConversation = __ds_scope.OpenConversation;
 
 __ds_ns.SiteConversation = __ds_scope.SiteConversation;
 
+__ds_ns.GhostLoader = __ds_scope.GhostLoader;
+
 __ds_ns.WorkingIndicator = __ds_scope.WorkingIndicator;
 
 __ds_ns.SCRIPT_FORVARV = __ds_scope.SCRIPT_FORVARV;
@@ -28832,6 +31922,12 @@ __ds_ns.SCRIPT_PRIVAT = __ds_scope.SCRIPT_PRIVAT;
 
 __ds_ns.SCRIPT_NAMN = __ds_scope.SCRIPT_NAMN;
 
+__ds_ns.SCRIPT_HITTA = __ds_scope.SCRIPT_HITTA;
+
+__ds_ns.SCRIPT_KARRIAR = __ds_scope.SCRIPT_KARRIAR;
+
+__ds_ns.PEOPLE = __ds_scope.PEOPLE;
+
 __ds_ns.SCRIPTS = __ds_scope.SCRIPTS;
 
 __ds_ns.ActionRow = __ds_scope.ActionRow;
@@ -28843,6 +31939,8 @@ __ds_ns.CarouselNav = __ds_scope.CarouselNav;
 __ds_ns.CtaLink = __ds_scope.CtaLink;
 
 __ds_ns.DotField = __ds_scope.DotField;
+
+__ds_ns.ImageLoad = __ds_scope.ImageLoad;
 
 __ds_ns.Figure = __ds_scope.Figure;
 
@@ -28859,6 +31957,8 @@ __ds_ns.ScrollHold = __ds_scope.ScrollHold;
 __ds_ns.SheetWipe = __ds_scope.SheetWipe;
 
 __ds_ns.Tabs = __ds_scope.Tabs;
+
+__ds_ns.MEDIA = __ds_scope.MEDIA;
 
 __ds_ns.MARKS = __ds_scope.MARKS;
 

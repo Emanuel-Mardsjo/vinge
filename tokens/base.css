@@ -169,4 +169,18 @@ html[data-finder-instant] [data-fixed-chrome] { transition: none !important; }
 /* Fixed page chrome cannot be moved by padding on the body, so it reads
    `--finder-dock` into its own right inset instead — the headers do that in
    their inline style, and `--finder-dock` is 0 until something docks. */
+/* SM: docked is a bar along the bottom edge, so the page gives up its height at
+   the foot instead of a column at the side. */
+html[data-finder-bar] body { padding-bottom: var(--finder-bar, 0px); }
+/* The phone's transcript hides its scrollbar at rest; the surface lifts this
+   while the visitor is scrolling. */
+[data-finder-scroll][data-quiet] { scrollbar-width: none; }
+[data-finder-scroll][data-quiet]::-webkit-scrollbar { width: 0; height: 0; }
+/* A field under 16px makes iOS zoom the page on focus. */
+@media (max-width: 767px) { [data-finder-frame] textarea, [data-finder-frame] input { font-size: 16px !important; } }
 @media (prefers-reduced-motion: reduce) { html[data-finder-docked] body, html[data-finder-docked] [data-fixed-chrome] { transition: none } }
+
+/* Search fields never show the browser's own clear control: every search in
+   the system draws the set's close glyph instead, so it matches. */
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
+input[type="search"]{-webkit-appearance:none;appearance:none}

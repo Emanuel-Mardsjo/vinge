@@ -1,6 +1,6 @@
 /* Colour, in three layers. Components read layer 3 only.
 
-   1. Roots — the only literal values in the system. Four colours and one number.
+   1. Roots — the only literal values in the system. Five colours and one number.
    2. Ramps — every other colour, derived from the roots by a fixed mix. Change a
       root and its ramp follows; nothing below the roots is typed by hand.
    3. Semantics — the roles components use (surface, text, rule, focus). Each
@@ -12,11 +12,10 @@
 
 :root {
   /* 1. Roots ------------------------------------------------------------ */
-  --paper: #E5DFDB;   /* page ground — warm white, a touch toward red, following clay */
-  --wash:  #DFD9D5;   /* second ground, one step below paper, same warm hue */
-  --stone: #C9C9CA;   /* grey with a faint cool cast — the light end of the ink ramps */
-  --lichen: #D5D4CC;  /* a second wash: greyed light olive, the ink's hue drained almost to grey — one chapter per page, for a touch of life */
-  --clay:  #D4CDC9;   /* third ground, a step below the wash, a touch warmer toward red — takeover fills only */
+  --paper: #F3F0EE;   /* page ground — warm white, a touch toward red, following clay */
+  --wash:  #EEEAE8;   /* second ground, one step below paper, same warm hue */
+  --lichen: #E4E3DD;  /* a second wash: greyed light olive, the ink's hue drained almost to grey — one chapter per page, for a touch of life */
+  --clay:  #DCD6D2;   /* third ground, a step below the wash, a touch warmer toward red — tint on the wash, light text on ink */
   --ink:   #002900;   /* all primary text, deep green — 14.3:1 on paper */
   --lift:  0.055;     /* @kind other */ /* how much lighter ink is on the wash (OKLCH lightness) */
 
@@ -35,12 +34,12 @@
   --ink-lift-12: color-mix(in srgb, var(--ink-lift) 12%, var(--wash)); /* #D0D4CD hairline on wash */
   --ink-lift-5:  color-mix(in srgb, var(--ink-lift) 5%,  var(--wash)); /* #E0E0DD tint on wash */
 
-  /* Stone on ink. */
-  --stone-70: color-mix(in srgb, var(--stone) 72%, var(--ink)); /* #929B8F secondary text on ink — 5.5:1 */
-  --stone-20: color-mix(in srgb, var(--stone) 20%, var(--ink)); /* #294928 hairline on ink */
-  --stone-8:  color-mix(in srgb, var(--stone) 8%,  var(--ink)); /* tint on ink */
+  /* Clay on ink. */
+  --clay-70: color-mix(in srgb, var(--clay) 72%, var(--ink)); /* #9EA697 secondary text on ink — ~5.5:1 */
+  --clay-20: color-mix(in srgb, var(--clay) 20%, var(--ink)); /* #2C4C2A hairline on ink */
+  --clay-8:  color-mix(in srgb, var(--clay) 8%,  var(--ink)); /* tint on ink */
 
-  /* Photographs. The noir plate's black point: stone's hue taken down to a
+  /* Photographs. The noir plate's black point: a warm neutral taken down to a
      near-black, so photographs sit in the warm neutral rather than in ink.
      Highlights stay on paper. */
   --noir-shadow: oklch(0.17 0.008 85); /* ~#141310 — warm near-black, a touch toward yellow. Deep, so the plate reads noir without the green carrying it */
@@ -55,7 +54,7 @@
   --text-primary: var(--ink);
   --text-secondary: var(--ink-65);
   --text-primary-inverted: var(--clay);
-  --text-secondary-inverted: var(--stone-70);
+  --text-secondary-inverted: var(--clay-70);
   --underline-rest: var(--ink-65);
   --underline-rest-secondary: var(--ink-55);
   --underline-active: var(--ink);
@@ -73,17 +72,26 @@
   --ground-page: var(--paper);
   /* The fill a page takes while a takeover is in front: the landing hero at
      rest. Never a block background — the whole page fades to it and back. */
-  --ground-takeover: var(--clay);
+  --ground-takeover: var(--wash);
 
   /* Former names, kept so nothing breaks. Prefer the names above. */
   --ink-wash: var(--ink-lift);
   --ink-wash-65: var(--ink-lift-70);
-  --mint: var(--stone);
-  --mint-70: var(--stone-70);
-  --paper-70: var(--stone-70);
+  --mint: var(--clay);
+  --mint-70: var(--clay-70);
+  --paper-70: var(--clay-70);
+  --stone: var(--clay);
+  --stone-70: var(--clay-70);
+  --stone-20: var(--clay-20);
+  --stone-8: var(--clay-8);
 }
 
 /* Washed scope — a section on the second ground. */
+/* The page's own two grounds, fixed at the root so a surface mounted inside a
+   scope (a washed or inverted section) can still reach the real paper and
+   wash. Resolved here and inherited as values, so scopes cannot re-point them. */
+html { --ground-paper: var(--paper); --ground-wash: var(--wash); }
+
 [data-washed] {
   --surface: var(--wash);
   --paper: var(--wash);
@@ -121,15 +129,15 @@
 [data-inverted] {
   --surface: var(--ink);
   --paper: var(--clay);
-  --paper-70: var(--stone-70);
-  --surface-tint: var(--stone-8);
+  --paper-70: var(--clay-70);
+  --surface-tint: var(--clay-8);
   --text-primary: var(--clay);
-  --text-secondary: var(--stone-70);
-  --underline-rest: var(--stone-70);
-  --underline-rest-secondary: var(--stone-70);
+  --text-secondary: var(--clay-70);
+  --underline-rest: var(--clay-70);
+  --underline-rest-secondary: var(--clay-70);
   --underline-active: var(--clay);
-  --rule-hairline: var(--stone-20);
-  --rule-footer: var(--stone-20);
+  --rule-hairline: var(--clay-20);
+  --rule-footer: var(--clay-20);
   --focus-ring: var(--clay);
   background: var(--ink);
   color: var(--clay);
@@ -141,8 +149,7 @@
 html[data-palette="legacy"] {
   --paper: #F7F6FA;
   --wash:  #E3EFE7;
-  --stone: #DDECE2;
-  --clay:  #DDECE2;   /* legacy had no clay; inverted type was the old stone */
+  --clay:  #DDECE2;   /* legacy had no clay; this was its light text on ink */
   --ink:   #032918;
   --ink-65: #586863;
   --ink-55: #707E7A;
@@ -150,7 +157,7 @@ html[data-palette="legacy"] {
   --ink-5:  #EBEBEE;
   --ink-lift: #123D2A;
   --ink-lift-70: #4E645A;
-  --stone-70: #A5BCAF;
+  --clay-70: #A5BCAF;
   --paper-70: #B4BDBA;
   --noir-shadow: #032918;
 }
