@@ -1,6 +1,6 @@
 /* Colour, in three layers. Components read layer 3 only.
 
-   1. Roots — the only literal values in the system. Five colours and one number.
+   1. Roots — the only literal values in the system. Six colours and one number.
    2. Ramps — every other colour, derived from the roots by a fixed mix. Change a
       root and its ramp follows; nothing below the roots is typed by hand.
    3. Semantics — the roles components use (surface, text, rule, focus). Each
@@ -16,6 +16,7 @@
   --wash:  #EEEAE8;   /* second ground, one step below paper, same warm hue */
   --lichen: #E4E3DD;  /* a second wash: greyed light olive, the ink's hue drained almost to grey — one chapter per page, for a touch of life */
   --clay:  #DCD6D2;   /* third ground, a step below the wash, a touch warmer toward red — tint on the wash, light text on ink */
+  --stone: #CFCFD1;   /* cool grey, a step darker than the old stone — reserved, not used by any component */
   --ink:   #002900;   /* all primary text, deep green — 14.3:1 on paper */
   --lift:  0.055;     /* @kind other */ /* how much lighter ink is on the wash (OKLCH lightness) */
 
@@ -80,7 +81,6 @@
   --mint: var(--clay);
   --mint-70: var(--clay-70);
   --paper-70: var(--clay-70);
-  --stone: var(--clay);
   --stone-70: var(--clay-70);
   --stone-20: var(--clay-20);
   --stone-8: var(--clay-8);

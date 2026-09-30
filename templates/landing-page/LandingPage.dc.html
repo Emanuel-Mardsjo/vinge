@@ -45,6 +45,31 @@ Mergermarket, svenska M&amp;A-ligan 2024 · Band 1 Corporate/M&amp;A, Chambers G
 <!-- Never unmounted while it has been opened: the surface animates itself in
      and out, and removing it from the document takes the movement with it. -->
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" starters-version="{{ startersVersion }}" open="{{ open }}" prompt="{{ chatPrompt }}" on-close="{{ close }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+<sc-if value="{{ presenting }}" hint-placeholder-val="{{ false }}">
+<div style="position:fixed;inset:0;z-index:2147483000;pointer-events:none">
+<div ref="{{ spotRef }}" style="position:absolute;top:50%;left:50%;width:0;height:0;border-radius:16px;box-shadow:0 0 0 200vmax color-mix(in srgb, var(--ink) 74%, transparent);transition:top 320ms ease, left 320ms ease, width 320ms ease, height 320ms ease"></div>
+<div ref="{{ notchRef }}" style="position:absolute;left:50%;top:0;z-index:1;pointer-events:none;display:none;width:16px;height:16px;background:var(--paper);transform:rotate(45deg);border-radius:2px;box-shadow:none"></div>
+<div role="dialog" aria-label="Detta händer i en turn" ref="{{ bubbleRef }}" style="position:absolute;left:32px;right:32px;top:auto;bottom:32px;max-height:calc(100vh - 32px);overflow:auto;pointer-events:auto;background:var(--paper);color:var(--ink);border-radius:16px;padding:28px 32px 24px;box-shadow:0 24px 64px color-mix(in srgb, var(--ink) 30%, transparent);font-family:var(--font-text);display:grid;gap:24px">
+<div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 24px">
+<p style="margin:0;font-family:var(--font-display);font-size:28px;line-height:1.1;letter-spacing:-0.01em">Detta händer i en turn</p>
+</div>
+<ol style="list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit, minmax(120px,1fr));gap:20px 0">
+<sc-for list="{{ flowSteps }}" as="s" hint-placeholder-count="8">
+<li style="display:grid;grid-row:span 3;grid-template-rows:subgrid;align-content:start;gap:10px;padding:0 16px 0 0;cursor:default">
+<div style="display:flex;align-items:center;gap:8px">
+<span style="font-family:var(--font-display);font-size:32px;line-height:1;font-variant-numeric:tabular-nums">{{ s.n }}</span>
+<sc-if value="{{ s.ai }}" hint-placeholder-val="{{ false }}"><span style="font-size:11px;line-height:1;letter-spacing:0.06em;padding:4px 6px;border-radius:4px;background:var(--ink);color:var(--clay)">AI</span></sc-if>
+<sc-if value="{{ s.chat }}" hint-placeholder-val="{{ false }}"><span style="display:flex;align-items:center;padding:2px 5px;border-radius:4px;background:var(--ink);color:var(--clay)"><x-import component-from-global-scope="VingeDesignSystem_8582c7.Icon" name="chat" size="{{ 15 }}" weight="regular" hint-size="15px,15px"></x-import></span></sc-if>
+<sc-if value="{{ s.line }}" hint-placeholder-val="{{ true }}"><span style="flex:1;height:1px;background:var(--ink-12)"></span></sc-if>
+</div>
+<p style="margin:0;font-size:15px;line-height:1.3;font-weight:500;text-wrap:pretty">{{ s.title }}</p>
+<p style="margin:0;font-size:14px;line-height:1.4;color:var(--text-secondary);text-wrap:pretty">{{ s.sub }}</p>
+</li>
+</sc-for>
+</ol>
+</div>
+</div>
+</sc-if>
 </div>
 
 </x-dc>
@@ -116,6 +141,18 @@ const ANSWER = {
   text: 'Vi har tre som drivit den frågan de senaste två åren.',
   body: 'Närmast dig sitter Elin Waller i Stockholm. Skälet står under namnet, hämtat ur uppdragsregistret.',
 };
+
+/* Presentation mode: what happens in one turn, in order. */
+const FLOW = [
+  { title: 'Frågan tas emot', sub: 'Fritext, anonymt, direkt i chattpanelen.' },
+  { title: 'Kontroller (spärr)', sub: 'Kostnadstak, frågelängd, promptfrekvens, moderering, etc.' },
+  { title: 'Följdfrågor görs sökbara', sub: 'Historik + ny fråga kombineras till en ny fristående sökfråga.', ai: true },
+  { title: 'Semantisk sökning', sub: 'Matchning på betydelse, inte ordval.' },
+  { title: 'Promptdesign', sub: 'Högst fem träffar, tydligt märkta som material.' },
+  { title: 'Modellen formulerar svaret', sub: 'Endast prosa, aldrig länkar eller adresser.', ai: true },
+  { title: 'Servern granskar och / eller kompletterar', sub: 'Länkar läggs till deterministiskt från sökresultaten.' },
+  { title: 'Svar till besökaren', sub: 'Text + länkkort; det visade sparas i sessionen.', chat: true },
+];
 
 const FOLLOW_UPS = [
   {
@@ -406,9 +443,185 @@ class Component extends DCLogic {
     else this.openChat();
   };
 
-  componentDidMount() { window.addEventListener('vinge:conversation', this.onConversationEvent); }
+  /* Presentation mode (Shift+P): dims the page around the latest turn of the
+     conversation and lays the eight steps of a turn out beside it. */
+  onPresentKey = (e) => {
+    if (e.key === 'Escape' && this.state.presenting) { e.preventDefault(); e.stopImmediatePropagation(); this.setPresenting(false); return; }
+    if (this.state.presenting && /^Arrow(Up|Down|Left|Right)$/.test(e.key)) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      this.stepTurn(e.key === 'ArrowUp' || e.key === 'ArrowLeft' ? -1 : 1);
+      return;
+    }
+    if (!e.shiftKey || e.metaKey || e.ctrlKey || e.altKey || (e.key !== 'P' && e.key !== 'p')) return;
+    const t = e.target;
+    if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+    e.preventDefault();
+    this.setPresenting(!this.state.presenting);
+  };
+
+  /* Any machine turn can be framed: the arrow keys step through them and a
+     click on one picks it. Without a pick the latest turn on screen is used. */
+  chapters() {
+    return Array.prototype.filter.call(document.querySelectorAll('[data-chapter]'), (el) => {
+      const r = el.getBoundingClientRect();
+      return r.width > 0 && r.height > 0;
+    });
+  }
+
+  stepTurn(dir) {
+    const all = this.chapters();
+    if (!all.length) return;
+    let i = all.indexOf(this._pinned);
+    if (i < 0) i = all.indexOf(this._shown);
+    i = i < 0 ? (dir < 0 ? all.length - 1 : 0) : Math.max(0, Math.min(all.length - 1, i + dir));
+    this.pinTurn(all[i]);
+  }
+
+  pinTurn(el) {
+    this._pinned = el;
+    this.revealTurn(el);
+  }
+
+  revealTurn(el) {
+    let p = el.parentElement;
+    while (p && p !== document.body) {
+      const oy = getComputedStyle(p).overflowY;
+      if ((oy === 'auto' || oy === 'scroll') && p.scrollHeight > p.clientHeight) break;
+      p = p.parentElement;
+    }
+    const box = p && p !== document.body ? p : null;
+    const r = this.turnRect(el);
+    const top = box ? box.getBoundingClientRect().top : 0;
+    const h = box ? box.clientHeight : window.innerHeight;
+    const delta = r.top - top - (r.height + 48 > h ? 16 : Math.max(24, (h - r.height) / 3));
+    if (box) box.scrollTo({ top: box.scrollTop + delta, behavior: 'smooth' });
+    else window.scrollTo({ top: window.scrollY + delta, behavior: 'smooth' });
+  }
+
+  onPresentClick = (e) => {
+    if (!this.state.presenting) return;
+    let t = e.target instanceof Element ? e.target.closest('[data-chapter],[data-visitor]') : null;
+    if (t && t.hasAttribute('data-visitor')) {
+      const next = t.nextElementSibling;
+      t = next && next.hasAttribute('data-chapter') ? next : null;
+    }
+    if (t) this.pinTurn(t);
+  };
+
+  setPresenting(on) {
+    this.setState({ presenting: on });
+    cancelAnimationFrame(this._raf);
+    this._spotKey = null;
+    this._pinned = null;
+    if (on) {
+      const all = this.chapters().filter((el) => { const c = this.clipRect(el); return c.shown > 0; });
+      const last = all[all.length - 1] || this.chapters().slice(-1)[0];
+      if (last) this.revealTurn(last);
+    }
+    if (on) this.trackSpot();
+  }
+
+  /* The part of a turn actually on screen: its box cut by every scrolling
+     ancestor, so a turn below the transcript's fold does not count as shown. */
+  /* A turn is the visitor's words plus the reply to them, so the frame
+     reaches up to the visitor message right before the machine reply. */
+  askOf(el) {
+    const prev = el.previousElementSibling;
+    return prev && prev.hasAttribute('data-visitor') ? prev : null;
+  }
+
+  turnRect(el) {
+    const r = el.getBoundingClientRect();
+    const ask = this.askOf(el);
+    if (!ask) return r;
+    const a = ask.getBoundingClientRect();
+    return { top: Math.min(a.top, r.top), bottom: Math.max(a.bottom, r.bottom), left: Math.min(a.left, r.left), right: Math.max(a.right, r.right), height: Math.max(a.bottom, r.bottom) - Math.min(a.top, r.top) };
+  }
+
+  clipRect(el) {
+    const r = this.turnRect(el);
+    let top = r.top, bottom = r.bottom, left = r.left, right = r.right;
+    let p = el.parentElement;
+    while (p && p !== document.documentElement) {
+      const cs = getComputedStyle(p);
+      if (cs.overflowY !== 'visible' || cs.overflowX !== 'visible') {
+        const c = p.getBoundingClientRect();
+        top = Math.max(top, c.top); bottom = Math.min(bottom, c.bottom);
+        left = Math.max(left, c.left); right = Math.min(right, c.right);
+      }
+      p = p.parentElement;
+    }
+    top = Math.max(top, 0); bottom = Math.min(bottom, window.innerHeight);
+    return { top, bottom, left, right, full: r.height, shown: Math.max(0, bottom - top) };
+  }
+
+  trackSpot = () => {
+    const els = Array.prototype.filter.call(document.querySelectorAll('[data-chapter]'), (el) => {
+      const c = this.clipRect(el);
+      return c.right > c.left && c.shown > Math.min(40, c.full / 2);
+    });
+    const el = (this._pinned && document.contains(this._pinned)) ? this._pinned : els[els.length - 1];
+    this._shown = el;
+    let spot = null;
+    if (el) {
+      const r = this.clipRect(el);
+      const pad = 20, vw = window.innerWidth, vh = window.innerHeight;
+      const top = Math.max(8, r.top - pad), left = Math.max(8, r.left - pad);
+      spot = { top: Math.round(top), left: Math.round(left), width: Math.round(Math.min(vw - 8, r.right + pad) - left), height: Math.max(0, Math.round(Math.min(vh - 8, r.bottom + pad) - top)) };
+    }
+    this.placeSpot(spot);
+    this._raf = requestAnimationFrame(this.trackSpot);
+  };
+
+  spotRef = React.createRef();
+  bubbleRef = React.createRef();
+  notchRef = React.createRef();
+
+  /* Measured every frame, so written straight to the elements rather than
+     through state and the template. */
+  placeSpot(spot) {
+    const s = this.spotRef.current, b = this.bubbleRef.current, n = this.notchRef.current;
+    if (!s || !b || !n) return;
+    const key = spot ? [spot.top, spot.left, spot.width, spot.height, window.innerWidth, window.innerHeight, b.offsetHeight].join() : 'none';
+    if (key === this._spotKey) return;
+    this._spotKey = key;
+    const vw = window.innerWidth, vh = window.innerHeight, gap = 24;
+    if (!spot) {
+      Object.assign(s.style, { top: vh / 2 + 'px', left: vw / 2 + 'px', width: '0px', height: '0px' });
+      Object.assign(b.style, { top: 'auto', bottom: '32px' });
+      n.style.display = 'none';
+      return;
+    }
+    Object.assign(s.style, { top: spot.top + 'px', left: spot.left + 'px', width: spot.width + 'px', height: spot.height + 'px' });
+    const h = b.offsetHeight, roomBelow = vh - (spot.top + spot.height) - gap - 16, roomAbove = spot.top - gap - 16;
+    const below = roomBelow >= h || (roomAbove < h && roomBelow >= roomAbove);
+    const fits = below ? roomBelow >= h : roomAbove >= h;
+    /* Where neither side holds the bubble it keeps to the viewport and
+       overlaps the spot rather than leaving the screen. */
+    Object.assign(b.style, !fits
+      ? (below ? { top: Math.max(16, vh - h - 16) + 'px', bottom: 'auto' } : { top: 'auto', bottom: Math.max(16, vh - h - 16) + 'px' })
+      : below ? { top: spot.top + spot.height + gap + 'px', bottom: 'auto' } : { top: 'auto', bottom: vh - spot.top + gap + 'px' });
+    /* The triangle sits outside the bubble so its scroll clip cannot cut it
+       off; it is placed against the bubble's edge facing the turn. */
+    const br = b.getBoundingClientRect();
+    Object.assign(n.style, {
+      display: fits ? 'block' : 'none',
+      left: Math.max(56, Math.min(vw - 72, spot.left + spot.width / 2 - 8)) + 'px',
+      top: (below ? br.top - 8 : br.bottom - 8) + 'px',
+    });
+  }
+
+  componentDidMount() {
+    window.addEventListener('vinge:conversation', this.onConversationEvent);
+    window.addEventListener('keydown', this.onPresentKey, true);
+    document.addEventListener('click', this.onPresentClick, true);
+  }
 
   componentWillUnmount() {
+    cancelAnimationFrame(this._raf);
+    window.removeEventListener('keydown', this.onPresentKey, true);
+    document.removeEventListener('click', this.onPresentClick, true);
     window.clearTimeout(this._t);
     window.removeEventListener('vinge:conversation', this.onConversationEvent);
   }
@@ -476,7 +689,19 @@ class Component extends DCLogic {
 
     const beats = window.VingeChapterBeats || {};
 
+    const presenting = !!this.state.presenting;
+    const flowSteps = FLOW.map((s, i) => ({
+      ...s,
+      n: String(i + 1).padStart(2, '0'),
+      line: i < FLOW.length - 1,
+    }));
+
     return {
+      presenting,
+      spotRef: this.spotRef,
+      bubbleRef: this.bubbleRef,
+      notchRef: this.notchRef,
+      flowSteps,
       filmPitch: 5,
       /* Matches the 70vh runway in the markup: the opening, the decolouring
          and the growth all finish where the band is let go. */
