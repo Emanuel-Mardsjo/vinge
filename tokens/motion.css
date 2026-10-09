@@ -19,6 +19,12 @@
 
   --reveal-rise: 20px; /* @kind other */  /* translateY, 16–24px */
   --stagger: 70ms; /* @kind other */
+
+  /* The halftone screen's mark, everywhere: dots, or short strokes cut like the V's left stroke. */
+  --screen-shape: lines; /* @kind other */
+  --screen-line-aspect: 3; /* @kind other */ /* stroke height to width */
+  --screen-line-grid: square; /* @kind other */ /* square (canon): strokes on an upright grid | house: the 18° lattice */
+  --screen-line-taper: off; /* @kind other */ /* on: light tones shrink toward a dot */
 }
 
 /* Reveals combine opacity with translateY. No scale, no blur, no rotation.

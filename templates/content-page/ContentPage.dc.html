@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Content page" description="Innehållssida master: every block a content page can carry, once, in order. The Page tweak (or ?p=/karriar/...) renders any of the 23 Karriär pages from the same blocks." -->
+<helmet><script src="./ds-base.js"></script><script src="./content.js"></script><script src="./karriar-pages.js"></script><script src="../case-listing/record-cases.js"></script><script src="../case-listing/record.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}
+[data-reveal]{grid-template-rows:0fr;opacity:0}[data-reveal="open"]{grid-template-rows:1fr;opacity:1}
+[data-ann]{padding-block:var(--space-3) var(--space-5);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.5;color:var(--text-secondary)}
+[data-ann]>div{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 24px;padding-top:12px;border-top:1px dashed var(--ink-12)}
+[data-ann] b{font-weight:400;color:var(--text-primary)}
+[data-ann-ctl]{flex-basis:100%;order:99;display:flex;flex-wrap:wrap;align-items:center;gap:12px 32px;margin:8px 0 0;padding:12px 16px;background:var(--text-primary);color:var(--paper)}
+[data-ann-ctl]::before{content:"Variants";font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding-right:8px;border-right:1px solid color-mix(in oklch,var(--paper) 35%,transparent)}
+[data-ann-group]{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}[data-ann-glabel]{font-size:13px;color:var(--paper)}
+[data-ann-opts]{display:flex;flex-wrap:wrap;gap:6px}
+[data-ann-opt]{all:unset;box-sizing:border-box;cursor:pointer;font-size:13px;line-height:1;padding:9px 12px;min-height:32px;display:inline-flex;align-items:center;border:1px solid color-mix(in oklch,var(--paper) 45%,transparent);color:var(--paper);transition:background 200ms var(--ease-expo),color 200ms var(--ease-expo)}
+[data-ann-opt]:hover{background:color-mix(in oklch,var(--paper) 14%,transparent)}
+[data-ann-opt][data-on="true"]{background:var(--paper);color:var(--text-primary);border-color:var(--paper)}
+[data-ann-opt]:focus-visible{outline:2px solid var(--paper);outline-offset:2px}
+[data-col]{grid-column:1/-1}[data-sr="true"]{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+input[data-tf]:focus-visible{outline:2px solid var(--focus-ring);outline-offset:6px}
+input[data-tf]{width:100%;box-sizing:border-box;margin:0;padding:var(--space-1) 0;border:0;border-bottom:1px solid var(--text-secondary);border-radius:0;background:transparent;color:var(--text-primary);font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small)}
+input[data-tf][aria-invalid="true"]{border-bottom-width:2px;border-bottom-color:var(--ink)}
+[data-submit]{all:unset;cursor:pointer;font-family:var(--font-display);font-weight:var(--weight-book);font-size:var(--display-3);line-height:var(--lh-display-3);letter-spacing:var(--tracking-display-3);color:var(--text-primary);text-decoration:underline;text-decoration-color:var(--underline-rest);text-decoration-thickness:1px;text-underline-offset:.18em;transition:text-underline-offset 450ms var(--ease-expo),text-decoration-color 450ms var(--ease-expo)}
+[data-submit]:hover{text-decoration-color:var(--underline-active);text-decoration-thickness:2px;text-underline-offset:.30em}
+[data-submit]:focus-visible{outline:2px solid var(--focus-ring);outline-offset:6px}
+[data-person]{grid-column:span 1}
+[data-office]{grid-column:1/-1}
+@media (min-width:768px){[data-person]{grid-column:span 2}[data-office]{grid-column:span 2}}
+@media (min-width:1280px){
+[data-st-img]{grid-column:5/9}[data-q]{grid-column:2/8}
+[data-person]{grid-column:span 2}
+}
+[data-statement]{padding-block:0 var(--space-6);margin-top:calc(var(--section-gap) / -8)}
+</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" on-chat="{{ openChat }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.DemoConsole" groups="{{ demoGroups }}" hint-size="0,0"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ chatOpen }}" prompt="{{ chatPrompt }}" on-close="{{ closeChat }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>
+<sc-if value="{{ isMaster }}" hint-placeholder-val="{{ true }}">
+<main lang="sv">
+
+<section data-screen-label="01 Sidöppning" id="sidoppning">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>01 Sidöppning</b><span>PageBanner + SectionNav</span><span>Every page, first. Trail, title, optional intro and meta. The section index stands top right, level with the title, closed to one row per group, and stays pinned while the banner is in view.</span><span>Source: karriar/index</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Variant</span><div role="group" aria-label="Variant" data-ann-opts=""><sc-for list="{{ ctl.bannerVariant.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="{{ h1 }}" trail="{{ trail }}" intro="{{ bannerIntro }}" section="{{ bannerNav }}" hint-size="100%,320px"></x-import>
+</section>
+
+<section data-screen-label="02 Fält" id="falt">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>02 Fält</b><span>PromptHero</span><span>Section start pages only, block two. Same field as the header and the footer band.</span><span>Source: karriar/index (no headline or suggestions authored, DS defaults)</span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+</section>
+
+<section data-screen-label="03 Text" id="text" style="padding-top:calc(var(--section-gap) * 7 / 8)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>03 Text</b><span>RichText</span><span>Max 2 per page. Paragraphs, headings, lists, links, a quote with its source, a small table.</span><span>Source: karriar/index</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Title</span><div role="group" aria-label="Title" data-ann-opts=""><sc-for list="{{ ctl.textTitle.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<div class="grid"><div class="place-prose-indent">
+<sc-if value="{{ textHeading }}" hint-placeholder-val="{{ false }}"><h2 class="display-3" style="margin:0 0 var(--space-4)">{{ textHeading }}</h2></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.RichText" html="{{ proseHtml }}" hint-size="100%,360px"></x-import>
+</div></div>
+</section>
+
+<section data-screen-label="04 Bild och text" id="bild-och-text" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>04 Bild och text</b><span>ImageTextPair, a run of three</span><span>Max 3 per page. Text above the image on the same column line, never beside it. Scales cycle large 1:1, medium 3:4, small 4:5. A row may add a second, smaller image in the empty columns. A film is a still with a link to it.</span><span>Sources: karriar/index (The Seat), karriar/jobba-pa-vinge/utvecklas-med-oss</span></div></div></sc-if>
+<div style="display:grid;grid-template-columns:minmax(0,1fr);gap:var(--section-gap)">
+<sc-for list="{{ pairs }}" as="p" hint-placeholder-count="3"><x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageTextPair" dc-props="{{ p.props }}" hint-size="100%,640px"></x-import></sc-for>
+</div>
+</section>
+
+<section data-screen-label="05 Påstående" id="pastaende" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>05 Påstående</b><span>StatementBlock, variant="{{ stVariant }}"</span><span>{{ stNote }} Max 1, never directly after the banner.</span><span>Source: {{ stSource }}</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Variant</span><div role="group" aria-label="Variant" data-ann-opts=""><sc-for list="{{ ctl.statementVariant.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.StatementBlock" variant="{{ stVariant }}" text="{{ stText }}" source="{{ stQuoteSource }}" hint-size="100%,240px"></x-import>
+</section>
+
+<section data-screen-label="05b Karusell" id="karusell" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>05b Karusell</b><span>ContentCarousel</span><span>The hero carousel as a page block: 3–6 destinations. Its own block, not part of Påstående. Max 1, never directly after the banner.</span><span>Source: karriar/index</span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ContentCarousel" slides="{{ statementItems }}" hint-size="100%,640px"></x-import>
+</section>
+
+<section data-screen-label="06 Nyheter" id="nyheter" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>06 Nyheter</b><span>NewsList, variant="{{ newsVariant }}"</span><span>The section's own news or events, in the news stream's list: the same rows as NewsListing, under a display-2 heading.</span><span>Source: karriar/index</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Variant</span><div role="group" aria-label="Variant" data-ann-opts=""><sc-for list="{{ ctl.newsVariant.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div><div data-ann-group=""><span data-ann-glabel="">Title</span><div role="group" aria-label="Title" data-ann-opts=""><sc-for list="{{ ctl.newsTitle.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.NewsList" variant="{{ newsVariant }}" title="{{ chosenHeading }}" items="{{ newsItems }}" hint-size="100%,520px"></x-import>
+</section>
+
+<section data-screen-label="07 Lyft" id="lyft" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>07 Lyft</b><span>Feature</span><span>One story lifted out of the run: a film, a programme. Replaces the old dark banner. Max 1.</span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Feature" heading="The Seat." body="På Vinge uppmuntras alla att göra skillnad. Därför är alltid en nyanställd med på våra ledningsgruppsmöten. Som en symbol för att få ta plats runt bordet tog vi fram en specialtillverkad stol." link="{{ seatLink }}" image-src="../../assets/images/anonymous-01.png" image-alt="Platshållare för filmens stillbild: The Seat" hint-size="100%,640px"></x-import>
+</section>
+
+<section data-screen-label="08 Rader" id="rader" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>08 Rader</b><span>Accordion, variant="{{ accVariant }}"</span><span>Max 1. {{ accNote }} {{ radRule }} Deep link #rad-&lt;slug&gt;; opens on find-in-page.</span><span>Source: {{ radSource }}</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Variant</span><div role="group" aria-label="Variant" data-ann-opts=""><sc-for list="{{ ctl.rowsVariant.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div><div data-ann-group=""><span data-ann-glabel="">Content</span><div role="group" aria-label="Content" data-ann-opts=""><sc-for list="{{ ctl.rowsExample.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div><div data-ann-group=""><span data-ann-glabel="">Several open</span><div role="group" aria-label="Several open" data-ann-opts=""><sc-for list="{{ ctl.rowsMultiple.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div><div data-ann-group=""><span data-ann-glabel="">Title</span><div role="group" aria-label="Title" data-ann-opts=""><sc-for list="{{ ctl.rowsTitle.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Accordion" heading="{{ radHeading }}" rows="{{ accRows }}" variant="{{ accVariant }}" numbered="{{ accNumbered }}" multiple="{{ accMultiple }}" hint-size="100%,560px"></x-import>
+</section>
+
+<section data-screen-label="08c Lediga jobb" id="lediga-jobb" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>08c Lediga jobb</b><span>JobList</span><span>Positions read from {{ jobsSource }}. Closed state is the complete list: title, office, the deadline where the ad states one. A row opens to the ad's intro on the left and the application on the right. One row open at a time; deep link #jobb-&lt;id&gt;. Holds at 0, 1 and 20 (Lediga jobb tweak).</span><span>Source: karriar/lediga-jobb/index</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Positions</span><div role="group" aria-label="Positions" data-ann-opts=""><sc-for list="{{ ctl.jobsCount.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.JobList" positions="{{ masterJobs }}" open-application="{{ masterOpenApp }}" application="{{ masterApplication }}" hint-size="100%,640px"></x-import>
+</section>
+
+<section data-screen-label="09 Formulär" id="formular" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>09 Formulär</b><span>FormBlock, new</span><span>Fields read from {{ formProvider }} ({{ formStatus }}), rendered in DS inputs. Heading and intro hideable; cold, field error, sending, submit error and success states.</span><span>Source: {{ formSource }}</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Form</span><div role="group" aria-label="Form" data-ann-opts=""><sc-for list="{{ ctl.formExample.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div><div data-ann-group=""><span data-ann-glabel="">State</span><div role="group" aria-label="State" data-ann-opts=""><sc-for list="{{ ctl.formState.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div><div data-ann-group=""><span data-ann-glabel="">Title</span><div role="group" aria-label="Title" data-ann-opts=""><sc-for list="{{ ctl.formTitle.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.FormBlock" dc-props="{{ formProps }}" hint-size="100%,900px"></x-import>
+</section>
+
+<section data-screen-label="10 Människor" id="manniskor" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>10 Människor</b><span>PeopleCarousel</span><span>Contact people with a direct line, closing on a card to Medarbetare. Ta kontakt opens email and phone. Replaces the sidebar contacts on Karriär pages.</span><span>Source: kontakt/human-resources</span><span data-ann-ctl=""><div data-ann-group=""><span data-ann-glabel="">Title</span><div role="group" aria-label="Title" data-ann-opts=""><sc-for list="{{ ctl.peopleTitle.opts }}" as="o" hint-placeholder-count="2"><button type="button" data-ann-opt="" data-on="{{ o.on }}" aria-pressed="{{ o.pressed }}" onClick="{{ o.pick }}">{{ o.label }}</button></sc-for></div></div></span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" title="{{ peopleHeading }}" label="" all-line="" views="{{ false }}" people="{{ people }}" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla medarbetare" hint-size="100%,760px"></x-import>
+</section>
+
+<section data-screen-label="11 Kontakt" id="kontakt" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>11 Kontakt</b><span>OfficeMap + addresses</span><span>Named people or the offices. Every address and number also in text.</span><span>Source: kontakt/index</span></div></div></sc-if>
+<div class="grid"><h2 class="display-2 place-body-wide" style="margin:0 0 var(--space-5)">{{ contactHeading }}</h2></div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.OfficeMap" min-height="62svh" running="{{ mapRunning }}" hint-size="100%,62svh"></x-import>
+<div class="grid" style="padding-top:var(--space-5);row-gap:var(--space-5)">
+<sc-for list="{{ offices }}" as="of" hint-placeholder-count="4">
+<address data-office="" style="font-style:normal">
+<h3 class="display-3" style="margin:0 0 var(--space-2)">{{ of.city }}</h3>
+<p class="small" style="margin:0">{{ of.street }}</p>
+<sc-if value="{{ of.box }}"><p class="small" style="margin:0">{{ of.box }}</p></sc-if>
+<p class="small" style="margin:0">{{ of.postcode }}</p>
+<p style="margin:var(--space-2) 0 0"><x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" variant="small" href="{{ of.tel }}" hint-size="120px,24px">{{ of.phone }}</x-import></p>
+<p style="margin:var(--space-0) 0 0"><x-import component-from-global-scope="VingeDesignSystem_8582c7.CtaLink" variant="small" href="{{ of.mail }}" hint-size="140px,24px">{{ of.email }}</x-import></p>
+</address>
+</sc-for>
+</div>
+</section>
+
+<section data-screen-label="12 Uppdragen" id="uppdragen" style="padding-top:var(--section-gap)">
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>12 Uppdragen</b><span>Record (listing), the page's window</span><span>Expertise pages only, block two after the banner. Count derived from the matters data; truncation stated.</span><span>Source: vara-tjanster/verksamhetsomraden/arbetsratt</span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" listing="{{ true }}" views="{{ false }}" term-filter="{{ false }}" title="{{ recordCount }}" premise="" all-line="" closing-line="{{ recordWindow }}" action-label="" entries="{{ recordEntries }}" open-label="Läs uppdraget" flush-top="{{ true }}" hint-size="100%,1200px"></x-import>
+</section>
+
+</main>
+</sc-if>
+<sc-if value="{{ isPage }}" hint-placeholder-val="{{ false }}">
+<main lang="sv" ref="{{ radRef }}" data-screen-label="{{ screenLabel }}">
+<sc-for list="{{ blocks }}" as="b" hint-placeholder-count="4">
+
+<sc-if value="{{ b.isOpener }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="{{ b.h1 }}" trail="{{ b.trail }}" intro="{{ b.intro }}" section="{{ bannerNav }}" hint-size="100%,320px"></x-import>
+</sc-if>
+
+<sc-if value="{{ b.isFinder }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="{{ b.headline }}" suggestions="{{ b.suggestions }}" aside="Skriv med egna ord. Vi ställer några frågor och hänvisar till den hos oss som ansvarar för rekryteringen där du står i dag: student, nyexaminerad, jurist eller affärsstöd, med sidan som skälet vilar på. Vi bedömer inte din ansökan här, det gör människor när du har sökt." on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+</sc-if>
+
+<sc-if value="{{ b.isProse }}">
+<section style="padding-top:calc(var(--section-gap) * 7 / 8)"><div class="grid"><div class="place-prose-indent">
+<sc-if value="{{ b.heading }}"><h2 class="display-3" style="margin:0 0 var(--space-4)">{{ b.heading }}</h2></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.RichText" html="{{ b.html }}" hint-size="100%,240px"></x-import>
+</div></div></section>
+</sc-if>
+
+<sc-if value="{{ b.isPair }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageTextPair" dc-props="{{ b.props }}" hint-size="100%,640px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isCarousel }}">
+<section style="padding-top:var(--section-gap)"><x-import component-from-global-scope="VingeDesignSystem_8582c7.ContentCarousel" slides="{{ b.items }}" hint-size="100%,640px"></x-import></section>
+</sc-if>
+
+<sc-if value="{{ b.isFeature }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Feature" heading="{{ b.heading }}" body="{{ b.body }}" link="{{ b.link }}" image-src="{{ b.src }}" image-alt="{{ b.alt }}" film="{{ b.film }}" hint-size="100%,640px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isStatement }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.StatementBlock" text="{{ b.text }}" hint-size="100%,200px"></x-import>
+</section>
+<sc-if value="{{ b.hasItems }}"><section style="padding-top:0"><x-import component-from-global-scope="VingeDesignSystem_8582c7.ContentCarousel" slides="{{ b.items }}" hint-size="100%,640px"></x-import></section></sc-if>
+</sc-if>
+
+<sc-if value="{{ b.isQuote }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.StatementBlock" variant="quote" text="{{ b.text }}" source="{{ b.source }}" hint-size="100%,320px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isChosen }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.NewsList" variant="{{ b.variant }}" title="{{ b.heading }}" items="{{ b.items }}" hint-size="100%,520px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isRows }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Accordion" heading="{{ b.heading }}" rows="{{ b.rows }}" variant="{{ b.variant }}" numbered="{{ b.numbered }}" hint-size="100%,560px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isJobs }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.JobList" positions="{{ b.positions }}" open-application="{{ b.openApp }}" application="{{ b.application }}" hint-size="100%,640px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isForm }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.FormBlock" dc-props="{{ b.formProps }}" hint-size="100%,900px"></x-import>
+</section>
+</sc-if>
+
+<sc-if value="{{ b.isContact }}">
+<section style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" title="{{ b.heading }}" label="" all-line="" views="{{ false }}" people="{{ b.people }}" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla medarbetare" hint-size="100%,760px"></x-import>
+</section>
+</sc-if>
+
+</sc-for>
+<sc-if value="{{ endGap }}" hint-placeholder-val="{{ true }}"><div style="height:var(--section-gap)"></div></sc-if>
+</main>
+</sc-if>
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>13 Avslut</b><span>ClosingFooter</span><span>Every page, last. Finder band, then the footer. Only the three openings are editable.</span><span>Source: karriar/index (no openings authored, defaults)</span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ start }}" hint-size="100%,720px"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;page&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;master&quot;,&quot;karriar/index&quot;,&quot;karriar/jobba-pa-vinge/index&quot;,&quot;karriar/lediga-jobb/index&quot;,&quot;karriar/mot-vara-medarbetare/index&quot;,&quot;karriar/student/index&quot;,&quot;karriar/jobba-pa-vinge/forsta-tiden-hos-oss&quot;,&quot;karriar/jobba-pa-vinge/jobba-inom-affarsstod&quot;,&quot;karriar/jobba-pa-vinge/jobba-som-jurist&quot;,&quot;karriar/jobba-pa-vinge/the-seat&quot;,&quot;karriar/jobba-pa-vinge/utvecklas-med-oss&quot;,&quot;karriar/jobba-pa-vinge/var-karriarmodell&quot;,&quot;karriar/lediga-jobb/sa-funkar-var-rekryteringsprocess&quot;,&quot;karriar/mot-vara-medarbetare/mot-en-vinge&quot;,&quot;karriar/student/jobb-under-studietiden&quot;,&quot;karriar/student/praktik&quot;,&quot;karriar/student/praktikvecka&quot;,&quot;karriar/student/sommarnotarie&quot;,&quot;karriar/student/studentevent&quot;,&quot;karriar/student/trainee-i-bryssel&quot;,&quot;karriar/student/vinge-talang&quot;,&quot;karriar/student/vingestipendiet/index&quot;,&quot;karriar/student/vingeveckan&quot;,&quot;karriar/student/vingestipendiet/vinnare-av-vingestipendiet&quot;],&quot;default&quot;:&quot;master&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Page&quot;},&quot;showLabels&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Master page&quot;},&quot;bannerVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;intro&quot;,&quot;title&quot;],&quot;default&quot;:&quot;intro&quot;,&quot;tsType&quot;:&quot;'intro' | 'title'&quot;,&quot;section&quot;:&quot;Sidöppning&quot;},&quot;statementVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;statement&quot;,&quot;quote&quot;],&quot;default&quot;:&quot;statement&quot;,&quot;tsType&quot;:&quot;'statement' | 'quote'&quot;,&quot;section&quot;:&quot;Påstående&quot;},&quot;rowsVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;list&quot;,&quot;list-images&quot;,&quot;index&quot;],&quot;default&quot;:&quot;list&quot;,&quot;tsType&quot;:&quot;'list' | 'list-images' | 'index'&quot;,&quot;section&quot;:&quot;Rader&quot;},&quot;rowsExample&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;programmes&quot;,&quot;steps&quot;],&quot;default&quot;:&quot;programmes&quot;,&quot;tsType&quot;:&quot;'programmes' | 'steps'&quot;,&quot;section&quot;:&quot;Rader&quot;},&quot;rowsMultiple&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Rader&quot;},&quot;formExample&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;talang&quot;,&quot;nyhetsbrev&quot;,&quot;ansokan&quot;],&quot;default&quot;:&quot;talang&quot;,&quot;tsType&quot;:&quot;'talang' | 'nyhetsbrev' | 'ansokan'&quot;,&quot;section&quot;:&quot;Formulär&quot;},&quot;formState&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cold&quot;,&quot;error&quot;,&quot;sending&quot;,&quot;submitError&quot;,&quot;success&quot;],&quot;default&quot;:&quot;cold&quot;,&quot;tsType&quot;:&quot;'cold' | 'error' | 'sending' | 'submitError' | 'success'&quot;,&quot;section&quot;:&quot;Formulär&quot;},&quot;jobsCount&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;live&quot;,&quot;0&quot;,&quot;1&quot;,&quot;20&quot;],&quot;default&quot;:&quot;live&quot;,&quot;tsType&quot;:&quot;'live' | '0' | '1' | '20'&quot;,&quot;section&quot;:&quot;Lediga jobb&quot;}}">
+/* Pages whose headed texts are designed as Rader, and how those rows look. The data carries the texts; this carries the presentation. */
+const ROWS_LOOK = {
+  'karriar/lediga-jobb/sa-funkar-var-rekryteringsprocess': { images: true },
+  'karriar/jobba-pa-vinge/forsta-tiden-hos-oss': { images: true, numbered: true },
+  'karriar/jobba-pa-vinge/var-karriarmodell': { numbered: true },
+  'karriar/student/trainee-i-bryssel': { images: true, variant: 'index', min: 2 },
+  'karriar/jobba-pa-vinge/jobba-som-jurist': { images: true, variant: 'index', min: 2 },
+  'karriar/jobba-pa-vinge/utvecklas-med-oss': { images: true, variant: 'index', min: 2 },
+};
+/* Pages whose headless texts are designed as Bild och text, each text's
+   quote lifted out after it as a Påstående (quote). The images are library
+   placeholders, one per text in order. */
+const PAIR_LOOK = {
+  'karriar/student/vingeveckan': ['present-01', 'present-02', 'present-03'],
+};
+/* Per-page presentation: a text block shown as a Påstående (statement) or as
+   the banner intro, a list shown without its heading, a run of photo pairs
+   shown as one carousel. The data's words are unchanged. */
+const PAGE_LOOK = {
+  'karriar/jobba-pa-vinge/index': { carousel: true },
+  'karriar/jobba-pa-vinge/utvecklas-med-oss': { statement: ['text-1'] },
+  'karriar/jobba-pa-vinge/var-karriarmodell': { pairText: { text: 'text-1', pair: 'bild-1' } },
+  'karriar/mot-vara-medarbetare/index': { statement: ['text-1'], chosenHeading: false },
+  'karriar/mot-vara-medarbetare/mot-en-vinge': { chosenHeading: false, intro: 'text-1' },
+};
+const CAREER_SUGGESTIONS = ['Jag läser juridik', 'Jag arbetar som jurist på en annan byrå', 'Jag söker jobb inom affärsstöd'];
+
+class Component extends DCLogic {
+  state = { menuOpen: false, chatOpen: false, chatPrompt: '', open: {}, values: {}, errors: {}, sent: false, mapRunning: true };
+  radRef = React.createRef(); radImgRef = React.createRef();
+
+  componentDidMount() {
+    this._wait = setInterval(() => {
+      const ns = window.VingeDesignSystem_8582c7;
+      if ((ns && ns.SiteNav && ns.SectionNav && window.VingeContentPage && window.VingeKarriar) || ++this._tries > 150) { clearInterval(this._wait); this._wait = 0; this.forceUpdate(); }
+    }, 60);
+    this._tries = 0;
+  }
+
+  /* A practice area page (/verksamhetsomraden/<slug>): a placeholder until its
+     content exists, the banner only, named from the site nav's expertise list. */
+  expertise() {
+    const w = this.wanted(), m = w && w.match(/^verksamhetsomraden\/([^/]+)$/);
+    const ns = window.VingeDesignSystem_8582c7;
+    if (!m || !ns || !ns.SiteNav) return null;
+    const all = (ns.SiteNav().items.find((i) => i.href === '/verksamhetsomraden') || {}).children || [];
+    return all.find((c) => c.href.replace(/\/+$/, '') === '/verksamhetsomraden/' + m[1]) || null;
+  }
+
+  componentDidUpdate() {
+    const p = this.page(), ex = !p && this.expertise();
+    const t = p ? p.title + ' | Vinge' : ex ? ex.label + ' | Vinge' : 'Innehållssida | Vinge';
+    if (document.title !== t) document.title = t;
+  }
+
+  /* Which page to render. ?p=/karriar/student/praktik wins, since that is what
+     every Karriär link sets; otherwise the Page tweak. 'master' or nothing is
+     the master page with every block once. */
+  wanted() {
+    let q = '';
+    try { q = new URLSearchParams(location.search).get('p') || ''; } catch (e) {}
+    q = q.replace(/^\/+|\/+$/g, '');
+    if (q === 'master') return null;
+    if (q) return q;
+    const t = this.props.page;
+    return t && t !== 'master' ? t : null;
+  }
+  page() {
+    const w = this.wanted(), pages = (window.VingeKarriar || {}).pages;
+    if (!w || !pages) return null;
+    const p = pages[w] || pages[w + '/index'] || null;
+    if (!p) return null;
+    return p;
+  }
+
+  /* A prose block made only of **question** + answer pairs, straight after a rows
+     block, is more of the same accordion: its pairs join that block as rows. */
+  foldFaq(p) {
+    const out = [];
+    p.blocks.forEach((b) => {
+      const prev = out[out.length - 1];
+      if (b.type === 'prose' && !b.heading && prev && prev.type === 'rows') {
+        const parts = (b.body || '').trim().split(/^\*\*(.+?)\*\*[ \t]*\n/m);
+        if (parts.length > 2 && !parts[0].trim()) {
+          const rows = prev.rows.slice();
+          for (let i = 1; i < parts.length; i += 2) {
+            const headline = parts[i].trim(), n = rows.length + 1;
+            const slug = headline.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+            const r = { slug, headline, body: parts[i + 1].trim() };
+            if (prev.variant === 'image') r.image = { src: '../../assets/images/office-0' + (((n - 1) % 8) + 1) + '.png', alt: 'Platshållarbild: ' + headline };
+            rows.push(r);
+          }
+          out[out.length - 1] = { ...prev, rows };
+          return;
+        }
+      }
+      out.push(b);
+    });
+    return { ...p, blocks: out };
+  }
+
+  /* The page JSON writes prose as light markdown: blank-line paragraphs,
+     "## " headings, a line that is only **bold** as a subheading, "- " lists. */
+  md(s) {
+    const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    const inl = (t) => esc(t).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, l, h) => '<a href="' + h.replace(/"/g, '&quot;') + '">' + l + '</a>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    return String(s || '').split(/\n{2,}/).map((par) => {
+      let out = '', list = [], text = [], quote = [];
+      const ft = () => { if (text.length) { out += '<p>' + text.map(inl).join('<br>') + '</p>'; text = []; } };
+      const fl = () => { if (list.length) { out += '<ul>' + list.map((l) => '<li>' + inl(l) + '</li>').join('') + '</ul>'; list = []; } };
+      const fq = () => { if (quote.length) { out += '<blockquote><p>' + quote.map(inl).join('<br>') + '</p></blockquote>'; quote = []; } };
+      par.split('\n').forEach((l) => {
+        const t = l.trim();
+        if (/^>\s?/.test(t)) { ft(); fl(); quote.push(t.replace(/^>\s?/, '')); return; }
+        fq();
+        if (/^###\s/.test(t)) { ft(); fl(); out += '<h3>' + inl(t.replace(/^###\s+/, '')) + '</h3>'; }
+        else if (/^##\s/.test(t)) { ft(); fl(); out += '<h2>' + inl(t.replace(/^##\s+/, '')) + '</h2>'; }
+        else if (/^\*\*[^*]+\*\*$/.test(t)) { ft(); fl(); out += '<h3>' + inl(t.slice(2, -2)) + '</h3>'; }
+        else if (/^[-*]\s/.test(t)) { ft(); list.push(t.replace(/^[-*]\s+/, '')); }
+        else if (t) { fl(); text.push(t); }
+      });
+      ft(); fl(); fq();
+      return out;
+    }).join('');
+  }
+
+  /* One real page, rendered block by block from its JSON with the same blocks
+     as the master. A page with no chapters block gets the section nav at its foot. */
+  pageVals(p) {
+    const d = window.VingeKarriar;
+    const fmt = (s) => new Date(s + 'T12:00:00').toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
+    const layouts = [['large', '1:1', '4:5'], ['medium', '3:4', '4:5'], ['small', '2:3', '3:4']];
+    let pi = 0;
+    const blocks = [], skip = this.repeats(p);
+    /* A paragraph says its piece once per page: one the banner intro or an earlier text already carries is left out; a text left empty is dropped. */
+    const said = new Set(), nrm = (x) => String(x || '').replace(/^>\s?/, '').replace(/\s+/g, ' ').trim();
+    p.blocks.forEach((b, i) => {
+      if (skip.has(i)) return;
+      const k = 'b' + i;
+      const look = this.lookOf(PAGE_LOOK, p) || {};
+      /* A run of photo pairs on a carousel page is one ContentCarousel, a slide per pair. */
+      if (look.carousel && b.type === 'pair' && b.media && b.media.kind === 'photo') {
+        const run = [];
+        for (let j = i; j < p.blocks.length && p.blocks[j].type === 'pair' && p.blocks[j].media && p.blocks[j].media.kind === 'photo'; j++) run.push(j);
+        if (run.length >= 2) {
+          run.forEach((j) => skip.add(j));
+          this._car = this._car || new WeakMap();
+          if (!this._car.has(b)) this._car.set(b, run.map((j) => { const x = p.blocks[j]; return { src: x.media.image.src, alt: x.media.image.alt, label: x.heading, body: x.body || '', href: x.link ? x.link.href : undefined }; }));
+          blocks.push({ k, isCarousel: true, items: this._car.get(b) });
+          return;
+        }
+      }
+      if (b.type === 'prose' && (look.statement || []).includes(b.id)) { blocks.push({ k, isStatement: true, text: String(b.body || '').trim(), hasItems: false, items: [] }); return; }
+      if (b.type === 'statement' && p.blocks.some((c, j) => j !== i && c.heading && c.heading.trim() === String(b.text || '').trim())) return;
+      const run = b.type === 'prose' ? this.rowsRun(p, i) : null;
+      if (run) {
+        run.idx.forEach((j) => skip.add(j));
+        blocks.push({ k, isRows: true, heading: '', variant: run.look.variant || 'list', numbered: run.look.variant === 'index' || !!run.look.numbered, rows: run.rows });
+        return;
+      }
+      const feat = b.type === 'prose' ? this.featureOf(b, d.pages) : null;
+      if (b.type === 'opener') {
+        /* A banner without an intro takes a lone short line that follows it (one sentence, no heading, no link) as its intro. */
+        const n = p.blocks[i + 1], nt = n && n.type === 'prose' && !n.heading ? String(n.body || '').trim() : '';
+        const plain = nt && !/\n|\[|^[-#>]/.test(nt);
+        const echoed = plain && p.blocks.some((c, j) => j > i + 1 && c.type === 'prose' && String(c.body || '').trim().startsWith(nt));
+        const lift = !b.intro && plain && (nt.length <= 120 || echoed || (look.intro && n.id === look.intro));
+        if (lift) skip.add(i + 1);
+        const intro = b.intro || (lift ? nt : undefined);
+        if (intro) said.add(nrm(intro));
+        blocks.push({ k, isOpener: true, h1: b.h1, trail: b.trail, intro });
+      }
+      else if (b.type === 'finder') blocks.push({ k, isFinder: true, headline: b.headline || undefined, suggestions: b.suggestions && b.suggestions.length ? b.suggestions : undefined });
+      else if (feat) blocks.push({ k, isFeature: true, ...feat });
+      else if (b.type === 'prose') {
+        const h1 = nrm(p.page && p.page.h1).toLowerCase();
+        /* A lone short line that only echoes the page title ("The Seat." on The Seat by Vinge) is dropped too. */
+        const echo = (n) => n.length <= 40 && !/\s\S+\s\S+\s\S+/.test(n) && h1 && h1.startsWith(n.replace(/[.!]+$/, '').toLowerCase());
+        const paras = String(b.body || '').split(/\n{2,}/).filter((x) => { const n = nrm(x); if (n.length >= 25 && said.has(n)) return false; if (echo(n)) return false; said.add(n); return true; });
+        if (look.pairText && look.pairText.text === b.id && p.blocks.some((x) => x.id === look.pairText.pair)) {
+          const text = paras.map((x) => x.trim()).filter(Boolean);
+          this._ptBody = this._ptBody || {};
+          this._ptKey = this._ptKey || {};
+          if (!this._ptBody[b.id] || this._ptKey[b.id] !== text.join('|')) { this._ptKey[b.id] = text.join('|'); this._ptBody[b.id] = React.createElement(React.Fragment, null, ...text.flatMap((x, n) => n ? [React.createElement('br', { key: 'a' + n }), React.createElement('br', { key: 'b' + n }), x] : [x])); }
+          return;
+        }
+        const pl = this.lookOf(PAIR_LOOK, p);
+        const quotes = paras.filter((x) => /^>/.test(x.trim())), text = paras.filter((x) => !/^>/.test(x.trim()));
+        if (pl && !b.heading && quotes.length && text.length) {
+          const L = layouts[pi++ % 3], src = '../../assets/images/' + pl[(pi - 1) % pl.length] + '.png', alt = 'Platshållarbild: ' + (p.page.h1 || '');
+          this._pb = this._pb || new WeakMap();
+          if (!this._pb.has(b)) this._pb.set(b, React.createElement(React.Fragment, null, ...text.flatMap((x, n) => n ? [React.createElement('br', { key: 'a' + n }), React.createElement('br', { key: 'b' + n }), x.trim()] : [x.trim()])));
+          blocks.push({ k, isPair: true, props: { scale: L[0], imageSrc: src, imageAlt: alt, body: this._pb.get(b), style: { paddingBlock: 0 } } });
+          quotes.forEach((q, n) => blocks.push({ k: k + 'q' + n, isQuote: true, text: q.trim().replace(/^>\s?/, ''), source: '' }));
+        } else if (paras.length) blocks.push({ k, isProse: true, heading: b.heading || '', html: this.md(paras.join('\n\n')) });
+      }
+      else if (b.type === 'pair' && b.media && b.media.kind === 'film') {
+        blocks.push({ k, isFeature: true, heading: b.heading, body: b.body || '', link: b.link || undefined, src: b.media.image.src, alt: b.media.image.alt, film: String(b.media.film || '').replace(/&amp;/g, '&') || undefined });
+      } else if (b.type === 'pair') {
+        const L = layouts[pi++ % 3];
+        const i2 = b.media.image2;
+        /* pairText: the pair takes a text block's paragraphs as its body and drops its own (file-name) heading. */
+        const pt = look.pairText && look.pairText.pair === b.id ? (this._ptBody || {})[look.pairText.text] : null;
+        if (pt) {
+          blocks.push({ k, isPair: true, props: { scale: L[0], imageSrc: b.media.image.src, imageAlt: b.media.image.alt, body: pt, cta: b.link || undefined, style: { paddingBlock: 0 } } });
+          return;
+        }
+        blocks.push({ k, isPair: true, layout: L[0], ratio: L[1], src: b.media.image.src, alt: b.media.image.alt, hasImage2: !!i2, src2: i2 ? i2.src : '', alt2: i2 ? i2.alt : '', ratio2: L[2], heading: b.heading, body: b.body || '',
+          hasLink: !!b.link, linkHref: b.link ? b.link.href : '', linkLabel: b.link ? b.link.label : '',
+          props: { scale: L[0], imageSrc: b.media.image.src, imageAlt: b.media.image.alt, secondImageSrc: i2 ? i2.src : undefined, secondImageAlt: i2 ? i2.alt : '', heading: b.heading, body: b.body || undefined, cta: b.link || undefined, style: { paddingBlock: 0 } } });
+      } else if (b.type === 'statement') {
+        const img = { hasImage: !!b.image, src: b.image ? b.image.src : '', alt: b.image ? b.image.alt : '' };
+        if (b.variant === 'quote') {
+          const a = b.attribution || {}, pe = a.person;
+          blocks.push({ k, isQuote: true, text: b.text, who: pe ? [pe.name, pe.role].filter(Boolean).join(', ') : '', source: [pe ? pe.name : '', pe ? pe.role : '', a.source || ''].filter(Boolean).join(', '),
+            hasHref: !!(a.href && a.source), plainSource: !!(a.source && !a.href), href: a.href || '', ...img });
+        } else {
+          let items = b.items && b.items.length ? b.items : null;
+          /* The photo pairs that follow a statement are its carousel: Statement, then ContentCarousel with one slide per pair. */
+          if (!items) {
+            const run = [];
+            for (let j = i + 1; j < p.blocks.length && p.blocks[j].type === 'pair' && p.blocks[j].media && p.blocks[j].media.kind === 'photo'; j++) run.push(j);
+            if (run.length >= 2) {
+              items = run.map((j) => { const x = p.blocks[j]; return { src: x.media.image.src, alt: x.media.image.alt, label: x.heading, body: x.body || '', href: x.link ? x.link.href : undefined }; });
+              run.forEach((j) => skip.add(j));
+            }
+          }
+          blocks.push({ k, isStatement: true, text: b.text, ...img, hasImage: !items && img.hasImage, hasItems: !!items, items: items || [] });
+        }
+      } else if (b.type === 'chosen') {
+        blocks.push({ k, isChosen: true, variant: this.pathOf(p).includes('karriar/mot-vara-medarbetare') ? 'expanded' : 'compact', heading: look.chosenHeading === false ? '' : (b.heading || ''), items: this.newsItems(b.items) });
+      } else if (b.type === 'rows') {
+        blocks.push({ k, isRows: true, heading: b.heading || '', variant: b.variant === 'image' ? 'index' : 'list', numbered: !!b.numbered || b.variant === 'image', rows: b.rows });
+      } else if (b.type === 'jobs') blocks.push({ k, isJobs: true, positions: this.jobPositions(this.adPositions(b.positions)), openApp: b.open_application, application: b.application });
+      else if (b.type === 'form') blocks.push({ k, isForm: true, formProps: this.formPropsOf(b) });
+      else if (b.type === 'contact') blocks.push({ k, isContact: true, heading: b.heading, people: (b.people || []).map((x) => ({ name: x.name, role: x.role, note: x.office, ...this.contactOf(x), imageSrc: this.portraitOk(x.portrait) ? x.portrait : undefined })) });
+    });
+    /* A Feature that closes the page meets the footer edge to edge: no gap after it. */
+    const endGap = !(blocks.length && blocks[blocks.length - 1].isFeature);
+    return { blocks, endGap, screenLabel: this.pathOf(p), bannerNav: this.sectionNav(d.tree.label, d.tree.href, d.tree.groups, this.pathOf(p)) };
+  }
+  /* Text blocks the page does not show: one that repeats another (the same
+     body, or the opening of a longer one; the longer is kept), a block that
+     is nothing but a lone link, and a lone dash-led title fragment. */
+  repeats(p) {
+    const skip = new Set();
+    const t = (b) => String(b.body || '').trim();
+    p.blocks.forEach((b, i) => {
+      if (b.type !== 'prose') return;
+      const s = t(b);
+      if (!b.heading && /^\[[^\]]+\]\([^)\s]+\)$/.test(s)) { skip.add(i); return; }
+      /* A lone fragment that continues a title elsewhere ("– bryggan mellan …") is not a text of its own. */
+      if (!b.heading && /^[–—-]\s/.test(s) && !s.includes('\n')) { skip.add(i); return; }
+      /* So is a lone stray title: one short line, no sentence punctuation ("Sommarnotarieprogrammet"). */
+      if (!b.heading && s.length <= 60 && !/[\n\[]/.test(s) && !/[.!?:;,]$/.test(s)) { skip.add(i); return; }
+      p.blocks.forEach((c, j) => {
+        if (j === i || c.type !== 'prose' || skip.has(j)) return;
+        const o = t(c);
+        if ((o === s && j < i) || (o !== s && o.startsWith(s))) skip.add(i);
+      });
+    });
+    return skip;
+  }
+  /* The page's site path. It lives on p.page, not on the page object itself. */
+  /* A per-page look by data key: a hub's path (/karriar/x/) is keyed karriar/x/index. */
+  lookOf(map, p) { const k = this.pathOf(p).replace(/^\/+|\/+$/g, ''); return map[k] || map[k + '/index']; }
+  pathOf(p) { return (p && p.page && p.page.path) || (p && p.path) || ('/' + (this.wanted() || '').replace(/\/index$/, '') + '/'); }
+
+  /* On a ROWS_LOOK page, consecutive headed texts are the rows of one Rader:
+     heading → headline, paragraphs → body, the lone links at the end → the
+     row's links. A headed text of one paragraph and one link (Starta din
+     karriär hos oss) is an invitation, not a row, and ends the run. */
+  rowsRun(p, i) {
+    const key = this.pathOf(p).replace(/^\/+|\/+$/g, '');
+    const look = ROWS_LOOK[key] || ROWS_LOOK[key + '/index'];
+    if (!look) return null;
+    this._runs = this._runs || new WeakMap();
+    let cache = this._runs.get(p);
+    if (!cache) { cache = {}; this._runs.set(p, cache); }
+    if (i in cache) return cache[i];
+    const lone = /^\[([^\]]+)\]\(([^)\s]+)\)$/;
+    const asRow = (b) => {
+      if (!b || b.type !== 'prose' || !b.heading) return null;
+      const a = String(b.body || '').split(/\n{2,}/).map((x) => x.trim()).filter(Boolean);
+      if (a.some((x) => /^(#|>)/m.test(x))) return null;
+      let n = a.length; while (n > 0 && lone.test(a[n - 1])) n--;
+      /* A list keeps its lines in the row's plain body, each set off an em dash as RichText draws it. */
+      const text = a.slice(0, n).map((x) => x.replace(/^[-*]\s+/gm, '— ')), links = a.slice(n).map((x) => { const m = lone.exec(x); return { label: m[1], href: m[2] }; });
+      if (!text.length || (text.length === 1 && links.length === 1 && /^\/karriar\//.test(links[0].href))) return null;
+      return { text, links };
+    };
+    if (i > 0 && asRow(p.blocks[i - 1])) return (cache[i] = null);
+    const idx = [];
+    for (let j = i; j < p.blocks.length && asRow(p.blocks[j]); j++) idx.push(j);
+    if (idx.length < (look.min || 3)) return (cache[i] = null);
+    const slug = (h) => h.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48);
+    const rows = idx.map((j, n) => {
+      const b = p.blocks[j], r = asRow(b);
+      const row = { slug: slug(b.heading), headline: b.heading, body: r.text.join('\n\n') };
+      if (r.links.length === 1) row.link = r.links[0]; else if (r.links.length) row.links = r.links;
+      if (look.images) row.image = { src: '../../assets/images/office-0' + ((n % 8) + 1) + '.png', alt: 'Platshållarbild: ' + b.heading };
+      return row;
+    });
+    return (cache[i] = { idx, rows, look });
+  }
+
+  /* A headed text of one paragraph and one link to a Karriär page (The Seat.,
+     Starta din karriär hos oss, Be the impact.) is the Feature: heading,
+     paragraph, link, over the target's film still or chapter image. */
+  featureOf(b, pages) {
+    if (!b.heading || !pages) return null;
+    const a = String(b.body || '').split(/\n{2,}/).map((x) => x.trim()).filter(Boolean);
+    if (a.length !== 2 || /^[\[#>-]/.test(a[0])) return null;
+    const m = /^\[([^\]]+)\]\(([^)\s]+)\)$/.exec(a[1]);
+    if (!m || !/^\/karriar\//.test(m[2])) return null;
+    const key = m[2].replace(/^\/+|\/+$/g, '');
+    const tp = pages[key] || pages[key + '/index'];
+    /* The still: the target's film where it has one, else the target's image in the Karriär chapter index. */
+    const film = tp && tp.blocks.find((x) => x.type === 'pair' && x.media && x.media.kind === 'film');
+    const hub = pages['karriar/index'], ch = hub && hub.blocks.find((x) => x.type === 'chapters');
+    const nz = (h) => String(h || '').replace(/\/+$/, '');
+    const it = ch && ch.items.find((x) => nz(x.href) === nz(m[2]));
+    const img = film ? film.media.image : it ? it.image : null;
+    this._feat = this._feat || new WeakMap();
+    if (!this._feat.has(b)) this._feat.set(b, { heading: b.heading, body: a[0], link: { label: m[1], href: m[2] }, src: img ? img.src : undefined, alt: img ? img.alt : undefined });
+    return this._feat.get(b);
+  }
+  componentWillUnmount() { if (this._wait) clearInterval(this._wait);  }
+
+  /* Portraits come through a proxy that can fail; a failed one is dropped so
+     Person draws its empty 4:5 ground instead of a broken image. Each URL is
+     probed once and the result kept. */
+  /* Every contact card folds out an address and a number. The career export
+     carries neither, so they come from the directory where the person is in it,
+     else the house address pattern and the office switchboard. */
+  contactOf(x) {
+    const d = this.data() || {};
+    const known = ((d.people || {}).people || []).find((p) => p.name === x.name) || {};
+    const office = ((d.contact || {}).offices || []).find((o) => o.city === x.office) || {};
+    const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const slug = x.slug || fold(x.name).replace(/\s+/g, '-');
+    return {
+      email: x.email || known.email || (slug ? fold(slug).replace(/-/g, '.') + '@vinge.se' : undefined),
+      phone: x.phone || known.phone || office.phone || '010 614 30 00',
+    };
+  }
+  portraitOk(src) {
+    if (!src) return false;
+    this._pics = this._pics || {};
+    if (this._pics[src] === undefined) {
+      this._pics[src] = 'pending';
+      const im = new Image();
+      im.onload = () => { this._pics[src] = true; this.forceUpdate(); };
+      im.onerror = () => { this._pics[src] = false; this.forceUpdate(); };
+      im.src = src;
+    }
+    return this._pics[src] === true;
+  }
+
+  /* The Lediga jobb tweak: the live list, or 0, 1 or 20 rows to check the
+     list holds. Twenty repeats the live ads with their own ids. Kept stable
+     between renders so open rows and typed values survive. */
+  jobPositions(list) {
+    const n = this.opt('jobsCount') || 'live', src = list || [];
+    const c = this._jp;
+    if (c && c.src === src && c.n === n) return c.out;
+    let out = src;
+    if (n === '0') out = [];
+    else if (n === '1') out = src.slice(0, 1);
+    else if (n === '20' && src.length) out = Array.from({ length: 20 }, (_, i) => ({ ...src[i % src.length], id: 'jobb-prov-' + (i + 1) }));
+    this._jp = { src, n, out };
+    return out;
+  }
+  /* The ad arrives as one string, paragraphs joined by blank lines. A short
+     capitalised line with no closing punctuation, followed by a full
+     paragraph, is a subheading. The recruitment system's own form text at the
+     end (from "Ansökan" + "Vill du snabba på…") is the application, which
+     JobList draws from `application`, so it is not repeated as ad text. */
+  adPositions(list) {
+    this._ad = this._ad || new WeakMap();
+    if (!list) return list;
+    if (this._ad.has(list)) return this._ad.get(list);
+    const U = /^[A-ZÅÄÖ"”“]/;
+    const out = list.map((p) => {
+      if (typeof p.body !== 'string') return p;
+      let a = p.body.split(/\n{2,}/).map((x) => x.trim()).filter(Boolean);
+      const cut = a.findIndex((x, i) => x === 'Ansökan' && /^Vill du snabba på/.test(a[i + 1] || ''));
+      if (cut >= 0) a = a.slice(0, cut);
+      return { ...p, body: a.map((x, i) => (x.length <= 60 && U.test(x) && !/[.!?:,;]$/.test(x) && a[i + 1] && a[i + 1].length >= 80 && U.test(a[i + 1])) ? { h: x } : x) };
+    });
+    this._ad.set(list, out);
+    return out;
+  }
+  jobsBlock() { const p = ((window.VingeKarriar || {}).pages || {})['karriar/lediga-jobb/index']; return p ? p.blocks.find((b) => b.type === 'jobs') : null; }
+
+  multiple() { const m = this.opt('rowsMultiple'); return m === true || m === 'true'; }
+  titleOn(k, def) { const v = this.opt(k); return (v === undefined || v === null ? def : String(v)) === 'on'; }
+  opt(k) { const v = (this.state.v || {})[k]; return v !== undefined ? v : this.props[k]; }
+  ctl() {
+    const D = { newsVariant: 'compact', textTitle: 'off', newsTitle: 'on', rowsTitle: 'on', formTitle: 'on', peopleTitle: 'on', bannerVariant: 'intro', statementVariant: 'statement', rowsVariant: 'list', rowsExample: 'programmes', rowsMultiple: 'false', formExample: 'talang', formState: 'cold', jobsCount: 'live' };
+    const out = {};
+    const O = { newsVariant: ['compact', 'expanded'], textTitle: ['on', 'off'], newsTitle: ['on', 'off'], rowsTitle: ['on', 'off'], formTitle: ['on', 'off'], peopleTitle: ['on', 'off'], bannerVariant: ['intro', 'title'], statementVariant: ['statement', 'quote'], rowsVariant: ['list', 'list-images', 'index'], rowsExample: ['programmes', 'steps', 'long'], rowsMultiple: ['false', 'true'], formExample: ['talang', 'nyhetsbrev', 'ansokan'], formState: ['cold', 'error', 'sending', 'submitError', 'success'], jobsCount: ['live', '0', '1', '20'] };
+    const NAMES = { 'compact': 'news (compact)', 'expanded': 'other content (expanded)', 'on': 'shown', 'off': 'hidden', 'list-images': 'list with images', 'false': 'no', 'true': 'yes', 'submitError': 'submit error', 'live': 'live ads', 'long': 'long text' };
+    Object.keys(D).forEach((k) => {
+      const v = this.opt(k), cur = v === undefined || v === null ? D[k] : String(v);
+      const put = (val) => this.setState((s) => ({ v: { ...(s.v || {}), [k]: val } }));
+      out[k] = { value: cur, set: (e) => put(e.target.value), count: O[k].length,
+        opts: O[k].map((o) => ({ key: o, label: NAMES[o] || o, on: o === cur ? 'true' : 'false', pressed: o === cur, pick: () => put(o) })) };
+    });
+    return out;
+  }
+  data() { return window.VingeContentPage || null; }
+
+  formKey() { const f = this.opt('formExample'); return f === 'nyhetsbrev' || f === 'ansokan' ? f : 'talang'; }
+
+  /* A form block → FormBlock props. The three live forms resolve to the
+     design system's FORM_EXAMPLES (the provider's definition); anything else
+     is converted field by field from the page JSON. */
+  formPropsOf(b) {
+    const url = (b.provider && b.provider.url) || '';
+    const st = this.opt('formState');
+    const demoState = st && st !== 'cold' ? st : undefined;
+    const policy = { text: 'integritetspolicy', href: '/integritetspolicy/' };
+    /* A field whose group note reads "A · B (two inputs under one label)" is
+       one label over two inputs, A and B. */
+    const partsOf = (g) => { const m = /^(.+?)\s*\(two inputs/i.exec(g || ''); return m ? m[1].split(/\s*·\s*/).map((l) => ({ label: l })) : null; };
+    const fields = (b.fields || []).map((f, i) => {
+      if (f.kind === 'checkbox' && !f.options) return { kind: 'consent', label: f.label, name: 'consent', required: !!f.required, link: f.label && f.label.includes(policy.text) ? policy : undefined };
+      const parts = partsOf(f.group);
+      return { kind: f.kind, label: f.label, name: 'falt-' + i, required: !!f.required, options: f.options, parts: parts ? parts.map((x) => ({ ...x, required: !!f.required })) : undefined };
+    });
+    return { heading: b.heading, intro: b.intro, fields, submit: b.submit, provider: { name: b.provider && b.provider.name, action: url, status: 'pending' }, demoState };
+  }
+
+  /* The section index rides in the banner as plain data (PageBanner
+     `section`), never as a rendered element, and the same object is handed
+     back while nothing has changed. */
+  sectionNav(label, href, groups, current) {
+    if (!groups) return undefined;
+    const c = this._sn;
+    if (c && c.groups === groups && c.current === current && c.label === label && c.href === href) return c;
+    return (this._sn = { label, href, groups, current });
+  }
+
+  /* The compact list shows six. Pages that carry fewer are topped up from the
+     master selection, skipping anything already on the page. */
+  fillChosen(list) {
+    /* The master's three, then demo items until the source carries six. */
+    const pool = ((((window.VingeContentPage || {}).chosen || {}).items) || []).concat([
+      { kind: 'news', path: '/nyheter/demo-vinge-pa-juristdagarna/', title: 'Möt oss på Juristdagarna i Uppsala', image: { src: '../../assets/images/office-02.png', alt: 'Platshållarbild: Möt oss på Juristdagarna i Uppsala' } },
+      { kind: 'news', path: '/nyheter/demo-sommarnotarier-2026/', title: 'Årets sommarnotarier har börjat på våra kontor', image: { src: '../../assets/images/anonymous-06.png', alt: 'Platshållarbild: Årets sommarnotarier har börjat på våra kontor' } },
+      { kind: 'event', path: '/nyheter/demo-case-kvall-goteborg/', title: 'Casekväll för juriststudenter i Göteborg', image: { src: '../../assets/images/office-05.png', alt: 'Platshållarbild: Casekväll för juriststudenter i Göteborg' } },
+    ]);
+    const out = (list || []).slice();
+    pool.forEach((it) => { if (out.length < 6 && !out.some((o) => o.path === it.path)) out.push(it); });
+    return out;
+  }
+
+  /* News and events in the stream's own row shape (NewsList). */
+  newsItems(list) {
+    const fmt = (s) => { if (!s) return ''; const d = new Date(s); return isNaN(d) ? String(s) : d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' }); };
+    return (list || []).map((it) => ({
+      id: it.path, type: it.kind === 'event' ? 'Event' : 'Nyhet', dateLabel: fmt(it.date), title: it.title, href: it.path,
+      imageSrc: it.image ? it.image.src : undefined, alt: it.image ? it.image.alt : '',
+      body: it.excerpt || undefined,
+    }));
+  }
+
+  /* Built once: the menu re-measures whenever it is handed new arrays. */
+  nav() { if (this._nav) return this._nav; const ns = window.VingeDesignSystem_8582c7; if (ns && ns.SiteNav) return (this._nav = ns.SiteNav()); return { items: [], utility: [], highlights: [] }; }
+
+  renderVals() {
+    const nav = this.nav();
+    const d = this.data();
+    const base = {
+      showLabels: this.props.showLabels ?? true,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      navItems: nav.items, navUtility: nav.utility, navHighlights: nav.highlights,
+      demoGroups: [(window.VingeDesignSystem_8582c7 || {}).DEMO_PAGES].filter(Boolean),
+      chatOpen: this.state.chatOpen, chatPrompt: this.state.chatPrompt,
+      openChat: () => this.setState({ chatOpen: true, chatPrompt: '' }),
+      closeChat: () => this.setState({ chatOpen: false }),
+      start: (p) => this.setState({ chatOpen: true, chatPrompt: p || '' }),
+      seatLink: { label: 'Se filmen', href: '/karriar/jobba-pa-vinge/the-seat/' },
+      careerSuggestions: CAREER_SUGGESTIONS,
+      radRef: this.radRef, radImgRef: this.radImgRef, mapRunning: this.state.mapRunning,
+      isMaster: !this.wanted(), isPage: !!this.wanted(), blocks: [], endGap: true, ctl: this.ctl(),
+    };
+    if (base.isPage) base.showLabels = false;
+    const pg = this.page();
+    if (pg) return { ...base, ...this.pageVals(pg) };
+    const ex = this.expertise();
+    if (ex) return { ...base, blocks: [{ k: 'opener', isOpener: true, h1: ex.label, trail: [{ label: 'Start', href: '/' }, { label: 'Vår expertis', href: '/verksamhetsomraden' }, ex.label] }], screenLabel: ex.href, bannerNav: undefined };
+    if (!d) return base;
+
+    const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+    const hubs = { 'Student': '/karriar/student/', 'Jobba på Vinge': '/karriar/jobba-pa-vinge/' };
+    const navGroups = this._navGroups || (this._navGroups = d.chapters.groups.map((g) => ({ label: g.label, href: hubs[g.label], items: g.items.map((it) => ({ label: it.label, href: it.href, line: it.line })) })));
+    const layouts = [['large', '1:1', '4:5'], ['medium', '3:4', '4:5'], ['small', '2:3', '3:4']];
+    const pairs = d.pairs.map((p, i) => ({
+      layout: layouts[i % 3][0], ratio: layouts[i % 3][1], ratio2: layouts[i % 3][2],
+      hasImage2: !!p.image2, src2: p.image2 ? p.image2.src : '', alt2: p.image2 ? p.image2.alt : '',
+      src: p.image.src, alt: p.image.alt, heading: p.heading, body: p.body,
+      hasLink: !!p.link, linkHref: p.link ? p.link.href : '', linkLabel: p.link ? p.link.label : '',
+      props: { scale: layouts[i % 3][0], imageSrc: p.image.src, imageAlt: p.image.alt, secondImageSrc: p.image2 ? p.image2.src : undefined, secondImageAlt: p.image2 ? p.image2.alt : '', heading: p.heading, body: p.body || undefined, cta: p.link || undefined, style: { paddingBlock: 0 } },
+    }));
+    const newsItems = this.newsItems(this.fillChosen(d.chosen.items));
+    const steps = this.opt('rowsExample') === 'steps', long = this.opt('rowsExample') === 'long';
+    /* Long text: Trainee i Bryssel's rows, the case where the open text outgrows the image. */
+    const tp = (((window.VingeKarriar || {}).pages) || {})['karriar/student/trainee-i-bryssel'];
+    const trun = long && tp ? tp.blocks.map((x, i) => this.rowsRun(tp, i)).find(Boolean) : null;
+    const rsrc = trun ? { heading: '', numbered: true, rows: trun.rows } : steps ? d.rowsSteps : d.rows;
+    const rv = ['list', 'list-images', 'index'].includes(this.opt('rowsVariant')) ? this.opt('rowsVariant') : 'list';
+    const ph = (i, h) => ({ src: '../../assets/images/office-0' + ((i % 8) + 1) + '.png', alt: 'Platshållarbild: ' + h });
+    const accRows = rsrc.rows.map((r, i) => ({ slug: r.slug, headline: r.headline, body: r.body, link: r.link || undefined, image: rv === 'list' ? undefined : (r.image || ph(i, r.headline)) }));
+    const accNotes = { 'list': 'Closed state is the index; no images.', 'list-images': 'Closed state is the index. An image on every row, in the open panel on 6–8 (all or none).', 'index': 'The image variant: numbered list on 1–2, one image on 3–8 that follows the open row. One row always open; 3–7 rows, an image on every row.' };
+    const sv = this.opt('statementVariant') === 'quote' ? 'quote' : 'statement';
+    const stInfo = sv === 'quote'
+      ? ['The person page quote (Testimonials, single mode): mark at page scale, quote centred at display-2, source under it. Source required.', 'karriar/student/sommarnotarie']
+      : ['One sentence at display-2, filled word by word on scroll. Nothing under it.', 'karriar/index'];
+    const bv = this.opt('bannerVariant') === 'title' ? 'title' : 'intro';
+    const introSrc = ((((window.VingeKarriar || {}).pages || {})['karriar/student/index'] || {}).blocks || []).find((x) => x.type === 'opener');
+
+    const fk = this.formKey();
+    const fx = ((window.VingeDesignSystem_8582c7 || {}).FORM_EXAMPLES || {})[fk] || {};
+    const form = d.forms[fk] || { fields: [] };
+    const unknown = fk === 'talang';
+    const group = unknown ? null : form.fields.find((f) => f.kind === 'checkbox' && f.options);
+    const subTopics = group ? group.options.map((o) => ({ value: o, label: o })) : [];
+
+    const fmt = (s) => new Date(s + 'T12:00:00').toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
+    const r = d.record;
+    /* The case listing's own rows, narrowed to this page's practice area. */
+    const recordEntries = (window.VingeRecordEntriesLive || window.VingeRecordEntries || [])
+      .filter((e) => e && (e.disciplines || []).indexOf(r.facet.value) >= 0)
+      .slice(0, Math.max(r.items.length, 20));
+
+    return {
+      ...base,
+      h1: d.opener.h1, trail: d.opener.trail,
+      proseHtml: d.prose.paragraphs.map((p) => '<p>' + esc(p) + '</p>').join(''),
+      bannerNav: this.sectionNav('Karriär', '/karriar/', navGroups, '/karriar/'), pairs,
+      statementText: d.statement.text, statementItems: d.statement.items,
+      chosenHeading: this.titleOn('newsTitle', 'on') ? d.chosen.heading : undefined, newsVariant: this.opt('newsVariant') === 'expanded' ? 'expanded' : 'compact', textHeading: this.titleOn('textTitle', 'off') ? 'Vingeakademin' : '', newsItems,
+      accRows, accVariant: rv === 'index' ? 'index' : 'list', accNumbered: !!rsrc.numbered || rv === 'index', accMultiple: this.multiple(), accNote: accNotes[rv],
+      stVariant: sv, stNote: stInfo[0], stSource: stInfo[1], stText: sv === 'quote' ? 'Redan första dagen får man vara delaktig i ärenden' : d.statement.text, stQuoteSource: 'Erik Holmin, Associate, Sommarnotarie 2025',
+      bannerIntro: bv === 'intro' && introSrc && introSrc.intro ? introSrc.intro : undefined,
+      radHeading: this.titleOn('rowsTitle', 'on') ? (rsrc.heading || 'Våra program') : '', radRule: this.multiple() ? 'Several rows may be open.' : 'One row open at a time.',
+      radSource: long ? 'karriar/student/trainee-i-bryssel (long text; in the image variant the text takes columns 1–3 and the image 4–8)' : steps ? 'karriar/lediga-jobb/sa-funkar-var-rekryteringsprocess (numbered steps, images on every row)' : 'karriar/student/index (seven programmes, no images)',
+      formHeading: form.heading, formSource: fk === 'talang' ? 'karriar/student/vinge-talang' : fk === 'ansokan' ? 'karriar/lediga-jobb/index' : 'ovrigt/nyhetsbrev',
+      formProvider: fx.provider ? fx.provider.name : 'a third-party system', formStatus: fx.provider ? fx.provider.status : 'pending',
+      formProps: { ...fx, showHeading: this.titleOn('formTitle', 'on'), demoState: this.opt('formState') && this.opt('formState') !== 'cold' ? this.opt('formState') : undefined },
+      formUnknown: unknown, formTitle: form.title || form.heading, subTopics,
+      subConsent: unknown ? '' : undefined, formConsent: form.consent || '', formSubmitLabel: form.submit,
+      masterJobs: this.jobPositions(this.adPositions((this.jobsBlock() || {}).positions)), masterOpenApp: (this.jobsBlock() || {}).open_application, masterApplication: (this.jobsBlock() || {}).application,
+      jobsSource: (((this.jobsBlock() || {}).source) || {}).name ? this.jobsBlock().source.name + ', ' + this.jobsBlock().source.fetched : 'the recruitment system',
+      peopleHeading: this.titleOn('peopleTitle', 'on') ? (d.people.heading) : null,
+      people: d.people.people.map((p) => ({ name: p.name, role: p.role, note: p.office, email: p.email, phone: p.phone, imageSrc: this.portraitOk(p.portrait) ? p.portrait : undefined })),
+      contactHeading: d.contact.heading,
+      offices: d.contact.offices.map((o) => ({ ...o, tel: 'tel:' + o.phone.replace(/[^\d+]/g, ''), mail: 'mailto:' + o.email })),
+      recordCount: r.count + ' uppdrag inom ' + r.facet.value.toLowerCase() + ' sedan ' + r.since + '.',
+      recordEntries,
+      recordWindow: 'De ' + recordEntries.length + ' senaste av ' + r.count + '.',
+    };
+  }
+}
+</script>
+</body>
+</html>

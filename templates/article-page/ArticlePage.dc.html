@@ -15,8 +15,8 @@
 <article>
 <section id="banner" style="position:relative;margin-top:calc(-1 * (44px + var(--space-3) * 2));display:flex;flex-direction:column;height:100svh">
 <div style="position:relative;flex:1;min-height:0;overflow:hidden">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" still="{{ true }}" src="../../assets/images/anonymous-05.png" ratio="21:9" bleed="{{ true }}" alt="Möte vid ett bord, sett genom en glasvägg" dc-props="{{ screenFill }}" style="position:absolute;inset:0" hint-size="100%,100%"></x-import>
-<div style="position:absolute;top:calc(44px + var(--space-3) * 2);left:0;right:0;z-index:5;mix-blend-mode:exclusion;--text-primary:var(--paper);--text-secondary:var(--paper);--ink-55:var(--paper)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.RasterField" src="../../assets/images/anonymous-05.png" alt="Möte vid ett bord, sett genom en glasvägg" hint-size="100%,100%"></x-import>
+<div style="position:absolute;top:calc(44px + var(--space-3) * 2);left:0;right:0;z-index:5">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Breadcrumbs" items="{{ trail }}" hint-size="100%,24px"></x-import>
 </div>
 </div>
@@ -225,7 +225,7 @@
 <a data-fr-head href="{{ f.href }}" onFocus="{{ f.enter }}" onBlur="{{ f.leave }}" style="font-family:inherit;font-size:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px;text-underline-offset:0.08em;transition:text-decoration-color var(--dur-reveal) var(--ease-expo)">{{ f.title }}</a>
 </h3>
 </div>
-<div data-fr-cell="media" style="aspect-ratio:3 / 2">
+<div data-fr-cell="media" style="aspect-ratio:var(--ratio-landscape)">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ f.imageSrc }}" alt="{{ f.alt }}" ratio="3:2" play="{{ f.on }}" grid-size="{{ 5 }}" dc-props="{{ clearGround }}" hint-size="100%,150px"></x-import>
 </div>
 </li>

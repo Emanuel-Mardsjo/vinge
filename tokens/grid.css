@@ -1,17 +1,31 @@
-/* 2 / 4 / 8 columns. Max content width 1680px. Images may break to viewport width. */
+/* 2 / 4 / 8 columns. Max content width 1920px. Images may break to viewport width. */
 
 :root {
   --cols: 2; /* @kind other */
   --gutter: 16px;
-  --margin: 20px;
-  --max-width: 1680px; /* @kind other */
+  --margin: 16px;
+  --max-width: 1920px; /* @kind other */
+  /* Image height lock. Images keep their ratio until the content frame passes
+     the width it had at the previous 1680px limit (1520px); past that they
+     widen but no longer grow taller, and the photograph crops at the sides.
+     --img-k is that frame width over the current one, capped at 1
+     (tan(atan2()) divides two lengths into a number). */
+  --img-ref: 1520px;
+  --frame-w: calc(min(100vw, var(--max-width)) - 2 * var(--margin));
+  --img-k: min(1, tan(atan2(var(--img-ref), var(--frame-w)))); /* @kind other */
+  --ratio-landscape: 3 / calc(2 * var(--img-k)); /* @kind other */
+  --ratio-portrait: 4 / calc(5 * var(--img-k)); /* @kind other */
+  --ratio-wide: 21 / calc(9 * var(--img-k)); /* @kind other */
+  --ratio-square: 1 / var(--img-k); /* @kind other */
+  --ratio-tall: 3 / calc(4 * var(--img-k)); /* @kind other */
+  --ratio-high: 2 / calc(3 * var(--img-k)); /* @kind other */
 }
 
 @media (min-width: 768px) {
-  :root { --cols: 4; /* @kind other */ --gutter: 24px; --margin: 40px; }
+  :root { --cols: 4; /* @kind other */ --gutter: 24px; --margin: 24px; }
 }
 @media (min-width: 1280px) {
-  :root { --cols: 8; /* @kind other */ --gutter: 32px; --margin: 80px; }
+  :root { --cols: 8; /* @kind other */ --gutter: 32px; --margin: 40px; }
 }
 
 .grid {
@@ -66,7 +80,7 @@
   .place-statement-wide { grid-column: 1 / 5; }
 }
 @media (min-width: 1280px) {
-  .place-hero      { grid-column: 1 / 7; }
+  .place-hero      { grid-column: 1 / 6; }
   .place-prose     { grid-column: 1 / 6; }
   /* Body copy moved off the left edge: it starts on column 2, so the title
      and the metadata above it keep the page's left alignment and the reading
@@ -129,6 +143,54 @@
   [data-footer-marks] { grid-column: 5 / 7; }
 }
 
+/* PageBanner's section index (SectionNav as `nav`). At LG a layer runs from
+   the banner's title to the banner's bottom edge; the index stands top right
+   in it, level with the title, and is sticky under the fixed header within the
+   banner only — it scrolls away with it. It carries the surface as a plate so it stays legible over the blocks it
+   passes; the plate's padding is cancelled by an equal negative margin, so the
+   type itself sits on the title's top and the grid's right edge. At MD it
+   takes the same treatment on column 4, beside the title's three. Below MD it
+   is in the banner's flow under the title, with 44px rows. */
+[data-banner-nav-grid] { padding-top: var(--space-5); }
+[data-banner-nav] { grid-column: 1 / -1; min-width: 0; }
+@media (max-width: 767px) {
+  [data-banner-nav] [data-sn-row] { min-height: 44px; align-items: center !important; }
+  [data-banner-nav] [data-section-nav] { width: 100%; max-width: none; }
+  [data-banner-nav] [data-section-nav] > ul > li { border-bottom: 1px solid var(--rule-hairline); }
+}
+@media (min-width: 768px) {
+  [data-banner-nav-run] { position: absolute; left: 0; right: 0; top: var(--nav-top, 0px); height: var(--nav-run, 100%); pointer-events: none; z-index: 20; }
+  [data-banner-nav-grid] { height: 100%; box-sizing: border-box; padding-top: var(--space-8); align-items: start; }
+  [data-banner-nav] {
+    grid-column: 4 / 5; justify-self: end; width: max-content; max-width: calc(100% + var(--space-2) * 2);
+    position: sticky; top: calc(44px + var(--space-3) * 3);
+    margin: calc(-1 * var(--space-2)); padding: var(--space-2); background: var(--surface);
+    max-height: calc(100svh - 44px - var(--space-3) * 3 - var(--space-5)); overflow-y: auto; overscroll-behavior: contain;
+    pointer-events: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1279px) { [data-banner-nav] { justify-self: stretch; width: auto; } }
+@media (min-width: 1280px) { [data-banner-nav] { grid-column: 7 / 9; } }
+
+/* Feature. Single column below MD; title 1–5 and text 6–8 at LG. */
+[data-feature] [data-f-txt], [data-feature] [data-f-head] { grid-column: 1 / -1; min-width: 0; }
+@media (min-width: 768px) { [data-feature] [data-f-txt] { grid-column: 2 / 5; } }
+@media (min-width: 1280px) { [data-feature] [data-f-head] { grid-column: 1 / 6; } [data-feature] [data-f-txt] { grid-column: 6 / 9; padding-top: var(--space-2); } }
+
+/* A NewsList placed inside a page grid spans it and drops its own margins,
+   so the rows sit on the page's columns instead of a grid nested in one. */
+.grid [data-news-list] { grid-column: 1 / -1; padding-inline: 0; max-width: none; margin-inline: 0; }
+/* NewsList rows: meta on 1, headline on 2–5, the photograph on 6–8 at LG only. */
+[data-news-row] [data-cell] { grid-column: 1 / -1; min-width: 0; }
+[data-news-row] [data-cell="media"] { display: none; }
+@media (min-width: 768px) { [data-news-row] [data-cell="date"] { grid-column: 1 / 2; } [data-news-row] [data-cell="title"] { grid-column: 2 / 5; } }
+@media (min-width: 1280px) { [data-news-row] [data-cell="title"] { grid-column: 2 / 6; } [data-news-row] [data-cell="media"] { display: block; grid-column: 6 / 9; } }
+/* Compact: meta on 1, the headline on 3–6 at LG, on the block title's line,
+   and the photograph on 7–8. The media cell only exists where there is a
+   pointer to open it. */
+@media (min-width: 768px) { [data-compact] [data-news-row] [data-cell="title"] { grid-column: 2 / -1; } }
+@media (min-width: 1280px) { [data-compact] [data-news-row] [data-cell="title"] { grid-column: 3 / 7; } [data-compact] [data-news-row] [data-cell="media"] { display: block; grid-column: 7 / 9; } }
+
 /* Edge to edge, outside the max-width.
    Deliberately not 100vw: 100vw includes the vertical scrollbar, the layout
    viewport does not, so a 100vw child overflows by the scrollbar width and
@@ -187,11 +249,11 @@ the two-column band. */
    portrait held to part of the measure so the pair still reads as a pair. */
 [data-matter] > * { grid-column: 1 / -1; min-width: 0; }
 [data-matter] > [data-matter-person] { grid-column: 1 / 2; }
+[data-matter] > [data-matter-cta] { visibility: hidden; }
 
 /* SM: one column, so the matter is read as a sequence — the statement first,
    then the two photographs, then the way in. The larger image takes the full
-   width, edge to edge. The smaller keeps the side it has at LG and leaves the
-   measure off that edge, and the one that sits higher at LG comes first:
+   measure. The smaller keeps the side it has at LG, on one column:
    large — landscape, then the portrait off the right;
    medium — portrait off the left, then the landscape;
    small — landscape off the left, then the portrait.
@@ -206,34 +268,18 @@ the two-column band. */
   [data-matter][data-scale='medium'] > [data-matter-person] { order: 2; }
   [data-matter][data-scale='medium'] > [data-matter-world] { order: 3; }
   [data-matter] > [data-matter-more] { order: 4; }
-  [data-matter] > [data-matter-cta] { order: 5; margin-top: calc(var(--space-4) - var(--space-5)); }
+  [data-matter] > [data-matter-cta] { display: none; }
+  [data-matter] > [data-matter-cta-track] { order: 5; margin-top: calc(var(--space-4) - var(--space-5)); }
   [data-matters] { padding-bottom: var(--space-4) !important; }
-  /* Every image leaves the grid; the wrapper stays on it, so captions do. */
+  /* Images stay on the grid: the larger on both columns, the smaller on one,
+     on the side it has at LG. */
   [data-matter] > [data-matter-world] > :first-child,
   [data-matter] > [data-matter-person] > :first-child { max-width: none !important; }
-  /* The larger image: full width. */
-  [data-matter]:not([data-scale='small']) > [data-matter-world] > :first-child,
-  [data-matter][data-scale='small'] > [data-matter-person] > :first-child {
-    margin-inline: calc(-1 * var(--margin)) !important;
-    width: calc(100% + var(--margin) * 2) !important;
-  }
   [data-matter]:not([data-scale='small']) > [data-matter-world],
   [data-matter][data-scale='small'] > [data-matter-person] { grid-column: 1 / -1; }
-  /* The smaller image, off the left edge. */
   [data-matter][data-scale='medium'] > [data-matter-person],
   [data-matter][data-scale='small'] > [data-matter-world] { grid-column: 1 / 2; }
-  [data-matter][data-scale='medium'] > [data-matter-person] > :first-child,
-  [data-matter][data-scale='small'] > [data-matter-world] > :first-child {
-    margin-left: calc(-1 * var(--margin)) !important;
-    width: calc(100% + var(--margin) + var(--gutter) + 14%) !important;
-  }
-  /* The smaller image, off the right edge. */
   [data-matter]:not([data-scale='medium']):not([data-scale='small']) > [data-matter-person] { grid-column: 2 / 3; }
-  [data-matter]:not([data-scale='medium']):not([data-scale='small']) > [data-matter-person] > :first-child {
-    margin-left: calc(-1 * (var(--gutter) + 14%)) !important;
-    margin-right: calc(-1 * var(--margin)) !important;
-    width: calc(100% + var(--margin) + var(--gutter) + 14%) !important;
-  }
 }
 
 @media (min-width: 768px) {
@@ -242,7 +288,7 @@ the two-column band. */
      one-column portrait stops being a photograph. So the pair stacks: the
      larger image takes the measure, the smaller sits under it on part of it,
      inset from the opposite edge per scale. Never two equal halves. */
-  [data-matter] > [data-matter-world] { grid-column: 1 / 5; grid-row: 2; margin-top: var(--space-4); }
+  [data-matter] > [data-matter-world] { grid-column: 1 / 5; grid-row: 2; margin-top: var(--space-3); }
   [data-matter] > [data-matter-person] { grid-column: 2 / 4; grid-row: 3; margin-top: var(--space-4); }
   [data-matter][data-scale='medium'] > [data-matter-world] { grid-column: 2 / 5; }
   [data-matter][data-scale='medium'] > [data-matter-person] { grid-column: 1 / 3; }
@@ -250,6 +296,16 @@ the two-column band. */
   [data-matter][data-scale='small'] > [data-matter-person] { grid-column: 3 / 5; }
   [data-matter] > [data-matter-more] { grid-column: 1 / 4; grid-row: 4; margin-top: var(--space-5); }
   [data-matter] > [data-matter-cta] { grid-column: 1 / 4; grid-row: 5; margin-top: var(--space-5); }
+  /* The visible link travels the track from the images down to its resting
+     row; exclusion on the track itself, since its z-index makes it the
+     stacking context the blend would otherwise be trapped in. */
+  [data-matter] > [data-matter-cta-track] {
+    grid-column: 1 / 4; grid-row: 2 / 6; align-self: stretch;
+    display: flex; flex-direction: column; justify-content: flex-end;
+    position: relative; z-index: 2; pointer-events: none; mix-blend-mode: exclusion;
+  }
+  [data-matter-cta-sticky] { position: sticky; bottom: var(--space-5); pointer-events: auto; }
+  [data-matter-cta-sticky] a, [data-matter-cta-sticky] a:hover { color: var(--paper); text-decoration-color: var(--paper); }
 }
 
 @media (min-width: 1280px) {
@@ -258,21 +314,22 @@ the two-column band. */
      column short of the right edge; only the photography reaches it. The pair
      uses the whole eight-column measure, 1 / 9, always unequally split and
      always meeting on a column line, so no column is left empty, one image is
-     always the larger, and the two never share a top edge. */
+     always the larger, and the two share a top edge. */
   [data-matter] > [data-matter-text] { grid-column: 3 / 8; grid-row: 1; margin-top: 0; }
   [data-matter] > [data-matter-world],
-  [data-matter] > [data-matter-person] { grid-row: 2; margin-top: var(--space-5); }
+  [data-matter] > [data-matter-person] { grid-row: 2; margin-top: var(--space-3); }
   [data-matter] > [data-matter-more] { grid-column: 3 / 8; grid-row: 3; margin-top: var(--space-6); }
   [data-matter] > [data-matter-cta] { grid-column: 3 / 8; grid-row: 4; margin-top: var(--space-6); }
+  [data-matter] > [data-matter-cta-track] { grid-column: 3 / 8; grid-row: 2 / 5; }
 
   [data-matter][data-scale='large'] > [data-matter-world] { grid-column: 1 / 6; }
-  [data-matter][data-scale='large'] > [data-matter-person] { grid-column: 6 / 9; margin-top: calc(var(--space-5) + var(--space-7)); }
+  [data-matter][data-scale='large'] > [data-matter-person] { grid-column: 6 / 9; }
 
   [data-matter][data-scale='medium'] > [data-matter-person] { grid-column: 1 / 4; }
-  [data-matter][data-scale='medium'] > [data-matter-world] { grid-column: 4 / 9; margin-top: calc(var(--space-5) + var(--space-6)); }
+  [data-matter][data-scale='medium'] > [data-matter-world] { grid-column: 4 / 9; }
 
   [data-matter][data-scale='small'] > [data-matter-world] { grid-column: 1 / 4; }
-  [data-matter][data-scale='small'] > [data-matter-person] { grid-column: 4 / 9; margin-top: calc(var(--space-5) + var(--space-7)); }
+  [data-matter][data-scale='small'] > [data-matter-person] { grid-column: 4 / 9; }
 }
 
 /* The person page's mandate list: one mandate is one row, and the row is the
@@ -383,7 +440,6 @@ the two-column band. */
 @media (max-width: 767px) and (max-height: 680px) { [data-record-body][data-rail] { --rail-title-lines: 2; /* @kind other */ --rail-pre-lines: 2; /* @kind other */ --rail-gap: var(--space-4); } }
 @media (max-width: 767px) and (max-height: 580px) { [data-record-body][data-rail] { --rail-pre-lines: 0; /* @kind other */ --rail-gap: var(--space-3); } }
 @media (max-width: 767px) {
-  [data-record-terms] { position: static; }
   [data-record-rail]::-webkit-scrollbar { display: none; }
   [data-record-side] { top: calc(var(--header-pin) - var(--space-2)); padding-block: var(--space-1); gap: var(--space-1); }
   [data-record-side]::before {
@@ -409,10 +465,59 @@ the two-column band. */
   grid-template-rows: 1fr; opacity: 1; visibility: visible; margin-top: var(--space-2);
   transition: grid-template-rows var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo), margin-top var(--dur-medium) var(--ease-expo), visibility 0s;
 }
-/* Discipline list: the full comma-separated set has room in the desktop side
+/* Discipline list: the full set, one per line, has room in the desktop side
    column; stacked over the field on a small screen it stays abbreviated. */
 [data-disc-full] { display: none; }
 [data-record-terms-scroll] { max-height: calc((100svh - 19rem) / 2); overflow-y: auto; overscroll-behavior: contain; }
+[data-record-terms-head] { display: none; }
+[data-record-terms-heading] { margin-block-end: var(--space-3); }
+@media (max-width: 767px) { [data-record-terms] { position: static; } }
+
+/* Listing below LG (SM and MD). The filter control is pinned at the right end
+   of the stuck year's row, on the same top, and the lists open as a narrow
+   drawer at the right edge. No scrim and no scroll lock: the record stays
+   readable and scrollable beside it, so each pick is seen landing. */
+@media (max-width: 1279px) {
+  [data-record-listing] [data-record-body] { grid-row: 3; }
+  [data-record-listing] [data-record-terms] {
+    grid-row: 3; grid-column: 1 / -1; justify-self: end; align-self: start;
+    position: sticky; top: var(--record-year-top, var(--header-pin)); z-index: 21;
+    margin: 0; padding-block: var(--space-1); background: var(--surface);
+  }
+  [data-record-listing] [data-record-terms-list] {
+    /* Full height, over the fixed header (30) but under the takeover (50+). */
+    position: fixed; top: 0; right: 0; bottom: 0; z-index: 46;
+    /* As wide as its longest term and no wider, so the record stays in view. */
+    width: max-content; max-width: min(62vw, 15rem); margin: 0 !important;
+    display: block; overflow-y: auto; overscroll-behavior: contain; box-sizing: border-box;
+    padding: var(--space-1) var(--space-2) var(--space-3);
+    background: var(--surface); border-left: 1px solid var(--rule-hairline);
+    transform: translateX(100%);
+    transition: transform var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo), visibility 0s linear var(--dur-medium);
+  }
+  [data-record-listing] [data-record-terms-list][data-open] {
+    transform: none;
+    transition: transform var(--dur-medium) var(--ease-expo), opacity var(--dur-medium) var(--ease-expo), visibility 0s;
+  }
+  [data-record-listing] [data-record-terms-list] > div { overflow: visible !important; }
+  /* The sticky control is a stacking context, so the drawer's own z-index
+     only counts inside it: the whole control rises over the header while open. */
+  [data-record-listing] [data-record-terms]:has(> [data-record-terms-list][data-open]) { z-index: 46; }
+  [data-record-listing] [data-record-terms-scroll] { max-height: none; overflow: visible; }
+  /* The head takes the header row's height, so the close cross sits level
+     with the header's own controls. */
+  [data-record-listing] [data-record-terms-head] { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); min-height: 44px; margin-block-end: var(--space-1); }
+  /* Groups sit close in the drawer: one small step between them, and the
+     group heading tight on its list. */
+  [data-record-listing] [data-record-terms-list] > div > div { gap: calc(var(--space-4) + var(--space-1)) !important; }
+  /* Touch rows: each term is a full 44px target. */
+  [data-record-listing] [data-record-terms-scroll] > button { min-height: 44px; align-items: center !important; padding-block: 0 !important; }
+  /* The drawer is narrow, so a long term wraps rather than losing its end. */
+  [data-record-listing] [data-record-terms-scroll] > button > span:nth-child(2) { white-space: normal !important; overflow: visible !important; text-overflow: clip !important; padding-block: var(--space-0); }
+  /* The heading takes the same 44px row as its terms, so the step from it to
+     the first term is the step between terms. */
+  [data-record-listing] [data-record-terms-heading] { display: flex; align-items: center; min-height: 44px; margin-block-end: 0; }
+}
 
 @media (min-width: 1280px) {
   [data-record-terms-scroll] { max-height: none; overflow: visible; }
@@ -500,7 +605,77 @@ the two-column band. */
     margin-top: var(--record-filter-h); transform: none;
     transition: opacity var(--dur-medium) var(--ease-expo), transform var(--dur-medium) var(--ease-expo), visibility 0s;
   }
-  [data-record-readout] { grid-template-columns: minmax(0, 1fr); }
-  [data-disc-full] { display: inline; }
+  [data-record-readout] { grid-template-columns: minmax(0, 1fr); row-gap: var(--space-3); }
+  [data-disc-full] { display: block; }
   [data-disc-short] { display: none; }
+}
+
+/* Image and text, after Matters: the text stands above the photograph on the
+   column line the photograph starts on, never beside it. Three scales cycle
+   down a page — large square on the left, medium 3:4 on the right half, small
+   4:5 set in from the left — so a run of pairs never repeats a crop. */
+[data-pair] { row-gap: var(--space-3); align-items: start; }
+/* The body sits a long breath below the heading; the image follows close,
+   so the air sits inside the text, not between text and picture. */
+[data-pair] > * { grid-column: 1 / -1; min-width: 0; }
+/* Optional second, smaller photograph in the columns the first leaves empty,
+   top-aligned with it. */
+[data-pair] > [data-pair-img2] { grid-column: 2 / -1; }
+@media (min-width: 768px) {
+  [data-pair] > [data-pair-txt] { grid-column: 1 / 4; }
+  [data-pair='medium'] > [data-pair-img] { grid-column: 2 / 5; }
+  [data-pair='small'] > [data-pair-img] { grid-column: 1 / 4; }
+  [data-pair] > [data-pair-img2] { grid-column: 3 / 5; }
+  [data-pair='medium'] > [data-pair-img2] { grid-column: 1 / 3; }
+}
+@media (min-width: 1280px) {
+  [data-pair='large'] > [data-pair-txt], [data-pair='large'] > [data-pair-img] { grid-column: 1 / 6; }
+  [data-pair='medium'] > [data-pair-txt], [data-pair='medium'] > [data-pair-img] { grid-column: 5 / 9; }
+  [data-pair='small'] > [data-pair-txt] { grid-column: 2 / 7; }
+  [data-pair='small'] > [data-pair-img] { grid-column: 2 / 5; }
+  [data-pair] > [data-pair-txt] { grid-row: 1; }
+  [data-pair] > [data-pair-img] { grid-row: 2; }
+  [data-pair] > [data-pair-img2] { grid-row: 2; }
+  [data-pair='large'] > [data-pair-img2] { grid-column: 7 / 9; }
+  [data-pair='medium'] > [data-pair-img2] { grid-column: 2 / 4; }
+  [data-pair='small'] > [data-pair-img2] { grid-column: 5 / 7; }
+}
+
+/* Subscribe form. Below LG one stack, 440px wide. At LG it takes the page
+   grid in two rows: name beside the topics, e-mail beside consent, CTA
+   centred under both. Closed, the fields run 2–4 and the topics 5–7.
+   Opening the topics spreads the whole form to the page edges: fields 1–2,
+   topics and consent 3–8, the list in three columns, and e-mail moves to
+   the foot of the list's row so the two lines meet.
+
+   Grid placement cannot animate, so each area is placed at its widest —
+   fields 1–4, topics 3–8 — and padding takes back what the closed state
+   does not use, sliding to zero as it opens. Percent padding on a grid item
+   resolves against its own area: in the fields' four columns one column is
+   (100% - 3 gutters) / 4, in the topics' six it is (100% - 5 gutters) / 6.
+   The topics' padding lets pointers through to the fields beneath. */
+[data-subscribe-form] { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: var(--space-4); width: 100%; max-width: 440px; margin-inline: auto; }
+[data-sf-fields], [data-sf-side] { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
+@media (min-width: 1280px) {
+  [data-subscribe-form] { max-width: none; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gutter); align-items: start; }
+  [data-sf-note] { grid-column: 2 / 8; grid-row: 1; }
+  [data-sf-fields] { display: contents; }
+  [data-sf-field] { grid-column: 1 / 5; min-width: 0; box-sizing: border-box; padding-left: calc((100% - 3 * var(--gutter)) / 4 + var(--gutter)); padding-right: 0; transition: padding var(--dur-medium) var(--ease-expo); }
+  [data-sf-field]:nth-child(1) { grid-row: 2; }
+  [data-sf-field]:nth-child(2) { grid-row: 3; }
+  [data-sf-side], [data-sf-consent] { grid-column: 3 / 9; box-sizing: border-box; padding-left: calc((100% - 5 * var(--gutter)) / 3 + 2 * var(--gutter)); padding-right: calc((100% - 5 * var(--gutter)) / 6 + var(--gutter)); text-align: left; pointer-events: none; transition: padding var(--dur-medium) var(--ease-expo); }
+  [data-sf-side] > *, [data-sf-consent] > * { pointer-events: auto; }
+  [data-sf-side] { grid-row: 2; }
+  [data-sf-consent] { grid-row: 3; }
+  [data-sf-cta] { grid-column: 1 / -1; grid-row: 4; }
+  [data-subscribe-form][data-sf-open="true"] [data-sf-field] { padding-left: 0; padding-right: calc((100% - 3 * var(--gutter)) / 2 + 2 * var(--gutter)); }
+  /* Open, e-mail drops to the foot of the topics' row so its line meets the
+     list's closing line; consent stays under the list. */
+  [data-subscribe-form][data-sf-open="true"] [data-sf-field]:nth-child(2) { grid-row: 2; align-self: end; }
+  [data-subscribe-form][data-sf-open="true"] [data-sf-side],
+  [data-subscribe-form][data-sf-open="true"] [data-sf-consent] { padding-left: 0; padding-right: 0; }
+}
+@media (min-width: 1280px) and (prefers-reduced-motion: reduce) {
+  [data-sf-field], [data-sf-side], [data-sf-consent] { transition: none; }
+}
 }

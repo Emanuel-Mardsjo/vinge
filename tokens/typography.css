@@ -56,6 +56,12 @@
   margin: 0;
 }
 .lead  { font-size: var(--text-lead);  line-height: var(--lh-lead);  max-width: var(--measure-lead); }
+/* The serif preamble: a page opener's lead in the display voice. display-3
+   size and tracking, leading a step past the passage leading (1.34) so several
+   lines of preamble breathe. No measure of its own — it takes the
+   columns of the title it sits under. `.lead` stays the sans preamble for
+   body contexts (rich text, ProseBlock, Matters). */
+.lead-display { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: 1.34; letter-spacing: var(--tracking-display-3); max-width: none; margin: 0; text-wrap: pretty; }
 .subhead { font-family: var(--font-text); font-weight: 700; font-size: var(--text-subhead); line-height: var(--lh-subhead); max-width: var(--measure-prose); margin: 0; }
 .prose { font-size: var(--text-base);  line-height: var(--lh-base);  max-width: var(--measure-prose); }
 .small { font-size: var(--text-small); line-height: var(--lh-small); max-width: var(--measure-small); }
@@ -117,6 +123,10 @@
 /* The pull quote is display-3, the same voice as h2, so it takes the section
    break above it and closes on a group gap. */
 .rte blockquote { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--rte-group); padding: 0 }
+/* The mark over it: the Swedish close quote in the display face, at the
+   Testimonials mark's lower bound, hung so its foot sits just above the first
+   line. */
+.rte blockquote::before { content: "\201D"; display: block; font-family: var(--font-display); font-size: clamp(5rem, 8vw, 8rem); line-height: .66; height: .42em; margin-bottom: var(--space-1); color: var(--text-primary); speak: never }
 .rte blockquote p { font: inherit; letter-spacing: inherit; margin: 0 }
 .rte blockquote cite, .rte figcaption { display: block; font-family: var(--font-text); font-size: var(--text-small); line-height: var(--lh-small); font-style: normal; color: var(--text-secondary); max-width: var(--measure-small) }
 .rte blockquote cite { margin-top: var(--space-2) }

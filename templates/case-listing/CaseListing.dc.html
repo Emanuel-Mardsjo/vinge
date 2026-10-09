@@ -16,7 +16,6 @@
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="Uppdrag" trail="{{ trail }}" hint-size="100%,260px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="uppdrag" views="{{ aiTabs }}" listing="{{ true }}" title="" premise="" all-line="" closing-line="" action-label="" entries="{{ entries }}" view-labels="{{ viewLabels }}" term-filter="{{ true }}" term-count="{{ termCount }}" finder-href="/hitta-ratt-person" empty-body="Urval anpassat för dig" empty-link-label="Vad söker du?" open-label="Läs uppdraget" flush-top="{{ true }}" hint-size="100%,1400px"></x-import>
 </main>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.DemoConsole" groups="{{ demoGroups }}" hint-size="0,0"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" hint-size="100%,720px"></x-import>
 </div>
 </x-dc>
@@ -50,11 +49,6 @@ class Component extends DCLogic {
       viewLabels: ['Allt', 'Ditt urval'],
       termCount: 8,
       aiTabs: this.state.aiTabs,
-      demoGroups: [{
-        id: 'ai-tabs', label: 'AI view tabs', value: this.state.aiTabs ? 'shown' : 'hidden',
-        states: [{ id: 'hidden', label: 'Hidden' }, { id: 'shown', label: 'Shown' }],
-        onPick: (v) => this.setState({ aiTabs: v === 'shown' }),
-      }],
       menuOpen: this.state.menuOpen,
       toggleMenu: this.toggleMenu,
       closeMenu: this.closeMenu,

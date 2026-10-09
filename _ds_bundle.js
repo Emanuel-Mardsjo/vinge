@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FilmBand","sourcePath":"components/blocks/FilmBand.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ContactWidget","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"SheetWipe","sourcePath":"components/core/SheetWipe.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/ArtworkPin.jsx":"5b2de234c972","components/blocks/Chapter.jsx":"f41941619697","components/blocks/DemoConsole.jsx":"1c41a98dbb36","components/blocks/FilmBand.jsx":"c01ada0126a2","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"a84f1c5881c0","components/blocks/ImageScreen.jsx":"e38a66717aa6","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"a50d0964646b","components/blocks/Matters.jsx":"803a49b89c6d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"565282a1a6ef","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"bc957421d25a","components/blocks/Record.jsx":"fafcf1f1c5dd","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/Testimonials.jsx":"f3b154dd612c","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"4a9519abe488","components/conversation/Composer.jsx":"5e7ea4b40ddd","components/conversation/ContactCard.jsx":"ead41b6986d4","components/conversation/ContactWidget.jsx":"d90b8425f2db","components/conversation/ConversationHeader.jsx":"1e50bedf4874","components/conversation/ConversationRail.jsx":"1d83551fe90e","components/conversation/ConversationRegister.jsx":"b739146b430c","components/conversation/ConversationStarters.jsx":"a709220e373a","components/conversation/ConversationSurface.jsx":"0693ab6ccc53","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"c3bda65f1ea2","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"fbf5ed39b664","components/conversation/scripts.jsx":"d632e2240adf","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"8158de5901f9","components/core/DotField.jsx":"7fbf6b5d164e","components/core/Figure.jsx":"961be532d220","components/core/Mark.jsx":"57c980bd0b3a","components/core/MetaLine.jsx":"51e091f76832","components/core/RevealEffect.jsx":"e6899c1a70d0","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/SheetWipe.jsx":"1775e950d247","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"af1018abba8f","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"6c0f139b2999","components/core/noirPlate.jsx":"05a78b7071a6","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"84ff8def38f6","components/layout/CarouselHero.jsx":"1ec461c38ec7","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"1159b235646d","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"32433e0ba746","components/layout/PageBanner.jsx":"3ec15835ca06","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4ce1c0845880","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"2c08747d5063","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"9c1f8517873a","components/navigation/ClosingFooter.jsx":"abe9569883de","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SiteHeader.jsx":"dad1d3e33cbd","components/navigation/SiteNav.jsx":"3867fafa4e30","components/navigation/TakeoverMenu.jsx":"288cb368d53d","components/navigation/WordmarkMasthead.jsx":"712e91d97653","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"contactWidgetErrands","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetMatch","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetOther","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"contactWidgetSteps","sourcePath":"components/conversation/ContactWidget.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"Accordion","sourcePath":"components/blocks/Accordion.jsx"},{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"ContentCarousel","sourcePath":"components/blocks/ContentCarousel.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"DEMO_PAGES","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FORM_EXAMPLES","sourcePath":"components/blocks/formExamples.jsx"},{"name":"FormBlock","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"EMBED_REFUSAL","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"FORM_SIGNATURES","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"JobList","sourcePath":"components/blocks/JobList.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NewsList","sourcePath":"components/blocks/NewsList.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"StatementBlock","sourcePath":"components/blocks/StatementBlock.jsx"},{"name":"SubscribeBlock","sourcePath":"components/blocks/SubscribeBlock.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaRule","sourcePath":"components/core/MetaLine.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RasterField","sourcePath":"components/core/RasterField.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"SCREEN_R","sourcePath":"components/core/screenShape.jsx"},{"name":"V_ANGLE","sourcePath":"components/core/screenShape.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"CheckboxGroup","sourcePath":"components/forms/CheckboxGroup.jsx"},{"name":"FileField","sourcePath":"components/forms/FileField.jsx"},{"name":"RadioGroup","sourcePath":"components/forms/RadioGroup.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"TextArea","sourcePath":"components/forms/TextArea.jsx"},{"name":"TextField","sourcePath":"components/forms/TextField.jsx"},{"name":"TopicList","sourcePath":"components/forms/TopicList.jsx"},{"name":"FieldLabel","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldMessage","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldLine","sourcePath":"components/forms/fieldParts.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Feature","sourcePath":"components/layout/Feature.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SectionNav","sourcePath":"components/navigation/SectionNav.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/Accordion.jsx":"e008d650df56","components/blocks/ArtworkPin.jsx":"57387dc008e1","components/blocks/Chapter.jsx":"f41941619697","components/blocks/ContentCarousel.jsx":"0fa310578851","components/blocks/DemoConsole.jsx":"e6f563bd789d","components/blocks/FormBlock.jsx":"2d25a0ee1e17","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"445c148cafd3","components/blocks/ImageScreen.jsx":"3591f9e4dbcd","components/blocks/JobList.jsx":"c5858d4155d1","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"a50d0964646b","components/blocks/Matters.jsx":"dae8fdb8cf73","components/blocks/NewsList.jsx":"86e48ca285b4","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"387b99c2370d","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"99e6d7edd1c6","components/blocks/Record.jsx":"79a028372a63","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/StatementBlock.jsx":"9735db1b3700","components/blocks/SubscribeBlock.jsx":"64fb39963691","components/blocks/Testimonials.jsx":"51e1d74fc60d","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/blocks/formExamples.jsx":"a0941b4e5c26","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"d16d6ded38c8","components/conversation/Composer.jsx":"6ecb3903db74","components/conversation/ContactCard.jsx":"a445893e3588","components/conversation/ConversationHeader.jsx":"c28cbe9bc41f","components/conversation/ConversationRail.jsx":"a531b2d38447","components/conversation/ConversationRegister.jsx":"81cdf85deb5c","components/conversation/ConversationStarters.jsx":"3976062145e6","components/conversation/ConversationSurface.jsx":"7ab91d907fee","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"e2205c401281","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"d779a8498638","components/conversation/scripts.jsx":"ccef4f3084aa","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"d7a228845574","components/core/DotField.jsx":"31e933fa57bd","components/core/Figure.jsx":"f0d003e16925","components/core/Mark.jsx":"8726517a2c2a","components/core/MetaLine.jsx":"739c896adab3","components/core/RasterField.jsx":"2f557da81a76","components/core/RevealEffect.jsx":"3f5729b2301b","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"af1018abba8f","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"f0ab4adbf876","components/core/noirPlate.jsx":"05a78b7071a6","components/core/screenShape.jsx":"a40076067a68","components/forms/Checkbox.jsx":"3838a5da09ee","components/forms/CheckboxGroup.jsx":"95f61e4242a0","components/forms/FileField.jsx":"f114278a6ca2","components/forms/RadioGroup.jsx":"d977d665c939","components/forms/Select.jsx":"ea83f67f50bd","components/forms/TextArea.jsx":"c1088416cb5a","components/forms/TextField.jsx":"415124cacfa1","components/forms/TopicList.jsx":"a93a4f0ed555","components/forms/fieldParts.jsx":"7c290a8cbe53","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"ff07cce9ccb6","components/layout/CarouselHero.jsx":"02007caffe66","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Feature.jsx":"6a40b65b5332","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"19aaaf958457","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"26f5ba63645c","components/layout/PageBanner.jsx":"f1f34a196d8a","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4b30a3775963","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"8516a6d1242e","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"ade1d68a05ed","components/navigation/ClosingFooter.jsx":"5b8fe14d23a7","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SectionNav.jsx":"7ddf36064dd1","components/navigation/SiteHeader.jsx":"1880646c1033","components/navigation/SiteNav.jsx":"7622a897e660","components/navigation/TakeoverMenu.jsx":"53e04114e2af","components/navigation/WordmarkMasthead.jsx":"af44104e73d0","deck-stage.js":"f3d3d0a662c0","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"fieldText","sourcePath":"components/forms/fieldParts.jsx"},{"name":"getHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getScreenOptions","sourcePath":"components/core/screenShape.jsx"},{"name":"getScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"isKeyFocus","sourcePath":"components/forms/fieldParts.jsx"},{"name":"jobId","sourcePath":"components/blocks/JobList.jsx"},{"name":"lineMinPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"normOptions","sourcePath":"components/forms/fieldParts.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"readEmbed","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"revealScale","sourcePath":"components/core/screenShape.jsx"},{"name":"revealWave","sourcePath":"components/core/screenShape.jsx"},{"name":"screenAngleFor","sourcePath":"components/core/screenShape.jsx"},{"name":"screenFill","sourcePath":"components/core/screenShape.jsx"},{"name":"screenMark","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPaths","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"screenSteps","sourcePath":"components/core/screenShape.jsx"},{"name":"setHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"shortenCrumb","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"srOnly","sourcePath":"components/forms/fieldParts.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"useScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -10,24 +10,19 @@ const __ds_scope = {};
 
 // components/blocks/DemoConsole.jsx
 try { (() => {
-/* A presenter's console, not a site element. It exists so a block's states can
-   be shown to a client without walking the flow that produces them — click
-   "Dialogue derived" instead of talking to the finder for a minute.
+/* A presenter's console, not a site element. It lets a block's states, and
+   pages that are not reachable from the site's own navigation (the content
+   page master), be shown to a client without walking the flow.
 
-   Three rules keep it out of the client's way:
-
-   1. It is invisible until armed. Nothing renders unless the page is loaded
-      with `?demo` or the presenter presses Shift+D. A client who is handed the
-      URL without the parameter cannot find it.
+   1. Invisible until armed: nothing renders unless the page is loaded with
+      `?demo` or the presenter presses Shift+D.
    2. Armed, it is one hairline chip in the bottom corner. Folded out it is a
-      list of blocks and their states — text only, the same underline the rest
-      of the system uses for a chosen thing.
-   3. It never holds the state. The page does. The console reads `value` and
-      calls `onPick`, so the states it switches are the real ones the block
-      renders in production.
+      list of groups: states to switch, or pages to open.
+   3. It never holds the state. The page does: a state group reads `value` and
+      calls `onPick`; a link group is plain links.
 
-   Arm state and fold state live in `sessionStorage`, so a reload mid-demo does
-   not put the presenter back where they started. */
+   Arm and fold state live in sessionStorage, so they survive a reload and a
+   page change mid-demo. */
 
 const KEY_ARMED = 'vinge.demo.armed';
 const KEY_OPEN = 'vinge.demo.open';
@@ -46,39 +41,37 @@ const write = (k, v) => {
 function DemoConsole({
   groups = [],
   label = 'Demo',
-  /* Force the console on or off. Left undefined it arms itself from `?demo`,
-     from Shift+D, or from an earlier arm in the same session. */
   enabled,
   style
 }) {
   const [armed, setArmed] = React.useState(false);
   const [open, setOpen] = React.useState(false);
   React.useEffect(() => {
-    const q = typeof window !== 'undefined' && /[?&]demo\b/.test(window.location.search);
+    const q = /[?&]demo\b/.test(window.location.search);
     if (q) write(KEY_ARMED, true);
     setArmed(q || read(KEY_ARMED));
     setOpen(read(KEY_OPEN));
     const onKey = e => {
-      if (e.key !== 'D' || !e.shiftKey || e.metaKey || e.ctrlKey || e.altKey) return;
-      const t = e.target;
-      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-      setArmed(a => {
-        write(KEY_ARMED, !a);
-        return !a;
-      });
-    };
-    const onEsc = e => {
       if (e.key === 'Escape') {
         setOpen(false);
         write(KEY_OPEN, false);
+        return;
       }
+      if (e.key !== 'D' && e.key !== 'd' || !e.shiftKey || e.metaKey || e.ctrlKey || e.altKey) return;
+      const t = e.target;
+      if (t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable)) return;
+      e.preventDefault();
+      setArmed(a => {
+        write(KEY_ARMED, !a);
+        if (!a) {
+          write(KEY_OPEN, true);
+          setOpen(true);
+        }
+        return !a;
+      });
     };
     window.addEventListener('keydown', onKey);
-    window.addEventListener('keydown', onEsc);
-    return () => {
-      window.removeEventListener('keydown', onKey);
-      window.removeEventListener('keydown', onEsc);
-    };
+    return () => window.removeEventListener('keydown', onKey);
   }, []);
   const on = enabled === undefined ? armed : enabled;
   if (!on || !groups.length) return null;
@@ -86,24 +79,27 @@ function DemoConsole({
     write(KEY_OPEN, !o);
     return !o;
   });
-  const chip = {
+  const item = active => ({
     appearance: 'none',
-    border: '1px solid var(--rule-hairline)',
-    background: 'var(--surface)',
-    color: 'var(--text-secondary)',
+    background: 'none',
+    border: 0,
+    padding: '0 0 3px',
     cursor: 'pointer',
+    textDecoration: 'none',
     fontFamily: 'var(--font-text)',
     fontSize: 'var(--text-small)',
-    lineHeight: 1,
-    padding: '10px 12px',
-    borderRadius: 0
-  };
+    lineHeight: 'var(--lh-small)',
+    color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
+    borderBottom: '1px solid ' + (active ? 'var(--underline-active, currentColor)' : 'var(--underline-rest-secondary, transparent)')
+  });
+  const here = window.location.pathname.split('/').pop() + window.location.search;
   return /*#__PURE__*/React.createElement("div", {
+    "data-demo-console": "",
     style: {
       position: 'fixed',
       left: 'var(--space-3)',
       bottom: 'var(--space-3)',
-      zIndex: 60,
+      zIndex: 2147483001,
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'flex-start',
@@ -114,7 +110,7 @@ function DemoConsole({
     role: "group",
     "aria-label": label,
     style: {
-      background: 'var(--surface)',
+      background: 'var(--surface, var(--paper))',
       border: '1px solid var(--rule-hairline)',
       padding: 'var(--space-3)',
       display: 'flex',
@@ -126,7 +122,7 @@ function DemoConsole({
       overflowY: 'auto'
     }
   }, groups.map(g => /*#__PURE__*/React.createElement("div", {
-    key: g.id,
+    key: g.id || g.label,
     style: {
       display: 'flex',
       flexDirection: 'column',
@@ -135,6 +131,7 @@ function DemoConsole({
   }, /*#__PURE__*/React.createElement("p", {
     className: "small",
     style: {
+      margin: 0,
       color: 'var(--text-secondary)'
     }
   }, g.label), /*#__PURE__*/React.createElement("div", {
@@ -143,34 +140,57 @@ function DemoConsole({
       flexWrap: 'wrap',
       gap: 'var(--space-2)'
     }
-  }, (g.states || []).map(s => {
+  }, (g.links || []).map(l => {
+    const active = here && l.href && l.href.split('/').pop() === here;
+    return /*#__PURE__*/React.createElement("a", {
+      key: l.href,
+      href: l.href,
+      "data-no-route": "",
+      "aria-current": active ? 'page' : undefined,
+      style: item(active)
+    }, l.label);
+  }), (g.states || []).map(s => {
     const active = g.value === s.id;
     return /*#__PURE__*/React.createElement("button", {
       key: s.id,
       type: "button",
-      onClick: () => g.onPick && g.onPick(s.id),
       "aria-pressed": active,
-      style: {
-        appearance: 'none',
-        background: 'none',
-        border: 0,
-        padding: '0 0 3px',
-        cursor: 'pointer',
-        fontFamily: 'var(--font-text)',
-        fontSize: 'var(--text-small)',
-        lineHeight: 'var(--lh-small)',
-        color: active ? 'var(--text-primary)' : 'var(--underline-rest-secondary)',
-        borderBottom: '1px solid ' + (active ? 'var(--underline-active)' : 'transparent')
-      }
+      onClick: () => g.onPick && g.onPick(s.id),
+      style: item(active)
     }, s.label);
   }))))) : null, /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: toggle,
     "aria-expanded": open,
-    style: chip
+    style: {
+      appearance: 'none',
+      border: '1px solid var(--rule-hairline)',
+      background: 'var(--surface, var(--paper))',
+      color: 'var(--text-secondary)',
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 1,
+      padding: '10px 12px',
+      borderRadius: 0
+    }
   }, open ? label + ' ×' : label));
 }
-Object.assign(__ds_scope, { DemoConsole });
+
+/* The pages a presenter can open from any template's console. Paths are
+   relative to a templates/<slug>/ page. */
+const DEMO_PAGES = {
+  id: 'pages',
+  label: 'Pages',
+  links: [{
+    label: 'Landing page',
+    href: '../landing-page/LandingPage.dc.html'
+  }, {
+    label: 'Content page master',
+    href: '../content-page/ContentPage.dc.html?p=master'
+  }]
+};
+Object.assign(__ds_scope, { DemoConsole, DEMO_PAGES });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/DemoConsole.jsx", error: String((e && e.message) || e) }); }
 
 // components/blocks/NumberedList.jsx
@@ -448,6 +468,190 @@ function WordmarkBand({
 }
 Object.assign(__ds_scope, { WordmarkBand });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/WordmarkBand.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/formExamples.jsx
+try { (() => {
+/* The three live Vinge forms as FormBlock props. Labels and options verbatim
+   from vinge.se and the systems behind its forms, 2026-10-09
+   (brief-formular.md). Field names marked pending are not yet confirmed by the
+   receiving system. Used by the FormBlock card and the content-page template. */
+
+const POLICY = {
+  text: 'integritetspolicy',
+  href: '/integritetspolicy/'
+};
+const FORM_EXAMPLES = {
+  talang: {
+    heading: 'Gå med i Vinge Talang',
+    submit: 'Skicka ansökan',
+    successMessage: 'Tack för din ansökan och välkommen som medlem i Vinge Talang!',
+    provider: {
+      name: 'Ungapped',
+      form: 'subscription',
+      status: 'pending',
+      confirms: "Vinge's Ungapped admin recreates the survey as a subscription form and names the contact fields"
+    },
+    fields: [{
+      kind: 'text',
+      label: 'Namn',
+      required: true,
+      parts: [{
+        label: 'Förnamn',
+        name: 'firstname',
+        autoComplete: 'given-name'
+      }, {
+        label: 'Efternamn',
+        name: 'lastname',
+        autoComplete: 'family-name'
+      }]
+    }, {
+      kind: 'email',
+      label: 'E-post',
+      name: 'email',
+      required: true
+    }, {
+      kind: 'tel',
+      label: 'Mobilnummer',
+      name: 'mobile'
+    }, {
+      kind: 'radio',
+      label: 'Universitet',
+      name: 'university',
+      required: true,
+      options: ['Göteborgs universitet', 'Karlstads universitet', 'Lunds universitet', 'Stockholms universitet', 'Uppsala universitet', 'Umeå universitet', 'Örebro universitet', 'Annat']
+    }, {
+      kind: 'select',
+      label: 'Examen/Förväntad examen',
+      name: 'graduation',
+      required: true,
+      options: ['Januari 2027', 'Juni 2027', 'Januari 2028', 'Juni 2028', 'Januari 2029', 'Juni 2029', 'Januari 2030', 'Juni 2030', 'Januari 2031', 'Juni 2031']
+    }, {
+      kind: 'checkbox',
+      label: 'Vilket/vilka av Vinges kontor är du intresserad av att vara i kontakt med?',
+      name: 'offices',
+      options: ['Stockholm', 'Göteborg', 'Malmö', 'Bryssel']
+    }, {
+      kind: 'consent',
+      label: 'Jag godkänner att mina personuppgifter hanteras i enlighet med följande integritetspolicy',
+      name: 'consent',
+      required: true,
+      link: POLICY
+    }]
+  },
+  nyhetsbrev: {
+    heading: 'Nyhetsbrev',
+    showHeading: false,
+    intro: 'Registrera dig som prenumerant för att få våra digitala nyhetsbrev. Ange ditt namn och din e-postadress samt välj de nyhetsbrev som intresserar dig - helt kostnadsfritt.',
+    showIntro: false,
+    submit: 'Prenumerera',
+    provider: {
+      name: 'Ungapped',
+      form: 'subscription',
+      action: 'https://vinge.ungapped.io/Api/Subscriptions/af9eaec3-338f-4b47-88d2-35581b8a40c7',
+      method: 'post',
+      status: 'live'
+    },
+    fields: [/* value: each option posts its Ungapped list id; the eight ids are in the live page source. */
+    {
+      kind: 'checkbox',
+      label: 'Jag vill prenumerera på följande nyhetsbrev:',
+      name: 'ListIds',
+      options: ['Försäkring', 'M&A', 'Personuppgifter & dataskydd', 'Anställning & Förmåner', 'Internationell handel', 'Nyheter från EU', 'Life Science', 'Private Funds'],
+      columns: 2
+    }, {
+      kind: 'text',
+      label: 'Namn:',
+      name: 'Contact[Name]',
+      required: true,
+      autoComplete: 'name'
+    }, {
+      kind: 'email',
+      label: 'E-post:',
+      name: 'Contact[Email]',
+      required: true
+    }, {
+      kind: 'consent',
+      label: 'Dina uppgifter kommer inte att delas med tredje part. För mer information läs vår integritetspolicy.',
+      name: 'ConsentText',
+      value: 'Dina uppgifter kommer inte att delas med tredje part. För mer information läs vår integritetspolicy.',
+      required: true,
+      link: POLICY
+    }, {
+      kind: 'hidden',
+      name: 'DefaultCountryCode',
+      value: '+46'
+    }]
+  },
+  ansokan: {
+    heading: 'Ansökan',
+    intro: 'Vill du snabba på ansökningsprocessen? Här kan du välja att logga in med LinkedIn. Genom att göra det hämtar vi ditt namn, titel, nuvarande tjänst och e-post eller så kan du istället fortsätta med att fylla i uppgifterna i formuläret nedan.',
+    submit: 'Skicka ansökan',
+    provider: {
+      name: 'Onecruiter',
+      form: 'open application',
+      action: 'https://vinge.onecruiter.com/api/v1/apply',
+      method: 'post',
+      status: 'pending',
+      confirms: 'Onecruiter confirms the endpoint, spam protection and file limits'
+    },
+    fields: [/* Options for the three lists come from Vinge; until then the lists hold only the placeholder. */
+    {
+      kind: 'select',
+      label: 'Välj plats',
+      name: 'location',
+      options: []
+    }, {
+      kind: 'select',
+      label: 'Välj jobbkategori',
+      name: 'category',
+      options: []
+    }, {
+      kind: 'select',
+      label: 'Välj roll',
+      name: 'role',
+      options: []
+    }, {
+      kind: 'text',
+      label: 'Förnamn',
+      name: 'firstname',
+      required: true,
+      autoComplete: 'given-name'
+    }, {
+      kind: 'text',
+      label: 'Efternamn',
+      name: 'lastname',
+      required: true,
+      autoComplete: 'family-name'
+    }, {
+      kind: 'email',
+      label: 'E-postadress',
+      name: 'email',
+      required: true
+    }, {
+      kind: 'text',
+      label: 'Länk till din LinkedIn-profil',
+      name: 'linkedin_url',
+      autoComplete: 'url'
+    }, {
+      kind: 'file',
+      label: 'Lägg till dokument',
+      name: 'files',
+      multiple: true
+    }, {
+      kind: 'consent',
+      label: 'Jag bekräftar att jag tagit del av Vinges integritetspolicy',
+      name: 'privacy_policy',
+      required: true,
+      link: POLICY
+    }, {
+      kind: 'hidden',
+      name: 'id',
+      value: ''
+    }]
+  }
+};
+Object.assign(__ds_scope, { FORM_EXAMPLES });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/formExamples.jsx", error: String((e && e.message) || e) }); }
 
 // components/brand/orbBraid.jsx
 try { (() => {
@@ -1104,7 +1308,7 @@ const GLADER = {
   href: profile('marcus-glader'),
   imageSrc: portrait('/media/lgiddap0/glader_marcus_socialmedia.jpg'),
   reason: 'Anmälde [9] förvärv med tysk motpart till Konkurrensverket sedan [2021].',
-  source: 'Uppdragsregistret · [uppdrag 2026-041]',
+  source: 'Uppdragsregistret, [uppdrag 2026-041]',
   basis: 'Tidigare anmälningar av samma slag',
   phone: '+46 10 614 31 22',
   email: 'marcus.glader@vinge.se'
@@ -1118,7 +1322,7 @@ const KNUTSSON = {
   href: profile('amanda-knutsson'),
   imageSrc: portrait('/media/alcp5wjf/knutsson_amanda_highres.jpg'),
   reason: 'Ledde [14] industriförvärv med tysk motpart sedan [2021], [tre] med svensk anläggning.',
-  source: 'Uppdragsregistret · [uppdrag 2026-041]',
+  source: 'Uppdragsregistret, [uppdrag 2026-041]',
   basis: 'Tidigare uppdrag av samma slag',
   phone: '+46 10 614 31 82',
   email: 'amanda.knutsson@vinge.se'
@@ -1146,7 +1350,7 @@ const AZELIUS = {
   href: profile('olof-jisland'),
   imageSrc: portrait('/media/hmrbn0qo/jisland_olof_highres.jpg'),
   reason: 'Förde [11] leverantörstvister till huvudförhandling sedan [2021].',
-  source: 'Uppdragsregistret · [uppdrag 2025-207]',
+  source: 'Uppdragsregistret, [uppdrag 2025-207]',
   basis: 'Tidigare uppdrag av samma slag',
   phone: '+46 10 614 70 09',
   email: 'olof.jisland@vinge.se'
@@ -1160,7 +1364,7 @@ const SODERLUND = {
   href: profile('henrik-ossborn'),
   imageSrc: portrait('/media/osolrioc/henrik-ossborn-some.jpg'),
   reason: 'Tar nya uppdrag den här veckan; [tre] pågående förvärv i registret.',
-  source: 'Uppdragsregistret · [vecka 40]',
+  source: 'Uppdragsregistret, [vecka 40]',
   basis: 'Tillgänglig i den takt du angav',
   phone: '+46 10 614 30 88',
   email: 'henrik.ossborn@vinge.se'
@@ -1174,7 +1378,7 @@ const BERGH = {
   href: profile('sofie-bjartun'),
   imageSrc: portrait('/media/ok5nqixn/bjartun-sofie_socialmedia.jpg'),
   reason: 'Hanterade verksamhetsövergången i [fyra] av samma förvärv.',
-  source: 'Uppdragsregistret · [uppdrag 2025-118]',
+  source: 'Uppdragsregistret, [uppdrag 2025-118]',
   basis: 'Angränsande område frågan kommer att röra',
   phone: '+46 10 614 32 50',
   email: 'sofie.bjartun@vinge.se'
@@ -1396,7 +1600,7 @@ const HANSSON = {
   href: profile('viveka-classon'),
   imageSrc: portrait('/media/ilxpfiex/classon_viveka_highres.jpg'),
   reason: 'Tar nya tvister den här veckan; [två] pågående mål i registret.',
-  source: 'Uppdragsregistret · [vecka 40]',
+  source: 'Uppdragsregistret, [vecka 40]',
   basis: 'Tillgänglig i den takt du angav',
   phone: '+46 10 614 70 44',
   email: 'viveka.classon@vinge.se'
@@ -2080,13 +2284,13 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    no fills, no borders, no pills, no arrow glyphs. */
 function CtaLink({
   href,
-  variant = 'primary',
+  variant = 'secondary',
   children,
   style,
   className = '',
   ...rest
 }) {
-  const variantClass = variant === 'page-end' ? 'cta--page-end' : variant === 'secondary' ? 'cta--secondary' : variant === 'small' ? 'cta--small' : 'cta--primary';
+  const variantClass = variant === 'page-end' ? 'cta--page-end' : variant === 'small' ? 'cta--small' : 'cta--secondary';
   return /*#__PURE__*/React.createElement("a", _extends({
     href: href,
     className: ['cta', variantClass, 'target', className].filter(Boolean).join(' '),
@@ -2135,6 +2339,19 @@ function text(node) {
   if (node.props) return text(node.props.children);
   return '';
 }
+
+/* The separator alone, for lists that cannot be a MetaLine. */
+function MetaRule({
+  style
+}) {
+  return /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      ...RULE,
+      ...style
+    }
+  });
+}
 function MetaLine({
   parts,
   children,
@@ -2167,7 +2384,7 @@ function MetaLine({
     style: RULE
   }) : null, /*#__PURE__*/React.createElement("span", null, p))));
 }
-Object.assign(__ds_scope, { MetaLine });
+Object.assign(__ds_scope, { MetaRule, MetaLine });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/MetaLine.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/ScrollHold.jsx
@@ -2287,156 +2504,6 @@ function ScrollHold({
 }
 Object.assign(__ds_scope, { ScrollHold });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/ScrollHold.jsx", error: String((e && e.message) || e) }); }
-
-// components/core/SheetWipe.jsx
-try { (() => {
-/* The alternative to the dot screen, so the reveal seam has something to be
-   compared against. A sheet with a hairline on its edge, drawn across the box.
-
-   Two behaviours, because covering and arriving are not the same job. Over a
-   picture (`progress`) it is a cover receding: the sheet is paper, it slides
-   off, and the photograph is uncovered. Where there is nothing behind it
-   (`burst`, `loader`, `still` — a field being clicked, text on its way) a
-   paper sheet on paper would be invisible, so it is an ink band travelling
-   instead: the surface is passed over rather than uncovered.
-
-   The hairline lives inside the sheet, so it rides the edge by construction
-   rather than by a second animation kept in step. */
-
-const COVER = {
-  progress: true
-};
-function SheetWipe({
-  mode = 'burst',
-  origin,
-  playKey = 0,
-  running = true,
-  level = 0.6,
-  progress = 0,
-  duration = 1100,
-  intensity = 1,
-  tone = 'ink',
-  className = '',
-  style
-}) {
-  const wrapRef = React.useRef(null);
-  const sheetRef = React.useRef(null);
-  const hairRef = React.useRef(null);
-  const rafRef = React.useRef(0);
-  const cover = !!COVER[mode];
-
-  /* Percentages on a 1px rule resolve against the rule, not the box: every
-     offset here is in pixels off the measured width.
-      The hairline's side is a function of travel, not a constant. A cover moving
-     right reveals with its LEFT edge; moving back, with its right. A band is
-     the opposite: what leads is the far edge. Hard-coding one side puts the rule
-     outside the clip in half the cases. */
-  const put = React.useCallback(t => {
-    const wrap = wrapRef.current,
-      sheet = sheetRef.current,
-      hair = hairRef.current;
-    if (!wrap || !sheet) return;
-    const w = wrap.clientWidth || 1;
-    const clamped = Math.max(0, Math.min(1, t));
-    const back = origin ? origin.x > w * 0.6 : false;
-    if (hair) {
-      const side = cover ? back ? 'right' : 'left' : back ? 'left' : 'right';
-      hair.style.left = side === 'left' ? '0' : 'auto';
-      hair.style.right = side === 'right' ? '0' : 'auto';
-    }
-    if (cover) {
-      sheet.style.transform = 'translateX(' + (back ? -clamped * w : clamped * w) + 'px)';
-      sheet.style.opacity = '1';
-      return;
-    }
-    const band = w * 0.55;
-    const from = back ? w : -band;
-    const to = back ? -band : w;
-    sheet.style.transform = 'translateX(' + (from + (to - from) * clamped) + 'px)';
-    sheet.style.opacity = String(Math.min(1, intensity) * (clamped <= 0.001 || clamped >= 0.999 ? 0 : 1));
-  }, [cover, origin, intensity]);
-  React.useEffect(() => {
-    if (mode !== 'burst') return;
-    if (!playKey) {
-      put(0);
-      return;
-    }
-    const t0 = performance.now();
-    const step = now => {
-      const t = Math.min(1, (now - t0) / duration);
-      put(t);
-      if (t < 1) rafRef.current = requestAnimationFrame(step);
-    };
-    put(0);
-    rafRef.current = requestAnimationFrame(step);
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  }, [mode, playKey, duration, put]);
-  React.useEffect(() => {
-    if (mode !== 'loader' || !running) return;
-    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reduced) {
-      put(0.5);
-      return;
-    }
-    const t0 = performance.now();
-    const period = duration * 1.7;
-    const step = now => {
-      put((now - t0) % period / period);
-      rafRef.current = requestAnimationFrame(step);
-    };
-    rafRef.current = requestAnimationFrame(step);
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  }, [mode, running, duration, put]);
-  React.useEffect(() => {
-    if (mode === 'still') put(level);
-  }, [mode, level, put]);
-  React.useEffect(() => {
-    if (mode === 'progress') put(progress);
-  }, [mode, progress, put]);
-  const paper = tone === 'paper' ? 'var(--ink)' : 'var(--paper)';
-  const hair = tone === 'paper' ? 'var(--paper)' : 'var(--ink)';
-  const wash = tone === 'paper' ? 'linear-gradient(90deg, transparent, color-mix(in srgb, var(--paper) 26%, transparent) 55%, transparent)' : 'linear-gradient(90deg, transparent, color-mix(in srgb, var(--ink) 26%, transparent) 55%, transparent)';
-  return /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
-    "aria-hidden": "true",
-    className: className,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      overflow: 'hidden',
-      pointerEvents: 'none',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: sheetRef,
-    style: {
-      position: 'absolute',
-      top: 0,
-      bottom: 0,
-      left: 0,
-      width: cover ? '100%' : '55%',
-      background: cover ? paper : wash,
-      opacity: cover ? 1 : 0
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    ref: hairRef,
-    style: {
-      position: 'absolute',
-      top: 0,
-      bottom: 0,
-      width: 1,
-      background: hair
-    }
-  })));
-}
-Object.assign(__ds_scope, { SheetWipe });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/SheetWipe.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/Tabs.jsx
 try { (() => {
@@ -2563,2053 +2630,6 @@ function Tabs({
 }
 Object.assign(__ds_scope, { Tabs });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Tabs.jsx", error: String((e && e.message) || e) }); }
-
-// components/blocks/Record.jsx
-try { (() => {
-/* The proof block: one line is one job somebody hired us to do.
-   ~120 identical lines, grouped by year, and a readout bar that reads out the
-   line under the cursor. Three things are load-bearing and must not be
-   "improved": the readout bar sticks, its columns never move, and no row links
-   anywhere. Length encodes nothing — every line is the same length, so the
-   only quantity the graphic states is the height of a year block. */
-
-const CELL = {
-  minWidth: 0,
-  whiteSpace: 'nowrap',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  fontFamily: 'var(--font-text)',
-  fontSize: 'var(--text-small)'
-};
-/* Reserved in rem, not em: an em box scales with each cell's own font-size and
-   the baselines drift. */
-const KEY_CELL = {
-  ...CELL,
-  height: '1rem',
-  lineHeight: '1rem',
-  color: 'var(--text-secondary)'
-};
-const VAL_CELL = {
-  ...CELL,
-  height: '1.375rem',
-  lineHeight: '1.375rem',
-  color: 'var(--text-primary)',
-  fontWeight: 'var(--weight-medium)'
-};
-/* The discipline list is read in full, so it wraps like ordinary text. Two
-   lines are reserved, which is what most entries need. */
-const DISC_CELL = {
-  ...VAL_CELL,
-  whiteSpace: 'normal',
-  overflow: 'visible',
-  textOverflow: 'clip',
-  height: 'auto',
-  minHeight: '2.75rem'
-};
-
-/* TEST: term-list row. A button that has to read as a line of the record's
-   own text, so everything a button brings is taken back off. */
-const TERM_BTN = {
-  appearance: 'none',
-  background: 'none',
-  border: 0,
-  padding: 0,
-  margin: 0,
-  width: '100%',
-  textAlign: 'left',
-  cursor: 'pointer',
-  font: 'inherit',
-  fontFamily: 'var(--font-text)',
-  fontSize: 'var(--text-small)',
-  lineHeight: 1.3
-};
-const PITCH = 18; /* row box, fixed — hover must not reflow the field */
-/* The filtered view labels every match, and a label is a 21px box, so that
-   view runs on a taller row. The field gets longer; every title gets read. */
-const PITCH_FILTERED = 26;
-const BAR = 1; /* the line */
-const BAR_ACTIVE = 2; /* the line under the cursor */
-const FAN = 10; /* air the cursor row opens above and below itself */
-/* Vertical reading: short upright ticks on a fixed pitch. */
-const V_PITCH = 7;
-const V_PITCH_OPEN = 12; /* the group under the cursor opens up to this */
-const V_PITCH_REST = 4; /* every other group closes to this while one is open */
-const V_PROX = 10; /* extra pitch at the cursor, falling off with distance */
-const V_PROX_R = 6; /* how many lines either side the swell reaches */
-/* While a case is pinned the field is one close control, and says so. */
-const CLOSE_CURSOR = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' stroke='%23103a1c' stroke-width='1.5'/%3E%3C/svg%3E\") 12 12, pointer";
-const V_HEIGHT = 36;
-/* SM vertical: the field becomes a side-scrolling rail. One fixed pitch, wide
-   enough that each line is its own stop, and the line on the left edge is the
-   one being read. */
-const R_PITCH = 16;
-const R_HEIGHT = 48;
-const V_LIFT = 8; /* the tick under the cursor stands this much taller */
-
-/* Two readings of the same field. The first is the whole record; the second
-   emphasises what the visitor's own dialogue touches. Neither fetches,
-   reorders or removes a row. */
-const VIEWS = ['Allt', 'Intressanta för dig'];
-function Record({
-  entries = [],
-  /* What the finder derived from the dialogue: { text, areas, sectors }.
-     Absent or empty and the second view shows its own prompt instead. */
-  dialogue = null,
-  index = '',
-  title = 'Uppdragsregistret',
-  premise = 'Varje rad är ett uppdrag någon har anlitat oss för. Registret börjar 2022 och innehåller allt vi har tagit sedan dess.',
-  secondLine = '',
-  lead = '',
-  readingRule = '',
-  closingLine = 'Registret visar de senaste uppdragen. Hela beståndet är sökbart.',
-  actionLabel = 'Sök i registret',
-  closeLabel = 'Stäng',
-  actionHref = '#',
-  viewLabels = VIEWS,
-  /* Show the two-view switch. Off, the block is the whole record only and the
-     AI-derived view is unreachable. Pages keep it off by default and let the
-     demo console bring it back. */
-  views = true,
-  allLine = 'Varje uppdrag vi har tagit sedan 2022.',
-  /* {n} and {total} are filled in. The denominator carries it: a bare count
-     leaves the word "intressanta" standing for nothing. */
-  relevanceLine = '{n} av {total} rör det du frågade om.',
-  emptyBody = 'Den här vyn filtrerar registret på det du har berättat för oss.',
-  emptyLinkLabel = 'Berätta vad du står i, så visar jag vad som rör det',
-  finderHref = '#',
-  /* Warm state: the visitor gets to see what the filter is actually reading,
-     and to take it back. Never a mystery filter. */
-  filterLabel = 'Filtrerat på',
-  resetLabel = 'Nollställ',
-  /* The starred tab says the view is a subset; this says who made it one. It
-     sits with the reset control, so the explanation and the way out of the
-     filtering are read together. */
-  filterNote = '* Urvalet kommer från ditt samtal med AI:n.',
-  askAgainLabel = 'Prata med AI:n igen',
-  /* The register as a page of its own. Opt-in: no label, no link. */
-  allLabel = '',
-  allHref,
-  /* Handed the conversation opener: the empty state's link opens the finder
-     right here rather than sending the visitor back up the page. */
-  onAsk,
-  /* Clears the derived dialogue. Without it the reset control is left out. */
-  onReset,
-  /* Which view the block opens on. 1 is for demoing the warm state — a real
-     page opens on the whole record. */
-  initialView = 0,
-  /* Optionally controlled, so a page (or the demo console) can put the block
-     in either view. Left out, the tabs own it. */
-  view: viewProp,
-  onViewChange,
-  /* TEST (reversible): term lists in the side column that act as a filter on
-     the whole record. Off by default — drop the prop and the block is exactly
-     what it was. Only ever applies to the first view; the AI-derived second
-     view is untouched. */
-  termFilter = false,
-  termCount = 10,
-  workHeading = 'Filtrera på uppdragstyp',
-  discHeading = 'Filtrera på disciplin',
-  termLine = '{n} av {total} uppdrag är {term}.',
-  termResetLabel = 'Visa alla',
-  termToggleLabel = 'Filtrera',
-  orientation = 'horizontal',
-  /* Vertical reading: the pinned case's way on to the full write-up. */
-  readMoreLabel = 'Läs hela uppdraget',
-  /* SM rail: where the read-more link goes when the entry has no href of its
-     own. On a phone the case is read on its own page, not expanded here. */
-  caseHref = '#',
-  clientLabel = 'Klient',
-  /* Listing: the rows are written out as client names instead of lines, the
-     hovered one folds out its title and preamble, and the pointer becomes
-     this label. Horizontal only. */
-  listing = false,
-  /* Opens with no top air, for when a PageBanner above already carries it. */
-  flushTop = false,
-  openLabel = 'Läs uppdraget',
-  yearHeading = 'Filtrera på år',
-  areasLabel = 'Rättsområden',
-  teamLabel = 'Team',
-  id,
-  style
-}) {
-  const [viewState, setViewState] = React.useState(initialView);
-  const view = views ? viewProp == null ? viewState : viewProp : 0;
-  const setView = v => {
-    setViewState(v);
-    if (onViewChange) onViewChange(v);
-  };
-  const [cursor, setCursor] = React.useState(0);
-  /* The filter control and the readout pin as one group. The readout is the
-     taller of the two, so it would unpin first and slide up under the
-     control; its height is handed to the grid so the control's sticky range
-     ends at the same scroll position (see grid.css). */
-  const sideRef = React.useRef(null);
-  React.useEffect(() => {
-    const s = sideRef.current;
-    if (!s || typeof ResizeObserver === 'undefined') return undefined;
-    const host = s.closest('.grid');
-    if (!host) return undefined;
-    const ro = new ResizeObserver(() => host.style.setProperty('--record-side-h', s.offsetHeight + 'px'));
-    ro.observe(s);
-    return () => ro.disconnect();
-  }, [termFilter, view]);
-  const [printed, setPrinted] = React.useState(false);
-  /* Nothing is lit until the visitor actually points: the default cursor row
-     must not read as a match. */
-  const [touched, setTouched] = React.useState(false);
-  const [scan, setScan] = React.useState(-1);
-  /* { kind: 'work' | 'disc', v } — one term at a time, across both lists. A
-     second click on the lit term takes the filter back off. */
-  const [term, setTerm] = React.useState(null);
-  /* Same as the listings: the filters live behind the mark, and the label
-     comes out on approach. */
-  const [termsOpen, setTermsOpen] = React.useState(false);
-  const [termsWarm, setTermsWarm] = React.useState(false);
-  /* One flag per term list: is there anything below the cut? The fade is only
-     drawn when the answer is yes, so a short list is not faded for nothing. */
-  const scrollRefs = React.useRef([]);
-  const [fade, setFade] = React.useState([false, false]);
-  const sectionRef = React.useRef(null);
-  const rowRefs = React.useRef([]);
-  const fieldRef = React.useRef(null);
-  const ptr = React.useRef(null);
-  const reduced = React.useRef(false);
-  /* Without a pointer there is no hover, so the field reads itself: the row
-     passing through the lower middle of the viewport is the one that turns
-     into text. */
-  const [touch, setTouch] = React.useState(false);
-  const [small, setSmall] = React.useState(false);
-  /* The filter panel shows its scrollbar only while it is being scrolled. */
-  const termsListRef = React.useRef(null);
-  React.useEffect(() => {
-    const el = termsListRef.current;
-    if (!el) return;
-    let t = 0;
-    /* data-more while anything is below the cut: the panel fades out at
-       its foot then, and only then. */
-    const edge = () => {
-      if (el.scrollHeight - el.scrollTop - el.clientHeight > 4) el.setAttribute('data-more', '');else el.removeAttribute('data-more');
-    };
-    const onScroll = () => {
-      edge();
-      el.setAttribute('data-scrolling', '');
-      window.clearTimeout(t);
-      t = window.setTimeout(() => el.removeAttribute('data-scrolling'), 900);
-    };
-    edge();
-    const ro = new ResizeObserver(edge);
-    ro.observe(el);
-    if (el.firstElementChild) ro.observe(el.firstElementChild);
-    el.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    return () => {
-      ro.disconnect();
-      el.removeEventListener('scroll', onScroll);
-      window.clearTimeout(t);
-    };
-  });
-  const pointerRef = React.useRef(null);
-  /* Listing row: the client written out; the hovered row folds out its title
-     and preamble. The whole row is the link into the case. */
-  const [expanded, setExpanded] = React.useState(null);
-  /* Rows open on dwell, not on click: the pointer rests on a line for DWELL ms
-     while a small ring fills in place of the cursor, then the row folds out.
-     Touch keeps the tap. Leaving the field cancels a pending open. */
-  const DWELL = 650;
-  /* The ring stays hidden for the first RING_WAIT ms, so scrolling past rows
-     never flashes it; only a pointer that actually rests sees it appear. */
-  const RING_WAIT = 280;
-  const [pending, setPending] = React.useState(null);
-  const [ringOn, setRingOn] = React.useState(false);
-  React.useEffect(() => {
-    setRingOn(false);
-    if (!listing || touch || !touched || cursor == null || cursor < 0 || cursor === expanded) {
-      setPending(null);
-      return undefined;
-    }
-    setPending(cursor);
-    const r = reduced.current ? 0 : window.setTimeout(() => setRingOn(true), RING_WAIT);
-    const t = window.setTimeout(() => {
-      setExpanded(cursor);
-      setPending(null);
-      setRingOn(false);
-    }, reduced.current ? 0 : DWELL);
-    return () => {
-      window.clearTimeout(t);
-      window.clearTimeout(r);
-    };
-  }, [listing, touch, touched, cursor, expanded]);
-  /* The stuck year sits on the header wordmark's bottom edge: measured, so it
-     holds whatever size the header has at this viewport. */
-  const [yearTop, setYearTop] = React.useState(22);
-  React.useEffect(() => {
-    if (!listing) return undefined;
-    const measure = () => {
-      const logo = document.querySelector('header img[alt="Vinge"]') || document.querySelector('[data-fixed-chrome] img[alt="Vinge"]') || document.querySelector('img[alt="Vinge"]');
-      const f = fieldRef.current;
-      const probe = f && f.querySelector('[data-year-baseline]');
-      if (!logo || !probe) return;
-      const box = probe.parentElement.parentElement.parentElement;
-      const base = probe.getBoundingClientRect().bottom - box.getBoundingClientRect().top;
-      const next = Math.max(0, Math.round(logo.getBoundingClientRect().bottom - base));
-      setYearTop(p => p === next ? p : next);
-    };
-    measure();
-    const t = window.setTimeout(measure, 600);
-    window.addEventListener('resize', measure);
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
-    return () => {
-      window.clearTimeout(t);
-      window.removeEventListener('resize', measure);
-    };
-  }, [listing]);
-  /* Scrolling moves the rows under a still pointer without any mouse event, so
-     the pointer and the row it reads are re-solved from its last position. */
-  const listPtr = React.useRef(null);
-  React.useEffect(() => {
-    if (!listing || touch) return undefined;
-    let frame = 0;
-    const apply = () => {
-      frame = 0;
-      const p = listPtr.current;
-      const f = fieldRef.current;
-      if (!p || !f) return;
-      const b = f.getBoundingClientRect();
-      const inside = p.x >= b.left && p.x <= b.right && p.y >= b.top && p.y <= b.bottom;
-      if (!inside) {
-        setTouched(false);
-        return;
-      }
-      const hit = document.elementFromPoint(p.x, p.y);
-      const row = hit && hit.closest ? hit.closest('[data-row-i]') : null;
-      if (row) {
-        setCursor(Number(row.getAttribute('data-row-i')));
-        setTouched(true);
-      }
-    };
-    const onScroll = () => {
-      if (!frame) frame = requestAnimationFrame(apply);
-    };
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      if (frame) cancelAnimationFrame(frame);
-    };
-  }, [listing, touch]);
-  const renderListRow = (e, on, rowShut, rowOpacity) => {
-    const open = expanded === e.i;
-    return /*#__PURE__*/React.createElement("div", {
-      key: e.i,
-      style: {
-        display: 'grid',
-        gridTemplateRows: rowShut ? '0fr' : '1fr',
-        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("a", {
-      ref: el => {
-        rowRefs.current[e.i] = el;
-      },
-      href: e.href || '#',
-      tabIndex: rowShut ? -1 : 0,
-      "aria-label": [e.client, e.title].filter(Boolean).join(': '),
-      "aria-expanded": open,
-      "data-row-i": e.i,
-      onMouseEnter: () => {
-        setCursor(e.i);
-        setTouched(true);
-      },
-      onFocus: () => {
-        setCursor(e.i);
-        setTouched(true);
-      },
-      onClick: ev => {
-        if (!open) {
-          ev.preventDefault();
-          setExpanded(e.i);
-        }
-      },
-      style: {
-        display: 'block',
-        overflow: 'hidden',
-        minHeight: 0,
-        color: 'inherit',
-        textDecoration: 'none',
-        outline: 'none',
-        borderBottom: rowShut ? 0 : '1px solid var(--rule-hairline)',
-        paddingBlock: rowShut ? 0 : on ? 'calc(var(--space-1) + var(--space-0))' : 'var(--space-1)',
-        cursor: touch ? 'pointer' : open || ringOn && pending === e.i ? 'none' : 'pointer',
-        opacity: rowOpacity,
-        transition: 'opacity var(--dur-fast) var(--ease-quart), padding-block var(--dur-slow) var(--ease-expo)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      "data-row-head": "",
-      className: "small",
-      style: {
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        gap: 'var(--space-3)',
-        maxWidth: 'none',
-        cursor: 'inherit',
-        color: on || open ? 'var(--text-primary)' : 'var(--text-secondary)',
-        transition: 'color var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("span", null, e.client)), /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'grid',
-        gridTemplateRows: open ? '1fr' : '0fr',
-        transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'block',
-        overflow: 'hidden',
-        minHeight: 0
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 'var(--space-0)',
-        maxWidth: '44rem',
-        paddingBlock: 'var(--space-4)'
-      }
-    }, e.title ? /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        display: 'block',
-        maxWidth: 'none',
-        color: 'var(--ink)',
-        textWrap: 'pretty'
-      }
-    }, e.title) : null, e.preamble ? /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        display: 'block',
-        color: 'var(--text-secondary)'
-      }
-    }, e.preamble) : null, (e.disciplines || []).length ? /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        display: 'block',
-        marginBlockStart: 'calc(var(--space-4) - var(--space-0))',
-        color: 'var(--text-secondary)'
-      }
-    }, e.disciplines.join(', ')) : null)))));
-  };
-  /* SM: both orientations read as the side-scrolling rail. The horizontal
-     field's rows only work with a cursor over them. */
-  const vertical = orientation === 'vertical' || small && !listing;
-  const rail = vertical && small;
-  /* A clicked line pins its case open below the field. While pinned the field
-     stops reading the pointer: the next click anywhere on it closes the case. */
-  const [pinned, setPinnedState] = React.useState(null);
-  const pinnedRef = React.useRef(null);
-  const caseRef = React.useRef(null);
-  const bodyRef = React.useRef(null);
-  const [bodyCut, setBodyCut] = React.useState(false);
-  React.useLayoutEffect(() => {
-    const el = bodyRef.current;
-    const next = !!el && el.scrollHeight - el.clientHeight > 4;
-    setBodyCut(p => p === next ? p : next);
-  });
-  const setPinned = v => {
-    pinnedRef.current = v;
-    setPinnedState(v);
-  };
-  const pin = i => {
-    setPinned(i);
-    setCursor(i);
-    setTouched(true);
-    /* A light anchor: the field is brought up under the header so the case
-       opening beneath it lands in view, with the pinned line still above. */
-    window.setTimeout(() => {
-      const f = fieldRef.current;
-      if (!f) return;
-      const top = f.getBoundingClientRect().top + window.scrollY - 112;
-      window.scrollTo({
-        top: Math.max(0, top),
-        behavior: reduced.current ? 'auto' : 'smooth'
-      });
-    }, 60);
-  };
-  const unpin = () => setPinned(null);
-  /* Vertical: the row of groups never wraps. Its width is measured, and every
-     tick's pitch is solved against it, so a swell in one place is paid for by
-     compression everywhere else instead of pushing a group onto a new row. */
-  const [fieldBox, setFieldBox] = React.useState({
-    w: 0,
-    gap: 0
-  });
-  React.useEffect(() => {
-    if (!vertical) return;
-    const el = fieldRef.current;
-    if (!el) return;
-    const read = () => {
-      const w = el.clientWidth;
-      const gap = parseFloat(getComputedStyle(el).columnGap) || 0;
-      setFieldBox(p => p.w === w && p.gap === gap ? p : {
-        w,
-        gap
-      });
-    };
-    read();
-    const ro = new ResizeObserver(read);
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, [vertical]);
-  /* The trailing title: moved by direct style writes, not state, so following
-     the pointer never re-renders 120 rows. */
-  const tipRef = React.useRef(null);
-  const tipPos = React.useRef({
-    x: 0,
-    y: 0,
-    tx: 0,
-    ty: 0,
-    live: false,
-    frame: 0
-  });
-  const tipTo = (x, y, snap) => {
-    const p = tipPos.current;
-    p.tx = x;
-    p.ty = y;
-    if (snap || !p.live || reduced.current) {
-      p.x = x;
-      p.y = y;
-      p.live = true;
-    }
-    const step = () => {
-      p.frame = 0;
-      p.x += (p.tx - p.x) * 0.14;
-      p.y += (p.ty - p.y) * 0.14;
-      const el = tipRef.current;
-      if (el) el.style.transform = 'translate3d(' + p.x.toFixed(1) + 'px,' + p.y.toFixed(1) + 'px,0)';
-      if (Math.abs(p.tx - p.x) > 0.3 || Math.abs(p.ty - p.y) > 0.3) p.frame = requestAnimationFrame(step);
-    };
-    if (!p.frame) p.frame = requestAnimationFrame(step);
-  };
-  React.useEffect(() => () => {
-    if (tipPos.current.frame) cancelAnimationFrame(tipPos.current.frame);
-  }, []);
-  React.useEffect(() => {
-    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    /* Narrow viewports get the scroll reading too, not just touch devices —
-       a phone-width window in a desktop browser is the same layout. */
-    const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
-    const sm = window.matchMedia('(max-width: 767px)');
-    const sync = () => {
-      setTouch(mq.matches);
-      setSmall(sm.matches);
-    };
-    sync();
-    if (mq.addEventListener) {
-      mq.addEventListener('change', sync);
-      sm.addEventListener('change', sync);
-      return () => {
-        mq.removeEventListener('change', sync);
-        sm.removeEventListener('change', sync);
-      };
-    }
-  }, []);
-
-  /* SM rail: nothing is read until the visitor scrolls it. From then on the
-     line nearest the rail's left edge is the cursor, and moving the rail
-     lets go of a pinned case, since the case below follows the edge. */
-  const [railMore, setRailMore] = React.useState(true);
-  const [railHit, setRailHit] = React.useState(true);
-  const markRef = React.useRef(null);
-  /* Each line that arrives under the marker springs it up and lets it settle,
-     so the change of line is felt, not only read below. */
-  React.useEffect(() => {
-    const m = markRef.current;
-    if (!rail || !touched || !m || reduced.current || !m.animate) return;
-    m.animate([{
-      height: R_HEIGHT + V_LIFT - 3 + 'px'
-    }, {
-      height: R_HEIGHT + V_LIFT + 'px'
-    }], {
-      duration: 180,
-      easing: 'cubic-bezier(0.25, 1, 0.5, 1)'
-    });
-  }, [cursor, rail, touched]);
-  React.useEffect(() => {
-    if (!rail) return undefined;
-    const el = fieldRef.current;
-    if (!el) return undefined;
-    let frame = 0;
-    let moved = false;
-    /* Read on the scroll event itself, not a frame later: the fixed marker at
-       the edge and the case below must change on the same frame the line
-       arrives under it. Offsets are scroll-independent, so no rect reads. */
-    const pick = () => {
-      const x = el.scrollLeft + R_PITCH / 2;
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((t, i) => {
-        if (!t || !t.offsetWidth || !t.hasAttribute('data-tick')) return;
-        const d = Math.abs(t.offsetLeft + R_PITCH / 2 - x);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-      /* Between two years there is no line at the edge, so the marker goes
-         rather than standing in the gap. */
-      const under = best >= 0 && bestD < R_PITCH / 2;
-      setRailHit(p => p === under ? p : under);
-    };
-    const read = () => {
-      frame = 0;
-      const next = el.scrollWidth - el.scrollLeft - el.clientWidth > 4;
-      setRailMore(p => p === next ? p : next);
-    };
-    const onScroll = () => {
-      moved = true;
-      if (pinnedRef.current != null) setPinned(null);
-      pick();
-      if (!frame) frame = requestAnimationFrame(read);
-    };
-    read();
-    el.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    const ro = new ResizeObserver(() => {
-      if (!frame) frame = requestAnimationFrame(read);
-    });
-    ro.observe(el);
-    return () => {
-      el.removeEventListener('scroll', onScroll);
-      ro.disconnect();
-      if (frame) cancelAnimationFrame(frame);
-    };
-  }, [rail, view, term]);
-
-  /* Touch: the focal band sits at 62% of the viewport, low enough that the row
-     being read is not under the thumb. The nearest row to it is the cursor. */
-  React.useEffect(() => {
-    if (!touch || vertical || listing) return;
-    let frame = 0;
-    const apply = () => {
-      frame = 0;
-      const focal = window.innerHeight * 0.62;
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((el, i) => {
-        if (!el) return;
-        const r = el.getBoundingClientRect();
-        if (r.bottom < 0 || r.top > window.innerHeight) return;
-        const d = Math.abs(r.top + r.height / 2 - focal);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    apply();
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [touch, vertical]);
-
-  /* A browser only recomputes hover when the pointer moves, so scrolling with
-     a still cursor over the field would leave the reading on whatever row it
-     entered on — or on none at all. The pointer position is kept and the row
-     under it is resolved again on every scroll, so passing the field always
-     reads a line. */
-  React.useEffect(() => {
-    if (touch) return;
-    let frame = 0;
-    const onMove = ev => {
-      ptr.current = {
-        x: ev.clientX,
-        y: ev.clientY
-      };
-    };
-    const apply = () => {
-      frame = 0;
-      const p = ptr.current;
-      const box = fieldRef.current;
-      if (!p || !box || pinnedRef.current != null) return;
-      const b = box.getBoundingClientRect();
-      if (p.x < b.left || p.x > b.right || p.y < b.top || p.y > b.bottom) {
-        if (!box.contains(document.activeElement)) setTouched(false);
-        return;
-      }
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((el, i) => {
-        if (!el) return;
-        const r = el.getBoundingClientRect();
-        if (vertical && !r.width) return;
-        if (listing) {
-          if (p.y >= r.top && p.y <= r.bottom) {
-            best = i;
-            bestD = 0;
-          }
-          return;
-        }
-        const d = vertical ? Math.hypot(r.left + r.width / 2 - p.x, (r.top + r.height / 2 - p.y) * 3) : Math.abs(r.top + r.height / 2 - p.y);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-      if (vertical) tipTo(p.x - b.left, p.y - b.top);
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    window.addEventListener('pointermove', onMove, {
-      passive: true
-    });
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      window.removeEventListener('pointermove', onMove);
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [touch, vertical]);
-
-  /* Listing: grouped by month within the year when the entries carry one. */
-  const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
-  const blocks = React.useMemo(() => {
-    const out = [];
-    let n = 0;
-    entries.forEach(e => {
-      const byMonth = listing && e.month;
-      const key = byMonth ? e.year + '-' + e.month : String(e.year);
-      let b = out[out.length - 1];
-      if (!b || b.key !== key) {
-        const m = byMonth ? MONTHS[e.month - 1] : '';
-        b = {
-          key,
-          year: e.year,
-          label: m ? m.charAt(0).toUpperCase() + m.slice(1) : listing ? '' : String(e.year),
-          rows: []
-        };
-        out.push(b);
-      }
-      b.rows.push({
-        ...e,
-        i: n++
-      });
-    });
-    return out;
-  }, [entries, listing]);
-  const yearGroups = React.useMemo(() => {
-    if (!listing) return [{
-      year: 'all',
-      blocks
-    }];
-    const out = [];
-    blocks.forEach(b => {
-      let g = out[out.length - 1];
-      if (!g || g.year !== b.year) {
-        g = {
-          year: b.year,
-          blocks: []
-        };
-        out.push(g);
-      }
-      g.blocks.push(b);
-    });
-    return out;
-  }, [blocks, listing]);
-
-  /* Relevance, as the brief defines it: the lead discipline is one the finder
-     matched, or the sector is. Loose on purpose — a row that touches the
-     question at all belongs in the subset. */
-  const hasDialogue = !!(dialogue && ((dialogue.areas || []).length || (dialogue.sectors || []).length));
-  const lit = React.useMemo(() => {
-    if (!hasDialogue) return [];
-    const areas = new Set(dialogue.areas || []);
-    const sectors = new Set(dialogue.sectors || []);
-    const hit = [];
-    entries.forEach((e, i) => {
-      const lead = (e.disciplines || [])[0];
-      if (areas.has(lead) || sectors.has(e.sector)) hit.push(i);
-    });
-    return hit;
-  }, [entries, dialogue, hasDialogue]);
-  const litSet = React.useMemo(() => new Set(lit), [lit]);
-
-  /* The lists are read off the record itself rather than declared, so they
-     cannot name a term the field does not contain. Most-used first, ties by
-     name so the order is stable across loads. */
-  const termLists = React.useMemo(() => {
-    if (!termFilter) return {
-      work: [],
-      disc: []
-    };
-    const tally = get => {
-      const m = new Map();
-      entries.forEach(e => get(e).forEach(v => {
-        if (v) m.set(v, (m.get(v) || 0) + 1);
-      }));
-      return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv')).slice(0, termCount).map(([v, n]) => ({
-        v,
-        n
-      }));
-    };
-    return {
-      year: listing ? [...new Set(entries.map(e => e.year))].sort((a, b) => b - a).map(y => ({
-        v: String(y),
-        n: entries.filter(e => e.year === y).length
-      })) : [],
-      work: tally(e => [e.work]),
-      disc: tally(e => e.disciplines || [])
-    };
-  }, [entries, termFilter, termCount]);
-
-  /* The term filter belongs to the whole record, so it lives in the first
-     view only — the second one already has a filter and two would fight. */
-  const termOn = termFilter && view === 0 && !!term;
-  const termSet = React.useMemo(() => {
-    if (!termOn) return new Set();
-    const hit = new Set();
-    entries.forEach((e, i) => {
-      const match = term.kind === 'year' ? String(e.year) === term.v : term.kind === 'work' ? e.work === term.v : (e.disciplines || []).indexOf(term.v) >= 0;
-      if (match) hit.add(i);
-    });
-    return hit;
-  }, [entries, term, termOn]);
-  React.useEffect(() => {
-    const els = scrollRefs.current.filter(Boolean);
-    if (!els.length) return;
-    const check = () => {
-      const next = els.map(el => el.scrollHeight - el.scrollTop - el.clientHeight > 4);
-      setFade(prev => prev.length === next.length && prev.every((v, i) => v === next[i]) ? prev : next);
-    };
-    check();
-    const ro = new ResizeObserver(check);
-    els.forEach(el => {
-      ro.observe(el);
-      el.addEventListener('scroll', check, {
-        passive: true
-      });
-    });
-    window.addEventListener('resize', check);
-    return () => {
-      ro.disconnect();
-      els.forEach(el => el.removeEventListener('scroll', check));
-      window.removeEventListener('resize', check);
-    };
-  }, [termsOpen, termLists]);
-
-  /* The record prints once, on entry — never again on scroll-back. */
-  React.useEffect(() => {
-    const el = sectionRef.current;
-    if (!el || printed) return;
-    /* Threshold 0, not a fraction: the field is several viewports tall, so the
-       ratio of the section that can ever be on screen at once is smaller than
-       any fraction worth naming and the record would never print. The margin
-       is what delays the print until the block is properly entered. */
-    const io = new IntersectionObserver(es => {
-      if (es.some(e => e.isIntersecting)) {
-        setPrinted(true);
-        io.disconnect();
-      }
-    }, {
-      threshold: 0,
-      rootMargin: '-12% 0px'
-    });
-    io.observe(el);
-    return () => io.disconnect();
-  }, [printed]);
-
-  /* The filter reads as one hairline sweep down the field. */
-  React.useEffect(() => {
-    if (view !== 1 || !hasDialogue || reduced.current) {
-      setScan(-1);
-      return;
-    }
-    setScan(0);
-    const a = requestAnimationFrame(() => setScan(1));
-    const b = window.setTimeout(() => setScan(-1), 1300);
-    return () => {
-      cancelAnimationFrame(a);
-      window.clearTimeout(b);
-    };
-  }, [view, hasDialogue, lit]);
-  const move = d => {
-    setTouched(true);
-    const n = Math.min(entries.length - 1, Math.max(0, cursor + d));
-    setCursor(n);
-    const el = rowRefs.current[n];
-    if (el) el.focus({
-      preventScroll: true
-    });
-    if (rail && el && fieldRef.current) {
-      fieldRef.current.scrollTo({
-        left: el.offsetLeft,
-        behavior: reduced.current ? 'auto' : 'smooth'
-      });
-    } else if (vertical && el && fieldRef.current) {
-      const r = el.getBoundingClientRect();
-      const b = fieldRef.current.getBoundingClientRect();
-      tipTo(r.left + r.width / 2 - b.left, r.top - b.top);
-    }
-  };
-  const onKeyDown = e => {
-    if (vertical && (e.key === 'Enter' || e.key === ' ')) {
-      e.preventDefault();
-      if (pinned != null) unpin();else pin(cursor);
-      return;
-    }
-    if (vertical && e.key === 'Escape' && pinned != null) {
-      e.preventDefault();
-      unpin();
-      return;
-    }
-    if (vertical && pinned != null) return;
-    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-      e.preventDefault();
-      move(1);
-    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-      e.preventDefault();
-      move(-1);
-    } else if (e.key === 'Home') {
-      e.preventDefault();
-      move(-entries.length);
-    } else if (e.key === 'End') {
-      e.preventDefault();
-      move(entries.length);
-    }
-  };
-  const label = e => [e.year, e.client, e.sector, e.work, (e.disciplines || []).join(', ')].join(', ');
-  /* The bar is initialised with a real row, so the first hover cannot resize it. */
-  const current = entries[cursor] || entries[0];
-  const disc = current ? current.disciplines || [] : [];
-  /* Discipline cell: both readings ship, and CSS picks one — the full
-     comma-separated list in the desktop side column, the abbreviated form in
-     the panel that sits over the field on a small screen. */
-  const discCell = current && disc.length ? React.createElement(React.Fragment, null, React.createElement('span', {
-    'data-disc-full': ''
-  }, disc.join(', ')), React.createElement('span', {
-    'data-disc-short': ''
-  }, disc.length > 1 ? disc[0] + ' +' + (disc.length - 1) : disc[0])) : '';
-  /* The second view emphasises; the first is untouched. */
-  const relevant = view === 1 && hasDialogue;
-  /* Every line ends up as text on a narrow viewport, so that reading runs on
-     the taller row throughout. */
-  const pitch = touch || view === 1 || termOn ? PITCH_FILTERED : PITCH;
-  const terms = hasDialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
-  const sideLine = view === 1 ? hasDialogue ? relevanceLine.replace('{n}', String(lit.length)).replace('{total}', String(entries.length)) : '—' : termOn ? termLine.replace('{n}', String(termSet.size)).replace('{total}', String(entries.length)).replace('{term}', term.v) : allLine;
-  /* The year heads its block and client and sector are written on the line
-     itself, so the readout carries only what neither says. */
-  /* Until the visitor points at a line there is nothing to read out, and the
-     readout says so rather than standing on an arbitrary row. */
-  const readout = (touched || rail) && current ? [{
-    k: 'Typ av uppdrag',
-    v: current.work
-  }, {
-    k: 'Discipliner',
-    v: discCell,
-    hint: disc.join(', '),
-    wrap: true
-  }] : [{
-    k: 'Typ av uppdrag',
-    v: '—'
-  }, {
-    k: 'Discipliner',
-    v: '—',
-    wrap: true
-  }];
-
-  /* Desired pitch per visible tick, then one scale factor if the row would
-     overrun the measured width. Resting fields that fit are left as they are. */
-  const vPitch = {};
-  if (vertical && !rail) {
-    let sum = 0;
-    let groups = 0;
-    blocks.forEach(b => {
-      const rows = termOn ? b.rows.filter(r => termSet.has(r.i)) : b.rows;
-      if (!rows.length) return;
-      groups += 1;
-      const open = touched && b.rows.some(r => r.i === cursor);
-      rows.forEach(r => {
-        /* Pointing at the field opens the cursor's group, with a swell at the
-           cursor inside it, and closes the rest flat. */
-        const near = open ? Math.max(0, 1 - Math.abs(r.i - cursor) / V_PROX_R) : 0;
-        const w = open ? V_PITCH_OPEN + V_PROX * near * near : touched ? V_PITCH_REST : V_PITCH;
-        vPitch[r.i] = w;
-        sum += w;
-      });
-    });
-    const avail = fieldBox.w - Math.max(0, groups - 1) * fieldBox.gap;
-    if (fieldBox.w && sum > avail && avail > 0) {
-      const k = avail / sum;
-      Object.keys(vPitch).forEach(i => {
-        vPitch[i] *= k;
-      });
-    }
-  }
-  return /*#__PURE__*/React.createElement("section", {
-    id: id,
-    ref: sectionRef,
-    style: {
-      paddingBlock: 'var(--section-gap)',
-      ...(flushTop ? {
-        paddingBlockStart: 0
-      } : null),
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      alignItems: 'start',
-      rowGap: 'var(--space-5)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    "data-record-head": true,
-    className: "place-body-wide",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-3)',
-      ...(index || title || premise || secondLine || allLabel ? null : {
-        marginBlockEnd: 'calc(-1 * var(--space-5))'
-      })
-    }
-  }, index ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, index) : null, title ? /*#__PURE__*/React.createElement("h2", {
-    className: "display-2"
-  }, title) : null, premise ? /*#__PURE__*/React.createElement("p", {
-    className: "prose"
-  }, premise) : null, secondLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: allHref,
-    variant: "secondary",
-    style: {
-      alignSelf: 'start',
-      fontSize: 'var(--text-small)'
-    },
-    onClick: allHref ? undefined : ev => ev.preventDefault()
-  }, allLabel) : null), /*#__PURE__*/React.createElement("div", {
-    "data-record-switch": true,
-    className: "place-body-wide",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-2)'
-    }
-  }, views ? /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
-    label: "Vy",
-    tabs: viewLabels.map((v, i) => ({
-      id: String(i),
-      label: i === 1 && hasDialogue ? v + ' *' : v
-    })),
-    value: String(view),
-    onChange: v => setView(Number(v))
-  }) : null, view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, emptyBody), /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: finderHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: onAsk ? ev => {
-      ev.preventDefault();
-      onAsk();
-    } : undefined
-  }, emptyLinkLabel)) :
-  /*#__PURE__*/
-  /* Count and filter read as one line: what is shown, and what it
-     was filtered on. */
-  /* Proportional figures: the count does not tick, and Circular's
-     tabular digits carry side bearings wide enough to read as broken
-     word spacing inside a sentence. */
-  React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, sideLine, relevant ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', filterLabel, ": ", terms.join(', ')) : null, termOn ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTerm(null),
-    style: {
-      ...TERM_BTN,
-      display: 'inline',
-      width: 'auto',
-      color: 'var(--text-secondary)',
-      textDecoration: 'underline',
-      textUnderlineOffset: '0.2em'
-    }
-  }, termResetLabel)) : null), relevant ? /*#__PURE__*/React.createElement(React.Fragment, null, filterNote ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, filterNote) : null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: 'var(--space-3)'
-    }
-  }, onReset ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: "#",
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: ev => {
-      ev.preventDefault();
-      onReset();
-      setView(0);
-    }
-  }, resetLabel) : null, onAsk ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: finderHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: ev => {
-      ev.preventDefault();
-      onAsk();
-    }
-  }, askAgainLabel) : null)) : null), termFilter && view === 0 ? /*#__PURE__*/React.createElement("div", {
-    "data-record-terms": true
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTermsOpen(!termsOpen),
-    onMouseEnter: () => setTermsWarm(true),
-    onMouseLeave: () => setTermsWarm(false),
-    onFocus: () => setTermsWarm(true),
-    onBlur: () => setTermsWarm(false),
-    "aria-expanded": termsOpen ? 'true' : 'false',
-    "aria-label": termToggleLabel,
-    className: "target",
-    style: {
-      gap: 8,
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      position: 'relative',
-      display: 'block',
-      flex: '0 0 auto',
-      width: 14,
-      height: 14
-    }
-  }, termsOpen ? [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-    key: d,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 'calc(50% - 0.5px)',
-      width: 14,
-      height: 1,
-      background: 'var(--ink)',
-      transform: 'rotate(' + d + 'deg)'
-    }
-  })) : [14, 10, 6].map((w, n) => /*#__PURE__*/React.createElement("span", {
-    key: w,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 2.5 + n * 4,
-      width: w,
-      height: 1,
-      background: termsWarm ? 'var(--ink)' : 'var(--text-secondary)',
-      transition: 'background var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'block',
-      whiteSpace: 'nowrap'
-    }
-  }, termToggleLabel), term && !termsOpen ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      width: 4,
-      height: 4,
-      borderRadius: '50%',
-      background: 'var(--ink)'
-    }
-  }) : null), /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-list": true,
-    ref: termsListRef,
-    "data-open": termsOpen ? '' : undefined,
-    "aria-hidden": termsOpen ? 'false' : 'true'
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-5)'
-    }
-  }, [].concat(listing ? [{
-    h: yearHeading,
-    kind: 'year',
-    list: termLists.year
-  }] : [], [{
-    h: workHeading,
-    kind: 'work',
-    list: termLists.work
-  }, {
-    h: discHeading,
-    kind: 'disc',
-    list: termLists.disc
-  }]).map((g, gi) => /*#__PURE__*/React.createElement("div", {
-    key: g.kind
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      ...KEY_CELL,
-      marginBlockEnd: 'var(--space-3)'
-    }
-  }, g.h), /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-scroll": "",
-    ref: el => {
-      scrollRefs.current[gi] = el;
-    },
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      maskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none',
-      WebkitMaskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none'
-    }
-  }, g.list.map(t => {
-    const active = !!term && term.kind === g.kind && term.v === t.v;
-    return /*#__PURE__*/React.createElement("button", {
-      key: t.v,
-      type: "button",
-      "aria-pressed": active,
-      onClick: () => setTerm(active ? null : {
-        kind: g.kind,
-        v: t.v
-      }),
-      style: {
-        ...TERM_BTN,
-        display: 'flex',
-        alignItems: 'baseline',
-        gap: 0,
-        paddingBlock: '0.18rem',
-        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
-        fontWeight: active ? 'var(--weight-medium)' : 'var(--weight-book)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      "aria-hidden": "true",
-      style: {
-        position: 'relative',
-        flex: '0 0 auto',
-        alignSelf: 'center',
-        overflow: 'hidden',
-        width: active ? 11 : 0,
-        height: 11,
-        opacity: active ? 1 : 0,
-        marginInlineEnd: active ? 8 : 0,
-        transition: 'width var(--dur-fast) var(--ease-expo), margin-inline-end var(--dur-fast) var(--ease-expo), opacity var(--dur-fast) var(--ease-expo)'
-      }
-    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-      key: d,
-      style: {
-        position: 'absolute',
-        left: 0,
-        top: 'calc(50% - 0.5px)',
-        width: 11,
-        height: 1,
-        background: 'var(--ink)',
-        transform: 'rotate(' + d + 'deg)'
-      }
-    }))), /*#__PURE__*/React.createElement("span", {
-      style: {
-        flex: '1 1 auto',
-        minWidth: 0,
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        whiteSpace: 'nowrap'
-      }
-    }, t.v), /*#__PURE__*/React.createElement("span", {
-      style: {
-        flex: '0 0 auto',
-        marginInlineStart: 'var(--space-2)',
-        paddingInlineEnd: '2px',
-        fontVariantNumeric: 'tabular-nums',
-        opacity: 0.7
-      }
-    }, t.n));
-  })))))))) : null, /*#__PURE__*/React.createElement("div", {
-    "data-record-body": true,
-    "data-rail": rail ? '' : undefined,
-    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined
-  }, /*#__PURE__*/React.createElement("div", {
-    "data-record-side": true,
-    ref: sideRef
-  }, /*#__PURE__*/React.createElement("div", {
-    role: "status",
-    "aria-live": "polite",
-    "data-record-readout": true
-  }, readout.map(r => /*#__PURE__*/React.createElement("div", {
-    key: r.k
-  }, /*#__PURE__*/React.createElement("div", {
-    style: KEY_CELL
-  }, r.k), /*#__PURE__*/React.createElement("div", {
-    "data-record-val": r.wrap ? 'wrap' : '',
-    style: r.wrap ? DISC_CELL : VAL_CELL,
-    title: r.hint
-  }, r.v))))), /*#__PURE__*/React.createElement("div", {
-    "data-record-field": true,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)'
-    }
-  }, lead ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, lead) : null, readingRule ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, readingRule) : null, vertical ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: 'relative'
-    }
-  }, rail ? /*#__PURE__*/React.createElement("div", {
-    ref: markRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      bottom: 0,
-      width: BAR_ACTIVE,
-      height: R_HEIGHT + V_LIFT,
-      background: 'var(--ink)',
-      zIndex: 2,
-      pointerEvents: 'none',
-      opacity: printed && railHit ? 1 : 0,
-      transition: 'height var(--dur-fast) var(--ease-quart), opacity 90ms linear'
-    }
-  }) : null, /*#__PURE__*/React.createElement("div", {
-    ref: fieldRef,
-    "data-record-rail": rail ? '' : undefined,
-    style: {
-      position: 'relative',
-      display: 'flex',
-      flexWrap: 'nowrap',
-      alignItems: 'flex-start',
-      columnGap: rail ? 'var(--space-6)' : 'var(--space-5)',
-      rowGap: 'var(--space-4)',
-      cursor: rail ? 'default' : pinned != null ? CLOSE_CURSOR : 'default',
-      ...(rail ? {
-        /* Bleeds off the right margin, so the rail reads as running on
-           past the screen; the fade says the same while there is more. */
-        marginInlineEnd: 'calc(-1 * var(--margin))',
-        overflowX: 'auto',
-        overflowY: 'hidden',
-        scrollSnapType: 'x mandatory',
-        overscrollBehaviorX: 'contain',
-        scrollbarWidth: 'none',
-        WebkitOverflowScrolling: 'touch',
-        maskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none',
-        WebkitMaskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none'
-      } : null)
-    },
-    onKeyDown: onKeyDown,
-    onClick: ev => {
-      if (rail) {
-        /* A tap brings its line to the edge, which is what reads it. */
-        const t = ev.target.closest && ev.target.closest('[data-tick]');
-        if (t) ev.currentTarget.scrollTo({
-          left: t.offsetLeft,
-          behavior: reduced.current ? 'auto' : 'smooth'
-        });
-        return;
-      }
-      if (pinned != null) {
-        unpin();
-        return;
-      }
-      const t = ev.target.closest && ev.target.closest('[data-tick]');
-      if (t) pin(Number(t.getAttribute('data-tick')));
-    },
-    onMouseMove: ev => {
-      if (rail || pinned != null) return;
-      const b = ev.currentTarget.getBoundingClientRect();
-      tipTo(ev.clientX - b.left, ev.clientY - b.top);
-    },
-    onMouseLeave: ev => {
-      if (rail || pinned != null) return;
-      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
-    }
-  }, blocks.map(b => {
-    const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
-    const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
-    if (termOn && !anyTerm) return null;
-    const groupOpen = touched && b.rows.some(r => r.i === cursor);
-    return /*#__PURE__*/React.createElement("div", {
-      key: b.year,
-      style: {
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 'var(--space-2)',
-        flex: '0 0 auto',
-        minWidth: 0
-      }
-    }, /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        whiteSpace: 'nowrap',
-        width: 0,
-        overflow: 'visible',
-        fontVariantNumeric: 'tabular-nums',
-        opacity: view === 1 && !anyLit ? 0.14 : 1,
-        transition: 'opacity var(--dur-fast) var(--ease-quart)',
-        ...(rail ? {
-          position: 'sticky',
-          left: 0,
-          width: 'auto',
-          alignSelf: 'flex-start',
-          zIndex: 1,
-          background: 'var(--paper)',
-          paddingInlineEnd: 'var(--space-2)',
-          color: groupOpen ? 'var(--ink)' : undefined
-        } : null)
-      }
-    }, b.year), /*#__PURE__*/React.createElement("div", {
-      style: {
-        display: 'flex',
-        flexWrap: 'nowrap',
-        alignItems: 'flex-end'
-      }
-    }, b.rows.map(e => {
-      /* On the rail the fixed marker is the active line. */
-      const on = cursor === e.i && touched && !rail;
-      const matched = relevant && litSet.has(e.i);
-      const hitTerm = termOn && termSet.has(e.i);
-      if (termOn && !hitTerm) return null;
-      const rowOpacity = !printed ? 0 : pinned != null ? e.i === pinned ? 1 : 0.22 : view === 1 ? matched ? 1 : 0.14 : 1;
-      const pitchW = rail ? R_PITCH : vPitch[e.i] || V_PITCH;
-      const tickH = rail ? R_HEIGHT : V_HEIGHT;
-      return /*#__PURE__*/React.createElement("div", {
-        key: e.i,
-        ref: el => {
-          rowRefs.current[e.i] = el;
-        },
-        "data-tick": e.i,
-        tabIndex: e.i === cursor ? 0 : -1,
-        "aria-label": label(e),
-        "aria-pressed": pinned === e.i ? 'true' : 'false',
-        onMouseEnter: () => {
-          if (rail || pinned != null) return;
-          setCursor(e.i);
-          setTouched(true);
-        },
-        onFocus: () => {
-          if (rail || pinned != null) return;
-          setCursor(e.i);
-          setTouched(true);
-        },
-        style: {
-          position: 'relative',
-          width: pitchW,
-          height: tickH + V_LIFT,
-          flex: '0 0 auto',
-          display: 'flex',
-          alignItems: 'flex-end',
-          justifyContent: rail ? 'flex-start' : 'center',
-          scrollSnapAlign: rail ? 'start' : undefined,
-          cursor: 'inherit',
-          outline: 'none',
-          opacity: rowOpacity,
-          transition: 'opacity var(--dur-medium) var(--ease-quart), width var(--dur-medium) var(--ease-quart)',
-          transitionDelay: printed && !reduced.current ? e.i * 6 + 'ms, 0ms' : '0ms'
-        }
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          width: on ? BAR_ACTIVE : BAR,
-          height: on ? tickH + V_LIFT : tickH,
-          background: on || hitTerm || matched ? 'var(--ink)' : 'var(--underline-rest-secondary)',
-          transition: 'height var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)',
-          pointerEvents: 'none'
-        }
-      }));
-    })));
-  }), rail ? /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": "true",
-    style: {
-      flex: '0 0 auto',
-      width: 'calc(100% - ' + R_PITCH + 'px - var(--space-6))',
-      height: 1
-    }
-  }) : null, /*#__PURE__*/React.createElement("div", {
-    ref: tipRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 0,
-      pointerEvents: 'none',
-      zIndex: 2,
-      willChange: 'transform'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "small",
-    style: {
-      transform: 'translate(14px, calc(-100% - 14px))',
-      whiteSpace: 'nowrap',
-      background: 'var(--paper, var(--ground-page))',
-      paddingBlock: '0.3rem',
-      paddingInline: '0.55rem',
-      color: 'var(--text-primary)',
-      fontWeight: 'var(--weight-medium)',
-      opacity: touched && current && pinned == null && !rail ? 1 : 0,
-      transition: 'opacity var(--dur-fast) var(--ease-quart)'
-    }
-  }, current ? current.client : '')))) : /*#__PURE__*/React.createElement("div", {
-    ref: fieldRef,
-    style: {
-      position: 'relative',
-      display: 'flex',
-      flexDirection: 'column'
-    },
-    onKeyDown: onKeyDown,
-    onMouseMove: listing ? ev => {
-      listPtr.current = {
-        x: ev.clientX,
-        y: ev.clientY
-      };
-      const el = pointerRef.current;
-      if (!el) return;
-      el.style.transform = 'translate3d(' + ev.clientX + 'px,' + ev.clientY + 'px,0)';
-    } : undefined,
-    onMouseLeave: ev => {
-      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
-    }
-  }, yearGroups.map(yg => {
-    const yearShut = termOn && !yg.blocks.some(b => b.rows.some(r => termSet.has(r.i)));
-    return /*#__PURE__*/React.createElement("div", {
-      key: 'y' + yg.year,
-      style: {
-        position: 'relative'
-      }
-    }, listing ?
-    /*#__PURE__*/
-    /* The year heads its months and stays in view while they pass. */
-    React.createElement("div", {
-      style: {
-        display: 'grid',
-        gridTemplateRows: yearShut ? '0fr' : '1fr',
-        position: 'sticky',
-        top: yearTop,
-        zIndex: 2,
-        marginBlockEnd: yearShut ? 0 : 'var(--space-5)',
-        background: 'var(--paper)',
-        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("div", {
-      "aria-hidden": "true",
-      style: {
-        position: 'absolute',
-        left: 0,
-        right: 0,
-        bottom: '100%',
-        height: yearTop,
-        background: 'var(--paper)',
-        pointerEvents: 'none'
-      }
-    }), /*#__PURE__*/React.createElement("div", {
-      style: {
-        overflow: 'hidden',
-        minHeight: 0
-      }
-    }, /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        fontVariantNumeric: 'tabular-nums',
-        fontWeight: 'var(--weight-medium)',
-        color: 'var(--ink)',
-        paddingBlock: 'var(--space-1)'
-      }
-    }, yg.year, /*#__PURE__*/React.createElement("span", {
-      "data-year-baseline": "",
-      style: {
-        display: 'inline-block',
-        width: 0,
-        height: 0
-      }
-    })))) : null, yg.blocks.map(b => {
-      const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
-      const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
-      /* A term filter takes the rest of the record away rather than
-         dimming it: years with nothing in the subset fold shut, and
-         the register closes up around what is left. */
-      const blockShut = termOn && !anyTerm;
-      return /*#__PURE__*/React.createElement("div", {
-        key: b.key,
-        style: {
-          display: 'grid',
-          gridTemplateRows: blockShut ? '0fr' : '1fr',
-          transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-        }
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          overflow: 'hidden',
-          minHeight: 0,
-          paddingBlockEnd: blockShut ? 0 : listing ? 'var(--space-4)' : 'var(--space-3)',
-          transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
-        }
-      }, /*#__PURE__*/React.createElement("p", {
-        className: "small",
-        style: {
-          fontVariantNumeric: 'tabular-nums',
-          marginBlockEnd: listing ? 'var(--space-1)' : 'var(--space-2)',
-          marginBlockStart: listing ? 'var(--space-3)' : 0,
-          color: listing ? 'var(--ink)' : undefined,
-          opacity: view === 1 && !anyLit ? 0.14 : 1,
-          transition: 'opacity var(--dur-fast) var(--ease-quart)'
-        }
-      }, b.label), /*#__PURE__*/React.createElement("div", null, b.rows.map(e => {
-        /* Nothing is under the cursor until the visitor has
-           actually pointed: the default cursor row must not read
-           as the active one. */
-        const on = cursor === e.i && touched;
-        /* Every match carries its title, so a solid line always
-           has something written next to it. */
-        const matched = relevant && litSet.has(e.i);
-        /* A term match is exposed the same way a dialogue match
-           is: it carries its title and keeps full weight while
-           the rest of the field recedes. */
-        const hitTerm = termOn && termSet.has(e.i);
-        const labelled = view === 1 ? matched || on && !touch : termOn ? hitTerm || on
-        /* Text above the focal band, lines below it: scrolling
-           down sets the reading, scrolling back up returns it. */ : on || touch && e.i <= cursor;
-        const rowShut = termOn && !hitTerm;
-        const rowOpacity = !printed ? 0 : view === 1 ? matched ? 1 : 0.14 : rowShut ? 0 : 1;
-        if (listing) return renderListRow(e, on, rowShut, rowOpacity);
-        return /*#__PURE__*/React.createElement("div", {
-          key: e.i,
-          ref: el => {
-            rowRefs.current[e.i] = el;
-          },
-          tabIndex: e.i === cursor ? 0 : -1,
-          "aria-label": label(e),
-          title: (e.disciplines || []).join(', '),
-          onMouseEnter: () => {
-            setCursor(e.i);
-            setTouched(true);
-          },
-          onFocus: () => {
-            setCursor(e.i);
-            setTouched(true);
-          },
-          style: {
-            position: 'relative',
-            height: rowShut ? 0 : on ? pitch + FAN : pitch,
-            cursor: 'default',
-            outline: 'none',
-            overflow: rowShut ? 'hidden' : 'visible',
-            pointerEvents: rowShut ? 'none' : undefined,
-            opacity: rowOpacity,
-            transition: 'opacity var(--dur-fast) var(--ease-quart), height var(--dur-fast) var(--ease-quart)',
-            transitionDelay: printed && !reduced.current ? e.i * 8 + 'ms, 0ms' : '0ms'
-          }
-        }, /*#__PURE__*/React.createElement("div", {
-          style: {
-            position: 'absolute',
-            inset: 0,
-            display: 'flex',
-            alignItems: 'center',
-            gap: 'var(--space-2)',
-            pointerEvents: 'none'
-          }
-        }, labelled ? /*#__PURE__*/React.createElement("span", {
-          className: "small",
-          style: {
-            flex: '0 1 auto',
-            minWidth: 0,
-            maxWidth: 'none',
-            whiteSpace: 'nowrap',
-            fontWeight: on ? 'var(--weight-medium)' : 'var(--weight-book)',
-            color: on ? 'var(--text-primary)' : 'var(--text-secondary)'
-          }
-        }, e.client, e.sector ? /*#__PURE__*/React.createElement("span", {
-          style: {
-            paddingInline: '0.6em',
-            color: 'var(--text-secondary)'
-          }
-        }, "/") : null, e.sector) : null, /*#__PURE__*/React.createElement("div", {
-          style: {
-            flex: '1 1 12px',
-            minWidth: 0,
-            height: on ? BAR_ACTIVE : BAR,
-            background: on ? 'var(--ink)' : 'var(--underline-rest-secondary)',
-            transition: 'height var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)'
-          }
-        })), /*#__PURE__*/React.createElement("div", {
-          style: {
-            position: 'absolute',
-            left: 0,
-            right: 0,
-            top: -1,
-            bottom: -1
-          }
-        }));
-      }))));
-    }));
-  }), scan >= 0 ? /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      right: 0,
-      top: scan * 100 + '%',
-      height: 1,
-      background: 'var(--ink)',
-      pointerEvents: 'none',
-      transition: scan ? 'top 1100ms var(--ease-quart)' : 'none'
-    }
-  }) : null, listing && !touch ? /*#__PURE__*/React.createElement("div", {
-    ref: pointerRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'fixed',
-      left: 0,
-      top: 0,
-      pointerEvents: 'none',
-      zIndex: 3
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      gap: 'var(--space-1)',
-      whiteSpace: 'nowrap',
-      transform: 'translate(-2px, -50%)',
-      color: 'var(--ink)',
-      fontWeight: 'var(--weight-medium)',
-      opacity: touched && expanded === cursor ? 1 : 0,
-      transition: 'opacity var(--dur-fast) var(--ease-quart)'
-    }
-  }, openLabel, /*#__PURE__*/React.createElement("svg", {
-    width: "16",
-    height: "10",
-    viewBox: "0 0 16 10",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: "1",
-    "aria-hidden": "true"
-  }, /*#__PURE__*/React.createElement("path", {
-    d: "M0 5h15M11 1l4 4-4 4"
-  }))), touched && ringOn && pending != null ? /*#__PURE__*/React.createElement("svg", {
-    key: pending,
-    width: "16",
-    height: "16",
-    viewBox: "0 0 16 16",
-    fill: "none",
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 0,
-      transform: 'translate(-50%, -50%)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("circle", {
-    cx: "8",
-    cy: "8",
-    r: "6",
-    stroke: "var(--rule-hairline)",
-    strokeWidth: "1.5"
-  }), /*#__PURE__*/React.createElement("circle", {
-    cx: "8",
-    cy: "8",
-    r: "6",
-    stroke: "currentColor",
-    strokeWidth: "1.5",
-    strokeLinecap: "round",
-    strokeDasharray: "37.7",
-    strokeDashoffset: "37.7",
-    transform: "rotate(-90 8 8)",
-    ref: el => {
-      if (el && !el._run) {
-        el._run = true;
-        const d = DWELL - RING_WAIT;
-        el.animate([{
-          strokeDashoffset: 37.7 * d / DWELL
-        }, {
-          strokeDashoffset: 0
-        }], {
-          duration: d,
-          easing: 'linear',
-          fill: 'forwards'
-        });
-        el.parentNode.animate([{
-          opacity: 0
-        }, {
-          opacity: 1
-        }], {
-          duration: 120,
-          easing: 'ease-out',
-          fill: 'forwards'
-        });
-      }
-    }
-  })) : null) : null), vertical ?
-  /*#__PURE__*/
-  /* The case under the cursor. Opens on first approach, holds while
-     the pointer is on the lines, and folds shut when it leaves them.
-     A pin keeps it open and adds the body. */
-  /* SM rail: the case reads above the lines, so the rail sits where
-     the thumb is. It is open from the start on the first line, so it
-     never folds out and pushes the rail down mid-scroll. */
-  React.createElement("div", {
-    "data-record-case": true,
-    style: {
-      display: 'grid',
-      gridTemplateRows: (touched || rail) && current ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)',
-      ...(rail ? {
-        order: -1,
-        paddingBlockStart: 'var(--rail-gap, var(--space-5))'
-      } : null)
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: caseRef,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-3)',
-      maxWidth: '44rem',
-      paddingBlockStart: 'var(--space-2)'
-    }
-  }, rail && current ? /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    style: KEY_CELL
-  }, clientLabel), /*#__PURE__*/React.createElement("div", {
-    style: VAL_CELL
-  }, current.client)) : null, current && (current.title || rail) ? /*#__PURE__*/React.createElement("h3", {
-    style: {
-      margin: 0,
-      fontFamily: 'var(--font-display)',
-      fontWeight: 'normal',
-      fontSize: 'var(--display-3)',
-      lineHeight: 1.1,
-      color: 'var(--ink)',
-      textWrap: 'pretty',
-      ...(rail && pinned == null ? {
-        height: 'calc(var(--rail-title-lines, 3) * 1lh)',
-        overflow: 'hidden',
-        display: '-webkit-box',
-        WebkitBoxOrient: 'vertical',
-        WebkitLineClamp: 'var(--rail-title-lines, 3)'
-      } : null)
-    }
-  }, current.title) : null, current && (current.preamble || rail) ? /*#__PURE__*/React.createElement("p", {
-    className: "prose",
-    style: rail && pinned == null ? {
-      height: 'calc(var(--rail-pre-lines, 4) * 1lh)',
-      overflow: 'hidden',
-      display: '-webkit-box',
-      WebkitBoxOrient: 'vertical',
-      WebkitLineClamp: 'var(--rail-pre-lines, 4)'
-    } : undefined
-  }, current.preamble) : null, rail && readMoreLabel ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: current && current.href || caseHref,
-    variant: "secondary",
-    tabIndex: 0,
-    style: {
-      fontSize: 'var(--text-small)'
-    }
-  }, readMoreLabel)) : null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateRows: pinned != null ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)',
-      paddingBlockStart: 'var(--space-3)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: bodyRef,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)',
-      maxHeight: '40rem',
-      overflow: 'hidden',
-      maskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none',
-      WebkitMaskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none'
-    }
-  }, current && current.body ? current.body.split(/\n\s*\n/).map((p, n) => /*#__PURE__*/React.createElement("p", {
-    key: 'b' + n,
-    className: "prose",
-    style: {
-      whiteSpace: 'pre-line'
-    }
-  }, p)) : null, current && current.figures && current.figures.length ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: 'var(--space-3) var(--space-5)'
-    }
-  }, current.figures.map((f, n) => /*#__PURE__*/React.createElement("div", {
-    key: n,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-0)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      fontFamily: 'var(--font-display)',
-      fontSize: 'var(--display-3)',
-      lineHeight: 1.1,
-      color: 'var(--ink)'
-    }
-  }, f.value), /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, f.label)))) : null, current && (current.team || []).length ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-0)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, teamLabel), /*#__PURE__*/React.createElement("p", {
-    className: "prose"
-  }, current.team.join(', '))) : null, current && current.note ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, current.note) : null))))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateRows: pinned != null ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      marginBlockStart: 'var(--space-4)'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: "#",
-    variant: "secondary",
-    tabIndex: pinned != null ? 0 : -1,
-    onClick: ev => {
-      ev.preventDefault();
-      unpin();
-    },
-    style: {
-      fontSize: 'var(--text-small)'
-    }
-  }, closeLabel)), /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": "true",
-    style: {
-      height: 1,
-      marginBlockStart: 'var(--space-5)',
-      background: 'var(--underline-rest-secondary)'
-    }
-  }))))) : null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'baseline',
-      gap: 'var(--space-2)'
-    }
-  }, closingLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, closingLine) : null, actionLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: actionHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    }
-  }, actionLabel) : null)))));
-}
-Object.assign(__ds_scope, { Record });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/darkGround.jsx
 try { (() => {
@@ -4768,7 +2788,7 @@ Object.assign(__ds_scope, { publishHeaderActions, useHeaderActions });
 
 // components/core/markLibrary.jsx
 try { (() => {
-/* The line-mark library, 16 marks / 46 parts, imported verbatim from the
+/* The line-mark library, 15 marks / 43 parts, imported verbatim from the
    source SVGs (assets/marks.json is the same data). Every mark is on a
    0 0 100 100 viewBox; every part has exactly one path, a draw `order` and an
    `axis` unit vector giving the direction that part naturally travels. */
@@ -4795,20 +2815,20 @@ const MARKS = {
   'arcs-split': {
     viewBox: '0 0 100 100',
     parts: [{
-      part: 'arc-left',
+      part: 'curve-left',
       axis: [-1, 0],
       order: 0,
-      d: 'M 22.742 22.742 A 27.258 27.258 0 0 1 22.742 77.258'
+      d: 'M 12 20 C 34 20 42 42 50 50 C 58 58 66 80 88 80'
     }, {
-      part: 'arc-right',
+      part: 'curve-right',
       axis: [1, 0],
       order: 1,
-      d: 'M 77.258 22.742 A 27.258 27.258 0 0 0 77.258 77.258'
+      d: 'M 88 20 C 66 20 58 42 50 50 C 42 58 34 80 12 80'
     }, {
       part: 'axis',
       axis: [0, 0],
       order: 2,
-      d: 'M 50 10 L 50 90'
+      d: 'M 50 5 L 50 95'
     }]
   },
   'circle-baseline': {
@@ -4861,25 +2881,6 @@ const MARKS = {
       axis: [0, 0],
       order: 2,
       d: 'M 22 50 L 78 50'
-    }]
-  },
-  'circles-tangent': {
-    viewBox: '0 0 100 100',
-    parts: [{
-      part: 'circle-left',
-      axis: [-1, 0],
-      order: 0,
-      d: 'M 30 30 A 20 20 0 0 1 30 70 A 20 20 0 0 1 30 30 Z'
-    }, {
-      part: 'circle-right',
-      axis: [1, 0],
-      order: 1,
-      d: 'M 70 30 A 20 20 0 0 1 70 70 A 20 20 0 0 1 70 30 Z'
-    }, {
-      part: 'axis',
-      axis: [0, 0],
-      order: 2,
-      d: 'M 50 18 L 50 82'
     }]
   },
   'diamond-split': {
@@ -5066,9 +3067,111 @@ const MARKS = {
       order: 2,
       d: 'M 50 10 L 50 90'
     }]
+  },
+  /* Contact candidates, under review for the subscribe block
+     (templates/news-listing/Contact mark options.html). Not in MARK_NAMES or
+     marks.json: the chosen one is promoted there and the rest are removed. */
+  'arcs-close': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'arc-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 50 20 A 30 30 0 0 0 50 80'
+    }, {
+      part: 'arc-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 50 20 A 30 30 0 0 1 50 80'
+    }, {
+      part: 'axis',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 8 L 50 92'
+    }]
+  },
+  'corners-hold': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'corner-top',
+      axis: [-0.7071, -0.7071],
+      order: 0,
+      d: 'M 18 62 L 18 18 L 62 18'
+    }, {
+      part: 'corner-bottom',
+      axis: [0.7071, 0.7071],
+      order: 1,
+      d: 'M 82 38 L 82 82 L 38 82'
+    }, {
+      part: 'chord',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 32 68 L 68 32'
+    }]
+  },
+  'diamonds-tangent': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'diamond-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 26 26 L 50 50 L 26 74 L 2 50 Z'
+    }, {
+      part: 'diamond-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 74 26 L 98 50 L 74 74 L 50 50 Z'
+    }]
+  },
+  'lines-overlap': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'line-top',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 8 42 L 64 42'
+    }, {
+      part: 'line-bottom',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 36 58 L 92 58'
+    }, {
+      part: 'bridge',
+      axis: [0, 0],
+      order: 2,
+      d: 'M 50 42 L 50 58'
+    }]
+  },
+  'square-circle': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'square',
+      axis: [-0.7071, -0.7071],
+      order: 0,
+      d: 'M 37 14 L 60 14 L 60 60 L 14 60 L 14 14 Z'
+    }, {
+      part: 'circle',
+      axis: [0.7071, 0.7071],
+      order: 1,
+      d: 'M 62 38 A 24 24 0 0 1 62 86 A 24 24 0 0 1 62 38 Z'
+    }]
+  },
+  'curves-join': {
+    viewBox: '0 0 100 100',
+    parts: [{
+      part: 'curve-left',
+      axis: [-1, 0],
+      order: 0,
+      d: 'M 10 86 C 10 62 26 50 50 50'
+    }, {
+      part: 'curve-right',
+      axis: [1, 0],
+      order: 1,
+      d: 'M 90 14 C 90 38 74 50 50 50'
+    }]
   }
 };
-const MARK_NAMES = ["arch-aperture", "arcs-split", "circle-baseline", "circles-chord", "circles-stack", "circles-tangent", "diamond-split", "diamonds-overlap", "panels-fold", "pills-pair", "pills-split", "square-arcs", "square-inscribed", "star-radial", "tri-radial", "triangle-axis"];
+const MARK_NAMES = ["arch-aperture", "arcs-split", "circle-baseline", "circles-chord", "circles-stack", "diamond-split", "diamonds-overlap", "panels-fold", "pills-pair", "pills-split", "square-arcs", "square-inscribed", "star-radial", "tri-radial", "triangle-axis"];
 Object.assign(__ds_scope, { MARKS, MARK_NAMES });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/markLibrary.jsx", error: String((e && e.message) || e) }); }
 
@@ -5078,9 +3181,12 @@ const EMPTY = {};
 const DUR_TRAVEL = 900; /* travel and trim */
 const DUR_WEIGHT = 700; /* stroke weight */
 const TAU = Math.PI * 2;
+/* The click: a turn that runs a hair past its mark and settles back, like a
+   dial landing in its detent. */
+const CLICK = 'cubic-bezier(0.6, -0.05, 0.2, 1.3)';
 
 /* One media query for the whole page, not one per mark: the field mode mounts
-   sixteen marks at once, and sixteen listeners plus sixteen state updates on
+   every mark at once, and one listener plus one state updates on
    every beat change is enough work to make a crossfade land late. */
 const motionSubs = new Set();
 let motionMq = null;
@@ -5139,8 +3245,8 @@ function pacedProgress(x) {
 
 /* One mark, inline. Colour is currentColor, so the mark inherits whatever text
    colour sits on its container; weight is --stroke on the svg, in viewBox
-   units. Three axes and only three: weight, trim, and part travel along each
-   part's own axis. */
+   units. Four axes: weight, trim, part travel along each part's own axis,
+   and part rotation about its own centre. */
 const Mark = React.memo(function Mark({
   name = 'circles-chord',
   state,
@@ -5160,6 +3266,8 @@ const Mark = React.memo(function Mark({
   const weights = s.w || EMPTY;
   const base = s.base != null ? s.base : stroke;
   const draw = s.draw || null;
+  const rotate = s.rotate || EMPTY;
+  const fade = s.fade || EMPTY;
   const paths = React.useRef({});
   const cur = React.useRef({});
   const trimKey = JSON.stringify(trim) + '|' + replay;
@@ -5290,6 +3398,11 @@ const Mark = React.memo(function Mark({
   }, [drawKey, reduced, applyDash]);
   if (!mark) return null;
   const travel = reduced ? 0 : DUR_TRAVEL;
+  const rDur = reduced ? 0 : s.rotateDur != null ? s.rotateDur : DUR_TRAVEL;
+  const moveDelay = reduced ? 0 : s.moveDelay || 0;
+  const moveDur = reduced ? 0 : s.moveDur != null ? s.moveDur : travel;
+  const moveEase = s.moveEase === 'click' ? CLICK : s.moveEase === 'expo' ? 'var(--ease-expo)' : 'var(--ease-quart)';
+  const fadeDur = reduced ? 0 : s.fadeDur != null ? s.fadeDur : travel;
   const wDur = reduced ? 0 : DUR_WEIGHT;
   return /*#__PURE__*/React.createElement("svg", {
     ref: svgRef,
@@ -5312,13 +3425,20 @@ const Mark = React.memo(function Mark({
     const tx = k ? p.axis[0] * k : 0;
     const ty = k ? p.axis[1] * k : 0;
     const w = weights[p.part];
+    const r = rotate[p.part] || 0;
+    const o = fade[p.part] != null ? fade[p.part] : 1;
     return /*#__PURE__*/React.createElement("g", {
       key: p.part,
       "data-part": p.part,
       "data-axis": p.axis.join(' '),
       style: {
-        transform: `translate(${tx}px, ${ty}px)`,
-        transition: `transform ${travel}ms var(--ease-quart)`
+        translate: `${tx}px ${ty}px`,
+        rotate: `${r}deg`,
+        transformBox: 'fill-box',
+        transformOrigin: 'center',
+        opacity: o,
+        /* Opacity runs on a sine in-out so a long fade has no visible start or end. */
+        transition: `translate ${moveDur}ms ${moveEase} ${moveDelay}ms, rotate ${rDur}ms ${CLICK}, opacity ${fadeDur}ms cubic-bezier(0.37, 0, 0.63, 1)`
       }
     }, /*#__PURE__*/React.createElement("path", {
       ref: el => {
@@ -5510,748 +3630,282 @@ function NoirPlate({
 Object.assign(__ds_scope, { tokenRgb, NOIR_INK, NOIR_PAPER, NOIR_MINT, NOIR_CONTRAST, noirFilter, noirTone, paintNoirPlate, NoirPlate });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/noirPlate.jsx", error: String((e && e.message) || e) }); }
 
-// components/blocks/FilmBand.jsx
+// components/core/screenShape.jsx
 try { (() => {
-/* The hero's moving picture, printed. The band spans the full grid measure,
-   sits flush to the bottom of the opening screen, and is never shown as
-   footage at rest: every frame is re-screened as the house halftone, so the
-   film reads as ink on paper until the visitor asks for it.
+/* The house screen has two marks. `dots` is the halftone the system shipped
+   with. `lines` keeps the same lattice and replaces every dot with a short
+   stroke cut like the V's left stroke in logo.svg: flat top and bottom, sides
+   slanted 207.83 across for 433.114 down (25.63° off vertical). One direction
+   only. Tone sets the stroke's size, at the same ink area as the dot it
+   replaces, so an image reads equally dark in both.
 
-   Three behaviours, one lattice — the same rotated, noise-perturbed grid as
-   `ImageReveal` and `DotField`, but resampled from the source every frame:
+   Set once, globally: `--screen-shape: lines` on :root (tokens/motion.css), or
+   RevealEffects.setShape('lines') at runtime. `--screen-line-aspect` sets the
+   stroke's height to width (default 3). A component's own `screenShape` prop
+   wins. */
 
-   1. Rest. Tone drives dot area (area = tone is what makes a halftone average
-      out to continuous tone), histogram-equalised so a dark interior still
-      spreads across the whole range of dot sizes instead of closing up.
+/* The one mark size. At full tone a mark carries the ink of a dot 0.46 of the
+   pitch in radius, scaled linearly by tone: open screen, never merging. Every
+   painter (ImageReveal, ImageScreen, DotField) sizes from this, so a
+   given tone prints the same mark everywhere; only the motion differs. */
+const SCREEN_R = 0.46;
 
-   2. Pointer. Not a fade, and not a peephole. From the point the pointer
-      entered, an opening front travels out until it has taken the whole band,
-      and closes back to that point when the pointer leaves. Dots at the front
-      are displaced radially OUTWARD, with a tangential twist and a smear along
-      the pointer's own velocity, so the plate is shoved aside ahead of the
-      front and streams behind a moving cursor; behind the front the screen is
-      off and the footage is bare. What is revealed is the shared green noir
-      plate (`core/noirPlate.jsx`), never the colour photograph — colour would
-      make the opening a different picture rather than a closer look at this
-      one. `focusRadius` is the width of that front, not the size of a disc.
-
-   3. Scroll. No front and no opening: the screen gets finer until it lets go.
-      At rest the band prints the house halftone exactly as it always has;
-      scrolling (`revealDistance`) brings in a second generation of dots
-      between the existing ones, each on its own delay, and eases every dot
-      down toward the finer spacing they now share, so the picture gains
-      resolution. Over the last of the runway the ink fades out altogether and
-      the footage is simply there, in its own colour, with no aperture: the
-      picture arrives by getting clearer, not by being uncovered. The band also
-      grows by `grow` against a bottom edge that does not move. Only past that
-      does it let go from the bottom edge upward: each
-      dot's exit time is its own height in the band plus its noise, so the
-      halftone erodes as a soft rising front rather than a rectangle fading. The
-      band moves up faster than the page (so it leaves the screen while the
-      block beneath is still arriving) and the footage under it goes first,
-      which is what makes the block underneath read as uncovered rather than
-      scrolled to.
-
-   Reduced motion: no drift, no exit animation, one static screen.
-
-   Cost note: this is a per-frame repaint of ~10-20k arcs. It is affordable
-   because the band is short and the dots are bucketed into six paths; do not
-   run two of these on one page, and do not lower `pitch` below 5 at this
-   height. */
-
-const TONES = {
-  get ink() {
-    return __ds_scope.tokenRgb('--ink', '0, 41, 0');
-  },
-  get 'ink-wash'() {
-    return __ds_scope.tokenRgb('--ink-lift', '0, 55, 11');
-  },
-  get 'ink-lift'() {
-    return __ds_scope.tokenRgb('--ink-lift', '0, 55, 11');
-  },
-  get paper() {
-    return __ds_scope.tokenRgb('--paper', '229, 223, 219');
+/* The house image lives here, beside the mark, so every painter — whether it
+   is mounted through RevealEffect or directly — prints the same picture. The
+   bundle ships one, resolved next to the compiled bundle where assets/ sits,
+   so no page has to set it and no reveal ever falls back to plain specks.
+   RevealEffects.setImage(src) overrides it once, globally. */
+function bundleBase() {
+  try {
+    const isB = u => !!u && u.indexOf('_ds_bundle.js') !== -1;
+    const cur = document.currentScript && document.currentScript.src;
+    let s = isB(cur) ? cur : '';
+    if (!s) {
+      for (const el of document.scripts) {
+        if (isB(el.src)) {
+          s = el.src;
+          break;
+        }
+      }
+    }
+    if (!s) return '';
+    s = s.split('?')[0].split('#')[0];
+    return s.slice(0, s.lastIndexOf('/') + 1);
+  } catch (e) {
+    return '';
   }
-};
-const BUCKETS = 6;
-/* Fill order inside each coarse cell — dispersed, so every added generation of
-   dots lands between the ones already printed instead of thickening a corner. */
+}
+const BUNDLE_BASE = bundleBase();
+let houseImage = BUNDLE_BASE ? BUNDLE_BASE + 'assets/demo/boardroom.png' : null;
+function getHouseImage() {
+  if (!houseImage) {
+    const b = bundleBase();
+    if (b) houseImage = b + 'assets/demo/boardroom.png';
+  }
+  return houseImage;
+}
+function setHouseImage(src) {
+  houseImage = src || houseImage;
+  subs.forEach(fn => fn(getScreenShape()));
+}
 
-function smooth01(x, a, b) {
+/* The one motion. ImageReveal's print, as a function: at progress p, how big
+   the mark at (x, y) is relative to its full-tone size. A diagonal front
+   (nd = 0 top-left to 1 bottom-right) with two crossing waves riding it that
+   settle as the print resolves. DotField's loader, burst, still and progress
+   modes all call this, so a ghost, a click and a scroll reveal are the same
+   print at different p, never a second animation. Stops short of the reveal's
+   closure into the plate (p 0.78+), which only ImageReveal has a plate for. */
+/* The wave's own factor from the last revealScale call, for a painter that
+   folds the scale into a radius before it reaches screenMark: lines need it
+   separately to carry it as length. Painters reset it to 1 before each mark. */
+const revealWave = {
+  rhythm: 1
+};
+function sm(x, a, b) {
   const t = Math.min(1, Math.max(0, (x - a) / (b - a)));
   return t * t * (3 - 2 * t);
 }
-/* Integer hash on lattice index, not on coordinates: a sin-based hash over
-   multiples of the pitch repeats at a low period and lays visible diagonal
-   streaks across the field. */
-function rnd(i, j) {
-  let h = (i | 0) * 374761393 + (j | 0) * 668265263;
-  h = (h ^ h >> 13) * 1274126177;
-  h = h ^ h >> 16;
-  return (h >>> 0) % 100000 / 100000;
+function revealScale(p, nd, x, y, sh) {
+  const front = -0.15 + p * 2.3;
+  const bandT = sm(front - nd, -0.35, 0.22);
+  if (bandT <= 0) return 0;
+  const s = sh || 0;
+  const pulse = 0.68 + 0.32 * Math.sin(nd * TAU * 2.6 - p * 9 - s) + 0.14 * Math.sin(x * 0.012 - y * 0.017 + p * 5 + s * 0.55);
+  const rhythm = 1 + (pulse - 1) * (1 - sm(p, 0.6, 1));
+  revealWave.rhythm = rhythm;
+  if (rhythm <= 0) return 0;
+  return (0.72 + 0.28 * sm(p, 0, 0.92)) * bandT * rhythm;
 }
-function FilmBand({
-  src = null,
-  poster = null,
-  alt = '',
-  height = '30vh',
-  pitch = 5,
-  tone = 'ink',
-  intensity = 0.95,
-  exposure = 1,
-  focusRadius = 190,
-  screenAngle = 18,
-  fullBleed = false,
-  scrollExit = true,
-  revealDistance = 0,
-  reveal = null,
-  grow = 0.3,
-  exitDistance = 0.34,
-  exit = 0,
-  exitLift = 40,
-  noir = __ds_scope.NOIR_CONTRAST,
-  ground = 'var(--reveal-ground)',
-  drift,
-  style
-}) {
-  const boxRef = React.useRef(null);
-  const plateRef = React.useRef(null);
-  const canvasRef = React.useRef(null);
-  const mediaRef = React.useRef(null);
-  const stillRef = React.useRef(null);
-  const videoRef = React.useRef(null);
-  /* The footage is a few hundred kilobytes and decodes late; the poster is one
-     image. The band therefore screens the poster from the first frame and only
-     hands the plate over to the video once it can actually play, so the
-     opening screen is never an empty ground waiting for a download. */
-  const [videoReady, setVideoReady] = React.useState(false);
-  const geomRef = React.useRef(null);
-  const sampleRef = React.useRef(null);
-  const cdfRef = React.useRef(null);
-  const framesRef = React.useRef(0);
-  const rafRef = React.useRef(0);
-  const readyRef = React.useRef(false);
-  /* Pointer state lives in refs, not state: this is read once per frame and
-     must never cause a React render. */
-  const pRef = React.useRef({
-    x: 0,
-    y: 0,
-    tx: 0,
-    ty: 0,
-    vx: 0,
-    vy: 0,
-    edge: 0,
-    eff: 0,
-    on: false
-  });
-  const wrapRef = React.useRef(null);
-  const exitRef = React.useRef(exit);
-  const revealRef = React.useRef(0);
-  const exitMaskRef = React.useRef('');
-  const isVideo = !!src;
-  const useDrift = drift == null ? !isVideo : drift;
-  /* The ref callbacks only run when the elements mount, and the video mounts
-     before it is playable — so the handover is made here, once. */
-  React.useEffect(() => {
-    if (!isVideo) return;
-    mediaRef.current = videoReady ? videoRef.current : stillRef.current;
-    readyRef.current = false;
-  }, [videoReady, isVideo]);
-  const reduced = typeof window !== 'undefined' && window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)').matches : false;
-  React.useEffect(() => {
-    if (!scrollExit) exitRef.current = exit;
-  }, [exit, scrollExit]);
-  /* Densification only exists where there is a reveal to run it: a pointer-only
-     band prints the full screen at rest, as it always has. */
-  const densify = revealDistance > 0 || reveal != null;
-  React.useEffect(() => {
-    if (reveal != null) revealRef.current = Math.min(1, Math.max(0, reveal));
-  }, [reveal]);
+const V_ANGLE = Math.atan2(207.83, 433.114) * 180 / Math.PI;
+const V_SLANT = 207.83 / 433.114;
+const TAU = Math.PI * 2;
+let override = null;
+let aspect = 3;
+/* Two counters to the "rain" an unbroken field of identical slanted dashes
+   reads as. grid 'square' puts the strokes on an upright grid, so they line
+   up in rows and columns and read as one hatched pattern rather than streaks
+   falling at random offsets. taper lets light tones shrink toward a dot and
+   only the dark tones stretch to the full V stroke, so the highlights, where
+   lone dashes read most as rain, go quiet. */
+let opts = {
+  grid: 'square',
+  taper: false
+};
+/* Options passed to setScreenShape win over the CSS tokens, whichever is read first. */
+let optsSet = false;
+const subs = new Set();
+function readCss() {
+  try {
+    const cs = getComputedStyle(document.documentElement);
+    const a = parseFloat(cs.getPropertyValue('--screen-line-aspect'));
+    if (a > 0) aspect = a;
+    const g = cs.getPropertyValue('--screen-line-grid').trim();
+    if (!optsSet && (g === 'square' || g === 'house')) opts.grid = g;
+    if (!optsSet && cs.getPropertyValue('--screen-line-taper').trim() === 'on') opts.taper = true;
+    return cs.getPropertyValue('--screen-shape').trim() === 'lines' ? 'lines' : 'dots';
+  } catch (e) {
+    return 'dots';
+  }
+}
+let cssRead = false;
+function getScreenShape() {
+  if (override && cssRead) return keyed(override);
+  cssRead = true;
+  const s = readCss();
+  return keyed(override || s);
+}
+function keyed(s) {
+  if (s !== 'lines') return 'dots';
+  return 'lines' + (opts.grid === 'square' ? ':square' : '') + (opts.taper ? ':taper' : '');
+}
+function getScreenOptions() {
+  return Object.assign({}, opts);
+}
 
-  /* Scroll exit. The band belongs to the opening screen, so the rig is the
-     page's own scroll offset — no observer, no second source of truth. */
+/* setScreenShape('lines', { grid: 'square', taper: true }) */
+function setScreenShape(s, o) {
+  if (o) {
+    opts = Object.assign({}, opts, o);
+    optsSet = true;
+  }
+  override = s === 'lines' ? 'lines' : 'dots';
+  try {
+    document.documentElement.style.setProperty('--screen-shape', override);
+  } catch (e) {}
+  subs.forEach(fn => fn(keyed(override)));
+}
+
+/* Subscribers get a fresh object on every change, so a component with its own
+   `screenShape` prop still re-renders when only the grid or taper changes. */
+function useScreenShape(local) {
+  const [st, set] = React.useState(() => ({
+    s: getScreenShape()
+  }));
   React.useEffect(() => {
-    if (!scrollExit) return;
-    const read = () => {
-      const y = window.scrollY || window.pageYOffset || 0;
-      /* The opening comes first and the exit waits for it: `revealDistance` of
-         scroll goes to the front travelling out, the plate letting go of its
-         green and the band growing, and only past that does the bottom edge
-         begin to fade. With no reveal distance the band behaves as before. */
-      const rd = revealDistance > 0 ? Math.max(120, revealDistance * window.innerHeight) : 0;
-      if (rd > 0) revealRef.current = Math.min(1, Math.max(0, y / rd));
-      const d = Math.max(120, exitDistance * window.innerHeight);
-      /* The exit overlaps the last of the opening: the bottom edge starts
-         going just before the band has finished growing, so the two read as
-         one movement instead of a pause between them. */
-      exitRef.current = Math.min(1, Math.max(0, (y - rd * 0.88) / d));
-    };
-    read();
-    window.addEventListener('scroll', read, {
-      passive: true
+    const fn = s => set({
+      s
     });
-    window.addEventListener('resize', read);
+    subs.add(fn);
+    fn(getScreenShape());
     return () => {
-      window.removeEventListener('scroll', read);
-      window.removeEventListener('resize', read);
+      subs.delete(fn);
     };
-  }, [scrollExit, exitDistance, revealDistance]);
-  const build = React.useCallback(() => {
-    const box = boxRef.current,
-      canvas = canvasRef.current,
-      wrap = wrapRef.current;
-    if (!box || !canvas || !wrap) return;
-    /* The band grows by uncovering its own top edge, not by relaying out: the
-       lattice and the crop are built once at the grown height and the box is
-       clipped down to the resting height, so growth costs a clip-path write
-       per frame instead of a full rebuild of the screen. */
-    const baseH = wrap.clientHeight;
-    const growPx = revealDistance > 0 && grow > 0 ? Math.round(baseH * grow) : 0;
-    box.style.height = growPx ? baseH + growPx + 'px' : '100%';
-    const w = box.clientWidth,
-      h = box.clientHeight;
-    if (!w || !h) {
-      geomRef.current = null;
-      return;
-    }
-    /* 1.5 rather than devicePixelRatio: this repaints every frame, and the
-       dots are small enough that the third device pixel buys nothing. */
-    const dpr = Math.min(1.5, window.devicePixelRatio || 1);
-    canvas.width = Math.round(w * dpr);
-    canvas.height = Math.round(h * dpr);
-    canvas.style.width = w + 'px';
-    canvas.style.height = h + 'px';
-    const a = screenAngle * Math.PI / 180,
-      cosA = Math.cos(a),
-      sinA = Math.sin(a);
-    let uMin = Infinity,
-      uMax = -Infinity,
-      vMin = Infinity,
-      vMax = -Infinity;
-    for (const [px, py] of [[0, 0], [w, 0], [0, h], [w, h]]) {
-      const u = px * cosA + py * sinA,
-        v = -px * sinA + py * cosA;
-      if (u < uMin) uMin = u;
-      if (u > uMax) uMax = u;
-      if (v < vMin) vMin = v;
-      if (v > vMax) vMax = v;
-    }
-    const xs = [],
-      ys = [],
-      ns = [],
-      os = [];
-    /* The resting screen is the house halftone, untouched: one generation on
-       the lattice itself, always printed. Where there is a reveal to run, a
-       second generation sits in the middle of every cell and arrives across
-       the scroll — the screen gains dots rather than changing the ones it has. */
-    const gens = densify ? [0, 0.5] : [0];
-    for (const ofs of gens) {
-      let iv = 0;
-      for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch, iv++) {
-        let iu = 0;
-        for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch, iu++) {
-          const uu = u + ofs * pitch,
-            vv = v + ofs * pitch;
-          const x = uu * cosA - vv * sinA,
-            y = uu * sinA + vv * cosA;
-          if (x < -pitch || y < -pitch || x > w + pitch || y > h + pitch) continue;
-          const n = rnd(iu + (ofs ? 9173 : 0), iv);
-          xs.push(x);
-          ys.push(y);
-          ns.push(n);
-          /* 0 = printed at rest; otherwise where in the reveal it arrives, each
-             on its own delay so the generation does not snap in as one. */
-          os.push(ofs ? 0.12 + 0.62 * n : 0);
-        }
-      }
-    }
-    const cols = Math.max(8, Math.round(w / (pitch * 0.6)));
-    const rows = Math.max(8, Math.round(h / (pitch * 0.6)));
-    const off = document.createElement('canvas');
-    off.width = cols;
-    off.height = rows;
-    const p0 = pRef.current;
-    if (!p0.on && p0.edge < 0.5) {
-      p0.x = p0.tx = w / 2;
-      p0.y = p0.ty = h - baseH / 2;
-    }
-    geomRef.current = {
-      w,
-      h,
-      dpr,
-      grow: growPx,
-      xs: Float32Array.from(xs),
-      ys: Float32Array.from(ys),
-      ns: Float32Array.from(ns),
-      os: Float32Array.from(os),
-      cols,
-      rows,
-      off,
-      octx: off.getContext('2d', {
-        willReadFrequently: true
-      }),
-      lum: new Float32Array(cols * rows),
-      tone: new Float32Array(cols * rows)
-    };
-    cdfRef.current = null;
-    sampleRef.current = null;
-  }, [pitch, screenAngle, grow, revealDistance, densify]);
-  React.useEffect(() => {
-    build();
-    if (typeof ResizeObserver === 'undefined') return;
-    /* The wrapper, never the box — the box's height is written by `build`, and
-       observing it would rebuild the screen forever. */
-    const ro = new ResizeObserver(() => build());
-    if (wrapRef.current) ro.observe(wrapRef.current);
-    return () => ro.disconnect();
-  }, [build]);
-
-  /* Drift for the still placeholder: the plate is slowly panned and zoomed so
-     the screen is never a frozen pattern. The sampling crop and the CSS
-     transform on the media element are two expressions of one movement — they
-     must agree, or the unmasked footage sits offset from its own halftone. */
-  const driftAt = t => {
-    if (!useDrift || reduced) return {
-      z: 1,
-      ox: 0,
-      oy: 0
-    };
-    return {
-      z: 1.09 + 0.045 * Math.sin(t / 9000),
-      ox: 0.028 * Math.sin(t / 12500),
-      oy: 0.018 * Math.cos(t / 15500)
-    };
-  };
-  const sample = t => {
-    const g = geomRef.current,
-      el = mediaRef.current;
-    if (!g || !el) return false;
-    const sw0 = el.videoWidth || el.naturalWidth || 0;
-    const sh0 = el.videoHeight || el.naturalHeight || 0;
-    if (!sw0 || !sh0) return false;
-    const {
-      z,
-      ox,
-      oy
-    } = driftAt(t);
-    const ir = sw0 / sh0,
-      wr = g.w / g.h;
-    let cx, cy, cw, ch;
-    if (ir > wr) {
-      ch = sh0;
-      cw = ch * wr;
-    } else {
-      cw = sw0;
-      ch = cw / wr;
-    }
-    cw /= z;
-    ch /= z;
-    cx = (sw0 - cw) / 2 + ox * sw0;
-    cy = (sh0 - ch) / 2 + oy * sh0;
-    cx = Math.min(Math.max(0, cx), sw0 - cw);
-    cy = Math.min(Math.max(0, cy), sh0 - ch);
-    try {
-      g.octx.drawImage(el, cx, cy, cw, ch, 0, 0, g.cols, g.rows);
-    } catch (err) {
-      return false;
-    }
-    const data = g.octx.getImageData(0, 0, g.cols, g.rows).data;
-    const n = g.cols * g.rows;
-    for (let i = 0; i < n; i++) {
-      const j = i * 4;
-      g.lum[i] = (0.2126 * data[j] + 0.7152 * data[j + 1] + 0.0722 * data[j + 2]) / 255;
-    }
-    /* Equalisation is recomputed on a slow cadence, not per frame: per-frame
-       equalisation makes the whole screen breathe as the footage changes, and
-       never at all leaves a dark interior as one solid mass of ink. */
-    if (!cdfRef.current || framesRef.current % 40 === 0) {
-      const hist = new Float32Array(256);
-      for (let i = 0; i < n; i++) hist[g.lum[i] * 255 | 0]++;
-      const cdf = new Float32Array(256);
-      let acc = 0;
-      for (let b = 0; b < 256; b++) {
-        acc += hist[b];
-        cdf[b] = acc / n;
-      }
-      cdfRef.current = cdf;
-    }
-    const cdf = cdfRef.current;
-    const cut = Math.min(0.85, Math.max(0, 0.3 * exposure));
-    for (let i = 0; i < n; i++) {
-      const rank = 1 - cdf[g.lum[i] * 255 | 0];
-      g.tone[i] = Math.pow(Math.max(0, (rank - cut) / (1 - cut)), 0.9);
-    }
-    return true;
-  };
-  const paint = () => {
-    const g = geomRef.current,
-      canvas = canvasRef.current;
-    if (!g || !canvas) return;
-    const ctx = canvas.getContext('2d');
-    const p = pRef.current;
-    const e = exitRef.current;
-    const rgb = TONES[tone] || TONES.ink;
-    const maxR = pitch * 0.46;
-    const edge = p.eff;
-    const band = focusRadius;
-    /* Densification. The resting screen is the house halftone at full density;
-       the reveal adds a second generation of dots between them and eases every
-       dot down toward the finer spacing they now share, so the picture gains
-       resolution without the rest state changing. */
-    const dp = smooth01(revealRef.current, 0.02, 0.48);
-    const rScale = 1 - 0.28 * dp;
-    /* Handover. Once the screen has resolved as far as it is going to, the ink
-       itself lets go and the footage underneath is simply there — the picture
-       arrives by getting clearer and clearer, not by being uncovered. */
-    const hand = smooth01(revealRef.current, 0.42, 0.74);
-    if (hand >= 0.999) {
-      ctx.save();
-      ctx.scale(g.dpr, g.dpr);
-      ctx.clearRect(0, 0, g.w, g.h);
-      ctx.restore();
-      return;
-    }
-    ctx.save();
-    ctx.scale(g.dpr, g.dpr);
-    ctx.clearRect(0, 0, g.w, g.h);
-    const paths = [];
-    for (let b = 0; b < BUCKETS; b++) paths.push(new Path2D());
-    for (let i = 0; i < g.xs.length; i++) {
-      let x = g.xs[i],
-        y = g.ys[i];
-      const n = g.ns[i];
-      /* bilinear sample — nearest sampling is what makes a rotated screen jagged */
-      const fx = x / g.w * (g.cols - 1),
-        fy = y / g.h * (g.rows - 1);
-      const x0 = Math.min(g.cols - 1, Math.max(0, fx | 0)),
-        y0 = Math.min(g.rows - 1, Math.max(0, fy | 0));
-      const x1 = x0 + 1 < g.cols ? x0 + 1 : x0,
-        y1 = y0 + 1 < g.rows ? y0 + 1 : y0;
-      const tx = fx - x0,
-        ty = fy - y0;
-      const tv = (g.tone[y0 * g.cols + x0] * (1 - tx) + g.tone[y0 * g.cols + x1] * tx) * (1 - ty) + (g.tone[y1 * g.cols + x0] * (1 - tx) + g.tone[y1 * g.cols + x1] * tx) * ty;
-      if (tv <= 0.01) continue;
-
-      /* Radius is LINEAR in tone, not sqrt: the same screen `ImageReveal`
-         prints. sqrt(tone) is the correct ink-area mapping for a closing
-         plate, but on an open screen it pushes every mid-tone cell to nearly
-         full radius, which is what closes the field up into a dense mass.
-         Linear keeps the light range as bare paper and the range of dot sizes
-         wide, so the band reads as a print rather than a grid. Ink is flat and
-         full-strength; size alone carries tone. */
-      /* Rest dots (arrival 0) are always printed; the added generation comes in
-         on its own delay. */
-      const on = g.os[i] === 0 ? 1 : smooth01(dp - g.os[i], -0.02, 0.22);
-      if (on <= 0.002) continue;
-      let r = maxR * rScale * tv * (0.9 + 0.2 * n) * (0.45 + 0.55 * on);
-      let a = on * (1 - hand);
-      if (edge > 0.5) {
-        const dx = x - p.x,
-          dy = y - p.y;
-        const dist = Math.hypot(dx, dy);
-        /* Position relative to the opening front: below zero the screen has not
-           been reached yet, above one the plate is off and the frame is bare. */
-        const s = (edge - dist) / band;
-        if (s > -0.25) {
-          const c = smooth01(s, 0, 1);
-          /* A crest riding just behind the front: those dots are the ones being
-             shoved out of the way, so they move furthest. */
-          const f = Math.exp(-Math.pow((s - 0.3) / 0.5, 2));
-          const inv = dist > 0.01 ? 1 / dist : 0;
-          const ux = dx * inv,
-            uy = dy * inv;
-          const push = band * 0.42 * f;
-          /* outward + a quarter-turn twist + the pointer's own velocity, so the
-             plate is shoved aside rather than dissolved, and streams behind a
-             moving cursor */
-          x += ux * push - uy * push * 0.28 + p.vx * f * 1.1;
-          y += uy * push + ux * push * 0.28 + p.vy * f * 1.1;
-          r *= (1 - 0.94 * c) * (1 - 0.3 * f);
-          a *= 1 - 0.96 * c;
-        }
-      }
-      if (e > 0.001) {
-        const lt = e * 1.55 - (1 - y / g.h) * 0.5 - n * 0.2;
-        if (lt > 0) {
-          const go = smooth01(lt, 0, 0.55);
-          a *= 1 - go;
-          r *= 1 - 0.55 * go;
-          y -= lt * 26;
-          x += (n - 0.5) * lt * 18;
-        }
-      }
-      if (r <= 0.22 || a <= 0.02) continue;
-      const b = Math.min(BUCKETS - 1, Math.floor(a * BUCKETS));
-      paths[b].moveTo(x + r, y);
-      paths[b].arc(x, y, r, 0, Math.PI * 2);
-    }
-    for (let b = 0; b < BUCKETS; b++) {
-      const a = (b + 0.5) / BUCKETS * intensity;
-      ctx.fillStyle = 'rgba(' + rgb + ', ' + a.toFixed(3) + ')';
-      ctx.fill(paths[b]);
-    }
-    ctx.restore();
-  };
-
-  /* One loop: pointer easing, sampling, paint, and the band's own exit
-     transform. Everything the band does is read from refs here, so a moving
-     pointer never renders React. */
-  React.useEffect(() => {
-    let last = performance.now();
-    const step = now => {
-      rafRef.current = requestAnimationFrame(step);
-      const dt = Math.min(64, now - last);
-      last = now;
-      const p = pRef.current;
-      const g = geomRef.current;
-      const box = boxRef.current,
-        media = mediaRef.current,
-        canvas = canvasRef.current;
-      if (!g || !box) return;
-      const rp = revealRef.current;
-      /* Growth is uncovering: the clip retracts from the top edge, so the band
-         gains height against a bottom edge that has not moved. */
-      const gp = smooth01(rp, 0, 0.92);
-      const visTop = g.grow > 0 ? (1 - gp) * g.grow : 0;
-      if (g.grow > 0) box.style.clipPath = 'inset(' + visTop.toFixed(1) + 'px 0 0 0)';
-      /* With no pointer the scroll front opens from the middle of whatever is
-         currently uncovered, so growth and opening share one centre. */
-      if (!p.on) {
-        p.tx = g.w / 2;
-        p.ty = visTop + (g.h - visTop) * 0.5;
-      }
-
-      /* Lag is the whole character of the opening: the front is centred where
-         the pointer WAS a moment ago and catches up, so fast movement smears. */
-      const ease = 1 - Math.pow(0.0025, dt / 1000);
-      const nx = p.x + (p.tx - p.x) * ease;
-      const ny = p.y + (p.ty - p.y) * ease;
-      p.vx = Math.max(-46, Math.min(46, (nx - p.x) * (16 / Math.max(1, dt)) * 5));
-      p.vy = Math.max(-46, Math.min(46, (ny - p.y) * (16 / Math.max(1, dt)) * 5));
-      p.x = nx;
-      p.y = ny;
-      /* The opening is not a peephole: from the point the pointer entered, the
-         front travels out until it has taken the whole band, and closes back
-         to that point when the pointer leaves. `focusRadius` is now the width
-         of the travelling front, not the size of a disc. */
-      const reach = Math.hypot(Math.max(p.x, g.w - p.x), Math.max(p.y, g.h - p.y)) + focusRadius * 0.8;
-      const target = p.on ? reach : 0;
-      p.edge += (target - p.edge) * (1 - Math.pow(p.on ? 0.03 : 0.0015, dt / 1000));
-      /* Scroll no longer drives a front — it drives the screen's density. The
-         travelling opening is the pointer's alone. */
-      p.eff = p.edge;
-      const e = exitRef.current;
-      const eo = 1 - Math.pow(1 - e, 2);
-      /* A short lift, not a departure: the band only has to let go of the
-         bottom edge — the erosion front is what carries it off, and a full
-         band-height travel drags it up over the wordmark. */
-      box.style.transform = 'translate3d(0,' + Math.round(-eo * exitLift) + 'px,0)';
-      /* The band carries its own ground, because the block it uncovers sits
-         behind it from the start. Ground and screen therefore have to retract
-         together: one soft front, rising from the bottom edge, doing to the
-         paper what the per-dot exit does to the ink. */
-      const m = e > 0.001 ? 'linear-gradient(to top, rgba(0,0,0,0) ' + (e * 132 - 12).toFixed(1) + '%, rgba(0,0,0,1) ' + (e * 132 + 24).toFixed(1) + '%)' : 'none';
-      box.style.webkitMaskImage = m;
-      box.style.maskImage = m;
-      exitMaskRef.current = e > 0.001 ? m : '';
-      box.style.pointerEvents = e > 0.35 ? 'none' : 'auto';
-      /* The retract mask is fully transparent at e≈0.85, so anything still
-         painted past that is a seam, not a picture: one antialiased row at the
-         gradient's own edge reads as a hairline of footage lying across the
-         block underneath. The box goes for good at that point. */
-      const gone = e >= 0.85;
-      if (box.style.visibility === 'hidden' !== gone) box.style.visibility = gone ? 'hidden' : 'visible';
-      if (gone) {
-        if (canvas.style.visibility !== 'hidden') {
-          canvas.style.visibility = 'hidden';
-          if (plateRef.current) plateRef.current.style.opacity = '0';
-        }
-        return;
-      }
-      canvas.style.visibility = 'visible';
-      framesRef.current++;
-      if (isVideo || !readyRef.current || useDrift || p.eff > 0.5 || e > 0.001) {
-        if (sample(now)) readyRef.current = true;
-      }
-      if (!readyRef.current) return;
-      if (media) {
-        const {
-          z,
-          ox,
-          oy
-        } = driftAt(now);
-        media.style.transform = 'translate(' + (-ox * z * 100).toFixed(3) + '%,' + (-oy * z * 100).toFixed(3) + '%) scale(' + z.toFixed(4) + ')';
-      }
-      const plate = plateRef.current;
-      if (plate) {
-        /* The plate is bare wherever the front has passed, and it is the first
-           thing to go on scroll. */
-        const edge = p.eff;
-        const inner = edge > 1 ? Math.max(0, (edge - focusRadius) / edge * 100) : 0;
-        /* Scroll hands the plate over whole, not through an opening: as the ink
-           lets go the footage is simply there, in its own colour. */
-        const sOp = smooth01(rp, 0.4, 0.72);
-        /* Scrolling lets go of the green as well as of the screen: by the time
-           the front has taken the whole band the footage is its own colour.
-           The pointer keeps the plate — a closer look at this picture, not a
-           different one. */
-        plate.style.setProperty('--noir-mix', (1 - smooth01(rp, 0.06, 0.94)).toFixed(3));
-        /* The plate dims on the way out only where the halftone is still there
-           to erode. Past the handover there are no dots left, so a dimming
-           plate would leave bare ground sliding away: the retract mask carries
-           the exit alone. */
-        const fade = Math.pow(1 - Math.min(1, e * 1.6), 1.5);
-        const dim = 1 - (1 - fade) * smooth01(1 - rp, 0.1, 0.6);
-        plate.style.opacity = (Math.max(Math.min(1, Math.max(0, edge - 2) / 6), sOp) * dim).toFixed(3);
-        const mask = 'radial-gradient(circle ' + Math.max(0.5, edge).toFixed(1) + 'px at ' + p.x.toFixed(1) + 'px ' + p.y.toFixed(1) + 'px, rgba(0,0,0,1) 0%, rgba(0,0,0,1) ' + inner.toFixed(1) + '%, rgba(0,0,0,0.35) ' + (inner + (100 - inner) * 0.55).toFixed(1) + '%, rgba(0,0,0,0) 100%)';
-        /* The retract gradient is intersected into the plate's own mask as well
-           as sitting on the box. A live <video> composites on its own layer,
-           and a mask on an ancestor can leave one antialiased row at that
-           layer's bottom edge — which reads as a solid stroke of footage lying
-           across the block underneath as the band fades. Masking the plate
-           itself takes that edge with it. */
-        const em = exitMaskRef.current;
-        /* Past the handover the whole plate is shown: no pointer aperture. */
-        if (sOp > 0.01) {
-          plate.style.maskComposite = 'add';
-          plate.style.webkitMaskComposite = 'source-over';
-          plate.style.webkitMaskImage = em || 'none';
-          plate.style.maskImage = em || 'none';
-          paint();
-          return;
-        }
-        plate.style.maskComposite = em ? 'intersect' : 'add';
-        plate.style.webkitMaskComposite = em ? 'source-in' : 'source-over';
-        plate.style.webkitMaskImage = em ? mask + ', ' + em : mask;
-        plate.style.maskImage = em ? mask + ', ' + em : mask;
-      }
-      paint();
-    };
-    rafRef.current = requestAnimationFrame(step);
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  });
-  const mediaStyle = {
-    position: 'absolute',
-    inset: 0,
-    width: '100%',
-    height: '100%',
-    objectFit: 'cover',
-    transformOrigin: 'center',
-    pointerEvents: 'none'
-  };
-  const onMove = ev => {
-    const box = boxRef.current;
-    if (!box) return;
-    const r = box.getBoundingClientRect();
-    const p = pRef.current;
-    if (!p.on) {
-      p.x = ev.clientX - r.left;
-      p.y = ev.clientY - r.top;
-    }
-    p.tx = ev.clientX - r.left;
-    p.ty = ev.clientY - r.top;
-    p.on = true;
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    style: {
-      width: '100%',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: fullBleed ? {
-      width: '100%'
-    } : {
-      maxWidth: 'var(--max-width)',
-      margin: '0 auto',
-      paddingInline: 'var(--margin)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: wrapRef,
-    style: {
-      position: 'relative',
-      height: height
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: boxRef,
-    onPointerMove: onMove,
-    onPointerEnter: onMove,
-    onPointerLeave: () => {
-      pRef.current.on = false;
-    },
-    style: {
-      position: 'absolute',
-      left: 0,
-      right: 0,
-      bottom: 0,
-      height: '100%',
-      overflow: 'clip',
-      background: ground,
-      willChange: 'transform, mask-image, clip-path',
-      cursor: 'crosshair'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: plateRef,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      opacity: 0,
-      willChange: 'mask-image, opacity'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.NoirPlate, {
-    noir: noir
-  }, isVideo ? /*#__PURE__*/React.createElement("video", {
-    ref: el => {
-      videoRef.current = el;
-      if (videoReady) mediaRef.current = el;
-    },
-    src: src,
-    poster: poster || undefined,
-    preload: "auto",
-    autoPlay: true,
-    muted: true,
-    loop: true,
-    playsInline: true,
-    "aria-hidden": "true",
-    onLoadedData: () => setVideoReady(true),
-    onCanPlay: () => setVideoReady(true),
-    style: {
-      ...mediaStyle,
-      opacity: videoReady ? 1 : 0
-    }
-  }) : null, isVideo && videoReady ? null : /*#__PURE__*/React.createElement("img", {
-    ref: el => {
-      stillRef.current = el;
-      if (!videoReady) mediaRef.current = el;
-    },
-    src: poster,
-    alt: "",
-    "aria-hidden": "true",
-    style: mediaStyle
-  }))), /*#__PURE__*/React.createElement("canvas", {
-    ref: canvasRef,
-    style: {
-      position: 'absolute',
-      inset: 0,
-      display: 'block',
-      pointerEvents: 'none'
-    }
-  }), alt ? /*#__PURE__*/React.createElement("span", {
-    className: "visually-hidden",
-    style: {
-      position: 'absolute',
-      width: 1,
-      height: 1,
-      overflow: 'hidden',
-      clip: 'rect(0 0 0 0)',
-      whiteSpace: 'nowrap'
-    }
-  }, alt) : null))));
+  }, []);
+  return local === 'lines' || local === 'dots' ? keyed(local) : st.s;
 }
-Object.assign(__ds_scope, { FilmBand });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/FilmBand.jsx", error: String((e && e.message) || e) }); }
+
+/* The smallest lattice the line screen prints on, in CSS px, whatever the
+   image size or a component's gridSize asks for. Below it a stroke is a few
+   pixels tall and the screen reads as pixels, not as print. Dots keep the
+   requested pitch. */
+const lineMinPitch = 5;
+function screenPitch(shape, pitch) {
+  return shape && shape !== 'dots' ? Math.max(pitch, lineMinPitch) : pitch;
+}
+
+/* The lattice is the same for both marks. */
+function screenAngleFor(shape, angle) {
+  return shape && shape.indexOf(':square') > 0 ? 0 : angle;
+}
+
+/* Every stroke keeps the V's left stroke's shape: flat top and bottom, the
+   slant of the mark. Height tops out where the next stroke down begins (1 pitch
+   on the upright grid, 1.1 on the 18° lattice) and past that the stroke widens,
+   down to 2.2 : 1 at the darkest. That widening is what lines the dark strokes
+   up into the diagonal bands — keep it.
+
+   Tone follows the dot screen. The dots' ink for a tone is the target; the
+   lines carry it exactly through the light and mid tones and roll it off
+   smoothly into their darkest shape over the top of the range, instead of
+   clipping at it, so the shadows keep every step the dots have.
+
+   Upright is the canon grid. 'house' (the 18° lattice) is kept as an option.
+
+   Speed: each stroke is a plain rect in sheared space, filled through the
+   shear (screenFill) — rects are the cheapest thing the canvas fills. */
+/* `stretch` is the animation's share of the radius (1 at rest). Dots ignore
+   it. A line takes its resting size from r / stretch and carries the stretch
+   as length: growing, only the length moves, never past the cap; shrinking,
+   the stroke scales as a whole and keeps its proportions. */
+/* The smallest stroke: 1 CSS px wide, 2.2 px tall. Below a pixel the canvas
+   smears a stroke into grey grain. A tone lighter than this stroke can carry
+   prints the smallest stroke in a lighter ink instead of a smaller or a
+   missing one, so gradation continues to white with no grain and no holes. */
+const MIN_HW = 0.5;
+const MIN_HH = MIN_HW * 2.2;
+/* Ink steps for the lightest strokes. Paths come as an array of this many,
+   one per step; the last is full strength and carries everything else. */
+const screenSteps = 7;
+function screenPaths() {
+  const a = [];
+  for (let i = 0; i < screenSteps; i++) a.push(new Path2D());
+  return a;
+}
+function screenMark(path, shape, x, y, r, pitch, cosA, sinA, stretch) {
+  const many = Array.isArray(path);
+  if (!shape || shape === 'dots') {
+    const t = many ? path[path.length - 1] : path;
+    t.moveTo(x + r, y);
+    t.arc(x, y, r, 0, TAU);
+    return;
+  }
+  const st = stretch > 0 ? stretch : 1;
+  if (st !== 1) r /= st;
+  const p = pitch || 4;
+  const cap = p * (shape.indexOf(':square') > 0 ? 0.5 : 0.55);
+  const maxA = 4 * (cap / 2.2) * cap;
+  const knee = 0.55 * maxA;
+  let area = Math.PI * r * r;
+  if (area > knee) area = knee + (maxA - knee) * Math.tanh((area - knee) / (maxA - knee));
+  const k = shape.indexOf(':taper') > 0 ? 1 + (aspect - 1) * Math.min(1, r / (p * 0.46)) : aspect;
+  let hw = Math.sqrt(area / k) / 2;
+  let hh = hw * k;
+  if (hh > cap) {
+    hh = cap;
+    hw = area / (4 * hh);
+  }
+  if (st > 1) hh = Math.min(hh * st, cap);else if (st < 1) {
+    hh *= st;
+    hw *= st;
+  }
+  let ink = 1;
+  if (hw < MIN_HW) {
+    hh = hw * hh / MIN_HW;
+    hw = MIN_HW;
+    if (hh < MIN_HH) {
+      ink = hh / MIN_HH;
+      hh = MIN_HH;
+    }
+  }
+  let target = path;
+  if (many) {
+    const n = path.length;
+    const step = Math.round(ink * n);
+    if (step < 1) return;
+    target = path[Math.min(n, step) - 1];
+  }
+  target.rect(x - V_SLANT * y - hw, y - hh, hw * 2, hh * 2);
+}
+
+/* Fill what screenMark built: one Path2D, or the array from screenPaths, each
+   step at its own share of the fill colour's strength. Lines are stored
+   unsheared. */
+function screenFill(ctx, path, shape) {
+  const lines = shape && shape !== 'dots';
+  ctx.save();
+  if (lines) ctx.transform(1, 0, V_SLANT, 1, 0, 0);
+  if (Array.isArray(path)) {
+    const base = ctx.globalAlpha;
+    for (let i = 0; i < path.length; i++) {
+      ctx.globalAlpha = base * (i + 1) / path.length;
+      ctx.fill(path[i]);
+    }
+  } else ctx.fill(path);
+  ctx.restore();
+}
+Object.assign(__ds_scope, { SCREEN_R, getHouseImage, setHouseImage, revealWave, revealScale, V_ANGLE, getScreenShape, getScreenOptions, setScreenShape, useScreenShape, lineMinPitch, screenPitch, screenAngleFor, screenSteps, screenPaths, screenMark, screenFill });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/screenShape.jsx", error: String((e && e.message) || e) }); }
 
 // components/blocks/ImageScreen.jsx
 try { (() => {
@@ -6270,9 +3924,12 @@ try { (() => {
    event. */
 
 const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
+  '3:2': 'var(--ratio-landscape)',
+  '4:5': 'var(--ratio-portrait)',
+  '21:9': 'var(--ratio-wide)',
+  '1:1': 'var(--ratio-square)',
+  '3:4': 'var(--ratio-tall)',
+  '2:3': 'var(--ratio-high)'
 };
 const INK = () => 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
 const TAU = Math.PI * 2;
@@ -6286,6 +3943,7 @@ function ImageScreen({
   dynamics = 0.6,
   exposure = 1,
   screenAngle = 18,
+  screenShape,
   drift = 1,
   className = '',
   style
@@ -6296,6 +3954,7 @@ function ImageScreen({
   const gridRef = React.useRef(null);
   const shiftRef = React.useRef(null);
   const [ready, setReady] = React.useState(false);
+  const shape = __ds_scope.useScreenShape(screenShape);
   React.useEffect(() => {
     if (!src) return;
     let cancelled = false;
@@ -6331,13 +3990,14 @@ function ImageScreen({
       dyn,
       pitch,
       cosA,
-      sinA
+      sinA,
+      shape
     } = grid;
     const ctx = canvas.getContext('2d');
     ctx.save();
     ctx.scale(dpr, dpr);
     ctx.clearRect(0, 0, w, h);
-    const maxR = pitch * 0.46;
+    const maxR = pitch * __ds_scope.SCREEN_R;
     const amp = 0.3 * drift;
     let uMin = Infinity,
       uMax = -Infinity,
@@ -6352,7 +4012,7 @@ function ImageScreen({
       if (v > vMax) vMax = v;
     }
     const diag = w + h;
-    const path = new Path2D();
+    const path = __ds_scope.screenPaths();
     for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch) {
       for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch) {
         const x = u * cosA - v * sinA,
@@ -6381,14 +4041,14 @@ function ImageScreen({
            a pattern laid over it. */
         const nd = (x + y) / diag;
         const wave = Math.sin(nd * TAU * 2.6 - s * 7.5 + (d - 0.5) * dynamics * 1.6) + 0.5 * Math.sin(x * 0.012 - y * 0.017 + s * 4.2);
-        const radius = maxR * t * (1 + amp * wave * 0.6);
+        const swing = 1 + amp * wave * 0.6;
+        const radius = maxR * t * swing;
         if (radius < 0.22) continue;
-        path.moveTo(x + radius, y);
-        path.arc(x, y, radius, 0, TAU);
+        __ds_scope.screenMark(path, shape, x, y, radius, pitch, cosA, sinA, swing);
       }
     }
     ctx.fillStyle = INK();
-    ctx.fill(path);
+    __ds_scope.screenFill(ctx, path, shape);
     ctx.restore();
   }, [dynamics, drift]);
   const buildGrid = React.useCallback(() => {
@@ -6404,8 +4064,9 @@ function ImageScreen({
     canvas.height = h * dpr;
     canvas.style.width = '100%';
     canvas.style.height = '100%';
-    const cols = Math.max(2, Math.round(w / (gridSize / 2)));
-    const rows = Math.max(2, Math.round(h / (gridSize / 2)));
+    const step = __ds_scope.screenPitch(shape, gridSize);
+    const cols = Math.max(2, Math.round(w / (step / 2)));
+    const rows = Math.max(2, Math.round(h / (step / 2)));
     const off = document.createElement('canvas');
     off.width = cols;
     off.height = rows;
@@ -6460,7 +4121,7 @@ function ImageScreen({
         dyn[i] = Math.min(1, g * 4);
       }
     }
-    const a = screenAngle * Math.PI / 180;
+    const a = __ds_scope.screenAngleFor(shape, screenAngle) * Math.PI / 180;
     gridRef.current = {
       w,
       h,
@@ -6469,12 +4130,13 @@ function ImageScreen({
       dpr,
       tone,
       dyn,
-      pitch: gridSize,
+      pitch: step,
       cosA: Math.cos(a),
-      sinA: Math.sin(a)
+      sinA: Math.sin(a),
+      shape
     };
     draw(shiftRef.current == null ? 0 : shiftRef.current);
-  }, [gridSize, screenAngle, exposure, draw]);
+  }, [gridSize, screenAngle, shape, exposure, draw]);
   React.useEffect(() => {
     if (!ready) return;
     buildGrid();
@@ -6582,7 +4244,7 @@ function ImageScreen({
       style: {
         color: 'var(--ink-65)'
       }
-    }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio));
+    }, "Platsh\xE5llare f\xF6r foto, ", ratio));
   }
   return /*#__PURE__*/React.createElement("div", {
     ref: wrapRef,
@@ -6680,13 +4342,16 @@ function DotField({
   pointerGain = 1,
   pointerTone,
   tone = 'ink',
-  src,
+  src: srcProp,
   exposure = 1,
   screenAngle = 18,
+  screenShape,
   maxDots = 0,
   className = '',
   style
 }) {
+  /* Never without a picture: the house image unless one is passed. */
+  const src = srcProp || __ds_scope.getHouseImage() || undefined;
   const wrapRef = React.useRef(null);
   const canvasRef = React.useRef(null);
   const geomRef = React.useRef(null);
@@ -6696,6 +4361,7 @@ function DotField({
   const ptrRef = React.useRef(null);
   const [imgReady, setImgReady] = React.useState(0);
   const [onScreen, setOnScreen] = React.useState(true);
+  const shape = __ds_scope.useScreenShape(screenShape);
   const originRef = React.useRef(origin);
   originRef.current = origin;
   /* Modes that repaint forever are budgeted and gated; the one-shot modes are
@@ -6807,13 +4473,17 @@ function DotField({
        Device pixels multiply the same cost again; a soft dot does not need the
        second sample, so a standing field rasters near 1x. */
     const budget = maxDots || (continuous ? 20000 : 60000);
-    const pitch = Math.max(pitchProp, Math.sqrt(w * h / budget));
-    const dpr = Math.min(continuous ? 1.25 : 2, window.devicePixelRatio || 1);
+    const pitch = Math.max(__ds_scope.screenPitch(shape, pitchProp), Math.sqrt(w * h / budget));
+    /* The same resolution as ImageReveal: device pixels up to 2x, capped by
+       canvas area. A loader drawn at 1.25x and upscaled is what made the ghost
+       read soft and grey next to the print. */
+    let dpr = Math.min(2, window.devicePixelRatio || 1);
+    if (w * h * dpr * dpr > 4.2e6) dpr = Math.max(1, Math.sqrt(4.2e6 / (w * h)));
     canvas.width = Math.round(w * dpr);
     canvas.height = Math.round(h * dpr);
     canvas.style.width = w + 'px';
     canvas.style.height = h + 'px';
-    const a = screenAngle * Math.PI / 180,
+    const a = __ds_scope.screenAngleFor(shape, screenAngle) * Math.PI / 180,
       cosA = Math.cos(a),
       sinA = Math.sin(a);
     let uMin = Infinity,
@@ -6904,13 +4574,19 @@ function DotField({
       ns: Float32Array.from(ns),
       toneMap,
       cols,
-      rows
+      rows,
+      shape,
+      cosA,
+      sinA
     };
-  }, [pitchProp, screenAngle, exposure, imgReady, continuous, maxDots]);
+  }, [pitchProp, screenAngle, shape, exposure, imgReady, continuous, maxDots]);
 
   /* One Path2D per alpha bucket: at this density the per-dot fill call is what
      costs frames, not the geometry. */
-  const paint = React.useCallback(alphaAt => {
+  /* `house`: alphaAt returns revealScale, the image reveal's own mark size, and
+     it is used as is — no swing, no weight, no intensity. Only tide (the office
+     map) keeps the older alpha model. */
+  const paint = React.useCallback((alphaAt, house) => {
     const g = geomRef.current,
       canvas = canvasRef.current;
     if (!g || !canvas) return;
@@ -6923,22 +4599,28 @@ function DotField({
     ctx.clearRect(0, 0, g.w, g.h);
     const rgb = TONES[tone] || TONES.ink;
     const tm = g.toneMap;
+    /* The house modes only ever print a picture. While the image is still
+       loading there is nothing to print, so nothing is drawn: a ghost is never
+       plain specks one moment and the halftone the next. */
+    if (house && !tm) {
+      ctx.restore();
+      return;
+    }
     /* 0.54 of the pitch is the merge point: at that radius neighbouring dots
        just touch at full tone. `dotScale` above 1 lets them overlap on purpose
        — a coarser, wetter screen where dots run together in the dense areas
        instead of staying a tidy stencil of separate points. */
-    const maxR = (tm ? pitch * 0.54 : pitch * 0.4) * dotScale;
-    const paths = [];
-    for (let b = 0; b < BUCKETS; b++) paths.push(new Path2D());
+    const maxR = (tm ? pitch * __ds_scope.SCREEN_R : pitch * 0.4) * dotScale;
+    const paths = __ds_scope.screenPaths();
     const ptr = pointerRadius ? ptrRef.current : null;
     const haloRgb = pointerTone ? TONES[pointerTone] || pointerTone : null;
-    const haloPaths = ptr && haloRgb ? Array.from({
-      length: BUCKETS
-    }, () => new Path2D()) : null;
+    const haloPaths = ptr && haloRgb ? __ds_scope.screenPaths() : null;
     for (let i = 0; i < g.xs.length; i++) {
       const n = g.ns[i];
+      __ds_scope.revealWave.rhythm = 1;
       const a = alphaAt(g.xs[i], g.ys[i], n, g);
       if (a <= 0.02) continue;
+      const stretch = house ? __ds_scope.revealWave.rhythm : 1;
       let r, ab;
       if (tm) {
         /* bilinear sample — nearest sampling is what makes a rotated screen
@@ -6975,7 +4657,9 @@ function DotField({
            pass, which is what makes a looping field read as one screen in
            motion instead of an opacity blink. */
         const sw = Math.max(0, Math.min(1, sizeSwing));
-        r = maxR * Math.sqrt(t) * (1 - sw + sw * Math.min(1, a)) * (0.9 + 0.2 * n);
+        /* The house mark: linear in tone, no per-dot size noise — the same mark
+           ImageReveal prints at the same tone. */
+        r = house ? maxR * t * a : maxR * t * (1 - sw + sw * Math.min(1, a));
         /* Past half swing the animation is carried by size, so weight is held
            up rather than blinking with it. Below that, alpha behaves exactly as
            the scroll reveal's plate does. */
@@ -6985,13 +4669,19 @@ function DotField({
            With no floor, alpha tracks arrival exactly as the reveal's plate
            does unless the animation already owns most of the radius. */
         const base = weightFloor > 0 || sw <= 0.5 ? Math.min(1, a) : 0.45 + 0.7 * Math.min(1, a);
-        ab = Math.min(1, weightFloor + (1 - weightFloor) * base) * (0.35 + 0.65 * t + weightFloor * 0.3 * (1 - t));
+        /* Arrival only: tone is already in the radius. */
+        ab = Math.min(1, weightFloor + (1 - weightFloor) * base);
       } else {
         r = maxR * (0.62 + 0.38 * n) * (0.5 + 0.5 * Math.min(1, a));
         ab = a;
       }
-      const b = Math.min(BUCKETS - 1, Math.floor(ab * BUCKETS));
-      if (r <= 0.05) continue;
+      /* One ink, full strength, the way ImageReveal prints: what used to be
+         carried by alpha (arrival, weight, intensity) is folded into ink
+         AREA instead, so a burst or a loader is the same flat screen as the
+         scroll reveal, never a field of grey tints. */
+      if (!house) r *= Math.sqrt(Math.min(1, ab * intensity));
+      const b = BUCKETS - 1;
+      if (r <= 0.22) continue;
       /* Falls off as a smooth cosine bell rather than a hard circle: a linear
          falloff leaves a visible rim where the boost stops. */
       let boost = 0;
@@ -7000,25 +4690,17 @@ function DotField({
         if (d < 1) boost = (0.5 + 0.5 * Math.cos(Math.PI * d)) * pointerGain;
       }
       if (boost > 0.01) r *= 1 + 0.85 * boost;
-      paths[b].moveTo(g.xs[i] + r, g.ys[i]);
-      paths[b].arc(g.xs[i], g.ys[i], r, 0, Math.PI * 2);
+      __ds_scope.screenMark(paths, g.shape, g.xs[i], g.ys[i], r, pitch, g.cosA, g.sinA, stretch);
       if (haloPaths && boost > 0.02) {
-        const hb = Math.min(BUCKETS - 1, Math.floor(boost * BUCKETS));
-        haloPaths[hb].moveTo(g.xs[i] + r, g.ys[i]);
-        haloPaths[hb].arc(g.xs[i], g.ys[i], r, 0, Math.PI * 2);
+        const hb = BUCKETS - 1;
+        __ds_scope.screenMark(haloPaths, g.shape, g.xs[i], g.ys[i], r * Math.sqrt(Math.min(1, boost)), pitch, g.cosA, g.sinA);
       }
     }
-    for (let b = 0; b < BUCKETS; b++) {
-      const a = (b + 0.5) / BUCKETS * intensity;
-      ctx.fillStyle = 'rgba(' + rgb + ', ' + a.toFixed(3) + ')';
-      ctx.fill(paths[b]);
-    }
+    ctx.fillStyle = 'rgb(' + rgb + ')';
+    __ds_scope.screenFill(ctx, paths, g.shape);
     if (haloPaths) {
-      for (let b = 0; b < BUCKETS; b++) {
-        const a = (b + 0.5) / BUCKETS * intensity;
-        ctx.fillStyle = 'rgba(' + haloRgb + ', ' + a.toFixed(3) + ')';
-        ctx.fill(haloPaths[b]);
-      }
+      ctx.fillStyle = 'rgb(' + haloRgb + ')';
+      __ds_scope.screenFill(ctx, haloPaths, g.shape);
     }
     ctx.restore();
   }, [tone, pitchProp, intensity, sizeSwing, dotScale, jitter, weightFloor, pointerRadius, pointerGain, pointerTone]);
@@ -7066,14 +4748,16 @@ function DotField({
         return;
       }
       const tail = 1 - smooth01(t, 0.82, 1.1);
-      paint((x, y, n) => {
-        const d = Math.hypot(x - ox, y - oy) / far;
-        const lt = t * 1.18 - d * (0.52 + 0.22 * n) - n * 0.1;
-        if (lt <= 0) return 0;
-        const rise = smooth01(lt, 0, 0.11);
-        const fall = 1 - smooth01(lt, 0.14, 0.62 + 0.3 * n);
-        return rise * fall * tail * (0.55 + 0.6 * n);
-      });
+      /* The reveal printed in from the click to 0.72, then a second front
+         follows the first out the same way, so the print clears forwards
+         rather than playing back. */
+      const p = 0.72 * smooth01(t, 0, 0.55);
+      const ef = -0.15 + 1.6 * smooth01(t, 0.4, 1.1);
+      paint((x, y) => {
+        const nd = Math.hypot(x - ox, y - oy) / far;
+        const s = __ds_scope.revealScale(p, nd, x, y);
+        return s ? s * (1 - smooth01(ef - nd, -0.35, 0.22)) : 0;
+      }, true);
       rafRef.current = requestAnimationFrame(step);
     };
     rafRef.current = requestAnimationFrame(step);
@@ -7096,21 +4780,17 @@ function DotField({
     const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     build();
     const t0 = performance.now();
-    const period = duration * 1.7;
+    const period = duration * 2.6;
     if (reduced) {
-      paint((x, y, n) => 0.6 * (0.86 + 0.2 * n));
+      paint((x, y, n, g) => __ds_scope.revealScale(0.72, (x + y) / (g.w + g.h), x, y), true);
       return () => clear();
     }
     const step = now => {
       const t = (now - t0) % period / period;
-      paint((x, y, n, g) => {
-        const d = x / g.w * 0.72 + y / g.h * 0.28;
-        const lt = t * 1.5 - d * (0.58 + 0.18 * n) - n * 0.12;
-        if (lt <= 0) return 0;
-        const rise = smooth01(lt, 0, 0.14);
-        const fall = 1 - smooth01(lt, 0.2, 0.72 + 0.24 * n);
-        return rise * fall * (0.6 + 0.5 * n);
-      });
+      /* The image reveal scrubbed in and out on a loop: the ghost is the
+         print the content will land as, not a second animation. */
+      const p = 0.72 * (0.5 - 0.5 * Math.cos(Math.PI * 2 * t));
+      paint((x, y, n, g) => __ds_scope.revealScale(p, (x + y) / (g.w + g.h), x, y), true);
       rafRef.current = requestAnimationFrame(step);
     };
     rafRef.current = requestAnimationFrame(step);
@@ -7127,12 +4807,7 @@ function DotField({
   React.useEffect(() => {
     if (mode !== 'progress') return;
     build();
-    paint((x, y, n, g) => {
-      const dd = x / g.w * 0.28 + y / g.h * 0.72;
-      const lt = progress * 1.45 - dd * (0.5 + 0.2 * n) - n * 0.1;
-      if (lt <= 0) return 0;
-      return smooth01(lt, 0, 0.2) * (0.66 + 0.44 * n);
-    });
+    paint((x, y, n, g) => __ds_scope.revealScale(Math.min(0.77, progress), (x + y) / (g.w + g.h), x, y), true);
     return () => clear();
   }, [mode, progress, build, paint, clear]);
 
@@ -7208,7 +4883,7 @@ function DotField({
   React.useEffect(() => {
     if (mode !== 'still') return;
     build();
-    paint((x, y, n) => level * (0.9 + 0.16 * n));
+    paint((x, y, n, g) => __ds_scope.revealScale(0.72 * level / 0.6 > 0.77 ? 0.77 : 0.72 * level / 0.6, (x + y) / (g.w + g.h), x, y), true);
     return () => clear();
   }, [mode, level, build, paint, clear]);
   return /*#__PURE__*/React.createElement("div", {
@@ -7242,7 +4917,12 @@ try { (() => {
 
    The mask is generated at the element's own pixel size, so the dot field's
    cover-crop is an identity and the projection the pins are placed with is the
-   projection the dots are printing. */
+   projection the dots are printing.
+
+   Pins are placed from the same projection, then carried through the dot
+   field's centred cover-crop at the live box size, so between a resize and the
+   plate rebuilding they still sit on the coordinate. Each pin is anchored at
+   the centre of its dot; the label hangs off to the side and never moves it. */
 
 const LIBS = [['https://unpkg.com/d3@7.9.0/dist/d3.min.js', 'sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i'], ['https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js', 'sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67']];
 const ATLAS = 'https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json';
@@ -7263,6 +4943,11 @@ const VINGE_OFFICES = [{
   lon: 4.3517,
   lat: 50.8503
 }];
+
+/* Module-level so the default is one array, not a new one per render: `bounds`
+   is an effect dependency, and a fresh default re-ran the mask build on every
+   render — which set state, re-rendered, and built again, without end. */
+const DEFAULT_BOUNDS = [[-46, 46], [44, 70]];
 const loads = {};
 function loadScript(entry) {
   const [src, integrity] = entry;
@@ -7291,7 +4976,7 @@ function loadLand() {
 }
 function OfficeMap({
   offices = VINGE_OFFICES,
-  bounds = [[-46, 46], [44, 70]],
+  bounds = DEFAULT_BOUNDS,
   pitch = 4,
   intensity = 0.72,
   level = 1,
@@ -7308,8 +4993,8 @@ function OfficeMap({
   fps = 18,
   pointerRadius = 0,
   dotScale = 1,
-  tone = 'mint',
-  ground = 'var(--ink)',
+  tone = 'ink',
+  ground = 'var(--paper)',
   minHeight = '100svh',
   running = true,
   className = '',
@@ -7320,6 +5005,8 @@ function OfficeMap({
   const [size, setSize] = React.useState(null);
   const [mask, setMask] = React.useState(null);
   const [pins, setPins] = React.useState([]);
+  const [plate, setPlate] = React.useState(null);
+  const [live, setLive] = React.useState(null);
   /* A viewport-sized plate is megabytes of backing store that the JS heap does
      not account for, so a chain of resizes can hold several of them alive
      waiting on a collection that has no reason to run. Zeroing the previous
@@ -7336,18 +5023,37 @@ function OfficeMap({
     const el = wrapRef.current;
     if (!el) return;
     let timer = 0;
+    const dims = () => ({
+      w: el.clientWidth,
+      h: el.clientHeight
+    });
     const read = () => {
-      const w = Math.round(el.clientWidth),
-        h = Math.round(el.clientHeight);
+      const {
+        w,
+        h
+      } = dims();
       if (!w || !h) return;
-      setSize(prev => prev && Math.abs(prev.w - w) < 8 && Math.abs(prev.h - h) < 8 ? prev : {
+      setSize(prev => prev && prev.w === w && prev.h === h ? prev : {
+        w,
+        h
+      });
+    };
+    const readLive = () => {
+      const {
+        w,
+        h
+      } = dims();
+      if (!w || !h) return;
+      setLive(prev => prev && prev.w === w && prev.h === h ? prev : {
         w,
         h
       });
     };
     read();
+    readLive();
     if (typeof ResizeObserver === 'undefined') return;
     const ro = new ResizeObserver(() => {
+      readLive();
       clearTimeout(timer);
       timer = setTimeout(read, 180);
     });
@@ -7357,6 +5063,11 @@ function OfficeMap({
       ro.disconnect();
     };
   }, []);
+
+  /* Keyed by value, so a page that passes a fresh but equal array or office
+     list per render does not rebuild the plate either. */
+  const boundsKey = JSON.stringify(bounds);
+  const officesKey = JSON.stringify(offices);
   React.useEffect(() => {
     if (!size) return;
     let cancelled = false;
@@ -7428,6 +5139,10 @@ function OfficeMap({
       }
       maskRef.current = cv;
       setMask(cv);
+      setPlate({
+        w,
+        h
+      });
       setPins(offices.map(o => {
         const p = proj([o.lon, o.lat]);
         return {
@@ -7435,15 +5150,25 @@ function OfficeMap({
           x: p[0],
           y: p[1]
         };
-      }).filter(p => p.x > 8 && p.y > 8 && p.x < w - 8 && p.y < h - 8));
+      }));
     })();
     return () => {
       cancelled = true;
     };
-  }, [size, offices, bounds, pitch]);
+  }, [size, officesKey, boundsKey, pitch]);
+
+  /* The dot field cover-crops the plate about its centre; the pins take the
+     same transform, from plate pixels to the box as it is right now. */
+  const placed = !plate || !live ? [] : pins.map(p => {
+    const k = Math.max(live.w / plate.w, live.h / plate.h);
+    return {
+      ...p,
+      left: live.w / 2 + (p.x - plate.w / 2) * k,
+      top: live.h / 2 + (p.y - plate.h / 2) * k
+    };
+  }).filter(p => p.left > 8 && p.top > 8 && p.left < live.w - 8 && p.top < live.h - 8);
   return /*#__PURE__*/React.createElement("div", {
     ref: wrapRef,
-    "data-inverted": "",
     className: className,
     style: {
       position: 'relative',
@@ -7474,51 +5199,47 @@ function OfficeMap({
       inset: 0,
       pointerEvents: 'none'
     }
-  }, pins.map(p => /*#__PURE__*/React.createElement("span", {
+  }, placed.map(p => /*#__PURE__*/React.createElement("span", {
     key: p.name,
     style: {
       position: 'absolute',
-      left: p.x,
-      top: p.y,
-      transform: 'translate(-50%, -50%)',
-      display: 'flex',
-      alignItems: 'center',
-      gap: 10
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      position: 'relative',
-      width: 26,
-      height: 26,
-      display: 'block',
-      flex: '0 0 auto'
+      left: p.left,
+      top: p.top,
+      width: 0,
+      height: 0
     }
   }, /*#__PURE__*/React.createElement("span", {
     style: {
       position: 'absolute',
-      inset: 0,
-      border: '1px solid var(--mint-70)',
+      left: -13,
+      top: -13,
+      width: 26,
+      height: 26,
+      border: '1px solid var(--text-primary)',
       borderRadius: '50%',
-      opacity: 0.7
+      boxSizing: 'border-box',
+      opacity: 0.5
     }
   }), /*#__PURE__*/React.createElement("span", {
     style: {
       position: 'absolute',
-      left: '50%',
-      top: '50%',
+      left: -3.5,
+      top: -3.5,
       width: 7,
       height: 7,
-      marginLeft: -3.5,
-      marginTop: -3.5,
-      background: 'var(--mint)',
+      background: 'var(--text-primary)',
       borderRadius: '50%'
     }
-  })), /*#__PURE__*/React.createElement("span", {
+  }), /*#__PURE__*/React.createElement("span", {
     className: "small",
     style: {
+      position: 'absolute',
+      left: 23,
+      top: 0,
+      transform: 'translateY(-50%)',
       whiteSpace: 'nowrap',
       maxWidth: 'none',
-      color: 'var(--mint)'
+      color: 'var(--text-primary)'
     }
   }, p.name)))), /*#__PURE__*/React.createElement("p", {
     style: {
@@ -7535,13 +5256,267 @@ function OfficeMap({
 Object.assign(__ds_scope, { VINGE_OFFICES, OfficeMap });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/OfficeMap.jsx", error: String((e && e.message) || e) }); }
 
+// components/core/RasterField.jsx
+try { (() => {
+/* The photograph as the house screen, held at a light stage so text can sit
+   on top of it. Fills its nearest positioned ancestor.
+
+   Dot size comes from the picture's own tone (stretched per image,
+   cover-cropped to the box), with a little random jitter on each dot. The
+   reveal's two crossing waves ride it, advanced by scroll, their swing
+   widened and the radius trimmed back by the same ink area, so it shimmers
+   visibly without printing darker. The print is held at a fixed progress:
+   it never closes into the photograph. Without a src it falls back to seeded
+   noise. Painted only on scroll and only while on screen; no clock. */
+
+const FIELD_P = 0.6; /* reveal progress the print is held at: front past the far corner, waves at full rhythm */
+const FIELD_PITCH = 6;
+const FIELD_MAX_DOTS = 20000;
+const FIELD_ALPHA = 0.5; /* ink ceiling, so display type and body copy stay readable over it */
+const SHIMMER_PER_PX = 0.009;
+/* The waves' swing around their mean, widened so the shimmer reads, and the
+   radius trimmed back by the same ink area, so the field moves more without
+   printing any darker on average. */
+const SHIMMER_GAIN = 1.6;
+const SHIMMER_MEAN = 0.63;
+const SHIMMER_TRIM = 0.92;
+function mulberry(seed) {
+  let a = seed >>> 0;
+  return () => {
+    a = a + 0x6D2B79F5 >>> 0;
+    let t = a;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+/* Value noise on a coarse grid, smoothly interpolated, two octaves. */
+function makeNoise(rand, cell) {
+  const N = 64,
+    g = new Float32Array(N * N);
+  for (let i = 0; i < g.length; i++) g[i] = rand();
+  const at = (i, j) => g[(j % N + N) % N * N + (i % N + N) % N];
+  const sm = t => t * t * (3 - 2 * t);
+  const oct = (x, y) => {
+    const i = Math.floor(x),
+      j = Math.floor(y),
+      fx = sm(x - i),
+      fy = sm(y - j);
+    const a = at(i, j) + (at(i + 1, j) - at(i, j)) * fx;
+    const b = at(i, j + 1) + (at(i + 1, j + 1) - at(i, j + 1)) * fx;
+    return a + (b - a) * fy;
+  };
+  return (x, y) => 0.68 * oct(x / cell, y / cell) + 0.32 * oct(x / (cell * 0.42) + 17, y / (cell * 0.42) + 31);
+}
+
+/* The picture's darkness on a small grid, cover-cropped to w x h and
+   stretched between its 4th and 96th percentile, so a pale still and a dark
+   one print at the same weight. */
+function toneMap(img, w, h) {
+  const sw = 200,
+    shh = Math.max(1, Math.round(sw * h / w));
+  const c = document.createElement('canvas');
+  c.width = sw;
+  c.height = shh;
+  const x = c.getContext('2d', {
+    willReadFrequently: true
+  });
+  const iw = img.naturalWidth,
+    ih = img.naturalHeight,
+    s = Math.max(sw / iw, shh / ih);
+  x.drawImage(img, (sw - iw * s) / 2, (shh - ih * s) / 2, iw * s, ih * s);
+  let d;
+  try {
+    d = x.getImageData(0, 0, sw, shh).data;
+  } catch (e) {
+    return null;
+  }
+  const t = new Float32Array(sw * shh);
+  for (let i = 0; i < t.length; i++) t[i] = 1 - (0.2126 * d[i * 4] + 0.7152 * d[i * 4 + 1] + 0.0722 * d[i * 4 + 2]) / 255;
+  const sorted = Array.from(t).sort((a, b) => a - b);
+  const lo = sorted[Math.floor(sorted.length * 0.04)],
+    hi = sorted[Math.floor(sorted.length * 0.96)],
+    k = 1 / Math.max(0.05, hi - lo);
+  for (let i = 0; i < t.length; i++) t[i] = Math.max(0, Math.min(1, (t[i] - lo) * k));
+  return (px, py) => t[Math.min(shh - 1, Math.max(0, Math.floor(py / h * shh))) * sw + Math.min(sw - 1, Math.max(0, Math.floor(px / w * sw)))];
+}
+function RasterField({
+  src,
+  alt,
+  level = 0.5,
+  className,
+  style
+}) {
+  const [img, setImg] = React.useState(null);
+  React.useEffect(() => {
+    setImg(null);
+    if (!src) return undefined;
+    let live = true;
+    const im = new Image();
+    im.decoding = 'async';
+    im.onload = () => {
+      if (live) setImg(im);
+    };
+    im.src = src;
+    return () => {
+      live = false;
+    };
+  }, [src]);
+  const ref = React.useRef(null);
+  const shape = __ds_scope.useScreenShape();
+  React.useEffect(() => {
+    const cv = ref.current;
+    if (!cv || src && !img) return undefined;
+    /* The positioned ancestor the canvas fills, not its DOM parent: mounted
+       through a wrapper, the parent can be a zero-size box. */
+    const box = cv.offsetParent || cv.parentElement;
+    const ctx = cv.getContext('2d');
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const rand = mulberry(Math.random() * 4294967296 >>> 0);
+    const noise = makeNoise(rand, 190);
+    let g = null,
+      frame = 0,
+      onScreen = false,
+      lastS = null;
+    const build = () => {
+      const w = box.clientWidth,
+        h = box.clientHeight;
+      if (!w || !h) {
+        g = null;
+        return;
+      }
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      cv.width = Math.round(w * dpr);
+      cv.height = Math.round(h * dpr);
+      const tm = img ? toneMap(img, w, h) : null;
+      let p = __ds_scope.screenPitch(shape, FIELD_PITCH);
+      if (w * h / (p * p) > FIELD_MAX_DOTS) p = Math.sqrt(w * h / FIELD_MAX_DOTS);
+      const ang = __ds_scope.screenAngleFor(shape, 18) * Math.PI / 180,
+        cosA = Math.cos(ang),
+        sinA = Math.sin(ang);
+      const cx = w / 2,
+        cy = h / 2,
+        half = Math.hypot(w, h) / 2 + p;
+      const xs = [],
+        ys = [],
+        ts = [],
+        nds = [];
+      for (let v = -half; v <= half; v += p) {
+        for (let u = -half; u <= half; u += p) {
+          const x = cx + u * cosA - v * sinA,
+            y = cy + u * sinA + v * cosA;
+          if (x < -p || y < -p || x > w + p || y > h + p) continue;
+          let t;
+          if (tm) t = level * (0.1 + 0.9 * tm(x, y)) * (0.85 + 0.3 * rand());else {
+            const tone = Math.max(0, Math.min(1, (noise(x, y) - 0.22) * 1.6));
+            t = level * (0.18 + 0.82 * tone * tone) * (0.8 + 0.4 * rand());
+          }
+          xs.push(x);
+          ys.push(y);
+          ts.push(t);
+          nds.push((x + y) / (w + h));
+        }
+      }
+      g = {
+        w,
+        h,
+        dpr,
+        p,
+        cosA,
+        sinA,
+        xs,
+        ys,
+        ts,
+        nds,
+        maxR: __ds_scope.SCREEN_R * p
+      };
+      lastS = null;
+    };
+    const paint = () => {
+      frame = 0;
+      if (!g) return;
+      const s = reduced ? 0 : -box.getBoundingClientRect().top * SHIMMER_PER_PX;
+      if (lastS !== null && Math.abs(s - lastS) < 0.01) return;
+      lastS = s;
+      const paths = __ds_scope.screenPaths();
+      const {
+        xs,
+        ys,
+        ts,
+        nds,
+        maxR,
+        p,
+        cosA,
+        sinA
+      } = g;
+      for (let i = 0; i < xs.length; i++) {
+        __ds_scope.revealWave.rhythm = 1;
+        const sc0 = __ds_scope.revealScale(FIELD_P, nds[i], xs[i], ys[i], s);
+        const sc = Math.max(0, SHIMMER_MEAN + (sc0 - SHIMMER_MEAN) * SHIMMER_GAIN) * SHIMMER_TRIM;
+        const r = maxR * ts[i] * sc;
+        if (r < 0.12) continue;
+        __ds_scope.screenMark(paths, shape, xs[i], ys[i], r, p, cosA, sinA, __ds_scope.revealWave.rhythm);
+      }
+      ctx.setTransform(g.dpr, 0, 0, g.dpr, 0, 0);
+      ctx.clearRect(0, 0, g.w, g.h);
+      ctx.fillStyle = 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
+      ctx.globalAlpha = FIELD_ALPHA;
+      __ds_scope.screenFill(ctx, paths, shape);
+      ctx.globalAlpha = 1;
+    };
+    const request = () => {
+      if (onScreen && !frame) frame = requestAnimationFrame(paint);
+    };
+    const onResize = () => {
+      build();
+      request();
+    };
+    build();
+    const io = new IntersectionObserver(es => {
+      onScreen = es[0].isIntersecting;
+      request();
+    }, {
+      rootMargin: '100px'
+    });
+    io.observe(box);
+    const ro = new ResizeObserver(onResize);
+    ro.observe(box);
+    if (!reduced) window.addEventListener('scroll', request, {
+      passive: true
+    });
+    return () => {
+      io.disconnect();
+      ro.disconnect();
+      window.removeEventListener('scroll', request);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [shape, level, img, src]);
+  return /*#__PURE__*/React.createElement("canvas", {
+    ref: ref,
+    className: className,
+    role: alt ? 'img' : undefined,
+    "aria-label": alt || undefined,
+    "aria-hidden": alt ? undefined : 'true',
+    style: {
+      position: 'absolute',
+      inset: 0,
+      width: '100%',
+      height: '100%',
+      pointerEvents: 'none',
+      ...style
+    }
+  });
+}
+Object.assign(__ds_scope, { RasterField });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/RasterField.jsx", error: String((e && e.message) || e) }); }
+
 // components/core/RevealEffect.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /* One seam for every reveal in the system. Nothing renders the dot screen
    directly: the scroll reveal, the click on a field and the ghost loader all
    mount RevealEffect, which looks the implementation up by name. Swapping the
-   house effect is then one call — setRevealEffect('sheet') — and it changes
+   house effect is then one call — setRevealEffect('name') — and it changes
    every one of those moments at once, because they were never three
    implementations to begin with.
 
@@ -7563,14 +5538,13 @@ let current = 'dots';
    halftone version anywhere else on the page the two do not match. So the
    image is set once, globally, and every reveal inherits it. A component that
    passes no `src` still gets the picture; there is nothing left to mix in. */
-let houseImage = null;
 let warned = false;
 function setRevealImage(src) {
-  houseImage = src || null;
+  __ds_scope.setHouseImage(src);
   subscribers.forEach(fn => fn(current));
 }
 function getRevealImage() {
-  return houseImage;
+  return __ds_scope.getHouseImage();
 }
 function registerRevealEffect(name, component, label) {
   registry[name] = {
@@ -7593,7 +5567,6 @@ function listRevealEffects() {
   }));
 }
 registerRevealEffect('dots', __ds_scope.DotField, 'Punktraster');
-registerRevealEffect('sheet', __ds_scope.SheetWipe, 'Arkdrag');
 
 /* The registry, capitalized: only exports starting with a capital letter reach
    window.<Namespace>, so this object is how a consuming project gets at the
@@ -7604,7 +5577,11 @@ const RevealEffects = {
   get: getRevealEffect,
   list: listRevealEffects,
   setImage: setRevealImage,
-  getImage: getRevealImage
+  getImage: getRevealImage,
+  /* 'dots' | 'lines' — the shape every screen in the system prints with. */
+  setShape: __ds_scope.setScreenShape,
+  getShape: __ds_scope.getScreenShape,
+  getShapeOptions: __ds_scope.getScreenOptions
 };
 function RevealEffect({
   effect,
@@ -7621,7 +5598,7 @@ function RevealEffect({
   const entry = registry[effect || current] || registry.dots;
   if (!entry) return null;
   const Impl = entry.component;
-  const src = props.src || houseImage || undefined;
+  const src = props.src || __ds_scope.getHouseImage() || undefined;
   if (!src && !warned) {
     warned = true;
     console.warn('RevealEffect: no image set. The plain dot variant is not used in this project — call RevealEffects.setImage(src) once at startup so every reveal is a halftone of a picture.');
@@ -7636,9 +5613,12 @@ Object.assign(__ds_scope, { setRevealImage, getRevealImage, registerRevealEffect
 // components/blocks/ImageReveal.jsx
 try { (() => {
 const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
+  '3:2': 'var(--ratio-landscape)',
+  '4:5': 'var(--ratio-portrait)',
+  '21:9': 'var(--ratio-wide)',
+  '1:1': 'var(--ratio-square)',
+  '3:4': 'var(--ratio-tall)',
+  '2:3': 'var(--ratio-high)'
 };
 const INK = () => 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
 /* Inverted, the dots are laid on ink, so they take mint rather than paper —
@@ -7687,7 +5667,8 @@ function ImageReveal({
   dynamics = 0.6,
   exposure = 1,
   screenAngle = 18,
-  playAt = 0.65,
+  screenShape,
+  playAt,
   duration = 2200,
   noir = __ds_scope.NOIR_CONTRAST,
   axis = 'y',
@@ -7727,6 +5708,10 @@ function ImageReveal({
   const canvasRef = React.useRef(null);
   const duoRef = React.useRef(null);
   const photoRef = React.useRef(null);
+  /* Everything that paints sits on one layer, measured as the paint box, so
+     screen and plate are built at the layer's size and stay registered with
+     the photograph. */
+  const layerRef = React.useRef(null);
   const imgRef = React.useRef(null);
   const gridRef = React.useRef(null);
   const scrollerRef = React.useRef(null);
@@ -7746,6 +5731,7 @@ function ImageReveal({
      scroll position is handed to that implementation instead — the same
      progress, a different reveal, no second scroll rig. */
   const houseEffect = effect || __ds_scope.getRevealEffect();
+  const shape = __ds_scope.useScreenShape(screenShape);
   const delegated = houseEffect !== 'dots';
   const [scrollP, setScrollP] = React.useState(0);
   React.useEffect(() => {
@@ -7764,11 +5750,16 @@ function ImageReveal({
       cancelled = true;
     };
   }, [src]);
-  const draw = React.useCallback((p, q, v, colorOverride) => {
+  const draw = React.useCallback((p, q, v, colorOverride, tc) => {
     const canvas = canvasRef.current,
       grid = gridRef.current;
     if (!canvas || !grid) return;
-    const photoT = smooth01(p, 0.93, 0.96);
+    /* The handover is paced on the whole clock (tc, 0–1), not on p: p reaches
+       1 at tc 0.62, so windows on p squeezed closure and crossfade into a
+       quarter-second and left the rest of the clock idle. On tc the closure
+       takes ~0.4 s and the photograph ~0.5 s of a default play. */
+    const clk = tc == null ? p * 0.62 : tc;
+    const photoT = smooth01(clk, 0.55, 0.8);
     /* Colour runs at the end of the same clock, after the screen has closed
        up into the plate. A carousel can hand colour over explicitly instead,
        since which card is active there is a decision, not a position. */
@@ -7777,7 +5768,7 @@ function ImageReveal({
        the way back out — leaves the plate at full strength over a photograph
        that is still visible, which reads as a flick to the negative. The
        screen's own closure is a floor under the handover in both directions. */
-    const closed = smooth01(p, 0.88, 1);
+    const closed = smooth01(clk, 0.5, 0.55);
     /* Two régimes. On the positional clock the screen's own closure floors the
        handover, so the plate can never outlast the photograph. Where colour is
        handed over explicitly it is the whole story: the print finishes in the
@@ -7790,7 +5781,7 @@ function ImageReveal({
        So on ink the handover to colour is complete before the photograph
        starts to come up (photoT starts at 0.93): the negative only ever sits
        under the dots, never over the picture. */
-    const colorFinal = inverted ? Math.max(colorT, smooth01(p, 0.86, 0.93)) : colorT;
+    const colorFinal = inverted ? Math.max(colorT, smooth01(clk, 0.5, 0.55)) : colorT;
     if (photoRef.current) photoRef.current.style.opacity = String(photoT);
     if (duoRef.current) duoRef.current.style.opacity = String(photoT * (1 - colorFinal));
     canvas.style.opacity = String(1 - photoT);
@@ -7806,7 +5797,8 @@ function ImageReveal({
       dyn,
       pitch,
       cosA,
-      sinA
+      sinA,
+      shape
     } = grid;
     const ctx = canvas.getContext('2d');
     ctx.save();
@@ -7819,8 +5811,10 @@ function ImageReveal({
        halftone average out to the same value as continuous tone), so the dots
        swell, merge, and close up into the plate in place. The crossfade
        underneath is then between two images of the same weight. */
-    const closeT = smooth01(p, 0.78, 0.92);
-    const maxR = pitch * 0.46; /* screen phase: dots never merge */
+    /* Partial closure only, overlapping the photograph: a full close merges
+       the strokes into a solid green mass, which reads as a stalled load. */
+    const closeT = 0.45 * smooth01(clk, 0.5, 0.68);
+    const maxR = pitch * __ds_scope.SCREEN_R; /* screen phase: dots never merge */
     const closeR = pitch * 0.6; /* closed phase: full coverage at tone 1 */
     const sizeT = 0.72 + 0.28 * smooth01(p, 0, 0.92);
     /* Travelling reveal front. It clears the frame by roughly half the travel,
@@ -7849,7 +5843,7 @@ function ImageReveal({
     const diag = w + h;
     /* One path for every dot: at this density the per-dot fill call, not the
        geometry, is what costs frames. Single ink colour, so one path suffices. */
-    const path = new Path2D();
+    const path = __ds_scope.screenPaths();
     for (let v = Math.floor(vMin / pitch) * pitch; v <= vMax; v += pitch) {
       for (let u = Math.floor(uMin / pitch) * pitch; u <= uMax; u += pitch) {
         const x = u * cosA - v * sinA,
@@ -7891,12 +5885,11 @@ function ImageReveal({
         if (rhythm <= 0) continue;
         const radius = rBase * sizeT * bandT * rhythm;
         if (radius < 0.22) continue;
-        path.moveTo(x + radius, y);
-        path.arc(x, y, radius, 0, TAU);
+        __ds_scope.screenMark(path, shape, x, y, radius, pitch, cosA, sinA, rhythm);
       }
     }
     ctx.fillStyle = inkColor || (inverted ? MINT() : INK());
-    ctx.fill(path);
+    __ds_scope.screenFill(ctx, path, shape);
     ctx.restore();
   }, [dynamics, exposure, inverted, restTone, inkColor]);
 
@@ -7909,7 +5902,7 @@ function ImageReveal({
       duo = duoRef.current,
       img = imgRef.current;
     if (!wrap || !duo || !img) return;
-    const rect = wrap.getBoundingClientRect();
+    const rect = (layerRef.current || wrap).getBoundingClientRect();
     const w = Math.max(1, Math.round(rect.width)),
       h = Math.max(1, Math.round(rect.height));
     const dpr = fitDpr(w, h);
@@ -7944,7 +5937,7 @@ function ImageReveal({
       canvas = canvasRef.current,
       img = imgRef.current;
     if (!wrap || !canvas || !img) return;
-    const rect = wrap.getBoundingClientRect();
+    const rect = (layerRef.current || wrap).getBoundingClientRect();
     const w = Math.max(1, Math.round(rect.width)),
       h = Math.max(1, Math.round(rect.height));
     const dpr = fitDpr(w, h);
@@ -7955,8 +5948,9 @@ function ImageReveal({
 
     /* Tone map at twice the screen frequency, so bilinear sampling of the
        rotated screen has something smooth to read. */
-    const cols = Math.max(2, Math.round(w / (gridSize / 2)));
-    const rows = Math.max(2, Math.round(h / (gridSize / 2)));
+    const step = __ds_scope.screenPitch(shape, gridSize);
+    const cols = Math.max(2, Math.round(w / (step / 2)));
+    const rows = Math.max(2, Math.round(h / (step / 2)));
     const off = document.createElement('canvas');
     off.width = cols;
     off.height = rows;
@@ -8025,7 +6019,7 @@ function ImageReveal({
         dyn[i] = Math.min(1, g * 4);
       }
     }
-    const a = screenAngle * Math.PI / 180;
+    const a = __ds_scope.screenAngleFor(shape, screenAngle) * Math.PI / 180;
     gridRef.current = {
       w,
       h,
@@ -8035,12 +6029,13 @@ function ImageReveal({
       tone,
       tonePlate,
       dyn,
-      pitch: gridSize,
+      pitch: step,
       cosA: Math.cos(a),
-      sinA: Math.sin(a)
+      sinA: Math.sin(a),
+      shape
     };
-    draw(progressRef.current ? progressRef.current.p : 0, progressRef.current ? progressRef.current.q : 0, progressRef.current ? progressRef.current.v : 0, colorRef.current);
-  }, [gridSize, screenAngle, exposure, noir, inverted, draw, paintPlate, fx, fy]);
+    draw(progressRef.current ? progressRef.current.p : 0, progressRef.current ? progressRef.current.q : 0, progressRef.current ? progressRef.current.v : 0, colorRef.current, progressRef.current ? progressRef.current.t : 0);
+  }, [gridSize, screenAngle, shape, exposure, noir, inverted, draw, paintPlate, fx, fy]);
   const playRef = React.useRef(play);
   playRef.current = play;
   /* Scrubbed: somebody else owns the clock (a hero dispersing its mark as the
@@ -8155,7 +6150,8 @@ function ImageReveal({
           p: Math.min(1, t / 0.62),
           q: smooth01(t, 0.62, 1),
           v: t,
-          centred: t
+          centred: t,
+          t
         };
       }
       const clock = clockRef.current;
@@ -8181,24 +6177,37 @@ function ImageReveal({
           p: Math.min(1, t / 0.62),
           q: smooth01(t, 0.62, 1),
           v: t,
-          centred: t
+          centred: t,
+          t
         };
       }
+      /* Default trigger: the image fully in view. A frame that is itself close
+         to the viewport's size (a full-screen image) keeps the earlier 0.65,
+         since it can only be "fully in view" at one exact scroll position. */
+      const large = size >= viewSize * 0.8;
+      const at = playAt != null ? playAt : large ? 0.65 : 0.98;
       const LEAD = 0.5;
       const secs = Math.max(0.1, duration / 1000 * (1 - LEAD));
-      const posT = LEAD * Math.min(1, v / Math.max(0.05, playAt));
+      const posT = LEAD * Math.min(1, v / Math.max(0.05, at));
+      /* Leaving: once a printed image drops below LEAVE_AT visible, at
+         either edge, the clock plays itself backwards — photograph down,
+         screen opening — until it meets the scroll position, which then
+         carries the raster out. Hysteresis against playAt, so a small scroll
+         at full view does not toggle it. */
+      const LEAVE_AT = Math.min(0.7, at - 0.15);
       if (v <= 0) {
         clock.t = 0;
         clock.running = false;
-      } else if (v >= playAt) clock.running = true;else if (rewinds) clock.running = false;
-      if (clock.running) clock.t = Math.min(1, Math.max(clock.t, LEAD) + dt / secs);else clock.t = rewinds ? posT : Math.max(clock.t, posT);
+      } else if (v >= at) clock.running = true;else if (rewinds || v < LEAVE_AT) clock.running = false;
+      if (clock.running) clock.t = Math.min(1, Math.max(clock.t, LEAD) + dt / secs);else if (rewinds) clock.t = posT;else if (v < LEAVE_AT) clock.t = clock.t > posT ? Math.max(posT, clock.t - dt * 1.4 / secs) : posT;else clock.t = Math.max(clock.t, posT);
       const t = clock.t;
       /* Screen resolves over the first stretch of the clock, colour follows. */
       return {
         p: Math.min(1, t / 0.62),
         q: smooth01(t, 0.62, 1),
         v,
-        centred
+        centred,
+        t
       };
     };
     const reconcile = () => {
@@ -8210,7 +6219,7 @@ function ImageReveal({
       const wrap = wrapRef.current,
         built = gridRef.current;
       if (wrap && built) {
-        const r = wrap.getBoundingClientRect();
+        const r = (layerRef.current || wrap).getBoundingClientRect();
         if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
           paintPlate(); /* immediate: the plate must not stretch */
           if (rebuild) clearTimeout(rebuild);
@@ -8241,7 +6250,7 @@ function ImageReveal({
           ...now,
           over
         };
-        if (delegated) setScrollP(now.p);else draw(now.p, now.q, now.v, over);
+        if (delegated) setScrollP(now.p);else draw(now.p, now.q, now.v, over, now.t);
       }
     };
     /* State is derived from position every frame while the image is in view,
@@ -8298,7 +6307,7 @@ function ImageReveal({
     const ro = new ResizeObserver(() => {
       const wrap = wrapRef.current,
         built = gridRef.current;
-      const r = wrap ? wrap.getBoundingClientRect() : null;
+      const r = wrap ? (layerRef.current || wrap).getBoundingClientRect() : null;
       paintPlate();
       /* A box that was measured at nothing has to be rebuilt at once, not on a
          debounce: inside a flex or grid track the element can mount at a
@@ -8326,7 +6335,7 @@ function ImageReveal({
       const wrap = wrapRef.current,
         built = gridRef.current;
       if (!wrap || !built) return;
-      const r = wrap.getBoundingClientRect();
+      const r = (layerRef.current || wrap).getBoundingClientRect();
       if (Math.abs(r.width - built.w) > 1 || Math.abs(r.height - built.h) > 1) {
         buildGrid();
         reconcile();
@@ -8385,7 +6394,7 @@ function ImageReveal({
       style: {
         color: 'var(--ink-65)'
       }
-    }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio));
+    }, "Platsh\xE5llare f\xF6r foto, ", ratio));
   }
   return /*#__PURE__*/React.createElement("div", {
     ref: wrapRef,
@@ -8399,6 +6408,12 @@ function ImageReveal({
       background: inverted ? 'var(--ink)' : grounded ? 'var(--reveal-ground)' : 'transparent',
       transition: 'background-color var(--dur-reveal) var(--ease-quart)',
       ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: layerRef,
+    style: {
+      position: 'absolute',
+      inset: 0
     }
   }, /*#__PURE__*/React.createElement("img", {
     ref: photoRef,
@@ -8435,10 +6450,464 @@ function ImageReveal({
     mode: "progress",
     progress: scrollP,
     src: src
-  }) : null);
+  }) : null));
 }
 Object.assign(__ds_scope, { ImageReveal });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ImageReveal.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/NewsList.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* The news stream's list: the one way news, press releases and insight are
+   listed, whether as the whole stream (NewsListing) or as a section's own
+   selection on a content page.
+
+   A row is type, date and reading time on column 1, the headline at display-3
+   on 2–5, and under a hairline. The photograph is not there until it is asked
+   for: the row's ImageReveal runs on `play`, printing from nothing on 6–8
+   under the pointer and unprinting frame for frame when it leaves. The media
+   column is hidden below LG, where there is no pointer to answer.
+
+   Hover is read off the pointer's last position after every scroll, not only
+   from mouseenter: a reader who scrolls without moving the cursor gets no
+   event for the row that has just arrived under it.
+
+   Painters (a histogram, tone map and canvas each) are built on a queue, one
+   every 150ms, and a hover jumps its row to the front. The bitmaps for every
+   row are fetched up front, so the first hover is not a second of nothing.
+
+   Compact is the content-page selection: rows keep the full width and the
+   meta on column 1, the headline starts on column 3 under the block title at
+   lead size, and no column is held for the photograph. At LG the photograph prints on 7–8 beside the headline, its
+   cell folding open on hover, so the row grows instead of standing tall with
+   an empty cell. Six items rather than the stream's page. */
+
+/* Expanded is for content that is not news: stories, people, programmes. No
+   type or date column. Every row keeps room for its photograph, which prints
+   under the pointer and unprints when it leaves, as in the stream (always shown
+   below LG, where there is no hover): 3:2 on columns 1–3, with an optional kicker, the title at display-3 and
+   an optional preamble (body) in the small sans on 4–8. Title on the photograph's
+   top edge, preamble on its bottom edge. Below LG the photograph stands above the text. */
+function useWideNews() {
+  const [wide, setWide] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1280px)');
+    const on = () => setWide(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  return wide;
+}
+
+/* Shared by the stream and expanded lists: which row is under the pointer,
+   re-asked after scroll (the page moves under a still pointer), and which rows
+   have their photograph preloaded and mounted. */
+function useNewsHover(items, showImages) {
+  const listRef = React.useRef(null);
+  const [hover, setHover] = React.useState(-1);
+  const [live, setLive] = React.useState({});
+  const liveRef = React.useRef(live);
+  liveRef.current = live;
+  const hoverRef = React.useRef(-1);
+  hoverRef.current = hover;
+  const markLive = id => {
+    if (id && !liveRef.current[id]) setLive(s => s[id] ? s : {
+      ...s,
+      [id]: true
+    });
+  };
+
+  /* Pointer position, re-asked after scroll: on the next frame and again
+     once the page has come to rest. */
+  React.useEffect(() => {
+    let pos = null,
+      sf = 0,
+      st = 0;
+    const sync = () => {
+      if (!pos || !listRef.current) return;
+      const el = document.elementFromPoint(pos.x, pos.y);
+      const row = el && el.closest ? el.closest('[data-news-row]') : null;
+      const rows = [...listRef.current.querySelectorAll('[data-news-row]')];
+      const i = row ? rows.indexOf(row) : -1;
+      if (i === hoverRef.current) return;
+      if (row) markLive(row.getAttribute('data-id'));
+      setHover(i);
+    };
+    const onMove = e => {
+      pos = {
+        x: e.clientX,
+        y: e.clientY
+      };
+    };
+    const onScroll = () => {
+      if (!sf) sf = requestAnimationFrame(() => {
+        sf = 0;
+        sync();
+      });
+      clearTimeout(st);
+      st = setTimeout(() => {
+        st = 0;
+        sync();
+      }, 120);
+    };
+    addEventListener('pointermove', onMove, {
+      passive: true
+    });
+    addEventListener('pointerover', onMove, {
+      passive: true
+    });
+    addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    document.addEventListener('visibilitychange', onScroll);
+    return () => {
+      removeEventListener('pointermove', onMove);
+      removeEventListener('pointerover', onMove);
+      removeEventListener('scroll', onScroll);
+      document.removeEventListener('visibilitychange', onScroll);
+      if (sf) cancelAnimationFrame(sf);
+      clearTimeout(st);
+    };
+  }, []);
+  const key = items.map(a => a.id).join(',');
+  React.useEffect(() => {
+    if (!showImages) return;
+    const pre = [];
+    items.forEach(a => {
+      if (a.imageSrc) {
+        const im = new Image();
+        im.src = a.imageSrc;
+        pre.push(im);
+      }
+    });
+    const queue = items.filter(a => a.imageSrc).map(a => a.id);
+    let t = 0;
+    const pump = () => {
+      while (queue.length && liveRef.current[queue[0]]) queue.shift();
+      if (!queue.length) return;
+      t = setTimeout(() => {
+        markLive(queue.shift());
+        pump();
+      }, 150);
+    };
+    pump();
+    return () => clearTimeout(t);
+  }, [key, showImages]);
+  return {
+    listRef,
+    hover,
+    setHover,
+    live,
+    markLive
+  };
+}
+function ExpandedList({
+  items,
+  title,
+  headingLevel,
+  gridSize,
+  revealDuration = 900,
+  style
+}) {
+  const wide = useWideNews();
+  const {
+    listRef,
+    hover,
+    setHover,
+    live,
+    markLive
+  } = useNewsHover(items, true);
+  const leave = () => setHover(-1);
+  const H = headingLevel || (title ? 'h3' : 'h2');
+  return /*#__PURE__*/React.createElement("div", {
+    "data-news-list": "",
+    "data-expanded": "",
+    className: "grid",
+    style: style
+  }, title ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2 place-body-wide",
+    style: {
+      margin: '0 0 var(--space-6)'
+    }
+  }, title) : null, /*#__PURE__*/React.createElement("ul", {
+    ref: listRef,
+    style: {
+      gridColumn: '1 / -1',
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, items.map((a, i) => {
+    const on = hover === i;
+    const enter = () => {
+      markLive(a.id);
+      setHover(i);
+    };
+    return /*#__PURE__*/React.createElement("li", {
+      key: a.id || i,
+      "data-news-row": "",
+      "data-id": a.id,
+      onMouseEnter: enter,
+      onMouseLeave: leave,
+      style: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(var(--cols), minmax(0, 1fr))',
+        columnGap: 'var(--gutter)',
+        rowGap: 'var(--space-3)',
+        alignItems: 'start',
+        paddingBlock: 'var(--space-4)',
+        borderBottom: '1px solid var(--rule-hairline)',
+        opacity: a.recede ? 0.28 : 1,
+        transition: 'opacity var(--dur-reveal) var(--ease-expo)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? '1 / 4' : '1 / -1',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        aspectRatio: '3 / 2'
+      }
+    }, a.imageSrc && (live[a.id] || !wide) ? /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+      src: a.imageSrc,
+      alt: a.alt || '',
+      ratio: "3:2",
+      gridSize: gridSize,
+      duration: revealDuration,
+      play: wide ? on : true,
+      style: {
+        background: 'transparent'
+      }
+    }) : null)), /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? '4 / 9' : '1 / -1',
+        alignSelf: wide ? 'stretch' : 'start',
+        minWidth: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)'
+      }
+    }, a.kicker ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        maxWidth: 'none',
+        color: 'var(--text-secondary)'
+      }
+    }, a.kicker) : null, /*#__PURE__*/React.createElement(H, {
+      className: "display-3",
+      style: {
+        margin: 0,
+        maxWidth: 'none'
+      }
+    }, /*#__PURE__*/React.createElement("a", {
+      href: a.href,
+      onFocus: enter,
+      onBlur: leave,
+      style: {
+        fontFamily: 'inherit',
+        fontSize: 'inherit',
+        letterSpacing: 'inherit',
+        color: 'inherit',
+        textDecoration: 'underline',
+        textDecorationColor: on ? 'var(--ink)' : 'transparent',
+        textDecorationThickness: '2px',
+        textUnderlineOffset: '0.08em',
+        transition: 'text-decoration-color var(--dur-reveal) var(--ease-expo)'
+      }
+    }, a.title)), a.body ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        marginTop: wide ? 'auto' : 0,
+        paddingTop: wide ? 'var(--space-3)' : 0,
+        color: 'var(--text-primary)',
+        textWrap: 'pretty'
+      }
+    }, a.body) : null));
+  })));
+}
+function NewsList(props) {
+  if (props.variant === 'expanded') {
+    const {
+      items = [],
+      limit
+    } = props;
+    return /*#__PURE__*/React.createElement(ExpandedList, _extends({}, props, {
+      items: limit != null ? items.slice(0, limit) : items,
+      gridSize: props.gridSize ?? 4
+    }));
+  }
+  return /*#__PURE__*/React.createElement(StreamList, props);
+}
+function StreamList({
+  items = [],
+  title,
+  variant = 'default',
+  limit,
+  showImages = true,
+  revealDuration = 900,
+  gridSize = 5,
+  headingLevel,
+  style
+}) {
+  const compact = variant === 'compact';
+  const max = limit != null ? limit : compact ? 6 : null;
+  if (max != null) items = items.slice(0, max);
+  const {
+    listRef,
+    hover,
+    setHover,
+    live,
+    markLive
+  } = useNewsHover(items, showImages);
+  const H = headingLevel || (title ? 'h3' : 'h2');
+  const leave = () => setHover(-1);
+  return /*#__PURE__*/React.createElement("div", {
+    "data-news-list": "",
+    "data-compact": compact ? '' : undefined,
+    className: "grid",
+    style: style
+  }, title ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2 place-body-wide",
+    style: {
+      margin: '0 0 var(--space-6)'
+    }
+  }, title) : null, /*#__PURE__*/React.createElement("ul", {
+    ref: listRef,
+    style: {
+      gridColumn: '1 / -1',
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, items.map((a, i) => {
+    const on = hover === i;
+    const enter = () => {
+      markLive(a.id);
+      setHover(i);
+    };
+    return /*#__PURE__*/React.createElement("li", {
+      key: a.id || i,
+      "data-news-row": "",
+      "data-id": a.id,
+      "data-recede": a.recede ? '1' : undefined,
+      onMouseEnter: enter,
+      onMouseLeave: leave,
+      style: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(var(--cols), minmax(0, 1fr))',
+        columnGap: 'var(--gutter)',
+        rowGap: compact ? 'var(--space-1)' : 'var(--space-3)',
+        alignItems: 'start',
+        paddingBlock: compact ? 'var(--space-3)' : 'var(--space-4)',
+        borderBottom: '1px solid var(--rule-hairline)',
+        opacity: a.recede ? 0.28 : 1,
+        transition: 'opacity var(--dur-reveal) var(--ease-expo)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      "data-cell": "date"
+    }, a.type ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        maxWidth: 'none',
+        color: 'var(--text-primary)'
+      }
+    }, a.type) : null, a.dateLabel ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        maxWidth: 'none',
+        color: 'var(--text-secondary)'
+      }
+    }, a.dateLabel) : null, a.readLabel ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        maxWidth: 'none',
+        color: 'var(--text-secondary)'
+      }
+    }, a.readLabel) : null), /*#__PURE__*/React.createElement("div", {
+      "data-cell": "title"
+    }, /*#__PURE__*/React.createElement(H, {
+      className: compact ? undefined : 'display-3',
+      style: compact ? {
+        margin: 0,
+        maxWidth: 'none',
+        fontFamily: 'var(--font-display)',
+        fontWeight: 'var(--weight-book)',
+        fontSize: 'var(--text-lead)',
+        lineHeight: 'var(--lh-display-3)',
+        letterSpacing: 'var(--tracking-display-3)'
+      } : {
+        margin: 0,
+        maxWidth: 'none'
+      }
+    }, /*#__PURE__*/React.createElement("a", {
+      href: a.href,
+      onFocus: enter,
+      onBlur: leave,
+      style: {
+        fontFamily: 'inherit',
+        fontSize: 'inherit',
+        letterSpacing: 'inherit',
+        color: 'inherit',
+        textDecoration: 'underline',
+        textDecorationColor: on ? 'var(--ink)' : 'transparent',
+        textDecorationThickness: '2px',
+        textUnderlineOffset: '0.08em',
+        transition: 'text-decoration-color var(--dur-reveal) var(--ease-expo)'
+      }
+    }, a.title))), compact ? /*#__PURE__*/React.createElement("div", {
+      "data-cell": "media"
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: on && showImages && a.imageSrc ? '1fr' : '0fr',
+        transition: 'grid-template-rows var(--dur-medium) var(--ease-expo)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        aspectRatio: '3 / 2'
+      }
+    }, showImages && a.imageSrc && live[a.id] ? /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+      src: a.imageSrc,
+      alt: a.alt || '',
+      ratio: "3:2",
+      gridSize: gridSize,
+      duration: revealDuration,
+      play: on,
+      style: {
+        background: 'transparent'
+      }
+    }) : null)))) : /*#__PURE__*/React.createElement("div", {
+      "data-cell": "media",
+      style: {
+        aspectRatio: 'var(--ratio-landscape)'
+      }
+    }, showImages && a.imageSrc && live[a.id] ? /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+      src: a.imageSrc,
+      alt: a.alt || '',
+      ratio: "3:2",
+      gridSize: gridSize,
+      duration: revealDuration,
+      play: on,
+      style: {
+        background: 'transparent'
+      }
+    }) : null));
+  })));
+}
+Object.assign(__ds_scope, { NewsList });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/NewsList.jsx", error: String((e && e.message) || e) }); }
 
 // components/conversation/Composer.jsx
 try { (() => {
@@ -8558,9 +7027,9 @@ function Composer({
     src: dotSrc || undefined,
     origin: origin,
     playKey: plays,
-    pitch: 3.5,
+    pitch: 4,
     duration: 900,
-    intensity: 0.8,
+    intensity: 1,
     style: {
       inset: 0
     }
@@ -8834,7 +7303,7 @@ function GhostLoader({
     effect: effect,
     mode: "loader",
     src: src || undefined,
-    pitch: 3.5,
+    pitch: 4,
     intensity: 0.55
   }));
 }
@@ -8935,7 +7404,7 @@ function WorkingIndicator({
     effect: effect,
     mode: "loader",
     src: src || undefined,
-    pitch: 3.5,
+    pitch: 4,
     intensity: 0.55
   })) : null), note ? /*#__PURE__*/React.createElement("p", {
     className: "small",
@@ -9034,14 +7503,17 @@ function ImageLoad({
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.RevealEffect, {
     mode: "loader",
-    pitch: 3.5,
+    pitch: 4,
     intensity: 0.55
   })));
 }
 const RATIOS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
+  '3:2': 'var(--ratio-landscape)',
+  '4:5': 'var(--ratio-portrait)',
+  '21:9': 'var(--ratio-wide)',
+  '1:1': 'var(--ratio-square)',
+  '3:4': 'var(--ratio-tall)',
+  '2:3': 'var(--ratio-high)'
 };
 
 /* Three ratios only. No rounded corners, no borders, no shadows, no overlay
@@ -9093,7 +7565,7 @@ function Figure({
     style: {
       color: 'var(--ink-65)'
     }
-  }, "Platsh\xE5llare f\xF6r foto \xB7 ", ratio)), caption ? /*#__PURE__*/React.createElement("figcaption", {
+  }, "Platsh\xE5llare f\xF6r foto, ", ratio)), caption ? /*#__PURE__*/React.createElement("figcaption", {
     className: "small",
     style: {
       color: 'var(--text-secondary)',
@@ -9108,6 +7580,558 @@ function Figure({
 }
 Object.assign(__ds_scope, { ImageLoad, Figure });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Figure.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/Accordion.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* Rader: the content-page accordion. Two variants of one block.
+
+   list  — the default. Rows at display-3 under hairlines, a plus that turns to
+           a minus. Each row may carry an image, shown in the open panel on
+           columns 6–8 beside the text (under it below LG). All rows closed on
+           load: the closed list is the index.
+   index — the image variant. A small numbered index on columns 1–2, one large
+           image on 3–8 that follows the open row and prints with ImageReveal.
+           One row is always open, the first until another is chosen. Every
+           row needs an image. When any row's text, open, would run past the
+           image's foot on two columns, the index takes a third column from
+           the image for the whole block: text on 1–3, image on 4–8, the same
+           whichever row is open (textColumns, auto by default).
+           Links in the panel are set at the text's size (CtaLink small).
+
+   Each row is a real heading with a button in it; the panel is a region named
+   by the headline. Closed panels are hidden="until-found", so find-in-page
+   reaches them and opens the row. An open row writes #<idPrefix>-<slug> to the
+   address, and that hash opens it on load. */
+
+function useWide() {
+  const [wide, setWide] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1280px)');
+    const on = () => setWide(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  return wide;
+}
+function Body({
+  text,
+  className,
+  style
+}) {
+  const paras = String(text || '').split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  return paras.map((p, i) => /*#__PURE__*/React.createElement("p", {
+    key: i,
+    className: className,
+    style: {
+      margin: i ? 'var(--space-2) 0 0' : 0,
+      whiteSpace: 'pre-line',
+      textWrap: 'pretty',
+      ...style
+    }
+  }, p));
+}
+
+/* Height and fade on open and close; hidden="until-found" once closed. React
+   does not own `hidden` here, so find-in-page can lift it. */
+function Panel({
+  id,
+  open,
+  label,
+  onFound,
+  children
+}) {
+  const ref = React.useRef(null);
+  const was = React.useRef(open);
+  const found = React.useRef(onFound);
+  found.current = onFound;
+  React.useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const ease = getComputedStyle(document.documentElement).getPropertyValue('--ease-expo').trim() || 'cubic-bezier(.19,1,.22,1)';
+    const animate = !still && was.current !== open;
+    was.current = open;
+    if (el.__anim) el.__anim.cancel();
+    if (open) {
+      el.removeAttribute('hidden');
+      if (animate) el.__anim = el.animate([{
+        height: '0px',
+        opacity: 0
+      }, {
+        height: el.scrollHeight + 'px',
+        opacity: 1
+      }], {
+        duration: 600,
+        easing: ease
+      });
+    } else if (animate) {
+      const a = el.animate([{
+        height: el.offsetHeight + 'px',
+        opacity: 1
+      }, {
+        height: '0px',
+        opacity: 0
+      }], {
+        duration: 450,
+        easing: ease
+      });
+      el.__anim = a;
+      a.onfinish = () => {
+        if (!was.current) el.setAttribute('hidden', 'until-found');
+      };
+    } else el.setAttribute('hidden', 'until-found');
+  }, [open]);
+  React.useEffect(() => {
+    const el = ref.current;
+    const on = () => found.current && found.current();
+    el.addEventListener('beforematch', on);
+    return () => el.removeEventListener('beforematch', on);
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    ref: ref,
+    id: id,
+    role: "region",
+    "aria-label": label,
+    style: {
+      overflow: 'hidden'
+    }
+  }, children);
+}
+function Cue({
+  open
+}) {
+  const bar = {
+    position: 'absolute',
+    left: 0,
+    top: '50%',
+    width: '100%',
+    height: 1.5,
+    marginTop: -0.75,
+    background: 'currentColor'
+  };
+  return /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      width: '.6em',
+      height: '.6em',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: bar
+  }), open ? null : /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...bar,
+      transform: 'rotate(90deg)'
+    }
+  }));
+}
+
+/* The list as it would set on two columns with one given row open,
+   unanimated, to measure against the image. Hidden and inert; never read or
+   found. One per row: the block widens if any of them is taller. */
+function IndexGhost({
+  list,
+  isOpen,
+  num,
+  label
+}) {
+  return /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, list.map((r, n) => /*#__PURE__*/React.createElement("li", {
+    key: r.slug,
+    style: {
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: num ? 'var(--space-5) minmax(0,1fr)' : 'minmax(0,1fr)',
+      columnGap: 'var(--space-2)',
+      paddingBlock: 'var(--space-2)'
+    }
+  }, num ? /*#__PURE__*/React.createElement("span", {
+    className: "small"
+  }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      maxWidth: 'none'
+    }
+  }, r.headline)), isOpen(r, n) ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: num ? 'var(--space-1) 0 var(--space-3) calc(var(--space-5) + var(--space-2))' : 'var(--space-1) 0 var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement(Body, {
+    text: r.body,
+    className: "small"
+  }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
+    key: li,
+    className: "small",
+    style: {
+      margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
+    }
+  }, l.label))) : null)));
+}
+function Accordion({
+  heading,
+  rows = [],
+  variant = 'list',
+  numbered,
+  multiple = false,
+  idPrefix = 'rad',
+  textColumns = 'auto',
+  id,
+  style,
+  ...rest
+}) {
+  const wide = useWide();
+  const ghostRef = React.useRef(null);
+  const imgRef = React.useRef(null);
+  const [tall, setTall] = React.useState(false);
+  const index = variant === 'index';
+  const num = numbered ?? index;
+  const list = rows.filter(r => r && r.slug && r.headline);
+  const [open, setOpen] = React.useState({});
+  const [hover, setHover] = React.useState(null);
+  const set = React.useCallback((slug, next) => {
+    setOpen(o => multiple ? {
+      ...o,
+      [slug]: next
+    } : next ? {
+      [slug]: true
+    } : {});
+    if (next) {
+      try {
+        history.replaceState(null, '', location.pathname + location.search + '#' + idPrefix + '-' + slug);
+      } catch (e) {}
+    }
+  }, [multiple, idPrefix]);
+  React.useEffect(() => {
+    const fromHash = () => {
+      const h = decodeURIComponent(location.hash.slice(1));
+      const p = idPrefix + '-';
+      if (!h.startsWith(p)) return;
+      const slug = h.slice(p.length);
+      if (list.some(r => r.slug === slug)) setOpen(o => multiple ? {
+        ...o,
+        [slug]: true
+      } : {
+        [slug]: true
+      });
+    };
+    fromHash();
+    addEventListener('hashchange', fromHash);
+    return () => removeEventListener('hashchange', fromHash);
+  }, [idPrefix, multiple, list.map(r => r.slug).join('|')]);
+  React.useLayoutEffect(() => {
+    if (variant !== 'index' || textColumns !== 'auto') return;
+    const gEl = ghostRef.current,
+      iEl = imgRef.current;
+    if (!gEl || !iEl) return;
+    const ghosts = Array.from(gEl.querySelectorAll('[data-ghost]'));
+    const measure = () => {
+      const ih = iEl.offsetHeight;
+      setTall(ih > 0 && ghosts.some(x => x.offsetHeight > ih));
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ghosts.forEach(x => ro.observe(x));
+    ro.observe(iEl);
+    return () => ro.disconnect();
+  });
+  if (!list.length) return null;
+  const anyOpen = list.some(r => open[r.slug]);
+  const isOpen = (r, n) => !!open[r.slug] || index && !anyOpen && n === 0;
+  const toggle = (r, n) => set(r.slug, index ? true : !isOpen(r, n));
+  const label = n => String(n + 1).padStart(2, '0');
+  const title = heading ? /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginBottom: 'var(--space-6)'
+    }
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "display-2",
+    style: {
+      gridColumn: wide && !index ? '3 / 9' : '1 / -1',
+      margin: 0
+    }
+  }, heading)) : null;
+  if (index) {
+    const three = textColumns === 3 || textColumns === 'auto' && tall;
+    return /*#__PURE__*/React.createElement("section", _extends({
+      id: id,
+      "data-accordion": "index",
+      style: style
+    }, rest), title, /*#__PURE__*/React.createElement("div", {
+      className: "grid",
+      "data-text-columns": three ? 3 : 2,
+      style: {
+        alignItems: 'start',
+        position: 'relative'
+      }
+    }, wide && textColumns === 'auto' ? /*#__PURE__*/React.createElement("div", {
+      ref: ghostRef,
+      "aria-hidden": "true",
+      inert: "",
+      style: {
+        gridColumn: '1 / 3',
+        gridRow: 1,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        visibility: 'hidden',
+        pointerEvents: 'none'
+      }
+    }, list.map((g, gi) => /*#__PURE__*/React.createElement("div", {
+      key: g.slug,
+      "data-ghost": "",
+      style: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%'
+      }
+    }, /*#__PURE__*/React.createElement(IndexGhost, {
+      list: list,
+      isOpen: r => r.slug === g.slug,
+      num: num,
+      label: label
+    })))) : null, /*#__PURE__*/React.createElement("ul", {
+      style: {
+        gridColumn: wide ? three ? '1 / 4' : '1 / 3' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        listStyle: 'none',
+        margin: 0,
+        padding: 0
+      }
+    }, list.map((r, n) => {
+      const on = isOpen(r, n),
+        pid = idPrefix + '-' + r.slug + '-panel',
+        u = hover === r.slug;
+      return /*#__PURE__*/React.createElement("li", {
+        key: r.slug,
+        id: idPrefix + '-' + r.slug,
+        style: {
+          borderBottom: '1px solid var(--rule-hairline)',
+          scrollMarginTop: 'var(--space-6)'
+        }
+      }, /*#__PURE__*/React.createElement("h3", {
+        style: {
+          margin: 0,
+          font: 'inherit'
+        }
+      }, /*#__PURE__*/React.createElement("button", {
+        type: "button",
+        "aria-expanded": on,
+        "aria-controls": pid,
+        onClick: () => toggle(r, n),
+        onMouseEnter: () => setHover(r.slug),
+        onMouseLeave: () => setHover(null),
+        style: {
+          all: 'unset',
+          boxSizing: 'border-box',
+          cursor: 'pointer',
+          display: 'grid',
+          gridTemplateColumns: num ? 'var(--space-5) minmax(0,1fr)' : 'minmax(0,1fr)',
+          columnGap: 'var(--space-2)',
+          width: '100%',
+          paddingBlock: 'var(--space-2)',
+          alignItems: 'baseline'
+        }
+      }, num ? /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          fontVariantNumeric: 'tabular-nums'
+        }
+      }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          maxWidth: 'none',
+          textDecoration: 'underline',
+          textDecorationThickness: 1,
+          textUnderlineOffset: '.18em',
+          textDecorationColor: u ? 'var(--underline-active)' : 'transparent',
+          transition: 'text-decoration-color 450ms var(--ease-expo)'
+        }
+      }, r.headline))), /*#__PURE__*/React.createElement(Panel, {
+        id: pid,
+        open: on,
+        label: r.headline,
+        onFound: () => set(r.slug, true)
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          padding: num ? 'var(--space-1) 0 var(--space-3) calc(var(--space-5) + var(--space-2))' : 'var(--space-1) 0 var(--space-3)'
+        }
+      }, /*#__PURE__*/React.createElement(Body, {
+        text: r.body,
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
+        key: li,
+        style: {
+          margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
+        }
+      }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+        variant: "small",
+        href: l.href
+      }, l.label))))));
+    })), /*#__PURE__*/React.createElement("div", {
+      ref: imgRef,
+      style: {
+        gridColumn: wide ? three ? '4 / 9' : '3 / 9' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        order: wide ? 0 : -1,
+        display: 'grid',
+        marginBottom: wide ? 0 : 'var(--space-4)',
+        position: wide ? 'sticky' : 'static',
+        top: 'var(--space-5)'
+      }
+    }, list.map((r, n) => {
+      const on = isOpen(r, n);
+      return r.image ? /*#__PURE__*/React.createElement("div", {
+        key: r.slug,
+        "aria-hidden": !on,
+        style: {
+          gridArea: '1 / 1',
+          zIndex: on ? 1 : 0,
+          pointerEvents: on ? 'auto' : 'none'
+        }
+      }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+        src: r.image.src,
+        alt: r.image.alt || '',
+        ratio: "3:2",
+        play: on,
+        duration: 900
+      })) : null;
+    }))));
+  }
+  return /*#__PURE__*/React.createElement("section", _extends({
+    id: id,
+    "data-accordion": "list",
+    style: style
+  }, rest), title, /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      gridColumn: '1 / -1',
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, list.map((r, n) => {
+    const on = isOpen(r, n),
+      pid = idPrefix + '-' + r.slug + '-panel',
+      img = !!r.image;
+    return /*#__PURE__*/React.createElement("li", {
+      key: r.slug,
+      id: idPrefix + '-' + r.slug,
+      style: {
+        borderBottom: '1px solid var(--rule-hairline)',
+        scrollMarginTop: 'var(--space-6)'
+      }
+    }, /*#__PURE__*/React.createElement("h3", {
+      style: {
+        margin: 0,
+        font: 'inherit'
+      }
+    }, /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      "aria-expanded": on,
+      "aria-controls": pid,
+      onClick: () => toggle(r, n),
+      style: {
+        all: 'unset',
+        boxSizing: 'border-box',
+        cursor: 'pointer',
+        display: 'grid',
+        gridTemplateColumns: wide ? 'repeat(var(--cols),minmax(0,1fr))' : 'minmax(0,1fr) auto',
+        columnGap: 'var(--gutter)',
+        rowGap: 'var(--space-1)',
+        width: '100%',
+        paddingBlock: 'var(--space-4)',
+        alignItems: 'center'
+      }
+    }, num ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        gridColumn: wide ? '1 / 3' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        color: 'var(--text-secondary)',
+        fontVariantNumeric: 'tabular-nums'
+      }
+    }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      style: {
+        gridColumn: wide ? '3 / 8' : '1 / 2',
+        gridRow: wide ? 1 : undefined,
+        maxWidth: 'none'
+      }
+    }, r.headline), /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      "aria-hidden": "true",
+      style: {
+        gridColumn: wide ? '8 / 9' : '2 / 3',
+        gridRow: wide ? 1 : undefined,
+        justifySelf: 'end',
+        display: 'flex',
+        alignItems: 'center',
+        lineHeight: 1
+      }
+    }, /*#__PURE__*/React.createElement(Cue, {
+      open: on
+    })))), /*#__PURE__*/React.createElement(Panel, {
+      id: pid,
+      open: on,
+      label: r.headline,
+      onFound: () => set(r.slug, true)
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "grid",
+      style: {
+        padding: 'calc(var(--space-6) - var(--space-4)) 0 var(--space-5)',
+        maxWidth: 'none',
+        margin: 0
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? img ? '3 / 6' : '3 / 7' : '1 / -1'
+      }
+    }, /*#__PURE__*/React.createElement(Body, {
+      text: r.body,
+      className: "prose"
+    }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
+      key: li,
+      style: {
+        margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+      variant: "secondary",
+      href: l.href
+    }, l.label)))), img ? /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? '6 / 9' : '1 / -1',
+        marginTop: wide ? 0 : 'var(--space-3)'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
+      src: r.image.src,
+      alt: r.image.alt || '',
+      ratio: "3:2"
+    })) : null)));
+  }))));
+}
+Object.assign(__ds_scope, { Accordion });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Accordion.jsx", error: String((e && e.message) || e) }); }
 
 // components/blocks/GalleryRow.jsx
 try { (() => {
@@ -9258,16 +8282,23 @@ const iconSet = {
     'chevron--left': '<path d="M20 5L9 16L20 27"/>',
     'chevron--down': '<path d="M5 12L16 23L27 12"/>',
     'chevron--up': '<path d="M5 20L16 9L27 20"/>',
+    /* A field that needs attention. Carbon's warning, at hairline: the system
+       has no error colour, so the glyph and the words carry it. */
+    'warning': '<path d="M16 4L29 27H3L16 4Z"/><path d="M16 12V20M16 22.5V24.5"/>',
     'chat': '<path d="M4 8C4 6.9 4.9 6 6 6H26C27.1 6 28 6.9 28 8V20C28 21.1 27.1 22 26 22H15L8 28V22H6C4.9 22 4 21.1 4 20V8Z"/>',
     'email': '<path d="M3 7H29V25H3V7Z"/><path d="M3 8L16 18L29 8"/>',
     /* Open this thing full size. Carbon's maximize, drawn as two corners and
        the diagonal between them at hairline weight. */
     'maximize': '<path d="M19 5H27V13M27 5L18 14M13 27H5V19M5 27L14 18"/>',
     'download': '<path d="M16 4V22M8 14L16 22L24 14M5 27H27"/>',
+    /* The mirror of download: a file going from here to them. */
+    'upload': '<path d="M16 22V4M8 12L16 4L24 12M5 27H27"/>',
     'contact-card': '<path d="M3 6H29V26H3V6Z"/><circle cx="11" cy="14" r="3"/><path d="M6 22C6 19.5 8.2 18 11 18C13.8 18 16 19.5 16 22"/><path d="M20 13H26M20 18H26"/>',
     /* A person. Marks a row that is someone rather than a page. */
     'user': '<circle cx="16" cy="10" r="6"/><path d="M5 29C5 22.5 9.9 18 16 18C22.1 18 27 22.5 27 29"/>',
     'document': '<path d="M7 3H19L25 9V29H7V3Z"/><path d="M19 3V9H25"/>',
+    /* Play a film. Carbon's play, the outlined triangle. */
+    'play': '<path d="M10 5L26 16L10 27Z"/>',
     /* A brand mark, so it is the set's second solid glyph: the wordmark of
        another company must be reproduced as that company draws it. */
     'logo--linkedin': '<path fill="currentColor" fill-rule="evenodd" stroke="none" d="M4 4H28V28H4V4ZM9.2 12.6H12.6V24H9.2V12.6ZM10.9 7.6C11.98 7.6 12.85 8.47 12.85 9.55C12.85 10.63 11.98 11.5 10.9 11.5C9.82 11.5 8.95 10.63 8.95 9.55C8.95 8.47 9.82 7.6 10.9 7.6ZM15 12.6H18.3V14.15C18.9 13.13 20.1 12.35 21.7 12.35C24.4 12.35 26 14.05 26 17V24H22.6V17.6C22.6 16.05 22 15.15 20.75 15.15C19.4 15.15 18.4 16.1 18.4 18V24H15V12.6Z"/>',
@@ -9390,9 +8421,12 @@ const RATIO_REVEAL_STYLE = {
   zIndex: 0
 };
 const RATIO_CSS = {
-  '3:2': '3 / 2',
-  '4:5': '4 / 5',
-  '21:9': '21 / 9'
+  '3:2': 'var(--ratio-landscape)',
+  '4:5': 'var(--ratio-portrait)',
+  '21:9': 'var(--ratio-wide)',
+  '1:1': 'var(--ratio-square)',
+  '3:4': 'var(--ratio-tall)',
+  '2:3': 'var(--ratio-high)'
 };
 function useReducedMotion() {
   const [reduced, setReduced] = React.useState(false);
@@ -9457,7 +8491,7 @@ function ArtworkPlate({
       color: 'var(--ink-65)',
       textAlign: 'center'
     }
-  }, "konstverk \xB7 fullformat"));
+  }, "konstverk, fullformat"));
 }
 
 /* One fold in the lightbox's accordion: label left, chevron at the far right,
@@ -10815,7 +9849,10 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    one printed sheet until the visitor looks at somebody.
 
    Every card ends at a way to write to the person, so the exchange closes
-   here rather than sending the visitor back to a directory. */
+   here rather than sending the visitor back to a directory. A person with an
+   email or phone number gets a disclosure instead of a link: the CTA takes a
+   plus on hover, and opening it lets the address and number fall out beneath,
+   the plus turning to a cross. */
 
 const CARD_COLS = {
   8: 2,
@@ -10902,6 +9939,31 @@ function PeopleCarousel({
      is snapped still drives the counter — it just no longer drives colour. */
   const [hover, setHover] = React.useState(-1);
   const [m, setM] = React.useState(null);
+  const [openCards, setOpenCards] = React.useState({});
+  const [ctaHover, setCtaHover] = React.useState(-1);
+  const toggleCard = k => setOpenCards(o => ({
+    ...o,
+    [k]: !o[k]
+  }));
+  /* The caption block under each portrait takes the height of the tallest one
+     in the set, so every CTA stands on one line whether a card has a role, an
+     office, both, or a role that wraps. Measured on the natural inner block so
+     the reserved height never ratchets. */
+  const metaRefs = React.useRef([]);
+  metaRefs.current.length = shown.length;
+  const [metaH, setMetaH] = React.useState(0);
+  React.useLayoutEffect(() => {
+    const els = metaRefs.current.filter(Boolean);
+    if (!els.length) return;
+    const measure = () => {
+      const h = Math.ceil(Math.max(0, ...els.map(e => e.offsetHeight)));
+      setMetaH(p => p === h ? p : h);
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    els.forEach(e => ro.observe(e));
+    return () => ro.disconnect();
+  });
   React.useLayoutEffect(() => {
     const el = trackRef.current;
     if (!el) return;
@@ -10939,7 +10001,14 @@ function PeopleCarousel({
   /* Two columns at LG and MD. In the two-column band a single column is too
      narrow to hold a portrait and a name, so the card takes most of the
      measure and the peek is what remains. */
-  const rawCardWidth = !m ? null : CARD_COLS[m.cols] ? CARD_COLS[m.cols] * m.col + (CARD_COLS[m.cols] - 1) * m.gutter : m.content * 0.74;
+  /* The incoming card keeps the peek it had under the old page margins (80px
+     at LG, 40px at MD): the narrower margin alone would leave only a sliver.
+     The difference comes off the measure the cards are sized from, so the
+     set stays even and the fifth card shows by the same amount as before. */
+  const peekFloor = !m ? 0 : m.cols >= 8 ? 80 : m.cols === 4 ? 40 : 0;
+  const peekExtra = !m ? 0 : Math.max(0, peekFloor - m.pad);
+  const peekCol = !m ? 0 : (m.content - peekExtra - (m.cols - 1) * m.gutter) / m.cols;
+  const rawCardWidth = !m ? null : CARD_COLS[m.cols] ? CARD_COLS[m.cols] * peekCol + (CARD_COLS[m.cols] - 1) * m.gutter : m.content * 0.74;
   /* Never hand the cards a NaN basis: an invalid shorthand drops every card
      back to content width and the row goes ragged. */
   const cardWidth = Number.isFinite(rawCardWidth) && rawCardWidth > 0 ? rawCardWidth : null;
@@ -11202,27 +10271,128 @@ function PeopleCarousel({
       axis: "x",
       gridSize: gridSize,
       resolved: on
-    }), /*#__PURE__*/React.createElement("h3", {
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        paddingTop: 'var(--space-3)',
+        minHeight: metaH ? 'calc(var(--space-3) + ' + metaH + 'px)' : undefined,
+        boxSizing: 'border-box'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      ref: el => {
+        metaRefs.current[i] = el;
+      },
+      style: {
+        display: 'flow-root'
+      }
+    }, /*#__PURE__*/React.createElement("h3", {
       className: "small",
       style: {
-        marginTop: 'var(--space-3)',
+        margin: 0,
         maxWidth: 'none'
       }
-    }, p.name), p.role ? /*#__PURE__*/React.createElement("p", {
+    }, p.name), p.role || p.note ? /*#__PURE__*/React.createElement("div", {
+      style: {
+        marginTop: 'var(--space-1)'
+      }
+    }, p.role ? /*#__PURE__*/React.createElement("p", {
       className: "small",
       style: {
         color: 'var(--text-secondary)',
-        marginTop: 'var(--space-1)',
+        margin: 0,
         maxWidth: 'none'
       }
     }, p.role) : null, p.note ? /*#__PURE__*/React.createElement("p", {
       className: "small",
       style: {
         color: 'var(--text-secondary)',
-        marginTop: 0,
+        margin: 0,
         maxWidth: 'none'
       }
-    }, p.note) : null, p.href ? /*#__PURE__*/React.createElement("p", {
+    }, p.note) : null) : null)), p.email || p.phone ? (() => {
+      const k = p.name + i;
+      const open = !!openCards[k];
+      const plus = open || ctaHover === i;
+      const panelId = (id || 'people') + '-kontakt-' + i;
+      const dur = 'var(--dur-reveal)';
+      return /*#__PURE__*/React.createElement("div", {
+        style: {
+          marginTop: 'var(--space-4)'
+        }
+      }, /*#__PURE__*/React.createElement("button", {
+        type: "button",
+        "aria-expanded": open,
+        "aria-controls": panelId,
+        onClick: () => toggleCard(k),
+        onPointerEnter: () => setCtaHover(i),
+        onPointerLeave: () => setCtaHover(h => h === i ? -1 : h),
+        onFocus: () => setCtaHover(i),
+        onBlur: () => setCtaHover(h => h === i ? -1 : h),
+        style: {
+          display: 'inline-flex',
+          alignItems: 'center',
+          gap: plus ? 'var(--space-1)' : 0,
+          background: 'none',
+          border: 0,
+          padding: 0,
+          font: 'inherit',
+          color: 'var(--text-primary)',
+          cursor: 'pointer',
+          transition: 'gap ' + dur + ' var(--ease-expo)'
+        }
+      }, /*#__PURE__*/React.createElement("span", {
+        className: "cta cta--small",
+        style: open || ctaHover === i ? {
+          textDecorationColor: 'var(--underline-active)'
+        } : undefined
+      }, p.ctaLabel || ctaLabel), /*#__PURE__*/React.createElement("span", {
+        "aria-hidden": "true",
+        style: {
+          display: 'grid',
+          placeItems: 'center',
+          overflow: 'hidden',
+          width: plus ? 12 : 0,
+          height: 12,
+          opacity: plus ? 1 : 0,
+          transform: open ? 'rotate(45deg)' : 'none',
+          transition: ['width', 'opacity', 'transform'].map(t => t + ' ' + dur + ' var(--ease-expo)').join(', ')
+        }
+      }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+        name: "add",
+        size: 12
+      }))), /*#__PURE__*/React.createElement("div", {
+        id: panelId,
+        "aria-hidden": !open,
+        style: {
+          display: 'grid',
+          gridTemplateRows: open ? '1fr' : '0fr',
+          opacity: open ? 1 : 0,
+          visibility: open ? 'visible' : 'hidden',
+          transition: 'grid-template-rows ' + dur + ' var(--ease-expo), opacity ' + dur + ' var(--ease-expo), visibility 0s linear ' + (open ? '0s' : dur)
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          minHeight: 0,
+          overflow: 'hidden'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-start',
+          gap: 'var(--space-1)',
+          paddingTop: 'var(--space-2)'
+        }
+      }, p.email ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+        href: 'mailto:' + p.email,
+        variant: "small",
+        style: {
+          overflowWrap: 'anywhere'
+        }
+      }, p.email) : null, p.phone ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+        href: 'tel:' + p.phone.replace(/[^\d+]/g, ''),
+        variant: "small"
+      }, p.phone) : null))));
+    })() : p.href ? /*#__PURE__*/React.createElement("p", {
       style: {
         marginTop: 'var(--space-4)'
       }
@@ -11318,6 +10488,2438 @@ function PeopleCarousel({
 Object.assign(__ds_scope, { PeopleCarousel });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/PeopleCarousel.jsx", error: String((e && e.message) || e) }); }
 
+// components/blocks/Record.jsx
+try { (() => {
+/* The proof block: one line is one job somebody hired us to do.
+   ~120 identical lines, grouped by year, and a readout bar that reads out the
+   line under the cursor. Three things are load-bearing and must not be
+   "improved": the readout bar sticks, its columns never move, and no row links
+   anywhere. Length encodes nothing — every line is the same length, so the
+   only quantity the graphic states is the height of a year block. */
+
+const CELL = {
+  minWidth: 0,
+  whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)'
+};
+/* Reserved in rem, not em: an em box scales with each cell's own font-size and
+   the baselines drift. */
+const KEY_CELL = {
+  ...CELL,
+  height: '1rem',
+  lineHeight: '1rem',
+  color: 'var(--text-secondary)'
+};
+const VAL_CELL = {
+  ...CELL,
+  height: '1.375rem',
+  lineHeight: '1.375rem',
+  color: 'var(--text-primary)',
+  fontWeight: 'var(--weight-medium)'
+};
+/* The discipline list is read in full, so it wraps like ordinary text. Two
+   lines are reserved, which is what most entries need. */
+const DISC_CELL = {
+  ...VAL_CELL,
+  whiteSpace: 'normal',
+  overflow: 'visible',
+  textOverflow: 'clip',
+  height: 'auto',
+  minHeight: '2.75rem'
+};
+
+/* TEST: term-list row. A button that has to read as a line of the record's
+   own text, so everything a button brings is taken back off. */
+const TERM_BTN = {
+  appearance: 'none',
+  background: 'none',
+  border: 0,
+  padding: 0,
+  margin: 0,
+  width: '100%',
+  textAlign: 'left',
+  cursor: 'pointer',
+  font: 'inherit',
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)',
+  lineHeight: 1.3
+};
+const PITCH = 18; /* row box, fixed — hover must not reflow the field */
+/* The filtered view labels every match, and a label is a 21px box, so that
+   view runs on a taller row. The field gets longer; every title gets read. */
+const PITCH_FILTERED = 26;
+const BAR = 1; /* the line */
+const BAR_ACTIVE = 2; /* the line under the cursor */
+const FAN = 10; /* air the cursor row opens above and below itself */
+/* Vertical reading: short upright ticks on a fixed pitch. */
+const V_PITCH = 7;
+const V_PITCH_OPEN = 12; /* the group under the cursor opens up to this */
+const V_PITCH_REST = 4; /* every other group closes to this while one is open */
+const V_PROX = 10; /* extra pitch at the cursor, falling off with distance */
+const V_PROX_R = 6; /* how many lines either side the swell reaches */
+/* While a case is pinned the field is one close control, and says so. */
+const CLOSE_CURSOR = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' stroke='%23103a1c' stroke-width='1.5'/%3E%3C/svg%3E\") 12 12, pointer";
+const V_HEIGHT = 36;
+/* SM vertical: the field becomes a side-scrolling rail. One fixed pitch, wide
+   enough that each line is its own stop, and the line on the left edge is the
+   one being read. */
+const R_PITCH = 16;
+const R_HEIGHT = 48;
+const V_LIFT = 8; /* the tick under the cursor stands this much taller */
+
+/* Two readings of the same field. The first is the whole record; the second
+   emphasises what the visitor's own dialogue touches. Neither fetches,
+   reorders or removes a row. */
+const VIEWS = ['Allt', 'Intressanta för dig'];
+function Record({
+  entries = [],
+  /* What the finder derived from the dialogue: { text, areas, sectors }.
+     Absent or empty and the second view shows its own prompt instead. */
+  dialogue = null,
+  index = '',
+  title = 'Uppdragsregistret',
+  premise = 'Varje rad är ett uppdrag någon har anlitat oss för. Registret börjar 2022 och innehåller allt vi har tagit sedan dess.',
+  secondLine = '',
+  lead = '',
+  readingRule = '',
+  closingLine = 'Registret visar de senaste uppdragen. Hela beståndet är sökbart.',
+  actionLabel = 'Sök i registret',
+  closeLabel = 'Stäng',
+  actionHref = '#',
+  viewLabels = VIEWS,
+  /* Show the two-view switch. Off, the block is the whole record only and the
+     AI-derived view is unreachable. Pages keep it off by default and let the
+     demo console bring it back. */
+  views = true,
+  allLine = 'Varje uppdrag vi har tagit sedan 2022.',
+  /* {n} and {total} are filled in. The denominator carries it: a bare count
+     leaves the word "intressanta" standing for nothing. */
+  relevanceLine = '{n} av {total} rör det du frågade om.',
+  emptyBody = 'Den här vyn filtrerar registret på det du har berättat för oss.',
+  emptyLinkLabel = 'Berätta vad du står i, så visar jag vad som rör det',
+  finderHref = '#',
+  /* Warm state: the visitor gets to see what the filter is actually reading,
+     and to take it back. Never a mystery filter. */
+  filterLabel = 'Filtrerat på',
+  resetLabel = 'Nollställ',
+  /* The starred tab says the view is a subset; this says who made it one. It
+     sits with the reset control, so the explanation and the way out of the
+     filtering are read together. */
+  filterNote = '* Urvalet kommer från ditt samtal med AI:n.',
+  askAgainLabel = 'Prata med AI:n igen',
+  /* The register as a page of its own. Opt-in: no label, no link. */
+  allLabel = '',
+  allHref,
+  /* Handed the conversation opener: the empty state's link opens the finder
+     right here rather than sending the visitor back up the page. */
+  onAsk,
+  /* Clears the derived dialogue. Without it the reset control is left out. */
+  onReset,
+  /* Which view the block opens on. 1 is for demoing the warm state — a real
+     page opens on the whole record. */
+  initialView = 0,
+  /* Optionally controlled, so a page (or the demo console) can put the block
+     in either view. Left out, the tabs own it. */
+  view: viewProp,
+  onViewChange,
+  /* TEST (reversible): term lists in the side column that act as a filter on
+     the whole record. Off by default — drop the prop and the block is exactly
+     what it was. Only ever applies to the first view; the AI-derived second
+     view is untouched. */
+  termFilter = false,
+  termCount = 10,
+  workHeading = 'Filtrera på uppdragstyp',
+  discHeading = 'Filtrera på disciplin',
+  termLine = '{n} av {total} uppdrag är {term}.',
+  termResetLabel = 'Visa alla',
+  termToggleLabel = 'Filtrera',
+  /* Vertical reading: the pinned case's way on to the full write-up. */
+  readMoreLabel = 'Läs hela uppdraget',
+  /* SM rail: where the read-more link goes when the entry has no href of its
+     own. On a phone the case is read on its own page, not expanded here. */
+  caseHref = '#',
+  clientLabel = 'Klient',
+  /* Listing: the rows are written out as client names instead of lines, the
+     hovered one folds out its title, preamble and areas, and ends in a
+     link labelled openLabel. Horizontal only. */
+  listing = false,
+  /* Opens with no top air, for when a PageBanner above already carries it. */
+  flushTop = false,
+  openLabel = 'Läs uppdraget',
+  /* The filter drawer's close control, below LG. */
+  termsCloseLabel = 'Stäng filter',
+  yearHeading = 'Filtrera på år',
+  areasLabel = 'Rättsområden',
+  teamLabel = 'Team',
+  id,
+  style
+}) {
+  const [viewState, setViewState] = React.useState(initialView);
+  const view = views ? viewProp == null ? viewState : viewProp : 0;
+  const setView = v => {
+    setViewState(v);
+    if (onViewChange) onViewChange(v);
+  };
+  const [cursor, setCursor] = React.useState(0);
+  /* The filter control and the readout pin as one group. The readout is the
+     taller of the two, so it would unpin first and slide up under the
+     control; its height is handed to the grid so the control's sticky range
+     ends at the same scroll position (see grid.css). */
+  const sideRef = React.useRef(null);
+  React.useEffect(() => {
+    const s = sideRef.current;
+    if (!s || typeof ResizeObserver === 'undefined') return undefined;
+    const host = s.closest('.grid');
+    if (!host) return undefined;
+    const ro = new ResizeObserver(() => host.style.setProperty('--record-side-h', s.offsetHeight + 'px'));
+    ro.observe(s);
+    return () => ro.disconnect();
+  }, [termFilter, view]);
+  const [printed, setPrinted] = React.useState(false);
+  /* Nothing is lit until the visitor actually points: the default cursor row
+     must not read as a match. */
+  const [touched, setTouched] = React.useState(false);
+  const [scan, setScan] = React.useState(-1);
+  /* { kind: 'work' | 'disc', v } — one term at a time, across both lists. A
+     second click on the lit term takes the filter back off. */
+  const [term, setTerm] = React.useState(null);
+  /* Same as the listings: the filters live behind the mark, and the label
+     comes out on approach. */
+  const [termsOpen, setTermsOpen] = React.useState(false);
+  const [termsWarm, setTermsWarm] = React.useState(false);
+  /* One flag per term list: is there anything below the cut? The fade is only
+     drawn when the answer is yes, so a short list is not faded for nothing. */
+  const scrollRefs = React.useRef([]);
+  const [fade, setFade] = React.useState([false, false]);
+  const sectionRef = React.useRef(null);
+  const rowRefs = React.useRef([]);
+  const fieldRef = React.useRef(null);
+  const ptr = React.useRef(null);
+  const reduced = React.useRef(false);
+  /* Without a pointer there is no hover, so the field reads itself: the row
+     passing through the lower middle of the viewport is the one that turns
+     into text. */
+  const [touch, setTouch] = React.useState(false);
+  const [small, setSmall] = React.useState(false);
+  /* Below LG (SM and MD): the listing card carries its own fields. */
+  const [narrow, setNarrow] = React.useState(false);
+  /* The filter panel shows its scrollbar only while it is being scrolled. */
+  const termsListRef = React.useRef(null);
+  React.useEffect(() => {
+    const el = termsListRef.current;
+    if (!el) return;
+    let t = 0;
+    /* data-more while anything is below the cut: the panel fades out at
+       its foot then, and only then. */
+    const edge = () => {
+      if (el.scrollHeight - el.scrollTop - el.clientHeight > 4) el.setAttribute('data-more', '');else el.removeAttribute('data-more');
+    };
+    const onScroll = () => {
+      edge();
+      el.setAttribute('data-scrolling', '');
+      window.clearTimeout(t);
+      t = window.setTimeout(() => el.removeAttribute('data-scrolling'), 900);
+    };
+    edge();
+    const ro = new ResizeObserver(edge);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => {
+      ro.disconnect();
+      el.removeEventListener('scroll', onScroll);
+      window.clearTimeout(t);
+    };
+  });
+  const pointerRef = React.useRef(null);
+  /* Listing row: the client written out; the hovered row folds out its title
+     and preamble. The whole row is the link into the case. */
+  const [expanded, setExpanded] = React.useState(null);
+  /* Pointer over the unfolded row: the rest of the list steps back. */
+  const [onOpen, setOnOpen] = React.useState(false);
+  /* Rows open on dwell, not on click: the pointer rests on a line for DWELL ms
+     while a small ring fills in place of the cursor, then the row folds out.
+     Touch keeps the tap. Leaving the field cancels a pending open. */
+  const DWELL = 650;
+  /* The ring stays hidden for the first RING_WAIT ms, so scrolling past rows
+     never flashes it; only a pointer that actually rests sees it appear. */
+  const RING_WAIT = 280;
+  const [pending, setPending] = React.useState(null);
+  /* A row the visitor just closed by its name stays shut while the pointer is
+     still on it; the dwell only arms again once the pointer has left it. */
+  const [shutHold, setShutHold] = React.useState(null);
+  const [ringOn, setRingOn] = React.useState(false);
+  React.useEffect(() => {
+    setRingOn(false);
+    if (!listing || touch || !touched || cursor == null || cursor < 0 || cursor === expanded || cursor === shutHold) {
+      setPending(null);
+      return undefined;
+    }
+    setPending(cursor);
+    const r = reduced.current ? 0 : window.setTimeout(() => setRingOn(true), RING_WAIT);
+    const t = window.setTimeout(() => {
+      setExpanded(cursor);
+      setOnOpen(true);
+      setPending(null);
+      setRingOn(false);
+    }, reduced.current ? 0 : DWELL);
+    return () => {
+      window.clearTimeout(t);
+      window.clearTimeout(r);
+    };
+  }, [listing, touch, touched, cursor, expanded, shutHold]);
+  /* The stuck year sits on the header wordmark's bottom edge: measured, so it
+     holds whatever size the header has at this viewport. */
+  const [yearTop, setYearTop] = React.useState(22);
+  React.useEffect(() => {
+    if (!listing) return undefined;
+    const measure = () => {
+      const logo = document.querySelector('header img[alt="Vinge"]') || document.querySelector('[data-fixed-chrome] img[alt="Vinge"]') || document.querySelector('img[alt="Vinge"]');
+      const f = fieldRef.current;
+      const probe = f && f.querySelector('[data-year-baseline]');
+      if (!logo || !probe) return;
+      const box = probe.parentElement.parentElement.parentElement;
+      const base = probe.getBoundingClientRect().bottom - box.getBoundingClientRect().top;
+      /* Below LG the year starts at the wordmark's left edge, so on its
+         baseline the two collide. There it pins just under the header row. */
+      const sm = window.matchMedia('(max-width: 1279px)').matches;
+      const head = logo.closest('header');
+      const next = sm && head ? Math.round(head.getBoundingClientRect().bottom) : Math.max(0, Math.round(logo.getBoundingClientRect().bottom - base));
+      setYearTop(p => p === next ? p : next);
+    };
+    measure();
+    const t = window.setTimeout(measure, 600);
+    window.addEventListener('resize', measure);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+    return () => {
+      window.clearTimeout(t);
+      window.removeEventListener('resize', measure);
+    };
+  }, [listing]);
+  /* Scrolling moves the rows under a still pointer without any mouse event, so
+     the pointer and the row it reads are re-solved from its last position. */
+  const listPtr = React.useRef(null);
+  React.useEffect(() => {
+    if (!listing || touch) return undefined;
+    let frame = 0;
+    const apply = () => {
+      frame = 0;
+      const p = listPtr.current;
+      const f = fieldRef.current;
+      if (!p || !f) return;
+      const b = f.getBoundingClientRect();
+      const inside = p.x >= b.left && p.x <= b.right && p.y >= b.top && p.y <= b.bottom;
+      if (!inside) {
+        setTouched(false);
+        return;
+      }
+      const hit = document.elementFromPoint(p.x, p.y);
+      const row = hit && hit.closest ? hit.closest('[data-row-i]') : null;
+      if (row) {
+        setCursor(Number(row.getAttribute('data-row-i')));
+        setTouched(true);
+      }
+    };
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(apply);
+    };
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [listing, touch]);
+  const renderListRow = (e, on, rowShut, rowOpacity) => {
+    const open = expanded === e.i;
+    return /*#__PURE__*/React.createElement("div", {
+      key: e.i,
+      style: {
+        display: 'grid',
+        gridTemplateRows: rowShut ? '0fr' : '1fr',
+        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      ref: el => {
+        rowRefs.current[e.i] = el;
+      },
+      role: "button",
+      tabIndex: rowShut ? -1 : 0,
+      "aria-label": [e.client, e.title].filter(Boolean).join(': '),
+      "aria-expanded": open,
+      "data-row-i": e.i,
+      onMouseEnter: () => {
+        setCursor(e.i);
+        setTouched(true);
+        setOnOpen(open);
+        setShutHold(h => h === e.i ? h : null);
+      },
+      onMouseLeave: () => {
+        setOnOpen(false);
+        setShutHold(h => h === e.i ? null : h);
+      },
+      onFocus: () => {
+        setCursor(e.i);
+        setTouched(true);
+      },
+      onClick: ev => {
+        if (!open) {
+          setExpanded(e.i);
+          setOnOpen(true);
+          setShutHold(null);
+          return;
+        }
+        /* The open row's name line is also its close control. */
+        if (ev.target.closest && ev.target.closest('[data-row-head]')) {
+          setExpanded(null);
+          setOnOpen(false);
+          if (!touch) setShutHold(e.i);
+        }
+      },
+      onKeyDown: ev => {
+        if (ev.target !== ev.currentTarget || ev.key !== 'Enter' && ev.key !== ' ') return;
+        ev.preventDefault();
+        setExpanded(open ? null : e.i);
+        setShutHold(open && !touch ? e.i : null);
+      },
+      style: {
+        display: 'block',
+        overflow: 'hidden',
+        minHeight: 0,
+        color: 'inherit',
+        textDecoration: 'none',
+        outline: 'none',
+        borderBottom: rowShut ? 0 : '1px solid var(--rule-hairline)',
+        paddingBlock: rowShut ? 0 : on ? 'calc(var(--space-1) + var(--space-0))' : 'var(--space-1)',
+        cursor: open && !touch ? 'default' : !touch && ringOn && pending === e.i ? 'none' : 'pointer',
+        opacity: onOpen && !open && !touch ? Math.min(rowOpacity, 0.45) : rowOpacity,
+        transition: 'opacity var(--dur-fast) var(--ease-quart), padding-block var(--dur-slow) var(--ease-expo)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "data-row-head": "",
+      className: "small",
+      style: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: 'var(--space-3)',
+        maxWidth: 'none',
+        cursor: open ? 'pointer' : 'inherit',
+        color: on || open ? 'var(--text-primary)' : 'var(--text-secondary)',
+        transition: 'color var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("span", null, e.client), touch ? /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        flex: '0 0 auto',
+        width: 11,
+        height: 11,
+        opacity: open ? 1 : 0,
+        transition: 'opacity var(--dur-fast) var(--ease-expo)'
+      }
+    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      style: {
+        position: 'absolute',
+        left: 0,
+        top: 'calc(50% - 0.5px)',
+        width: 11,
+        height: 1,
+        background: 'var(--ink)',
+        transform: 'rotate(' + d + 'deg)'
+      }
+    }))) : null), /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: open ? '1fr' : '0fr',
+        transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'block',
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)',
+        maxWidth: '44rem',
+        paddingBlock: 'var(--space-4)'
+      }
+    }, e.title ? /*#__PURE__*/React.createElement("span", {
+      "data-row-title": "",
+      className: "subhead",
+      style: {
+        display: 'block',
+        marginBlockStart: 'var(--row-title-shift, 0px)',
+        maxWidth: 'none',
+        color: 'var(--ink)',
+        textWrap: 'pretty'
+      }
+    }, e.title) : null, e.preamble ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-secondary)'
+      }
+    }, e.preamble) : null, narrow && (e.work || (e.disciplines || []).length) ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'grid',
+        gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)',
+        columnGap: 'var(--gutter)',
+        marginBlockStart: 'var(--space-4)'
+      }
+    }, [{
+      k: 'Typ av uppdrag',
+      v: e.work ? [e.work] : []
+    }, {
+      k: 'Discipliner',
+      v: e.disciplines || []
+    }].map(c => /*#__PURE__*/React.createElement("span", {
+      key: c.k,
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        ...KEY_CELL,
+        marginBlockEnd: 'var(--space-1)'
+      }
+    }, c.k), c.v.length ? c.v.map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-primary)',
+        fontWeight: 'var(--weight-medium)',
+        textWrap: 'pretty'
+      }
+    }, d)) : /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-primary)'
+      }
+    }, "\u2014")))) : null, openLabel ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'flex',
+        marginBlockStart: 'var(--space-3)'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+      href: e.href || '#',
+      variant: "small",
+      tabIndex: open ? 0 : -1,
+      style: {
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: 'var(--space-1)'
+      }
+    }, openLabel, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: "arrow--right",
+      size: "sm"
+    }))) : null)))));
+  };
+  /* Desktop listing: the readout rides level with the row it is reading —
+     the hovered row while the pointer is on the list, otherwise the unfolded
+     one — and glides there. While it follows it leaves sticky and sits in
+     page space, so the page scrolls it natively and the glide is computed in
+     page coordinates: scrolling never makes it chase. With no row it glides
+     to where sticky would hold it, then hands back to sticky. */
+  const sideTargetRef = React.useRef(null);
+  sideTargetRef.current = touched && cursor != null && cursor >= 0 ? cursor : expanded;
+  const sideKick = React.useRef(null);
+  /* Pointer on the unfolded row: its two hairlines run on left under the
+     readout, so row and readout read as one case. Drawn in the body's own
+     space, outside the rows' clipping. */
+  const strokeRef = React.useRef(null);
+  /* The filter control steps aside while the travelling readout passes over it. */
+  const termsRef = React.useRef(null);
+  const termsOpenRef = React.useRef(false);
+  termsOpenRef.current = termsOpen;
+  /* Below LG the listing's term lists are a drawer at the right edge. It
+     leaves the page uncovered and scrollable, so the record can be watched
+     closing up behind it; Escape or a tap outside it puts it away. */
+  React.useEffect(() => {
+    if (!listing || !narrow || !termsOpen) return undefined;
+    const onKey = ev => {
+      if (ev.key === 'Escape') setTermsOpen(false);
+    };
+    const onDown = ev => {
+      const t = termsRef.current;
+      if (t && !t.contains(ev.target)) setTermsOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('pointerdown', onDown);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('pointerdown', onDown);
+    };
+  }, [listing, narrow, termsOpen]);
+  const placeStrokesRef = React.useRef(null);
+  const expandedRef = React.useRef(null);
+  expandedRef.current = expanded;
+  const strokesOn = listing && !small && !touch && onOpen && expanded != null;
+  React.useEffect(() => {
+    if (strokesOn && placeStrokesRef.current) placeStrokesRef.current();
+  }, [strokesOn, expanded]);
+  React.useEffect(() => {
+    const side = sideRef.current;
+    const clear = () => {
+      if (!side) return;
+      side.style.position = '';
+      side.style.top = '';
+      side.style.transform = '';
+    };
+    if (!side || !listing || small || touch) {
+      clear();
+      sideKick.current = null;
+      return undefined;
+    }
+    const placeStrokes = () => {
+      const g = strokeRef.current;
+      const row = expandedRef.current != null ? rowRefs.current[expandedRef.current] : null;
+      if (!g || !row) return;
+      const host = g.parentElement.getBoundingClientRect();
+      const r = row.getBoundingClientRect();
+      const left = side.getBoundingClientRect().left;
+      g.style.left = left - host.left + 'px';
+      g.style.top = r.top - 1 - host.top + 'px';
+      g.style.width = Math.max(0, r.left - left) + 'px';
+      g.style.height = r.height + 'px';
+      /* The stroke always carries on across the open row. The row above's own
+         bottom border is dimmed with that row (or absent at the top of a month),
+         so it cannot be the open case's top edge. */
+      const cap = g.querySelector('[data-stroke-cap]');
+      if (cap) cap.style.width = r.width + 'px';
+    };
+    placeStrokesRef.current = placeStrokes;
+    const hideTerms = () => {
+      const t = termsRef.current;
+      if (!t) return;
+      const el = t.querySelector('button') || t;
+      const a = el.getBoundingClientRect(),
+        b = side.getBoundingClientRect();
+      /* Clear by a margin, so it is gone before the readout reaches it. */
+      const m = 48;
+      const hit = mode === 'page' && !termsOpenRef.current && a.bottom + m > b.top && a.top - m < b.bottom && a.right > b.left && a.left < b.right;
+      el.style.opacity = hit ? '0' : '';
+      el.style.pointerEvents = hit ? 'none' : '';
+      el.style.transition = hit ? 'opacity 80ms linear' : 'opacity var(--dur-fast) var(--ease-quart)';
+    };
+    /* Baseline of an element's first line, as an offset from its top: a
+       zero-height inline probe sits on the baseline. Cached per element. */
+    const baseCache = new WeakMap();
+    const baseOf = box => {
+      if (baseCache.has(box)) return baseCache.get(box);
+      const walk = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, {
+        acceptNode: n => n.nodeValue.trim() ? 1 : 3
+      });
+      const tn = walk.nextNode();
+      if (!tn) return 0;
+      const probe = document.createElement('span');
+      probe.style.cssText = 'display:inline-block;width:0;height:0;vertical-align:baseline';
+      tn.parentNode.insertBefore(probe, tn);
+      const v = probe.getBoundingClientRect().top - box.getBoundingClientRect().top;
+      probe.remove();
+      baseCache.set(box, v);
+      return v;
+    };
+    /* The panel keeps its own spacing; the row's title is set down so its
+       cap top meets Discipliner's. One offset for every row, held on the
+       field as a variable, so nothing reflows as the target changes. */
+    let shift = null;
+    const alignDisc = head => {
+      const d = side.querySelector('[data-readout-disc]');
+      const row = head && head.parentElement;
+      const title = row && row.getAttribute('aria-expanded') === 'true' && row.querySelector('[data-row-title]');
+      const host = fieldRef.current;
+      if (!d || !title || !host || Math.abs(head.getBoundingClientRect().top + baseOf(head) - baseOf(side) - side.getBoundingClientRect().top) > 1) return;
+      const capTop = el => el.getBoundingClientRect().top + baseOf(el) - 0.7 * parseFloat(getComputedStyle(el).fontSize);
+      const k = d.firstElementChild || d;
+      const cur = parseFloat(getComputedStyle(title).marginBlockStart) || 0;
+      const want = Math.max(-16, capTop(k) - (capTop(title) - cur));
+      if (shift == null || Math.abs(want - shift) > 0.5) {
+        shift = want;
+        host.style.setProperty('--row-title-shift', want.toFixed(1) + 'px');
+      }
+    };
+    let frame = 0,
+      last = 0,
+      mode = 'sticky',
+      off = 0,
+      cur = 0,
+      stickyTop = parseFloat(getComputedStyle(side).top) || 0;
+    const headOf = i => {
+      const r = i != null ? rowRefs.current[i] : null;
+      return r && r.querySelector('[data-row-head]');
+    };
+    const tick = now => {
+      frame = 0;
+      const dt = last ? Math.min(64, now - last) : 16.7;
+      last = now;
+      const y = window.scrollY;
+      const head = headOf(sideTargetRef.current);
+      if (mode === 'sticky') {
+        if (!head) return;
+        /* Leave sticky where it stands: page mode, offset to the same spot. */
+        const at = side.getBoundingClientRect().top;
+        side.style.position = 'relative';
+        side.style.top = 'auto';
+        side.style.transform = '';
+        const nat = side.getBoundingClientRect().top;
+        off = at - nat;
+        cur = at + y;
+        mode = 'page';
+        side.style.transform = 'translateY(' + off + 'px)';
+      }
+      const nat = side.getBoundingClientRect().top - off;
+      let target;
+      if (head) target = head.getBoundingClientRect().top + baseOf(head) - baseOf(side) + y;else {
+        const body = side.parentElement.getBoundingClientRect();
+        target = Math.min(Math.max(nat + y, y + stickyTop), body.bottom + y - side.offsetHeight);
+      }
+      const k = reduced.current ? 1 : 1 - Math.pow(1 - 0.35, dt / 16.7);
+      cur += (target - cur) * k;
+      if (Math.abs(target - cur) < 0.5) cur = target;
+      off = cur - y - nat;
+      if (!head && cur === target) {
+        clear();
+        mode = 'sticky';
+        off = 0;
+        alignDisc(null);
+        hideTerms();
+        return;
+      }
+      side.style.transform = 'translateY(' + off.toFixed(2) + 'px)';
+      alignDisc(head);
+      placeStrokes();
+      hideTerms();
+      frame = requestAnimationFrame(tick);
+    };
+    sideKick.current = () => {
+      if (!frame) {
+        last = 0;
+        frame = requestAnimationFrame(tick);
+      }
+    };
+    sideKick.current();
+    return () => {
+      if (frame) cancelAnimationFrame(frame);
+      clear();
+      sideKick.current = null;
+    };
+  }, [listing, small, touch]);
+  React.useEffect(() => {
+    if (sideKick.current) sideKick.current();
+  });
+  /* The record always reads as upright ticks; only the listing page keeps
+     its rows of client names. On SM the ticks become the side-scrolling rail. */
+  const vertical = !listing;
+  const rail = vertical && small;
+  /* A clicked line pins its case open below the field. While pinned the field
+     stops reading the pointer: the next click anywhere on it closes the case. */
+  const [pinned, setPinnedState] = React.useState(null);
+  const pinnedRef = React.useRef(null);
+  const caseRef = React.useRef(null);
+  const bodyRef = React.useRef(null);
+  const [bodyCut, setBodyCut] = React.useState(false);
+  React.useLayoutEffect(() => {
+    const el = bodyRef.current;
+    const next = !!el && el.scrollHeight - el.clientHeight > 4;
+    setBodyCut(p => p === next ? p : next);
+  });
+  const setPinned = v => {
+    pinnedRef.current = v;
+    setPinnedState(v);
+  };
+  const pin = i => {
+    setPinned(i);
+    setCursor(i);
+    setTouched(true);
+    /* A light anchor: the field is brought up under the header so the case
+       opening beneath it lands in view, with the pinned line still above. */
+    window.setTimeout(() => {
+      const f = fieldRef.current;
+      if (!f) return;
+      const top = f.getBoundingClientRect().top + window.scrollY - 112;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: reduced.current ? 'auto' : 'smooth'
+      });
+    }, 60);
+  };
+  const unpin = () => setPinned(null);
+  /* Vertical: the row of groups never wraps. Its width is measured, and every
+     tick's pitch is solved against it, so a swell in one place is paid for by
+     compression everywhere else instead of pushing a group onto a new row. */
+  const [fieldBox, setFieldBox] = React.useState({
+    w: 0,
+    gap: 0
+  });
+  React.useEffect(() => {
+    if (!vertical) return;
+    const el = fieldRef.current;
+    if (!el) return;
+    const read = () => {
+      const w = el.clientWidth;
+      const gap = parseFloat(getComputedStyle(el).columnGap) || 0;
+      setFieldBox(p => p.w === w && p.gap === gap ? p : {
+        w,
+        gap
+      });
+    };
+    read();
+    const ro = new ResizeObserver(read);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [vertical]);
+  /* The trailing title: moved by direct style writes, not state, so following
+     the pointer never re-renders 120 rows. */
+  const tipRef = React.useRef(null);
+  const tipPos = React.useRef({
+    x: 0,
+    y: 0,
+    tx: 0,
+    ty: 0,
+    live: false,
+    frame: 0
+  });
+  const tipTo = (x, y, snap) => {
+    const p = tipPos.current;
+    p.tx = x;
+    p.ty = y;
+    if (snap || !p.live || reduced.current) {
+      p.x = x;
+      p.y = y;
+      p.live = true;
+    }
+    const step = () => {
+      p.frame = 0;
+      p.x += (p.tx - p.x) * 0.14;
+      p.y += (p.ty - p.y) * 0.14;
+      const el = tipRef.current;
+      if (el) el.style.transform = 'translate3d(' + p.x.toFixed(1) + 'px,' + p.y.toFixed(1) + 'px,0)';
+      if (Math.abs(p.tx - p.x) > 0.3 || Math.abs(p.ty - p.y) > 0.3) p.frame = requestAnimationFrame(step);
+    };
+    if (!p.frame) p.frame = requestAnimationFrame(step);
+  };
+  React.useEffect(() => () => {
+    if (tipPos.current.frame) cancelAnimationFrame(tipPos.current.frame);
+  }, []);
+  React.useEffect(() => {
+    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    /* Narrow viewports get the scroll reading too, not just touch devices —
+       a phone-width window in a desktop browser is the same layout. */
+    const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
+    const sm = window.matchMedia('(max-width: 767px)');
+    const nw = window.matchMedia('(max-width: 1279px)');
+    const sync = () => {
+      setTouch(mq.matches);
+      setSmall(sm.matches);
+      setNarrow(nw.matches);
+    };
+    sync();
+    if (mq.addEventListener) {
+      mq.addEventListener('change', sync);
+      sm.addEventListener('change', sync);
+      nw.addEventListener('change', sync);
+      return () => {
+        mq.removeEventListener('change', sync);
+        sm.removeEventListener('change', sync);
+        nw.removeEventListener('change', sync);
+      };
+    }
+  }, []);
+
+  /* SM rail: nothing is read until the visitor scrolls it. From then on the
+     line nearest the rail's left edge is the cursor, and moving the rail
+     lets go of a pinned case, since the case below follows the edge. */
+  const [railMore, setRailMore] = React.useState(true);
+  const [railHit, setRailHit] = React.useState(true);
+  const markRef = React.useRef(null);
+  /* Each line that arrives under the marker springs it up and lets it settle,
+     so the change of line is felt, not only read below. */
+  React.useEffect(() => {
+    const m = markRef.current;
+    if (!rail || !touched || !m || reduced.current || !m.animate) return;
+    m.animate([{
+      height: R_HEIGHT + V_LIFT - 3 + 'px'
+    }, {
+      height: R_HEIGHT + V_LIFT + 'px'
+    }], {
+      duration: 180,
+      easing: 'cubic-bezier(0.25, 1, 0.5, 1)'
+    });
+  }, [cursor, rail, touched]);
+  React.useEffect(() => {
+    if (!rail) return undefined;
+    const el = fieldRef.current;
+    if (!el) return undefined;
+    let frame = 0;
+    let moved = false;
+    /* Read on the scroll event itself, not a frame later: the fixed marker at
+       the edge and the case below must change on the same frame the line
+       arrives under it. Offsets are scroll-independent, so no rect reads. */
+    const pick = () => {
+      const x = el.scrollLeft + R_PITCH / 2;
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((t, i) => {
+        if (!t || !t.offsetWidth || !t.hasAttribute('data-tick')) return;
+        const d = Math.abs(t.offsetLeft + R_PITCH / 2 - x);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+      /* Between two years there is no line at the edge, so the marker goes
+         rather than standing in the gap. */
+      const under = best >= 0 && bestD < R_PITCH / 2;
+      setRailHit(p => p === under ? p : under);
+    };
+    const read = () => {
+      frame = 0;
+      const next = el.scrollWidth - el.scrollLeft - el.clientWidth > 4;
+      setRailMore(p => p === next ? p : next);
+    };
+    const onScroll = () => {
+      moved = true;
+      if (pinnedRef.current != null) setPinned(null);
+      pick();
+      if (!frame) frame = requestAnimationFrame(read);
+    };
+    read();
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    const ro = new ResizeObserver(() => {
+      if (!frame) frame = requestAnimationFrame(read);
+    });
+    ro.observe(el);
+    return () => {
+      el.removeEventListener('scroll', onScroll);
+      ro.disconnect();
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [rail, view, term]);
+
+  /* Touch: the focal band sits at 62% of the viewport, low enough that the row
+     being read is not under the thumb. The nearest row to it is the cursor. */
+  React.useEffect(() => {
+    if (!touch || vertical || listing) return;
+    let frame = 0;
+    const apply = () => {
+      frame = 0;
+      const focal = window.innerHeight * 0.62;
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > window.innerHeight) return;
+        const d = Math.abs(r.top + r.height / 2 - focal);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    apply();
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [touch, vertical]);
+
+  /* A browser only recomputes hover when the pointer moves, so scrolling with
+     a still cursor over the field would leave the reading on whatever row it
+     entered on — or on none at all. The pointer position is kept and the row
+     under it is resolved again on every scroll, so passing the field always
+     reads a line. */
+  React.useEffect(() => {
+    if (touch) return;
+    let frame = 0;
+    const onMove = ev => {
+      ptr.current = {
+        x: ev.clientX,
+        y: ev.clientY
+      };
+    };
+    const apply = () => {
+      frame = 0;
+      const p = ptr.current;
+      const box = fieldRef.current;
+      if (!p || !box || pinnedRef.current != null) return;
+      const b = box.getBoundingClientRect();
+      if (p.x < b.left || p.x > b.right || p.y < b.top || p.y > b.bottom) {
+        if (!box.contains(document.activeElement)) setTouched(false);
+        return;
+      }
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (vertical && !r.width) return;
+        if (listing) {
+          if (p.y >= r.top && p.y <= r.bottom) {
+            best = i;
+            bestD = 0;
+          }
+          return;
+        }
+        const d = vertical ? Math.hypot(r.left + r.width / 2 - p.x, (r.top + r.height / 2 - p.y) * 3) : Math.abs(r.top + r.height / 2 - p.y);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+      if (vertical) tipTo(p.x - b.left, p.y - b.top);
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    window.addEventListener('pointermove', onMove, {
+      passive: true
+    });
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [touch, vertical]);
+
+  /* Listing: grouped by month within the year when the entries carry one. */
+  const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+  const blocks = React.useMemo(() => {
+    const out = [];
+    let n = 0;
+    entries.forEach(e => {
+      const byMonth = listing && e.month;
+      const key = byMonth ? e.year + '-' + e.month : String(e.year);
+      let b = out[out.length - 1];
+      if (!b || b.key !== key) {
+        const m = byMonth ? MONTHS[e.month - 1] : '';
+        b = {
+          key,
+          year: e.year,
+          label: m ? m.charAt(0).toUpperCase() + m.slice(1) : listing ? '' : String(e.year),
+          rows: []
+        };
+        out.push(b);
+      }
+      b.rows.push({
+        ...e,
+        i: n++
+      });
+    });
+    return out;
+  }, [entries, listing]);
+  const yearGroups = React.useMemo(() => {
+    if (!listing) return [{
+      year: 'all',
+      blocks
+    }];
+    const out = [];
+    blocks.forEach(b => {
+      let g = out[out.length - 1];
+      if (!g || g.year !== b.year) {
+        g = {
+          year: b.year,
+          blocks: []
+        };
+        out.push(g);
+      }
+      g.blocks.push(b);
+    });
+    return out;
+  }, [blocks, listing]);
+
+  /* Relevance, as the brief defines it: the lead discipline is one the finder
+     matched, or the sector is. Loose on purpose — a row that touches the
+     question at all belongs in the subset. */
+  const hasDialogue = !!(dialogue && ((dialogue.areas || []).length || (dialogue.sectors || []).length));
+  const lit = React.useMemo(() => {
+    if (!hasDialogue) return [];
+    const areas = new Set(dialogue.areas || []);
+    const sectors = new Set(dialogue.sectors || []);
+    const hit = [];
+    entries.forEach((e, i) => {
+      const lead = (e.disciplines || [])[0];
+      if (areas.has(lead) || sectors.has(e.sector)) hit.push(i);
+    });
+    return hit;
+  }, [entries, dialogue, hasDialogue]);
+  const litSet = React.useMemo(() => new Set(lit), [lit]);
+
+  /* The lists are read off the record itself rather than declared, so they
+     cannot name a term the field does not contain. Most-used first, ties by
+     name so the order is stable across loads. */
+  const termLists = React.useMemo(() => {
+    if (!termFilter) return {
+      work: [],
+      disc: []
+    };
+    const tally = get => {
+      const m = new Map();
+      entries.forEach(e => get(e).forEach(v => {
+        if (v) m.set(v, (m.get(v) || 0) + 1);
+      }));
+      return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv')).slice(0, termCount).map(([v, n]) => ({
+        v,
+        n
+      }));
+    };
+    return {
+      year: listing ? [...new Set(entries.map(e => e.year))].sort((a, b) => b - a).map(y => ({
+        v: String(y),
+        n: entries.filter(e => e.year === y).length
+      })) : [],
+      work: tally(e => [e.work]),
+      disc: tally(e => e.disciplines || [])
+    };
+  }, [entries, termFilter, termCount]);
+
+  /* The term filter belongs to the whole record, so it lives in the first
+     view only — the second one already has a filter and two would fight. */
+  const termOn = termFilter && view === 0 && !!term;
+  const termSet = React.useMemo(() => {
+    if (!termOn) return new Set();
+    const hit = new Set();
+    entries.forEach((e, i) => {
+      const match = term.kind === 'year' ? String(e.year) === term.v : term.kind === 'work' ? e.work === term.v : (e.disciplines || []).indexOf(term.v) >= 0;
+      if (match) hit.add(i);
+    });
+    return hit;
+  }, [entries, term, termOn]);
+  React.useEffect(() => {
+    const els = scrollRefs.current.filter(Boolean);
+    if (!els.length) return;
+    const check = () => {
+      const next = els.map(el => el.scrollHeight - el.scrollTop - el.clientHeight > 4);
+      setFade(prev => prev.length === next.length && prev.every((v, i) => v === next[i]) ? prev : next);
+    };
+    check();
+    const ro = new ResizeObserver(check);
+    els.forEach(el => {
+      ro.observe(el);
+      el.addEventListener('scroll', check, {
+        passive: true
+      });
+    });
+    window.addEventListener('resize', check);
+    return () => {
+      ro.disconnect();
+      els.forEach(el => el.removeEventListener('scroll', check));
+      window.removeEventListener('resize', check);
+    };
+  }, [termsOpen, termLists]);
+
+  /* The record prints once, on entry — never again on scroll-back. */
+  React.useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || printed) return;
+    /* Threshold 0, not a fraction: the field is several viewports tall, so the
+       ratio of the section that can ever be on screen at once is smaller than
+       any fraction worth naming and the record would never print. The margin
+       is what delays the print until the block is properly entered. */
+    const io = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) {
+        setPrinted(true);
+        io.disconnect();
+      }
+    }, {
+      threshold: 0,
+      rootMargin: '-12% 0px'
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [printed]);
+
+  /* The filter reads as one hairline sweep down the field. */
+  React.useEffect(() => {
+    if (view !== 1 || !hasDialogue || reduced.current) {
+      setScan(-1);
+      return;
+    }
+    setScan(0);
+    const a = requestAnimationFrame(() => setScan(1));
+    const b = window.setTimeout(() => setScan(-1), 1300);
+    return () => {
+      cancelAnimationFrame(a);
+      window.clearTimeout(b);
+    };
+  }, [view, hasDialogue, lit]);
+  const move = d => {
+    setTouched(true);
+    const n = Math.min(entries.length - 1, Math.max(0, cursor + d));
+    setCursor(n);
+    const el = rowRefs.current[n];
+    if (el) el.focus({
+      preventScroll: true
+    });
+    if (rail && el && fieldRef.current) {
+      fieldRef.current.scrollTo({
+        left: el.offsetLeft,
+        behavior: reduced.current ? 'auto' : 'smooth'
+      });
+    } else if (vertical && el && fieldRef.current) {
+      const r = el.getBoundingClientRect();
+      const b = fieldRef.current.getBoundingClientRect();
+      tipTo(r.left + r.width / 2 - b.left, r.top - b.top);
+    }
+  };
+  const onKeyDown = e => {
+    if (vertical && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      if (pinned != null) unpin();else pin(cursor);
+      return;
+    }
+    if (vertical && e.key === 'Escape' && pinned != null) {
+      e.preventDefault();
+      unpin();
+      return;
+    }
+    if (vertical && pinned != null) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      move(1);
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      move(-1);
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      move(-entries.length);
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      move(entries.length);
+    }
+  };
+  const label = e => [e.year, e.client, e.sector, e.work, (e.disciplines || []).join(', ')].join(', ');
+  /* The bar is initialised with a real row, so the first hover cannot resize it. */
+  /* Listing: off the list, the readout holds the unfolded row. */
+  const readIdx = listing && !touched && expanded != null ? expanded : cursor;
+  const current = entries[readIdx] || entries[0];
+  const disc = current ? current.disciplines || [] : [];
+  /* Discipline cell: both readings ship, and CSS picks one — the full
+     comma-separated list in the desktop side column, the abbreviated form in
+     the panel that sits over the field on a small screen. */
+  const discCell = current && disc.length ? React.createElement(React.Fragment, null, React.createElement('span', {
+    'data-disc-full': ''
+  }, disc.map((d, i) => React.createElement('span', {
+    key: i,
+    style: {
+      display: 'block'
+    }
+  }, d))), React.createElement('span', {
+    'data-disc-short': ''
+  }, disc.length > 1 ? disc[0] + ' +' + (disc.length - 1) : disc[0])) : '';
+  /* The second view emphasises; the first is untouched. */
+  const relevant = view === 1 && hasDialogue;
+  /* Every line ends up as text on a narrow viewport, so that reading runs on
+     the taller row throughout. */
+  const pitch = touch || view === 1 || termOn ? PITCH_FILTERED : PITCH;
+  const terms = hasDialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
+  const sideLine = view === 1 ? hasDialogue ? relevanceLine.replace('{n}', String(lit.length)).replace('{total}', String(entries.length)) : '—' : termOn ? termLine.replace('{n}', String(termSet.size)).replace('{total}', String(entries.length)).replace('{term}', term.v) : allLine;
+  /* The year heads its block and client and sector are written on the line
+     itself, so the readout carries only what neither says. */
+  /* Until the visitor points at a line there is nothing to read out, and the
+     readout says so rather than standing on an arbitrary row. */
+  const readout = (touched || rail || listing && expanded != null) && current ? [{
+    k: 'Typ av uppdrag',
+    v: current.work
+  }, {
+    k: 'Discipliner',
+    v: discCell,
+    hint: disc.join(', '),
+    wrap: true
+  }] : [{
+    k: 'Typ av uppdrag',
+    v: '—'
+  }, {
+    k: 'Discipliner',
+    v: '—',
+    wrap: true
+  }];
+
+  /* Desired pitch per visible tick, then one scale factor if the row would
+     overrun the measured width. Resting fields that fit are left as they are. */
+  const vPitch = {};
+  if (vertical && !rail) {
+    let sum = 0;
+    let groups = 0;
+    blocks.forEach(b => {
+      const rows = termOn ? b.rows.filter(r => termSet.has(r.i)) : b.rows;
+      if (!rows.length) return;
+      groups += 1;
+      const open = touched && b.rows.some(r => r.i === cursor);
+      rows.forEach(r => {
+        /* Pointing at the field opens the cursor's group, with a swell at the
+           cursor inside it, and closes the rest flat. */
+        const near = open ? Math.max(0, 1 - Math.abs(r.i - cursor) / V_PROX_R) : 0;
+        const w = open ? V_PITCH_OPEN + V_PROX * near * near : touched ? V_PITCH_REST : V_PITCH;
+        vPitch[r.i] = w;
+        sum += w;
+      });
+    });
+    const avail = fieldBox.w - Math.max(0, groups - 1) * fieldBox.gap;
+    if (fieldBox.w && sum > avail && avail > 0) {
+      const k = avail / sum;
+      Object.keys(vPitch).forEach(i => {
+        vPitch[i] *= k;
+      });
+    }
+  }
+  return /*#__PURE__*/React.createElement("section", {
+    id: id,
+    ref: sectionRef,
+    "data-record-listing": listing ? '' : undefined,
+    style: {
+      '--record-year-top': yearTop + 'px',
+      paddingBlock: 'var(--section-gap)',
+      ...(flushTop ? {
+        paddingBlockStart: 0
+      } : null),
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      alignItems: 'start',
+      rowGap: 'var(--space-5)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-record-head": true,
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      ...(index || title || premise || secondLine || allLabel ? null : {
+        marginBlockEnd: 'calc(-1 * var(--space-5))'
+      })
+    }
+  }, index ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, index) : null, title ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2"
+  }, title) : null, premise ? /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, premise) : null, secondLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: allHref,
+    variant: "secondary",
+    style: {
+      alignSelf: 'start',
+      fontSize: 'var(--text-small)'
+    },
+    onClick: allHref ? undefined : ev => ev.preventDefault()
+  }, allLabel) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-switch": true,
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-2)',
+      position: 'relative',
+      zIndex: 3
+    }
+  }, views ? /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
+    label: "Vy",
+    tabs: viewLabels.map((v, i) => ({
+      id: String(i),
+      label: i === 1 && hasDialogue ? v + ' *' : v
+    })),
+    value: String(view),
+    onChange: v => setView(Number(v))
+  }) : null, view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, emptyBody), /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: finderHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: onAsk ? ev => {
+      ev.preventDefault();
+      onAsk();
+    } : undefined
+  }, emptyLinkLabel)) :
+  /*#__PURE__*/
+  /* Count and filter read as one line: what is shown, and what it
+     was filtered on. */
+  /* Proportional figures: the count does not tick, and Circular's
+     tabular digits carry side bearings wide enough to read as broken
+     word spacing inside a sentence. */
+  React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, sideLine, relevant ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', filterLabel, ": ", terms.join(', ')) : null, termOn ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTerm(null),
+    style: {
+      ...TERM_BTN,
+      display: 'inline',
+      width: 'auto',
+      color: 'var(--text-secondary)',
+      textDecoration: 'underline',
+      textUnderlineOffset: '0.2em'
+    }
+  }, termResetLabel)) : null), relevant ? /*#__PURE__*/React.createElement(React.Fragment, null, filterNote ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, filterNote) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3)'
+    }
+  }, onReset ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: "#",
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: ev => {
+      ev.preventDefault();
+      onReset();
+      setView(0);
+    }
+  }, resetLabel) : null, onAsk ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: finderHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: ev => {
+      ev.preventDefault();
+      onAsk();
+    }
+  }, askAgainLabel) : null)) : null), termFilter && view === 0 ? /*#__PURE__*/React.createElement("div", {
+    "data-record-terms": true,
+    ref: termsRef,
+    style: listing && narrow && termsOpen ? {
+      zIndex: 46
+    } : undefined
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTermsOpen(!termsOpen),
+    onMouseEnter: () => setTermsWarm(true),
+    onMouseLeave: () => setTermsWarm(false),
+    onFocus: () => setTermsWarm(true),
+    onBlur: () => setTermsWarm(false),
+    "aria-expanded": termsOpen ? 'true' : 'false',
+    "aria-label": termToggleLabel,
+    className: "target",
+    style: {
+      gap: 8,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      flex: '0 0 auto',
+      width: 14,
+      height: 14
+    }
+  }, termsOpen ? [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+    key: d,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 'calc(50% - 0.5px)',
+      width: 14,
+      height: 1,
+      background: 'var(--ink)',
+      transform: 'rotate(' + d + 'deg)'
+    }
+  })) : [14, 10, 6].map((w, n) => /*#__PURE__*/React.createElement("span", {
+    key: w,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 2.5 + n * 4,
+      width: w,
+      height: 1,
+      background: termsWarm ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'background var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      whiteSpace: 'nowrap'
+    }
+  }, termToggleLabel), term && !termsOpen ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'block',
+      width: 4,
+      height: 4,
+      borderRadius: '50%',
+      background: 'var(--ink)'
+    }
+  }) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-list": true,
+    ref: termsListRef,
+    "data-open": termsOpen ? '' : undefined,
+    "aria-hidden": termsOpen ? 'false' : 'true'
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-5)'
+    }
+  }, listing ? /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-head": ""
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--ink)'
+    }
+  }, termToggleLabel), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTermsOpen(false),
+    "aria-label": termsCloseLabel,
+    className: "target",
+    style: {
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      width: 14,
+      height: 14
+    }
+  }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+    key: d,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 'calc(50% - 0.5px)',
+      width: 14,
+      height: 1,
+      background: 'var(--ink)',
+      transform: 'rotate(' + d + 'deg)'
+    }
+  }))))) : null, [].concat(listing ? [{
+    h: yearHeading,
+    kind: 'year',
+    list: termLists.year
+  }] : [], [{
+    h: workHeading,
+    kind: 'work',
+    list: termLists.work
+  }, {
+    h: discHeading,
+    kind: 'disc',
+    list: termLists.disc
+  }]).map((g, gi) => /*#__PURE__*/React.createElement("div", {
+    key: g.kind
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-heading": "",
+    style: {
+      ...KEY_CELL,
+      overflow: 'visible',
+      color: 'var(--text-primary)',
+      fontWeight: 'var(--weight-medium)'
+    }
+  }, g.h), /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-scroll": "",
+    ref: el => {
+      scrollRefs.current[gi] = el;
+    },
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      maskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none',
+      WebkitMaskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none'
+    }
+  }, g.list.map(t => {
+    const active = !!term && term.kind === g.kind && term.v === t.v;
+    return /*#__PURE__*/React.createElement("button", {
+      key: t.v,
+      type: "button",
+      "aria-pressed": active,
+      onClick: () => setTerm(active ? null : {
+        kind: g.kind,
+        v: t.v
+      }),
+      style: {
+        ...TERM_BTN,
+        display: 'flex',
+        alignItems: 'baseline',
+        gap: 0,
+        paddingBlock: '0.18rem',
+        boxSizing: 'border-box',
+        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
+        fontWeight: active ? 'var(--weight-medium)' : 'var(--weight-book)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        flex: '0 0 auto',
+        alignSelf: 'center',
+        overflow: 'hidden',
+        width: active ? 11 : 0,
+        height: 11,
+        opacity: active ? 1 : 0,
+        marginInlineEnd: active ? 8 : 0,
+        transition: 'width var(--dur-fast) var(--ease-expo), margin-inline-end var(--dur-fast) var(--ease-expo), opacity var(--dur-fast) var(--ease-expo)'
+      }
+    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      style: {
+        position: 'absolute',
+        left: 0,
+        top: 'calc(50% - 0.5px)',
+        width: 11,
+        height: 1,
+        background: 'var(--ink)',
+        transform: 'rotate(' + d + 'deg)'
+      }
+    }))), /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '1 1 auto',
+        minWidth: 0,
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        whiteSpace: 'nowrap'
+      }
+    }, t.v), /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '0 0 auto',
+        marginInlineStart: 'var(--space-2)',
+        paddingInlineEnd: '2px',
+        fontVariantNumeric: 'tabular-nums',
+        opacity: 0.7
+      }
+    }, t.n));
+  })))))))) : null, /*#__PURE__*/React.createElement("div", {
+    "data-record-body": true,
+    "data-rail": rail ? '' : undefined,
+    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined,
+    style: listing ? {
+      position: 'relative'
+    } : undefined
+  }, listing && !small && !touch ? /*#__PURE__*/React.createElement("div", {
+    ref: strokeRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      width: 0,
+      height: 0,
+      pointerEvents: 'none',
+      zIndex: 1
+    }
+  }, ['top', 'bottom'].map(edge => /*#__PURE__*/React.createElement("span", {
+    key: edge,
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      [edge]: edge === 'top' ? 0 : -1,
+      height: 1,
+      background: 'var(--rule-hairline)',
+      transformOrigin: 'right center',
+      transform: strokesOn ? 'scaleX(1)' : 'scaleX(0)',
+      transition: strokesOn ? 'transform var(--dur-medium) var(--ease-quart)' : 'none'
+    }
+  })), /*#__PURE__*/React.createElement("span", {
+    "data-stroke-cap": "",
+    style: {
+      position: 'absolute',
+      left: '100%',
+      top: 0,
+      height: 1,
+      background: 'var(--rule-hairline)',
+      opacity: strokesOn ? 1 : 0,
+      transition: strokesOn ? 'opacity var(--dur-medium) var(--ease-quart)' : 'none'
+    }
+  })) : null, /*#__PURE__*/React.createElement("div", {
+    "data-record-side": true,
+    ref: sideRef,
+    style: listing && narrow ? {
+      display: 'none'
+    } : undefined
+  }, /*#__PURE__*/React.createElement("div", {
+    role: "status",
+    "aria-live": "polite",
+    "data-record-readout": true
+  }, readout.map(r => /*#__PURE__*/React.createElement("div", {
+    key: r.k,
+    "data-readout-disc": r.wrap ? '' : undefined
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...KEY_CELL,
+      marginBlockEnd: 'var(--space-1)'
+    }
+  }, r.k), /*#__PURE__*/React.createElement("div", {
+    "data-record-val": r.wrap ? 'wrap' : '',
+    style: r.wrap ? DISC_CELL : VAL_CELL,
+    title: r.hint
+  }, r.v))))), /*#__PURE__*/React.createElement("div", {
+    "data-record-field": true,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)'
+    }
+  }, lead ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, lead) : null, readingRule ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, readingRule) : null, vertical ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative'
+    }
+  }, rail ? /*#__PURE__*/React.createElement("div", {
+    ref: markRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      bottom: 0,
+      width: BAR_ACTIVE,
+      height: R_HEIGHT + V_LIFT,
+      background: 'var(--ink)',
+      zIndex: 2,
+      pointerEvents: 'none',
+      opacity: printed && railHit ? 1 : 0,
+      transition: 'height var(--dur-fast) var(--ease-quart), opacity 90ms linear'
+    }
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    "data-record-rail": rail ? '' : undefined,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexWrap: 'nowrap',
+      alignItems: 'flex-start',
+      columnGap: rail ? 'var(--space-6)' : 'var(--space-5)',
+      rowGap: 'var(--space-4)',
+      cursor: rail ? 'default' : pinned != null ? CLOSE_CURSOR : 'default',
+      ...(rail ? {
+        /* Bleeds off the right margin, so the rail reads as running on
+           past the screen; the fade says the same while there is more. */
+        marginInlineEnd: 'calc(-1 * var(--margin))',
+        overflowX: 'auto',
+        overflowY: 'hidden',
+        scrollSnapType: 'x mandatory',
+        overscrollBehaviorX: 'contain',
+        scrollbarWidth: 'none',
+        WebkitOverflowScrolling: 'touch',
+        maskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none',
+        WebkitMaskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none'
+      } : null)
+    },
+    onKeyDown: onKeyDown,
+    onClick: ev => {
+      if (rail) {
+        /* A tap brings its line to the edge, which is what reads it. */
+        const t = ev.target.closest && ev.target.closest('[data-tick]');
+        if (t) ev.currentTarget.scrollTo({
+          left: t.offsetLeft,
+          behavior: reduced.current ? 'auto' : 'smooth'
+        });
+        return;
+      }
+      if (pinned != null) {
+        unpin();
+        return;
+      }
+      const t = ev.target.closest && ev.target.closest('[data-tick]');
+      if (t) pin(Number(t.getAttribute('data-tick')));
+    },
+    onMouseMove: ev => {
+      if (rail || pinned != null) return;
+      const b = ev.currentTarget.getBoundingClientRect();
+      tipTo(ev.clientX - b.left, ev.clientY - b.top);
+    },
+    onMouseLeave: ev => {
+      if (rail || pinned != null) return;
+      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
+    }
+  }, blocks.map(b => {
+    const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
+    const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
+    if (termOn && !anyTerm) return null;
+    const groupOpen = touched && b.rows.some(r => r.i === cursor);
+    return /*#__PURE__*/React.createElement("div", {
+      key: b.year,
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)',
+        flex: '0 0 auto',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        whiteSpace: 'nowrap',
+        width: 0,
+        overflow: 'visible',
+        fontVariantNumeric: 'tabular-nums',
+        opacity: view === 1 && !anyLit ? 0.14 : 1,
+        transition: 'opacity var(--dur-fast) var(--ease-quart)',
+        ...(rail ? {
+          position: 'sticky',
+          left: 0,
+          width: 'auto',
+          alignSelf: 'flex-start',
+          zIndex: 1,
+          background: 'var(--paper)',
+          paddingInlineEnd: 'var(--space-2)',
+          color: groupOpen ? 'var(--ink)' : undefined
+        } : null)
+      }
+    }, b.year), /*#__PURE__*/React.createElement("div", {
+      style: {
+        display: 'flex',
+        flexWrap: 'nowrap',
+        alignItems: 'flex-end'
+      }
+    }, b.rows.map(e => {
+      /* On the rail the fixed marker is the active line. */
+      const on = cursor === e.i && touched && !rail;
+      const matched = relevant && litSet.has(e.i);
+      const hitTerm = termOn && termSet.has(e.i);
+      if (termOn && !hitTerm) return null;
+      const rowOpacity = !printed ? 0 : pinned != null ? e.i === pinned ? 1 : 0.22 : view === 1 ? matched ? 1 : 0.14 : 1;
+      const pitchW = rail ? R_PITCH : vPitch[e.i] || V_PITCH;
+      const tickH = rail ? R_HEIGHT : V_HEIGHT;
+      return /*#__PURE__*/React.createElement("div", {
+        key: e.i,
+        ref: el => {
+          rowRefs.current[e.i] = el;
+        },
+        "data-tick": e.i,
+        tabIndex: e.i === cursor ? 0 : -1,
+        "aria-label": label(e),
+        "aria-pressed": pinned === e.i ? 'true' : 'false',
+        onMouseEnter: () => {
+          if (rail || pinned != null) return;
+          setCursor(e.i);
+          setTouched(true);
+        },
+        onFocus: () => {
+          if (rail || pinned != null) return;
+          setCursor(e.i);
+          setTouched(true);
+        },
+        style: {
+          position: 'relative',
+          width: pitchW,
+          height: tickH + V_LIFT,
+          flex: '0 0 auto',
+          display: 'flex',
+          alignItems: 'flex-end',
+          justifyContent: rail ? 'flex-start' : 'center',
+          scrollSnapAlign: rail ? 'start' : undefined,
+          cursor: 'inherit',
+          outline: 'none',
+          opacity: rowOpacity,
+          transition: 'opacity var(--dur-medium) var(--ease-quart), width var(--dur-medium) var(--ease-quart)',
+          transitionDelay: printed && !reduced.current ? e.i * 6 + 'ms, 0ms' : '0ms'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          width: on ? BAR_ACTIVE : BAR,
+          height: on ? tickH + V_LIFT : tickH,
+          background: on || hitTerm || matched ? 'var(--ink)' : 'var(--underline-rest-secondary)',
+          transition: 'height var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)',
+          pointerEvents: 'none'
+        }
+      }));
+    })));
+  }), rail ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      flex: '0 0 auto',
+      width: 'calc(100% - ' + R_PITCH + 'px - var(--space-6))',
+      height: 1
+    }
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    ref: tipRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      pointerEvents: 'none',
+      zIndex: 2,
+      willChange: 'transform'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "small",
+    style: {
+      transform: 'translate(14px, calc(-100% - 14px))',
+      whiteSpace: 'nowrap',
+      background: 'var(--paper, var(--ground-page))',
+      paddingBlock: '0.3rem',
+      paddingInline: '0.55rem',
+      color: 'var(--text-primary)',
+      fontWeight: 'var(--weight-medium)',
+      opacity: touched && current && pinned == null && !rail ? 1 : 0,
+      transition: 'opacity var(--dur-fast) var(--ease-quart)'
+    }
+  }, current ? current.client : '')))) : /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexDirection: 'column'
+    },
+    onKeyDown: onKeyDown,
+    onMouseMove: listing ? ev => {
+      listPtr.current = {
+        x: ev.clientX,
+        y: ev.clientY
+      };
+      const el = pointerRef.current;
+      if (!el) return;
+      el.style.transform = 'translate3d(' + ev.clientX + 'px,' + ev.clientY + 'px,0)';
+    } : undefined,
+    onMouseLeave: ev => {
+      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
+    }
+  }, yearGroups.map(yg => {
+    const yearShut = termOn && !yg.blocks.some(b => b.rows.some(r => termSet.has(r.i)));
+    return /*#__PURE__*/React.createElement("div", {
+      key: 'y' + yg.year,
+      style: {
+        position: 'relative'
+      }
+    }, listing ?
+    /*#__PURE__*/
+    /* The year heads its months and stays in view while they pass. */
+    React.createElement("div", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: yearShut ? '0fr' : '1fr',
+        position: 'sticky',
+        top: yearTop,
+        zIndex: 2,
+        marginBlockEnd: yearShut ? 0 : 'var(--space-5)',
+        background: 'var(--paper)',
+        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      "aria-hidden": "true",
+      style: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        bottom: '100%',
+        height: yearTop,
+        background: 'var(--paper)',
+        pointerEvents: 'none'
+      }
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        fontVariantNumeric: 'tabular-nums',
+        fontWeight: 'var(--weight-medium)',
+        color: 'var(--ink)',
+        paddingBlock: 'var(--space-1)'
+      }
+    }, yg.year, /*#__PURE__*/React.createElement("span", {
+      "data-year-baseline": "",
+      style: {
+        display: 'inline-block',
+        width: 0,
+        height: 0
+      }
+    })))) : null, yg.blocks.map(b => {
+      const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
+      const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
+      /* A term filter takes the rest of the record away rather than
+         dimming it: years with nothing in the subset fold shut, and
+         the register closes up around what is left. */
+      const blockShut = termOn && !anyTerm;
+      return /*#__PURE__*/React.createElement("div", {
+        key: b.key,
+        style: {
+          display: 'grid',
+          gridTemplateRows: blockShut ? '0fr' : '1fr',
+          transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          overflow: 'hidden',
+          minHeight: 0,
+          paddingBlockEnd: blockShut ? 0 : listing ? 'var(--space-6)' : 'var(--space-3)',
+          transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
+        }
+      }, /*#__PURE__*/React.createElement("p", {
+        className: "small",
+        style: {
+          fontVariantNumeric: 'tabular-nums',
+          marginBlockEnd: listing ? 'var(--space-1)' : 'var(--space-2)',
+          marginBlockStart: listing ? 'var(--space-3)' : 0,
+          color: listing ? 'var(--ink)' : undefined,
+          opacity: view === 1 && !anyLit ? 0.14 : 1,
+          transition: 'opacity var(--dur-fast) var(--ease-quart)'
+        }
+      }, b.label), /*#__PURE__*/React.createElement("div", null, b.rows.map(e => {
+        /* Nothing is under the cursor until the visitor has
+           actually pointed: the default cursor row must not read
+           as the active one. */
+        const on = cursor === e.i && touched;
+        /* Every match carries its title, so a solid line always
+           has something written next to it. */
+        const matched = relevant && litSet.has(e.i);
+        /* A term match is exposed the same way a dialogue match
+           is: it carries its title and keeps full weight while
+           the rest of the field recedes. */
+        const hitTerm = termOn && termSet.has(e.i);
+        const labelled = view === 1 ? matched || on && !touch : termOn ? hitTerm || on
+        /* Text above the focal band, lines below it: scrolling
+           down sets the reading, scrolling back up returns it. */ : on || touch && e.i <= cursor;
+        const rowShut = termOn && !hitTerm;
+        const rowOpacity = !printed ? 0 : view === 1 ? matched ? 1 : 0.14 : rowShut ? 0 : 1;
+        if (listing) return renderListRow(e, on, rowShut, rowOpacity);
+        return /*#__PURE__*/React.createElement("div", {
+          key: e.i,
+          ref: el => {
+            rowRefs.current[e.i] = el;
+          },
+          tabIndex: e.i === cursor ? 0 : -1,
+          "aria-label": label(e),
+          title: (e.disciplines || []).join(', '),
+          onMouseEnter: () => {
+            setCursor(e.i);
+            setTouched(true);
+          },
+          onFocus: () => {
+            setCursor(e.i);
+            setTouched(true);
+          },
+          style: {
+            position: 'relative',
+            height: rowShut ? 0 : on ? pitch + FAN : pitch,
+            cursor: 'default',
+            outline: 'none',
+            overflow: rowShut ? 'hidden' : 'visible',
+            pointerEvents: rowShut ? 'none' : undefined,
+            opacity: rowOpacity,
+            transition: 'opacity var(--dur-fast) var(--ease-quart), height var(--dur-fast) var(--ease-quart)',
+            transitionDelay: printed && !reduced.current ? e.i * 8 + 'ms, 0ms' : '0ms'
+          }
+        }, /*#__PURE__*/React.createElement("div", {
+          style: {
+            position: 'absolute',
+            inset: 0,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 'var(--space-2)',
+            pointerEvents: 'none'
+          }
+        }, labelled ? /*#__PURE__*/React.createElement("span", {
+          className: "small",
+          style: {
+            flex: '0 1 auto',
+            minWidth: 0,
+            maxWidth: 'none',
+            whiteSpace: 'nowrap',
+            fontWeight: on ? 'var(--weight-medium)' : 'var(--weight-book)',
+            color: on ? 'var(--text-primary)' : 'var(--text-secondary)'
+          }
+        }, e.client, e.sector ? /*#__PURE__*/React.createElement("span", {
+          style: {
+            paddingInline: '0.6em',
+            color: 'var(--text-secondary)'
+          }
+        }, "/") : null, e.sector) : null, /*#__PURE__*/React.createElement("div", {
+          style: {
+            flex: '1 1 12px',
+            minWidth: 0,
+            height: on ? BAR_ACTIVE : BAR,
+            background: on ? 'var(--ink)' : 'var(--underline-rest-secondary)',
+            transition: 'height var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)'
+          }
+        })), /*#__PURE__*/React.createElement("div", {
+          style: {
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            top: -1,
+            bottom: -1
+          }
+        }));
+      }))));
+    }));
+  }), scan >= 0 ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: scan * 100 + '%',
+      height: 1,
+      background: 'var(--ink)',
+      pointerEvents: 'none',
+      transition: scan ? 'top 1100ms var(--ease-quart)' : 'none'
+    }
+  }) : null, listing && !touch ? /*#__PURE__*/React.createElement("div", {
+    ref: pointerRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'fixed',
+      left: 0,
+      top: 0,
+      pointerEvents: 'none',
+      zIndex: 3
+    }
+  }, touched && ringOn && pending != null ? /*#__PURE__*/React.createElement("svg", {
+    key: pending,
+    width: "16",
+    height: "16",
+    viewBox: "0 0 16 16",
+    fill: "none",
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      width: 16,
+      height: 16,
+      maxWidth: 'none',
+      transform: 'translate(-50%, -50%)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("circle", {
+    cx: "8",
+    cy: "8",
+    r: "6",
+    stroke: "var(--rule-hairline)",
+    strokeWidth: "1.5"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "8",
+    cy: "8",
+    r: "6",
+    stroke: "currentColor",
+    strokeWidth: "1.5",
+    strokeLinecap: "round",
+    strokeDasharray: "37.7",
+    strokeDashoffset: "37.7",
+    transform: "rotate(-90 8 8)",
+    ref: el => {
+      if (el && !el._run) {
+        el._run = true;
+        const d = DWELL - RING_WAIT;
+        el.animate([{
+          strokeDashoffset: 37.7 * d / DWELL
+        }, {
+          strokeDashoffset: 0
+        }], {
+          duration: d,
+          easing: 'linear',
+          fill: 'forwards'
+        });
+        el.parentNode.animate([{
+          opacity: 0
+        }, {
+          opacity: 1
+        }], {
+          duration: 120,
+          easing: 'ease-out',
+          fill: 'forwards'
+        });
+      }
+    }
+  })) : null) : null), vertical ?
+  /*#__PURE__*/
+  /* The case under the cursor. Opens on first approach, holds while
+     the pointer is on the lines, and folds shut when it leaves them.
+     A pin keeps it open and adds the body. */
+  /* SM rail: the case reads above the lines, so the rail sits where
+     the thumb is. It is open from the start on the first line, so it
+     never folds out and pushes the rail down mid-scroll. */
+  React.createElement("div", {
+    "data-record-case": true,
+    style: {
+      display: 'grid',
+      gridTemplateRows: (touched || rail) && current ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)',
+      ...(rail ? {
+        order: -1,
+        paddingBlockStart: 'var(--rail-gap, var(--space-5))'
+      } : null)
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: caseRef,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      maxWidth: '44rem',
+      paddingBlockStart: 'var(--space-2)'
+    }
+  }, rail && current ? /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: KEY_CELL
+  }, clientLabel), /*#__PURE__*/React.createElement("div", {
+    style: VAL_CELL
+  }, current.client)) : null, current && (current.title || rail) ? /*#__PURE__*/React.createElement("h3", {
+    style: {
+      margin: 0,
+      fontFamily: 'var(--font-display)',
+      fontWeight: 'normal',
+      fontSize: 'var(--display-3)',
+      lineHeight: 1.1,
+      color: 'var(--ink)',
+      textWrap: 'pretty',
+      ...(rail && pinned == null ? {
+        height: 'calc(var(--rail-title-lines, 3) * 1lh)',
+        overflow: 'hidden',
+        display: '-webkit-box',
+        WebkitBoxOrient: 'vertical',
+        WebkitLineClamp: 'var(--rail-title-lines, 3)'
+      } : null)
+    }
+  }, current.title) : null, current && (current.preamble || rail) ? /*#__PURE__*/React.createElement("p", {
+    className: "prose",
+    style: rail && pinned == null ? {
+      height: 'calc(var(--rail-pre-lines, 4) * 1lh)',
+      overflow: 'hidden',
+      display: '-webkit-box',
+      WebkitBoxOrient: 'vertical',
+      WebkitLineClamp: 'var(--rail-pre-lines, 4)'
+    } : undefined
+  }, current.preamble) : null, rail && readMoreLabel ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: current && current.href || caseHref,
+    variant: "secondary",
+    tabIndex: 0,
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, readMoreLabel)) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: pinned != null ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      paddingBlockStart: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: bodyRef,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      maxHeight: '40rem',
+      overflow: 'hidden',
+      maskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none',
+      WebkitMaskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none'
+    }
+  }, current && current.body ? current.body.split(/\n\s*\n/).map((p, n) => /*#__PURE__*/React.createElement("p", {
+    key: 'b' + n,
+    className: "prose",
+    style: {
+      whiteSpace: 'pre-line'
+    }
+  }, p)) : null, current && current.figures && current.figures.length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3) var(--space-5)'
+    }
+  }, current.figures.map((f, n) => /*#__PURE__*/React.createElement("div", {
+    key: n,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-0)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: 'var(--font-display)',
+      fontSize: 'var(--display-3)',
+      lineHeight: 1.1,
+      color: 'var(--ink)'
+    }
+  }, f.value), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, f.label)))) : null, current && (current.team || []).length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-0)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, teamLabel), /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, current.team.join(', '))) : null, current && current.note ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, current.note) : null))))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: pinned != null ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      marginBlockStart: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: "#",
+    variant: "secondary",
+    tabIndex: pinned != null ? 0 : -1,
+    onClick: ev => {
+      ev.preventDefault();
+      unpin();
+    },
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, closeLabel)), /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      height: 1,
+      marginBlockStart: 'var(--space-5)',
+      background: 'var(--underline-rest-secondary)'
+    }
+  }))))) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)'
+    }
+  }, closingLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, closingLine) : null, actionLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: actionHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, actionLabel) : null)))));
+}
+Object.assign(__ds_scope, { Record });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
+
 // components/conversation/ChoiceComposer.jsx
 try { (() => {
 /* The composer, when the machine has offered a short list.
@@ -11394,6 +12996,7 @@ function ChoiceComposer({
   /* Folded, the set is one line: on a long list the transcript above it would
      otherwise be pushed off the screen while the visitor is still reading it. */
   const [folded, setFolded] = React.useState(false);
+  const autoFolded = React.useRef(false);
   const [composing, setComposing] = React.useState(false);
   const [focused, setFocused] = React.useState(false);
   const [plays, setPlays] = React.useState(0);
@@ -11544,7 +13147,7 @@ function ChoiceComposer({
     if (kind === 'checkbox' && picked.length) {
       const chosen = offered.filter(o => picked.indexOf(o.text) >= 0);
       if (onSubmit) onSubmit({
-        text: chosen.map(o => o.text).join(' · '),
+        text: chosen.map(o => o.text).join(', '),
         options: chosen
       });
     }
@@ -11618,10 +13221,10 @@ function ChoiceComposer({
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
-      alignItems: 'baseline',
+      alignItems: narrow ? 'center' : 'baseline',
       justifyContent: 'space-between',
       gap: 'var(--space-2)',
-      minHeight: 32
+      minHeight: narrow ? undefined : 32
     }
   }, legend ? /*#__PURE__*/React.createElement("p", {
     className: "small",
@@ -11630,8 +13233,27 @@ function ChoiceComposer({
       color: 'var(--text-secondary)'
     }
   }, legend) : /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setFolded(f => !f),
+    type: "button"
+    /* Acted on at press: tapping it from the field closes the keyboard,
+       the layout moves, and a click would land somewhere else. */,
+    onPointerDown: e => {
+      if (e.button) return;
+      e.currentTarget._pressed = true;
+      const b = e.currentTarget;
+      window.setTimeout(() => {
+        b._pressed = false;
+      }, 600);
+      autoFolded.current = false;
+      setFolded(f => !f);
+    },
+    onClick: e => {
+      if (e.currentTarget._pressed) {
+        e.currentTarget._pressed = false;
+        return;
+      }
+      autoFolded.current = false;
+      setFolded(f => !f);
+    },
     "aria-expanded": folded ? 'false' : 'true',
     className: "small",
     style: {
@@ -11760,9 +13382,9 @@ function ChoiceComposer({
     src: dotSrc || undefined,
     origin: origin,
     playKey: plays,
-    pitch: 3.5,
+    pitch: 4,
     duration: 900,
-    intensity: 0.8,
+    intensity: 1,
     style: {
       inset: 0
     }
@@ -11771,8 +13393,26 @@ function ChoiceComposer({
     value: value,
     rows: "1",
     disabled: disabled,
-    onFocus: () => setFocused(true),
-    onBlur: () => setFocused(false),
+    onFocus: () => {
+      setFocused(true);
+      /* On a phone the keyboard takes half the screen; the options fold
+         so the question stays readable above the field. */
+      if (narrow && offered.length && !folded) {
+        autoFolded.current = true;
+        setFolded(true);
+      }
+    },
+    onBlur: e => {
+      setFocused(false);
+      if (autoFolded.current && !e.target.value) {
+        window.setTimeout(() => {
+          if (autoFolded.current) {
+            autoFolded.current = false;
+            setFolded(false);
+          }
+        }, 150);
+      }
+    },
     onChange: e => {
       const next = e.target.value.replace(/\n/g, ' ');
       /* Typing is an answer of its own, so it drops the ticks. */
@@ -11846,7 +13486,7 @@ function ChoiceComposer({
       fontSize: 'var(--text-small)',
       lineHeight: 'var(--lh-small)'
     }
-  }, hint)), disabled || over || near || ready ? /*#__PURE__*/React.createElement("div", {
+  }, hint)), narrow || disabled || over || near || ready ? /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
       gridTemplateColumns: 'minmax(0, 1fr) auto',
@@ -11858,23 +13498,33 @@ function ChoiceComposer({
     style: {
       color: 'var(--text-secondary)'
     }
-  }, disabled ? disabledNote : over ? 'Korta ner ' + (value.length - maxLength) + ' tecken. Vi behöver inga detaljer i ärendet.' : near ? maxLength - value.length + ' tecken kvar.' : ''), ready && !disabled && !over ? /*#__PURE__*/React.createElement("button", {
+  }, disabled ? disabledNote : over ? 'Korta ner ' + (value.length - maxLength) + ' tecken. Vi behöver inga detaljer i ärendet.' : near ? maxLength - value.length + ' tecken kvar.' : ''), narrow || ready && !disabled && !over ? /*#__PURE__*/React.createElement("button", {
     type: "button",
-    onClick: commit,
+    onClick: commit
+    /* Keeps focus in the field, so the keyboard stays up and the
+       button does not move out from under the tap. */,
+    onPointerDown: e => e.preventDefault(),
+    onMouseDown: e => e.preventDefault(),
+    disabled: !ready || disabled || over,
+    "aria-disabled": !ready || disabled || over,
     onMouseEnter: e => {
-      e.currentTarget.style.textDecorationColor = 'var(--underline-active)';
+      if (!e.currentTarget.disabled) e.currentTarget.style.textDecorationColor = 'var(--underline-active)';
     },
     onMouseLeave: e => {
       e.currentTarget.style.textDecorationColor = 'var(--underline-rest)';
     },
     style: {
+      opacity: !ready || disabled || over ? 0.4 : 1,
+      ...(!ready || disabled || over ? {
+        cursor: 'default'
+      } : null),
       display: 'flex',
       alignItems: 'center',
       gap: 'var(--space-1)',
       background: 'none',
       border: 0,
       padding: 0,
-      cursor: 'pointer',
+      cursor: !ready || disabled || over ? 'default' : 'pointer',
       fontFamily: 'var(--font-text)',
       fontSize: 'var(--text-small)',
       lineHeight: 'var(--lh-small)',
@@ -11882,7 +13532,7 @@ function ChoiceComposer({
       textDecoration: 'underline',
       textDecorationColor: 'var(--underline-rest)',
       textUnderlineOffset: '0.22em',
-      transition: 'text-decoration-color var(--dur-micro) var(--ease-quart)'
+      transition: 'text-decoration-color var(--dur-micro) var(--ease-quart), opacity var(--dur-micro) var(--ease-quart)'
     }
   }, "Skicka", /*#__PURE__*/React.createElement(__ds_scope.Icon, {
     name: "arrow--right",
@@ -11975,7 +13625,7 @@ function Body({
     style: {
       color: 'var(--text-secondary)'
     }
-  }, sources.join(' · '))) : /*#__PURE__*/React.createElement("p", {
+  }, sources.join(', '))) : /*#__PURE__*/React.createElement("p", {
     className: "small",
     style: {
       color: 'var(--text-secondary)'
@@ -12111,7 +13761,7 @@ function Person({
     style: {
       color: 'var(--text-secondary)'
     }
-  }, [p.role, p.office].filter(Boolean).join(' · ')), p.basis ? /*#__PURE__*/React.createElement("span", {
+  }, [p.role, p.office].filter(Boolean).join(', ')), p.basis ? /*#__PURE__*/React.createElement("span", {
     className: "small",
     style: {
       color: 'var(--text-secondary)'
@@ -12227,685 +13877,6 @@ function ContactCard({
 Object.assign(__ds_scope, { ContactCard });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ContactCard.jsx", error: String((e && e.message) || e) }); }
 
-// components/conversation/ContactWidget.jsx
-try { (() => {
-/* The standing way in. A visitor who has read one page and has nobody's name
-   still needs a way to reach a person, so one control hovers in the bottom
-   corner of every page: dark green, the contact-card glyph, and at the top of
-   the page the word next to it.
-
-   The fold is the whole trick. At the top of the document the trigger carries
-   its label, because that is the moment a visitor has not yet decided to ask
-   anything and the icon alone would not tell them they could. Once they have
-   scrolled — they are reading, they know where the corner is — the label folds
-   away and the control is an icon that no longer covers the page. Nothing
-   about the fold is a state anyone has to manage: it follows the scroll
-   position and nothing else.
-
-   Opened, it is the short version of the finder in the page: a list of errands
-   first, and for the two that mean "help me find a person" a four-step
-   matching flow that ends in named advisers. Every step is one question with
-   one answer, because this surface is 380px wide and a form does not fit in
-   it. The percentage on the rule is what the visitor is buying with each
-   answer.
-
-   It holds its own screen and its answers. The page may drive both — `open`,
-   `screen` — which is what the demo console does; left alone the widget runs
-   itself. */
-
-const contactWidgetErrands = [{
-  id: 'know',
-  label: 'Vet vem jag söker',
-  to: 'flow'
-}, {
-  id: 'find',
-  label: 'Behöver hjälp att hitta rätt person',
-  to: 'flow'
-}, {
-  id: 'general',
-  label: 'Vill kontakta Vinge generellt',
-  to: 'note',
-  note: 'Växeln i Stockholm tar frågan vidare till rätt person. Du kan också skriva till oss och bli uppringd.'
-}];
-const contactWidgetOther = [{
-  id: 'jobb',
-  label: 'Söker mitt drömjobb',
-  to: 'note',
-  note: 'Alla lediga tjänster och vårt traineeprogram ligger på karriärsidorna. Spontanansökningar läses av HR i Stockholm.'
-}, {
-  id: 'annat',
-  label: 'Har en fråga om annat',
-  to: 'note',
-  note: 'Press, fakturor, lokaler och leverantörsfrågor tas av receptionen. Beskriv ärendet kort och du blir kopplad rätt.'
-}];
-const contactWidgetSteps = [{
-  id: 'omrade',
-  question: 'Vad behöver du hjälp med?',
-  control: 'check',
-  options: ['Transaktioner & M&A', 'Bank & Finans', 'Tvist & Skiljeförfarande', 'Immaterialrätt', 'Fastighet & Bygg']
-}, {
-  id: 'verksamhet',
-  question: 'Berätta om verksamheten',
-  control: 'check',
-  options: ['Börsnoterat bolag', 'Privat ägt bolag', 'Internationell koncern', 'Finansiell aktör']
-}, {
-  id: 'mote',
-  question: 'Hur vill du träffas?',
-  control: 'radio',
-  options: ['Möte på vårt kontor', 'Digitalt möte', 'Vi kommer till er']
-}];
-const contactWidgetMatch = {
-  claim: 'Vi har rätt rådgivare för er',
-  people: [{
-    name: 'Erik Lindqvist',
-    role: 'Partner, Transaktioner & M&A'
-  }, {
-    name: 'Maria Holm',
-    role: 'Partner, Bank & Finans'
-  }],
-  tags: ['Tier 1 – Chambers 2026', 'Nordic M&A', 'Stockholm'],
-  actionLabel: 'Boka samtal'
-};
-const initials = name => String(name || '').split(/\s+/).slice(0, 2).map(w => w.charAt(0)).join('');
-function Row({
-  label,
-  onClick,
-  chevron = true,
-  quiet
-}) {
-  return /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClick,
-    className: "target",
-    onMouseEnter: e => {
-      e.currentTarget.style.background = 'var(--surface-tint)';
-    },
-    onMouseLeave: e => {
-      e.currentTarget.style.background = 'transparent';
-    },
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'minmax(0, 1fr) auto',
-      alignItems: 'center',
-      gap: 'var(--space-2)',
-      width: '100%',
-      textAlign: 'left',
-      appearance: 'none',
-      cursor: 'pointer',
-      borderRadius: 0,
-      border: quiet ? 0 : '1px solid var(--rule-hairline)',
-      background: 'transparent',
-      color: 'var(--ink)',
-      padding: quiet ? 'var(--space-2) 0' : 'var(--space-2) var(--space-3)',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      transition: 'background var(--dur-micro) var(--ease-quart)'
-    }
-  }, /*#__PURE__*/React.createElement("span", null, label), chevron ? /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "chevron--right",
-    size: "sm",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }) : null);
-}
-function Choice({
-  label,
-  on,
-  control,
-  onClick
-}) {
-  const r = control === 'radio' ? '50%' : 0;
-  return /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClick,
-    className: "target",
-    "aria-pressed": on,
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'minmax(0, 1fr) auto',
-      alignItems: 'center',
-      gap: 'var(--space-2)',
-      width: '100%',
-      textAlign: 'left',
-      appearance: 'none',
-      cursor: 'pointer',
-      borderRadius: 0,
-      border: '1px solid ' + (on ? 'var(--ink)' : 'var(--rule-hairline)'),
-      background: on ? 'var(--wash)' : 'transparent',
-      color: 'var(--ink)',
-      padding: 'var(--space-2) var(--space-3)',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      transition: 'border-color var(--dur-micro) var(--ease-quart), background var(--dur-micro) var(--ease-quart)'
-    }
-  }, /*#__PURE__*/React.createElement("span", null, label), /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'grid',
-      placeItems: 'center',
-      width: 16,
-      height: 16,
-      borderRadius: r,
-      border: '1px solid ' + (on ? 'var(--ink)' : 'var(--underline-rest)')
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      width: 8,
-      height: 8,
-      borderRadius: r,
-      background: 'var(--ink)',
-      transform: on ? 'none' : 'scale(0)',
-      transition: 'transform var(--dur-micro) var(--ease-quart)'
-    }
-  })));
-}
-function ContactWidget({
-  label = 'Kontakt',
-  title = 'Prata med rätt jurist',
-  intro = 'Jag...',
-  otherLabel,
-  errands = contactWidgetErrands,
-  other = contactWidgetOther,
-  steps = contactWidgetSteps,
-  match = contactWidgetMatch,
-  progressLabel = 'Matchning',
-  continueLabel = 'Fortsätt',
-  backLabel = 'Tillbaka',
-  matchedLabel = 'Matchad',
-  switchboard = '08-614 30 00',
-  /* Scroll past this many pixels and the label folds away. */
-  foldAt = 80,
-  /* The label also folds on its own after this long, the way the header's
-     finder does: the word is an introduction, not a permanent state. */
-  holdLabel = 2600,
-  /* Uncontrolled unless given. */
-  open: openProp,
-  screen: screenProp,
-  onOpenChange,
-  onScreenChange,
-  hidden = false,
-  style
-}) {
-  const [open, setOpen] = React.useState(false);
-  /* 'menu' · 'note' · a step index · 'match' */
-  const [screen, setScreen] = React.useState('menu');
-  const [note, setNote] = React.useState(null);
-  const [picks, setPicks] = React.useState({});
-  const [folded, setFolded] = React.useState(false);
-  React.useEffect(() => {
-    if (openProp !== undefined) setOpen(openProp);
-  }, [openProp]);
-  React.useEffect(() => {
-    if (screenProp !== undefined) setScreen(screenProp);
-  }, [screenProp]);
-  React.useEffect(() => {
-    const read = () => setFolded((window.scrollY || window.pageYOffset || 0) > foldAt);
-    read();
-    window.addEventListener('scroll', read, {
-      passive: true
-    });
-    /* Whichever comes first: the visitor scrolls, or the word has been read. */
-    const t = holdLabel ? window.setTimeout(() => {
-      setFolded(true);
-      window.removeEventListener('scroll', read);
-    }, holdLabel) : 0;
-    return () => {
-      window.clearTimeout(t);
-      window.removeEventListener('scroll', read);
-    };
-  }, [foldAt, holdLabel]);
-  const go = next => {
-    setScreen(next);
-    if (onScreenChange) onScreenChange(next);
-  };
-  const setOpenState = v => {
-    setOpen(v);
-    if (onOpenChange) onOpenChange(v);
-  };
-  const close = () => {
-    setOpenState(false);
-    window.setTimeout(() => {
-      go('menu');
-      setPicks({});
-    }, 400);
-  };
-  const errand = item => {
-    if (item.to === 'note') {
-      setNote(item);
-      go('note');
-      return;
-    }
-    go(0);
-  };
-  const step = typeof screen === 'number' ? steps[screen] : null;
-  const pct = typeof screen === 'number' ? Math.round((screen + 1) / (steps.length + 1) * 100) : 100;
-  const answered = step ? !!picks[step.id] : true;
-  const pick = option => setPicks(p => ({
-    ...p,
-    [step.id]: option
-  }));
-  const advance = () => go(screen + 1 >= steps.length ? 'match' : screen + 1);
-  const back = () => {
-    if (screen === 'match') {
-      go(steps.length - 1);
-      return;
-    }
-    if (screen === 'note') {
-      go('menu');
-      return;
-    }
-    go(screen === 0 ? 'menu' : screen - 1);
-  };
-  if (hidden) return null;
-  const labelShown = !folded && !open;
-  const bar = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: 'var(--space-2) var(--space-3)',
-    borderBottom: '1px solid var(--rule-hairline)'
-  };
-  const pad = {
-    padding: 'var(--space-3)',
-    display: 'grid',
-    gap: 'var(--space-3)'
-  };
-  const primaryAction = {
-    appearance: 'none',
-    border: 0,
-    borderRadius: 0,
-    cursor: 'pointer',
-    background: 'var(--ink)',
-    color: 'var(--mint)',
-    padding: 'var(--space-2) var(--space-3)',
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: 'var(--space-2)',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)'
-  };
-  return /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: 'fixed',
-      right: 'var(--space-3)',
-      bottom: 'var(--space-3)',
-      zIndex: 70,
-      display: 'grid',
-      justifyItems: 'end',
-      gap: 'var(--space-2)',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    role: "dialog",
-    "aria-label": title,
-    "aria-hidden": !open,
-    style: {
-      width: 'min(380px, calc(100vw - var(--space-4)))',
-      maxHeight: 'min(74vh, 620px)',
-      overflowY: 'auto',
-      background: 'var(--surface)',
-      border: '1px solid var(--rule-hairline)',
-      boxShadow: '0 18px 48px -24px color-mix(in srgb, var(--ink) 40%, transparent)',
-      transformOrigin: '100% 100%',
-      opacity: open ? 1 : 0,
-      transform: open ? 'none' : 'translateY(12px) scale(0.98)',
-      pointerEvents: open ? 'auto' : 'none',
-      transition: 'opacity var(--dur-micro) var(--ease-quart), transform var(--dur-reveal) var(--ease-expo)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: bar
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, screen === 'menu' ? title : 'Vinge'), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: close,
-    "aria-label": "St\xE4ng",
-    style: {
-      appearance: 'none',
-      background: 'none',
-      border: 0,
-      padding: 4,
-      margin: -4,
-      cursor: 'pointer',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "close",
-    size: "sm"
-  }))), screen === 'menu' ? /*#__PURE__*/React.createElement("div", {
-    style: pad
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, intro), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gap: 'var(--space-2)'
-    }
-  }, errands.map(e => /*#__PURE__*/React.createElement(Row, {
-    key: e.id,
-    label: e.label,
-    onClick: () => errand(e)
-  }))), other.length ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gap: 0,
-      paddingTop: 'var(--space-2)',
-      borderTop: '1px solid var(--rule-hairline)'
-    }
-  }, otherLabel ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, otherLabel) : null, other.map(e => /*#__PURE__*/React.createElement(Row, {
-    key: e.id,
-    quiet: true,
-    label: e.label,
-    onClick: () => errand(e)
-  }))) : null) : null, screen === 'note' ? /*#__PURE__*/React.createElement("div", {
-    style: pad
-  }, /*#__PURE__*/React.createElement("h3", {
-    className: "display-3",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, note ? note.label : ''), /*#__PURE__*/React.createElement("p", {
-    className: "small"
-  }, note ? note.note : ''), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      gap: 'var(--space-2)',
-      paddingTop: 'var(--space-2)',
-      borderTop: '1px solid var(--rule-hairline)'
-    }
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: back,
-    className: "cta cta--secondary",
-    style: {
-      appearance: 'none',
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      fontSize: 'var(--text-small)'
-    }
-  }, "\u2190 ", backLabel), /*#__PURE__*/React.createElement("a", {
-    href: 'tel:' + switchboard.replace(/[^+0-9]/g, ''),
-    style: primaryAction
-  }, switchboard))) : null, step ? /*#__PURE__*/React.createElement("div", {
-    style: pad
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gap: 6
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      gap: 'var(--space-2)'
-    }
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)',
-      textTransform: 'uppercase',
-      letterSpacing: '0.08em'
-    }
-  }, progressLabel), /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, pct, "%")), /*#__PURE__*/React.createElement("div", {
-    style: {
-      height: 2,
-      background: 'var(--ink-12)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      height: 2,
-      width: pct + '%',
-      background: 'var(--ink)',
-      transition: 'width var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("h3", {
-    className: "display-3",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, step.question), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gap: 'var(--space-2)'
-    }
-  }, step.options.map(o => /*#__PURE__*/React.createElement(Choice, {
-    key: o,
-    label: o,
-    control: step.control,
-    on: picks[step.id] === o,
-    onClick: () => pick(o)
-  }))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      gap: 'var(--space-2)'
-    }
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: back,
-    className: "cta cta--secondary",
-    style: {
-      appearance: 'none',
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      fontSize: 'var(--text-small)'
-    }
-  }, "\u2190 ", backLabel), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: advance,
-    disabled: !answered,
-    style: {
-      ...primaryAction,
-      opacity: answered ? 1 : 0.35,
-      cursor: answered ? 'pointer' : 'default'
-    }
-  }, continueLabel, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "arrow--right",
-    size: "sm"
-  })))) : null, screen === 'match' ? /*#__PURE__*/React.createElement("div", {
-    style: pad
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gap: 6
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      gap: 'var(--space-2)'
-    }
-  }, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)',
-      textTransform: 'uppercase',
-      letterSpacing: '0.08em'
-    }
-  }, progressLabel), /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, "100%")), /*#__PURE__*/React.createElement("div", {
-    style: {
-      height: 2,
-      background: 'var(--ink)'
-    }
-  })), /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: 8,
-      color: 'var(--ink-wash)',
-      background: 'var(--wash)',
-      padding: '6px var(--space-2)',
-      justifySelf: 'start'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "checkmark",
-    size: "sm"
-  }), matchedLabel), /*#__PURE__*/React.createElement("h3", {
-    className: "display-3",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, match.claim), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid'
-    }
-  }, match.people.map(p => /*#__PURE__*/React.createElement("div", {
-    key: p.name,
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      gap: 'var(--space-2)',
-      padding: 'var(--space-2) 0',
-      borderTop: '1px solid var(--rule-hairline)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'grid',
-      placeItems: 'center',
-      width: 34,
-      height: 34,
-      borderRadius: '50%',
-      background: 'var(--wash)',
-      color: 'var(--ink-wash)',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)'
-    }
-  }, initials(p.name)), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'grid',
-      gap: 2,
-      minWidth: 0
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--ink)'
-    }
-  }, p.name), p.role ? /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--ink-65)'
-    }
-  }, p.role) : null)))), match.tags && match.tags.length ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: 6
-    }
-  }, match.tags.map(t => /*#__PURE__*/React.createElement("span", {
-    key: t,
-    className: "small",
-    style: {
-      color: 'var(--ink-65)',
-      border: '1px solid var(--rule-hairline)',
-      padding: '4px 8px'
-    }
-  }, t))) : null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      gap: 'var(--space-2)'
-    }
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: back,
-    className: "cta cta--secondary",
-    style: {
-      appearance: 'none',
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      fontSize: 'var(--text-small)'
-    }
-  }, "\u2190 ", backLabel), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: close,
-    style: primaryAction
-  }, match.actionLabel || 'Boka samtal', /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "arrow--right",
-    size: "sm"
-  })))) : null), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => open ? close() : setOpenState(true),
-    "aria-expanded": open,
-    "aria-label": label,
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: labelShown ? 10 : 0,
-      height: 56,
-      padding: labelShown ? '0 22px 0 18px' : 0,
-      width: labelShown ? 'auto' : 56,
-      justifyContent: 'center',
-      borderRadius: 999,
-      border: 0,
-      appearance: 'none',
-      cursor: 'pointer',
-      background: 'var(--ink)',
-      color: 'var(--mint)',
-      boxShadow: '0 12px 32px -16px color-mix(in srgb, var(--ink) 65%, transparent)',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 1,
-      transition: 'padding var(--dur-reveal) var(--ease-expo), gap var(--dur-reveal) var(--ease-expo), width var(--dur-reveal) var(--ease-expo)'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: open ? 'close' : 'contact-card',
-    size: "lg"
-  }), /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-      maxWidth: labelShown ? '10ch' : 0,
-      opacity: labelShown ? 1 : 0,
-      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-micro) var(--ease-quart)'
-    }
-  }, label)));
-}
-Object.assign(__ds_scope, { contactWidgetErrands, contactWidgetOther, contactWidgetSteps, contactWidgetMatch, ContactWidget });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/conversation/ContactWidget.jsx", error: String((e && e.message) || e) }); }
-
 // components/conversation/ConversationHeader.jsx
 try { (() => {
 /* Identity and the two ways out, nothing else. The wordmark stands for the
@@ -12950,7 +13921,7 @@ function ConversationHeader({
       top: 0,
       zIndex: 2,
       background: 'var(--surface)',
-      paddingBottom: 'var(--space-2)',
+      paddingBottom: closeIcon ? 0 : 'var(--space-2)',
       borderBottom: sticky && scrolled ? '1px solid var(--rule-hairline)' : '1px solid transparent',
       transition: 'border-color var(--dur-micro) var(--ease-quart)',
       ...style
@@ -12960,9 +13931,40 @@ function ConversationHeader({
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',
-      gap: 'var(--space-4)'
+      gap: 'var(--space-4)',
+      ...(closeIcon ? {
+        minHeight: 44,
+        paddingRight: 44
+      } : null)
     }
-  }, /*#__PURE__*/React.createElement("img", {
+  }, closeIcon ? onRestart ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onRestart,
+    className: "small target",
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      minHeight: 44,
+      marginLeft: -4,
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--left",
+    size: "sm"
+  }), /*#__PURE__*/React.createElement("span", null, restartLabel)) : /*#__PURE__*/React.createElement("img", {
+    src: logoSrc,
+    alt: "Vinge",
+    style: {
+      height: 18,
+      width: 'auto'
+    }
+  }) : /*#__PURE__*/React.createElement("img", {
     src: logoSrc,
     alt: "Vinge",
     style: {
@@ -13001,27 +14003,7 @@ function ConversationHeader({
       color: 'var(--text-secondary)',
       whiteSpace: 'nowrap'
     }
-  }, closeIcon ? 'Avsluta' : endLabel) : null, closeIcon ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClose,
-    "aria-label": "St\xE4ng",
-    style: {
-      display: 'grid',
-      placeItems: 'center',
-      alignSelf: 'center',
-      width: 44,
-      height: 44,
-      marginRight: -12,
-      background: 'none',
-      border: 0,
-      padding: 0,
-      cursor: 'pointer',
-      color: 'var(--text-primary)'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-    name: "close",
-    size: "lg"
-  })) : /*#__PURE__*/React.createElement("button", {
+  }, closeIcon ? 'Avsluta' : endLabel) : null, closeIcon ? null : /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: onClose,
     className: "cta cta--small target",
@@ -13035,7 +14017,7 @@ function ConversationHeader({
       lineHeight: 'var(--lh-small)',
       fontWeight: 'var(--weight-book)'
     }
-  }, "St\xE4ng"))), onRestart ? /*#__PURE__*/React.createElement("button", {
+  }, "St\xE4ng"))), onRestart && !closeIcon ? /*#__PURE__*/React.createElement("button", {
     type: "button",
     onClick: onRestart,
     className: "small target",
@@ -13292,7 +14274,7 @@ function Item({
       style: {
         color: 'var(--text-secondary)'
       }
-    }, [item.role, item.office].filter(Boolean).join(' · ')), item.basis ? /*#__PURE__*/React.createElement("span", {
+    }, [item.role, item.office].filter(Boolean).join(', ')), item.basis ? /*#__PURE__*/React.createElement("span", {
       className: "small",
       style: {
         color: 'var(--text-secondary)'
@@ -13663,7 +14645,7 @@ function FoundList({
         style: {
           color: 'var(--text-secondary)'
         }
-      }, ' · ' + it.office) : null), on && it.role ? /*#__PURE__*/React.createElement("span", {
+      }, ', ' + it.office) : null), on && it.role ? /*#__PURE__*/React.createElement("span", {
         className: "small",
         style: {
           color: 'var(--text-secondary)'
@@ -13959,8 +14941,8 @@ try { (() => {
    not a stepper: the machine cannot know how many turns an errand takes — one
    settles in a single turn, another in five, a third ends with no
    recommendation at all — so a count of any kind would be a guess presented as
-   a fact. What can be stated truthfully is the record: förvärv · Sverige och
-   Tyskland · inom en månad. True instead of guessed.
+   a fact. What can be stated truthfully is the record: förvärv, Sverige och
+   Tyskland, inom en månad (set apart by the MetaLine rule). True instead of guessed.
 
    Every item can be taken back, because a record the visitor cannot correct is
    an assumption. Taking one back removes the fact and nothing else — it does
@@ -14009,14 +14991,12 @@ function ConversationRegister({
       alignItems: 'baseline',
       gap: 'var(--space-1)'
     }
-  }, i ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    className: "small",
+  }, i ? /*#__PURE__*/React.createElement(__ds_scope.MetaRule, {
     style: {
-      color: 'var(--text-secondary)',
-      marginRight: 'var(--space-1)'
+      marginRight: 'var(--space-1)',
+      alignSelf: 'center'
     }
-  }, "\xB7") : null, /*#__PURE__*/React.createElement("span", {
+  }) : null, /*#__PURE__*/React.createElement("span", {
     style: {
       fontFamily: 'var(--font-display)',
       fontSize: 'var(--display-3)',
@@ -14197,6 +15177,43 @@ function FieldLine({
   React.useEffect(() => {
     if (onActive) onActive(typing);
   }, [typing]);
+  /* With the keyboard up, the field is kept inside what is left of the
+     screen: the scroller is moved so the field sits just above the fold. */
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const reveal = () => {
+      const el = ref.current;
+      if (!el || document.activeElement !== el) return;
+      const sc = el.closest('[data-finder-scroll]');
+      if (!sc) return;
+      const form = el.form || el;
+      const r = form.getBoundingClientRect(),
+        b = sc.getBoundingClientRect();
+      const vv = window.visualViewport;
+      const bottom = Math.min(b.bottom, vv ? vv.offsetTop + vv.height : b.bottom) - 16;
+      const top = b.top + 64;
+      if (r.bottom > bottom) sc.scrollTop += r.bottom - bottom;else if (r.top < top) sc.scrollTop -= top - r.top;
+    };
+    const t1 = window.setTimeout(reveal, 60),
+      t2 = window.setTimeout(reveal, 320);
+    const vv = window.visualViewport;
+    const sc0 = ref.current && ref.current.closest('[data-finder-scroll]');
+    const ro = sc0 && window.ResizeObserver ? new ResizeObserver(() => requestAnimationFrame(reveal)) : null;
+    if (ro) ro.observe(sc0);
+    const late = () => {
+      requestAnimationFrame(reveal);
+      window.setTimeout(reveal, 300);
+    };
+    window.addEventListener('resize', late);
+    if (vv) vv.addEventListener('resize', late);
+    return () => {
+      window.clearTimeout(t1);
+      window.clearTimeout(t2);
+      if (ro) ro.disconnect();
+      window.removeEventListener('resize', late);
+      if (vv) vv.removeEventListener('resize', late);
+    };
+  }, [open]);
   React.useEffect(() => {
     if (search && onChange) onChange(typing ? q : '', typing ? hits : null);
   }, [typing, hits]);
@@ -14255,6 +15272,7 @@ function FieldLine({
     }
   }, /*#__PURE__*/React.createElement("input", {
     ref: ref,
+    "data-display-field": display ? '' : undefined,
     type: "text",
     inputMode: search ? 'search' : 'text',
     enterKeyHint: search ? 'search' : 'send',
@@ -14583,6 +15601,9 @@ function ConversationSurface({
   jumpToLatest = 0,
   inline = false,
   showSentinels = false,
+  /* Documentation only: a docked panel stands open instead of withdrawing to
+     the peek when nobody is on it. */
+  standOpen = false,
   /* What the panel holds, in a few words ("4 sidor · 1 person"). On a phone
      the panel is not a column: it is a sheet raised from a tray row above the
      composer, and this is what the tray says. Empty means nothing is turned up
@@ -14686,6 +15707,10 @@ function ConversationSurface({
      the fold is drawn as a fade instead; the bar shows while scrolling. */
   const [more, setMore] = React.useState(false);
   const [scrolling, setScrolling] = React.useState(false);
+  /* Phone only: the header steps out of the way while reading down and
+     comes back on any scroll up, so the way back is there when reached for. */
+  const [headShown, setHeadShown] = React.useState(true);
+  const lastTop = React.useRef(0);
   const scrollIdle = React.useRef(0);
   const readMore = el => {
     if (el) setMore(el.scrollHeight - el.scrollTop - el.clientHeight > 4);
@@ -14793,7 +15818,10 @@ function ConversationSurface({
          switchboard first) is held there rather than at its foot. */
       const back = content.querySelector('[data-return]');
       if (content.querySelector('[data-pin-top]')) {
-        if (!intentRef.current) el.scrollTop = 0;
+        /* A field being typed into keeps the place it was revealed at. */
+        const a = document.activeElement;
+        const typingHere = a && content.contains(a) && /^(INPUT|TEXTAREA)$/.test(a.tagName);
+        if (!intentRef.current && !typingHere) el.scrollTop = 0;
       }
       /* Back from a page the exchange opened: the link that was followed,
          centred in the column, until the visitor moves. */else if (back) {
@@ -14930,6 +15958,11 @@ function ConversationSurface({
     const el = scrollRef.current;
     if (!el) return;
     readMore(el);
+    if (narrow) {
+      const d = el.scrollTop - lastTop.current;
+      if (el.scrollTop <= 4 || d < -4) setHeadShown(true);else if (d > 4) setHeadShown(false);
+      lastTop.current = el.scrollTop;
+    }
     if (intentRef.current) {
       setScrolling(true);
       window.clearTimeout(scrollIdle.current);
@@ -15126,7 +16159,7 @@ function ConversationSurface({
   const geom = docked && (narrow ? stage === 'rest' : stage !== 'wipe');
   const sliding = narrow && docked && !geom;
   /* The bar never withdraws: it is already as small as a way back can be. */
-  const out = geom && !near && stage === 'rest' && !narrow;
+  const out = geom && !near && !standOpen && stage === 'rest' && !narrow;
   const bar = 'calc(56px + env(safe-area-inset-bottom, 0px))';
   /* A panel restored from the page before is already where it was: for the
      frame it takes to establish that, nothing is allowed to travel. */
@@ -15625,6 +16658,7 @@ function ConversationSurface({
          transcript's scroller runs edge to edge and a band inside it
          can reach both sides of the screen. */
       paddingInline: narrow ? 0 : 'var(--space-4)',
+      position: narrow ? 'relative' : undefined,
       paddingBlock: showSentinels ? 'var(--space-4)' : 0,
       opacity: docked && !narrow ? 0 : 1,
       overflow: docked ? 'hidden' : undefined,
@@ -15633,13 +16667,45 @@ function ConversationSurface({
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
-      paddingBlock: narrow ? 'calc(var(--space-2) + env(safe-area-inset-top, 0px)) var(--space-2)' : 'var(--space-3)',
-      paddingInline: narrow ? 'var(--space-3)' : undefined,
+      paddingBlock: narrow ? 'calc(var(--space-2) + env(safe-area-inset-top, 0px)) 0' : 'var(--space-3)',
+      paddingInline: narrow ? '12px' : undefined,
       boxSizing: 'border-box',
       maxWidth: '78ch',
-      width: '100%'
+      width: '100%',
+      ...(narrow ? {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        zIndex: 3,
+        background: 'var(--surface)',
+        transform: headShown ? 'none' : 'translateY(-100%)',
+        transition: motion('transform var(--dur-micro) var(--ease-quart)')
+      } : null)
     }
-  }, header), /*#__PURE__*/React.createElement("div", {
+  }, header), narrow ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClose,
+    "aria-label": "St\xE4ng",
+    style: {
+      position: 'absolute',
+      top: 'calc(var(--space-2) + env(safe-area-inset-top, 0px))',
+      right: '0px',
+      zIndex: 4,
+      display: 'grid',
+      placeItems: 'center',
+      width: 44,
+      height: 44,
+      background: 'transparent',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: "lg"
+  })) : null, /*#__PURE__*/React.createElement("div", {
     ref: takeScroll,
     onScroll: onScroll,
     "data-finder-scroll": "",
@@ -15649,7 +16715,9 @@ function ConversationSurface({
       overscrollBehavior: 'contain',
       overflowAnchor: 'none',
       display: 'block',
-      paddingInline: narrow ? 'var(--space-3)' : undefined,
+      paddingInline: narrow ? '12px' : undefined,
+      paddingTop: narrow ? 'calc(var(--space-2) + env(safe-area-inset-top, 0px) + 44px)' : undefined,
+      gridRow: narrow ? '1 / 3' : undefined,
       ...(narrow && more ? {
         WebkitMaskImage: 'linear-gradient(to bottom, #000 calc(100% - 56px), transparent)',
         maskImage: 'linear-gradient(to bottom, #000 calc(100% - 56px), transparent)'
@@ -15789,7 +16857,7 @@ function ConversationSurface({
   })) : null, /*#__PURE__*/React.createElement("div", {
     style: {
       paddingBlock: narrow ? '0 calc(var(--space-3) + env(safe-area-inset-bottom, 0px))' : '0 var(--space-4)',
-      paddingInline: narrow ? 'var(--space-3)' : undefined,
+      paddingInline: narrow ? '12px' : undefined,
       boxSizing: 'border-box',
       maxWidth: '78ch',
       width: '100%'
@@ -16871,7 +17939,7 @@ function GuidedConversation({
     if (it.superseded && !backChapter) return;
     if (it.kind === 'person') nPeople += 1;else nPages += 1;
   }));
-  const asideSummary = [nPages ? nPages + (nPages === 1 ? ' sida' : ' sidor') : '', nPeople ? nPeople + (nPeople === 1 ? ' person' : ' personer') : ''].filter(Boolean).join(' · ');
+  const asideSummary = [nPages ? nPages + (nPages === 1 ? ' sida' : ' sidor') : '', nPeople ? nPeople + (nPeople === 1 ? ' person' : ' personer') : ''].filter(Boolean).join(', ');
   /* A phone keeps the switchboard out of the panel: it stands under the
      starters before anything is said, and in the header from then on. */
   const talking = turns.length > 0 || working;
@@ -16901,10 +17969,9 @@ function GuidedConversation({
       sticky: true,
       scrolled: turns.length > 2,
       onClose: setAside,
-      onEnd: turns.length ? end : null,
+      onEnd: turns.length && !narrowView ? end : null,
       onRestart: turns.length || working ? restart : null,
       logoSrc: logoSrc,
-      phone: narrowView && talking ? '08-614 30 00' : undefined,
       closeIcon: narrowView
     }),
     aside: /*#__PURE__*/React.createElement(__ds_scope.ConversationRail, {
@@ -18273,7 +19340,7 @@ function Matters({
   }, m.kicker ? /*#__PURE__*/React.createElement(__ds_scope.MetaLine, {
     parts: Array.isArray(m.kicker) ? m.kicker : undefined,
     style: {
-      marginBottom: 'var(--space-5)'
+      marginBottom: 'var(--space-3)'
     }
   }, Array.isArray(m.kicker) ? null : m.kicker) : null, /*#__PURE__*/React.createElement("h3", {
     className: "display-3",
@@ -18281,7 +19348,7 @@ function Matters({
   }, m.headline), m.body ? /*#__PURE__*/React.createElement("p", {
     className: "prose",
     style: {
-      marginTop: 'var(--space-3)'
+      marginTop: 'var(--space-6)'
     }
   }, m.body) : null), m.more ? /*#__PURE__*/React.createElement("div", {
     "data-matter-more": ""
@@ -18289,10 +19356,18 @@ function Matters({
     className: "display-3",
     style: STATEMENT
   }, m.more)) : null, /*#__PURE__*/React.createElement("div", {
-    "data-matter-cta": ""
+    "data-matter-cta": "",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement(__ds_scope.ArrowLink, {
+    href: m.href,
+    tabIndex: -1
+  }, m.linkLabel || linkLabel)), /*#__PURE__*/React.createElement("div", {
+    "data-matter-cta-track": ""
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-matter-cta-sticky": ""
   }, /*#__PURE__*/React.createElement(__ds_scope.ArrowLink, {
     href: m.href
-  }, m.linkLabel || linkLabel)))));
+  }, m.linkLabel || linkLabel))))));
 }
 Object.assign(__ds_scope, { Matters });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Matters.jsx", error: String((e && e.message) || e) }); }
@@ -18391,6 +19466,3948 @@ function CarouselNav({
 Object.assign(__ds_scope, { CarouselNav });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/CarouselNav.jsx", error: String((e && e.message) || e) }); }
 
+// components/blocks/ContentCarousel.jsx
+try { (() => {
+/* The landing hero's carousel as a body block, for content pages.
+
+   It arrives the way the hero's does. At rest the first card stands across the
+   full eight-column measure on the dot screen, and the page scroll prints it
+   as it comes into view. Once it has printed, the carousel manifests over the
+   Medium duration: the card narrows to six columns by cropping and pushes the
+   next card into the last two as a peek, and the counter, caption and arrows
+   come up around the track. From there it is the house carousel: constant
+   card geometry, the card at the start line resolves, its neighbours hold the
+   screen, arrows run the expo tween at the Slow duration.
+
+   What the hero does and this does not: no lockup, no statement fading out,
+   no page ground, and no exit. Scrolled past, it stays where it is. It folds
+   back to the single card only once it is wholly below the window again, so a
+   return trip from above plays the arrival again.
+
+   SM opens on the carousel, as the hero does. */
+
+const clamp01 = v => Math.min(1, Math.max(0, v));
+const smooth = (x, a, b) => {
+  const t = clamp01((x - a) / Math.max(1e-6, b - a));
+  return t * t * (3 - 2 * t);
+};
+const cssMs = (name, fb) => parseFloat(getComputedStyle(document.documentElement).getPropertyValue(name)) || fb;
+const linkIn = e => {
+  e.currentTarget.style.textDecorationColor = 'currentColor';
+};
+const linkOut = e => {
+  e.currentTarget.style.textDecorationColor = 'transparent';
+};
+function ContentCarousel({
+  slides = [],
+  imageHeight = 'min(50svh, 640px)',
+  gridSize = 4,
+  label = 'Bilder',
+  style
+}) {
+  const trackRef = React.useRef(null);
+  const [m, setM] = React.useState(null);
+  const [scrub, setScrub] = React.useState(0);
+  const [openState, setOpen] = React.useState(false);
+  const openRef = React.useRef(false);
+  const [active, setActive] = React.useState(0);
+  const activeRef = React.useRef(0);
+  activeRef.current = active;
+  const frameRefs = React.useMemo(() => slides.map(() => React.createRef()), [slides.length]);
+  const moving = React.useRef(false);
+  const rafRef = React.useRef(null);
+  const geo = React.useRef({});
+  const count = slides.length;
+  const [sm, setSm] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setSm(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  React.useLayoutEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const measure = () => {
+      const cs = getComputedStyle(el);
+      const pad = parseFloat(cs.paddingLeft) || 0;
+      const gutter = parseFloat(cs.columnGap) || 0;
+      const cols = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--cols'), 10) || 8;
+      const port = el.clientWidth;
+      if (!port) return;
+      const content = port - 2 * pad;
+      setM(prev => prev && prev.port === port && prev.cols === cols && prev.gutter === gutter ? prev : {
+        pad,
+        gutter,
+        cols,
+        port,
+        content,
+        col: (content - (cols - 1) * gutter) / cols
+      });
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  const span = !m ? 6 : m.cols >= 8 ? 6 : m.cols >= 4 ? 3 : 0;
+  const cardW = !m ? null : span ? span * m.col + (span - 1) * m.gutter : Math.round(m.content * 0.84);
+  const fullW = m ? m.content : null;
+  geo.current = {
+    m,
+    cardW,
+    fullW
+  };
+
+  /* Scroll: the print as the track comes into view, then the trigger. */
+  React.useEffect(() => {
+    const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let raf = 0,
+      eased = null,
+      last = -1;
+    const frame = () => {
+      raf = 0;
+      const el = trackRef.current;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      const vh = window.innerHeight;
+      if (r.top >= vh) {
+        /* Wholly below the window: fold back, ready to arrive again. */
+        eased = 0;
+        if (openRef.current) {
+          openRef.current = false;
+          setOpen(false);
+        }
+        if (last !== 0) {
+          last = 0;
+          setScrub(0);
+        }
+        return;
+      }
+      const f = clamp01((vh - r.top) / Math.max(1, r.height));
+      if (eased == null || reduced) eased = f;else eased += (f - eased) * 0.16;
+      if (Math.abs(f - eased) < 0.002) eased = f;
+      const s = smooth(eased, 0.1, 0.95);
+      const next = s >= 0.999 ? 1 : s;
+      if (Math.abs(next - last) > 0.002 || next === 1 && last !== 1) {
+        last = next;
+        setScrub(next);
+      }
+      /* On the raw fraction, so it opens the moment the card is in view. */
+      if (!openRef.current && f >= 0.95) {
+        openRef.current = true;
+        setOpen(true);
+      }
+      if (eased !== f) raf = requestAnimationFrame(frame);
+    };
+    const kick = () => {
+      if (!raf) raf = requestAnimationFrame(frame);
+    };
+    frame();
+    window.addEventListener('scroll', kick, {
+      passive: true
+    });
+    window.addEventListener('resize', kick);
+    return () => {
+      window.removeEventListener('scroll', kick);
+      window.removeEventListener('resize', kick);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, []);
+  React.useEffect(() => {
+    const el = trackRef.current;
+    if (!el || !m) return;
+    const onScroll = () => {
+      if (!openRef.current && !moving.current) {
+        const hold = activeRef.current * (geo.current.cardW + m.gutter);
+        if (Math.abs(el.scrollLeft - hold) > 1) el.scrollLeft = hold;
+        return;
+      }
+      if (moving.current) return;
+      const start = el.scrollLeft + m.pad;
+      let best = 0,
+        bestD = Infinity;
+      Array.from(el.children).forEach((child, i) => {
+        const d = Math.abs(child.offsetLeft - start);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      setActive(best);
+    };
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => el.removeEventListener('scroll', onScroll);
+  }, [m]);
+  React.useEffect(() => () => {
+    if (rafRef.current) cancelAnimationFrame(rafRef.current);
+  }, []);
+  const goTo = next => {
+    const el = trackRef.current;
+    const {
+      m: gm,
+      cardW: cw
+    } = geo.current;
+    if (!el || !gm || cw == null) return;
+    next = Math.min(count - 1, Math.max(0, next));
+    const target = next * (cw + gm.gutter);
+    const from = el.scrollLeft;
+    setActive(next);
+    if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    if (Math.abs(target - from) < 1) {
+      el.scrollLeft = target;
+      return;
+    }
+    const dur = cssMs('--dur-slow', 1200);
+    moving.current = true;
+    el.style.scrollSnapType = 'none';
+    const t0 = performance.now();
+    const step = now => {
+      const k = Math.min(1, (now - t0) / dur);
+      el.scrollLeft = from + (target - from) * (1 - Math.pow(1 - k, 5));
+      if (k < 1) {
+        rafRef.current = requestAnimationFrame(step);
+        return;
+      }
+      el.scrollLeft = target;
+      el.style.scrollSnapType = '';
+      moving.current = false;
+      rafRef.current = null;
+    };
+    rafRef.current = requestAnimationFrame(step);
+  };
+  const go = dir => {
+    const el = trackRef.current;
+    const {
+      m: gm,
+      cardW: cw
+    } = geo.current;
+    if (!el || !gm || cw == null) return;
+    goTo(Math.round(el.scrollLeft / (cw + gm.gutter)) + dir);
+  };
+  const open = openState || sm;
+  const scrubbing = scrub < 1 && !sm;
+  const trailing = m && cardW != null ? Math.max(m.pad, m.port - m.pad - cardW) : undefined;
+  const push = 'var(--dur-medium) var(--ease-expo)';
+  const rise = on => ({
+    opacity: on ? 1 : 0,
+    transform: on ? 'none' : 'translateY(var(--reveal-rise))',
+    transition: 'opacity ' + push + ', transform ' + push
+  });
+  return /*#__PURE__*/React.createElement("div", {
+    "data-content-carousel": "",
+    style: {
+      color: 'var(--text-primary)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "place-meta-right",
+    "aria-live": "polite",
+    "aria-hidden": !open,
+    style: {
+      margin: 0,
+      display: sm ? 'none' : 'flex',
+      alignItems: 'baseline',
+      justifyContent: 'flex-end',
+      ...rise(open)
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "display-2",
+    style: {
+      maxWidth: 'none'
+    }
+  }, active + 1), /*#__PURE__*/React.createElement("span", {
+    className: "display-3",
+    style: {
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, "/", count))), /*#__PURE__*/React.createElement("div", {
+    ref: trackRef,
+    role: "region",
+    "aria-roledescription": "karusell",
+    "aria-label": label,
+    style: {
+      display: 'flex',
+      alignItems: 'flex-start',
+      gap: 'var(--gutter)',
+      overflowX: 'auto',
+      scrollSnapType: open ? 'x mandatory' : 'none',
+      scrollPaddingLeft: 'var(--margin)',
+      scrollbarWidth: 'none',
+      paddingInline: 'var(--margin)',
+      paddingRight: trailing,
+      maxWidth: 'var(--max-width)',
+      marginInline: 'auto',
+      marginTop: sm ? 0 : 'var(--space-3)',
+      overscrollBehaviorX: 'contain'
+    }
+  }, slides.map((s, i) => {
+    const lead = i === active;
+    const w = lead && !open ? fullW : cardW;
+    return /*#__PURE__*/React.createElement("div", {
+      key: i,
+      ref: frameRefs[i],
+      "aria-hidden": !open && !lead,
+      style: {
+        flex: '0 0 ' + (w != null ? w + 'px' : lead ? '100%' : '75%'),
+        minWidth: 0,
+        scrollSnapAlign: 'start',
+        opacity: lead || open ? 1 : 0,
+        overflow: 'hidden',
+        transition: 'flex-basis ' + push + ', opacity ' + push
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: fullW != null ? {
+        width: fullW,
+        transform: 'translate3d(' + -(fullW - w) / 2 + 'px,0,0)',
+        transition: 'transform ' + push
+      } : undefined
+    }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+      src: s.src,
+      alt: s.alt || s.label || '',
+      axis: "x",
+      gridSize: gridSize,
+      focus: s.focus,
+      frameRef: frameRefs[i],
+      progress: lead && scrubbing ? scrub : undefined,
+      resolved: lead && scrubbing ? undefined : lead,
+      restTone: 0,
+      style: {
+        aspectRatio: 'auto',
+        height: sm ? 'clamp(200px, 44svh, 440px)' : imageHeight,
+        background: 'transparent'
+      }
+    })));
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: 'var(--space-3)',
+      alignItems: 'start',
+      rowGap: 'var(--space-2)',
+      pointerEvents: open ? 'auto' : 'none',
+      ...rise(open)
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-hero-caption": "",
+    "aria-live": "polite",
+    style: {
+      display: 'grid',
+      gridRow: 1
+    }
+  }, slides.map((s, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    "aria-hidden": i !== active,
+    style: {
+      gridArea: '1 / 1',
+      opacity: i === active ? 1 : 0,
+      visibility: i === active ? 'visible' : 'hidden',
+      transform: i === active ? 'none' : 'translateY(8px)',
+      transition: 'opacity var(--dur-reveal) var(--ease-expo), transform var(--dur-reveal) var(--ease-expo), visibility 0s linear ' + (i === active ? '0s' : 'var(--dur-reveal)')
+    }
+  }, s.label ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      maxWidth: 'none',
+      margin: 0
+    }
+  }, s.href ? /*#__PURE__*/React.createElement("a", {
+    href: s.href,
+    tabIndex: i === active ? undefined : -1,
+    onMouseEnter: linkIn,
+    onMouseLeave: linkOut,
+    onFocus: linkIn,
+    onBlur: linkOut,
+    style: {
+      color: 'inherit',
+      fontSize: 'inherit',
+      textDecorationLine: 'underline',
+      textDecorationThickness: '1px',
+      textUnderlineOffset: '0.16em',
+      textDecorationColor: 'transparent',
+      transition: 'text-decoration-color 160ms ease'
+    }
+  }, s.label) : s.label) : null, s.body ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 'var(--space-3) 0 0',
+      color: 'var(--text-secondary)'
+    }
+  }, s.body) : null))), /*#__PURE__*/React.createElement("div", {
+    "data-hero-controls": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.CarouselNav, {
+    counter: false,
+    index: active,
+    count: count,
+    onPrev: () => go(-1),
+    onNext: () => go(1),
+    prevLabel: "F\xF6reg\xE5ende bild",
+    nextLabel: "N\xE4sta bild"
+  }))));
+}
+Object.assign(__ds_scope, { ContentCarousel });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ContentCarousel.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/Checkbox.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* A consent line. The box is the one outlined square in the system, because a
+   control that toggles has to look like one; it is never filled. Checked draws
+   the set's checkmark inside it in ink. The label is the click target with the
+   box, so the whole line toggles.
+
+   rest      hairline square in the resting-underline tone
+   hover     square in ink
+   focus     the system ring, by keyboard only
+   checked   checkmark in ink, label in primary text
+   error     square in ink, glyph and message under the line
+   disabled  dashed square, secondary text, no pointer */
+
+function Checkbox({
+  checked,
+  defaultChecked,
+  onChange,
+  name,
+  id,
+  required = false,
+  disabled = false,
+  align = 'start',
+  error,
+  children,
+  demoState,
+  style,
+  ...rest
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId();
+  const boxId = id || 'cb' + uid.replace(/:/g, '');
+  const msgId = boxId + '-msg';
+  const [hover, setHover] = React.useState(false);
+  const [keyFocus, setKeyFocus] = React.useState(false);
+  const [inner, setInner] = React.useState(!!defaultChecked);
+  const on = checked != null ? !!checked : inner;
+  const center = align === 'center';
+  const isHover = demoState === 'hover' || hover;
+  const isFocus = demoState === 'focus' || keyFocus;
+  const edge = disabled ? 'var(--rule-hairline)' : error || isHover || on ? 'var(--text-primary)' : 'var(--underline-rest-secondary)';
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-2)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("label", {
+    htmlFor: boxId,
+    onPointerEnter: () => setHover(true),
+    onPointerLeave: () => setHover(false),
+    style: {
+      display: 'flex',
+      alignItems: 'flex-start',
+      justifyContent: center ? 'center' : 'flex-start',
+      gap: 'var(--space-2)',
+      cursor: disabled ? 'not-allowed' : 'pointer',
+      textAlign: 'left'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      position: 'relative',
+      flex: 'none',
+      width: 18,
+      height: 18,
+      marginTop: 2
+    }
+  }, /*#__PURE__*/React.createElement("input", _extends({
+    id: boxId,
+    type: "checkbox",
+    name: name,
+    checked: checked,
+    defaultChecked: defaultChecked,
+    required: required,
+    disabled: disabled,
+    "aria-invalid": error ? true : undefined,
+    "aria-describedby": error ? msgId : undefined,
+    onChange: e => {
+      setInner(e.target.checked);
+      if (onChange) onChange(e.target.checked, e);
+    },
+    onFocus: () => setKeyFocus(document.documentElement.getAttribute('data-focus-source') === 'key'),
+    onBlur: () => setKeyFocus(false),
+    style: {
+      position: 'absolute',
+      inset: -3,
+      width: 24,
+      height: 24,
+      margin: 0,
+      opacity: 0,
+      cursor: 'inherit'
+    }
+  }, rest)), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      inset: 0,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      border: disabled ? '1px dashed ' + edge : '1px solid ' + edge,
+      color: 'var(--text-primary)',
+      outline: isFocus ? '2px solid var(--focus-ring)' : 'none',
+      outlineOffset: 4,
+      transition: 'border-color var(--dur-micro) var(--ease-quart)',
+      pointerEvents: 'none'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "checkmark",
+    size: 14,
+    weight: "regular",
+    style: {
+      opacity: on ? 1 : 0,
+      transform: on ? 'scale(1)' : 'scale(0.6)',
+      transition: 'opacity var(--dur-micro) var(--ease-quart), transform var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      maxWidth: '52ch',
+      color: disabled ? 'var(--text-secondary)' : on ? 'var(--text-primary)' : 'var(--text-secondary)',
+      transition: 'color var(--dur-micro) var(--ease-quart)',
+      textWrap: 'pretty'
+    }
+  }, children)), /*#__PURE__*/React.createElement("div", {
+    id: msgId,
+    "aria-live": "polite"
+  }, error ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      display: 'flex',
+      gap: 'var(--space-2)',
+      alignItems: 'flex-start',
+      justifyContent: center ? 'center' : 'flex-start',
+      color: 'var(--text-primary)',
+      textAlign: 'left'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "warning",
+    size: "sm",
+    style: {
+      marginTop: 2
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      textWrap: 'pretty'
+    }
+  }, error)) : null));
+}
+Object.assign(__ds_scope, { Checkbox });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Checkbox.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/TextField.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* A text field is a label and a line. No box, no fill, no radius: the line is
+   the field. Every state is said by the line and, where it matters, in words
+   under it; colour alone never carries a state, because the system has one
+   ink and no error colour.
+
+   rest      hairline
+   hover     hairline darkens to the resting-underline tone
+   focus     an ink line grows over the hairline from the field's own axis —
+             from the left in a start-aligned field, from the centre in a
+             centred one
+   error     ink line held at full length, glyph and message under it
+   valid     a checkmark at the end of the line, only when asked for
+   disabled  dashed hairline, secondary text, no pointer
+   read-only no line at all: the value reads as text */
+
+function TextField({
+  label,
+  value,
+  defaultValue,
+  onChange,
+  onBlur,
+  onFocus,
+  type = 'text',
+  name,
+  id,
+  autoComplete,
+  inputMode,
+  placeholder,
+  align = 'start',
+  labelAs = 'label',
+  hint,
+  error,
+  valid = false,
+  optional = false,
+  optionalLabel = 'valfritt',
+  disabled = false,
+  readOnly = false,
+  required = false,
+  demoState,
+  style,
+  inputRef,
+  ...rest
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId();
+  const fieldId = id || 'tf' + uid.replace(/:/g, '');
+  const msgId = fieldId + '-msg';
+  const [hover, setHover] = React.useState(false);
+  const [focus, setFocus] = React.useState(false);
+  const center = align === 'center';
+  const asPh = labelAs === 'placeholder';
+  const isHover = demoState === 'hover' || hover && !focus;
+  const isFocus = demoState === 'focus' || focus;
+  const hasMsg = !!(error || hint);
+  const base = disabled ? 'transparent' : readOnly ? 'transparent' : error ? 'var(--text-primary)' : isHover ? 'var(--underline-rest-secondary)' : 'var(--rule-hairline)';
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      textAlign: center ? 'center' : 'left',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("label", {
+    htmlFor: fieldId,
+    className: "small",
+    style: asPh ? {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)',
+      whiteSpace: 'nowrap'
+    } : {
+      display: 'block',
+      maxWidth: 'none',
+      marginBottom: 6,
+      color: 'var(--text-primary)'
+    }
+  }, label, optional ? /*#__PURE__*/React.createElement("span", null, " (", optionalLabel, ")") : null), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative'
+    },
+    onPointerEnter: () => setHover(true),
+    onPointerLeave: () => setHover(false)
+  }, /*#__PURE__*/React.createElement("input", _extends({
+    ref: inputRef,
+    id: fieldId,
+    type: type,
+    name: name,
+    value: value,
+    defaultValue: defaultValue,
+    autoComplete: autoComplete,
+    inputMode: inputMode,
+    placeholder: asPh ? placeholder || label + (optional ? ' (' + optionalLabel + ')' : '') : placeholder,
+    "data-tf-input": "",
+    disabled: disabled,
+    readOnly: readOnly,
+    required: required,
+    "aria-invalid": error ? true : undefined,
+    "aria-describedby": hasMsg ? msgId : undefined,
+    onChange: e => onChange && onChange(e.target.value, e),
+    onFocus: e => {
+      setFocus(true);
+      if (onFocus) onFocus(e);
+    },
+    onBlur: e => {
+      setFocus(false);
+      if (onBlur) onBlur(e);
+    },
+    style: {
+      display: 'block',
+      width: '100%',
+      margin: 0,
+      padding: center && valid ? '0 24px 10px' : valid ? '0 24px 10px 0' : '0 0 10px',
+      border: 0,
+      borderRadius: 0,
+      background: 'transparent',
+      appearance: 'none',
+      color: disabled ? 'var(--text-secondary)' : 'var(--text-primary)',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      textAlign: center ? 'center' : 'left',
+      cursor: disabled ? 'not-allowed' : readOnly ? 'default' : 'text'
+    }
+  }, rest)), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      height: 1,
+      background: base,
+      backgroundImage: disabled ? 'repeating-linear-gradient(to right, var(--rule-hairline) 0 4px, transparent 4px 8px)' : 'none',
+      transition: 'background-color var(--dur-micro) var(--ease-quart)'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      height: 2,
+      background: 'var(--text-primary)',
+      transformOrigin: center ? 'center' : 'left',
+      transform: isFocus && !disabled && !readOnly ? 'scaleX(1)' : 'scaleX(0)',
+      transition: 'transform var(--dur-reveal) var(--ease-expo)'
+    }
+  }), valid && !error ? /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "checkmark",
+    size: "sm",
+    label: "Godk\xE4nt",
+    style: {
+      position: 'absolute',
+      right: 0,
+      bottom: 12,
+      color: 'var(--text-primary)'
+    }
+  }) : null), /*#__PURE__*/React.createElement("div", {
+    id: msgId,
+    "aria-live": "polite",
+    style: {
+      minHeight: 0,
+      marginTop: hasMsg ? 6 : 0
+    }
+  }, error ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      display: 'flex',
+      gap: 'var(--space-2)',
+      alignItems: 'flex-start',
+      justifyContent: center ? 'center' : 'flex-start',
+      color: 'var(--text-primary)',
+      textAlign: 'left'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "warning",
+    size: "sm",
+    style: {
+      marginTop: 2
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      textWrap: 'pretty'
+    }
+  }, error)) : hint ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, hint) : null));
+}
+Object.assign(__ds_scope, { TextField });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/TextField.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/JobList.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* Lediga jobb: the open positions as rows that fold out into the full ad and
+   its application form. The list is read from the recruitment system
+   (Onecruiter); nothing in a row is written in the CMS.
+
+   Head: the count on 1–4, the open application link on 5–7. Row: title at
+   display-3 on 1–4, office on 5, the deadline date on 6–7, plus/minus on 8.
+   Open: the ad on 1–3, the form on 5–8 and sticky while the ad scrolls. Below
+   1280px the office and deadline sit under the title; below 768px the form
+   follows the ad.
+
+   One row open at a time. Closed panels are hidden="until-found", so
+   find-in-page reaches the ad text and opens the row. An open row writes
+   #<id> to the address, and that hash opens it on load. */
+
+const MONTHS = 'januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december';
+const EASE = 'var(--ease-expo)';
+function useBp() {
+  const read = () => typeof window === 'undefined' ? 'lg' : window.matchMedia('(min-width: 1280px)').matches ? 'lg' : window.matchMedia('(min-width: 768px)').matches ? 'md' : 'sm';
+  const [bp, setBp] = React.useState(read);
+  React.useEffect(() => {
+    const a = window.matchMedia('(min-width: 1280px)'),
+      b = window.matchMedia('(min-width: 768px)');
+    const on = () => setBp(read());
+    on();
+    a.addEventListener('change', on);
+    b.addEventListener('change', on);
+    return () => {
+      a.removeEventListener('change', on);
+      b.removeEventListener('change', on);
+    };
+  }, []);
+  return bp;
+}
+function Panel({
+  id,
+  open,
+  label,
+  onFound,
+  children
+}) {
+  const ref = React.useRef(null);
+  const was = React.useRef(open);
+  const found = React.useRef(onFound);
+  found.current = onFound;
+  React.useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const ease = getComputedStyle(document.documentElement).getPropertyValue('--ease-expo').trim() || 'cubic-bezier(.19,1,.22,1)';
+    const animate = !still && was.current !== open;
+    was.current = open;
+    if (el.__anim) el.__anim.cancel();
+    if (open) {
+      el.removeAttribute('hidden');
+      if (animate) el.__anim = el.animate([{
+        height: '0px',
+        opacity: 0
+      }, {
+        height: el.scrollHeight + 'px',
+        opacity: 1
+      }], {
+        duration: 700,
+        easing: ease
+      });
+    } else if (animate) {
+      const a = el.animate([{
+        height: el.offsetHeight + 'px',
+        opacity: 1
+      }, {
+        height: '0px',
+        opacity: 0
+      }], {
+        duration: 450,
+        easing: ease
+      });
+      el.__anim = a;
+      a.onfinish = () => {
+        if (!was.current) el.setAttribute('hidden', 'until-found');
+      };
+    } else el.setAttribute('hidden', 'until-found');
+  }, [open]);
+  React.useEffect(() => {
+    const el = ref.current;
+    const on = () => found.current && found.current();
+    el.addEventListener('beforematch', on);
+    return () => el.removeEventListener('beforematch', on);
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    ref: ref,
+    id: id,
+    role: "region",
+    "aria-label": label,
+    style: {
+      overflow: 'clip'
+    }
+  }, children);
+}
+function Cue({
+  open
+}) {
+  const bar = {
+    position: 'absolute',
+    left: 0,
+    top: '50%',
+    width: '100%',
+    height: 1.5,
+    marginTop: -0.75,
+    background: 'currentColor'
+  };
+  return /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      width: '.6em',
+      height: '.6em',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: bar
+  }), open ? null : /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...bar,
+      transform: 'rotate(90deg)'
+    }
+  }));
+}
+const jobId = (p, i) => {
+  if (p.id) return p.id;
+  const m = String(p.href || '').match(/jobs\/(\d+)/);
+  return 'jobb-' + (m ? m[1] : i + 1);
+};
+
+/* The ad states its deadline in a sentence; the row shows only the date in it. */
+function shortDeadline(s) {
+  const m = String(s || '').match(new RegExp('(\\d{1,2})\\s+(' + MONTHS + ')', 'i'));
+  return m ? 'Sök senast ' + m[1] + ' ' + m[2].toLowerCase() : '';
+}
+
+/* body: a string is a paragraph, {h} a subhead, an array a paragraph with
+   inline links ({t, href}). Falls back to intro. */
+function AdBody({
+  p
+}) {
+  const body = typeof p.body === 'string' ? p.body.split(/\n{2,}/).map(x => x.trim()).filter(Boolean) : p.body;
+  const src = body && body.length ? body : p.intro ? [p.intro] : [];
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, src.map((b, i) => {
+    if (b && b.h) return /*#__PURE__*/React.createElement("h4", {
+      key: i,
+      className: "subhead",
+      style: {
+        margin: 'var(--space-5) 0 var(--space-1)'
+      }
+    }, b.h);
+    const parts = Array.isArray(b) ? b : [b];
+    return /*#__PURE__*/React.createElement("p", {
+      key: i,
+      className: "prose",
+      style: {
+        margin: '0 0 var(--space-3)',
+        textWrap: 'pretty'
+      }
+    }, parts.map((x, k) => typeof x === 'string' ? /*#__PURE__*/React.createElement(React.Fragment, {
+      key: k
+    }, x) : /*#__PURE__*/React.createElement("a", {
+      key: k,
+      href: x.href
+    }, x.t)));
+  }));
+}
+const EMPTY = {
+  v: {},
+  e: {},
+  files: [],
+  sent: false
+};
+const fieldName = (l, i) => String(l || 'falt-' + i).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'falt-' + i;
+const submitStyle = h => ({
+  all: 'unset',
+  cursor: 'pointer',
+  fontFamily: 'var(--font-display)',
+  fontWeight: 'var(--weight-book)',
+  fontSize: 'var(--display-3)',
+  lineHeight: 'var(--lh-display-3)',
+  letterSpacing: 'var(--tracking-display-3)',
+  color: 'var(--text-primary)',
+  textDecoration: 'underline',
+  textDecorationColor: h ? 'var(--underline-active)' : 'var(--underline-rest)',
+  textDecorationThickness: h ? 2 : 1,
+  textUnderlineOffset: h ? '.30em' : '.18em',
+  transition: 'text-underline-offset 450ms ' + EASE + ', text-decoration-color 450ms ' + EASE
+});
+const revealStyle = ready => ({
+  display: 'grid',
+  gridTemplateRows: ready ? '1fr' : '0fr',
+  opacity: ready ? 1 : 0,
+  visibility: ready ? 'visible' : 'hidden',
+  transform: ready ? 'none' : 'translateY(8px)',
+  transition: ready ? 'grid-template-rows 700ms ' + EASE + ', opacity 450ms ' + EASE + ' 120ms, transform 700ms ' + EASE + ', visibility 0s' : 'grid-template-rows 700ms ' + EASE + ', opacity 450ms ' + EASE + ', transform 700ms ' + EASE + ', visibility 0s linear 700ms'
+});
+
+/* One file field from the recruitment system: its label, then the picked
+   file or the picker, on the same hairline as a text field. */
+function FilePick({
+  id,
+  label,
+  file,
+  onPick,
+  onClear
+}) {
+  const [h, setH] = React.useState(false);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    id: id,
+    className: "small",
+    style: {
+      display: 'block',
+      maxWidth: 'none',
+      marginBottom: 6,
+      color: 'var(--text-primary)'
+    }
+  }, label), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      gap: 'var(--space-3)',
+      minHeight: 32,
+      paddingBottom: 10,
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, file ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      minWidth: 0,
+      maxWidth: 'none',
+      overflowWrap: 'anywhere',
+      color: 'var(--text-primary)'
+    }
+  }, file.name), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-label": 'Ta bort ' + file.name,
+    onClick: onClear,
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      flex: 'none',
+      cursor: 'pointer',
+      display: 'grid',
+      placeItems: 'center',
+      width: 32,
+      height: 32,
+      margin: '-8px -8px -8px -4px',
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: "sm"
+  }))) : /*#__PURE__*/React.createElement("span", null), /*#__PURE__*/React.createElement("label", {
+    onMouseEnter: () => setH(true),
+    onMouseLeave: () => setH(false),
+    style: {
+      flex: 'none',
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      cursor: 'pointer',
+      position: 'relative',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "file",
+    "aria-labelledby": id,
+    onChange: e => {
+      const f = (e.target.files || [])[0];
+      e.target.value = '';
+      if (f) onPick(f);
+    },
+    style: {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)',
+      whiteSpace: 'nowrap',
+      opacity: 0
+    }
+  }), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "upload",
+    size: "sm"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-primary)',
+      textDecoration: 'underline',
+      textDecorationColor: h ? 'var(--underline-active)' : 'var(--underline-rest)',
+      textDecorationThickness: 1,
+      textUnderlineOffset: '.18em',
+      transition: 'text-decoration-color 450ms ' + EASE
+    }
+  }, file ? 'Byt fil' : 'Välj fil'))));
+}
+
+/* The application as the recruitment system defines it: fields, labels and
+   submit verbatim from `application`. Two short text fields that open the
+   form share a row (Förnamn, Efternamn). */
+function FieldsForm({
+  job,
+  id,
+  app,
+  onSubmit
+}) {
+  const [f, setF] = React.useState(EMPTY);
+  const [subHover, setSubHover] = React.useState(false);
+  const fields = (app.fields || []).map((x, i) => ({
+    ...x,
+    name: x.name || fieldName(x.label, i)
+  }));
+  const v = f.v;
+  const set = k => val => setF(s => ({
+    ...s,
+    v: {
+      ...s.v,
+      [k]: val
+    },
+    e: {
+      ...s.e,
+      [k]: ''
+    }
+  }));
+  const filled = x => x.kind === 'checkbox' ? !!v[x.name] : x.kind === 'file' ? !!v[x.name] : !!String(v[x.name] || '').trim();
+  const ready = fields.every(x => !x.required || filled(x));
+  const submit = e => {
+    e.preventDefault();
+    const err = {};
+    fields.forEach(x => {
+      if (x.required && !filled(x)) err[x.name] = x.kind === 'checkbox' ? 'Bekräfta för att skicka ansökan.' : x.kind === 'file' ? 'Bifoga en fil.' : 'Fyll i ' + String(x.label).toLowerCase() + '.';else if (x.kind === 'email' && v[x.name] && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(v[x.name]).trim())) err[x.name] = 'Fyll i en e-postadress, till exempel namn@exempel.se.';
+    });
+    if (Object.keys(err).length) {
+      setF(s => ({
+        ...s,
+        e: err
+      }));
+      return;
+    }
+    const done = () => setF(s => ({
+      ...s,
+      e: {},
+      sent: true
+    }));
+    if (onSubmit) Promise.resolve(onSubmit(job, {
+      ...v
+    })).then(done).catch(() => setF(s => ({
+      ...s,
+      e: {
+        form: 'Ansökan kunde inte skickas. Försök igen om en stund.'
+      }
+    })));else done();
+  };
+  if (f.sent) {
+    return /*#__PURE__*/React.createElement("div", {
+      role: "status",
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)'
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "lead",
+      style: {
+        margin: 0
+      }
+    }, "Tack f\xF6r din ans\xF6kan."), /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        color: 'var(--text-secondary)'
+      }
+    }, "Du f\xE5r en bekr\xE4ftelse p\xE5 att vi har mottagit din ans\xF6kan."));
+  }
+  const one = x => {
+    if (x.kind === 'file') return /*#__PURE__*/React.createElement(FilePick, {
+      key: x.name,
+      id: id + '-' + x.name,
+      label: x.label,
+      file: v[x.name],
+      onPick: set(x.name),
+      onClear: () => set(x.name)(null)
+    });
+    if (x.kind === 'checkbox') return /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
+      key: x.name,
+      name: x.name,
+      required: !!x.required,
+      checked: !!v[x.name],
+      error: f.e[x.name],
+      onChange: set(x.name)
+    }, x.label);
+    const type = x.kind === 'email' ? 'email' : x.kind === 'tel' ? 'tel' : 'text';
+    const ac = {
+      email: 'email',
+      tel: 'tel'
+    }[x.kind];
+    return /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+      key: x.name,
+      label: x.label,
+      type: type,
+      name: x.name,
+      autoComplete: ac,
+      required: !!x.required,
+      optional: !x.required,
+      value: v[x.name] || '',
+      error: f.e[x.name],
+      onChange: set(x.name)
+    });
+  };
+  const pairUp = fields.length > 1 && fields[0].kind === 'text' && fields[1].kind === 'text' && fields[0].required && fields[1].required;
+  return /*#__PURE__*/React.createElement("form", {
+    noValidate: true,
+    onSubmit: submit,
+    "aria-label": 'Ansökan: ' + job.title + (job.office ? ', ' + job.office : ''),
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      margin: 0
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "hidden",
+    name: "position",
+    value: id
+  }), pairUp ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit,minmax(min(100%,200px),1fr))',
+      gap: 'var(--space-4) var(--gutter)'
+    }
+  }, one(fields[0]), one(fields[1])) : null, (pairUp ? fields.slice(2) : fields).map(one), /*#__PURE__*/React.createElement("div", {
+    style: revealStyle(ready)
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0,
+      padding: '0 8px 8px',
+      margin: '0 -8px'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      paddingTop: 'var(--space-2)'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    onMouseEnter: () => setSubHover(true),
+    onMouseLeave: () => setSubHover(false),
+    style: submitStyle(subHover)
+  }, app.submit)))), f.e.form ? /*#__PURE__*/React.createElement("p", {
+    role: "alert",
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-error, var(--text-primary))'
+    }
+  }, f.e.form) : null);
+}
+function ApplyForm({
+  job,
+  id,
+  onSubmit
+}) {
+  const [f, setF] = React.useState(EMPTY);
+  const [pickHover, setPickHover] = React.useState(false);
+  const [subHover, setSubHover] = React.useState(false);
+  const set = k => val => setF(s => ({
+    ...s,
+    v: {
+      ...s.v,
+      [k]: val
+    },
+    e: {
+      ...s.e,
+      [k]: ''
+    }
+  }));
+  const v = f.v;
+  const ready = !!((v.fornamn || '').trim() && (v.efternamn || '').trim() && (v.epost || '').trim() && v.integritet);
+  const addFiles = e => {
+    const t = e.target;
+    const picked = Array.from(t.files || []).map(x => ({
+      name: x.name,
+      key: x.name + ':' + x.size + ':' + x.lastModified,
+      file: x
+    }));
+    t.value = '';
+    setF(s => {
+      const have = new Set(s.files.map(x => x.key));
+      return {
+        ...s,
+        files: s.files.concat(picked.filter(x => !have.has(x.key)))
+      };
+    });
+  };
+  const submit = e => {
+    e.preventDefault();
+    const err = {};
+    if (!(v.fornamn || '').trim()) err.fornamn = 'Fyll i ditt förnamn.';
+    if (!(v.efternamn || '').trim()) err.efternamn = 'Fyll i ditt efternamn.';
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test((v.epost || '').trim())) err.epost = 'Fyll i en e-postadress, till exempel namn@exempel.se.';
+    if (!v.integritet) err.integritet = 'Bekräfta att du har tagit del av integritetspolicyn.';
+    if (Object.keys(err).length) {
+      setF(s => ({
+        ...s,
+        e: err
+      }));
+      return;
+    }
+    const done = () => setF(s => ({
+      ...s,
+      e: {},
+      sent: true
+    }));
+    if (onSubmit) Promise.resolve(onSubmit(job, {
+      ...v,
+      files: f.files.map(x => x.file)
+    })).then(done).catch(() => setF(s => ({
+      ...s,
+      e: {
+        form: 'Ansökan kunde inte skickas. Försök igen om en stund.'
+      }
+    })));else done();
+  };
+  if (f.sent) {
+    return /*#__PURE__*/React.createElement("div", {
+      role: "status",
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)'
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "lead",
+      style: {
+        margin: 0
+      }
+    }, "Tack f\xF6r din ans\xF6kan."), /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        color: 'var(--text-secondary)'
+      }
+    }, "Du f\xE5r en bekr\xE4ftelse p\xE5 att vi har mottagit din ans\xF6kan."));
+  }
+  const filesId = id + '-dokument';
+  return /*#__PURE__*/React.createElement("form", {
+    noValidate: true,
+    onSubmit: submit,
+    "aria-label": 'Ansökan: ' + job.title + (job.office ? ', ' + job.office : ''),
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      margin: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit,minmax(min(100%,200px),1fr))',
+      gap: 'var(--space-4) var(--gutter)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+    label: "F\xF6rnamn",
+    name: "fornamn",
+    autoComplete: "given-name",
+    required: true,
+    value: v.fornamn || '',
+    error: f.e.fornamn,
+    onChange: set('fornamn')
+  }), /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+    label: "Efternamn",
+    name: "efternamn",
+    autoComplete: "family-name",
+    required: true,
+    value: v.efternamn || '',
+    error: f.e.efternamn,
+    onChange: set('efternamn')
+  })), /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+    label: "E-post",
+    type: "email",
+    name: "epost",
+    autoComplete: "email",
+    required: true,
+    value: v.epost || '',
+    error: f.e.epost,
+    onChange: set('epost')
+  }), /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+    label: "LinkedIn-profil",
+    type: "url",
+    name: "linkedin",
+    optional: true,
+    placeholder: "https://www.linkedin.com/in/",
+    value: v.linkedin || '',
+    onChange: set('linkedin')
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    id: filesId,
+    className: "small",
+    style: {
+      display: 'block',
+      maxWidth: 'none',
+      marginBottom: 6,
+      color: 'var(--text-primary)'
+    }
+  }, "Dokument (valfritt)"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'flex-start',
+      gap: 'var(--space-3)',
+      paddingBottom: 10,
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, f.files.length ? /*#__PURE__*/React.createElement("ul", {
+    "aria-labelledby": filesId,
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      minWidth: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-1)'
+    }
+  }, f.files.map(x => /*#__PURE__*/React.createElement("li", {
+    key: x.key,
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      minWidth: 0,
+      maxWidth: 'none',
+      overflowWrap: 'anywhere',
+      color: 'var(--text-primary)'
+    }
+  }, x.name), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-label": 'Ta bort ' + x.name,
+    onClick: () => setF(s => ({
+      ...s,
+      files: s.files.filter(y => y.key !== x.key)
+    })),
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      flex: 'none',
+      cursor: 'pointer',
+      display: 'grid',
+      placeItems: 'center',
+      width: 32,
+      height: 32,
+      margin: '-8px -8px -8px -4px',
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: "sm"
+  }))))) : /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, "CV, personligt brev och betyg"), /*#__PURE__*/React.createElement("label", {
+    onMouseEnter: () => setPickHover(true),
+    onMouseLeave: () => setPickHover(false),
+    style: {
+      flex: 'none',
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      cursor: 'pointer',
+      position: 'relative',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "file",
+    multiple: true,
+    name: "dokument",
+    onChange: addFiles,
+    style: {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)',
+      whiteSpace: 'nowrap',
+      opacity: 0
+    }
+  }), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "upload",
+    size: "sm"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-primary)',
+      textDecoration: 'underline',
+      textDecorationColor: pickHover ? 'var(--underline-active)' : 'var(--underline-rest)',
+      textDecorationThickness: 1,
+      textUnderlineOffset: '.18em',
+      transition: 'text-decoration-color 450ms ' + EASE
+    }
+  }, f.files.length ? 'Lägg till fler' : 'Välj filer')))), /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
+    name: "integritet",
+    required: true,
+    checked: !!v.integritet,
+    error: f.e.integritet,
+    onChange: set('integritet')
+  }, "Jag har tagit del av Vinges integritetspolicy."), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: ready ? '1fr' : '0fr',
+      opacity: ready ? 1 : 0,
+      visibility: ready ? 'visible' : 'hidden',
+      transform: ready ? 'none' : 'translateY(8px)',
+      transition: ready ? 'grid-template-rows 700ms ' + EASE + ', opacity 450ms ' + EASE + ' 120ms, transform 700ms ' + EASE + ', visibility 0s' : 'grid-template-rows 700ms ' + EASE + ', opacity 450ms ' + EASE + ', transform 700ms ' + EASE + ', visibility 0s linear 700ms'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0,
+      padding: '0 8px 8px',
+      margin: '0 -8px'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      paddingTop: 'var(--space-2)'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    onMouseEnter: () => setSubHover(true),
+    onMouseLeave: () => setSubHover(false),
+    style: {
+      all: 'unset',
+      cursor: 'pointer',
+      fontFamily: 'var(--font-display)',
+      fontWeight: 'var(--weight-book)',
+      fontSize: 'var(--display-3)',
+      lineHeight: 'var(--lh-display-3)',
+      letterSpacing: 'var(--tracking-display-3)',
+      color: 'var(--text-primary)',
+      textDecoration: 'underline',
+      textDecorationColor: subHover ? 'var(--underline-active)' : 'var(--underline-rest)',
+      textDecorationThickness: subHover ? 2 : 1,
+      textUnderlineOffset: subHover ? '.30em' : '.18em',
+      transition: 'text-underline-offset 450ms ' + EASE + ', text-decoration-color 450ms ' + EASE
+    }
+  }, "Skicka ans\xF6kan")))), f.e.form ? /*#__PURE__*/React.createElement("p", {
+    role: "alert",
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-error, var(--text-primary))'
+    }
+  }, f.e.form) : null);
+}
+function JobList({
+  positions = [],
+  openApplication,
+  application,
+  onSubmit,
+  emptyLabel = 'Inga lediga jobb just nu.',
+  style,
+  ...rest
+}) {
+  const bp = useBp();
+  const lg = bp === 'lg',
+    md = bp !== 'sm';
+  const [open, setOpen] = React.useState(null);
+  const [hover, setHover] = React.useState(null);
+  const ids = positions.map((p, i) => jobId(p, i));
+  const set = React.useCallback((id, next) => {
+    setOpen(next ? id : null);
+    if (next) {
+      try {
+        history.replaceState(null, '', location.pathname + location.search + '#' + id);
+      } catch (e) {}
+    }
+  }, []);
+  React.useEffect(() => {
+    const fromHash = () => {
+      const h = decodeURIComponent(location.hash.slice(1));
+      if (ids.includes(h)) setOpen(h);
+    };
+    fromHash();
+    addEventListener('hashchange', fromHash);
+    return () => removeEventListener('hashchange', fromHash);
+  }, [ids.join('|')]);
+  const n = positions.length;
+  const rowCols = lg ? 'repeat(var(--cols),minmax(0,1fr))' : 'minmax(0,1fr) auto';
+  const metaTop = 'calc((var(--display-3) * var(--lh-display-3) - var(--text-small) * var(--lh-small)) / 2)';
+  return /*#__PURE__*/React.createElement("div", _extends({
+    className: "grid",
+    "data-job-list": "",
+    style: style
+  }, rest), /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: '1 / -1',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: rowCols,
+      columnGap: 'var(--gutter)',
+      rowGap: 'var(--space-1)',
+      alignItems: 'baseline',
+      paddingBottom: 'var(--space-3)',
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      gridColumn: lg ? '1 / 5' : undefined,
+      margin: 0,
+      color: 'var(--text-secondary)',
+      fontVariantNumeric: 'tabular-nums'
+    }
+  }, n === 0 ? emptyLabel : n === 1 ? '1 ledigt jobb' : n + ' lediga jobb'), openApplication ? /*#__PURE__*/React.createElement("p", {
+    style: {
+      gridColumn: lg ? '5 / 8' : undefined,
+      gridRow: lg ? 1 : undefined,
+      margin: 0,
+      justifySelf: 'start'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    variant: "small",
+    href: openApplication.href
+  }, openApplication.label)) : null), /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, positions.map((p, i) => {
+    const id = ids[i],
+      on = open === id,
+      pid = id + '-panel',
+      dl = shortDeadline(p.deadline);
+    return /*#__PURE__*/React.createElement("li", {
+      key: id,
+      id: id,
+      style: {
+        borderBottom: '1px solid var(--rule-hairline)',
+        scrollMarginTop: 'var(--space-6)'
+      }
+    }, /*#__PURE__*/React.createElement("h3", {
+      style: {
+        margin: 0,
+        font: 'inherit'
+      }
+    }, /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      "aria-expanded": on,
+      "aria-controls": pid,
+      onClick: () => set(id, !on),
+      onMouseEnter: () => setHover(id),
+      onMouseLeave: () => setHover(null),
+      style: {
+        all: 'unset',
+        boxSizing: 'border-box',
+        cursor: 'pointer',
+        display: 'grid',
+        gridTemplateColumns: rowCols,
+        columnGap: 'var(--gutter)',
+        rowGap: 'var(--space-1)',
+        width: '100%',
+        paddingBlock: 'var(--space-4)',
+        alignItems: 'baseline'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      style: {
+        gridColumn: lg ? '1 / 5' : '1 / 2',
+        gridRow: 1,
+        maxWidth: 'none',
+        textDecoration: 'underline',
+        textDecorationColor: hover === id ? 'var(--underline-active)' : 'transparent',
+        textDecorationThickness: 1,
+        textUnderlineOffset: '.18em',
+        transition: 'text-decoration-color 450ms ' + EASE
+      }
+    }, p.title), /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: lg ? {
+        display: 'contents'
+      } : {
+        gridColumn: '1 / 2',
+        gridRow: 2,
+        display: 'grid',
+        gridTemplateColumns: 'minmax(0,1fr) minmax(0,1fr)',
+        columnGap: 'var(--gutter)',
+        color: 'var(--text-secondary)',
+        maxWidth: 'none'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'flex',
+        alignItems: 'baseline',
+        minWidth: 0,
+        color: 'var(--text-secondary)',
+        ...(lg ? {
+          gridColumn: '5 / 6',
+          gridRow: 1,
+          alignSelf: 'start',
+          marginTop: metaTop
+        } : null)
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        display: 'inline-grid',
+        gridTemplateColumns: on ? '1fr' : '0fr',
+        opacity: on ? 1 : 0,
+        transition: 'grid-template-columns 700ms ' + EASE + ', opacity ' + (on ? '450ms ' + EASE + ' 150ms' : '300ms ' + EASE)
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        overflow: 'hidden',
+        minWidth: 0,
+        whiteSpace: 'nowrap',
+        color: 'var(--text-primary)'
+      }
+    }, "Plats", /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'inline-block',
+        width: 'var(--space-2)'
+      }
+    }))), /*#__PURE__*/React.createElement("span", null, p.office)), /*#__PURE__*/React.createElement("span", {
+      style: {
+        color: 'var(--text-secondary)',
+        ...(lg ? {
+          gridColumn: '6 / 8',
+          gridRow: 1,
+          alignSelf: 'start',
+          marginTop: metaTop
+        } : null)
+      }
+    }, dl)), /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      "aria-hidden": "true",
+      style: {
+        gridColumn: lg ? '8 / 9' : '2 / 3',
+        gridRow: 1,
+        justifySelf: 'end',
+        alignSelf: lg ? 'start' : 'center',
+        height: lg ? 'calc(var(--display-3) * var(--lh-display-3))' : undefined,
+        display: 'flex',
+        alignItems: 'center',
+        lineHeight: 1
+      }
+    }, /*#__PURE__*/React.createElement(Cue, {
+      open: on
+    })))), /*#__PURE__*/React.createElement(Panel, {
+      id: pid,
+      open: on,
+      label: p.title,
+      onFound: () => set(id, true)
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "grid",
+      style: {
+        padding: 'calc(var(--space-2) + 20px) 0 var(--space-7)',
+        margin: 0,
+        maxWidth: 'none',
+        rowGap: 'var(--space-6)',
+        alignItems: 'start'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: lg ? '1 / 4' : md ? '1 / 3' : '1 / -1',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement(AdBody, {
+      p: p
+    })), /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: lg ? '5 / 9' : md ? '3 / 5' : '1 / -1',
+        minWidth: 0,
+        ...(md ? {
+          position: 'sticky',
+          top: 'calc(var(--header-pin, 92px) + var(--space-4))',
+          alignSelf: 'start'
+        } : null)
+      }
+    }, application && application.fields ? /*#__PURE__*/React.createElement(FieldsForm, {
+      job: p,
+      id: id,
+      app: application,
+      onSubmit: onSubmit
+    }) : /*#__PURE__*/React.createElement(ApplyForm, {
+      job: p,
+      id: id,
+      onSubmit: onSubmit
+    })))));
+  }))));
+}
+Object.assign(__ds_scope, { jobId, JobList });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/JobList.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/TopicList.jsx
+try { (() => {
+/* The topics a subscription covers, folded into one line.
+
+   Closed, it is a single row between two hairlines: the label, what is chosen
+   in words, and a plus. Open, the topics are listed under it one per row
+   between hairlines, each row the system's own Checkbox — never a local box —
+   so a topic toggles exactly like the consent line under it.
+
+   Both subscribe blocks use it: the news listing, where the active filters
+   arrive pre-chosen, and the newsletter page, where nothing is chosen. */
+function TopicList({
+  label = 'Nyhetsbrev',
+  title,
+  legend,
+  options = [],
+  value = [],
+  onChange,
+  open,
+  defaultOpen = false,
+  onToggle,
+  emptyLabel = 'Alla',
+  selectAll = true,
+  error,
+  name = 'topics',
+  align = 'center',
+  columns = 1,
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId().replace(/:/g, '');
+  const panelId = 'tl' + uid;
+  const msgId = panelId + '-msg';
+  const [selfOpen, setSelfOpen] = React.useState(!!defaultOpen);
+  const [warm, setWarm] = React.useState(false);
+  const [keyFocus, setKeyFocus] = React.useState(false);
+  const isOpen = open != null ? !!open : selfOpen;
+  const chosen = new Set(value);
+  const picked = options.filter(o => chosen.has(o.value)).map(o => o.label);
+  const summary = !picked.length ? emptyLabel : picked.length <= 2 ? picked.join(', ') : picked.slice(0, 2).join(', ') + ' och ' + (picked.length - 2) + ' till';
+  const toggle = () => {
+    if (onToggle) onToggle(!isOpen);
+    if (open == null) setSelfOpen(v => !v);
+  };
+  const set = (v, on) => {
+    const next = options.map(o => o.value).filter(x => x === v ? on : chosen.has(x));
+    if (onChange) onChange(next);
+  };
+  const all = options.length > 0 && options.every(o => chosen.has(o.value));
+  const quiet = {
+    border: 0,
+    background: 'transparent',
+    padding: 0,
+    cursor: 'pointer',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    color: 'var(--text-secondary)',
+    textDecoration: 'underline',
+    textDecorationColor: 'var(--underline-rest-secondary)',
+    textUnderlineOffset: '0.22em'
+  };
+  const ease = 'var(--dur-medium) var(--ease-expo)';
+  const start = align === 'start';
+  const cols = Math.max(1, Math.round(columns) || 1);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      textAlign: 'left',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      borderBottom: '1px solid ' + (error ? 'var(--text-primary)' : 'var(--rule-hairline)'),
+      transition: 'border-color ' + ease
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: toggle,
+    "aria-expanded": isOpen ? 'true' : 'false',
+    "aria-controls": panelId,
+    "aria-label": (title || label) + ': ' + summary,
+    "aria-describedby": error ? msgId : undefined,
+    onPointerEnter: () => setWarm(true),
+    onPointerLeave: () => setWarm(false),
+    onFocus: () => setKeyFocus(document.documentElement.getAttribute('data-focus-source') === 'key'),
+    onBlur: () => setKeyFocus(false),
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      cursor: 'pointer',
+      width: '100%',
+      display: 'grid',
+      gridTemplateColumns: title ? 'minmax(0,1fr) auto 16px' : start ? 'minmax(0,1fr) 16px' : '16px minmax(0,1fr) 16px',
+      alignItems: 'center',
+      columnGap: 'var(--space-3)',
+      paddingTop: 0,
+      paddingBottom: 10,
+      outline: keyFocus ? '2px solid var(--focus-ring)' : 'none',
+      outlineOffset: 4,
+      transition: 'color ' + ease
+    }
+  }, title ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      minWidth: 0,
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--text-secondary)'
+    }
+  }, title) : start ? null : /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      minWidth: 0,
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap',
+      textAlign: title ? 'right' : start ? 'left' : 'center',
+      maxWidth: title ? '24ch' : undefined,
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: title && !picked.length ? 'var(--text-secondary)' : 'var(--text-primary)'
+    }
+  }, summary), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'grid',
+      placeItems: 'center',
+      width: 16,
+      height: 16,
+      color: warm || isOpen ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'color ' + ease
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: isOpen ? 'subtract' : 'add',
+    size: 14
+  }))), /*#__PURE__*/React.createElement("div", {
+    id: panelId,
+    "aria-hidden": isOpen ? 'false' : 'true',
+    style: {
+      display: 'grid',
+      gridTemplateRows: isOpen ? '1fr' : '0fr',
+      opacity: isOpen ? 1 : 0,
+      visibility: isOpen ? 'visible' : 'hidden',
+      transition: isOpen ? 'grid-template-rows ' + ease + ', opacity ' + ease + ', visibility 0s' : 'grid-template-rows ' + ease + ', opacity ' + ease + ', visibility 0s linear var(--dur-medium)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      minHeight: 0,
+      overflow: 'hidden'
+    }
+  }, /*#__PURE__*/React.createElement("fieldset", {
+    style: {
+      border: 0,
+      margin: 0,
+      padding: 0,
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("legend", {
+    style: {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)',
+      whiteSpace: 'nowrap'
+    }
+  }, legend || label), /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 'var(--space-1) 0 var(--space-3)',
+      display: 'grid',
+      gridTemplateColumns: 'repeat(' + cols + ', minmax(0, 1fr))',
+      gridTemplateRows: cols > 1 ? 'repeat(' + Math.ceil(options.length / cols) + ', auto)' : undefined,
+      gridAutoFlow: cols > 1 ? 'column' : 'row',
+      columnGap: 'var(--gutter)'
+    }
+  }, options.map(o => /*#__PURE__*/React.createElement("li", {
+    key: o.value,
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-3)',
+      minHeight: 44
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
+    name: name,
+    value: o.value,
+    checked: chosen.has(o.value),
+    tabIndex: isOpen ? 0 : -1,
+    onChange: on => set(o.value, on),
+    style: {
+      flex: '1 1 auto',
+      minWidth: 0,
+      gap: 0
+    }
+  }, o.label), o.note ? /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      flex: 'none',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, o.note) : null)))), selectAll && options.length > 3 ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'flex-start',
+      paddingTop: 'var(--space-4)',
+      paddingBottom: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    tabIndex: isOpen ? 0 : -1,
+    onClick: () => onChange && onChange(all ? [] : options.map(o => o.value)),
+    style: quiet
+  }, all ? 'Avmarkera alla' : 'Välj alla')) : null))), /*#__PURE__*/React.createElement("div", {
+    id: msgId,
+    "aria-live": "polite"
+  }, error ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 'var(--space-2) 0 0',
+      maxWidth: 'none',
+      display: 'flex',
+      gap: 'var(--space-2)',
+      alignItems: 'flex-start',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "warning",
+    size: "sm",
+    style: {
+      marginTop: 2
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      textWrap: 'pretty'
+    }
+  }, error)) : null));
+}
+Object.assign(__ds_scope, { TopicList });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/TopicList.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/SubscribeBlock.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* The newsletter block. One on every page that offers a subscription, so the
+   form, the symbol and its motion are the same everywhere.
+
+   Centred: the symbol (Point of contact, two diamonds), the title, then the
+   form. Below LG one 440px stack; at LG the page grid, laid out by the
+   [data-subscribe-form] rules in tokens/grid.css: name beside the topics,
+   e-mail beside consent, CTA centred under both. Opening the topics spreads
+   the form to the page edges and the list runs in three columns.
+
+   Consent and the CTA stay folded away until name and e-mail are filled in.
+
+   The symbol answers the form:
+   - empty: the diamonds rest tip to tip
+   - typing: they lean in
+   - ready: both turn a quarter, land with a click, then draw together
+   - every topic tick turns one diamond a quarter, left and right in turn,
+     always forward
+   - "Välj alla" turns both half a turn, in opposite directions;
+     "Avmarkera alla" turns them back the same way
+   - consent: the two trade places, with the same click
+   - send: they move into one another, fast at first, then close the last
+     of the gap slowly while they fade out as one; the form fades as they
+     merge and the thanks rises in behind them */
+
+const STATES = {
+  idle: {},
+  typing: {
+    move: {
+      'diamond-left': -5,
+      'diamond-right': -5
+    }
+  },
+  ready: {
+    move: {
+      'diamond-left': -9,
+      'diamond-right': -9
+    }
+  }
+};
+const SWAP = 48; /* viewBox units between the diamonds' centres at rest */
+const MERGE = SWAP / 2; /* viewBox units from rest to the centre line */
+const LEAVE = 2600; /* ms: the parting and the fade */
+const HANDOFF = 400; /* ms: the form fades out, then the thanks comes in */
+
+/* Brings the whole block, symbol included, back into view after send. Its own
+   frame loop rather than smooth scrollIntoView, so the reader can take over:
+   any wheel, touch, key or pointer press stops it where it is. Only ever
+   scrolls up, and only when the symbol is above the fold or under the header. */
+function glideTo(el) {
+  if (!el || typeof window === 'undefined') return () => {};
+  const chrome = [...document.querySelectorAll('[data-fixed-chrome]')].map(n => n.getBoundingClientRect()).filter(r => r.top <= 1 && r.height < window.innerHeight / 2);
+  const pin = chrome.reduce((m, r) => Math.max(m, r.bottom), 0) + 24;
+  const delta = el.getBoundingClientRect().top - pin;
+  if (delta >= 0) return () => {};
+  const from = window.scrollY,
+    to = Math.max(0, from + delta);
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    window.scrollTo(0, to);
+    return () => {};
+  }
+  const dur = 1200; /* --dur-slow */
+  const t0 = performance.now();
+  let raf = null;
+  const stop = () => {
+    if (raf != null) cancelAnimationFrame(raf);
+    raf = null;
+    ['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(e => window.removeEventListener(e, stop));
+  };
+  ['wheel', 'touchstart', 'keydown', 'pointerdown'].forEach(e => window.addEventListener(e, stop, {
+    passive: true
+  }));
+  const tick = now => {
+    const x = Math.min(1, (now - t0) / dur);
+    const e = x === 1 ? 1 : 1 - Math.pow(2, -10 * x); /* --ease-expo, in numbers */
+    window.scrollTo(0, from + (to - from) * e);
+    if (x < 1) raf = requestAnimationFrame(tick);else stop();
+  };
+  raf = requestAnimationFrame(tick);
+  return stop;
+}
+function Rise({
+  children,
+  style
+}) {
+  const [shown, setShown] = React.useState(false);
+  React.useEffect(() => {
+    const id = requestAnimationFrame(() => setShown(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+  const t = 'var(--dur-scroll) var(--ease-expo)';
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...style,
+      opacity: shown ? 1 : 0,
+      transform: shown ? 'none' : 'translateY(var(--reveal-rise))',
+      transition: 'opacity ' + t + ', transform ' + t
+    }
+  }, children);
+}
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const CONSENT = 'Jag samtycker till att Vinge behandlar mina personuppgifter för att skicka nyhetsbrevet. Du kan avsluta prenumerationen när du vill.';
+function useWide() {
+  const [wide, setWide] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1280px)');
+    const on = () => setWide(mq.matches);
+    mq.addEventListener('change', on);
+    on();
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  return wide;
+}
+function Reveal({
+  open,
+  delay = 0,
+  children,
+  ...rest
+}) {
+  const t = 'var(--dur-medium) var(--ease-expo) ' + delay + 'ms';
+  return /*#__PURE__*/React.createElement("div", _extends({}, rest, {
+    "aria-hidden": open ? undefined : 'true',
+    inert: open ? undefined : '',
+    style: {
+      display: 'grid',
+      gridTemplateRows: open ? '1fr' : '0fr',
+      opacity: open ? 1 : 0,
+      transition: 'grid-template-rows ' + t + ', opacity ' + t
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      minHeight: 0,
+      overflow: 'hidden'
+    }
+  }, children));
+}
+function SubscribeBlock({
+  title = 'Prenumerera på flödet',
+  headingId,
+  topics,
+  topicsTitle = 'Välj nyhetsbrev',
+  topicsLegend = 'Välj vad prenumerationen ska omfatta',
+  emptyLabel = 'Alla',
+  consent = CONSENT,
+  consentNote,
+  cta = 'Starta prenumeration',
+  onSubmit,
+  style
+}) {
+  const wide = useWide();
+  const formRef = React.useRef(null);
+  const [name, setName] = React.useState('');
+  const [email, setEmail] = React.useState('');
+  const [touched, setTouched] = React.useState({});
+  const [tried, setTried] = React.useState(false);
+  const [agreed, setAgreed] = React.useState(false);
+  const [picked, setPicked] = React.useState({});
+  const [open, setOpen] = React.useState(false);
+  const [sending, setSending] = React.useState(false);
+  const [sent, setSent] = React.useState(false);
+  const handoff = React.useRef(null);
+  const rootRef = React.useRef(null);
+  const glide = React.useRef(() => {});
+  React.useEffect(() => () => {
+    window.clearTimeout(handoff.current);
+    glide.current();
+  }, []);
+  const [replay, setReplay] = React.useState(0);
+  const [turns, setTurns] = React.useState(0);
+  const [spins, setSpins] = React.useState(0);
+  const [last, setLast] = React.useState('text');
+  const options = topics || [];
+  const hasTopics = options.length > 0;
+  const hasConsent = !!consent;
+  /* A chosen option counts as ticked until the reader unticks it; every
+     explicit tick is kept by value, so options changing does not wipe it. */
+  const value = options.filter(o => o.value in picked ? picked[o.value] : !!o.chosen).map(o => o.value);
+  const ready = !!name.trim() && !!email.trim();
+  const emailOk = EMAIL.test(email.trim());
+  const errors = {
+    name: (touched.name || tried) && !name.trim() ? 'Fyll i ditt namn.' : undefined,
+    email: (touched.email || tried) && !email.trim() ? 'Fyll i din e-postadress.' : (touched.email || tried) && !emailOk ? 'E-postadressen behöver ett @ och en domän, till exempel namn@foretag.se.' : undefined,
+    consent: hasConsent && tried && !agreed ? 'Kryssa i rutan så att vi får skicka nyhetsbrevet.' : undefined
+  };
+  const text = set => v => {
+    set(v);
+    setLast('text');
+  };
+  const onTopics = next => {
+    const m = {
+      ...picked
+    };
+    for (const o of options) m[o.value] = next.indexOf(o.value) >= 0;
+    /* "Välj alla" / "Avmarkera alla": several ticks at once. */
+    const changed = options.filter(o => value.indexOf(o.value) >= 0 !== m[o.value]).length;
+    const selectAll = changed > 1 && (next.length === options.length || next.length === 0);
+    setPicked(m);
+    if (selectAll) {
+      setSpins(n => n + (next.length ? 1 : -1));
+      setLast('all');
+    } else {
+      setTurns(n => n + 1);
+      setLast('tick');
+    }
+  };
+  const onConsent = v => {
+    setAgreed(v);
+    setLast('swap');
+    setOpen(false);
+  };
+  const submit = e => {
+    e.preventDefault();
+    setTried(true);
+    setTouched({
+      name: true,
+      email: true
+    });
+    if (!ready || !emailOk || hasConsent && !agreed) {
+      requestAnimationFrame(() => {
+        const bad = formRef.current && formRef.current.querySelector('[aria-invalid="true"]');
+        if (bad) bad.focus();
+      });
+      return;
+    }
+    setSending(true);
+    setLast('send');
+    glide.current();
+    glide.current = glideTo(rootRef.current);
+    handoff.current = window.setTimeout(() => setSent(true), HANDOFF);
+    if (onSubmit) onSubmit({
+      name: name.trim(),
+      email: email.trim(),
+      topics: value
+    });
+  };
+  const reset = () => {
+    window.clearTimeout(handoff.current);
+    setSending(false);
+    setSent(false);
+    setLast('reset');
+    setName('');
+    setEmail('');
+    setTouched({});
+    setTried(false);
+    setAgreed(false);
+    setPicked({});
+    setOpen(false);
+  };
+  const settled = sending || ready;
+  const base = settled ? STATES.ready : name.trim() || email.trim() ? STATES.typing : STATES.idle;
+  const mv = base.move || {};
+  /* Each diamond lands exactly where the other stands now, so the lean-in
+     already applied is subtracted, not added. */
+  let move = agreed ? {
+    'diamond-left': -SWAP - (mv['diamond-right'] || 0),
+    'diamond-right': -SWAP - (mv['diamond-left'] || 0)
+  } : base.move || {};
+  if (sending) {
+    /* Both onto the centre line, wherever they stand now: one diamond. */
+    move = {
+      'diamond-left': -MERGE,
+      'diamond-right': -MERGE
+    };
+  }
+  const leaving = last === 'send',
+    back = last === 'reset';
+  const markState = {
+    ...base,
+    move,
+    fade: sending ? {
+      'diamond-left': 0,
+      'diamond-right': 0
+    } : undefined,
+    fadeDur: leaving ? LEAVE : 800 /* --dur-medium, the fade back in */,
+    rotate: {
+      'diamond-left': (settled ? 90 : 0) + 90 * Math.ceil(turns / 2) + 180 * spins,
+      'diamond-right': (settled ? 90 : 0) + 90 * Math.floor(turns / 2) - 180 * spins
+    },
+    rotateDur: back ? 0 : last === 'tick' ? 450 /* --dur-reveal */ : last === 'all' ? 800 /* --dur-medium */ : 600,
+    moveDelay: settled && last === 'text' ? 600 : 0,
+    /* Back to the form, they are put in place unseen and fade in there. */
+    moveDur: leaving ? LEAVE : back ? 0 : last === 'swap' ? 420 : undefined,
+    moveEase: leaving ? 'expo' : last === 'swap' ? 'click' : undefined
+  };
+  const first = name.trim().split(/\s+/)[0] || '';
+  return /*#__PURE__*/React.createElement("div", {
+    ref: rootRef,
+    "data-subscribe": "",
+    style: {
+      paddingInline: 'var(--margin)',
+      maxWidth: 'var(--max-width)',
+      marginInline: 'auto',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      textAlign: 'center',
+      gap: 'var(--space-4)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: '100%',
+      maxWidth: 260,
+      color: 'var(--ink)',
+      marginBottom: -21
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Mark, {
+    name: "diamonds-tangent",
+    stroke: 0.9,
+    state: markState,
+    replay: replay
+  })), /*#__PURE__*/React.createElement("h2", {
+    id: headingId,
+    className: "display-2",
+    style: {
+      margin: 0
+    }
+  }, title), sent ? /*#__PURE__*/React.createElement(Rise, {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 'var(--space-3)',
+      marginTop: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    role: "status",
+    "aria-live": "polite",
+    style: {
+      display: 'contents'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "display-3",
+    style: {
+      margin: 0
+    }
+  }, first ? 'Tack, ' + first + '.' : 'Tack.'), /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'var(--measure-lead)',
+      color: 'var(--text-secondary)'
+    }
+  }, 'Bekräfta prenumerationen via länken vi skickat till ' + email.trim() + '.'), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: reset,
+    style: {
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      marginTop: 'var(--space-2)',
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--text-secondary)',
+      textDecoration: 'underline',
+      textDecorationColor: 'var(--underline-rest-secondary)',
+      textUnderlineOffset: '0.22em'
+    }
+  }, "Tillbaka till formul\xE4ret"))) : /*#__PURE__*/React.createElement("form", {
+    ref: formRef,
+    onSubmit: submit,
+    noValidate: true,
+    "data-subscribe-form": "",
+    "data-sf-open": hasTopics && open ? 'true' : 'false',
+    "aria-busy": sending ? 'true' : undefined,
+    style: {
+      opacity: sending ? 0 : 1,
+      pointerEvents: sending ? 'none' : undefined,
+      transition: 'opacity ' + HANDOFF + 'ms var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-sf-fields": ""
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-sf-field": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+    label: "Namn",
+    labelAs: "placeholder",
+    name: "name",
+    autoComplete: "name",
+    align: "start",
+    value: name,
+    onChange: text(setName),
+    onBlur: () => name.trim() && setTouched(t => ({
+      ...t,
+      name: true
+    })),
+    error: errors.name
+  })), /*#__PURE__*/React.createElement("div", {
+    "data-sf-field": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+    label: "E-post",
+    labelAs: "placeholder",
+    type: "email",
+    name: "email",
+    autoComplete: "email",
+    align: "start",
+    value: email,
+    onChange: text(setEmail),
+    onBlur: () => email.trim() && setTouched(t => ({
+      ...t,
+      email: true
+    })),
+    error: errors.email
+  }))), hasTopics ? /*#__PURE__*/React.createElement("div", {
+    "data-sf-side": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.TopicList, {
+    label: "Nyhetsbrev",
+    title: topicsTitle,
+    legend: topicsLegend,
+    options: options,
+    value: value,
+    onChange: onTopics,
+    open: open,
+    onToggle: setOpen,
+    emptyLabel: emptyLabel,
+    name: "topics",
+    align: "start",
+    columns: wide ? 3 : 1
+  })) : null, hasConsent ? /*#__PURE__*/React.createElement(Reveal, {
+    "data-sf-consent": "",
+    open: ready
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: '0 8px'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
+    align: "start",
+    checked: agreed,
+    onChange: onConsent,
+    disabled: !ready,
+    error: errors.consent
+  }, consent, consentNote ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      marginTop: 'var(--space-2)'
+    }
+  }, consentNote) : null))) : null, /*#__PURE__*/React.createElement(Reveal, {
+    "data-sf-cta": "",
+    open: ready,
+    delay: 120
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'center'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    disabled: !ready,
+    className: "cta cta--page-end target",
+    style: {
+      background: 'none',
+      border: 0,
+      padding: 'var(--space-3) 0 0',
+      cursor: 'pointer',
+      textAlign: 'center'
+    }
+  }, cta)))));
+}
+Object.assign(__ds_scope, { SubscribeBlock });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/SubscribeBlock.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/fieldParts.jsx
+try { (() => {
+/* Shared by every field: the label or legend, the message under the line, and
+   the two lines (hairline, focus line). Kept here so a radio list, a select and
+   a text field say error, hint and focus with one voice. */
+
+const srOnly = {
+  position: 'absolute',
+  width: 1,
+  height: 1,
+  overflow: 'hidden',
+  clip: 'rect(0 0 0 0)',
+  whiteSpace: 'nowrap'
+};
+function normOptions(options) {
+  return (options || []).map(o => typeof o === 'string' ? {
+    value: o,
+    label: o
+  } : {
+    value: o.value != null ? o.value : o.label,
+    label: o.label,
+    note: o.note
+  });
+}
+function isKeyFocus() {
+  return typeof document !== 'undefined' && document.documentElement.getAttribute('data-focus-source') === 'key';
+}
+function FieldLabel({
+  htmlFor,
+  as = 'label',
+  optional,
+  optionalLabel = 'valfritt',
+  children
+}) {
+  const Tag = as;
+  const st = {
+    display: 'block',
+    maxWidth: 'none',
+    margin: 0,
+    marginBottom: 6,
+    padding: 0,
+    float: 'none',
+    color: 'var(--text-primary)'
+  };
+  return /*#__PURE__*/React.createElement(Tag, {
+    htmlFor: as === 'label' ? htmlFor : undefined,
+    className: "small",
+    style: st
+  }, children, optional ? /*#__PURE__*/React.createElement("span", null, " (", optionalLabel, ")") : null);
+}
+function FieldMessage({
+  id,
+  error,
+  hint,
+  style
+}) {
+  const has = !!(error || hint);
+  return /*#__PURE__*/React.createElement("div", {
+    id: id,
+    "aria-live": "polite",
+    style: {
+      marginTop: has ? 6 : 0,
+      ...style
+    }
+  }, error ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      display: 'flex',
+      gap: 'var(--space-2)',
+      alignItems: 'flex-start',
+      color: 'var(--text-primary)',
+      textAlign: 'left'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "warning",
+    size: "sm",
+    style: {
+      marginTop: 2,
+      flex: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      textWrap: 'pretty'
+    }
+  }, error)) : hint ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, hint) : null);
+}
+
+/* The field's line. `state` is rest | hover | focus | error | disabled. */
+function FieldLine({
+  hover,
+  focus,
+  error,
+  disabled,
+  readOnly
+}) {
+  const base = disabled || readOnly ? 'transparent' : error ? 'var(--text-primary)' : hover ? 'var(--underline-rest-secondary)' : 'var(--rule-hairline)';
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      height: 1,
+      background: base,
+      backgroundImage: disabled ? 'repeating-linear-gradient(to right, var(--rule-hairline) 0 4px, transparent 4px 8px)' : 'none',
+      transition: 'background-color var(--dur-micro) var(--ease-quart)',
+      pointerEvents: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      bottom: 0,
+      height: 2,
+      background: 'var(--text-primary)',
+      transformOrigin: 'left',
+      transform: focus && !disabled && !readOnly ? 'scaleX(1)' : 'scaleX(0)',
+      transition: 'transform var(--dur-reveal) var(--ease-expo)',
+      pointerEvents: 'none'
+    }
+  }));
+}
+const fieldText = {
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)',
+  lineHeight: 'var(--lh-small)'
+};
+Object.assign(__ds_scope, { srOnly, normOptions, isKeyFocus, FieldLabel, FieldMessage, FieldLine, fieldText });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/fieldParts.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/CheckboxGroup.jsx
+try { (() => {
+/* Several choices from a list, all of them in view. A legend, then the
+   system's own Checkbox one per 44px row, so a choice toggles exactly like the
+   consent line under it. Nothing is ticked until the reader ticks it.
+
+   TopicList is the folded version, for the subscribe block where the list
+   would crowd a short form. In a Formulär, choices are part of the question
+   and stay open: this is the one to use. */
+
+function CheckboxGroup({
+  legend,
+  name,
+  options = [],
+  value,
+  defaultValue,
+  onChange,
+  required = false,
+  optional = false,
+  optionalLabel = 'valfritt',
+  error,
+  hint,
+  columns = 1,
+  disabled = false,
+  style
+}) {
+  const uid = React.useId().replace(/:/g, '');
+  const msgId = 'cg' + uid + '-msg';
+  const opts = __ds_scope.normOptions(options);
+  const [inner, setInner] = React.useState(defaultValue || []);
+  const cur = value !== undefined ? value : inner;
+  const chosen = new Set(cur);
+  const cols = Math.max(1, Math.round(columns) || 1);
+  const set = (v, on) => {
+    const next = opts.map(o => o.value).filter(x => x === v ? on : chosen.has(x));
+    setInner(next);
+    if (onChange) onChange(next);
+  };
+  return /*#__PURE__*/React.createElement("fieldset", {
+    "aria-describedby": error || hint ? msgId : undefined,
+    "aria-required": required ? 'true' : undefined,
+    style: {
+      border: 0,
+      margin: 0,
+      padding: 0,
+      minWidth: 0,
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
+    as: "legend",
+    optional: optional,
+    optionalLabel: optionalLabel
+  }, legend), /*#__PURE__*/React.createElement("ul", {
+    role: "presentation",
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'grid',
+      gridTemplateColumns: 'repeat(' + cols + ', minmax(0, 1fr))',
+      gridTemplateRows: cols > 1 ? 'repeat(' + Math.ceil(opts.length / cols) + ', auto)' : undefined,
+      gridAutoFlow: cols > 1 ? 'column' : 'row',
+      columnGap: 'var(--gutter)'
+    }
+  }, opts.map(o => /*#__PURE__*/React.createElement("li", {
+    key: o.value,
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-3)',
+      minHeight: 44
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
+    name: name,
+    value: o.value,
+    checked: chosen.has(o.value),
+    disabled: disabled,
+    "aria-invalid": error ? true : undefined,
+    onChange: on => set(o.value, on),
+    style: {
+      flex: '1 1 auto',
+      minWidth: 0,
+      gap: 0
+    }
+  }, o.label), o.note ? /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      flex: 'none',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, o.note) : null))), /*#__PURE__*/React.createElement(__ds_scope.FieldMessage, {
+    id: msgId,
+    error: error,
+    hint: hint
+  }));
+}
+Object.assign(__ds_scope, { CheckboxGroup });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/CheckboxGroup.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/FileField.jsx
+try { (() => {
+/* Documents attached to a form. The same label and line as TextField; on the
+   line, "Välj fil" as an underlined text action with the upload glyph, or the
+   file's name once one is chosen. Each chosen file is a row under the line
+   with its size and "Ta bort". A file dropped anywhere on the line is taken
+   the same as one chosen.
+
+   The native input stays in the DOM (visually hidden) so the file posts with
+   the form and the keyboard reaches it; the focus ring is drawn on the
+   visible action. */
+
+function size(n) {
+  if (n == null) return '';
+  if (n < 1024 * 1024) return Math.max(1, Math.round(n / 1024)) + ' kB';
+  return (n / (1024 * 1024)).toFixed(1).replace('.', ',') + ' MB';
+}
+function FileField({
+  label,
+  name,
+  id,
+  accept,
+  multiple = false,
+  files,
+  onChange,
+  required = false,
+  optional = false,
+  optionalLabel = 'valfritt',
+  chooseLabel = 'Välj fil',
+  emptyLabel = 'Ingen fil vald',
+  removeLabel = 'Ta bort',
+  error,
+  hint,
+  disabled = false,
+  demoState,
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId().replace(/:/g, '');
+  const fieldId = id || 'ff' + uid;
+  const msgId = fieldId + '-msg';
+  const inputRef = React.useRef(null);
+  const [inner, setInner] = React.useState([]);
+  const [hover, setHover] = React.useState(false);
+  const [keyFocus, setKeyFocus] = React.useState(false);
+  const [over, setOver] = React.useState(false);
+  const list = files !== undefined ? files || [] : inner;
+  const isHover = demoState === 'hover' || hover || over;
+  const isFocus = demoState === 'focus' || keyFocus;
+  const commit = next => {
+    setInner(next);
+    if (onChange) onChange(next);
+  };
+  const take = fl => {
+    const got = Array.from(fl || []);
+    if (!got.length) return;
+    commit(multiple ? list.concat(got) : got.slice(0, 1));
+  };
+  const remove = i => {
+    const next = list.filter((_, j) => j !== i);
+    if (inputRef.current) inputRef.current.value = '';
+    commit(next);
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      textAlign: 'left',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
+    htmlFor: fieldId,
+    optional: optional,
+    optionalLabel: optionalLabel
+  }, label), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative',
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      paddingBottom: 10,
+      minHeight: 24
+    },
+    onPointerEnter: () => setHover(true),
+    onPointerLeave: () => setHover(false),
+    onDragOver: e => {
+      if (disabled) return;
+      e.preventDefault();
+      setOver(true);
+    },
+    onDragLeave: () => setOver(false),
+    onDrop: e => {
+      if (disabled) return;
+      e.preventDefault();
+      setOver(false);
+      take(e.dataTransfer.files);
+    }
+  }, /*#__PURE__*/React.createElement("input", {
+    ref: inputRef,
+    id: fieldId,
+    type: "file",
+    name: name,
+    accept: accept,
+    multiple: multiple,
+    required: required && !list.length,
+    disabled: disabled,
+    "aria-invalid": error ? true : undefined,
+    "aria-describedby": error || hint ? msgId : undefined,
+    onChange: e => take(e.target.files),
+    onFocus: () => setKeyFocus(__ds_scope.isKeyFocus()),
+    onBlur: () => setKeyFocus(false),
+    style: __ds_scope.srOnly
+  }), /*#__PURE__*/React.createElement("label", {
+    htmlFor: fieldId,
+    "aria-hidden": "true",
+    style: {
+      ...__ds_scope.fieldText,
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 'var(--space-1)',
+      cursor: disabled ? 'not-allowed' : 'pointer',
+      color: disabled ? 'var(--text-secondary)' : 'var(--text-primary)',
+      textDecoration: 'underline',
+      textUnderlineOffset: '0.22em',
+      textDecorationColor: isHover ? 'var(--underline-active)' : 'var(--underline-rest-secondary)',
+      outline: isFocus ? '2px solid var(--focus-ring)' : 'none',
+      outlineOffset: 4
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "upload",
+    size: 14
+  }), chooseLabel), !list.length ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...__ds_scope.fieldText,
+      color: 'var(--text-secondary)'
+    }
+  }, over ? 'Släpp filen här' : emptyLabel) : null, /*#__PURE__*/React.createElement(__ds_scope.FieldLine, {
+    hover: isHover,
+    focus: false,
+    error: !!error,
+    disabled: disabled
+  })), list.length ? /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, list.map((f, i) => /*#__PURE__*/React.createElement("li", {
+    key: f.name + i,
+    style: {
+      display: 'grid',
+      gridTemplateColumns: '16px minmax(0,1fr) auto auto',
+      alignItems: 'center',
+      columnGap: 'var(--space-2)',
+      minHeight: 44,
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "document",
+    size: 14,
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...__ds_scope.fieldText,
+      color: 'var(--text-primary)',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
+      whiteSpace: 'nowrap'
+    }
+  }, f.name), /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...__ds_scope.fieldText,
+      color: 'var(--text-secondary)'
+    }
+  }, size(f.size)), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => remove(i),
+    "aria-label": removeLabel + ' ' + f.name,
+    disabled: disabled,
+    style: {
+      ...__ds_scope.fieldText,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-secondary)',
+      textDecoration: 'underline',
+      textDecorationColor: 'var(--underline-rest-secondary)',
+      textUnderlineOffset: '0.22em'
+    }
+  }, removeLabel)))) : null, /*#__PURE__*/React.createElement(__ds_scope.FieldMessage, {
+    id: msgId,
+    error: error,
+    hint: hint
+  }));
+}
+Object.assign(__ds_scope, { FileField });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/FileField.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/RadioGroup.jsx
+try { (() => {
+/* One choice from a short list. A legend, then the options one per row, each
+   row a 44px target. The control is a hairline circle; chosen draws an ink dot
+   inside it and lifts the label from secondary to primary text. Nothing is
+   filled and no option is chosen until the reader chooses.
+
+   Use it up to about eight options. Longer lists, or lists the reader scans
+   in order (dates, years), are Select.
+
+   rest      hairline circle in the resting-underline tone
+   hover     circle in ink
+   focus     the system ring on the circle, by keyboard only
+   chosen    ink dot, label in primary text
+   error     every circle in ink, glyph and message under the list
+   disabled  dashed circles, secondary text, no pointer */
+
+function RadioGroup({
+  legend,
+  name,
+  options = [],
+  value,
+  defaultValue,
+  onChange,
+  required = false,
+  optional = false,
+  optionalLabel = 'valfritt',
+  error,
+  hint,
+  columns = 1,
+  disabled = false,
+  demoState,
+  demoIndex = 0,
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId().replace(/:/g, '');
+  const msgId = 'rg' + uid + '-msg';
+  const opts = __ds_scope.normOptions(options);
+  const [inner, setInner] = React.useState(defaultValue != null ? defaultValue : null);
+  const [hover, setHover] = React.useState(-1);
+  const [focusAt, setFocusAt] = React.useState(-1);
+  const cur = value !== undefined ? value : inner;
+  const cols = Math.max(1, Math.round(columns) || 1);
+  return /*#__PURE__*/React.createElement("fieldset", {
+    "aria-describedby": error || hint ? msgId : undefined,
+    "aria-required": required ? 'true' : undefined,
+    style: {
+      border: 0,
+      margin: 0,
+      padding: 0,
+      minWidth: 0,
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
+    as: "legend",
+    optional: optional,
+    optionalLabel: optionalLabel
+  }, legend), /*#__PURE__*/React.createElement("ul", {
+    role: "presentation",
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'grid',
+      gridTemplateColumns: 'repeat(' + cols + ', minmax(0, 1fr))',
+      columnGap: 'var(--gutter)'
+    }
+  }, opts.map((o, i) => {
+    const id = 'rg' + uid + '-' + i;
+    const on = cur === o.value;
+    const isHover = demoState === 'hover' && i === demoIndex || hover === i;
+    const isFocus = demoState === 'focus' && i === demoIndex || focusAt === i;
+    const edge = disabled ? 'var(--rule-hairline)' : error || isHover || on ? 'var(--text-primary)' : 'var(--underline-rest-secondary)';
+    return /*#__PURE__*/React.createElement("li", {
+      key: o.value,
+      style: {
+        display: 'flex',
+        alignItems: 'center',
+        minHeight: 44
+      }
+    }, /*#__PURE__*/React.createElement("label", {
+      htmlFor: id,
+      onPointerEnter: () => setHover(i),
+      onPointerLeave: () => setHover(-1),
+      style: {
+        display: 'flex',
+        alignItems: 'flex-start',
+        gap: 'var(--space-2)',
+        cursor: disabled ? 'not-allowed' : 'pointer',
+        textAlign: 'left'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        position: 'relative',
+        flex: 'none',
+        width: 18,
+        height: 18,
+        marginTop: 2
+      }
+    }, /*#__PURE__*/React.createElement("input", {
+      id: id,
+      type: "radio",
+      name: name,
+      value: o.value,
+      checked: on,
+      required: required && i === 0,
+      disabled: disabled,
+      "aria-invalid": error ? true : undefined,
+      onChange: () => {
+        setInner(o.value);
+        if (onChange) onChange(o.value);
+      },
+      onFocus: () => setFocusAt(__ds_scope.isKeyFocus() ? i : -1),
+      onBlur: () => setFocusAt(-1),
+      style: {
+        position: 'absolute',
+        inset: -3,
+        width: 24,
+        height: 24,
+        margin: 0,
+        opacity: 0,
+        cursor: 'inherit'
+      }
+    }), /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        position: 'absolute',
+        inset: 0,
+        borderRadius: '50%',
+        display: 'grid',
+        placeItems: 'center',
+        border: (disabled ? '1px dashed ' : '1px solid ') + edge,
+        outline: isFocus ? '2px solid var(--focus-ring)' : 'none',
+        outlineOffset: 4,
+        transition: 'border-color var(--dur-micro) var(--ease-quart)',
+        pointerEvents: 'none'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        width: 8,
+        height: 8,
+        borderRadius: '50%',
+        background: 'var(--text-primary)',
+        opacity: on ? 1 : 0,
+        transform: on ? 'scale(1)' : 'scale(0.4)',
+        transition: 'opacity var(--dur-micro) var(--ease-quart), transform var(--dur-reveal) var(--ease-expo)'
+      }
+    }))), /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        maxWidth: '52ch',
+        color: disabled ? 'var(--text-secondary)' : on ? 'var(--text-primary)' : 'var(--text-secondary)',
+        transition: 'color var(--dur-micro) var(--ease-quart)',
+        textWrap: 'pretty'
+      }
+    }, o.label)));
+  })), /*#__PURE__*/React.createElement(__ds_scope.FieldMessage, {
+    id: msgId,
+    error: error,
+    hint: hint
+  }));
+}
+Object.assign(__ds_scope, { RadioGroup });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/RadioGroup.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/Select.jsx
+try { (() => {
+/* One choice from a long list. The same label and line as TextField, with a
+   chevron at the end of the line; the list itself is the browser's own, so it
+   works with every keyboard, screen reader and phone. Until something is
+   chosen the line reads the placeholder ("Välj") in secondary text.
+
+   Use it for lists past about eight options, or lists read in order (dates,
+   years, offices from a system). Short lists the reader should see at once
+   are RadioGroup. */
+
+function Select({
+  label,
+  name,
+  id,
+  options = [],
+  value,
+  defaultValue,
+  onChange,
+  onBlur,
+  placeholder = 'Välj',
+  required = false,
+  optional = false,
+  optionalLabel = 'valfritt',
+  error,
+  hint,
+  disabled = false,
+  demoState,
+  style,
+  selectRef
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId().replace(/:/g, '');
+  const fieldId = id || 'sel' + uid;
+  const msgId = fieldId + '-msg';
+  const opts = (options || []).map(o => typeof o === 'string' ? {
+    value: o,
+    label: o
+  } : {
+    value: o.value != null ? o.value : o.label,
+    label: o.label
+  });
+  const [inner, setInner] = React.useState(defaultValue || '');
+  const [hover, setHover] = React.useState(false);
+  const [focus, setFocus] = React.useState(false);
+  const cur = value !== undefined ? value || '' : inner;
+  const isHover = demoState === 'hover' || hover && !focus;
+  const isFocus = demoState === 'focus' || focus;
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      textAlign: 'left',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
+    htmlFor: fieldId,
+    optional: optional,
+    optionalLabel: optionalLabel
+  }, label), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative'
+    },
+    onPointerEnter: () => setHover(true),
+    onPointerLeave: () => setHover(false)
+  }, /*#__PURE__*/React.createElement("select", {
+    ref: selectRef,
+    id: fieldId,
+    name: name,
+    value: cur,
+    required: required,
+    disabled: disabled,
+    "aria-invalid": error ? true : undefined,
+    "aria-describedby": error || hint ? msgId : undefined,
+    onChange: e => {
+      setInner(e.target.value);
+      if (onChange) onChange(e.target.value, e);
+    },
+    onFocus: () => setFocus(true),
+    onBlur: e => {
+      setFocus(false);
+      if (onBlur) onBlur(e);
+    },
+    style: {
+      ...__ds_scope.fieldText,
+      display: 'block',
+      width: '100%',
+      margin: 0,
+      padding: '0 28px 10px 0',
+      border: 0,
+      borderRadius: 0,
+      background: 'transparent',
+      appearance: 'none',
+      WebkitAppearance: 'none',
+      color: disabled || !cur ? 'var(--text-secondary)' : 'var(--text-primary)',
+      cursor: disabled ? 'not-allowed' : 'pointer',
+      outline: 'none'
+    }
+  }, /*#__PURE__*/React.createElement("option", {
+    value: "",
+    disabled: required
+  }, placeholder), opts.map(o => /*#__PURE__*/React.createElement("option", {
+    key: o.value,
+    value: o.value,
+    style: {
+      color: 'var(--ink)'
+    }
+  }, o.label))), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      right: 0,
+      bottom: 12,
+      display: 'grid',
+      placeItems: 'center',
+      width: 16,
+      height: 16,
+      color: isHover || isFocus ? 'var(--text-primary)' : 'var(--text-secondary)',
+      pointerEvents: 'none',
+      transition: 'color var(--dur-micro) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "chevron--down",
+    size: 14
+  })), /*#__PURE__*/React.createElement(__ds_scope.FieldLine, {
+    hover: isHover,
+    focus: isFocus,
+    error: !!error,
+    disabled: disabled
+  })), /*#__PURE__*/React.createElement(__ds_scope.FieldMessage, {
+    id: msgId,
+    error: error,
+    hint: hint
+  }));
+}
+Object.assign(__ds_scope, { Select });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Select.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/TextArea.jsx
+try { (() => {
+/* TextField for more than one line. Same label, same line under the last
+   line of text, same states. It starts at `rows` lines and grows with what is
+   written, so the reader never scrolls inside a box. */
+
+function TextArea({
+  label,
+  name,
+  id,
+  value,
+  defaultValue,
+  onChange,
+  onBlur,
+  placeholder,
+  rows = 3,
+  required = false,
+  optional = false,
+  optionalLabel = 'valfritt',
+  maxLength,
+  error,
+  hint,
+  disabled = false,
+  demoState,
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const uid = React.useId().replace(/:/g, '');
+  const fieldId = id || 'ta' + uid;
+  const msgId = fieldId + '-msg';
+  const ref = React.useRef(null);
+  const [hover, setHover] = React.useState(false);
+  const [focus, setFocus] = React.useState(false);
+  const isHover = demoState === 'hover' || hover && !focus;
+  const isFocus = demoState === 'focus' || focus;
+  const grow = () => {
+    const el = ref.current;
+    if (!el) return;
+    el.style.height = 'auto';
+    el.style.height = el.scrollHeight + 'px';
+  };
+  React.useLayoutEffect(grow, [value]);
+  return /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      textAlign: 'left',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
+    htmlFor: fieldId,
+    optional: optional,
+    optionalLabel: optionalLabel
+  }, label), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative'
+    },
+    onPointerEnter: () => setHover(true),
+    onPointerLeave: () => setHover(false)
+  }, /*#__PURE__*/React.createElement("textarea", {
+    ref: ref,
+    id: fieldId,
+    name: name,
+    value: value,
+    defaultValue: defaultValue,
+    rows: rows,
+    placeholder: placeholder,
+    required: required,
+    disabled: disabled,
+    maxLength: maxLength,
+    "aria-invalid": error ? true : undefined,
+    "aria-describedby": error || hint ? msgId : undefined,
+    onChange: e => {
+      grow();
+      if (onChange) onChange(e.target.value, e);
+    },
+    onFocus: () => setFocus(true),
+    onBlur: e => {
+      setFocus(false);
+      if (onBlur) onBlur(e);
+    },
+    style: {
+      ...__ds_scope.fieldText,
+      display: 'block',
+      width: '100%',
+      margin: 0,
+      padding: '0 0 10px',
+      resize: 'none',
+      overflow: 'hidden',
+      border: 0,
+      borderRadius: 0,
+      background: 'transparent',
+      outline: 'none',
+      color: disabled ? 'var(--text-secondary)' : 'var(--text-primary)',
+      cursor: disabled ? 'not-allowed' : 'text'
+    }
+  }), /*#__PURE__*/React.createElement(__ds_scope.FieldLine, {
+    hover: isHover,
+    focus: isFocus,
+    error: !!error,
+    disabled: disabled
+  })), /*#__PURE__*/React.createElement(__ds_scope.FieldMessage, {
+    id: msgId,
+    error: error,
+    hint: hint
+  }));
+}
+Object.assign(__ds_scope, { TextArea });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/TextArea.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/FormBlock.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* Formulär. Vinge's own form for data a third-party system receives
+   (Ungapped, Onecruiter). The fields come from that system's definition; this
+   block only renders them, with the design system's inputs, and posts the
+   same names to the same address.
+
+   On the page grid: heading and intro on the left half, the form on the right
+   half. With heading and intro both hidden the form keeps to the right half,
+   so it lines up with the text above it.
+
+   States
+   cold       every label, choice and the consent line readable, nothing typed
+   progress   aria-busy, fields locked, the submit reads "Skickar"
+   field      message at the field, after leaving it or on submit; focus goes
+              to the first field in error
+   submit     message under the submit; everything typed is kept
+   success    the editor's message replaces the form */
+
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const TEL = /^\+?[\d\s\-()]{6,}$/;
+const bare = s => String(s || '').trim().replace(/[:：]\s*$/, '');
+const lc = s => {
+  const b = bare(s);
+  return b.charAt(0).toLowerCase() + b.slice(1);
+};
+const keyOf = (f, i) => f.name || 'falt-' + i;
+function messageFor(f, v) {
+  const empty = v == null || v === '' || v === false || Array.isArray(v) && !v.length;
+  if (f.kind === 'consent' || f.kind === 'checkbox' && !f.options) return f.required && !v ? 'Kryssa i rutan för att skicka.' : null;
+  if (f.kind === 'checkbox') return f.required && empty ? 'Välj minst ett alternativ.' : null;
+  if (f.kind === 'radio' || f.kind === 'select') return f.required && empty ? /^välj /i.test(bare(f.label)) ? bare(f.label) + '.' : 'Välj ' + lc(f.label) + '.' : null;
+  if (f.kind === 'file') return f.required && empty ? 'Lägg till ett dokument.' : null;
+  const s = String(v || '').trim();
+  if (!s) return f.required ? 'Fyll i ' + lc(f.label) + '.' : null;
+  if (f.kind === 'email' && !EMAIL.test(s)) return 'E-postadressen behöver ett @ och en domän, till exempel namn@foretag.se.';
+  if (f.kind === 'tel' && !TEL.test(s)) return 'Skriv numret med siffror, till exempel 070 123 45 67.';
+  return null;
+}
+
+/* Every input the form owns, flattened: a field with `parts` (Namn as Förnamn
+   and Efternamn) contributes one entry per part. */
+function flatten(fields) {
+  const out = [];
+  fields.forEach((f, i) => {
+    if (f.kind === 'hidden') return;
+    if (f.parts && f.parts.length) f.parts.forEach((p, j) => out.push({
+      key: p.name || keyOf(f, i) + '-' + j,
+      field: {
+        ...f,
+        ...p,
+        kind: f.kind,
+        parts: null,
+        required: p.required != null ? p.required : f.required
+      }
+    }));else out.push({
+      key: keyOf(f, i),
+      field: f
+    });
+  });
+  return out;
+}
+function ConsentLabel({
+  label,
+  link
+}) {
+  if (!link || !link.href) return label;
+  const text = link.text || 'integritetspolicy';
+  const at = label.toLowerCase().lastIndexOf(text.toLowerCase());
+  const a = /*#__PURE__*/React.createElement("a", {
+    href: link.href,
+    target: link.target,
+    onClick: e => e.stopPropagation()
+  }, at >= 0 ? label.slice(at, at + text.length) : text);
+  if (at < 0) return /*#__PURE__*/React.createElement(React.Fragment, null, label, " ", a);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, label.slice(0, at), a, label.slice(at + text.length));
+}
+function FormBlock({
+  heading,
+  intro,
+  showHeading = true,
+  showIntro = true,
+  headingId,
+  fields = [],
+  submit = 'Skicka',
+  successMessage,
+  errorMessage = 'Det gick inte att skicka formuläret. Försök igen om en stund.',
+  provider = {},
+  onSubmit,
+  native = false,
+  demoState,
+  demoValues,
+  style
+}) {
+  const uid = React.useId().replace(/:/g, '');
+  const hId = headingId || 'fb' + uid;
+  const formRef = React.useRef(null);
+  const flat = flatten(fields);
+  const [values, setValues] = React.useState(() => ({
+    ...(demoValues || {})
+  }));
+  const [touched, setTouched] = React.useState({});
+  const [tried, setTried] = React.useState(demoState === 'error');
+  const [phase, setPhase] = React.useState(demoState === 'sending' ? 'sending' : demoState === 'submitError' ? 'failed' : demoState === 'success' ? 'sent' : 'idle');
+  React.useEffect(() => {
+    setTried(demoState === 'error');
+    setPhase(demoState === 'sending' ? 'sending' : demoState === 'submitError' ? 'failed' : demoState === 'success' ? 'sent' : 'idle');
+  }, [demoState]);
+  const set = k => v => {
+    setValues(m => ({
+      ...m,
+      [k]: v
+    }));
+    if (phase === 'failed') setPhase('idle');
+  };
+  const blur = k => () => setTouched(t => values[k] ? {
+    ...t,
+    [k]: true
+  } : t);
+  const errorOf = (k, f) => (tried || touched[k] ? messageFor(f, values[k]) : null) || undefined;
+  const send = async e => {
+    e.preventDefault();
+    if (phase === 'sending') return;
+    setTried(true);
+    const bad = flat.filter(({
+      key,
+      field
+    }) => messageFor(field, values[key]));
+    if (bad.length) {
+      requestAnimationFrame(() => {
+        const el = formRef.current && formRef.current.querySelector('[aria-invalid="true"]');
+        if (el) el.focus();
+      });
+      return;
+    }
+    if (native && formRef.current) {
+      formRef.current.submit();
+      return;
+    }
+    setPhase('sending');
+    const data = formRef.current ? new FormData(formRef.current) : null;
+    try {
+      if (onSubmit) await onSubmit(values, data);else await new Promise(r => setTimeout(r, 1200)); /* no handler: a dry run, nothing leaves the page */
+      setPhase('sent');
+    } catch (err) {
+      setPhase('failed');
+    }
+  };
+  const sending = phase === 'sending';
+  const hasHead = showHeading && heading || showIntro && intro;
+  const renderField = (f, i) => {
+    const k = keyOf(f, i);
+    const common = {
+      name: f.name,
+      required: !!f.required,
+      optional: !f.required && f.kind !== 'consent',
+      hint: f.hint
+    };
+    if (f.kind === 'hidden') return /*#__PURE__*/React.createElement("input", {
+      key: k,
+      type: "hidden",
+      name: f.name,
+      value: f.value != null ? f.value : ''
+    });
+    if (f.parts && f.parts.length) {
+      return /*#__PURE__*/React.createElement("fieldset", {
+        key: k,
+        style: {
+          border: 0,
+          margin: 0,
+          padding: 0,
+          minWidth: 0
+        }
+      }, /*#__PURE__*/React.createElement("legend", {
+        className: "small",
+        style: {
+          display: 'block',
+          float: 'none',
+          maxWidth: 'none',
+          margin: 0,
+          marginBottom: 6,
+          padding: 0,
+          color: 'var(--text-primary)'
+        }
+      }, bare(f.label), f.required ? null : /*#__PURE__*/React.createElement("span", null, " (valfritt)")), /*#__PURE__*/React.createElement("div", {
+        style: {
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))',
+          gap: 'var(--space-3) var(--gutter)'
+        }
+      }, f.parts.map((p, j) => {
+        const pk = p.name || k + '-' + j;
+        const pf = {
+          ...f,
+          ...p,
+          parts: null,
+          required: p.required != null ? p.required : f.required
+        };
+        return /*#__PURE__*/React.createElement(__ds_scope.TextField, {
+          key: pk,
+          label: p.label,
+          labelAs: "placeholder",
+          name: p.name,
+          type: f.kind === 'text' ? 'text' : f.kind,
+          autoComplete: p.autoComplete,
+          required: !!pf.required,
+          value: values[pk] || '',
+          onChange: set(pk),
+          onBlur: blur(pk),
+          error: errorOf(pk, pf)
+        });
+      })));
+    }
+    switch (f.kind) {
+      case 'textarea':
+        return /*#__PURE__*/React.createElement(__ds_scope.TextArea, _extends({
+          key: k,
+          label: bare(f.label)
+        }, common, {
+          value: values[k] || '',
+          onChange: set(k),
+          onBlur: blur(k),
+          error: errorOf(k, f)
+        }));
+      case 'select':
+        return /*#__PURE__*/React.createElement(__ds_scope.Select, _extends({
+          key: k,
+          label: bare(f.label)
+        }, common, {
+          options: f.options || [],
+          placeholder: f.placeholder || 'Välj',
+          value: values[k] || '',
+          onChange: set(k),
+          onBlur: () => setTouched(t => ({
+            ...t,
+            [k]: true
+          })),
+          error: errorOf(k, f)
+        }));
+      case 'radio':
+        return /*#__PURE__*/React.createElement(__ds_scope.RadioGroup, _extends({
+          key: k,
+          legend: bare(f.label)
+        }, common, {
+          options: f.options || [],
+          columns: f.columns,
+          value: values[k] != null ? values[k] : null,
+          onChange: set(k),
+          error: errorOf(k, f)
+        }));
+      case 'checkbox':
+        if (f.options) return /*#__PURE__*/React.createElement(__ds_scope.CheckboxGroup, _extends({
+          key: k,
+          legend: bare(f.label)
+        }, common, {
+          options: f.options,
+          columns: f.columns,
+          value: values[k] || [],
+          onChange: set(k),
+          error: errorOf(k, f)
+        }));
+      /* falls through: a lone checkbox is a consent line */
+      case 'consent':
+        return /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
+          key: k,
+          name: f.name,
+          value: f.value != null ? f.value : 'true',
+          required: !!f.required,
+          checked: !!values[k],
+          onChange: set(k),
+          error: errorOf(k, f)
+        }, /*#__PURE__*/React.createElement(ConsentLabel, {
+          label: f.label,
+          link: f.link
+        }));
+      case 'file':
+        return /*#__PURE__*/React.createElement(__ds_scope.FileField, _extends({
+          key: k,
+          label: bare(f.label)
+        }, common, {
+          accept: f.accept,
+          multiple: !!f.multiple,
+          files: values[k] || [],
+          onChange: set(k),
+          error: errorOf(k, f)
+        }));
+      default:
+        return /*#__PURE__*/React.createElement(__ds_scope.TextField, _extends({
+          key: k,
+          label: bare(f.label)
+        }, common, {
+          type: f.kind === 'email' || f.kind === 'tel' ? f.kind : 'text',
+          autoComplete: f.autoComplete || (f.kind === 'email' ? 'email' : f.kind === 'tel' ? 'tel' : undefined),
+          inputMode: f.kind === 'tel' ? 'tel' : undefined,
+          placeholder: f.placeholder,
+          value: values[k] || '',
+          onChange: set(k),
+          onBlur: blur(k),
+          error: errorOf(k, f)
+        }));
+    }
+  };
+  const body = fields.filter(f => f.kind !== 'consent' && !(f.kind === 'checkbox' && !f.options));
+  const consent = fields.filter(f => f.kind === 'consent' || f.kind === 'checkbox' && !f.options);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    "data-form-block": "",
+    "data-provider": provider.name || undefined,
+    style: {
+      alignItems: 'start',
+      rowGap: 'var(--space-4)',
+      ...style
+    }
+  }, hasHead ? /*#__PURE__*/React.createElement("div", {
+    className: "place-half-left",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)'
+    }
+  }, showHeading && heading ? /*#__PURE__*/React.createElement("h2", {
+    id: hId,
+    className: "display-3",
+    style: {
+      margin: 0
+    }
+  }, heading) : null, showIntro && intro ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'var(--measure-small)',
+      color: 'var(--text-primary)',
+      textWrap: 'pretty'
+    }
+  }, intro) : null) : null, !(showHeading && heading) && heading ? /*#__PURE__*/React.createElement("h2", {
+    id: hId,
+    style: __ds_scope.srOnly
+  }, heading) : null, /*#__PURE__*/React.createElement("div", {
+    className: "place-half-right",
+    style: {
+      minWidth: 0
+    }
+  }, phase === 'sent' ? /*#__PURE__*/React.createElement("div", {
+    role: "status",
+    "aria-live": "polite",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "checkmark",
+    size: 24,
+    style: {
+      color: 'var(--text-primary)'
+    }
+  }), /*#__PURE__*/React.createElement("p", {
+    className: "display-3",
+    style: {
+      margin: 0,
+      textWrap: 'pretty'
+    }
+  }, successMessage || 'Tack, vi har tagit emot dina uppgifter.')) : /*#__PURE__*/React.createElement("form", {
+    ref: formRef,
+    action: provider.action,
+    method: provider.method || 'post',
+    encType: fields.some(f => f.kind === 'file') ? 'multipart/form-data' : undefined,
+    noValidate: true,
+    onSubmit: send,
+    "aria-labelledby": heading ? hId : undefined,
+    "aria-busy": sending ? 'true' : undefined
+  }, /*#__PURE__*/React.createElement("fieldset", {
+    disabled: sending,
+    style: {
+      border: 0,
+      margin: 0,
+      padding: 0,
+      minWidth: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      opacity: sending ? 0.6 : 1,
+      transition: 'opacity var(--dur-micro) var(--ease-quart)'
+    }
+  }, body.map(f => renderField(f, fields.indexOf(f))), consent.length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)'
+    }
+  }, consent.map(f => renderField(f, fields.indexOf(f)))) : null), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      gap: 'var(--space-2)',
+      marginTop: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    className: "cta cta--page-end target",
+    disabled: sending,
+    style: {
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: sending ? 'progress' : 'pointer',
+      textAlign: 'left'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-live": "polite"
+  }, sending ? 'Skickar' : submit)), phase === 'failed' ? /*#__PURE__*/React.createElement("p", {
+    role: "alert",
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      display: 'flex',
+      gap: 'var(--space-2)',
+      alignItems: 'flex-start',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "warning",
+    size: "sm",
+    style: {
+      marginTop: 2,
+      flex: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      textWrap: 'pretty'
+    }
+  }, errorMessage)) : null))));
+}
+
+/* ---------------------------------------------------------------------------
+   Adapter and embed policy. What the CMS embed block runs on a pasted snippet.
+   Pure functions on a string, so the CMS can run them server-side too. */
+
+const VIDEO_MAP = /(^|\.)(youtube\.com|youtube-nocookie\.com|youtu\.be|vimeo\.com|player\.vimeo\.com|google\.com\/maps|maps\.google\.|openstreetmap\.org|qbrick\.com)/i;
+const EMBED_REFUSAL = 'Formulär kan inte bäddas in som en ram från en annan webbplats. Använd blocket Formulär och välj formuläret där.';
+
+/* Known in-page form signatures. Add one per vendor: `test` on the form's
+   action, `provider` as the block receives it. */
+const FORM_SIGNATURES = [{
+  id: 'ungapped-subscription',
+  test: /ungapped\.io\/Api\/Subscriptions\//i,
+  provider: {
+    name: 'Ungapped',
+    form: 'subscription'
+  }
+}];
+function parse(html) {
+  if (typeof DOMParser === 'undefined') return null;
+  return new DOMParser().parseFromString(String(html || ''), 'text/html');
+}
+
+/* A pasted snippet → { ok, kind, message?, props? }.
+   kind: 'form' (re-rendered through FormBlock), 'media' (iframe allowed),
+   'refused' (cross-origin form frame or unknown form), 'none'. */
+function readEmbed(html) {
+  const doc = parse(html);
+  if (!doc) return {
+    ok: false,
+    kind: 'none'
+  };
+  const frame = doc.querySelector('iframe');
+  if (frame) {
+    const src = frame.getAttribute('src') || '';
+    if (VIDEO_MAP.test(src)) return {
+      ok: true,
+      kind: 'media'
+    };
+    return {
+      ok: false,
+      kind: 'refused',
+      message: EMBED_REFUSAL
+    };
+  }
+  const form = doc.querySelector('form');
+  if (!form) return {
+    ok: false,
+    kind: 'none'
+  };
+  const action = form.getAttribute('action') || '';
+  const sig = FORM_SIGNATURES.find(s => s.test.test(action));
+  if (!sig) return {
+    ok: false,
+    kind: 'refused',
+    message: EMBED_REFUSAL
+  };
+  const labelFor = el => {
+    const id = el.getAttribute('id');
+    const l = id && doc.querySelector('label[for="' + id + '"]') || el.closest('label');
+    return l ? l.textContent.replace(/\s+/g, ' ').trim() : el.getAttribute('placeholder') || el.getAttribute('name') || '';
+  };
+  const fields = [];
+  const groups = {};
+  form.querySelectorAll('input, select, textarea').forEach(el => {
+    const name = el.getAttribute('name');
+    if (!name) return;
+    const type = (el.getAttribute('type') || el.tagName).toLowerCase();
+    const required = el.hasAttribute('required');
+    if (type === 'submit' || type === 'button') return;
+    if (type === 'hidden') {
+      fields.push({
+        kind: 'hidden',
+        name,
+        value: el.getAttribute('value') || ''
+      });
+      return;
+    }
+    if (type === 'checkbox' || type === 'radio') {
+      const same = form.querySelectorAll('input[name="' + name + '"]');
+      if (same.length > 1) {
+        if (!groups[name]) {
+          const fs = el.closest('fieldset');
+          const legend = fs && fs.querySelector('legend');
+          groups[name] = {
+            kind: type,
+            name,
+            label: legend ? legend.textContent.trim() : name,
+            required,
+            options: []
+          };
+          fields.push(groups[name]);
+        }
+        groups[name].options.push({
+          value: el.getAttribute('value') || labelFor(el),
+          label: labelFor(el)
+        });
+        return;
+      }
+      fields.push({
+        kind: 'consent',
+        name,
+        label: labelFor(el),
+        value: el.getAttribute('value') || 'true',
+        required
+      });
+      return;
+    }
+    if (type === 'select') {
+      fields.push({
+        kind: 'select',
+        name,
+        label: labelFor(el),
+        required,
+        options: Array.from(el.querySelectorAll('option')).filter(o => o.value).map(o => ({
+          value: o.value,
+          label: o.textContent.trim()
+        }))
+      });
+      return;
+    }
+    const kind = type === 'textarea' ? 'textarea' : type === 'email' ? 'email' : type === 'tel' ? 'tel' : type === 'file' ? 'file' : 'text';
+    fields.push({
+      kind,
+      name,
+      label: labelFor(el),
+      required
+    });
+  });
+  const btn = form.querySelector('button[type="submit"], input[type="submit"], button:not([type])');
+  return {
+    ok: true,
+    kind: 'form',
+    signature: sig.id,
+    props: {
+      provider: {
+        ...sig.provider,
+        action,
+        method: (form.getAttribute('method') || 'post').toLowerCase(),
+        status: 'live'
+      },
+      fields,
+      submit: btn ? (btn.value || btn.textContent).trim() : 'Skicka'
+    }
+  };
+}
+
+/* Reachable from the bundle namespace as FormBlock.readEmbed. */
+FormBlock.readEmbed = readEmbed;
+FormBlock.signatures = FORM_SIGNATURES;
+FormBlock.embedRefusal = EMBED_REFUSAL;
+Object.assign(__ds_scope, { FORM_EXAMPLES: __ds_scope.FORM_EXAMPLES, FormBlock, EMBED_REFUSAL, FORM_SIGNATURES, readEmbed });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/FormBlock.jsx", error: String((e && e.message) || e) }); }
+
 // components/layout/CtaBlock.jsx
 try { (() => {
 /* display-3 underlined link on inverted ink ground with paper type,
@@ -18424,6 +23441,237 @@ function CtaBlock({
 }
 Object.assign(__ds_scope, { CtaBlock });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/CtaBlock.jsx", error: String((e && e.message) || e) }); }
+
+// components/layout/Feature.jsx
+try { (() => {
+/* One story lifted out of the page's run: a film, a programme, an initiative
+   (The Seat). Where the old site set it as a dark banner with centred type
+   and a button, this is set in the house vocabulary: flush left, an
+   underlined link, and the photograph as a light RasterField edge to edge
+   with the text set on top of it.
+
+   With `film` it is the film block: the still as the same raster, the title
+   centred over it and "Spela filmen" under it as a display-3 underlined link. Play swaps the raster
+   for the player in place, 16:9 on the full grid, with a close under it. */
+
+const withAutoplay = u => {
+  const s = String(u || '');
+  return s + (s.includes('?') ? '&' : '?') + 'autoplay=1';
+};
+
+/* Play is a link in the house voice, not a disc: the display-3 serif,
+   underlined as CtaLink page-end is. Words only, no glyph. */
+function PlayButton({
+  label,
+  name,
+  onClick
+}) {
+  const [h, setH] = React.useState(false);
+  return /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClick,
+    onMouseEnter: () => setH(true),
+    onMouseLeave: () => setH(false),
+    "aria-label": name,
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      cursor: 'pointer',
+      display: 'inline-flex',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)',
+      color: 'var(--text-primary)',
+      fontFamily: 'var(--font-display)',
+      fontWeight: 'var(--weight-book)',
+      fontSize: 'var(--display-3)',
+      lineHeight: 'var(--lh-display-3)',
+      letterSpacing: 'var(--tracking-display-3)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      textDecoration: 'underline',
+      textDecorationColor: h ? 'var(--underline-active)' : 'var(--underline-rest)',
+      textDecorationThickness: h ? 2 : 1,
+      textUnderlineOffset: h ? '.30em' : '.18em',
+      transition: 'text-underline-offset 450ms var(--ease-expo), text-decoration-color 450ms var(--ease-expo)'
+    }
+  }, label));
+}
+function Feature({
+  level = 0.5,
+  kicker,
+  heading,
+  body,
+  link,
+  imageSrc,
+  imageAlt = '',
+  film,
+  playLabel = 'Spela filmen',
+  closeLabel = 'Stäng filmen',
+  style
+}) {
+  const [playing, setPlaying] = React.useState(false);
+  if (film) {
+    return /*#__PURE__*/React.createElement("section", {
+      "data-feature": "film",
+      style: style
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "full-bleed",
+      style: {
+        position: 'relative',
+        overflow: 'hidden',
+        display: 'grid',
+        alignContent: 'center',
+        minHeight: 'min(78svh, 760px)',
+        paddingBlock: 'var(--section-gap)'
+      }
+    }, playing ? null : /*#__PURE__*/React.createElement(__ds_scope.RasterField, {
+      src: imageSrc,
+      alt: imageAlt,
+      level: level
+    }), /*#__PURE__*/React.createElement("div", {
+      className: "grid",
+      style: {
+        position: 'relative',
+        justifyItems: 'center',
+        textAlign: 'center'
+      }
+    }, playing ? /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: '1 / -1',
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: 'var(--space-4)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        position: 'relative',
+        width: '100%',
+        aspectRatio: '16 / 9',
+        background: 'var(--ink)'
+      }
+    }, /*#__PURE__*/React.createElement("iframe", {
+      src: withAutoplay(film),
+      title: typeof heading === 'string' ? heading : 'Film',
+      allow: "autoplay; fullscreen; picture-in-picture",
+      allowFullScreen: true,
+      style: {
+        position: 'absolute',
+        inset: 0,
+        width: '100%',
+        height: '100%',
+        border: 0
+      }
+    })), /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      onClick: () => setPlaying(false),
+      style: {
+        all: 'unset',
+        cursor: 'pointer'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        textDecoration: 'underline',
+        textUnderlineOffset: '.18em',
+        color: 'var(--text-primary)'
+      }
+    }, closeLabel))) : /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: '1 / -1',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: 'var(--space-5)'
+      }
+    }, kicker ? /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        color: 'var(--text-secondary)'
+      }
+    }, kicker) : null, /*#__PURE__*/React.createElement("h2", {
+      className: "display-2",
+      style: {
+        margin: 0,
+        maxWidth: 'none'
+      }
+    }, heading), body ? /*#__PURE__*/React.createElement("p", {
+      className: "prose",
+      style: {
+        margin: 0,
+        marginInline: 'auto'
+      }
+    }, body) : null, /*#__PURE__*/React.createElement(PlayButton, {
+      label: playLabel,
+      name: playLabel + (typeof heading === 'string' ? ': ' + heading : ''),
+      onClick: () => setPlaying(true)
+    }), link ? /*#__PURE__*/React.createElement("p", {
+      style: {
+        margin: 0
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+      href: link.href,
+      variant: "secondary"
+    }, link.label)) : null))));
+  }
+  return /*#__PURE__*/React.createElement("section", {
+    "data-feature": "",
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "full-bleed",
+    style: {
+      position: 'relative',
+      overflow: 'hidden',
+      display: 'grid',
+      alignContent: 'center',
+      minHeight: 'min(78svh, 760px)',
+      paddingBlock: 'var(--section-gap)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.RasterField, {
+    src: imageSrc,
+    alt: imageAlt,
+    level: level
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      alignItems: 'start',
+      position: 'relative'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-f-head": ""
+  }, kicker ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      color: 'var(--text-secondary)'
+    }
+  }, kicker) : null, /*#__PURE__*/React.createElement("h2", {
+    className: "display-2",
+    style: {
+      margin: kicker ? 'var(--space-2) 0 0' : 0,
+      maxWidth: 'none'
+    }
+  }, heading)), /*#__PURE__*/React.createElement("div", {
+    "data-f-txt": ""
+  }, body ? /*#__PURE__*/React.createElement("p", {
+    className: "prose",
+    style: {
+      margin: 0
+    }
+  }, body) : null, link ? /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 'var(--space-4) 0 0'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: link.href,
+    variant: "secondary"
+  }, link.label)) : null))));
+}
+Object.assign(__ds_scope, { Feature });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/Feature.jsx", error: String((e && e.message) || e) }); }
 
 // components/layout/Hero.jsx
 try { (() => {
@@ -18463,13 +23711,30 @@ Object.assign(__ds_scope, { Hero });
 
 // components/layout/ImageTextPair.jsx
 try { (() => {
-/* Image on cols 1 to 4, text on 6 to 8, vertically offset by space-5 so the
-   baseline never aligns. */
+const RATIO_FOR = {
+  large: '1:1',
+  medium: '3:4',
+  small: '2:3'
+};
+const RATIO2_FOR = {
+  large: '4:5',
+  medium: '4:5',
+  small: '3:4'
+};
+
+/* Text above the image, on the column line the image starts on, never beside
+   it — the Matters arrangement with one photograph. Placements per scale live
+   in tokens/grid.css under [data-pair]. Images print with ImageReveal, like
+   every photograph on a content page. On a page the scale is not chosen by the
+   editor: a run of pairs cycles large, medium, small. */
 function ImageTextPair({
+  scale = 'large',
   imageSrc,
   imageAlt = '',
-  ratio = '3:2',
+  ratio,
   caption,
+  secondImageSrc,
+  secondImageAlt = '',
   heading,
   body,
   cta,
@@ -18482,34 +23747,45 @@ function ImageTextPair({
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "grid",
-    style: {
-      alignItems: 'start'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
-    className: "place-pair-image",
-    src: imageSrc,
-    alt: imageAlt,
-    ratio: ratio,
-    caption: caption
-  }), /*#__PURE__*/React.createElement("div", {
-    className: "place-pair-text",
-    style: {
-      marginTop: 'var(--space-5)'
-    }
+    "data-pair": scale
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-pair-txt": ""
   }, heading ? /*#__PURE__*/React.createElement("h2", {
     className: "display-3",
     style: {
-      marginBottom: 'var(--space-3)'
+      margin: '0 0 var(--space-6)'
     }
   }, heading) : null, body ? /*#__PURE__*/React.createElement("p", {
-    className: "prose"
+    className: "prose",
+    style: {
+      margin: 0
+    }
   }, body) : null, cta ? /*#__PURE__*/React.createElement("p", {
     style: {
-      marginTop: 'var(--space-4)'
+      margin: 'var(--space-4) 0 0'
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: cta.href
-  }, cta.label)) : null)));
+    href: cta.href,
+    variant: "secondary"
+  }, cta.label)) : null), /*#__PURE__*/React.createElement("div", {
+    "data-pair-img": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+    src: imageSrc,
+    alt: imageAlt,
+    ratio: ratio || RATIO_FOR[scale] || '1:1'
+  }), caption ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 'var(--space-2) 0 0',
+      color: 'var(--text-secondary)'
+    }
+  }, caption) : null), secondImageSrc ? /*#__PURE__*/React.createElement("div", {
+    "data-pair-img2": ""
+  }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+    src: secondImageSrc,
+    alt: secondImageAlt,
+    ratio: RATIO2_FOR[scale] || '4:5'
+  })) : null));
 }
 Object.assign(__ds_scope, { ImageTextPair });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/ImageTextPair.jsx", error: String((e && e.message) || e) }); }
@@ -18823,9 +24099,9 @@ function PromptHero({
     src: dotSrc || undefined,
     origin: origin,
     playKey: plays,
-    pitch: 3.5,
+    pitch: 4,
     duration: 1000,
-    intensity: 0.9,
+    intensity: 1,
     style: {
       inset: 0
     }
@@ -19055,22 +24331,67 @@ function useRise(ref, delay, play) {
     const el = ref.current;
     if (!el || !play) return undefined;
     const reduce = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const a = el.animate([{
-      transform: RISE_DISTANCE
-    }, {
-      transform: 'translateY(0)'
-    }], reduce ? {
-      duration: 1,
-      fill: 'both'
-    } : {
-      duration: RISE_DURATION,
-      delay,
-      easing: RISE_EASING,
-      fill: 'both'
-    });
+    /* The line waits under its mask until its own face has loaded, so the
+       rise never plays in the fallback and swaps mid-motion. Capped, so a
+       font that never arrives cannot hold the page title back for good. */
+    let a = null;
+    let dead = false;
+    const start = () => {
+      if (dead || a) return;
+      a = el.animate([{
+        transform: RISE_DISTANCE
+      }, {
+        transform: 'translateY(0)'
+      }], reduce ? {
+        duration: 1,
+        fill: 'both'
+      } : {
+        duration: RISE_DURATION,
+        delay,
+        easing: RISE_EASING,
+        fill: 'both'
+      });
+    };
+    const fonts = typeof document !== 'undefined' && document.fonts;
+    let cap = 0;
+    let poll = 0;
+    if (fonts && fonts.load) {
+      const strip = s => s.trim().replace(/^["']|["']$/g, '');
+      /* The stylesheet may be injected after this runs. Until it applies, the
+         computed family is the browser default and its @font-face is not
+         registered, so check() would pass for the wrong face. Re-read both on
+         every poll. */
+      const go = () => {
+        if (dead) return;
+        const cs = getComputedStyle(el);
+        const fam = strip(cs.fontFamily.split(',')[0]);
+        const faces = [];
+        fonts.forEach(f => {
+          if (strip(f.family) === fam) faces.push(f);
+        });
+        if (!faces.length) {
+          poll = window.setTimeout(go, 40);
+          return;
+        }
+        /* Every registered copy of the face must be in: the stylesheet can be
+           linked twice, and a set-level check passes on whichever copy is
+           first, before the one the browser actually draws with. */
+        const pending = faces.filter(f => f.status !== 'loaded' && f.status !== 'error');
+        if (!pending.length) {
+          start();
+          return;
+        }
+        Promise.all(pending.map(f => f.load().catch(() => null))).then(() => fonts.ready).then(start, start);
+      };
+      cap = window.setTimeout(start, 3000);
+      go();
+    } else start();
     return () => {
+      dead = true;
+      window.clearTimeout(cap);
+      window.clearTimeout(poll);
       try {
-        a.cancel();
+        if (a) a.cancel();
       } catch (e) {/* torn down */}
     };
   }, [ref, delay, play]);
@@ -19540,6 +24861,67 @@ function Testimonials({
     tween.current = window.requestAnimationFrame(step);
   };
   if (!n) return null;
+
+  /* One quote: the same mark, face and fill, standing still. No track, no
+     peek, no arrows; it fills as it is scrolled past, like any passage. This is
+     the content page's quote (Påstående, quote variant). */
+  if (n === 1) {
+    const it = items[0];
+    return /*#__PURE__*/React.createElement("section", {
+      id: id,
+      className: "grid",
+      style: {
+        paddingBlock: 'var(--space-7)',
+        ...style
+      }
+    }, label ? /*#__PURE__*/React.createElement("p", {
+      className: "small place-label",
+      style: {
+        margin: 0,
+        color: 'var(--text-secondary)'
+      }
+    }, label) : null, /*#__PURE__*/React.createElement("figure", {
+      style: {
+        gridColumn: '1 / -1',
+        margin: 0,
+        textAlign: 'center'
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      "aria-hidden": "true",
+      style: {
+        margin: 0,
+        fontFamily: 'var(--font-display)',
+        fontSize: 'clamp(5rem, 11vw, 11rem)',
+        lineHeight: 0.66,
+        height: '0.5em',
+        color: 'var(--text-primary)'
+      }
+    }, quoteMark), /*#__PURE__*/React.createElement("div", {
+      style: {
+        marginTop: 'var(--space-5)',
+        marginInline: 'auto',
+        maxWidth: Math.round(width * 100) + '%'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.WordFill, {
+      as: "blockquote",
+      style: {
+        margin: 0,
+        fontFamily: 'var(--font-display)',
+        fontWeight: 'var(--weight-book)',
+        fontSize: 'var(--display-2)',
+        lineHeight: 'var(--lh-display-passage)',
+        letterSpacing: 'var(--tracking-display-2)',
+        textWrap: 'pretty'
+      }
+    }, it.quote), it.source ? /*#__PURE__*/React.createElement("figcaption", {
+      className: "small",
+      style: {
+        marginTop: 'var(--space-4)',
+        marginInline: 'auto',
+        color: 'var(--text-secondary)'
+      }
+    }, it.source) : null)));
+  }
   const list = [];
   for (let c = 0; c < COPIES; c++) for (let i = 0; i < n; i++) list.push({
     ...items[i],
@@ -19664,6 +25046,58 @@ function Testimonials({
 Object.assign(__ds_scope, { Testimonials });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Testimonials.jsx", error: String((e && e.message) || e) }); }
 
+// components/blocks/StatementBlock.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* Påstående: one sentence or one quote, given room. One block, two variants.
+
+   statement — one sentence at display-2 on the wide statement columns, filled
+               word by word on scroll. Nothing under it.
+   quote     — the person page's quote: Testimonials in its single mode. The
+               mark at page scale, the quote centred at display-2, the source
+               under it.
+
+   No carousel and no image: the carousel is its own block (ContentCarousel). */
+
+function StatementBlock({
+  variant = 'statement',
+  text,
+  source,
+  style,
+  ...rest
+}) {
+  if (!text) return null;
+  if (variant === 'quote') {
+    return /*#__PURE__*/React.createElement(__ds_scope.Testimonials, _extends({
+      items: [{
+        quote: text,
+        source
+      }],
+      style: style
+    }, rest));
+  }
+  return /*#__PURE__*/React.createElement("div", _extends({
+    "data-statement-block": "statement",
+    className: "grid",
+    style: {
+      paddingBlock: '0 var(--space-6)',
+      marginTop: 'calc(var(--section-gap) / -8)',
+      ...style
+    }
+  }, rest), /*#__PURE__*/React.createElement("div", {
+    className: "display-2 place-statement-wide",
+    style: {
+      maxWidth: 'none'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.WordFill, {
+    style: {
+      margin: 0
+    }
+  }, text)));
+}
+Object.assign(__ds_scope, { StatementBlock });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/StatementBlock.jsx", error: String((e && e.message) || e) }); }
+
 // components/navigation/Breadcrumbs.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -19682,6 +25116,22 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    opens with. Callers pass the trail and nothing else, so the trail sits on
    exactly the same line on every page. */
 
+/* A long current-page label is shortened at a whole word, within a budget that
+   still fits four levels on one line at desktop width. It prefers to stop at a
+   sentence end, and never ends on a dangling small word ("för", "och", "–").
+   The full title is the h1 right below, and stays on the item as its title. */
+const CRUMB_MAX = 36;
+const CRUMB_WEAK = new Set(['och', 'att', 'för', 'till', 'av', 'i', 'på', 'med', 'om', 'en', 'ett', 'som', 'vid', 'under', 'mer', 'the', 'of', 'and', 'by', '&', '–', '-', '—']);
+function shortenCrumb(s, max = CRUMB_MAX) {
+  if (!s || s.length <= max) return s;
+  const head = s.slice(0, max + 1);
+  const stop = head.search(/[.!?:](?=\s)/);
+  if (stop > max / 3) return s.slice(0, stop) + '…';
+  const words = head.split(/\s+/);
+  if (head.length > max) words.pop();
+  while (words.length > 1 && CRUMB_WEAK.has(words[words.length - 1].toLowerCase())) words.pop();
+  return words.join(' ').replace(/[\s,.;:–—-]+$/, '') + '…';
+}
 function Breadcrumbs({
   items = [],
   label = 'Brödsmulor',
@@ -19702,6 +25152,7 @@ function Breadcrumbs({
     className: "small",
     style: {
       gridColumn: '1 / -1',
+      maxWidth: 'none',
       listStyle: 'none',
       margin: 0,
       padding: 0,
@@ -19722,7 +25173,24 @@ function Breadcrumbs({
       style: {
         color: 'var(--ink-55)'
       }
-    }, "/") : null, /*#__PURE__*/React.createElement("li", null, last || !href ? /*#__PURE__*/React.createElement("span", {
+    }, "/") : null, /*#__PURE__*/React.createElement("li", null, last || !href ? last && shortenCrumb(label) !== label ? /*#__PURE__*/React.createElement("span", {
+      "aria-current": "page",
+      title: label,
+      style: {
+        color: 'var(--text-primary)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true"
+    }, shortenCrumb(label)), /*#__PURE__*/React.createElement("span", {
+      style: {
+        position: 'absolute',
+        width: 1,
+        height: 1,
+        overflow: 'hidden',
+        clip: 'rect(0 0 0 0)',
+        whiteSpace: 'nowrap'
+      }
+    }, label)) : /*#__PURE__*/React.createElement("span", {
       "aria-current": last ? 'page' : undefined,
       style: {
         color: last ? 'var(--text-primary)' : 'inherit'
@@ -19746,71 +25214,8 @@ function Breadcrumbs({
     }, label)));
   })));
 }
-Object.assign(__ds_scope, { Breadcrumbs });
+Object.assign(__ds_scope, { shortenCrumb, Breadcrumbs });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/Breadcrumbs.jsx", error: String((e && e.message) || e) }); }
-
-// components/layout/PageBanner.jsx
-try { (() => {
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-/* The opener every listing and section page shares: the trail, then the page's
-   own name set at display-1 on the left columns, and nothing else across from
-   it. No image, no lead paragraph as a rule — where a page needs one it takes
-   `intro`, on the reading column under the title, so the title still owns the
-   first line of the page.
-
-   It renders the trail itself. A page banner without breadcrumbs is a page
-   that has forgotten where it is filed, and passing `trail` here is one less
-   thing for each page to place. Pages that put the trail somewhere else — over
-   an article's photograph, say — leave `trail` out and mount `Breadcrumbs`
-   themselves.
-
-   Use `Hero` instead where the page opens on a photograph: that is a different
-   opening, not a variant of this one. */
-
-function PageBanner({
-  title,
-  intro,
-  meta,
-  trail,
-  style,
-  ...rest
-}) {
-  return /*#__PURE__*/React.createElement("header", _extends({
-    style: {
-      paddingBottom: 'var(--space-8)',
-      ...style
-    }
-  }, rest), trail && trail.length ? /*#__PURE__*/React.createElement(__ds_scope.Breadcrumbs, {
-    items: trail
-  }) : null, /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      paddingTop: 'var(--space-6)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "place-hero"
-  }, /*#__PURE__*/React.createElement("h1", {
-    className: "display-1",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.RiseIn, null, title))), intro ? /*#__PURE__*/React.createElement("p", {
-    className: "lead place-lead",
-    style: {
-      margin: 'var(--space-4) 0 0',
-      color: 'var(--text-secondary)'
-    }
-  }, intro) : null, meta ? /*#__PURE__*/React.createElement("p", {
-    className: "small place-note",
-    style: {
-      margin: 'var(--space-4) 0 0',
-      color: 'var(--text-secondary)'
-    }
-  }, meta) : null));
-}
-Object.assign(__ds_scope, { PageBanner });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/PageBanner.jsx", error: String((e && e.message) || e) }); }
 
 // components/navigation/ClosingFooter.jsx
 try { (() => {
@@ -19917,7 +25322,7 @@ function ClosingFooter({
   finderDotSrc = null,
   logoSrc = null,
   legal = DEFAULT_LEGAL,
-  entity = '© Advokatfirman Vinge KB · org. nr 916618-4714',
+  entity = '© Advokatfirman Vinge KB, org. nr 916618-4714',
   /* One descriptive line under the mark in the left column: fine print, not
      content. */
   byline = 'Affärsjuridisk fullservicebyrå med kontor i Stockholm, Göteborg, Malmö och Bryssel.',
@@ -21144,6 +26549,405 @@ function OnThisPage({
 Object.assign(__ds_scope, { OnThisPage });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/OnThisPage.jsx", error: String((e && e.message) || e) }); }
 
+// components/navigation/SectionNav.jsx
+try { (() => {
+const norm = h => String(h || '').split('#')[0].split('?')[0].replace(/\/+$/, '') || '/';
+const slug = s => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+/* The pages of one section, as a compact index in the voice of OnThisPage:
+   small type in secondary ink, the section name over it in full ink, dense
+   rows, and the page being read stepped in off an en dash. Every group is
+   closed to one row; a + folds its pages out. The group the reader is in
+   carries the dash while closed, so the position reads without opening
+   anything.
+
+   Placement is PageBanner's: pass it as `nav` and the banner puts it on the
+   note columns, top-aligned with the trail, sticky within the banner only. Below LG it falls into the banner's flow under the title. */
+
+const linkHover = {
+  onMouseEnter: e => {
+    e.currentTarget.style.color = 'var(--text-primary)';
+    e.currentTarget.style.textDecoration = 'underline';
+    e.currentTarget.style.textDecorationThickness = '1px';
+  }
+};
+function Row({
+  on,
+  href,
+  current,
+  onClick,
+  children,
+  controls,
+  expanded,
+  toggleLabel
+}) {
+  const pad = '0.15rem';
+  /* Hovering a group's own link turns its + into an arrow: the row is about
+     to go somewhere, not to fold. */
+  const [hot, setHot] = React.useState(false);
+  const linkRef = React.useRef(null);
+  const btnRef = React.useRef(null);
+  const text = /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: pad,
+      opacity: on ? 1 : 0,
+      transition: 'opacity 260ms var(--ease-expo)'
+    }
+  }, '\u2013'), children);
+  const textStyle = {
+    display: 'block',
+    flex: '1 1 auto',
+    minWidth: 0,
+    position: 'relative',
+    padding: pad + ' 0',
+    paddingLeft: on ? '1.1em' : 0,
+    transition: 'padding-left 260ms var(--ease-expo), color 160ms ease',
+    color: on ? 'var(--text-primary)' : 'inherit',
+    textDecoration: 'none',
+    textUnderlineOffset: '0.16em'
+  };
+  const leave = e => {
+    e.currentTarget.style.color = on ? 'var(--text-primary)' : 'inherit';
+    e.currentTarget.style.textDecoration = 'none';
+  };
+  const enterLink = e => {
+    linkHover.onMouseEnter(e);
+    setHot(true);
+  };
+  /* Sliding from the link onto the icon keeps the arrow, and the arrow then
+     follows the link. Entering the icon from anywhere else shows the + and
+     folds. */
+  const leaveLink = e => {
+    leave(e);
+    if (e.relatedTarget && btnRef.current && btnRef.current.contains(e.relatedTarget)) return;
+    setHot(false);
+  };
+  const onToggle = e => {
+    if (arrowRef.current && linkRef.current) {
+      e.preventDefault();
+      linkRef.current.click();
+      return;
+    }
+    onClick(e);
+  };
+  const arrowRef = React.useRef(false);
+  const arrow = hot && !!href;
+  arrowRef.current = arrow;
+  return /*#__PURE__*/React.createElement("div", {
+    "data-sn-row": "",
+    style: {
+      display: 'flex',
+      alignItems: 'flex-start',
+      gap: 'var(--space-2)'
+    }
+  }, href ? /*#__PURE__*/React.createElement("a", {
+    ref: linkRef,
+    href: href,
+    "aria-current": current,
+    style: textStyle,
+    onMouseEnter: enterLink,
+    onMouseLeave: leaveLink,
+    onFocus: () => setHot(true),
+    onBlur: () => setHot(false)
+  }, text) : /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClick,
+    "aria-expanded": expanded,
+    "aria-controls": controls,
+    style: {
+      all: 'unset',
+      cursor: 'pointer',
+      boxSizing: 'border-box',
+      ...textStyle
+    },
+    onMouseEnter: linkHover.onMouseEnter,
+    onMouseLeave: leave
+  }, text), onClick ? /*#__PURE__*/React.createElement("button", {
+    ref: btnRef,
+    type: "button",
+    "data-sn-toggle": "",
+    onClick: onToggle,
+    onMouseLeave: () => setHot(false),
+    "aria-expanded": expanded,
+    "aria-controls": controls,
+    "aria-label": toggleLabel,
+    style: {
+      all: 'unset',
+      cursor: 'pointer',
+      flex: 'none',
+      display: 'grid',
+      placeItems: 'center',
+      width: '1.5em',
+      height: 'calc(1lh + 0.3rem)',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'grid'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: arrow ? 'arrow--right' : expanded ? 'subtract' : 'add',
+    size: "sm"
+  }))) : null);
+}
+
+/* A group whose hub is also listed as its own first page ("Lediga jobb" under
+   Lediga jobb) would show the same line twice. The entry is lifted onto the
+   group row instead: the label becomes the link, the + folds the rest. */
+const tidy = groups => groups.map(g => {
+  const items = g.items || [];
+  const same = items.find(i => i.label === g.label || g.href && norm(i.href) === norm(g.href));
+  if (!same) return g;
+  return {
+    ...g,
+    href: g.href || same.href,
+    items: items.filter(i => i !== same)
+  };
+});
+function SectionNav({
+  label,
+  href,
+  groups: rawGroups = [],
+  current,
+  openCurrent = true,
+  style
+}) {
+  const groups = tidy(rawGroups);
+  const cur = norm(current);
+  const all = [];
+  if (href) all.push(norm(href));
+  groups.forEach(g => {
+    if (g.href) all.push(norm(g.href));
+    (g.items || []).forEach(i => all.push(norm(i.href)));
+  });
+  /* A page deeper than the list marks its nearest listed ancestor instead. */
+  let anc = null;
+  if (!all.includes(cur)) all.forEach(h => {
+    if (h !== norm(href) && cur.indexOf(h + '/') === 0 && (!anc || h.length > anc.length)) anc = h;
+  });
+  const mark = h => {
+    const n = norm(h);
+    return n === cur ? 'page' : n === anc ? 'true' : undefined;
+  };
+  const inGroup = g => !!(g.href && mark(g.href) || (g.items || []).some(i => mark(i.href)));
+  const here = groups.findIndex(inGroup);
+  /* The reader's group arrives unfolded, with the page marked inside it. */
+  const [open, setOpen] = React.useState(() => openCurrent && here >= 0 ? {
+    [here]: true
+  } : {});
+  React.useEffect(() => {
+    setOpen(openCurrent && here >= 0 ? {
+      [here]: true
+    } : {});
+  }, [cur, openCurrent]);
+  const id = 'sn-' + slug(label || 'nav');
+  const top = href ? mark(href) : undefined;
+  return /*#__PURE__*/React.createElement("nav", {
+    "aria-label": 'Sidor i ' + label,
+    className: "small",
+    "data-section-nav": "",
+    style: {
+      color: 'var(--text-secondary)',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: '0 0 var(--space-2)',
+      color: 'var(--text-primary)'
+    }
+  }, href && top !== 'page' ? /*#__PURE__*/React.createElement("a", {
+    href: href,
+    "aria-current": top,
+    style: {
+      color: 'inherit',
+      fontSize: 'inherit'
+    }
+  }, label) : /*#__PURE__*/React.createElement("span", {
+    "aria-current": top
+  }, label)), /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, groups.map((g, gi) => {
+    const isOpen = !!open[gi];
+    const pid = id + '-' + slug(g.label);
+    const toggle = () => setOpen(s => ({
+      ...s,
+      [gi]: !s[gi]
+    }));
+    const has = (g.items || []).length > 0;
+    return /*#__PURE__*/React.createElement("li", {
+      key: g.label
+    }, /*#__PURE__*/React.createElement(Row, {
+      on: gi === here && !isOpen || g.href && mark(g.href) === 'page',
+      href: g.href,
+      current: g.href ? mark(g.href) : undefined,
+      onClick: has ? toggle : undefined,
+      expanded: has ? isOpen : undefined,
+      controls: has ? pid : undefined,
+      toggleLabel: (isOpen ? 'Dölj ' : 'Visa ') + g.label
+    }, g.label), has ? /*#__PURE__*/React.createElement("div", {
+      id: pid,
+      style: {
+        display: 'grid',
+        gridTemplateRows: isOpen ? '1fr' : '0fr',
+        transition: 'grid-template-rows var(--dur-reveal) var(--ease-expo)'
+      },
+      inert: isOpen ? undefined : ''
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("ul", {
+      style: {
+        listStyle: 'none',
+        margin: 0,
+        padding: '0 0 var(--space-1) var(--space-2)',
+        opacity: isOpen ? 1 : 0,
+        transition: 'opacity var(--dur-reveal) var(--ease-expo)'
+      }
+    }, g.items.map(it => {
+      const m = mark(it.href);
+      return /*#__PURE__*/React.createElement("li", {
+        key: it.href
+      }, /*#__PURE__*/React.createElement(Row, {
+        on: !!m,
+        href: it.href,
+        current: m
+      }, it.label));
+    })))) : null);
+  })));
+}
+Object.assign(__ds_scope, { SectionNav });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/SectionNav.jsx", error: String((e && e.message) || e) }); }
+
+// components/layout/PageBanner.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* The opener every listing and section page shares: the trail, then the page's
+   own name set at display-1 on the left columns, and nothing else across from
+   it. No image, no lead paragraph as a rule — where a page needs one it takes
+   `intro`, a `.lead-display` serif preamble on the title's own columns, so the
+   title still owns the first line of the page.
+
+   It renders the trail itself. A page banner without breadcrumbs is a page
+   that has forgotten where it is filed, and passing `trail` here is one less
+   thing for each page to place. Pages that put the trail somewhere else — over
+   an article's photograph, say — leave `trail` out and mount `Breadcrumbs`
+   themselves.
+
+   `nav` takes the section's index (SectionNav). At LG it stands top right,
+   level with the title, and stays pinned under the header only while the
+   banner is on screen: the layer runs from the title to the banner's own
+   bottom edge and the index is sticky inside it, so it leaves with the banner. At MD it does
+   the same on the four-column grid's last column; below MD it falls into the
+   banner's flow under the title.
+
+   Use `Hero` instead where the page opens on a photograph: that is a different
+   opening, not a variant of this one. */
+
+/* `section` is the same index as plain data ({ label, href, groups, current }),
+   for templates: a page passes data across, never a rendered element. */
+function PageBanner({
+  title,
+  intro,
+  meta,
+  trail,
+  nav: navNode,
+  section,
+  style,
+  ...rest
+}) {
+  const nav = navNode || (section && section.groups ? /*#__PURE__*/React.createElement(__ds_scope.SectionNav, section) : null);
+  const headRef = React.useRef(null);
+  const titleRef = React.useRef(null);
+  const [run, setRun] = React.useState(null);
+  React.useLayoutEffect(() => {
+    if (!nav) return;
+    const head = headRef.current,
+      t = titleRef.current;
+    if (!head || !t) return;
+    let frame = 0;
+    const measure = () => {
+      frame = 0;
+      const hb = head.getBoundingClientRect(),
+        tb = t.getBoundingClientRect();
+      const next = {
+        top: Math.round(tb.top - hb.top),
+        height: Math.max(0, Math.round(hb.bottom - tb.top))
+      };
+      setRun(p => p && p.top === next.top && p.height === next.height ? p : next);
+    };
+    const on = () => {
+      if (!frame) frame = requestAnimationFrame(measure);
+    };
+    measure();
+    const ro = new ResizeObserver(on);
+    ro.observe(head);
+    addEventListener('resize', on);
+    return () => {
+      ro.disconnect();
+      removeEventListener('resize', on);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [!!nav]);
+  return /*#__PURE__*/React.createElement("header", _extends({
+    ref: headRef,
+    style: {
+      position: 'relative',
+      paddingBottom: 'var(--space-5)',
+      ...style
+    }
+  }, rest), trail && trail.length ? /*#__PURE__*/React.createElement(__ds_scope.Breadcrumbs, {
+    items: trail
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    ref: titleRef,
+    className: "grid",
+    style: {
+      paddingTop: 'var(--space-8)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "place-hero"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "display-1",
+    style: {
+      margin: 0,
+      maxWidth: 'none'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.RiseIn, null, title))), intro ? /*#__PURE__*/React.createElement("p", {
+    className: "lead-display place-hero",
+    style: {
+      margin: 'var(--space-6) 0 0',
+      color: 'var(--text-primary)'
+    }
+  }, intro) : null, meta ? /*#__PURE__*/React.createElement("p", {
+    className: "small place-note",
+    style: {
+      margin: 'var(--space-4) 0 0',
+      color: 'var(--text-secondary)'
+    }
+  }, meta) : null), nav ? /*#__PURE__*/React.createElement("div", {
+    "data-banner-nav-run": "",
+    style: run ? {
+      '--nav-top': run.top + 'px',
+      '--nav-run': run.height + 'px'
+    } : null
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    "data-banner-nav-grid": ""
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-banner-nav": ""
+  }, nav))) : null);
+}
+Object.assign(__ds_scope, { PageBanner });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/PageBanner.jsx", error: String((e && e.message) || e) }); }
+
 // components/navigation/SiteHeader.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -21410,10 +27214,14 @@ function SiteHeader({
     margin: '0 auto',
     paddingInline: 'var(--margin)',
     paddingBlock: 'var(--space-3)',
+    /* Top-aligned: the wordmark's cap line and the glyphs' top edge share one
+       line. The triggers keep their 44px targets and are lifted by the air
+       above their 24px glyphs (see `lift`). */
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     gap: 'var(--space-4)'
   };
+  const lift = -(44 - 24) / 2;
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("header", {
     "data-fixed-chrome": "",
     style: {
@@ -21464,6 +27272,8 @@ function SiteHeader({
     style: {
       flex: '1 1 auto',
       minWidth: 0,
+      alignSelf: 'center',
+      marginTop: lift,
       paddingLeft: 'calc((100% - (var(--cols) - 1) * var(--gutter)) / var(--cols) * 4 + var(--gutter) * 4)'
     }
   }, /*#__PURE__*/React.createElement("ul", {
@@ -21520,7 +27330,8 @@ function SiteHeader({
       display: 'flex',
       alignItems: 'center',
       gap: 'var(--space-1)',
-      pointerEvents: 'auto'
+      pointerEvents: 'auto',
+      marginTop: lift
     }
   }, /*#__PURE__*/React.createElement("button", {
     type: "button",
@@ -21631,14 +27442,16 @@ function SiteNav({
       label: 'Se våra uppdrag',
       href: '/uppdrag'
     },
-    /* No href: nothing behind them yet, and a placeholder link that jumps
+    /* No href: nothing behind it yet, and a placeholder link that jumps
        the reader to the top of the page is worse than an unlinked line. The
-       menu renders and focuses them the same either way. */
+       menu renders and focuses it the same either way. */
     {
       label: 'Håll dig uppdaterad',
       secondary: true
-    }, {
+    }, /* The Karriär section page (content-page template, ?p=/karriar). */
+    {
       label: 'Sök drömjobbet',
+      href: '/karriar',
       secondary: true
     }, {
       label: 'Se all vår expertis',
@@ -21714,6 +27527,48 @@ const EXPO = 'cubic-bezier(0.19, 1, 0.22, 1)';
 const QUART = 'cubic-bezier(0.165, 0.84, 0.44, 1)';
 const RISE = 'translateY(108%)';
 const OFFSCREEN = 'translateX(100%)';
+
+/* A cubic-bezier as a function, so a scroll driven by rAF can run on the same
+   curve as the Web Animation it accompanies. Solved by bisection on x. */
+function bezier(x1, y1, x2, y2) {
+  const at = (a, b, t) => 3 * a * t * (1 - t) * (1 - t) + 3 * b * t * t * (1 - t) + t * t * t;
+  return x => {
+    if (x <= 0) return 0;
+    if (x >= 1) return 1;
+    let lo = 0,
+      hi = 1,
+      t = x;
+    for (let i = 0; i < 24; i++) {
+      t = (lo + hi) / 2;
+      if (at(x1, x2, t) < x) lo = t;else hi = t;
+    }
+    return at(y1, y2, t);
+  };
+}
+const EASE_EXPO = bezier(0.19, 1, 0.22, 1);
+const EASE_FOLD = bezier(0.45, 0, 0.25, 1);
+/* SM fold-in timing: the names cascade out inside FOLD_HOLD, each taking
+   FOLD_LINE, then the height and the view close over the rest. */
+const FOLD_LINE = 160;
+const FOLD_HOLD = 260;
+const FOLD_TOTAL = 780;
+
+/* Moves a scroll box to `to` over `ms` on `ease`, re-reading the target each
+   frame (it may be a function) so it lands where the layout ends up rather
+   than where it was when the move began. Returns a cancel. */
+function glide(box, to, ms, ease) {
+  const from = box.scrollTop;
+  const t0 = performance.now();
+  let raf = 0;
+  const step = now => {
+    const p = Math.min(1, (now - t0) / ms);
+    const target = typeof to === 'function' ? to() : to;
+    box.scrollTop = from + (target - from) * ease(p);
+    if (p < 1) raf = window.requestAnimationFrame(step);
+  };
+  raf = window.requestAnimationFrame(step);
+  return () => window.cancelAnimationFrame(raf);
+}
 function TakeoverMenu({
   open = false,
   items = [],
@@ -21748,6 +27603,15 @@ function TakeoverMenu({
      that is not on it. Leaving the list returns to -1. */
   const IN_GAP = -2;
   const [expanded, setExpanded] = React.useState(-1);
+  /* The second level stays rendered through its own exit: the last opened
+     index is kept, and `subShown` only drops once the fold-in has played, so
+     the names leave on screen instead of vanishing with the state change. */
+  const lastExpandedRef = React.useRef(-1);
+  if (expanded > -1) lastExpandedRef.current = expanded;
+  const [subShown, setSubShown] = React.useState(false);
+  React.useEffect(() => {
+    if (expanded > -1) setSubShown(true);
+  }, [expanded]);
   const [subHover, setSubHover] = React.useState(-1);
   const boxRef = React.useRef(null);
   const lineRefs = React.useRef([]);
@@ -21781,6 +27645,8 @@ function TakeoverMenu({
   const foldAnimsRef = React.useRef([]);
   const firstRef = React.useRef(true);
   const firstFoldRef = React.useRef(true);
+  const foldKeyRef = React.useRef('');
+  const glideRef = React.useRef(null);
   React.useEffect(() => {
     const box = boxRef.current;
     if (!box || typeof box.animate !== 'function') return;
@@ -21891,6 +27757,12 @@ function TakeoverMenu({
       firstFoldRef.current = false;
       if (expanded === -1) return;
     }
+    /* Pages hand over a fresh `items` array on every render, so the effect
+       reruns without anything changing; replaying the fold then restarts it
+       mid-flight. Only a real change of state plays. */
+    const foldKey = expanded + '|' + open + '|' + sm + '|' + items.length;
+    if (foldKeyRef.current === foldKey) return;
+    foldKeyRef.current = foldKey;
     const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     /* A fold that plays while the panel is off screen is a fold nobody sees;
        the state is applied in a single frame instead. */
@@ -21907,9 +27779,11 @@ function TakeoverMenu({
         ...opts
       });
       foldAnimsRef.current.push(a);
+      return a;
     };
     const on = expanded > -1;
-    const kids = items[expanded] && items[expanded].children || [];
+    const shown = on ? expanded : lastExpandedRef.current;
+    const kids = items[shown] && items[shown].children || [];
 
     /* The siblings stay where they are and fade back. They used to collapse
        their line boxes to zero, which took the rest of the level away — the
@@ -21943,7 +27817,58 @@ function TakeoverMenu({
        it arrives from its own side rather than by opening a height. The column
        track is there whether or not anything is folded out, so nothing in the
        first level reflows when it appears. */
-    if (subBoxRef.current) {
+    const subBox = subBoxRef.current;
+    if (subBox && sm) {
+      /* SM: the level is a block under the list, so it opens and closes a
+         height — what follows it slides rather than jumps. */
+      const h = subBox.scrollHeight;
+      const mt = window.getComputedStyle(subBox).marginTop;
+      const closed = {
+        height: '0px',
+        marginTop: '0px',
+        opacity: 0,
+        transform: 'none'
+      };
+      const openF = {
+        height: h + 'px',
+        marginTop: mt,
+        opacity: 1,
+        transform: 'none'
+      };
+      /* Folding in is the fold-out played backwards: there the height and the
+         view open first and the names cascade in after, so here the names
+         cascade out first, bottom-up, with the view held still, and only
+         then do the height and the view close together. The collapse starts
+         from the full height, never a cut-down one — a height dropped in one
+         frame shrinks the scroll, the browser clamps it, and the view jumps. */
+      const full = subBox.getBoundingClientRect().height;
+      const from = {
+        ...openF,
+        height: full + 'px'
+      };
+      const a = play(subBox, on ? [closed, openF] : [from, {
+        ...from,
+        offset: FOLD_HOLD / FOLD_TOTAL,
+        easing: 'cubic-bezier(0.45, 0, 0.25, 1)'
+      }, closed], on ? {
+        duration: 620,
+        easing: EXPO
+      } : {
+        duration: FOLD_TOTAL,
+        easing: 'linear'
+      });
+      if (a && !on) {
+        a.onfinish = () => setSubShown(false);
+        const box = boxRef.current;
+        if (box && !instant && box.scrollTop > 0) {
+          if (glideRef.current) glideRef.current();
+          const t = window.setTimeout(() => {
+            glideRef.current = glide(box, 0, FOLD_TOTAL - FOLD_HOLD, EASE_FOLD);
+          }, FOLD_HOLD);
+          glideRef.current = () => window.clearTimeout(t);
+        }
+      }
+    } else if (subBox) {
       const frames = [{
         opacity: 0,
         transform: 'translateX(28px)'
@@ -21951,10 +27876,11 @@ function TakeoverMenu({
         opacity: 1,
         transform: 'translateX(0)'
       }];
-      play(subBoxRef.current, on ? frames : frames.slice().reverse(), {
+      const a = play(subBox, on ? frames : frames.slice().reverse(), {
         duration: on ? 560 : 320,
         easing: on ? EXPO : QUART
       });
+      if (a && !on) a.onfinish = () => setSubShown(false);
     }
     if (subTitleRef.current) {
       const frames = [{
@@ -21975,6 +27901,12 @@ function TakeoverMenu({
     }
     subLineRefs.current = subLineRefs.current.slice(0, kids.length);
     const subLines = subLineRefs.current.filter(Boolean);
+    /* Out bottom-up, but only across the names on screen: a stagger spent on
+       rows below the fold is a pause the reader sees as nothing happening. */
+    const view = on ? [] : subLines.filter(el => {
+      const r = el.getBoundingClientRect();
+      return r.bottom > 0 && r.top < window.innerHeight;
+    });
     subLines.forEach((el, i) => {
       /* One column, so the cascade is a straight run down the list. Capped,
          or a long second level would still be arriving after the pointer has
@@ -21992,15 +27924,54 @@ function TakeoverMenu({
           delay,
           easing: EXPO
         });
-      } else {
+      } else if (sm) {
+        /* SM: the open cascade reversed — each name on screen drops 16px and
+           fades, the lowest first, all inside the hold before the collapse.
+           Names off screen are already gone, so none can reappear as the
+           view travels. */
+        const j = view.indexOf(el);
+        const step = view.length > 1 ? (FOLD_HOLD - FOLD_LINE) / (view.length - 1) : 0;
+        const hold = j < 0 ? 0 : Math.round((view.length - 1 - j) * Math.min(46, step));
+        const end = Math.min(1, (hold + FOLD_LINE) / FOLD_TOTAL);
         play(el, [{
           opacity: 1,
-          transform: 'translateY(0)'
+          transform: 'translateY(0)',
+          offset: 0
+        }, {
+          opacity: 1,
+          transform: 'translateY(0)',
+          offset: hold / FOLD_TOTAL,
+          easing: 'cubic-bezier(0.55, 0, 0.45, 1)'
         }, {
           opacity: 0,
-          transform: 'translateY(10px)'
+          transform: 'translateY(16px)',
+          offset: end
+        }, {
+          opacity: 0,
+          transform: 'translateY(16px)',
+          offset: 1
         }], {
-          duration: 260,
+          duration: FOLD_TOTAL,
+          easing: 'linear'
+        });
+      } else {
+        const j = view.indexOf(el);
+        const hold = j < 0 ? 0 : (view.length - 1 - j) * 22;
+        const total = 300 + hold;
+        play(el, [{
+          opacity: 1,
+          transform: 'translateY(0)',
+          offset: 0
+        }, {
+          opacity: 1,
+          transform: 'translateY(0)',
+          offset: hold / total
+        }, {
+          opacity: 0,
+          transform: 'translateY(10px)',
+          offset: 1
+        }], {
+          duration: total,
           easing: QUART
         });
       }
@@ -22013,7 +27984,7 @@ function TakeoverMenu({
       });
     });
     return () => window.cancelAnimationFrame(drop);
-  }, [expanded, open, items]);
+  }, [expanded, open, items, sm]);
 
   /* The second level is bound to the first level's box: same top line, never
      taller. The primary list is bottom-anchored in its own scroll box, so its
@@ -22052,6 +28023,13 @@ function TakeoverMenu({
     const list = listRef.current;
     const inner = subInnerRef.current;
     const subBox = subBoxRef.current;
+    /* SM: the second level sits directly under the list in the same scroll,
+       so there is no beside-line to align to — the correction would pad the
+       column by the whole height of the list and push the names off screen. */
+    if (sm) {
+      if (subPad) setSubPad(0);
+      return;
+    }
     if (!list || !inner || !subBox || !listBox) return;
     const primary = list.querySelector('a span');
     const secondary = inner.querySelector('a span');
@@ -22065,7 +28043,25 @@ function TakeoverMenu({
     const secondaryIn = secondary.getBoundingClientRect().top - subBox.getBoundingClientRect().top + subBox.scrollTop;
     const diff = primaryIn - secondaryIn;
     if (Math.abs(diff) > 0.5) setSubPad(v => Math.max(0, v + diff));
-  }, [listBox, expanded, items, open, subPad]);
+  }, [listBox, expanded, items, open, subPad, sm]);
+
+  /* SM: folding out brings the opened item to the top of the screen, so the
+     names that arrive under it are in view instead of below the fold. */
+  React.useEffect(() => {
+    if (!sm || !open || expanded < 0) return;
+    const box = boxRef.current;
+    const item = itemRefs.current[expanded];
+    if (!box || !item) return;
+    const raf = window.requestAnimationFrame(() => {
+      const top = () => item.getBoundingClientRect().top - box.getBoundingClientRect().top + box.scrollTop - 96;
+      const max = () => Math.max(0, Math.min(top(), box.scrollHeight - box.clientHeight));
+      /* Same duration and curve as the fold-out itself, so the view opens
+         with the level rather than after it. */
+      if (glideRef.current) glideRef.current();
+      glideRef.current = glide(box, max, 620, EASE_EXPO);
+    });
+    return () => window.cancelAnimationFrame(raf);
+  }, [sm, open, expanded]);
   const readListEdges = React.useCallback(() => {
     const el = listScrollRef.current;
     if (!el) return;
@@ -22181,6 +28177,14 @@ function TakeoverMenu({
       if (onClose) onClose();
     };
     window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open, onClose, expanded]);
+
+  /* Reset and focus on opening only. This used to share the effect above,
+     which reruns whenever a level folds in or out — so closing the second
+     level threw the reader back to the top of the menu in one frame. */
+  React.useEffect(() => {
+    if (!open) return;
     const prev = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
     /* Focus lands on the dialog itself, not on the first link: focusing a
@@ -22193,11 +28197,10 @@ function TakeoverMenu({
       });
     }
     return () => {
-      window.removeEventListener('keydown', onKey);
       document.body.style.overflow = prev;
     };
-  }, [open, onClose, expanded]);
-  const current = expanded > -1 ? items[expanded] : null;
+  }, [open]);
+  const current = expanded > -1 ? items[expanded] : subShown ? items[lastExpandedRef.current] : null;
   const kids = current && current.children || [];
   return /*#__PURE__*/React.createElement("div", {
     ref: boxRef,
@@ -22446,19 +28449,20 @@ function TakeoverMenu({
          something is folded out. */
       ...(sm ? {
         order: 2,
-        display: expanded > -1 ? 'block' : 'none',
+        flexShrink: 0,
+        display: expanded > -1 || subShown ? 'block' : 'none',
         height: 'auto',
         maxHeight: 'none',
-        overflowY: 'visible',
+        overflow: 'hidden',
         alignSelf: 'stretch',
-        marginTop: 'var(--space-5)'
+        marginTop: 'var(--space-3)'
       } : null),
       /* The out-of-view ends are masked, not covered by a gradient
          overlay: the column scrolls over ink and a mask needs no second
          layer to sit on top of the links and eat their hover. Only the
          end that actually has more names is faded. */
-      maskImage: 'linear-gradient(to bottom, ' + (subEdges.top ? 'transparent 0, #000 44px' : '#000 0') + ', ' + (subEdges.bottom ? '#000 calc(100% - 56px), transparent 100%' : '#000 100%') + ')',
-      WebkitMaskImage: 'linear-gradient(to bottom, ' + (subEdges.top ? 'transparent 0, #000 44px' : '#000 0') + ', ' + (subEdges.bottom ? '#000 calc(100% - 56px), transparent 100%' : '#000 100%') + ')'
+      maskImage: sm ? 'none' : 'linear-gradient(to bottom, ' + (subEdges.top ? 'transparent 0, #000 44px' : '#000 0') + ', ' + (subEdges.bottom ? '#000 calc(100% - 56px), transparent 100%' : '#000 100%') + ')',
+      WebkitMaskImage: sm ? 'none' : 'linear-gradient(to bottom, ' + (subEdges.top ? 'transparent 0, #000 44px' : '#000 0') + ', ' + (subEdges.bottom ? '#000 calc(100% - 56px), transparent 100%' : '#000 100%') + ')'
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: subInnerRef,
@@ -22504,9 +28508,11 @@ function TakeoverMenu({
       alignItems: 'center',
       justifyContent: 'space-between',
       gap: 'var(--space-2)',
-      maxWidth: '26ch',
       textDecoration: 'none',
       paddingBlock: '0.18em',
+      /* SM: each name is a thumb-sized row. */
+      minHeight: sm ? 44 : undefined,
+      maxWidth: sm ? 'none' : '26ch',
       color: subHover === i ? 'var(--paper)' : 'var(--paper-70)',
       opacity: 0,
       transition: 'color .3s cubic-bezier(0.19,1,0.22,1)'
@@ -22727,10 +28733,15 @@ function WordmarkMasthead({
       const r = row.getBoundingClientRect();
       const pad = parseFloat(getComputedStyle(row).paddingRight) || 0;
       const l = logo.getBoundingClientRect();
+      /* Under a handoff the header mark is invisible at the top — the hero's
+         lockup is the opening graphic — so it takes no room from the words:
+         the row's own left edge is the limit instead. */
+      const hidden = handoffRef.current && logo.style.visibility === 'hidden';
+      const left = hidden ? r.left + (parseFloat(getComputedStyle(row).paddingLeft) || 0) : l.right;
       /* 44 orb target + 44 menu target + the gap between them + the menu's own
          word and its padding + a full column gutter of air between type and
          wordmark. */
-      setPromptRoom(Math.max(0, r.right - pad - 92 - 80 - l.right - 32));
+      setPromptRoom(Math.max(0, r.right - pad - 92 - 80 - left - 32));
     };
     const onChange = () => {
       if (!frame) frame = window.requestAnimationFrame(measure);
@@ -22749,7 +28760,19 @@ function WordmarkMasthead({
       if (frame) window.cancelAnimationFrame(frame);
     };
   }, []);
-  const promptIn = atTop && !menuOpen && !!chatPrompt && promptRoom >= 150;
+  /* SM: at the top of the page the question gets a line of its own, under
+     the menu, rather than waiting for room beside the wordmark that a phone
+     never has. It folds back into the row on the first real scroll. */
+  const [sm, setSm] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setSm(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  const stacked = sm && atTop && !menuOpen && !!chatPrompt;
+  const promptIn = atTop && !menuOpen && !!chatPrompt && (stacked || promptRoom >= 150);
   const [chatHover, setChatHover] = React.useState(false);
   const [menuHover, setMenuHover] = React.useState(false);
   React.useEffect(() => {
@@ -22762,10 +28785,17 @@ function WordmarkMasthead({
         const y = window.scrollY || window.pageYOffset || 0;
         /* Laid out at the arrival size and only scaled down, for the same
            reason as below: never rasterise small and magnify. */
-        const fromH = Math.max(headerLogoHeight, hand.fromHeight || headerLogoHeight);
+        /* A lockup smaller than the header slot (SM) hands over a word below
+           the header measure: the copy is still laid out at the larger of the
+           two and starts scaled down to the lockup word, so it never jumps. */
+        const rawFrom = hand.fromHeight || headerLogoHeight;
+        const fromH = Math.max(headerLogoHeight, rawFrom);
         logo.style.width = fromH * RATIO + 'px';
         logo.style.height = fromH + 'px';
-        const min = headerLogoHeight / fromH;
+        /* …and settles at that size rather than growing to the header measure:
+           the mark keeps the size the hero gave it. */
+        const min = Math.min(headerLogoHeight, rawFrom) / fromH;
+        const start = rawFrom / fromH;
         const clamp = v => Math.min(1, Math.max(0, v));
         const fade = clamp((y - hand.fadeFrom) / Math.max(1, hand.fadeTo - hand.fadeFrom));
         const s = clamp((y - hand.fadeTo) / Math.max(1, hand.shrinkTo - hand.fadeTo));
@@ -22775,7 +28805,7 @@ function WordmarkMasthead({
            slot, so it can take over from a mark that is not flush left and
            settle into the slot as it shrinks. */
         const dx = open ? 0 : (hand.fromX || 0) * (1 - e);
-        logo.style.transform = 'translate3d(' + dx.toFixed(2) + 'px,0,0) scale(' + (open ? min : 1 + (min - 1) * e) + ')';
+        logo.style.transform = 'translate3d(' + dx.toFixed(2) + 'px,0,0) scale(' + (open ? min : start + (min - start) * e) + ')';
         logo.style.opacity = String(open ? 1 : fade);
         logo.style.visibility = open || fade > 0 ? 'visible' : 'hidden';
         return;
@@ -22989,8 +29019,9 @@ function WordmarkMasthead({
       margin: '0 auto',
       paddingInline: 'var(--margin)',
       paddingBlock: 'var(--space-3)',
+      /* Top-aligned with the triggers' glyphs, same as SiteHeader. */
       display: 'flex',
-      alignItems: 'center',
+      alignItems: 'flex-start',
       justifyContent: 'space-between',
       gap: 'var(--space-4)'
     }
@@ -23070,7 +29101,7 @@ function WordmarkMasthead({
       paddingInline: 'var(--margin)',
       paddingBlock: 'var(--space-3)',
       display: 'flex',
-      alignItems: 'center',
+      alignItems: 'flex-start',
       justifyContent: 'flex-end',
       gap: 'var(--space-4)'
     }
@@ -23078,9 +29109,11 @@ function WordmarkMasthead({
     ref: triggersRef,
     style: {
       display: 'flex',
-      alignItems: 'center',
-      gap: 'var(--space-1)',
-      pointerEvents: 'auto'
+      flexDirection: stacked ? 'column-reverse' : 'row',
+      alignItems: stacked ? 'flex-end' : 'center',
+      gap: stacked ? 0 : 'var(--space-1)',
+      pointerEvents: 'auto',
+      marginTop: -(44 - 24) / 2
     }
   }, /*#__PURE__*/React.createElement("button", {
     type: "button",
@@ -23099,6 +29132,9 @@ function WordmarkMasthead({
     style: {
       ...trigger,
       position: 'relative',
+      /* Stacked, the two 44px targets would leave a glyph's worth of
+         air twice over between the lines; they overlap by a little. */
+      marginTop: stacked ? -2 : 0,
       /* Target size is the floor, not the width: with the label out
          the button grows to hold it and keeps the 44px height. */
       width: 'auto',
@@ -23106,7 +29142,9 @@ function WordmarkMasthead({
       gridAutoFlow: 'column',
       alignItems: 'center',
       gap: promptIn ? 12 : 0,
-      paddingInline: promptIn ? 'var(--space-2)' : 0,
+      /* Air only on the type's side: the glyph stays on the margin line. */
+      paddingLeft: promptIn ? 'var(--space-2)' : 0,
+      paddingRight: 0,
       /* No outline: the hover state is a rule under the type. */
       transition: 'gap var(--dur-medium) var(--ease-expo), padding-inline var(--dur-medium) var(--ease-expo)'
     }
@@ -23115,7 +29153,7 @@ function WordmarkMasthead({
     style: {
       display: 'block',
       position: 'relative',
-      maxWidth: promptIn ? Math.min(promptRoom, 240) : 0,
+      maxWidth: promptIn ? stacked ? 240 : Math.min(promptRoom, 240) : 0,
       opacity: promptIn ? 1 : 0,
       overflow: 'hidden',
       whiteSpace: 'nowrap',
@@ -23174,7 +29212,9 @@ function WordmarkMasthead({
       gridAutoFlow: 'column',
       alignItems: 'center',
       gap: promptIn ? 12 : 0,
-      paddingInline: promptIn ? 'var(--space-2)' : 0,
+      /* Air only on the type's side: the glyph stays on the margin line. */
+      paddingLeft: promptIn ? 'var(--space-2)' : 0,
+      paddingRight: 0,
       transition: 'gap var(--dur-medium) var(--ease-expo), padding-inline var(--dur-medium) var(--ease-expo)'
     }
   }, /*#__PURE__*/React.createElement("span", {
@@ -23297,7 +29337,7 @@ function CarouselHero({
      html[data-hero-top]; the page fades its own ground on it. */
   topGround = true,
   /* Show the lead image as the plain photograph instead of the dot screen.
-     It rises into place on its own clock at load, not on scroll; the first
+     It renders finished at load, with no print; the first
      scroll opens the carousel and the raster cards arrive on the right as
      the peek. The card in front stays a photograph throughout. */
   plain = false,
@@ -23317,7 +29357,7 @@ function CarouselHero({
   const rowRef = React.useRef(null);
   const [m, setM] = React.useState(null);
   const [scrub, setScrub] = React.useState(restPrint);
-  const [open, setOpen] = React.useState(false);
+  const [openState, setOpen] = React.useState(false);
   const [rowIn, setRowIn] = React.useState(false);
   const rowInRef = React.useRef(false);
   const [active, setActive] = React.useState(0);
@@ -23325,6 +29365,23 @@ function CarouselHero({
   const frameRefs = React.useMemo(() => slides.map(() => React.createRef()), [slides.length]);
   activeRef.current = active;
   const [handoff, setHandoff] = React.useState(null);
+  /* SM: the header's question is out at the top of the page and runs across
+     the row the lockup would start on, so the lockup is set down below the
+     trigger row. The handoff is measured off the lockup's own rect, so a
+     resize is dispatched after the switch to re-read it. */
+  const [sm, setSm] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setSm(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  const smRef = React.useRef(false);
+  smRef.current = sm;
+  React.useEffect(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, [sm]);
   /* The hero holds back until it can land in one piece: the grid stylesheet
      applied (the statement's column comes from it), the type loaded, and in
      plain mode the lead photograph decoded, so the print never runs over an
@@ -23359,40 +29416,6 @@ function CarouselHero({
       cancelAnimationFrame(raf);
     };
   }, [plain, slides[0] && slides[0].src]);
-  /* Plain: the lead prints on its own clock at load — the house reveal,
-     driven by time instead of scroll. 1 is the finished photograph. */
-  const [intro, setIntro] = React.useState(plain ? 0 : 1);
-  React.useEffect(() => {
-    if (!plain) {
-      setIntro(1);
-      return;
-    }
-    if (!settled) return;
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setIntro(1);
-      return;
-    }
-    setIntro(0);
-    const dur = 2600,
-      delay = 300;
-    let raf = 0,
-      t0 = 0,
-      dead = false;
-    const step = now => {
-      if (!t0) t0 = now;
-      const k = clamp01((now - t0 - delay) / dur);
-      setIntro(k * k * (3 - 2 * k));
-      if (k < 1) raf = requestAnimationFrame(step);
-    };
-    /* Two frames for the reveal's own canvases to build before the clock runs. */
-    raf = requestAnimationFrame(() => {
-      raf = requestAnimationFrame(step);
-    });
-    return () => {
-      dead = true;
-      cancelAnimationFrame(raf);
-    };
-  }, [plain, settled]);
   const openRef = React.useRef(false);
   const moving = React.useRef(false);
   const rafRef = React.useRef(null);
@@ -23520,7 +29543,8 @@ function CarouselHero({
          moment the print is done. Hysteresis, so a reader resting on the line
          does not toggle it. */
       const openAt = Math.max(1, Math.min(d * 0.7, rowBottom ? rowBottom - vh : d * 0.7));
-      const want = openRef.current ? y > openAt * 0.8 : y >= openAt;
+      /* SM opens on the carousel: no print, no manifest. */
+      const want = smRef.current || (openRef.current ? y > openAt * 0.8 : y >= openAt);
       if (want !== openRef.current) {
         openRef.current = want;
         setOpen(want);
@@ -23528,7 +29552,7 @@ function CarouselHero({
       /* The caption row has its own reveal: on a short window it fits later
          than the carousel opens, and it waits until it does. */
       const fitAt = rowBottom ? rowBottom - vh : 0;
-      const rowWant = want && (rowInRef.current ? y > fitAt - 24 : y >= fitAt);
+      const rowWant = smRef.current || want && (rowInRef.current ? y > fitAt - 24 : y >= fitAt);
       if (rowWant !== rowInRef.current) {
         rowInRef.current = rowWant;
         setRowIn(rowWant);
@@ -23537,7 +29561,12 @@ function CarouselHero({
          window, and is gone by the time the block's bottom is 45% of the way
          up — before the caption row is anywhere near the header. */
       const exitEnd = height - vh * 0.45;
-      const e = smooth(sm, Math.min(trackTop, exitEnd - 1), exitEnd);
+      /* SM: the whole hero is the first screen, so the exit starts on the
+         first swipe, and the V leaves ahead of it. */
+      /* SM: the exit waits for the word to have reached the header, so the
+         handover reads as on desktop — the exit's own rise would otherwise
+         move the word off the line the header copy was measured against. */
+      const e = smRef.current ? smooth(sm, swapAt + 10, swapAt + 10 + vh * 0.45) : smooth(sm, Math.min(trackTop, exitEnd - 1), exitEnd);
       if (fadeRef.current) {
         fadeRef.current.style.opacity = String(1 - e);
         fadeRef.current.style.transform = reduced ? 'none' : 'translate3d(0,' + (-e * 0.08 * vh).toFixed(1) + 'px,0)';
@@ -23576,8 +29605,8 @@ function CarouselHero({
        to the full measure where it stands, and the others fade. */
     if (!topGround) return;
     const b = document.documentElement;
-    if (open) b.removeAttribute('data-hero-top');else b.setAttribute('data-hero-top', '');
-  }, [open, topGround]);
+    if (openState || sm) b.removeAttribute('data-hero-top');else b.setAttribute('data-hero-top', '');
+  }, [openState, sm, topGround]);
   React.useEffect(() => () => document.documentElement.removeAttribute('data-hero-top'), []);
   React.useEffect(() => {
     const el = trackRef.current;
@@ -23667,7 +29696,8 @@ function CarouselHero({
       shrinkTo: 1e6 + 2
     }
   }), [logoSrc, onMenu, onChat, menuOpen, chatActive, conversation, conversationProps, handoff]);
-  const scrubbing = scrub < 1;
+  const open = openState || sm;
+  const scrubbing = scrub < 1 && !sm;
   const trailing = m && cardW != null ? Math.max(m.pad, m.port - m.pad - cardW) : undefined;
   const push = 'var(--dur-medium) var(--ease-expo)';
   return /*#__PURE__*/React.createElement(React.Fragment, null, masthead, /*#__PURE__*/React.createElement("section", {
@@ -23676,6 +29706,10 @@ function CarouselHero({
     style: {
       position: 'relative',
       color: 'var(--text-primary)',
+      ...(sm ? {
+        height: '100svh',
+        boxSizing: 'border-box'
+      } : null),
       opacity: settled ? 1 : 0,
       transition: 'opacity var(--dur-reveal) var(--ease-quart)',
       ...style
@@ -23683,20 +29717,35 @@ function CarouselHero({
   }, /*#__PURE__*/React.createElement("div", {
     ref: fadeRef,
     style: {
-      willChange: 'transform, opacity'
+      willChange: 'transform, opacity',
+      ...(sm ? {
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        paddingBottom: 'clamp(var(--space-3), 4svh, var(--space-5))',
+        boxSizing: 'border-box'
+      } : null)
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "grid",
     style: {
-      paddingTop: 'var(--space-4)',
-      alignItems: 'end'
+      paddingTop: sm ? 'var(--space-3)' : 'var(--space-4)',
+      alignItems: 'end',
+      ...(sm ? {
+        width: '100%',
+        boxSizing: 'border-box'
+      } : null)
     }
   }, /*#__PURE__*/React.createElement("div", {
     ref: lockRef,
     style: {
       gridColumn: '1 / 2',
       gridRow: 1,
-      alignSelf: 'start'
+      alignSelf: 'start',
+      ...(sm ? {
+        width: 'min(26vw, 16svh)',
+        justifySelf: 'start'
+      } : null)
     }
   }, /*#__PURE__*/React.createElement("svg", {
     role: "img",
@@ -23717,7 +29766,13 @@ function CarouselHero({
     fill: "currentColor"
   }))), /*#__PURE__*/React.createElement("div", {
     "data-hero-statement": "",
-    style: {
+    style: sm ? {
+      position: 'absolute',
+      width: 1,
+      height: 1,
+      overflow: 'hidden',
+      clip: 'rect(0 0 0 0)'
+    } : {
       gridRow: 2,
       marginTop: 'var(--space-7)',
       position: 'relative'
@@ -23734,13 +29789,16 @@ function CarouselHero({
   }, headline)), /*#__PURE__*/React.createElement("p", {
     className: "place-meta-right",
     "aria-live": "polite",
-    "aria-hidden": !open,
+    "aria-hidden": !open || sm,
     style: {
+      display: sm ? 'none' : undefined,
       gridRow: 2,
       alignSelf: 'end',
       textAlign: 'right',
       margin: 0,
-      display: 'flex',
+      ...(sm ? null : {
+        display: 'flex'
+      }),
       alignItems: 'baseline',
       justifyContent: 'flex-end',
       opacity: open ? 1 : 0,
@@ -23775,8 +29833,14 @@ function CarouselHero({
       paddingRight: trailing,
       maxWidth: 'var(--max-width)',
       marginInline: 'auto',
-      marginTop: 'var(--space-3)',
-      overscrollBehaviorX: 'contain'
+      marginTop: sm ? 'auto' : 'var(--space-3)',
+      overscrollBehaviorX: 'contain',
+      flex: sm ? '0 1 auto' : undefined,
+      minHeight: 0,
+      ...(sm ? {
+        width: '100%',
+        boxSizing: 'border-box'
+      } : null)
     }
   }, slides.map((s, i) => {
     /* The lead is the card in front: the first on arrival, the
@@ -23811,12 +29875,12 @@ function CarouselHero({
       gridSize: gridSize,
       focus: s.focus,
       frameRef: frameRefs[i],
-      progress: lead && plain && intro < 1 ? intro : lead && scrubbing && !plain ? scrub : undefined,
-      resolved: lead && (scrubbing && !plain || plain && intro < 1) ? undefined : lead,
+      progress: lead && scrubbing && !plain ? scrub : undefined,
+      resolved: lead && scrubbing && !plain ? undefined : lead,
       restTone: 0,
       style: {
         aspectRatio: 'auto',
-        height: imageHeight,
+        height: sm ? 'clamp(200px, 44svh, 440px)' : imageHeight,
         background: 'transparent'
       }
     }))));
@@ -23824,8 +29888,12 @@ function CarouselHero({
     ref: rowRef,
     className: "grid",
     style: {
-      marginTop: 'var(--space-3)',
-      paddingBottom: 'var(--space-4)',
+      marginTop: sm ? 'var(--space-2)' : 'var(--space-3)',
+      ...(sm ? {
+        width: '100%',
+        boxSizing: 'border-box'
+      } : null),
+      paddingBottom: sm ? 0 : 'var(--space-4)',
       alignItems: 'start',
       rowGap: 'var(--space-2)',
       opacity: rowIn ? 1 : 0,
@@ -23854,14 +29922,17 @@ function CarouselHero({
     style: {
       maxWidth: 'none'
     }
-  }, s.label) : null, s.body ? /*#__PURE__*/React.createElement("p", {
+  }, s.label) : null, s.body && !sm ? /*#__PURE__*/React.createElement("p", {
     className: "small",
     style: {
       marginTop: 'var(--space-3)',
       color: 'var(--text-secondary)'
     }
   }, s.body) : null))), /*#__PURE__*/React.createElement("div", {
-    "data-hero-controls": ""
+    "data-hero-controls": "",
+    style: sm ? {
+      display: 'none'
+    } : undefined
   }, /*#__PURE__*/React.createElement(__ds_scope.CarouselNav, {
     counter: false,
     index: active,
@@ -23960,6 +30031,17 @@ function LogoHero({
   const [ink, setInk] = React.useState(null);
   const [scrub, setScrub] = React.useState(1);
   const [handoff, setHandoff] = React.useState(null);
+  /* SM: the header's question is out at the top of the page and runs across
+     most of the row, so the lockup is set down below it rather than centred
+     up into it. */
+  const [sm, setSm] = React.useState(false);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const on = () => setSm(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
 
   /* The V as a raster, in the ground's own ink, for the reveal to screen. On
      white: the reveal reads darkness, and the wrapper multiplies, so the white
@@ -24264,8 +30346,10 @@ function LogoHero({
     style: {
       position: 'relative',
       height: '100svh',
+      boxSizing: 'border-box',
       display: 'grid',
       placeItems: 'center',
+      paddingTop: sm ? 'calc(44px * 2 + var(--space-1) + var(--space-3) * 2 + var(--space-4))' : 0,
       color: 'var(--text-primary)',
       ...style
     }
@@ -24352,6 +30436,3035 @@ function LogoHero({
 }
 Object.assign(__ds_scope, { LogoHero });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/LogoHero.jsx", error: String((e && e.message) || e) }); }
+
+// deck-stage.js
+try { (() => {
+// @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
+// Copied omelette starter. Re-running copy_starter_component with this kind overwrites this file with the latest version (page content is unaffected).
+/* ═══ THIS PROJECT USES DESIGN COMPONENTS (.dc.html) ═══
+ * Reference this stage from your <x-dc> template as an import — NEVER as a
+ * raw <deck-stage> tag plus a <script src> (that hides the whole deck until
+ * the stream finishes):
+ *
+ *   <x-import component-from-global-scope="deck-stage" from="./deck-stage.js"
+ *             width="1920" height="1080" hint-size="100%,100%">
+ *     <section data-label="Title" style="...">…</section>
+ *     <section data-label="Agenda" style="...">…</section>
+ *   </x-import>
+ *
+ * Slides are inline-styled <section> siblings; do not add a stylesheet or a
+ * deck-stage:not(:defined) rule. The plain-HTML "Usage" block in the comment
+ * below does NOT apply to .dc.html templates.
+ */
+/* BEGIN USAGE */
+/**
+ * <deck-stage> — reusable web component for HTML decks.
+ *
+ * Handles:
+ *  (a) speaker notes — reads <script type="application/json" id="speaker-notes">
+ *      and posts {slideIndexChanged: N} to the parent window on nav.
+ *  (b) keyboard navigation — ←/→ and ↑/↓, PgUp/PgDn, Space, Home/End,
+ *      number keys.
+ *      On touch devices, tapping the left/right half of the stage goes
+ *      prev/next — taps on links, buttons and other interactive slide
+ *      content are left alone.
+ *  (c) press R to reset to slide 0 (with a tasteful keyboard hint).
+ *  (d) bottom-center overlay showing slide count + hints, fades out on
+ *      idle; hovering or focusing its controls pins it visible until the
+ *      pointer/focus leaves. While presenting it is pointer-summoned only:
+ *      mouse movement (or hover/focus) shows it, slide changes never do.
+ *  (e) auto-scaling — inner canvas is a fixed design size (default 1920×1080)
+ *      scaled with `transform: scale()` to fit the viewport, letterboxed.
+ *      Set the `noscale` attribute to render at authored size (1:1) — the
+ *      PPTX exporter sets this so its DOM capture sees unscaled geometry.
+ *  (f) print — `@media print` lays every slide out as its own page at the
+ *      design size, so the browser's Print → Save as PDF produces a clean
+ *      one-page-per-slide PDF with no extra setup.
+ *  (g) thumbnail rail — resizable left-hand column of per-slide thumbnails
+ *      (static clones). Click to navigate — the clicked slide becomes the
+ *      selected (highlighted) slide; shift-click selects a range and
+ *      cmd/ctrl-click toggles slides in and out of the selection
+ *      (Escape collapses it back to the current slide); ↑/↓ with a
+ *      thumbnail focused to step between slides; Delete/Backspace with a
+ *      thumbnail focused to delete the selection (one confirm dialog,
+ *      one undoable operation); drag to reorder (dragging collapses a
+ *      multi-selection); right-click for
+ *      Skip / Move up / Move down / Duplicate / Delete — over a
+ *      multi-selection the menu offers "Delete N slides". Drag the rail's right edge to resize;
+ *      width persists to
+ *      localStorage. Skipped slides carry `data-deck-skip`, are dimmed in
+ *      the rail, omitted from prev/next navigation, and hidden at print.
+ *      They also carry no rail number and are excluded from the overlay's
+ *      slide count: the remaining slides are numbered contiguously
+ *      (Keynote-style), and a skipped CURRENT slide (reachable by rail
+ *      click or deep link, never by prev/next) shows '–' as its position.
+ *      The rail is suppressed in presenting mode, in the host's Preview
+ *      mode (ViewerMode='none'), on `noscale`, on narrow viewports
+ *      (≤640px), and via the `no-rail` attribute. Rail mutations dispatch
+ *      a `dc-op` CustomEvent on the element (see docs/dc-ops.md) and do
+ *      NOT touch the DOM: the host applies the op and re-renders;
+ *      structural rail input is locked until the host posts
+ *      {__dc_op_ack: true, applied}.
+ *  (h) typographic defaults — a zero-specificity stylesheet injected into
+ *      the document gives headings `text-wrap: balance` and body text
+ *      (p, li, blockquote, figcaption) `text-wrap: pretty`, so slides
+ *      avoid widowed/orphaned words by default. Any text-wrap declaration
+ *      you author on those elements wins over these defaults.
+ *
+ * Slides are HIDDEN, not unmounted. Non-active slides stay in the DOM with
+ * `visibility: hidden` + `opacity: 0`, so their state (videos, iframes,
+ * form inputs, React trees) is preserved across navigation.
+ *
+ * Lifecycle event — the component dispatches a `slidechange` CustomEvent on
+ * itself whenever the active slide changes (including the initial mount).
+ * The event bubbles and composes out of shadow DOM, so you can listen on
+ * the <deck-stage> element or on document:
+ *
+ *   document.querySelector('deck-stage').addEventListener('slidechange', (e) => {
+ *     e.detail.index         // new 0-based index
+ *     e.detail.previousIndex // previous index, or -1 on init
+ *     e.detail.total         // total slide count
+ *     e.detail.slide         // the new active slide element
+ *     e.detail.previousSlide // the prior slide element, or null on init
+ *     e.detail.reason        // 'init' | 'keyboard' | 'click' | 'tap' | 'api'
+ *   });
+ *
+ * Persistence: none at the deck level. The host app keeps the current slide
+ * in its own URL (?slide=) and re-delivers it via location.hash on load, so a
+ * bare load with no hash always starts at slide 1.
+ *
+ * Usage:
+ *   <style>deck-stage:not(:defined){visibility:hidden}</style>
+ *   <deck-stage width="1920" height="1080">
+ *     <section data-label="Title">...</section>
+ *     <section data-label="Agenda">...</section>
+ *   </deck-stage>
+ *   <script src="deck-stage.js"></script>
+ *
+ * The :not(:defined) rule prevents a flash of the first slide at its
+ * authored styles before this script runs and attaches the shadow root.
+ *
+ * Slides are the direct element children of <deck-stage>. Each slide is
+ * automatically tagged with:
+ *   - data-screen-label="NN Label"   (1-indexed, for comment flow)
+ *   - data-om-validate="no_overflowing_text,no_overlapping_text,slide_sized_text"
+ *
+ * Speaker notes stay in sync because the component posts {slideIndexChanged: N}
+ * to the parent — just include the #speaker-notes script tag if asked for notes.
+ *
+ * Authoring guidance:
+ *   - Write slide bodies as static HTML inside <deck-stage>, with sizing via
+ *     CSS custom properties in a <style> block rather than JS constants.
+ *     Static slide markup is what lets the user click a heading in edit mode
+ *     and retype it directly; a slide rendered through <script type="text/babel">,
+ *     React, or a loop over a JS array has to round-trip every tweak through a
+ *     chat message instead. Reach for script-generated slides only when the
+ *     content genuinely needs interactive behaviour static HTML can't express.
+ *   - Do NOT set position/inset/width/height on the slide <section> elements —
+ *     the component absolutely positions every slotted child for you.
+ *   - Entrance animations: make the visible end-state the base style and
+ *     animate *from* hidden, so print and reduced-motion show content.
+ *     Gate the animation on [data-deck-active] and the motion query, e.g.
+ *     `@media (prefers-reduced-motion:no-preference){ [data-deck-active] .x{animation:fade-in .5s both} }`.
+ *     Avoid infinite decorative loops on slide content.
+ */
+/* END USAGE */
+
+(() => {
+  const DESIGN_W_DEFAULT = 1920;
+  const DESIGN_H_DEFAULT = 1080;
+  const OVERLAY_HIDE_MS = 1800;
+  const VALIDATE_ATTR = 'no_overflowing_text,no_overlapping_text,slide_sized_text';
+  const FINE_POINTER_MQ = matchMedia('(hover: hover) and (pointer: fine)');
+  const NARROW_MQ = matchMedia('(max-width: 640px)');
+  // Slide-authored controls that should keep a tap instead of it navigating.
+  const INTERACTIVE_SEL = 'a[href], button, input, select, textarea, summary, label, video[controls], audio[controls], [role="button"], [onclick], [tabindex]:not([tabindex^="-"]), [contenteditable]:not([contenteditable="false" i])';
+  const pad2 = n => String(n).padStart(2, '0');
+
+  // Label precedence: data-label → data-screen-label (number stripped) → first heading → "Slide".
+  const getSlideLabel = el => {
+    const explicit = el.getAttribute('data-label');
+    if (explicit) return explicit;
+    const existing = el.getAttribute('data-screen-label');
+    if (existing) return existing.replace(/^\s*\d+\s*/, '').trim() || existing;
+    const h = el.querySelector('h1, h2, h3, [data-title]');
+    const t = h && (h.textContent || '').trim().slice(0, 40);
+    if (t) return t;
+    return 'Slide';
+  };
+  const stylesheet = `
+    :host {
+      position: fixed;
+      inset: 0;
+      display: block;
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      overflow: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    /* connectedCallback holds this until document.fonts.ready (capped 2s) so
+     * the first visible paint has the deck's real typography + final rail
+     * layout. opacity (not visibility) so the active slide can't un-hide
+     * itself via the ::slotted([data-deck-active]) visibility:visible rule.
+     * Only the stage/rail hide — the black :host background stays, so the
+     * iframe doesn't flash the page's default white. */
+    :host([data-fonts-pending]) .stage,
+    :host([data-fonts-pending]) .rail { opacity: 0; pointer-events: none; }
+
+    .stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .canvas {
+      position: relative;
+      transform-origin: center center;
+      flex-shrink: 0;
+      background: #fff;
+      will-change: transform;
+      /* Slide edge on the black stage. Dark decks override the canvas
+       * fill toward the stage's own black, leaving nothing to mark where
+       * the slide ends — the faint white ring keeps the boundary legible
+       * there while disappearing into the white of light decks. A
+       * box-shadow, not outline/border: it follows any canvas rounding
+       * and adds no layout size. */
+      box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.12);
+    }
+
+    /* Slides live in light DOM (via <slot>) so authored CSS still applies.
+       We absolutely position each slotted child to stack them. */
+    ::slotted(*) {
+      position: absolute !important;
+      inset: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      box-sizing: border-box !important;
+      overflow: hidden;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+    }
+    ::slotted([data-deck-active]) {
+      opacity: 1;
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    .overlay {
+      position: fixed;
+      left: 50%;
+      bottom: 22px;
+      transform: translate(-50%, 6px) scale(0.92);
+      filter: blur(6px);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px;
+      background: #000;
+      color: #fff;
+      border-radius: 999px;
+      font-size: 12px;
+      font-feature-settings: "tnum" 1;
+      letter-spacing: 0.01em;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 260ms ease, transform 260ms cubic-bezier(.2,.8,.2,1), filter 260ms ease;
+      transform-origin: center bottom;
+      z-index: 2147483000;
+      user-select: none;
+    }
+    .overlay[data-visible] {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translate(-50%, 0) scale(1);
+      filter: blur(0);
+    }
+
+    .btn {
+      appearance: none;
+      -webkit-appearance: none;
+      background: transparent;
+      border: 0;
+      margin: 0;
+      padding: 0;
+      color: inherit;
+      font: inherit;
+      cursor: default;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 28px;
+      min-width: 28px;
+      border-radius: 999px;
+      color: rgba(255,255,255,0.72);
+      transition: background 140ms ease, color 140ms ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn:hover { background: rgba(255,255,255,0.12); color: #fff; }
+    .btn:active { background: rgba(255,255,255,0.18); }
+    .btn:focus { outline: none; }
+    .btn:focus-visible { outline: none; }
+    .btn::-moz-focus-inner { border: 0; }
+    .btn svg { width: 14px; height: 14px; display: block; }
+    .btn.reset {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      padding: 0 10px 0 12px;
+      gap: 6px;
+      color: rgba(255,255,255,0.72);
+    }
+    .btn.reset .kbd {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 16px;
+      height: 16px;
+      padding: 0 4px;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 10px;
+      line-height: 1;
+      color: rgba(255,255,255,0.88);
+      background: rgba(255,255,255,0.12);
+      border-radius: 4px;
+    }
+
+    .count {
+      font-variant-numeric: tabular-nums;
+      color: #fff;
+      font-weight: 500;
+      padding: 0 8px;
+      min-width: 42px;
+      text-align: center;
+      font-size: 12px;
+    }
+    .count .sep { color: rgba(255,255,255,0.45); margin: 0 3px; font-weight: 400; }
+    .count .total { color: rgba(255,255,255,0.55); }
+
+    .divider {
+      width: 1px;
+      height: 14px;
+      background: rgba(255,255,255,0.18);
+      margin: 0 2px;
+    }
+
+    /* ── Thumbnail rail ──────────────────────────────────────────────────
+       Fixed column on the left; each thumbnail is a static deep-clone of
+       the light-DOM slide scaled into a 16:9 (or design-aspect) frame. The
+       stage re-fits around it (see _fit); hidden during present / noscale
+       / print so capture geometry and fullscreen output are unchanged. */
+    .rail {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: var(--deck-rail-w, 188px);
+      background: #141414;
+      border-right: 1px solid rgba(255,255,255,0.08);
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 12px 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 2147482500;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255,255,255,0.18) transparent;
+    }
+    .rail::-webkit-scrollbar { width: 8px; }
+    .rail::-webkit-scrollbar-track { background: transparent; margin: 2px; }
+    .rail::-webkit-scrollbar-thumb {
+      background: rgba(255,255,255,0.18);
+      border-radius: 4px;
+      border: 2px solid transparent;
+      background-clip: content-box;
+    }
+    .rail::-webkit-scrollbar-thumb:hover {
+      background: rgba(255,255,255,0.28);
+      border: 2px solid transparent;
+      background-clip: content-box;
+    }
+    :host([no-rail]) .rail,
+    :host([noscale]) .rail { display: none; }
+    .rail[data-presenting] { display: none; }
+    @media (max-width: 640px) {
+      .rail, .rail-resize { display: none; }
+    }
+    /* User-driven show/hide (the TweaksPanel toggle) slides instead of
+       popping. Transitions are gated on :host([data-rail-anim]) — set only
+       for the 200ms around the toggle — so window-resize and rail-width
+       drag (which also call _fit) don't lag behind the cursor. */
+    .rail[data-user-hidden] { transform: translateX(-100%); }
+    :host([data-rail-anim]) .rail { transition: transform 200ms cubic-bezier(.3,.7,.4,1); }
+    :host([data-rail-anim]) .stage { transition: left 200ms cubic-bezier(.3,.7,.4,1); }
+    :host([data-rail-anim]) .canvas { transition: transform 200ms cubic-bezier(.3,.7,.4,1); }
+    /* transition shorthand replaces rather than merges — repeat the base
+       .overlay opacity/transform/filter transitions so visibility changes
+       during the 200ms toggle window still fade instead of popping. */
+    :host([data-rail-anim]) .overlay {
+      transition: margin-left 200ms cubic-bezier(.3,.7,.4,1),
+                  opacity 260ms ease,
+                  transform 260ms cubic-bezier(.2,.8,.2,1),
+                  filter 260ms ease;
+    }
+
+    .thumb {
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .thumb .num {
+      width: 16px;
+      flex-shrink: 0;
+      font-size: 11px;
+      font-weight: 500;
+      text-align: right;
+      color: rgba(255,255,255,0.55);
+      padding-top: 2px;
+      font-variant-numeric: tabular-nums;
+    }
+    .thumb .frame {
+      position: relative;
+      flex: 1;
+      min-width: 0;
+      aspect-ratio: var(--deck-aspect);
+      background: #fff;
+      border-radius: 4px;
+      outline: 2px solid transparent;
+      outline-offset: 0;
+      overflow: hidden;
+      transition: outline-color 120ms ease;
+    }
+    .thumb:hover .frame { outline-color: rgba(255,255,255,0.25); }
+    .thumb { outline: none; }
+    .thumb:focus-visible .frame { outline-color: rgba(255,255,255,0.5); }
+    .thumb[data-selected] .num { color: #fff; }
+    .thumb[data-selected] .frame {
+      outline-color: rgba(217,119,87,0.65);
+      box-shadow: 0 0 0 4px rgba(217,119,87,0.18);
+    }
+    .thumb[data-current] .num { color: #fff; }
+    .thumb[data-current] .frame {
+      outline-color: #D97757;
+      box-shadow: 0 0 0 4px rgba(217,119,87,0.25);
+    }
+    /* While dragging, the thumb itself is the drag visual (the native drag
+       image is suppressed in dragstart so the snapshot can't wander off the
+       rail horizontally): elevate it rather than dim it, and let hit-testing
+       ignore it so dragover reaches the sibling thumb under the pointer
+       instead of the moving element itself. */
+    .thumb[data-dragging] { opacity: 0.9; z-index: 30; pointer-events: none; }
+    .thumb[data-dragging] .frame {
+      outline-color: rgba(255,255,255,0.5);
+      box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+    }
+    .thumb::before {
+      content: '';
+      position: absolute;
+      left: 24px;
+      right: 0;
+      height: 3px;
+      border-radius: 2px;
+      background: #D97757;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .thumb[data-drop="before"]::before { top: -8px; opacity: 1; }
+    .thumb[data-drop="after"]::before { bottom: -8px; opacity: 1; }
+    .thumb[data-skip] .frame { opacity: 0.35; }
+    .thumb[data-skip] .frame::after {
+      content: 'Skipped';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.45);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+
+    .ctxmenu {
+      position: fixed;
+      min-width: 150px;
+      padding: 4px;
+      background: #242424;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 7px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+      z-index: 2147483100;
+      display: none;
+      font-size: 12px;
+    }
+    .ctxmenu[data-open] { display: block; }
+    .ctxmenu button {
+      display: block;
+      width: 100%;
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: #e8e8e8;
+      font: inherit;
+      text-align: left;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .ctxmenu button:hover:not(:disabled) { background: rgba(255,255,255,0.08); }
+    .ctxmenu button:disabled { opacity: 0.35; cursor: default; }
+    .ctxmenu hr {
+      border: 0;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin: 4px 2px;
+    }
+
+    .rail-resize {
+      position: fixed;
+      left: calc(var(--deck-rail-w, 188px) - 3px);
+      top: 0;
+      bottom: 0;
+      width: 6px;
+      cursor: col-resize;
+      z-index: 2147482600;
+      touch-action: none;
+    }
+    .rail-resize:hover,
+    .rail-resize[data-dragging] { background: rgba(255,255,255,0.12); }
+    :host([no-rail]) .rail-resize,
+    :host([noscale]) .rail-resize,
+    .rail[data-presenting] + .rail-resize,
+    .rail[data-user-hidden] + .rail-resize { display: none; }
+
+    /* Delete-confirm popup — matches the SPA's ConfirmDialog layout
+       (title + message body, depressed footer with Cancel / Delete). */
+    .confirm-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 2147483200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .confirm-backdrop[data-open] { display: flex; }
+    .confirm {
+      width: 320px;
+      max-width: calc(100vw - 32px);
+      background: #2a2a2a;
+      color: #e8e8e8;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.5);
+      overflow: hidden;
+      font-family: inherit;
+      animation: deck-confirm-in 0.18s ease;
+    }
+    @keyframes deck-confirm-in {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .confirm .body { padding: 20px 20px 16px; }
+    .confirm .title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+    .confirm .msg { font-size: 13px; line-height: 1.5; color: rgba(255,255,255,0.65); }
+    .confirm .footer {
+      padding: 14px 20px;
+      background: #1f1f1f;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+    .confirm button {
+      appearance: none;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .confirm .cancel {
+      background: transparent;
+      border: 0;
+      color: rgba(255,255,255,0.8);
+    }
+    .confirm .cancel:hover { background: rgba(255,255,255,0.08); }
+    .confirm .danger {
+      background: #c96442;
+      border: 1px solid rgba(0,0,0,0.15);
+      color: #fff;
+      box-shadow: 0 1px 3px rgba(166,50,68,0.3), 0 2px 6px rgba(166,50,68,0.18);
+    }
+    .confirm .danger:hover { background: #b5563a; }
+
+    /* ── Print: one page per slide, no chrome ────────────────────────────
+       The screen layout stacks every slide at inset:0 inside a scaled
+       canvas; for print we want them in document flow at the authored
+       design size so the browser paginates one slide per sheet. The
+       @page size is set from the width/height attributes via the inline
+       <style id="deck-stage-print-page"> that _syncPrintPageRule appends
+       to the document (the @page at-rule has no effect inside shadow DOM). */
+    @media print {
+      :host {
+        position: static;
+        inset: auto;
+        background: none;
+        overflow: visible;
+        color: inherit;
+      }
+      .stage { position: static; display: block; }
+      .canvas {
+        transform: none !important;
+        width: auto !important;
+        height: auto !important;
+        background: none;
+        will-change: auto;
+      }
+      ::slotted(*) {
+        position: relative !important;
+        inset: auto !important;
+        width: var(--deck-design-w) !important;
+        height: var(--deck-design-h) !important;
+        box-sizing: border-box !important;
+        /* Size containment: slotted content that overflows the design box
+         * (an image-slot's aspect-ratio-derived width, say) must not count
+         * toward Chromium's print document width — without this, an
+         * abs-positioned child past the page edge shrinks the whole PDF
+         * to fit (~75%). Containment is safe here because the definite
+         * width/height above size the slide regardless of content.
+         * (Absorbed from PR #2619 with its owner's agreement.) */
+        contain: size !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto;
+        break-after: page;
+        page-break-after: always;
+        break-inside: avoid;
+        overflow: hidden;
+      }
+      /* :last-child alone isn't enough once data-deck-skip hides the
+         trailing slide(s) — the last *visible* slide still carries
+         break-after:page and prints a blank sheet. _markLastVisible()
+         maintains data-deck-last-visible on the last non-skipped slide. */
+      ::slotted(*:last-child),
+      ::slotted([data-deck-last-visible]) {
+        break-after: auto;
+        page-break-after: auto;
+      }
+      ::slotted([data-deck-skip]) { display: none !important; }
+      .overlay, .rail, .rail-resize, .ctxmenu, .confirm-backdrop { display: none !important; }
+    }
+  `;
+  class DeckStage extends HTMLElement {
+    static get observedAttributes() {
+      return ['width', 'height', 'noscale', 'no-rail'];
+    }
+    constructor() {
+      super();
+      this._root = this.attachShadow({
+        mode: 'open'
+      });
+      this._index = 0;
+      this._slides = [];
+      // Explicit multi-selection (slide elements). Empty means the
+      // selection is implicitly the current slide, so Delete always has
+      // a well-defined target while the rail has focus.
+      this._selected = new Set();
+      this._selAnchor = null;
+      this._notes = [];
+      this._hideTimer = null;
+      this._mouseIdleTimer = null;
+      this._menuIndex = -1;
+      // Overlay pinning: while the pointer is over the controls toolbar or
+      // a control has keyboard focus, the idle-hide timeout must not
+      // dismiss it (a pointer parked ON the controls doesn't generate
+      // mousemove, so without the pin the toolbar vanishes under the
+      // user's cursor after OVERLAY_HIDE_MS). Read by _flashOverlay's
+      // hide timeout; cleared by mouseleave/focusout, which resume the
+      // normal idle fade.
+      this._overlayHover = false;
+      this._overlayFocus = false;
+      // Capability marker for the host's injected guest bundle. Copies
+      // WITHOUT _navArrowsUpDown are frozen per-project builds that
+      // predate native ArrowUp/ArrowDown slide nav — the bundle translates
+      // Up/Down to Right/Left for those (installDeckArrowKeyTranslator in
+      // apps/web/src/guest/edit-mode.ts) and must stand down here or every
+      // press would advance twice. A marker, not a version number, so a
+      // future capability can add its own independent probe.
+      this._navArrowsUpDown = true;
+      // Same contract for rail Delete/Backspace: copies WITHOUT
+      // _railDeleteKey predate the thumbs' own Delete/Backspace binding,
+      // and the bundle opens the delete confirm for them
+      // (installDeckRailDeleteFallback in apps/web/src/guest/edit-mode.ts).
+      // Current builds consume the key at the thumb (stopPropagation), so
+      // the marker is belt-and-braces — it keeps the fallback standing
+      // down even if a future build lets the key bubble past the thumb.
+      this._railDeleteKey = true;
+      // Same contract for skip-aware numbering: copies WITHOUT
+      // _railSkipNumbers number every thumb 1..N and count skipped slides
+      // in the overlay total — the bundle rewrites both for those
+      // (installDeckSkipNumberingFallback in apps/web/src/guest/edit-mode.ts).
+      // Here the component renumbers natively, so the fallback stands down.
+      this._railSkipNumbers = true;
+      this._onKey = this._onKey.bind(this);
+      this._onResize = this._onResize.bind(this);
+      this._onSlotChange = this._onSlotChange.bind(this);
+      this._onMouseMove = this._onMouseMove.bind(this);
+      this._onTap = this._onTap.bind(this);
+      this._onMessage = this._onMessage.bind(this);
+      // Capture-phase close so a click anywhere dismisses the menu, but
+      // ignore clicks that land inside the menu itself — otherwise the
+      // capture handler runs before the menu's own (bubble) handler and
+      // clears _menuIndex out from under it.
+      this._onDocClick = e => {
+        if (this._menu && e.composedPath && e.composedPath().includes(this._menu)) return;
+        this._closeMenu();
+      };
+    }
+    get designWidth() {
+      return parseInt(this.getAttribute('width'), 10) || DESIGN_W_DEFAULT;
+    }
+    get designHeight() {
+      return parseInt(this.getAttribute('height'), 10) || DESIGN_H_DEFAULT;
+    }
+    connectedCallback() {
+      // Presenter-view popup loads deckUrl?_snthumb=...#N for its prev/cur/
+      // next thumbnails — the rail has no business rendering inside those
+      // (wrong scale, and it offsets the stage so the thumb shows a gutter).
+      if (/[?&]_snthumb=/.test(location.search)) this.setAttribute('no-rail', '');
+      this._render();
+      this._loadNotes();
+      this._syncPrintPageRule();
+      this._ensurePrintSizingMeta();
+      this._ensureTextWrapDefaults();
+      window.addEventListener('keydown', this._onKey);
+      window.addEventListener('resize', this._onResize);
+      window.addEventListener('mousemove', this._onMouseMove, {
+        passive: true
+      });
+      window.addEventListener('message', this._onMessage);
+      window.addEventListener('click', this._onDocClick, true);
+      this.addEventListener('click', this._onTap);
+      // Print lays every slide out as its own page, so [data-deck-active]-
+      // gated entrance styles need the attribute on every slide (not just
+      // the current one) or their content prints at the hidden base style.
+      // The transient freeze style lands BEFORE the attributes so any
+      // attribute-keyed transition fires at 0s (changing transition-
+      // duration after a transition has started doesn't affect it).
+      this._onBeforePrint = () => {
+        this._syncPrintPageRule();
+        // Self-heal: a departed doc-page may have removed the page-global
+        // print-sizing meta this deck deferred to at connect time.
+        this._ensurePrintSizingMeta();
+        if (this._freezeStyle) this._freezeStyle.remove();
+        this._freezeStyle = document.createElement('style');
+        this._freezeStyle.textContent = '*,*::before,*::after{transition-duration:0s !important}';
+        document.head.appendChild(this._freezeStyle);
+        this._slides.forEach(s => s.setAttribute('data-deck-active', ''));
+      };
+      this._onAfterPrint = () => {
+        this._applyIndex({
+          showOverlay: false,
+          broadcast: false
+        });
+        if (this._freezeStyle) {
+          this._freezeStyle.remove();
+          this._freezeStyle = null;
+        }
+      };
+      window.addEventListener('beforeprint', this._onBeforePrint);
+      window.addEventListener('afterprint', this._onAfterPrint);
+      // Initial collection + layout happens via slotchange, which fires on mount.
+      this._enableRail();
+      // Hold the stage hidden until webfonts are ready so the first visible
+      // paint has the deck's real typography — the :not(:defined) guard in
+      // the page HTML only covers custom-element upgrade, not font load.
+      // Capped so a 404'd font URL can't blank the deck indefinitely.
+      this.setAttribute('data-fonts-pending', '');
+      const reveal = () => this.removeAttribute('data-fonts-pending');
+      // Unconditional cap — rAF can be suspended in a hidden iframe, which
+      // would strand the one inside the rAF callback.
+      setTimeout(reveal, 2000);
+      // rAF first: fonts.ready is a pre-resolved promise until layout has
+      // resolved the slotted text's font-family and pushed a FontFace into
+      // 'loading'. Reading it here in connectedCallback (parse-time) would
+      // settle the race in a microtask before any font fetch starts.
+      requestAnimationFrame(() => {
+        Promise.race([document.fonts ? document.fonts.ready : Promise.resolve(), new Promise(r => setTimeout(r, 2000))]).then(reveal, reveal);
+      });
+    }
+    _enableRail() {
+      // Idempotent — older host builds still post __omelette_rail_enabled.
+      // no-rail guard keeps the observers/stylesheet walk off the cheap path
+      // for presenter-popup thumbnail iframes (three per view — cur/prev/next).
+      if (this._railEnabled || this.hasAttribute('no-rail')) return;
+      this._railEnabled = true;
+      // Per-viewer preference — restored alongside rail width. Default on;
+      // only a stored '0' (from the TweaksPanel toggle) hides it.
+      this._railVisible = true;
+      try {
+        if (localStorage.getItem('deck-stage.railVisible') === '0') this._railVisible = false;
+      } catch (e) {}
+      // Live thumbnail updates: watch the light-DOM slides for content
+      // edits and re-clone just the affected thumb(s), debounced. Ignore
+      // the data-deck-* / data-screen-label / data-om-validate attributes
+      // this component itself writes so nav doesn't trigger spurious
+      // refreshes — except data-deck-skip, which now arrives from the host
+      // re-render and is what updates the rail badge, print bookkeeping,
+      // and deckSkipped re-broadcast. Also ignore data-dc-tpl /
+      // data-om-slide-id — host-reserved bookkeeping stamps (the host's
+      // ATTR_RESERVED guard bounds them the same way) that structural
+      // edits renumber/re-mint on slides whose content didn't change;
+      // re-cloning on that churn is what made a slide move flash its
+      // thumbnails.
+      const OWN_ATTRS = /^data-(deck-(?!skip$)|screen-label$|om-(validate|slide-id)$|dc-tpl$)/;
+      this._liveDirty = new Set();
+      this._liveObserver = new MutationObserver(records => {
+        for (const r of records) {
+          if (r.type === 'attributes' && OWN_ATTRS.test(r.attributeName || '')) continue;
+          let n = r.target;
+          while (n && n.parentElement !== this) n = n.parentElement;
+          // Skip/unskip is handled below without re-cloning (the badge sits
+          // on the thumb wrapper, not the clone) — don't mark the slide
+          // dirty for an attr change whose only visible effect is the badge.
+          if (n && this._slideSet && this._slideSet.has(n) && !(r.type === 'attributes' && r.attributeName === 'data-deck-skip')) {
+            this._liveDirty.add(n);
+          }
+          // Host-driven skip toggle: sync the rail badge + print + presenter
+          // skipped-list the way _toggleSkip used to do locally.
+          if (r.type === 'attributes' && r.attributeName === 'data-deck-skip' && n && this._slideSet && this._slideSet.has(n)) {
+            const i = this._slides.indexOf(n);
+            if (this._thumbs && this._thumbs[i]) {
+              if (n.hasAttribute('data-deck-skip')) this._thumbs[i].thumb.setAttribute('data-skip', '');else this._thumbs[i].thumb.removeAttribute('data-skip');
+            }
+            this._markLastVisible();
+            this._renumberRail();
+            this._syncCount();
+            try {
+              window.postMessage({
+                slideIndexChanged: this._index,
+                deckTotal: this._slides.length,
+                deckSkipped: this._skippedIndices()
+              }, '*');
+            } catch (e) {}
+          }
+        }
+        if (this._liveDirty.size && !this._liveTimer) {
+          this._liveTimer = setTimeout(() => {
+            this._liveTimer = null;
+            this._liveDirty.forEach(s => this._refreshThumb(s));
+            this._liveDirty.clear();
+          }, 200);
+        }
+      });
+      this._liveObserver.observe(this, {
+        subtree: true,
+        childList: true,
+        characterData: true,
+        attributes: true
+      });
+      // Lazy thumbnail materialization — clone the slide only when its
+      // frame scrolls into (or near) the rail viewport. rootMargin gives
+      // ~4 thumbs of pre-load so fast scrolling doesn't flash blanks.
+      this._railObserver = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting && e.target.__deckThumb) {
+            this._materialize(e.target.__deckThumb);
+          }
+        });
+      }, {
+        root: this._rail,
+        rootMargin: '400px 0px'
+      });
+      // Tweaks typically change CSS vars / attrs OUTSIDE <deck-stage>
+      // (on <html>, <body>, a wrapper div, or a <style> tag), which
+      // _liveObserver can't see. Re-snapshot author CSS (constructable
+      // sheet is shared by reference, so one replaceSync updates every
+      // thumb shadow root) and re-sync each thumb host's attrs + custom
+      // properties. In-slide DOM mutations are _liveObserver's job.
+      // Debounced so slider drags don't thrash.
+      this._onTweakChange = () => {
+        clearTimeout(this._tweakTimer);
+        this._tweakTimer = setTimeout(() => {
+          this._snapshotAuthorCss();
+          // One getComputedStyle for the whole batch — each
+          // getPropertyValue read below reuses the same computed style
+          // as long as nothing invalidates layout between thumbs.
+          const cs = getComputedStyle(this);
+          (this._thumbs || []).forEach(t => {
+            if (t.host) this._syncThumbHostAttrs(t.host, cs);
+          });
+        }, 120);
+      };
+      window.addEventListener('tweakchange', this._onTweakChange);
+      // Stylesheets that finish loading AFTER the snapshot below never
+      // reach the thumbs on their own: a still-pending <link> contributes
+      // nothing to document.styleSheets, and nothing re-reads it on load,
+      // so the live slides restyle while every clone keeps the stale
+      // sheet. dc-runtime's helmet mounts design-system <link>s at render
+      // time, so a deck-stage that connects first snapshots before that
+      // CSS exists. Funnel late arrivals into the same debounced resync:
+      // hook load/error on every current <link>, and watch <head> for
+      // links and styles mounted or rewritten later. Deliberately not
+      // rAF- or fonts.ready-driven — rAF is throttled/suspended in hidden
+      // iframes (thumbnail/presenter contexts), and a font-file load
+      // doesn't change cssRules, so it needs no resync.
+      this._hookedLinks = [];
+      this._hookSheetLoad = el => {
+        if (!el.matches || !el.matches('link[rel~="stylesheet" i]')) return;
+        if (this._hookedLinks.indexOf(el) !== -1) return;
+        this._hookedLinks.push(el);
+        el.addEventListener('load', this._onTweakChange);
+        el.addEventListener('error', this._onTweakChange);
+      };
+      document.querySelectorAll('link[rel~="stylesheet" i]').forEach(this._hookSheetLoad);
+      this._headObserver = new MutationObserver(records => {
+        let resync = false;
+        for (const r of records) {
+          if (r.type === 'characterData') {
+            // Only <style> text is CSS — a ticking <title> shouldn't
+            // wake the resync forever.
+            const p = r.target.parentNode;
+            if (p && p.nodeName === 'STYLE') resync = true;
+            continue;
+          }
+          if (r.type === 'attributes') {
+            // A late rel/href rewrite turns an inert <link> into a
+            // stylesheet (hook it; its load fires even on cache hits);
+            // a media/disabled flip changes effective rules with no
+            // event. Resync only if this link is or ever was a
+            // stylesheet — favicon/preload/canonical href churn isn't
+            // a resync.
+            if (r.target.nodeName === 'LINK') {
+              this._hookSheetLoad(r.target);
+              if (this._hookedLinks.indexOf(r.target) !== -1) resync = true;
+            } else if (r.target.nodeName === 'STYLE') resync = true;
+            continue;
+          }
+          // childList: only links and styles carry CSS. A new <link> has
+          // no rules until it loads — hook it rather than resync now; a
+          // <style> mount/unmount or text-node swap takes effect
+          // immediately. _freezeStyle (our beforeprint helper) is skipped
+          // on add only — no removal-side guard: _onAfterPrint nulls the
+          // ref before the observer fires, so that check would be dead;
+          // the one debounced no-op resync per print is harmless.
+          if (r.target.nodeName === 'STYLE') resync = true;
+          for (const n of r.addedNodes) {
+            if (n.nodeName === 'LINK') this._hookSheetLoad(n);else if (n.nodeName === 'STYLE' && n !== this._freezeStyle) resync = true;
+          }
+          for (const n of r.removedNodes) {
+            if (n.nodeName === 'LINK') {
+              const hi = this._hookedLinks.indexOf(n);
+              if (hi !== -1) {
+                this._hookedLinks.splice(hi, 1);
+                n.removeEventListener('load', this._onTweakChange);
+                n.removeEventListener('error', this._onTweakChange);
+                resync = true;
+              }
+            } else if (n.nodeName === 'STYLE') resync = true;
+          }
+        }
+        if (resync) this._onTweakChange();
+      });
+      this._headObserver.observe(document.head, {
+        childList: true,
+        subtree: true,
+        characterData: true,
+        attributes: true,
+        attributeFilter: ['rel', 'href', 'media', 'disabled']
+      });
+      this._snapshotAuthorCss();
+      // Re-snapshot once any still-loading stylesheet settles — it throws on
+      // .cssRules above and silently contributes '' → unstyled thumbs on a
+      // cold mount. {once:true}; routed through the debounced handler.
+      document.querySelectorAll('link[rel~="stylesheet"]').forEach(l => {
+        try {
+          if (l.sheet && l.sheet.cssRules) return;
+        } catch (e) {}
+        l.addEventListener('load', this._onTweakChange, {
+          once: true
+        });
+        l.addEventListener('error', this._onTweakChange, {
+          once: true
+        });
+      });
+      if (document.fonts) document.fonts.ready.then(this._onTweakChange, this._onTweakChange);
+      // Build the rail now that it's enabled — slotchange already fired,
+      // so _renderRail's early-return skipped the initial build.
+      this._syncRailHidden();
+      this._renderRail();
+      this._fit();
+    }
+
+    /** Snapshot document stylesheets into a constructable sheet that each
+     *  thumbnail's nested shadow root adopts — so author CSS styles the
+     *  cloned slide content without touching this component's chrome.
+     *  Cross-origin sheets throw on .cssRules — skip them. Re-callable:
+     *  the existing constructable sheet is reused via replaceSync so every
+     *  already-adopted shadow root picks up the fresh CSS without re-adopt. */
+    _snapshotAuthorCss() {
+      // :root in an adopted sheet inside a shadow root matches nothing
+      // (only the document root qualifies), so author rules like
+      // `:root[data-voice="modern"] .serif` never reach the clones.
+      // Rewrite :root → :host and mirror <html>'s data-*/class/lang onto
+      // each thumb host (see _syncThumbHostAttrs) so the same selectors
+      // match inside the thumbnail's shadow tree.
+      const authorCss = Array.from(document.styleSheets).map(sh => {
+        try {
+          return Array.from(sh.cssRules).map(r => r.cssText).join('\n');
+        } catch (e) {
+          return '';
+        }
+      }).join('\n')
+      // The shadow host is featureless outside the functional :host(...)
+      // form, so any compound on :root — [attr], .class, #id, :pseudo —
+      // must become :host(<compound>) not :host<compound>. Same for the
+      // html type selector (Tailwind class-strategy dark mode emits
+      // html.dark; Pico uses html[data-theme]), which has nothing to
+      // match inside the thumb's shadow tree.
+      .replace(/:root((?:\[[^\]]*\]|[.#][-\w]+|:[-\w]+(?:\([^)]*\))?)+)/g, ':host($1)').replace(/:root\b/g, ':host').replace(/(^|[\s,>~+(}])html((?:\[[^\]]*\]|[.#][-\w]+|:[-\w]+(?:\([^)]*\))?)+)(?![-\w])/g, '$1:host($2)').replace(/(^|[\s,>~+(}])html(?![-\w])/g, '$1:host');
+      // Every custom property the author references. _syncThumbHostAttrs
+      // mirrors each one's *computed* value at <deck-stage> onto the
+      // thumb host so the live value wins over the :host default above
+      // regardless of which ancestor the tweak wrote to (<html>, <body>,
+      // a wrapper div, or the deck-stage element itself all inherit
+      // down to getComputedStyle(this)).
+      this._authorVars = new Set(authorCss.match(/--[\w-]+/g) || []);
+      try {
+        if (!this._adoptedSheet) this._adoptedSheet = new CSSStyleSheet();
+        this._adoptedSheet.replaceSync(authorCss);
+      } catch (e) {
+        this._adoptedSheet = null;
+        this._authorCss = authorCss;
+      }
+    }
+    _syncThumbHostAttrs(host, cs) {
+      const de = document.documentElement;
+      // setAttribute overwrites but can't delete — an attr removed from
+      // <html> (toggleAttribute off, classList emptied) would linger on
+      // the host and :host([data-*]) / :host(.foo) rules would keep
+      // matching. Remove stale mirrored attrs first; iterate backward
+      // because removeAttribute mutates the live NamedNodeMap.
+      for (let i = host.attributes.length - 1; i >= 0; i--) {
+        const n = host.attributes[i].name;
+        if ((n.startsWith('data-') || n === 'class' || n === 'lang') && !de.hasAttribute(n)) {
+          host.removeAttribute(n);
+        }
+      }
+      for (const a of de.attributes) {
+        if (a.name.startsWith('data-') || a.name === 'class' || a.name === 'lang') {
+          host.setAttribute(a.name, a.value);
+        }
+      }
+      // The :root→:host rewrite in _snapshotAuthorCss pins each custom
+      // property to its stylesheet default on the thumb host, shadowing
+      // the live value that would otherwise inherit. Tweaks can write the
+      // live value on any ancestor — <html>, <body>, a wrapper div, the
+      // deck-stage element — so read it as the *computed* value at
+      // <deck-stage> (which sees the whole inheritance chain) rather than
+      // trying to guess which element the author wrote to. Inline on the
+      // host beats the :host{} rule. remove-stale covers vars dropped
+      // from the stylesheet between snapshots.
+      const vars = this._authorVars || new Set();
+      for (let i = host.style.length - 1; i >= 0; i--) {
+        const p = host.style[i];
+        if (p.startsWith('--') && !vars.has(p)) host.style.removeProperty(p);
+      }
+      const live = cs || getComputedStyle(this);
+      vars.forEach(p => {
+        const v = live.getPropertyValue(p);
+        if (v) host.style.setProperty(p, v.trim());else host.style.removeProperty(p);
+      });
+    }
+    disconnectedCallback() {
+      // A disconnect mid-drag never gets a dragend, so the document-level
+      // drag tracker must be torn down here like every other global hook.
+      this._stopDragTrack();
+      window.removeEventListener('keydown', this._onKey);
+      window.removeEventListener('resize', this._onResize);
+      window.removeEventListener('mousemove', this._onMouseMove);
+      window.removeEventListener('message', this._onMessage);
+      window.removeEventListener('click', this._onDocClick, true);
+      window.removeEventListener('beforeprint', this._onBeforePrint);
+      window.removeEventListener('afterprint', this._onAfterPrint);
+      if (this._freezeStyle) {
+        this._freezeStyle.remove();
+        this._freezeStyle = null;
+      }
+      this.removeEventListener('click', this._onTap);
+      if (this._hideTimer) clearTimeout(this._hideTimer);
+      if (this._mouseIdleTimer) clearTimeout(this._mouseIdleTimer);
+      if (this._liveTimer) clearTimeout(this._liveTimer);
+      if (this._tweakTimer) clearTimeout(this._tweakTimer);
+      if (this._railAnimTimer) clearTimeout(this._railAnimTimer);
+      if (this._scaleRaf) cancelAnimationFrame(this._scaleRaf);
+      if (this._liveObserver) this._liveObserver.disconnect();
+      if (this._railObserver) this._railObserver.disconnect();
+      if (this._headObserver) this._headObserver.disconnect();
+      (this._hookedLinks || []).forEach(l => {
+        l.removeEventListener('load', this._onTweakChange);
+        l.removeEventListener('error', this._onTweakChange);
+      });
+      this._hookedLinks = [];
+      if (this._onTweakChange) window.removeEventListener('tweakchange', this._onTweakChange);
+      // Drop the text-wrap defaults when the last deck-stage leaves, so a
+      // deleted deck's typography can't restyle whatever replaces it.
+      // (#deck-stage-print-page keeps its existing keep-forever lifecycle.)
+      if (!document.querySelector('deck-stage')) {
+        const tw = document.getElementById('deck-stage-text-wrap');
+        if (tw) tw.remove();
+        const ps = document.getElementById('deck-stage-print-sizing');
+        if (ps) ps.remove();
+      }
+    }
+    attributeChangedCallback() {
+      if (this._canvas) {
+        this._canvas.style.width = this.designWidth + 'px';
+        this._canvas.style.height = this.designHeight + 'px';
+        this._canvas.style.setProperty('--deck-design-w', this.designWidth + 'px');
+        this._canvas.style.setProperty('--deck-design-h', this.designHeight + 'px');
+        if (this._rail) {
+          this._rail.style.setProperty('--deck-aspect', this.designWidth + '/' + this.designHeight);
+        }
+        this._fit();
+        this._scaleThumbs();
+        this._syncPrintPageRule();
+      }
+    }
+    _render() {
+      const style = document.createElement('style');
+      style.textContent = stylesheet;
+      const stage = document.createElement('div');
+      stage.className = 'stage';
+      const canvas = document.createElement('div');
+      canvas.className = 'canvas';
+      canvas.style.width = this.designWidth + 'px';
+      canvas.style.height = this.designHeight + 'px';
+      canvas.style.setProperty('--deck-design-w', this.designWidth + 'px');
+      canvas.style.setProperty('--deck-design-h', this.designHeight + 'px');
+      const slot = document.createElement('slot');
+      slot.addEventListener('slotchange', this._onSlotChange);
+      canvas.appendChild(slot);
+      stage.appendChild(canvas);
+
+      // Overlay: compact, solid black, with clickable controls.
+      const overlay = document.createElement('div');
+      overlay.className = 'overlay export-hidden';
+      overlay.setAttribute('role', 'toolbar');
+      overlay.setAttribute('aria-label', 'Deck controls');
+      overlay.setAttribute('data-omelette-chrome', '');
+      overlay.innerHTML = `
+        <button class="btn prev" type="button" aria-label="Previous slide" title="Previous (←)">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg>
+        </button>
+        <span class="count" aria-live="polite"><span class="current">1</span><span class="sep">/</span><span class="total">1</span></span>
+        <button class="btn next" type="button" aria-label="Next slide" title="Next (→)">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg>
+        </button>
+        <span class="divider"></span>
+        <button class="btn reset" type="button" aria-label="Reset to first slide" title="Reset (R)">Reset<span class="kbd">R</span></button>
+      `;
+      overlay.querySelector('.prev').addEventListener('click', () => this._advance(-1, 'click'));
+      overlay.querySelector('.next').addEventListener('click', () => this._advance(1, 'click'));
+      overlay.querySelector('.reset').addEventListener('click', () => this._go(0, 'click'));
+
+      // Pin the controls while the user is interacting with them —
+      // hovering, or keyboard focus on a control. The hidden overlay is
+      // pointer-events:none, so these only ever engage while it's already
+      // visible. 'pointer' source: these are user-interaction paths, so
+      // they may show/refresh the overlay even while presenting (see
+      // _flashOverlay).
+      overlay.addEventListener('mouseenter', () => {
+        this._overlayHover = true;
+        this._flashOverlay('pointer');
+      });
+      overlay.addEventListener('mouseleave', () => {
+        const hadPin = this._overlayHover;
+        this._overlayHover = false;
+        // Resume the idle fade — never summon. Without the guard, a
+        // mouseleave that fires because the overlay was force-hidden
+        // (presenting entry flips it to pointer-events:none under the
+        // cursor) would pop the controls right back up.
+        if (hadPin || overlay.hasAttribute('data-visible')) this._flashOverlay('pointer');
+      });
+      overlay.addEventListener('focusin', e => {
+        // Keyboard-origin focus only (:focus-visible): a mouse click also
+        // focuses the clicked button, and pinning on that would hold the
+        // controls open indefinitely after a single click — the hover pin
+        // already covers the mouse case. Engines without :focus-visible
+        // fall back to pinning on any focus (the safe direction).
+        var kb = true;
+        try {
+          var t = e.target;
+          kb = !(t && t.matches && !t.matches(':focus-visible'));
+        } catch (err) {
+          kb = true;
+        }
+        if (!kb) return;
+        this._overlayFocus = true;
+        this._flashOverlay('pointer');
+      });
+      overlay.addEventListener('focusout', e => {
+        // Only unpin when focus truly left the toolbar — tabbing between
+        // its buttons stays pinned. relatedTarget is null when focus
+        // leaves the document entirely; treat that as leaving.
+        if (e.relatedTarget && overlay.contains(e.relatedTarget)) return;
+        const hadPin = this._overlayFocus;
+        this._overlayFocus = false;
+        // Resume-the-fade only (see mouseleave): a click-focused button
+        // losing focus to a later stage click must not summon the
+        // controls mid-presentation.
+        if (hadPin || overlay.hasAttribute('data-visible')) this._flashOverlay('pointer');
+      });
+
+      // Thumbnail rail + context menu. Thumbnails are populated in
+      // _renderRail() after _collectSlides().
+      const rail = document.createElement('div');
+      rail.className = 'rail export-hidden';
+      rail.setAttribute('data-omelette-chrome', '');
+      // Edit mode hooks wheel to pan the canvas; this opts the rail's own
+      // scrollview out so thumbnails stay scrollable while editing.
+      rail.setAttribute('data-dc-wheel-passthru', '');
+      rail.style.setProperty('--deck-aspect', this.designWidth + '/' + this.designHeight);
+      // Edge auto-scroll while dragging a thumb near the rail's top/bottom
+      // so off-screen drop targets are reachable. Native dragover fires
+      // continuously while the pointer is stationary, so a per-event nudge
+      // (ramped by edge proximity) is enough — no rAF loop needed.
+      rail.addEventListener('dragover', e => {
+        if (this._dragFrom == null) return;
+        const r = rail.getBoundingClientRect();
+        const EDGE = 40;
+        const dt = e.clientY - r.top;
+        const db = r.bottom - e.clientY;
+        if (dt < EDGE) rail.scrollTop -= Math.ceil((EDGE - dt) / 3);else if (db < EDGE) rail.scrollTop += Math.ceil((EDGE - db) / 3);
+      });
+      const menu = document.createElement('div');
+      menu.className = 'ctxmenu export-hidden';
+      menu.setAttribute('data-omelette-chrome', '');
+      menu.innerHTML = `
+        <button type="button" data-act="skip">Skip slide</button>
+        <button type="button" data-act="up">Move up</button>
+        <button type="button" data-act="down">Move down</button>
+        <button type="button" data-act="duplicate">Duplicate slide</button>
+        <hr>
+        <button type="button" data-act="delete">Delete slide</button>
+      `;
+      menu.addEventListener('click', e => {
+        const act = e.target && e.target.getAttribute && e.target.getAttribute('data-act');
+        if (!act) return;
+        const i = this._menuIndex;
+        const list = this._menuIndices;
+        this._closeMenu();
+        if (act === 'skip') this._toggleSkip(i);else if (act === 'up') this._moveSlide(i, i - 1);else if (act === 'down') this._moveSlide(i, i + 1);else if (act === 'duplicate') this._duplicateSlide(i);else if (act === 'delete') this._openConfirm(list && list.length ? list : [i]);
+      });
+      menu.addEventListener('contextmenu', e => e.preventDefault());
+
+      // Rail resize handle — drag to set --deck-rail-w, persisted to
+      // localStorage so the width survives reloads.
+      const resize = document.createElement('div');
+      resize.className = 'rail-resize export-hidden';
+      resize.setAttribute('data-omelette-chrome', '');
+      resize.addEventListener('pointerdown', e => {
+        e.preventDefault();
+        resize.setPointerCapture(e.pointerId);
+        resize.setAttribute('data-dragging', '');
+        const move = ev => this._setRailWidth(ev.clientX);
+        const up = () => {
+          resize.removeEventListener('pointermove', move);
+          resize.removeEventListener('pointerup', up);
+          resize.removeEventListener('pointercancel', up);
+          resize.removeAttribute('data-dragging');
+          try {
+            localStorage.setItem('deck-stage.railWidth', String(this._railPx));
+          } catch (err) {}
+        };
+        resize.addEventListener('pointermove', move);
+        resize.addEventListener('pointerup', up);
+        resize.addEventListener('pointercancel', up);
+      });
+
+      // Delete-confirm dialog — mirrors the SPA's ConfirmDialog layout.
+      const confirm = document.createElement('div');
+      confirm.className = 'confirm-backdrop export-hidden';
+      confirm.setAttribute('data-omelette-chrome', '');
+      confirm.innerHTML = `
+        <div class="confirm" role="dialog" aria-modal="true">
+          <div class="body">
+            <div class="title">Delete slide?</div>
+            <div class="msg">This slide will be removed from the deck.</div>
+          </div>
+          <div class="footer">
+            <button type="button" class="cancel">Cancel</button>
+            <button type="button" class="danger">Delete</button>
+          </div>
+        </div>
+      `;
+      confirm.addEventListener('click', e => {
+        if (e.target === confirm) {
+          this._closeConfirm();
+          this._focusCurrentThumb();
+        }
+      });
+      confirm.querySelector('.cancel').addEventListener('click', () => {
+        this._closeConfirm();
+        this._focusCurrentThumb();
+      });
+      confirm.querySelector('.danger').addEventListener('click', () => {
+        // Re-resolve at click time — the elements are the user's actual
+        // selection; their indices may have shifted since confirm-open.
+        const list = (this._confirmEls || []).map(el => this._slides.indexOf(el)).filter(i => i >= 0);
+        this._closeConfirm();
+        this._deleteSlides(list);
+        this._focusCurrentThumb();
+      });
+      this._root.append(style, rail, resize, stage, overlay, menu, confirm);
+      this._canvas = canvas;
+      this._stage = stage;
+      this._slot = slot;
+      this._overlay = overlay;
+      this._rail = rail;
+      this._resize = resize;
+      this._menu = menu;
+      this._confirm = confirm;
+      this._countEl = overlay.querySelector('.current');
+      this._totalEl = overlay.querySelector('.total');
+
+      // Restore persisted rail width.
+      let rw = 188;
+      try {
+        const s = localStorage.getItem('deck-stage.railWidth');
+        if (s) rw = parseInt(s, 10) || rw;
+      } catch (err) {}
+      this._setRailWidth(rw);
+      this._syncRailHidden();
+    }
+    _setRailWidth(px) {
+      const w = Math.max(120, Math.min(360, Math.round(px)));
+      this._railPx = w;
+      this.style.setProperty('--deck-rail-w', w + 'px');
+      this._fit();
+      // _scaleThumbs forces a sync layout (frame.offsetWidth) then writes
+      // N transforms. During a resize drag this runs per-pointermove;
+      // coalesce to one per frame.
+      if (!this._scaleRaf) {
+        this._scaleRaf = requestAnimationFrame(() => {
+          this._scaleRaf = null;
+          this._scaleThumbs();
+        });
+      }
+    }
+
+    /** @page must live in the document stylesheet — it's a no-op inside
+     *  shadow DOM. (Re-)append so any author @page landing later in
+     *  source order can't reintroduce a margin and push each slide onto
+     *  two sheets; called again from beforeprint. */
+    _syncPrintPageRule() {
+      const id = 'deck-stage-print-page';
+      let tag = document.getElementById(id);
+      if (!tag) {
+        tag = document.createElement('style');
+        tag.id = id;
+      }
+      (document.body || document.head).appendChild(tag);
+      tag.textContent = '@page { size: ' + this.designWidth + 'px ' + this.designHeight + 'px; margin: 0; } ' + '@media print { html, body { margin: 0 !important; padding: 0 !important; background: none !important; overflow: visible !important; height: auto !important; } ' + '* { -webkit-print-color-adjust: exact; print-color-adjust: exact; ' + 'backdrop-filter: none !important; -webkit-backdrop-filter: none !important; } ' +
+      // Jump authored animations/transitions to their end state so print
+      // never captures mid-entrance — pairs with the beforeprint handler
+      // in connectedCallback that sets data-deck-active on every slide.
+      '*, *::before, *::after { animation-delay: -99s !important; animation-duration: .001s !important; ' + 'animation-iteration-count: 1 !important; animation-fill-mode: both !important; ' + 'animation-play-state: running !important; transition-duration: 0s !important; } }';
+    }
+
+    /** Announces the deck's print-sizing mode to the host app:
+     *  meta[name="omelette-print-sizing"] content "default-landscape" — a
+     *  deck prints one slide per page on the user's paper size, landscape.
+     *  The export path probes the meta to decide what true paper size to
+     *  inject at print time (the @page px rule above stays as the
+     *  standalone-print fallback; an injected later rule overrides it).
+     *  Never overrides an authored meta or another component's; removed
+     *  when the last deck-stage leaves. data-omelette-injected keeps it
+     *  out of serialized source. */
+    _ensurePrintSizingMeta() {
+      if (document.querySelector('meta[name="omelette-print-sizing"]')) return;
+      const tag = document.createElement('meta');
+      tag.id = 'deck-stage-print-sizing';
+      tag.name = 'omelette-print-sizing';
+      tag.content = 'default-landscape';
+      tag.setAttribute('data-omelette-injected', '');
+      document.head.appendChild(tag);
+    }
+
+    /** Typographic defaults for slide text: balance headings, avoid
+     *  widowed/orphaned words in body copy (browsers without text-wrap
+     *  support drop the declarations). Zero-specificity via :where() so
+     *  any text-wrap authored on those elements wins. Lives in the document,
+     *  not the shadow root, for two reasons: document rules reach the
+     *  slotted (light DOM) slides, and _snapshotAuthorCss copies document
+     *  stylesheets into each thumbnail's shadow root, so the thumbs wrap
+     *  the same way — a deck-stage-scoped selector would match nothing
+     *  there. data-omelette-injected marks the tag for the host editor
+     *  to strip at serialize, so it is never written back as authored
+     *  source. */
+    _ensureTextWrapDefaults() {
+      if (document.getElementById('deck-stage-text-wrap')) return;
+      const tag = document.createElement('style');
+      tag.id = 'deck-stage-text-wrap';
+      tag.setAttribute('data-omelette-injected', '');
+      tag.textContent = ':where(h1,h2,h3,h4,h5,h6){text-wrap:balance}' + ':where(p,li,blockquote,figcaption){text-wrap:pretty}';
+      document.head.appendChild(tag);
+    }
+    _onSlotChange() {
+      // Self-mutate path already reconciled synchronously and emitted
+      // slidechange; skip the async slotchange it caused.
+      if (this._squelchSlotChange) {
+        this._squelchSlotChange = false;
+        return;
+      }
+      // Primary lock-clear is the host's __deck_rail_ack; this clears on a
+      // dropped ack so the rail can't stay dead.
+      this._railLock = false;
+      this._collectSlides();
+      this._restoreIndex();
+      this._applyIndex({
+        showOverlay: false,
+        broadcast: true,
+        reason: 'init'
+      });
+      this._fit();
+      // The deck just changed under any open rail surface — an open
+      // confirm or menu is a question about the OLD deck (its labels and
+      // counts may now lie), so close them rather than let a stale
+      // answer fire. The element-held selection re-resolves, but the
+      // user should re-read what they're deleting.
+      if (this._confirm && this._confirm.hasAttribute('data-open')) {
+        this._closeConfirm();
+        // The dialog held focus (danger button); hand it back to the rail.
+        this._focusCurrentThumb(true);
+      }
+      if (this._menu && this._menu.hasAttribute('data-open')) this._closeMenu();
+      // Editor-mode deletes rebuild the rail through here; a confirmed
+      // delete that started from the keyboard still owes focus to the
+      // (new) current thumb.
+      if (this._pendingRailRefocus) this._focusCurrentThumb(true);
+    }
+    _collectSlides() {
+      const assigned = this._slot.assignedElements({
+        flatten: true
+      });
+      this._slides = assigned.filter(el => {
+        // Skip template/style/script nodes even if someone slots them.
+        const tag = el.tagName;
+        return tag !== 'TEMPLATE' && tag !== 'SCRIPT' && tag !== 'STYLE';
+      });
+      this._slideSet = new Set(this._slides);
+      // Selection is element-keyed: drop entries whose slide is gone
+      // (deleted, or replaced wholesale by a host re-render).
+      if (this._selected && this._selected.size) {
+        this._selected.forEach(s => {
+          if (!this._slideSet.has(s)) this._selected.delete(s);
+        });
+      }
+      if (this._selAnchor && !this._slideSet.has(this._selAnchor)) this._selAnchor = null;
+      this._slides.forEach((slide, i) => {
+        const n = i + 1;
+        slide.setAttribute('data-screen-label', `${pad2(n)} ${getSlideLabel(slide)}`);
+
+        // Validation attribute for comment flow / auto-checks.
+        if (!slide.hasAttribute('data-om-validate')) {
+          slide.setAttribute('data-om-validate', VALIDATE_ATTR);
+        }
+        slide.setAttribute('data-deck-slide', String(i));
+      });
+      if (this._index >= this._slides.length) this._index = Math.max(0, this._slides.length - 1);
+      this._markLastVisible();
+      this._syncCount();
+      this._renderRail();
+    }
+
+    /** Tag the last non-skipped slide so print CSS can drop its
+     *  break-after (see the @media print comment above — :last-child
+     *  alone matches a hidden skipped slide). */
+    _markLastVisible() {
+      let last = null;
+      this._slides.forEach(s => {
+        s.removeAttribute('data-deck-last-visible');
+        if (!s.hasAttribute('data-deck-skip')) last = s;
+      });
+      if (last) last.setAttribute('data-deck-last-visible', '');
+    }
+    _loadNotes() {
+      // Per-slide data-speaker-notes is authoritative when present (attrs
+      // travel with the element on reorder/dup/delete); a slide without
+      // the attr falls through to the legacy #speaker-notes JSON array
+      // PER SLIDE so a single attr on a JSON-authored deck doesn't blank
+      // the rest.
+      const tag = document.getElementById('speaker-notes');
+      let json = null;
+      if (tag) try {
+        const p = JSON.parse(tag.textContent || '[]');
+        if (Array.isArray(p)) json = p;
+      } catch (e) {
+        console.warn('[deck-stage] Failed to parse #speaker-notes JSON:', e);
+      }
+      this._notes = this._slides.map((s, i) => {
+        const a = s.getAttribute('data-speaker-notes');
+        return a !== null ? a : json && typeof json[i] === 'string' ? json[i] : '';
+      });
+    }
+    _restoreIndex() {
+      // The host's ?slide= param is delivered as a #<int> hash (1-indexed) on
+      // the iframe src. No hash → slide 1; the deck itself keeps no position
+      // state across loads.
+      const h = (location.hash || '').match(/^#(\d+)$/);
+      if (h) {
+        const n = parseInt(h[1], 10) - 1;
+        if (n >= 0 && n < this._slides.length) this._index = n;
+      }
+    }
+    _applyIndex({
+      showOverlay = true,
+      broadcast = true,
+      reason = 'init'
+    } = {}) {
+      if (!this._slides.length) return;
+      const prev = this._prevIndex == null ? -1 : this._prevIndex;
+      const curr = this._index;
+      // Keep the iframe's own hash in sync so an in-iframe location.reload()
+      // (reload banner path in viewer-handle.ts) lands on the current slide,
+      // not the stale deep-link hash from initial load.
+      try {
+        history.replaceState(null, '', '#' + (curr + 1));
+      } catch (e) {}
+      this._slides.forEach((s, i) => {
+        if (i === curr) s.setAttribute('data-deck-active', '');else s.removeAttribute('data-deck-active');
+      });
+      this._syncCount();
+      // Follow-scroll on every navigation (init deep-link, keyboard, click,
+      // tap, external goTo) — the only time we *don't* want the rail to
+      // track current is after a rail-internal mutation, where _renderRail
+      // has already restored the user's scroll position and yanking back to
+      // current would undo it.
+      this._syncRail(reason !== 'mutation');
+      if (broadcast) {
+        // (1) Legacy: host-window postMessage for speaker-notes renderers.
+        try {
+          window.postMessage({
+            slideIndexChanged: curr,
+            deckTotal: this._slides.length,
+            deckSkipped: this._skippedIndices()
+          }, '*');
+        } catch (e) {}
+
+        // (2) In-page CustomEvent on the <deck-stage> element itself.
+        //     Bubbles and composes out of shadow DOM so slide code can listen:
+        //       document.querySelector('deck-stage').addEventListener('slidechange', e => {
+        //         e.detail.index, e.detail.previousIndex, e.detail.total, e.detail.slide, e.detail.reason
+        //       });
+        const detail = {
+          index: curr,
+          previousIndex: prev,
+          total: this._slides.length,
+          slide: this._slides[curr] || null,
+          previousSlide: prev >= 0 ? this._slides[prev] || null : null,
+          reason: reason // 'init' | 'keyboard' | 'click' | 'tap' | 'api'
+        };
+        this.dispatchEvent(new CustomEvent('slidechange', {
+          detail,
+          bubbles: true,
+          composed: true
+        }));
+      }
+      this._prevIndex = curr;
+      if (showOverlay) this._flashOverlay();
+    }
+    _flashOverlay(source) {
+      // Host posts __omelette_presenting while in fullscreen/tab
+      // presentation mode. While presenting, the overlay is
+      // pointer-summoned only: it appears on mouse movement and while the
+      // user hovers/focuses the controls (source 'pointer'), but never
+      // flashes on slide changes or nav-key presses (the default 'auto'
+      // source) — a keyboard-driven advance must not blink chrome at the
+      // audience. Outside presenting, both sources flash as before.
+      if (!this._overlay) return;
+      if (this._presenting && source !== 'pointer') return;
+      this._overlay.setAttribute('data-visible', '');
+      if (this._hideTimer) clearTimeout(this._hideTimer);
+      this._hideTimer = setTimeout(() => {
+        // Pinned by hover or focus on the controls — keep them up. The
+        // matching mouseleave/focusout re-flashes, so the idle fade
+        // resumes from that moment.
+        if (this._overlayHover || this._overlayFocus) return;
+        this._overlay.removeAttribute('data-visible');
+      }, OVERLAY_HIDE_MS);
+    }
+    _railWidth() {
+      // State-based, no offsetWidth: the first _fit() can run before the
+      // rail has had layout on some load paths, and a 0 there paints the
+      // slide full-width for one frame before the post-slotchange _fit()
+      // corrects it.
+      if (!this._railEnabled || !this._railVisible || this.hasAttribute('no-rail') || this.hasAttribute('noscale') || this._presenting || this._previewMode || NARROW_MQ.matches) return 0;
+      return this._railPx || 0;
+    }
+    _fit() {
+      if (!this._canvas) return;
+      const stage = this._canvas.parentElement;
+      // PPTX export sets noscale so the DOM capture sees authored-size
+      // geometry — the scaled canvas is in shadow DOM, so the exporter's
+      // resetTransformSelector can't reach .canvas.style.transform directly.
+      if (this.hasAttribute('noscale')) {
+        this._canvas.style.transform = 'none';
+        if (stage) stage.style.left = '0';
+        if (this._overlay) this._overlay.style.marginLeft = '0';
+        return;
+      }
+      const rw = this._railWidth();
+      if (stage) stage.style.left = rw + 'px';
+      // Overlay is centred on the viewport via left:50% + translate(-50%);
+      // marginLeft shifts the centre by rw/2 so it lands in the middle of
+      // the [rw, innerWidth] stage region.
+      if (this._overlay) this._overlay.style.marginLeft = rw / 2 + 'px';
+      const vw = window.innerWidth - rw;
+      const vh = window.innerHeight;
+      const s = Math.min(vw / this.designWidth, vh / this.designHeight);
+      this._canvas.style.transform = `scale(${s})`;
+    }
+    _onResize() {
+      this._fit();
+      // Crossing the narrow-viewport breakpoint reveals the rail — rerun the
+      // thumbnail scale the same way _setRailWidth does.
+      if (!this._scaleRaf) {
+        this._scaleRaf = requestAnimationFrame(() => {
+          this._scaleRaf = null;
+          this._scaleThumbs();
+        });
+      }
+    }
+    _onMouseMove() {
+      // Keep overlay visible while mouse moves; hide after idle. 'pointer'
+      // source: mouse movement summons the controls even while presenting.
+      this._flashOverlay('pointer');
+    }
+    _onMessage(e) {
+      const d = e.data;
+      if (d && typeof d.__omelette_presenting === 'boolean') {
+        // Unchanged value → idempotent re-delivery (the guest bundle
+        // re-posts when a deck mounts mid-presentation, and host + bundle
+        // can both deliver at entry). Skip the resets: re-running the
+        // entry work on every delivery would dismiss the pointer-summoned
+        // overlay under a hovering cursor and close menus on every slide
+        // change. Mirrors the preview_mode branch's unchanged-value guard
+        // below.
+        if (d.__omelette_presenting !== !!this._presenting) {
+          this._presenting = d.__omelette_presenting;
+          // A presenting transition invalidates interaction pins: carried
+          // across the flip, a stale pin would hold the first summoned
+          // overlay open with no pointer anywhere near it. Hide on BOTH
+          // transitions: entry cleans the audience's screen, and on exit a
+          // pin-skipped hide timeout may have left data-visible set with
+          // no timer armed — without this, the footer would linger in the
+          // editor until the next mousemove. The next interaction
+          // re-summons it either way.
+          this._overlayHover = false;
+          this._overlayFocus = false;
+          if (this._overlay) {
+            this._overlay.removeAttribute('data-visible');
+            if (this._hideTimer) clearTimeout(this._hideTimer);
+          }
+          this._syncRailHidden();
+          this._closeMenu();
+          this._closeConfirm();
+          this._fit();
+          this._scaleThumbs();
+        }
+      }
+      // Host's Preview segment (ViewerMode='none'): the rail's drag-reorder /
+      // right-click skip-delete affordances are editing chrome, so hide it
+      // while the user is just looking at the deck. Same hard-hide path as
+      // presenting; independent of the user's _railVisible preference so
+      // returning to Edit restores whatever they had.
+      if (d && typeof d.__omelette_preview_mode === 'boolean') {
+        if (d.__omelette_preview_mode === this._previewMode) return;
+        this._previewMode = d.__omelette_preview_mode;
+        this._syncRailHidden();
+        this._closeMenu();
+        this._closeConfirm();
+        this._fit();
+        this._scaleThumbs();
+      }
+      // Host has processed a dc-op; rail input is safe again. Not tied to
+      // slotchange — setAttr and refusal don't fire one. On refusal,
+      // revert the optimistic _index/hash adjustment so the next nav
+      // starts from what's actually on screen.
+      if (d && d.__dc_op_ack) {
+        this._railLock = false;
+        if (d.applied === false && this._indexBeforeEmit != null) {
+          this._index = this._indexBeforeEmit;
+          try {
+            history.replaceState(null, '', '#' + (this._index + 1));
+          } catch (e) {}
+        }
+        this._indexBeforeEmit = null;
+        // A refused op never re-renders, so slotchange won't restore the
+        // keyboard flow's focus — do it here. (Applied ops refocus in
+        // _onSlotChange, after the rail has been rebuilt.)
+        if (d.applied === false && this._pendingRailRefocus) {
+          this._focusCurrentThumb(true);
+        }
+      }
+      // Per-viewer show/hide, driven by the TweaksPanel's auto-injected
+      // "Thumbnail rail" toggle (or any author script). Independent of
+      // whether the Tweaks panel itself is open — closing the panel
+      // doesn't change rail visibility. Persists alongside rail width.
+      if (d && d.type === '__deck_rail_visible' && typeof d.on === 'boolean') {
+        if (d.on === this._railVisible) return;
+        this._railVisible = d.on;
+        try {
+          localStorage.setItem('deck-stage.railVisible', d.on ? '1' : '0');
+        } catch (e) {}
+        // Arm the transition, commit it, then flip state — otherwise the
+        // browser coalesces both writes and nothing animates on show.
+        this.setAttribute('data-rail-anim', '');
+        void (this._rail && this._rail.offsetHeight);
+        this._syncRailHidden();
+        this._fit();
+        this._scaleThumbs();
+        clearTimeout(this._railAnimTimer);
+        this._railAnimTimer = setTimeout(() => this.removeAttribute('data-rail-anim'), 220);
+      }
+      if (d && d.type === '__omelette_rail_enabled') this._enableRail();
+    }
+    _syncRailHidden() {
+      if (!this._rail) return;
+      // data-presenting is the hard hide (display:none) for flag-off,
+      // presentation mode, and the host's Preview segment — instant, no
+      // transition. data-user-hidden is the soft hide (translateX(-100%))
+      // for the viewer's rail toggle, so show/hide slides under
+      // :host([data-rail-anim]).
+      const hard = !this._railEnabled || this._presenting || this._previewMode;
+      if (hard) this._rail.setAttribute('data-presenting', '');else this._rail.removeAttribute('data-presenting');
+      if (!this._railVisible) this._rail.setAttribute('data-user-hidden', '');else this._rail.removeAttribute('data-user-hidden');
+      // translateX hide leaves thumbs (tabIndex=0) in the tab order —
+      // inert keeps them unfocusable while the rail is off-screen.
+      this._rail.inert = hard || !this._railVisible;
+    }
+    _onTap(e) {
+      // Touch-only — keyboard + the overlay toolbar cover nav on desktop.
+      if (FINE_POINTER_MQ.matches) return;
+      // Only taps that land on the stage (slide content or letterbox); the
+      // overlay / rail / menus are siblings with their own click handlers.
+      const path = e.composedPath();
+      if (!this._stage || !path.includes(this._stage)) return;
+      // Let interactive slide content keep the tap. composedPath (not
+      // e.target.closest) so we see through open shadow roots — a <button>
+      // inside a slide-authored custom element retargets e.target to the
+      // host but still appears in the composed path.
+      if (e.defaultPrevented) return;
+      for (const n of path) {
+        if (n === this._stage) break;
+        if (n.matches && n.matches(INTERACTIVE_SEL)) return;
+      }
+      e.preventDefault();
+      const rw = this._railWidth();
+      const mid = rw + (window.innerWidth - rw) / 2;
+      this._advance(e.clientX < mid ? -1 : 1, 'tap');
+    }
+    _onKey(e) {
+      // Ignore when the user is typing. composedPath()[0], not e.target: a
+      // window-level keydown retargets e.target to the shadow host, which
+      // would miss an <input> or contenteditable inside a web component on
+      // a slide (same reason _onTap uses composedPath).
+      const t = e.composedPath ? e.composedPath()[0] : e.target;
+      if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+      // Confirm dialog swallows nav keys while open; Escape cancels. Enter
+      // is left to the focused button's native activation so Tab→Cancel
+      // →Enter activates Cancel, not the window-level confirm path.
+      if (this._confirm && this._confirm.hasAttribute('data-open')) {
+        if (e.key === 'Escape') {
+          this._closeConfirm();
+          this._focusCurrentThumb();
+          e.preventDefault();
+        }
+        return;
+      }
+      if (e.key === 'Escape' && this._menu && this._menu.hasAttribute('data-open')) {
+        this._closeMenu();
+        e.preventDefault();
+        return;
+      }
+      if (e.key === 'Escape' && this._selected.size) {
+        // Collapse the multi-selection back to the current slide (the
+        // implicit selection), not to nothing.
+        this._clearSelection();
+        e.preventDefault();
+        return;
+      }
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const key = e.key;
+      let handled = true;
+      if (key === 'ArrowRight' || key === 'PageDown' || key === ' ' || key === 'Spacebar') {
+        this._advance(1, 'keyboard');
+      } else if (key === 'ArrowLeft' || key === 'PageUp') {
+        this._advance(-1, 'keyboard');
+      } else if (key === 'ArrowDown' && !e.defaultPrevented) {
+        // ↓/↑ page slides like →/← (Keynote/PowerPoint parity). Window
+        // level only: rail thumbs keep their own ↑/↓ walk (their handler
+        // stops propagation before this one), and the typing guard above
+        // already covers inputs and contenteditable slide content.
+        // Deliberate tradeoff: like Space/PageDown before them, these are
+        // scroll keys — slide content that wants keyboard scrolling claims
+        // them with preventDefault, which this branch honors (checked here
+        // and not for the long-standing keys above, so ←/→/Space behavior
+        // is unchanged and ↑/↓ behave identically on frozen copies, whose
+        // translator in the guest bundle applies the same guard).
+        this._advance(1, 'keyboard');
+      } else if (key === 'ArrowUp' && !e.defaultPrevented) {
+        this._advance(-1, 'keyboard');
+      } else if (key === 'Home') {
+        this._go(0, 'keyboard');
+      } else if (key === 'End') {
+        this._go(this._slides.length - 1, 'keyboard');
+      } else if (key === 'r' || key === 'R') {
+        this._go(0, 'keyboard');
+      } else if (/^[0-9]$/.test(key)) {
+        // 1..9 jump to that slide; 0 jumps to 10.
+        const n = key === '0' ? 9 : parseInt(key, 10) - 1;
+        if (n < this._slides.length) this._go(n, 'keyboard');
+      } else {
+        handled = false;
+      }
+      if (handled) {
+        e.preventDefault();
+        this._flashOverlay();
+      }
+    }
+    _go(i, reason = 'api') {
+      // User-initiated navigation collapses a multi-selection down to
+      // the (implicit) current slide, like Keynote's arrow keys. 'click'
+      // handles its own selection; programmatic reasons leave it alone.
+      if (reason === 'keyboard' || reason === 'tap') this._clearSelection();
+      if (!this._slides.length) return;
+      const clamped = Math.max(0, Math.min(this._slides.length - 1, i));
+      if (clamped === this._index) {
+        this._flashOverlay();
+        return;
+      }
+      this._index = clamped;
+      this._applyIndex({
+        showOverlay: true,
+        broadcast: true,
+        reason
+      });
+    }
+
+    /** Step forward/back skipping any slide marked data-deck-skip. Falls
+     *  back to _go's clamp-at-ends behaviour (flash overlay) when there's
+     *  nothing further in that direction. */
+    _advance(dir, reason) {
+      if (!this._slides.length) return;
+      let i = this._index + dir;
+      while (i >= 0 && i < this._slides.length && this._slides[i].hasAttribute('data-deck-skip')) {
+        i += dir;
+      }
+      if (i < 0 || i >= this._slides.length) {
+        this._flashOverlay();
+        return;
+      }
+      this._go(i, reason);
+    }
+
+    // ── Thumbnail rail ────────────────────────────────────────────────────
+    //
+    // Thumbs are keyed by slide element and reused across _renderRail()
+    // calls, so a reorder/delete is an O(changed) DOM shuffle instead of an
+    // O(N) teardown-and-re-clone. Each thumb starts as a lightweight shell
+    // (num + empty frame); the clone is materialized lazily by an
+    // IntersectionObserver when the frame scrolls into (or near) view, so
+    // only visible-ish slides pay the clone + image-decode cost.
+
+    _renderRail() {
+      if (!this._rail || !this._railEnabled) {
+        this._thumbs = [];
+        return;
+      }
+      // FLIP: record each *materialized* thumb's top before the reconcile.
+      // Off-screen (non-materialized) thumbs don't need the animation and
+      // skipping their getBoundingClientRect saves a forced layout per
+      // off-screen thumb on large decks.
+      const prevTops = new Map();
+      (this._thumbs || []).forEach(({
+        thumb,
+        slide,
+        host
+      }) => {
+        if (host) prevTops.set(slide, thumb.getBoundingClientRect().top);
+      });
+      const st = this._rail.scrollTop;
+
+      // Reconcile: reuse thumbs that already exist for a slide, create
+      // shells for new slides, drop thumbs for removed slides.
+      const bySlide = new Map();
+      (this._thumbs || []).forEach(t => bySlide.set(t.slide, t));
+      const next = [];
+      this._slides.forEach(slide => {
+        let t = bySlide.get(slide);
+        if (t) bySlide.delete(slide);else t = this._makeThumb(slide);
+        next.push(t);
+      });
+      // Orphans — slides removed since last render.
+      bySlide.forEach(t => {
+        if (this._railObserver) this._railObserver.unobserve(t.frame);
+        t.thumb.remove();
+      });
+      // Put thumbs into document order to match _slides. insertBefore on
+      // an already-correctly-placed node is a no-op, so this is cheap
+      // when nothing moved.
+      next.forEach((t, i) => {
+        const want = t.thumb;
+        const at = this._rail.children[i];
+        if (at !== want) this._rail.insertBefore(want, at || null);
+        t.i = i;
+        if (t.slide.hasAttribute('data-deck-skip')) t.thumb.setAttribute('data-skip', '');else t.thumb.removeAttribute('data-skip');
+        if (this._selected.has(t.slide)) t.thumb.setAttribute('data-selected', '');else t.thumb.removeAttribute('data-selected');
+      });
+      this._thumbs = next;
+      this._renumberRail();
+      this._rail.scrollTop = st;
+      if (prevTops.size) {
+        const moved = [];
+        this._thumbs.forEach(({
+          thumb,
+          slide
+        }) => {
+          // The live-dragged thumb is positioned by the drag tracker; a
+          // FLIP transform+transition here would clobber it mid-drag.
+          if (thumb === this._dragThumb) return;
+          const old = prevTops.get(slide);
+          if (old == null) return;
+          const dy = old - thumb.getBoundingClientRect().top;
+          if (Math.abs(dy) < 1) return;
+          thumb.style.transition = 'none';
+          thumb.style.transform = `translateY(${dy}px)`;
+          moved.push(thumb);
+        });
+        if (moved.length) {
+          // Commit the inverted positions before flipping the transition
+          // on — otherwise the browser coalesces both style writes and
+          // nothing animates.
+          void this._rail.offsetHeight;
+          moved.forEach(t => {
+            t.style.transition = 'transform 180ms cubic-bezier(.2,.7,.3,1)';
+            t.style.transform = '';
+          });
+          setTimeout(() => moved.forEach(t => {
+            t.style.transition = '';
+          }), 220);
+        }
+      }
+      requestAnimationFrame(() => this._scaleThumbs());
+      this._syncRail(false);
+    }
+
+    /** Create a lightweight thumb shell for one slide. The clone is
+     *  materialized later by the IntersectionObserver. Event handlers
+     *  look up the thumb's *current* index (via _thumbs.indexOf) so the
+     *  same element can be reused across reorders. */
+    _makeThumb(slide) {
+      const thumb = document.createElement('div');
+      thumb.className = 'thumb';
+      thumb.tabIndex = 0;
+      const num = document.createElement('div');
+      num.className = 'num';
+      const frame = document.createElement('div');
+      frame.className = 'frame';
+      thumb.append(num, frame);
+      const entry = {
+        thumb,
+        num,
+        frame,
+        slide,
+        clone: null,
+        host: null,
+        i: -1
+      };
+      // entry.i is refreshed on every _renderRail reconcile pass, so
+      // handlers read the thumb's current position without an O(N) scan.
+      const idx = () => entry.i;
+      thumb.addEventListener('click', e => {
+        const i = idx();
+        const slide = this._slides[i];
+        // WebKit doesn't focus a plain element on click — focus
+        // explicitly so Delete/Backspace works right after selecting a
+        // slide by mouse. preventScroll: _syncRail owns the rail's
+        // scroll position.
+        thumb.focus({
+          preventScroll: true
+        });
+        if (e.shiftKey || e.metaKey || e.ctrlKey) {
+          // Multi-select gestures adjust the selection without
+          // navigating (Keynote/Figma convention).
+          e.preventDefault();
+          if (e.shiftKey) {
+            // Range from the anchor (last plain/cmd-clicked slide;
+            // falls back to the current slide) to here, replacing any
+            // previous range.
+            let a = this._selAnchor ? this._slides.indexOf(this._selAnchor) : -1;
+            if (a < 0) {
+              a = this._index;
+              this._selAnchor = this._slides[a] || null;
+            }
+            this._selected.clear();
+            for (let j = Math.min(a, i); j <= Math.max(a, i); j++) {
+              this._selected.add(this._slides[j]);
+            }
+          } else if (slide) {
+            // Toggle. An empty explicit selection implicitly holds the
+            // current slide — materialize it first so cmd-clicking a
+            // second slide selects both.
+            if (!this._selected.size && i !== this._index && this._slides[this._index]) {
+              this._selected.add(this._slides[this._index]);
+            }
+            if (this._selected.has(slide)) this._selected.delete(slide);else {
+              this._selected.add(slide);
+              this._selAnchor = slide;
+            }
+          }
+          this._syncSelection();
+          return;
+        }
+        this._clearSelection();
+        this._selAnchor = slide || null;
+        this._go(i, 'click');
+      });
+      // ↑/↓ step through the rail when a thumb has focus. _go clamps at the
+      // ends and _applyIndex→_syncRail scrolls the new current thumb into
+      // view; we move focus to it (preventScroll — _syncRail already
+      // scrolled) so a held key walks the whole list. stopPropagation keeps
+      // this out of the window-level _onKey nav handler.
+      thumb.addEventListener('keydown', e => {
+        // Delete/Backspace with the rail focused deletes this thumb's
+        // slide through the same confirm dialog as the menu item.
+        // Listening on the thumb (never window-level) is what keeps
+        // typing in the notes panel / slide inputs from ever landing
+        // here; the target check is belt-and-braces for anything
+        // focusable that ends up inside a thumb.
+        if ((e.key === 'Delete' || e.key === 'Backspace') && !e.metaKey && !e.ctrlKey && !e.altKey) {
+          const t = e.target;
+          if (t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))) return;
+          e.preventDefault();
+          e.stopPropagation();
+          // Same refusals as the menu item: never every slide, never
+          // while a prior structural op is waiting on its ack. The
+          // whole-deck refusal is announced (the menu greys its item
+          // out; a silently dead key reads as breakage). The rail-lock
+          // refusal stays silent: it lasts one ack round-trip and
+          // matches the existing single-delete behavior.
+          if (this._railLock) return;
+          // Explicit selection wins; otherwise the focused thumb (which
+          // plain click and ↑/↓ keep equal to the current slide).
+          const sel = this._selected.size ? this._selectionIndices() : [idx()];
+          if (sel.length >= this._slides.length) {
+            this._showNotice(sel.length === 1 ? 'The last slide can’t be deleted.' : 'At least one slide has to stay — the whole deck can’t be deleted.');
+            return;
+          }
+          this._openConfirm(sel);
+          return;
+        }
+        if (e.key !== 'ArrowUp' && e.key !== 'ArrowDown') return;
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+        e.preventDefault();
+        e.stopPropagation();
+        this._go(idx() + (e.key === 'ArrowDown' ? 1 : -1), 'keyboard');
+        const cur = this._thumbs && this._thumbs[this._index];
+        if (cur) cur.thumb.focus({
+          preventScroll: true
+        });
+      });
+      thumb.addEventListener('contextmenu', e => {
+        e.preventDefault();
+        this._openMenu(idx(), e.clientX, e.clientY);
+      });
+      thumb.draggable = true;
+      thumb.addEventListener('dragstart', e => {
+        // v1: dragging moves ONE slide, so a multi-selection would lie
+        // about what's about to move — collapse it. (Group drag would
+        // instead keep it and emit a batched move.)
+        this._clearSelection();
+        this._dragFrom = idx();
+        // Deferred to the next frame: the [data-dragging] rule sets
+        // pointer-events:none on the drag SOURCE, and applying that
+        // synchronously inside dragstart makes Chromium (and WebKit) cancel
+        // the drag — dragstart then an immediate dragend, no dragover or
+        // drop, so thumbnails could not be reordered by dragging at all.
+        // One frame is invisible and lands before the first dragover needs
+        // the source to be hit-test-transparent. Guarded twice so the
+        // attribute can never strand on a thumb that is no longer being
+        // dragged (pointer-events:none would leave it unclickable for the
+        // session): the pending frame is cancelled in dragend
+        // (_cancelDragAttr), and the callback itself re-checks that THIS
+        // thumb is still the live drag source (a new drag on another thumb
+        // re-points the drag state). Deliberately NOT cancelled in
+        // _stopDragTrack — _startDragTrack calls it at the start of every
+        // drag, which would kill the mark this dragstart just scheduled
+        // (see _cancelDragAttr).
+        this._dragAttrRaf = requestAnimationFrame(() => {
+          this._dragAttrRaf = null;
+          if (this._dragFrom != null && this._dragThumb === thumb) {
+            thumb.setAttribute('data-dragging', '');
+          }
+        });
+        e.dataTransfer.effectAllowed = 'move';
+        try {
+          e.dataTransfer.setData('text/plain', String(this._dragFrom));
+        } catch (err) {}
+        // Constrain the drag visual to the rail's vertical axis. The
+        // browser's default drag image is a free-floating snapshot that
+        // follows the OS cursor in BOTH axes and the DnD API offers no way
+        // to constrain it — so swap it for a transparent stand-in and move
+        // the thumb itself along Y instead (_startDragTrack). The drop
+        // logic below always read only clientY; this makes the visual
+        // match it.
+        try {
+          e.dataTransfer.setDragImage(this._dragBlank(), 0, 0);
+        } catch (err) {}
+        this._startDragTrack(thumb, e.clientY);
+      });
+      thumb.addEventListener('dragend', () => {
+        this._cancelDragAttr();
+        thumb.removeAttribute('data-dragging');
+        this._stopDragTrack();
+        this._clearDrop();
+        this._dragFrom = null;
+      });
+      thumb.addEventListener('dragover', e => {
+        if (this._dragFrom == null) return;
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+        const r = thumb.getBoundingClientRect();
+        this._setDrop(idx(), e.clientY < r.top + r.height / 2 ? 'before' : 'after');
+      });
+      thumb.addEventListener('drop', e => {
+        if (this._dragFrom == null) return;
+        e.preventDefault();
+        const i = idx();
+        const r = thumb.getBoundingClientRect();
+        let to = e.clientY >= r.top + r.height / 2 ? i + 1 : i;
+        if (this._dragFrom < to) to--;
+        const from = this._dragFrom;
+        this._clearDrop();
+        this._dragFrom = null;
+        if (to !== from) this._moveSlide(from, to);
+      });
+      if (this._railObserver) this._railObserver.observe(frame);
+      frame.__deckThumb = entry;
+      return entry;
+    }
+
+    /** Lazily build the clone for a thumb that has scrolled into view. */
+    _materialize(entry) {
+      if (entry.host) return;
+      const dw = this.designWidth,
+        dh = this.designHeight;
+      let clone = entry.slide.cloneNode(true);
+      // The clone participates in the document's flat tree, so the
+      // templates' position-based CSS page counters (.slide
+      // { counter-increment: page }) would count every materialized
+      // thumb before the real slides — folios print offset by the
+      // thumb count (slide 2 reading "7" on a five-slide deck).
+      // Neutralize the counter on the clone and drop its folio pill:
+      // a thumbnail's own page number is unreadable at thumb scale
+      // anyway, and the real slides' numbers stay truthful.
+      clone.style.counterIncrement = 'none';
+      clone.querySelectorAll('.page-foot').forEach(pf => pf.remove());
+      // Canvas bitmaps don't clone — swap each cloned canvas for an <img>
+      // of the live pixels. Best-effort: tainted canvases throw (left
+      // as-is); zero-size are skipped; WebGL without preserveDrawingBuffer
+      // reads back blank and the thumb gets a blank img (same as before).
+      const liveCanvases = entry.slide.querySelectorAll('canvas');
+      const cloneCanvases = clone.querySelectorAll('canvas');
+      cloneCanvases.forEach((cv, i) => {
+        const live = liveCanvases[i];
+        if (!live || !live.width || !live.height) return;
+        try {
+          const img = document.createElement('img');
+          img.src = live.toDataURL();
+          img.alt = '';
+          img.style.cssText = cv.style.cssText;
+          img.className = cv.className;
+          img.width = live.width;
+          img.height = live.height;
+          // Author CSS that sized the <canvas> via tag selector won't match
+          // the <img> — pin the live canvas's laid-out box on the snapshot.
+          if (live.clientWidth) {
+            img.style.width = live.clientWidth + 'px';
+            img.style.height = live.clientHeight + 'px';
+          }
+          cv.replaceWith(img);
+        } catch (e) {}
+      });
+      // Neuter heavy media; replace <video> with its poster so the box
+      // keeps a visual. <iframe>/<audio> become empty placeholders.
+      // Parity with _inertify: transient top-layer UI never belongs in a
+      // static thumb.
+      clone.querySelectorAll('[popover], dialog').forEach(el => el.remove());
+      clone.querySelectorAll('iframe, audio, object, embed').forEach(el => {
+        el.removeAttribute('src');
+        el.removeAttribute('srcdoc');
+        el.removeAttribute('data');
+        el.innerHTML = '';
+      });
+      clone.querySelectorAll('video').forEach(el => {
+        if (!el.poster) {
+          el.removeAttribute('src');
+          el.innerHTML = '';
+          return;
+        }
+        const img = document.createElement('img');
+        img.src = el.poster;
+        img.alt = '';
+        img.style.cssText = el.style.cssText + ';object-fit:cover;width:100%;height:100%;';
+        img.className = el.className;
+        el.replaceWith(img);
+      });
+      // Images: defer decode and let the browser pick the smallest
+      // srcset candidate for the ~140px thumb. Same-URL clones reuse the
+      // slide's decoded bitmap (URL-keyed cache), so the remaining cost
+      // is paint/composite — lazy+async keeps that off the main thread.
+      clone.querySelectorAll('img').forEach(el => {
+        el.loading = 'lazy';
+        el.decoding = 'async';
+        if (el.srcset) el.sizes = (this._railPx || 188) + 'px';
+      });
+      // Custom elements inside the slide would have their
+      // connectedCallback fire when the clone is appended. Replace them
+      // with inert boxes (_neuter) so a component-heavy deck doesn't run
+      // N copies of each component's mount logic in the rail. Children
+      // are preserved so layout-wrapper elements (<my-column><h2>…</h2>)
+      // still show their authored content, and a shadow tree cloned along
+      // via attachShadow({clonable:true}) (e.g. <image-slot>) moves onto
+      // the box so the thumb shows the component's rendered content. The
+      // querySelectorAll NodeList is static, so nested custom elements in
+      // the moved subtree are still visited on later iterations.
+      // querySelectorAll('*') returns descendants only — a custom-element
+      // slide root (<my-slide>…</my-slide>) would slip through and upgrade
+      // on append. Swap the root first.
+      if (clone.tagName.includes('-')) clone = this._neuter(clone);
+      clone.querySelectorAll('*').forEach(el => {
+        if (el.tagName.includes('-')) el.replaceWith(this._neuter(el));
+      });
+      // Strip ids only now: a defined custom element upgrades synchronously
+      // during cloneNode and re-renders on attribute callbacks, so removing
+      // 'id' any earlier resets components (e.g. <image-slot> falls back to
+      // its author src). Post-neuter, only inert boxes and plain elements
+      // remain, where the strip is just the usual duplicate-id hygiene.
+      clone.removeAttribute('id');
+      clone.removeAttribute('data-deck-active');
+      clone.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
+      clone.style.cssText += ';position:absolute;top:0;left:0;transform-origin:0 0;' + 'pointer-events:none;width:' + dw + 'px;height:' + dh + 'px;' + 'box-sizing:border-box;overflow:hidden;visibility:visible;opacity:1;';
+      const host = document.createElement('div');
+      host.style.cssText = 'position:absolute;inset:0;';
+      // Clones are display-only: inert removes anything focusable inside
+      // them from the tab order, so the rail's Delete/Backspace handler
+      // can never see a (retargeted) key press from cloned content.
+      host.inert = true;
+      this._syncThumbHostAttrs(host);
+      const sr = host.attachShadow({
+        mode: 'open'
+      });
+      if (this._adoptedSheet) sr.adoptedStyleSheets = [this._adoptedSheet];else {
+        const st = document.createElement('style');
+        st.textContent = this._authorCss || '';
+        sr.appendChild(st);
+      }
+      sr.appendChild(clone);
+      entry.frame.appendChild(host);
+      entry.host = host;
+      entry.clone = clone;
+      if (this._thumbScale) clone.style.transform = 'scale(' + this._thumbScale + ')';
+      // Once materialized the IO callback is a no-op early-return —
+      // unobserve so scroll doesn't keep firing it.
+      if (this._railObserver) this._railObserver.unobserve(entry.frame);
+    }
+
+    /** Replace a cloned custom element with an inert box (see the comment
+     *  in _materialize). A shadow tree cloned along via {clonable:true}
+     *  moves onto the box, so the thumb shows the component's real content
+     *  with zero component logic; :host rules in the moved <style> match
+     *  the box, and the preserved data-* attrs keep :host([data-…])
+     *  selectors working. */
+    _neuter(el) {
+      // Adopt the shadow only when the cloned root carries renderable
+      // content. A constructor-attach / connectedCallback-render component
+      // clones into an empty (or style-only) slotless root — adopting that
+      // would hide the light children the box is about to receive and drop
+      // the placeholder chrome. Such components fall back to the plain box.
+      let sr = el.shadowRoot;
+      if (sr) {
+        let renderable = false;
+        for (let n = sr.firstElementChild; n; n = n.nextElementSibling) {
+          const t = n.tagName;
+          if (t !== 'STYLE' && t !== 'LINK') {
+            renderable = true;
+            break;
+          }
+        }
+        if (!renderable) sr = null;
+      }
+      const box = document.createElement('div');
+      box.style.cssText = (el.getAttribute('style') || '') + (sr ? '' : ';background:rgba(0,0,0,0.06);border:1px dashed rgba(0,0,0,0.15);');
+      box.className = el.className;
+      // Preserve theming/i18n hooks so [data-*] / :lang() / [dir]
+      // descendant selectors still match the neutered root — but not
+      // pointer-interaction transients (a mid-reframe/mid-drag re-clone
+      // would render the interaction chrome statically in the thumb).
+      for (const a of el.attributes) {
+        const n = a.name;
+        if (n === 'data-reframe' || n === 'data-panning' || n === 'data-over') continue;
+        if (n.startsWith('data-') || n.startsWith('aria-') || n === 'lang' || n === 'dir' || n === 'role' || n === 'title') {
+          box.setAttribute(n, a.value);
+        }
+      }
+      while (el.firstChild) box.appendChild(el.firstChild);
+      if (sr) this._adoptShadow(box, sr);
+      return box;
+    }
+
+    /** Move a cloned shadow tree onto a neutered thumbnail box: attach an
+     *  open root on the box, carry adoptedStyleSheets, move the children,
+     *  then make the content inert. */
+    _adoptShadow(box, sr) {
+      let root;
+      try {
+        root = box.attachShadow({
+          mode: 'open'
+        });
+      } catch (e) {
+        return;
+      }
+      // Engine-cloned shadow roots never carry adoptedStyleSheets, but a
+      // defined component's clone is upgrade-rebuilt (constructor runs
+      // during cloneNode), so sheets it adopts there are present and
+      // shared by reference — carry them.
+      if (sr.adoptedStyleSheets && sr.adoptedStyleSheets.length) {
+        try {
+          root.adoptedStyleSheets = Array.prototype.slice.call(sr.adoptedStyleSheets);
+        } catch (e) {}
+      }
+      // Clone rather than move: moving preserves listeners an upgraded
+      // clone's constructor attached inside its shadow; cloning sheds
+      // them, keeping thumbs free of component logic categorically.
+      for (let n = sr.firstChild; n; n = n.nextSibling) {
+        root.appendChild(n.cloneNode(true));
+      }
+      this._inertify(root);
+    }
+
+    /** Strip anything executable from copied shadow content and apply the
+     *  same custom-element/media/img policy as the light-DOM clone.
+     *  (Canvases inside copied shadow content stay blank — there is no
+     *  live↔clone pairing across shadow boundaries to snapshot from.) */
+    _inertify(root) {
+      root.querySelectorAll('script').forEach(s => s.remove());
+      // Transient top-layer UI can never belong in a static thumb. (A
+      // cloned [popover] is display:none anyway — open state doesn't
+      // clone — this just makes it categorical.)
+      root.querySelectorAll('[popover], dialog').forEach(el => el.remove());
+      // Same heavy-media policy as the light-DOM clone above.
+      root.querySelectorAll('iframe, audio, object, embed').forEach(el => {
+        el.removeAttribute('src');
+        el.removeAttribute('srcdoc');
+        el.removeAttribute('data');
+        el.innerHTML = '';
+      });
+      root.querySelectorAll('video').forEach(el => {
+        if (!el.poster) {
+          el.removeAttribute('src');
+          el.innerHTML = '';
+          return;
+        }
+        const img = document.createElement('img');
+        img.src = el.poster;
+        img.alt = '';
+        img.style.cssText = el.style.cssText + ';object-fit:cover;width:100%;height:100%;';
+        img.className = el.className;
+        el.replaceWith(img);
+      });
+      root.querySelectorAll('*').forEach(el => {
+        for (let i = el.attributes.length - 1; i >= 0; i--) {
+          if (/^on/i.test(el.attributes[i].name)) {
+            el.removeAttribute(el.attributes[i].name);
+          }
+        }
+      });
+      root.querySelectorAll('img').forEach(el => {
+        el.loading = 'lazy';
+        el.decoding = 'async';
+        if (el.srcset) el.sizes = (this._railPx || 188) + 'px';
+      });
+      // Nested custom elements inside copied shadow content would upgrade
+      // on append — same treatment as the light DOM. querySelectorAll is
+      // static, so boxes created mid-walk don't re-enter this loop.
+      root.querySelectorAll('*').forEach(el => {
+        if (el.tagName.includes('-')) el.replaceWith(this._neuter(el));
+      });
+    }
+
+    /** Re-clone a single thumb (live-update path). No-op if the thumb
+     *  hasn't been materialized yet — it'll pick up current content when
+     *  it scrolls into view. */
+    _refreshThumb(slide) {
+      const entry = (this._thumbs || []).find(t => t.slide === slide);
+      if (!entry || !entry.host) return;
+      entry.host.remove();
+      entry.host = entry.clone = null;
+      this._materialize(entry);
+    }
+    _scaleThumbs() {
+      if (!this._thumbs || !this._thumbs.length) return;
+      // Every frame is the same width; if it reads 0 the rail is
+      // display:none (noscale / no-rail / presenting / print) — leave the
+      // clones as-is and re-run when the rail is revealed.
+      const fw = this._thumbs[0].frame.offsetWidth;
+      if (!fw) return;
+      this._thumbScale = fw / this.designWidth;
+      this._thumbs.forEach(({
+        clone
+      }) => {
+        if (clone) clone.style.transform = 'scale(' + this._thumbScale + ')';
+      });
+    }
+    _setDrop(i, where) {
+      // dragover fires at pointer-event rate; touch only the previous
+      // and new target rather than sweeping all N thumbs.
+      const t = this._thumbs && this._thumbs[i];
+      if (this._dropOn && this._dropOn !== t) {
+        this._dropOn.thumb.removeAttribute('data-drop');
+      }
+      if (t) t.thumb.setAttribute('data-drop', where);
+      this._dropOn = t || null;
+    }
+    _clearDrop() {
+      if (this._dropOn) this._dropOn.thumb.removeAttribute('data-drop');
+      this._dropOn = null;
+    }
+
+    /** 1×1 transparent stand-in for setDragImage. Kept attached (offscreen
+     *  in the shadow root) because some engines ignore a drag image that
+     *  isn't in a rendered tree. Created lazily, reused for every drag. */
+    _dragBlank() {
+      if (!this._dragBlankEl) {
+        const c = document.createElement('canvas');
+        c.width = 1;
+        c.height = 1;
+        c.style.cssText = 'position:fixed;left:-9999px;top:0;width:1px;height:1px;';
+        this._root.appendChild(c);
+        this._dragBlankEl = c;
+      }
+      return this._dragBlankEl;
+    }
+
+    /** Vertical-only drag tracking: translate the dragged thumb along Y to
+     *  follow the pointer, clamped to the rail, ignoring X entirely. A
+     *  document-level capture listener is used because native dragover
+     *  fires wherever the pointer is — so the thumb keeps tracking even
+     *  while the pointer wanders over the stage — and it is removed the
+     *  moment the drag ends. getBoundingClientRect already reflects the
+     *  current transform, so the layout position is recovered by
+     *  subtracting the translation applied so far (rail auto-scroll moves
+     *  the layout position mid-drag; see the rail dragover handler). */
+    _startDragTrack(thumb, startY) {
+      // A lost dragend (the dragged thumb removed mid-drag by a remote
+      // edit's re-render — browsers fire no dragend on a disconnected
+      // source) would otherwise leave the previous listener installed
+      // forever once this overwrite lands.
+      this._stopDragTrack();
+      this._dragThumb = thumb;
+      // The FLIP reorder animation drives transform through a transition;
+      // the live drag must not inherit one, or the thumb rubber-bands.
+      // Killed BEFORE the grab-offset read: mid-FLIP the rect includes the
+      // interpolated transform, which would bake a constant offset into
+      // the whole drag.
+      thumb.style.transition = 'none';
+      this._dragGrab = startY - thumb.getBoundingClientRect().top;
+      this._dragTy = 0;
+      this._onDragTrack = e => {
+        const t = this._dragThumb;
+        if (!t) return;
+        const rail = this._rail.getBoundingClientRect();
+        const r = t.getBoundingClientRect();
+        // A transformed ancestor (author wraps the deck in a CSS scale;
+        // canvas-mode pan/zoom) scales viewport deltas: translateY(N)
+        // moves the rect by s·N. Measure s from the thumb itself (rect is
+        // scaled, offsetHeight is layout px) so the feedback loop stays
+        // exact instead of oscillating at s ≥ 2. offsetHeight is 0 only
+        // when unrendered — nothing to track then, treat as unscaled.
+        const s = t.offsetHeight ? r.height / t.offsetHeight : 1;
+        const layoutTop = r.top - s * this._dragTy;
+        let want = e.clientY - this._dragGrab;
+        want = Math.max(rail.top, Math.min(want, rail.bottom - r.height));
+        this._dragTy = (want - layoutTop) / s;
+        t.style.transform = 'translateY(' + this._dragTy + 'px)';
+      };
+      document.addEventListener('dragover', this._onDragTrack, true);
+    }
+
+    /** Cancel the thumb's deferred data-dragging mark if its frame has not
+     *  fired yet — see the dragstart deferral. Called from dragend only:
+     *  _stopDragTrack is the wrong home for it, because _startDragTrack
+     *  defensively calls _stopDragTrack at the START of every drag (its
+     *  lost-dragend reset), so a cancel there kills the mark the same
+     *  dragstart just scheduled. The strand that matters — pointer-
+     *  events:none left on a CONNECTED thumb that is no longer being
+     *  dragged — is closed two ways: dragend cancels the pending frame
+     *  here, and the frame callback re-checks that THIS thumb is still the
+     *  live drag source (_dragFrom and _dragThumb, both cleared/re-pointed
+     *  by dragend or by a new drag). The remaining lost-dragend case — the
+     *  source slide removed mid-drag, so no dragend fires — ends with that
+     *  thumb discarded by the rail reconcile (thumbs are keyed by slide
+     *  element and a removed slide's thumb is not reused), so a mark landing
+     *  on it is on a discarded node. The risk this defer adds over the old
+     *  synchronous set is therefore the narrow rAF-after-dragend window,
+     *  which the dragend cancel covers. */
+    _cancelDragAttr() {
+      if (this._dragAttrRaf != null) {
+        cancelAnimationFrame(this._dragAttrRaf);
+        this._dragAttrRaf = null;
+      }
+    }
+    _stopDragTrack() {
+      if (this._onDragTrack) {
+        document.removeEventListener('dragover', this._onDragTrack, true);
+        this._onDragTrack = null;
+      }
+      const t = this._dragThumb;
+      if (t) {
+        t.style.transform = '';
+        t.style.transition = '';
+      }
+      this._dragThumb = null;
+      this._dragTy = 0;
+    }
+    _syncRail(follow) {
+      if (!this._thumbs) return;
+      this._thumbs.forEach(({
+        thumb
+      }, i) => {
+        if (i === this._index) {
+          thumb.setAttribute('data-current', '');
+          if (follow && typeof thumb.scrollIntoView === 'function') {
+            thumb.scrollIntoView({
+              block: 'nearest'
+            });
+          }
+        } else {
+          thumb.removeAttribute('data-current');
+        }
+      });
+    }
+    _openMenu(i, x, y) {
+      if (!this._menu) return;
+      this._menuIndex = i;
+      const slide = this._slides[i];
+      // Right-clicking a thumb OUTSIDE the selection collapses the
+      // selection to that thumb (platform convention) — the menu then
+      // always targets exactly what's highlighted.
+      if (this._selected.size && slide && !this._selected.has(slide)) {
+        this._selected.clear();
+        this._selected.add(slide);
+        this._selAnchor = slide;
+        this._syncSelection();
+      }
+      const sel = this._selectionIndices();
+      const bulk = sel.length > 1;
+      this._menuIndices = bulk ? sel : [i];
+      // Bulk mode offers only the one batched op that exists (delete);
+      // the single-slide items address one index and stay hidden.
+      this._menu.querySelectorAll('[data-act="skip"], [data-act="up"], [data-act="down"], [data-act="duplicate"], hr').forEach(el => {
+        el.style.display = bulk ? 'none' : '';
+      });
+      const skip = slide && slide.hasAttribute('data-deck-skip');
+      this._menu.querySelector('[data-act="skip"]').textContent = skip ? 'Unskip slide' : 'Skip slide';
+      this._menu.querySelector('[data-act="up"]').disabled = i <= 0;
+      this._menu.querySelector('[data-act="down"]').disabled = i >= this._slides.length - 1;
+      const del = this._menu.querySelector('[data-act="delete"]');
+      del.textContent = bulk ? 'Delete ' + sel.length + ' slides' : 'Delete slide';
+      del.disabled = bulk ? sel.length >= this._slides.length : this._slides.length <= 1;
+      // Place, then clamp to viewport after it's measurable.
+      this._menu.style.left = x + 'px';
+      this._menu.style.top = y + 'px';
+      this._menu.setAttribute('data-open', '');
+      const r = this._menu.getBoundingClientRect();
+      const nx = Math.min(x, window.innerWidth - r.width - 4);
+      const ny = Math.min(y, window.innerHeight - r.height - 4);
+      this._menu.style.left = Math.max(4, nx) + 'px';
+      this._menu.style.top = Math.max(4, ny) + 'px';
+    }
+    _closeMenu() {
+      if (this._menu) this._menu.removeAttribute('data-open');
+      this._menuIndex = -1;
+      this._menuIndices = null;
+    }
+    _openConfirm(sel) {
+      if (!this._confirm) return;
+      const list = Array.isArray(sel) ? sel : [sel];
+      // Hold the slide ELEMENTS: the deck can re-render while the dialog
+      // is open (collaborator/agent edit), and a frozen index list would
+      // then address the wrong slides — a same-count reorder even passes
+      // the host's witness guard. Elements re-resolve at danger-click.
+      this._confirmEls = list.map(i => this._slides[i]).filter(Boolean);
+      // Title uses the rail's skip-aware label, so the confirm names the
+      // number the user right-clicked (a raw index would disagree with the
+      // rail whenever a skipped slide precedes the target).
+      const lbl = list.length === 1 ? this._slideLabel(list[0]) : '';
+      this._confirm.querySelector('.title').textContent = list.length === 1 ? lbl ? 'Delete slide ' + lbl + '?' : 'Delete skipped slide?' : 'Delete ' + list.length + ' slides?';
+      this._confirm.querySelector('.msg').textContent = list.length === 1 ? 'This slide will be removed from the deck.' : 'These slides will be removed from the deck.';
+      this._confirm.setAttribute('data-open', '');
+      const btn = this._confirm.querySelector('.danger');
+      if (btn && btn.focus) btn.focus();
+    }
+    _closeConfirm() {
+      if (this._confirm) this._confirm.removeAttribute('data-open');
+      this._confirmEls = null;
+    }
+
+    /** Return focus to the current slide's thumb so the keyboard flow
+     *  (Delete → Enter → Delete …) survives the confirm dialog closing.
+     *  Without 'force', skipped while a structural op is in flight
+     *  (_railLock): _index is then an optimistic post-op value that
+     *  doesn't address the pre-op thumb list — _pendingRailRefocus stays
+     *  armed and the ack/slotchange paths call back with force once the
+     *  rail reflects the op. Skipped (and disarmed) while the rail is
+     *  inert (hidden / presenting). */
+    _focusCurrentThumb(force) {
+      if (!force && this._railLock) return;
+      this._pendingRailRefocus = false;
+      // Never yank focus from content the user reached meanwhile (e.g.
+      // an input inside a slide during the ack round-trip) — only
+      // reclaim it from the rail's own surfaces, or from nowhere.
+      const ae = this._root && this._root.activeElement;
+      const ours = !ae || this._rail && this._rail.contains(ae) || this._confirm && this._confirm.contains(ae) || this._menu && this._menu.contains(ae);
+      const lightAe = document.activeElement;
+      const lightOk = !lightAe || lightAe === document.body || lightAe === this;
+      if (!ours || !lightOk) return;
+      const cur = this._thumbs && this._thumbs[this._index];
+      if (cur && this._rail && !this._rail.inert) cur.thumb.focus({
+        preventScroll: true
+      });
+    }
+
+    /** Selection as sorted slide indices. An empty explicit selection
+     *  means the current slide (the rail's implicit selection). */
+    _selectionIndices() {
+      const out = [];
+      this._slides.forEach((s, i) => {
+        if (this._selected.has(s)) out.push(i);
+      });
+      if (!out.length && this._slides[this._index]) out.push(this._index);
+      return out;
+    }
+    _clearSelection() {
+      // Re-anchor before the early return: a plain click followed by
+      // arrow/tap navigation leaves _selected empty but the anchor
+      // pointing at the old slide, and a later shift-click would range
+      // from there instead of the current slide.
+      this._selAnchor = null;
+      if (!this._selected.size) return;
+      this._selected.clear();
+      this._syncSelection();
+    }
+    _syncSelection() {
+      (this._thumbs || []).forEach(t => {
+        if (this._selected.has(t.slide)) t.thumb.setAttribute('data-selected', '');else t.thumb.removeAttribute('data-selected');
+      });
+    }
+
+    /** Rail mutations. When a dc-runtime is present (`window.__dcUpdate`)
+     *  the host owns the light DOM — handlers emit a dc-op only and the
+     *  host applies it (to the editor's model or to the source file) and
+     *  re-renders via dc-runtime; slotchange catches the rail up.
+     *  Structural ops lock rail input until the host acks so a rapid second
+     *  click can't address a stale index; setAttr/removeAttr respect the
+     *  lock but don't set it (indices unchanged; the host serializes).
+     *  `newIndex` is written to location.hash so slotchange's
+     *  _restoreIndex lands on the right slide.
+     *
+     *  With NO dc-runtime (a raw .html deck), there's no re-render path,
+     *  so handlers self-mutate locally for an instant update and emit
+     *  `emitOnly: false`; the host persists to disk without
+     *  re-rendering over the already-mutated DOM.
+     *
+     *  See docs/dc-ops.md for the contract. */
+    /** True when the page's DC runtime reports a live template stream for
+     *  any component here (newer support.js bundles only — older bundles
+     *  lack the signal and the HOST-side gate covers those decks). Rail
+     *  mutations are refused for the duration: a mid-stream op addresses
+     *  slide indices the stream is rewriting underneath the click. */
+    _streamActive() {
+      try {
+        return !!window.__dcUpdate && typeof window.__dcStreaming === 'function' && window.__dcStreaming();
+      } catch (e) {
+        return false;
+      }
+    }
+
+    /** Transient in-stage notice for a refused mid-stream rail op. */
+    _showStreamNotice() {
+      this._showNotice('Claude is still updating this deck — try again when it finishes.');
+    }
+
+    /** Transient bottom-center toast for a refused rail gesture. */
+    _showNotice(text) {
+      if (!this._root) return;
+      let n = this._streamNotice;
+      if (!n) {
+        n = document.createElement('div');
+        n.className = 'export-hidden';
+        n.setAttribute('data-omelette-chrome', '');
+        n.setAttribute('role', 'status');
+        n.style.cssText = 'position:fixed;left:50%;bottom:24px;transform:translateX(-50%);' + 'background:rgba(22,22,22,.94);color:#fff;' + 'font:500 13px/1.4 system-ui,sans-serif;padding:8px 14px;' + 'border-radius:8px;z-index:2147483646;pointer-events:none;' + 'opacity:0;transition:opacity .15s ease';
+        this._root.append(n);
+        this._streamNotice = n;
+      }
+      n.textContent = text;
+      n.style.opacity = '1';
+      if (this._streamNoticeTimer) clearTimeout(this._streamNoticeTimer);
+      this._streamNoticeTimer = setTimeout(() => {
+        n.style.opacity = '0';
+      }, 2600);
+    }
+    _emitDcOp(op, slide, lock, newIndex) {
+      // Mid-stream guard: refuse the gesture outright — no lock, no
+      // optimistic index change, no emit, no self-mutation (returning
+      // true short-circuits every caller). The host applies the same
+      // gate for decks whose committed support.js predates the signal.
+      if (this._streamActive()) {
+        this._showStreamNotice();
+        return true;
+      }
+      // Slide index (template/script/style filtered — same as
+      // _collectSlides). deck-stage is a filtered-index dc-op emitter;
+      // the host resolves against findDeckStage().slideTids. Callers
+      // already pass `to` as a slide index.
+      op.at = this._slides.indexOf(slide);
+      op.witness = {
+        childCount: this._slides.length
+      };
+      // dc-runtime wraps an <x-import>-mounted component in a
+      // <div class="sc-host-x" data-dc-tpl="N"> host — the stamp is on the
+      // WRAPPER, not this element. closest() finds it (or this element's
+      // own stamp when directly templated).
+      const host = this.closest('[data-dc-tpl]');
+      const tid = host && host.getAttribute('data-dc-tpl');
+      op.mount = {
+        tid: tid !== null ? parseInt(tid, 10) : null,
+        tag: 'deck-stage'
+      };
+      op.emitOnly = !!window.__dcUpdate;
+      if (op.emitOnly) {
+        if (lock) this._railLock = true;
+        if (newIndex != null && newIndex !== this._index) {
+          this._indexBeforeEmit = this._index;
+          this._index = newIndex;
+          try {
+            history.replaceState(null, '', '#' + (newIndex + 1));
+          } catch (e) {}
+        }
+      }
+      this.dispatchEvent(new CustomEvent('dc-op', {
+        detail: op,
+        bubbles: true,
+        composed: true
+      }));
+      return op.emitOnly;
+    }
+
+    /** Delete a set of slides (pre-op indices). One slide delegates to
+     *  _deleteSlide — the plain 'remove' op — so single deletes keep
+     *  working against hosts that predate 'removeMany'. A bulk delete is
+     *  ONE op: one host write, one undo snapshot, and indices that all
+     *  address the same pre-op deck (N acked single ops would each need
+     *  a fresh witness). */
+    _deleteSlides(list) {
+      if (this._railLock || !list) return;
+      const indices = [...new Set(list)].filter(i => this._slides[i]).sort((a, b) => a - b);
+      if (!indices.length || indices.length >= this._slides.length) return;
+      if (indices.length === 1) {
+        this._deleteSlide(indices[0]);
+        return;
+      }
+      // Mirrors _duplicateSlide: check the stream gate before doing any
+      // work (_emitDcOp re-checks).
+      if (this._streamActive()) {
+        this._showStreamNotice();
+        return;
+      }
+      const els = indices.map(i => this._slides[i]);
+      const del = new Set(indices);
+      const cur = this._index;
+      // New current index in post-op space: shift the kept slide left by
+      // the deletions below it; if the current slide itself is deleted,
+      // land on the nearest survivor (after, else before).
+      const below = n => indices.reduce((k, x) => k + (x < n ? 1 : 0), 0);
+      let ni;
+      if (!del.has(cur)) {
+        ni = cur - below(cur);
+      } else {
+        let s = -1;
+        for (let j = cur + 1; j < this._slides.length; j++) {
+          if (!del.has(j)) {
+            s = j;
+            break;
+          }
+        }
+        if (s === -1) {
+          for (let j = cur - 1; j >= 0; j--) {
+            if (!del.has(j)) {
+              s = j;
+              break;
+            }
+          }
+        }
+        ni = s < 0 ? 0 : s - below(s);
+      }
+      // Emit-path deletes can't refocus until the host re-renders; arm
+      // the flag at emit time (never on a refused/no-op path) so
+      // ack/slotchange can finish the keyboard flow's focus hand-back.
+      // The local path clears it via the caller's _focusCurrentThumb().
+      this._pendingRailRefocus = true;
+      if (this._emitDcOp({
+        op: 'removeMany',
+        indices
+      }, els[0], true, ni)) return;
+      this._index = ni;
+      this._squelchSlotChange = true;
+      els.forEach(el => el.remove());
+      this._collectSlides();
+      this._applyIndex({
+        showOverlay: true,
+        broadcast: true,
+        reason: 'mutation'
+      });
+    }
+    _deleteSlide(i) {
+      if (this._railLock) return;
+      const slide = this._slides[i];
+      if (!slide || this._slides.length <= 1) return;
+      const cur = this._index;
+      const ni = i < cur || i === cur && i === this._slides.length - 1 ? cur - 1 : cur;
+      this._pendingRailRefocus = true;
+      if (this._emitDcOp({
+        op: 'remove'
+      }, slide, true, ni)) return;
+      this._index = ni;
+      this._squelchSlotChange = true;
+      slide.remove();
+      this._collectSlides();
+      this._applyIndex({
+        showOverlay: true,
+        broadcast: true,
+        reason: 'mutation'
+      });
+    }
+    _duplicateSlide(i) {
+      if (this._railLock) return;
+      const slide = this._slides[i];
+      if (!slide) return;
+      // Mint ids + copy component state BEFORE emitting, so the op can
+      // carry the id map — but never mint for an op the stream gate is
+      // about to refuse (_emitDcOp re-checks; this avoids orphaned keys).
+      if (this._streamActive()) {
+        this._showStreamNotice();
+        return;
+      }
+      const copy = slide.cloneNode(true);
+      copy.removeAttribute('id');
+      const ids = this._remintDuplicateIds(copy);
+      const op = {
+        op: 'duplicate'
+      };
+      if (ids) op.ids = ids;
+      if (this._emitDcOp(op, slide, true, i + 1)) return;
+      this._index = i + 1;
+      this._squelchSlotChange = true;
+      this.insertBefore(copy, slide.nextSibling);
+      this._collectSlides();
+      this._applyIndex({
+        showOverlay: true,
+        broadcast: true,
+        reason: 'mutation'
+      });
+    }
+
+    /** Duplicate id policy. Plain ids are stripped — two live slides must
+     *  not share one id. But a component that KEYS persistent state by id
+     *  (image-slot's sidecar photo) would silently lose that state with
+     *  its id. Such a component opts out of the strip by exposing a
+     *  static cloneSlot(fromId, isFree) that copies its stored state
+     *  under a fresh id of its choosing and returns that id. The old→new
+     *  map is returned (or null) and rides the dc-op so the host writes
+     *  the SAME ids into source — without that, the copy's state would
+     *  revert on reload (docs/dc-ops.md). */
+    _remintDuplicateIds(copy) {
+      const ids = {};
+      let found = false;
+      const used = new Set();
+      const idOk = /^[A-Za-z][\w-]{0,63}$/;
+      const isFree = id => idOk.test(id) && !used.has(id) && !document.getElementById(id);
+      copy.querySelectorAll('[id]').forEach(el => {
+        const tag = el.tagName.toLowerCase();
+        const cls = tag.indexOf('-') >= 0 && customElements.get(tag);
+        let next = null;
+        if (el.id && cls && typeof cls.cloneSlot === 'function') {
+          try {
+            next = cls.cloneSlot(el.id, isFree);
+          } catch (e) {}
+        }
+        // Re-checked here so a misbehaving static can't smuggle a dupe
+        // or an unsafe value into the document / the emitted op.
+        if (typeof next === 'string' && isFree(next)) {
+          ids[el.id] = next;
+          used.add(next);
+          el.id = next;
+          found = true;
+        } else {
+          el.removeAttribute('id');
+        }
+      });
+      return found ? ids : null;
+    }
+    _toggleSkip(i) {
+      if (this._railLock) return;
+      const slide = this._slides[i];
+      if (!slide) return;
+      const on = !slide.hasAttribute('data-deck-skip');
+      if (this._emitDcOp(on ? {
+        op: 'setAttr',
+        attr: 'data-deck-skip',
+        value: ''
+      } : {
+        op: 'removeAttr',
+        attr: 'data-deck-skip'
+      }, slide, false)) return;
+      if (on) slide.setAttribute('data-deck-skip', '');else slide.removeAttribute('data-deck-skip');
+    }
+    _skippedIndices() {
+      const out = [];
+      for (let i = 0; i < this._slides.length; i++) {
+        if (this._slides[i].hasAttribute('data-deck-skip')) out.push(i);
+      }
+      return out;
+    }
+
+    /** Rail numbering, skip-aware: a skipped slide shows no number and the
+     *  rest stay contiguous (1..visible), so the labels match the positions
+     *  the overlay counter reports. Cheap (text writes are diffed), safe to
+     *  call after any reconcile or skip toggle. */
+    _renumberRail() {
+      let v = 0;
+      (this._thumbs || []).forEach(t => {
+        const label = t.slide.hasAttribute('data-deck-skip') ? '' : String(++v);
+        if (t.num.textContent !== label) t.num.textContent = label;
+      });
+    }
+
+    /** Skip-aware label for slide i — the same numbering _renumberRail
+     *  paints: '' for a skipped slide, else its 1-based position among
+     *  non-skipped slides. Display surfaces (e.g. the delete confirm)
+     *  use this so they never name a number the rail doesn't show. */
+    _slideLabel(i) {
+      const s = this._slides[i];
+      if (!s || s.hasAttribute('data-deck-skip')) return '';
+      let v = 0;
+      for (let k = 0; k <= i; k++) {
+        if (!this._slides[k].hasAttribute('data-deck-skip')) v++;
+      }
+      return String(v);
+    }
+
+    /** Overlay counter, skip-aware: position among non-skipped slides over
+     *  the non-skipped total. A skipped CURRENT slide (reachable by rail
+     *  click or deep link, never by _advance) shows '–' — its number is
+     *  gone from the rail, so any digit here would lie. */
+    _syncCount() {
+      if (!this._countEl || !this._totalEl) return;
+      // Empty deck: keep the overlay's initial "1 / 1" (it has nothing to
+      // count and isn't visible without slides) — the guest fallback for
+      // frozen copies leaves empty decks alone for the same rendering.
+      if (!this._slides.length) {
+        this._countEl.textContent = '1';
+        this._totalEl.textContent = '1';
+        return;
+      }
+      let pos = 0,
+        total = 0;
+      this._slides.forEach((s, i) => {
+        if (!s.hasAttribute('data-deck-skip')) {
+          total++;
+          if (i <= this._index) pos = total;
+        }
+      });
+      const cur = this._slides[this._index];
+      const curSkipped = !cur || cur.hasAttribute('data-deck-skip');
+      this._countEl.textContent = curSkipped ? '–' : String(pos);
+      this._totalEl.textContent = String(total);
+    }
+    _moveSlide(i, j) {
+      if (this._railLock || j < 0 || j >= this._slides.length || j === i) return;
+      const cur = this._index;
+      const ni = cur === i ? j : i < cur && j >= cur ? cur - 1 : i > cur && j <= cur ? cur + 1 : cur;
+      const slide = this._slides[i];
+      if (this._emitDcOp({
+        op: 'move',
+        to: j
+      }, slide, true, ni)) return;
+      const ref = j < i ? this._slides[j] : this._slides[j].nextSibling;
+      this._index = ni;
+      this._squelchSlotChange = true;
+      this.insertBefore(slide, ref);
+      this._collectSlides();
+      this._applyIndex({
+        showOverlay: false,
+        broadcast: true,
+        reason: 'mutation'
+      });
+    }
+
+    // Public API ------------------------------------------------------------
+
+    /** Current slide index (0-based). */
+    get index() {
+      return this._index;
+    }
+    /** Total slide count. */
+    get length() {
+      return this._slides.length;
+    }
+    /** Programmatically navigate. */
+    goTo(i) {
+      this._go(i, 'api');
+    }
+    next() {
+      this._advance(1, 'api');
+    }
+    prev() {
+      this._advance(-1, 'api');
+    }
+    reset() {
+      this._go(0, 'api');
+    }
+  }
+  if (!customElements.get('deck-stage')) {
+    customElements.define('deck-stage', DeckStage);
+  }
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "deck-stage.js", error: String((e && e.message) || e) }); }
 
 // repo/templates/about-page/ds-base.js
 try { (() => {
@@ -31826,13 +40939,25 @@ try { (() => {
 })();
 })(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/person-page/people.js", error: String((e && e.message) || e) }); }
 
+__ds_ns.Accordion = __ds_scope.Accordion;
+
 __ds_ns.ArtworkPin = __ds_scope.ArtworkPin;
 
 __ds_ns.Chapter = __ds_scope.Chapter;
 
+__ds_ns.ContentCarousel = __ds_scope.ContentCarousel;
+
 __ds_ns.DemoConsole = __ds_scope.DemoConsole;
 
-__ds_ns.FilmBand = __ds_scope.FilmBand;
+__ds_ns.DEMO_PAGES = __ds_scope.DEMO_PAGES;
+
+__ds_ns.FORM_EXAMPLES = __ds_scope.FORM_EXAMPLES;
+
+__ds_ns.FormBlock = __ds_scope.FormBlock;
+
+__ds_ns.EMBED_REFUSAL = __ds_scope.EMBED_REFUSAL;
+
+__ds_ns.FORM_SIGNATURES = __ds_scope.FORM_SIGNATURES;
 
 __ds_ns.GalleryRow = __ds_scope.GalleryRow;
 
@@ -31840,11 +40965,15 @@ __ds_ns.ImageReveal = __ds_scope.ImageReveal;
 
 __ds_ns.ImageScreen = __ds_scope.ImageScreen;
 
+__ds_ns.JobList = __ds_scope.JobList;
+
 __ds_ns.LabelledBlock = __ds_scope.LabelledBlock;
 
 __ds_ns.ListingFilters = __ds_scope.ListingFilters;
 
 __ds_ns.Matters = __ds_scope.Matters;
+
+__ds_ns.NewsList = __ds_scope.NewsList;
 
 __ds_ns.NumberedList = __ds_scope.NumberedList;
 
@@ -31864,6 +40993,10 @@ __ds_ns.SectionLabel = __ds_scope.SectionLabel;
 
 __ds_ns.SpecTable = __ds_scope.SpecTable;
 
+__ds_ns.StatementBlock = __ds_scope.StatementBlock;
+
+__ds_ns.SubscribeBlock = __ds_scope.SubscribeBlock;
+
 __ds_ns.Testimonials = __ds_scope.Testimonials;
 
 __ds_ns.WordmarkBand = __ds_scope.WordmarkBand;
@@ -31877,8 +41010,6 @@ __ds_ns.ChoiceComposer = __ds_scope.ChoiceComposer;
 __ds_ns.Composer = __ds_scope.Composer;
 
 __ds_ns.ContactCard = __ds_scope.ContactCard;
-
-__ds_ns.ContactWidget = __ds_scope.ContactWidget;
 
 __ds_ns.ConversationHeader = __ds_scope.ConversationHeader;
 
@@ -31950,15 +41081,17 @@ __ds_ns.Figure = __ds_scope.Figure;
 
 __ds_ns.Mark = __ds_scope.Mark;
 
+__ds_ns.MetaRule = __ds_scope.MetaRule;
+
 __ds_ns.MetaLine = __ds_scope.MetaLine;
+
+__ds_ns.RasterField = __ds_scope.RasterField;
 
 __ds_ns.RevealEffects = __ds_scope.RevealEffects;
 
 __ds_ns.RevealEffect = __ds_scope.RevealEffect;
 
 __ds_ns.ScrollHold = __ds_scope.ScrollHold;
-
-__ds_ns.SheetWipe = __ds_scope.SheetWipe;
 
 __ds_ns.Tabs = __ds_scope.Tabs;
 
@@ -31978,6 +41111,32 @@ __ds_ns.NOIR_CONTRAST = __ds_scope.NOIR_CONTRAST;
 
 __ds_ns.NoirPlate = __ds_scope.NoirPlate;
 
+__ds_ns.SCREEN_R = __ds_scope.SCREEN_R;
+
+__ds_ns.V_ANGLE = __ds_scope.V_ANGLE;
+
+__ds_ns.Checkbox = __ds_scope.Checkbox;
+
+__ds_ns.CheckboxGroup = __ds_scope.CheckboxGroup;
+
+__ds_ns.FileField = __ds_scope.FileField;
+
+__ds_ns.RadioGroup = __ds_scope.RadioGroup;
+
+__ds_ns.Select = __ds_scope.Select;
+
+__ds_ns.TextArea = __ds_scope.TextArea;
+
+__ds_ns.TextField = __ds_scope.TextField;
+
+__ds_ns.TopicList = __ds_scope.TopicList;
+
+__ds_ns.FieldLabel = __ds_scope.FieldLabel;
+
+__ds_ns.FieldMessage = __ds_scope.FieldMessage;
+
+__ds_ns.FieldLine = __ds_scope.FieldLine;
+
 __ds_ns.Icon = __ds_scope.Icon;
 
 __ds_ns.IconNames = __ds_scope.IconNames;
@@ -31987,6 +41146,8 @@ __ds_ns.IconLibrary = __ds_scope.IconLibrary;
 __ds_ns.CarouselHero = __ds_scope.CarouselHero;
 
 __ds_ns.CtaBlock = __ds_scope.CtaBlock;
+
+__ds_ns.Feature = __ds_scope.Feature;
 
 __ds_ns.Hero = __ds_scope.Hero;
 
@@ -32025,6 +41186,8 @@ __ds_ns.ClosingFooter = __ds_scope.ClosingFooter;
 __ds_ns.MenuHighlights = __ds_scope.MenuHighlights;
 
 __ds_ns.OnThisPage = __ds_scope.OnThisPage;
+
+__ds_ns.SectionNav = __ds_scope.SectionNav;
 
 __ds_ns.SiteHeader = __ds_scope.SiteHeader;
 

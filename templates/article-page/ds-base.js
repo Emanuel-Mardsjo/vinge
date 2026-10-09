@@ -82,7 +82,7 @@
     '/insikter': '../news-listing/NewsListing.dc.html',
     '/uppdrag': '../case-listing/CaseListing.dc.html',
     '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
-    '/karriar': '../about-page/AboutPage.dc.html',
+    '/karriar': '../content-page/ContentPage.dc.html',
   };
   /* A prefix stands for a whole class of route: any one person, any one
      article, any practice area. The exact map above wins first, so
@@ -92,8 +92,8 @@
     ['/our-people/', '../person-page/PersonPage.dc.html'],
     ['/insikter/', '../article-page/ArticlePage.dc.html'],
     ['/uppdrag/', '../article-page/ArticlePage.dc.html'],
-    ['/verksamhetsomraden/', '../news-listing/NewsListing.dc.html'],
-    ['/karriar/', '../about-page/AboutPage.dc.html'],
+    ['/verksamhetsomraden/', '../content-page/ContentPage.dc.html'],
+    ['/karriar/', '../content-page/ContentPage.dc.html'],
   ];
   /* The site path an href asks for, or null when the href is not a site link. */
   const route = (raw) => {
@@ -118,8 +118,11 @@
     }
     return null;
   };
+  /* Every Karriär route is the content page, told which path to render. */
   const go = (raw) => {
-    const dest = fileFor(route(raw));
+    const path = route(raw);
+    let dest = fileFor(path);
+    if (dest && dest.indexOf('ContentPage.dc.html') > -1) dest += '?p=' + encodeURIComponent(path);
     if (dest) window.location.href = dest;
   };
   document.addEventListener('click', (e) => {

@@ -59,11 +59,6 @@ a:hover, .cta:hover {
   text-underline-offset: 0.30em;
 }
 
-.cta--primary {
-  font-size: var(--text-lead);
-  font-weight: var(--weight-medium);
-  line-height: var(--lh-lead);
-}
 .cta--page-end {
   font-family: var(--font-display);
   font-size: var(--display-3);
@@ -177,10 +172,28 @@ html[data-finder-bar] body { padding-bottom: var(--finder-bar, 0px); }
 [data-finder-scroll][data-quiet] { scrollbar-width: none; }
 [data-finder-scroll][data-quiet]::-webkit-scrollbar { width: 0; height: 0; }
 /* A field under 16px makes iOS zoom the page on focus. */
-@media (max-width: 767px) { [data-finder-frame] textarea, [data-finder-frame] input { font-size: 16px !important; } }
+@media (max-width: 767px) { [data-finder-frame] textarea:not([data-display-field]), [data-finder-frame] input:not([data-display-field]) { font-size: 16px !important; } }
 @media (prefers-reduced-motion: reduce) { html[data-finder-docked] body, html[data-finder-docked] [data-fixed-chrome] { transition: none } }
 
 /* Search fields never show the browser's own clear control: every search in
    the system draws the set's close glyph instead, so it matches. */
 input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;appearance:none;display:none}
 input[type="search"]{-webkit-appearance:none;appearance:none}
+
+/* TextField placeholder: the secondary ink, never the browser grey. */
+[data-tf-input]::placeholder { color: var(--text-secondary); opacity: 1; }
+/* Autofill: browsers paint their own fill (blue/yellow) on autofilled
+   inputs. A field here is only a line, so hold the ground and the ink. The
+   long transition is the reliable way to keep WebKit/Blink's fill from
+   ever appearing; the inset shadow covers browsers that ignore it. */
+[data-tf-input]:-webkit-autofill,
+[data-tf-input]:-webkit-autofill:hover,
+[data-tf-input]:-webkit-autofill:focus,
+[data-tf-input]:-webkit-autofill:active {
+  -webkit-text-fill-color: var(--text-primary);
+  caret-color: var(--text-primary);
+  -webkit-box-shadow: 0 0 0 1000px var(--paper) inset;
+  box-shadow: 0 0 0 1000px var(--paper) inset;
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+[data-tf-input]:autofill { background: transparent; }

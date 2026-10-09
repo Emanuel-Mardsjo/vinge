@@ -97,7 +97,7 @@
   entries.forEach((e) => {
     if (!e || e.title) return;
     e.title = e.client + ': ' + lc(e.work) + '.';
-    e.caption = e.work + ' · ' + e.year;
+    e.caption = e.work + ', ' + e.year;
     e.preamble = 'Vinge har biträtt ' + e.client + ' i samband med ' + lc(e.work) + '.';
     e.figures = [];
     e.team = [];
