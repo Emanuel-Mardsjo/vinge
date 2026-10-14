@@ -10,7 +10,7 @@
 <!-- @template name="Hitta rätt person" description="The start page's finder field and the guided exchange it opens — from the visitor's own words to a name, with the rail filling as the questions are answered." -->
 <helmet><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}</style></helmet>
 <div style="min-height:100vh">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad tänker du på?" on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
 <!-- Never unmounted while it has been opened: the surface animates itself in
      and out, and removing it from the document takes the movement with it. -->
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.GuidedConversation" persist="true" open="{{ open }}" prompt="{{ prompt }}" rail-mode="{{ railMode }}" on-close="{{ close }}" logo-src="../../assets/logo.svg" dot-src="../../assets/demo/boardroom.png" hint-size="100%,100%"></x-import>

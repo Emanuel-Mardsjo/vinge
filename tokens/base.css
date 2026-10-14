@@ -125,11 +125,11 @@ a:hover, .cta:hover {
   outline: 2px solid var(--focus-ring);
   outline-offset: 6px;
 }
-/* A clicked text field keeps its underline as the only sign of focus: the ring
-   is for focus arriving by keyboard. See core/focusSource.jsx. */
-:root[data-focus-source="pointer"] input:focus-visible,
-:root[data-focus-source="pointer"] textarea:focus-visible,
-:root[data-focus-source="pointer"] select:focus-visible {
+/* The ring is for focus arriving by keyboard only. Anything clicked, field or
+   control, shows no ring; a clicked text field keeps its underline as the only
+   sign of focus. See core/focusSource.jsx. */
+:root[data-focus-source="pointer"] :focus-visible,
+:root[data-focus-source="pointer"] :focus {
   outline: none;
 }
 
@@ -182,6 +182,8 @@ input[type="search"]{-webkit-appearance:none;appearance:none}
 
 /* TextField placeholder: the secondary ink, never the browser grey. */
 [data-tf-input]::placeholder { color: var(--text-secondary); opacity: 1; }
+/* FilterSearch placeholder: the same, so it follows an inverted ground. */
+[data-filter-search]::placeholder { color: var(--text-secondary); opacity: 1; }
 /* Autofill: browsers paint their own fill (blue/yellow) on autofilled
    inputs. A field here is only a line, so hold the ground and the ink. The
    long transition is the reliable way to keep WebKit/Blink's fill from

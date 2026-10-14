@@ -94,6 +94,20 @@
     e.href = '/uppdrag';
   });
 
+  /* The people tagged on a mandate, each linking to the person page. The CMS
+     carries them as tags; here they are read from the write-up's own team
+     sentence ("Vinges team bestod av ..."). */
+  const pslug = (s) => s.toLowerCase().replace(/[åä]/g, 'a').replace(/ö/g, 'o').replace(/[éè]/g, 'e').replace(/ü/g, 'u').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const NAME = /^[A-ZÅÄÖÉÜ][\p{L}'’-]+(?: (?:af |von |de |van |du )?[A-ZÅÄÖÉÜ][\p{L}'’-]+){1,3}$/u;
+  const teamFrom = (body) => {
+    const m = /Vinges team[^.]*?\bav\s+([^.]+)/i.exec(body || '');
+    if (!m) return [];
+    return m[1].replace(/\([^)]*\)/g, ' ').split(/,|\s+och\s+|\s+samt\s+/).map((s) => s.trim().replace(/\s+/g, ' '))
+      .filter((s) => NAME.test(s)).slice(0, 12).map((name) => ({ name, href: '/personer/' + pslug(name) }));
+  };
+  entries.forEach((e) => { if (e && !(e.team || []).length) e.team = teamFrom(e.body); });
+  window.VingeTeamOf = (title) => { const e = entries.find((x) => x && x.title === title); return e ? e.team : undefined; };
+
   /* Own global as well: a stale copy under repo/ is compiled into the bundle
      and reassigns VingeRecordEntries after this file has run. */
   /* Every mandate opens the article template. The published hrefs point at

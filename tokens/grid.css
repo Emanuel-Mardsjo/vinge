@@ -44,6 +44,7 @@
 .place-hero,
 .place-prose,
 .place-prose-indent,
+.place-prose-content,
 .place-lead,
 .place-statement,
 .place-note,
@@ -67,6 +68,7 @@
   /* Indented body: at four columns there is no room to give one away, so it
      is the same measure as `place-prose`. */
   .place-prose-indent { grid-column: 1 / 4; }
+  .place-prose-content { grid-column: 1 / 4; }
   .place-lead      { grid-column: 1 / 4; }
   .place-statement { grid-column: 1 / 5; }
   .place-note      { grid-column: 1 / 4; }
@@ -86,6 +88,10 @@
      and the metadata above it keep the page's left alignment and the reading
      column sits inside it. */
   .place-prose-indent { grid-column: 2 / 6; }
+  /* Body copy on a content page: the same four-column measure, from column 3,
+     the line the content page's block headings and lists start on. The
+     article page keeps `place-prose-indent` (column 2) under its title. */
+  .place-prose-content { grid-column: 3 / 7; }
   .place-lead      { grid-column: 2 / 7; }
   .place-statement { grid-column: 2 / 8; }
   .place-note      { grid-column: 7 / 9; }
@@ -171,6 +177,17 @@
 }
 @media (min-width: 768px) and (max-width: 1279px) { [data-banner-nav] { justify-self: stretch; width: auto; } }
 @media (min-width: 1280px) { [data-banner-nav] { grid-column: 7 / 9; } }
+
+/* The search results banner's field: the query on columns 1–4, the left half
+   at LG; the full measure below it. */
+[data-banner-search-field] { grid-column: 1 / -1; min-width: 0; }
+@media (min-width: 1280px) { [data-banner-search-field] { grid-column: 1 / 5; } }
+
+/* Search results, people: one card per two page columns at LG (4 across),
+   one per column at MD (4) and SM (2). Four equal tracks with the gutter
+   between them land exactly on every second column line of the eight. */
+[data-search-people] { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5) var(--gutter); }
+@media (min-width: 768px) { [data-search-people] { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
 /* Feature. Single column below MD; title 1–5 and text 6–8 at LG. */
 [data-feature] [data-f-txt], [data-feature] [data-f-head] { grid-column: 1 / -1; min-width: 0; }
@@ -390,6 +407,13 @@ the two-column band. */
   [data-mandate] > [data-mandate-fold] { grid-column: 3 / 7; }
 }
 
+/* A listing row's fold-out: its words link to the same page as the CTA under
+   them, and resting on the words gives the CTA its hover. */
+[data-fold]:has([data-fold-text]:hover) .cta--small {
+  text-decoration-color: var(--underline-active);
+  text-decoration-thickness: 2px;
+}
+
 /* The record. Four items sit directly in the section grid: the copy, the
    state switch, the filter control, and the body (readout + field). The
    control holds grid columns 1-2 on the switch's row, so its top edge is the
@@ -523,6 +547,17 @@ the two-column band. */
   [data-record-terms-scroll] { max-height: none; overflow: visible; }
   [data-record-head] { grid-row: 1; }
   [data-record-switch] { grid-row: 2; }
+  /* With a filter, the count line rides on the field's left edge: it spans the
+     whole grid and is inset by the same tracks the body uses, so opening the
+     panel pushes it right in the same motion as the list. */
+  [data-record-switch][data-record-filtered] {
+    grid-column: 1 / -1; box-sizing: border-box;
+    padding-inline-start: calc((100% - 7 * var(--gutter)) / 4 + 2 * var(--gutter));
+    transition: padding-inline-start var(--dur-medium) var(--ease-expo);
+  }
+  [data-record-switch][data-record-filtered][data-record-open] {
+    padding-inline-start: calc(2 * ((100% - 7 * var(--gutter)) / 4 + 2 * var(--gutter)));
+  }
   /* `display: contents` rather than a subgrid box: a subgrid item spanning two
      rows is forced to the full height of both, which leaves a sticky box zero
      travel — the control would scroll away with the field. Dissolving the
@@ -630,6 +665,9 @@ the two-column band. */
 }
 @media (min-width: 1280px) {
   [data-pair='large'] > [data-pair-txt], [data-pair='large'] > [data-pair-img] { grid-column: 1 / 6; }
+  /* Large with one image: the second image's columns stay empty, so the pair
+     moves in to 3–7 rather than leaving the right of the page bare. */
+  [data-pair='large'][data-pair-solo] > [data-pair-txt], [data-pair='large'][data-pair-solo] > [data-pair-img] { grid-column: 3 / 8; }
   [data-pair='medium'] > [data-pair-txt], [data-pair='medium'] > [data-pair-img] { grid-column: 5 / 9; }
   [data-pair='small'] > [data-pair-txt] { grid-column: 2 / 7; }
   [data-pair='small'] > [data-pair-img] { grid-column: 2 / 5; }
@@ -641,22 +679,37 @@ the two-column band. */
   [data-pair='small'] > [data-pair-img2] { grid-column: 5 / 7; }
 }
 
-/* Subscribe form. Below LG one stack, 440px wide. At LG it takes the page
-   grid in two rows: name beside the topics, e-mail beside consent, CTA
-   centred under both. Closed, the fields run 2–4 and the topics 5–7.
-   Opening the topics spreads the whole form to the page edges: fields 1–2,
-   topics and consent 3–8, the list in three columns, and e-mail moves to
-   the foot of the list's row so the two lines meet.
+/* Subscribe block. Centred. Symbol, title and intro on the axis, then the
+   form. Below LG one stack, 440px wide; the archive opens under the intro.
+
+   The form, at LG, takes the page grid in two rows: name beside the topics,
+   e-mail beside consent, CTA centred under both. Closed, the fields run 2–4
+   and the topics 5–7. Opening the topics spreads the whole form to the page
+   edges: fields 1–2, topics and consent 3–8, the list in three columns, and
+   e-mail moves to the foot of the list's row so the two lines meet.
 
    Grid placement cannot animate, so each area is placed at its widest —
    fields 1–4, topics 3–8 — and padding takes back what the closed state
    does not use, sliding to zero as it opens. Percent padding on a grid item
    resolves against its own area: in the fields' four columns one column is
    (100% - 3 gutters) / 4, in the topics' six it is (100% - 5 gutters) / 6.
-   The topics' padding lets pointers through to the fields beneath. */
+   The topics' padding lets pointers through to the fields beneath.
+
+   Tidigare nummer: open, the issues take the form's place, one column per
+   year ([data-subscribe-swap]); the swap's motion is SubscribeBlock's own. */
+[data-subscribe-layout] { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); text-align: center; }
+[data-subscribe-text] { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); min-width: 0; }
+[data-subscribe-formarea] { width: 100%; min-width: 0; }
+/* Past issues, open: one column per year, newest first, centred as a group; each column reads left-aligned. */
+[data-subscribe-years] { display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, max-content)); justify-content: center; column-gap: var(--space-6); row-gap: var(--space-5); width: 100%; text-align: left; }
 [data-subscribe-form] { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: var(--space-4); width: 100%; max-width: 440px; margin-inline: auto; }
 [data-sf-fields], [data-sf-side] { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
 @media (min-width: 1280px) {
+  [data-subscribe-layout] { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gutter); row-gap: var(--space-3); align-items: start; justify-items: center; }
+  [data-subscribe-mark] { grid-column: 1 / -1; grid-row: 1; }
+  [data-subscribe-text] { grid-column: 1 / -1; grid-row: 2; }
+  [data-subscribe-swap] { grid-column: 1 / -1; grid-row: 3; justify-self: stretch; }
+  [data-subscribe-years] { column-gap: calc(var(--gutter) * 2); }
   [data-subscribe-form] { max-width: none; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); column-gap: var(--gutter); align-items: start; }
   [data-sf-note] { grid-column: 2 / 8; grid-row: 1; }
   [data-sf-fields] { display: contents; }
@@ -676,6 +729,8 @@ the two-column band. */
   [data-subscribe-form][data-sf-open="true"] [data-sf-consent] { padding-left: 0; padding-right: 0; }
 }
 @media (min-width: 1280px) and (prefers-reduced-motion: reduce) {
-  [data-sf-field], [data-sf-side], [data-sf-consent] { transition: none; }
+  [data-sf-field], [data-sf-side], [data-sf-consent], [data-subscribe-formarea], [data-subscribe-issues], [data-subscribe-swap] { transition: none !important; }
 }
+
+
 }

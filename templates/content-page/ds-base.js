@@ -35,8 +35,8 @@
        page instead, which leaves the blend alone. */
     gate.textContent = 'html:not([data-ds-ready]) body{visibility:hidden}'
       + 'html:not([data-ds-ready]) *,html:not([data-ds-ready]) *::before,html:not([data-ds-ready]) *::after{animation-play-state:paused !important}'
-      + 'html{background:var(--ground-page,#F3F0EE)}'
-      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:var(--ground-page,#F3F0EE);visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
+      + 'html{background:var(--ground-page,#ECE9E7)}'
+      + '#ds-veil{position:fixed;inset:0;z-index:2147483647;background:var(--ground-page,#ECE9E7);visibility:visible;pointer-events:none;transition:opacity 260ms cubic-bezier(.22,.61,.36,1)}'
       + 'html[data-ds-ready] #ds-veil{opacity:0}';
     document.head.appendChild(gate);
     const veil = () => {
@@ -81,7 +81,13 @@
     '/nyheter': '../news-listing/NewsListing.dc.html',
     '/insikter': '../news-listing/NewsListing.dc.html',
     '/uppdrag': '../case-listing/CaseListing.dc.html',
-    '/verksamhetsomraden': '../news-listing/NewsListing.dc.html',
+    '/verksamhetsomraden': '../register/Register.dc.html',
+    '/branscher': '../register/Register.dc.html',
+    '/vara-tjanster': '../content-page/ContentPage.dc.html',
+    '/vara-tjanster/verksamhetsomraden': '../register/Register.dc.html',
+    '/vara-tjanster/branscher': '../register/Register.dc.html',
+    '/sok': '../search-results/SearchResults.dc.html',
+    '/medarbetare': '../people-listing/PeopleListing.dc.html',
     '/karriar': '../content-page/ContentPage.dc.html',
   };
   /* A prefix stands for a whole class of route: any one person, any one
@@ -90,9 +96,16 @@
   const PREFIXES = [
     ['/personer/', '../person-page/PersonPage.dc.html'],
     ['/our-people/', '../person-page/PersonPage.dc.html'],
+    /* The live site's own paths, as the search API returns them. */
+    ['/medarbetare/', '../person-page/PersonPage.dc.html'],
+    ['/nyheter/', '../article-page/ArticlePage.dc.html'],
+    ['/insights/', '../article-page/ArticlePage.dc.html'],
     ['/insikter/', '../article-page/ArticlePage.dc.html'],
     ['/uppdrag/', '../article-page/ArticlePage.dc.html'],
     ['/verksamhetsomraden/', '../content-page/ContentPage.dc.html'],
+    ['/branscher/', '../content-page/ContentPage.dc.html'],
+    ['/vara-tjanster/verksamhetsomraden/', '../content-page/ContentPage.dc.html'],
+    ['/vara-tjanster/branscher/', '../content-page/ContentPage.dc.html'],
     ['/karriar/', '../content-page/ContentPage.dc.html'],
   ];
   /* The site path an href asks for, or null when the href is not a site link. */
@@ -118,11 +131,13 @@
     }
     return null;
   };
-  /* Every Karriär route is the one page, told which path to render. */
+  /* Every Karriär route is the content page, told which path to render. */
   const go = (raw) => {
     const path = route(raw);
     let dest = fileFor(path);
-    if (dest && dest.indexOf('ContentPage.dc.html') > -1) dest += '?p=' + encodeURIComponent(path);
+    if (dest && (dest.indexOf('ContentPage.dc.html') > -1 || dest.indexOf('Register.dc.html') > -1)) dest += '?p=' + encodeURIComponent(path);
+    /* The search page's query string is its state, so it travels with the route. */
+    else if (dest && dest.indexOf('SearchResults.dc.html') > -1) { const qs = String(raw || '').split('#')[0].split('?')[1]; if (qs) dest += '?' + qs; }
     if (dest) window.location.href = dest;
   };
   document.addEventListener('click', (e) => {
@@ -141,7 +156,7 @@
     /* A link inside the finder is not followed here: the panel docks and folds
        to the peek first, and raises `vinge:navigate` when it has arrived. */
     if (a.closest('[data-finder-frame]')) return;
-    go(path);
+    go(a.getAttribute('href'));
   }, true);
   window.addEventListener('vinge:navigate', (e) => go(e.detail && e.detail.href));
   /* The bundle and the stylesheets are recompiled in place on every edit, so

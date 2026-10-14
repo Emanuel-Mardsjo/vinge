@@ -8,7 +8,7 @@
 <body>
 <x-dc>
 <!-- @template name="Landing page" description="Vertical-lockup hero whose V disperses on scroll while the wordmark hands over to a fixed, exclusion-blended header, with the find-a-lawyer prompt block beneath it." -->
-<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record-cases.js"></script><script src="./record.js"></script><script src="./people.js"></script><script src="../people-listing/people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{--hero-t:0;transition:--hero-t var(--dur-medium) var(--ease-quart)}html[data-hero-top]{--hero-t:1}html{background:color-mix(in oklab,var(--ground-takeover) calc(var(--hero-t) * 100%),var(--ground-page)) !important}body{margin:0;min-height:100vh;--mix:calc(var(--hero-t) * 100%);--paper:color-mix(in oklab,var(--ground-takeover) var(--mix),var(--ground-page));--surface:var(--paper);--reveal-ground:var(--paper);background:var(--paper);color:var(--ink)}
+<helmet><script src="./ds-base.js"></script><script src="./chapters.js"></script><script src="./record-cases.js"></script><script src="./record.js"></script><script src="./people.js"></script><script src="../people-listing/people.js"></script><script src="../news-listing/news.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{--hero-t:0;transition:--hero-t var(--dur-medium) var(--ease-quart)}html[data-hero-top]{--hero-t:1}html{background:color-mix(in oklab,var(--ground-takeover) calc(var(--hero-t) * 100%),var(--ground-page)) !important}body{margin:0;min-height:100vh;--mix:calc(var(--hero-t) * 100%);--paper:color-mix(in oklab,var(--ground-takeover) var(--mix),var(--ground-page));--surface:var(--paper);--reveal-ground:var(--paper);background:var(--paper);color:var(--ink)}
 /* The loading placeholders the runtime reserves space with are not part of
    the composition — the hero holds its own space. */
 .sc-placeholder{background:transparent;border-color:transparent}
@@ -28,15 +28,18 @@ header a[aria-label="Vinge"]+div{animation:hero-rise 700ms var(--ease-quart) 150
 </sc-if>
 <div style="position:relative;z-index:1">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ScrollHold" hold="{{ heroHold }}" distance="85vh" lead="18vh" reserve="{{ holdReserve }}" hint-size="100%,420px">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad står du inför?" suggestions="{{ promptSuggestions }}" aside="Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver." on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PromptHero" headline="Vad vill du ha hjälp med?" suggestions="{{ promptSuggestions }}" aside="Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver." on-submit="{{ start }}" dot-src="../../assets/demo/boardroom.png" hint-size="100%,420px"></x-import>
 </x-import>
 </div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" ground="lichen" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden, 15 sektorer, Stockholm, Göteborg, Malmö, Bryssel, 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="affaren" mark="circles-chord" stroke="0.9" extras="{{ extrasAffaren }}" claim="Ett förvärv är aldrig bara ett förvärv." support="Det mesta av arbetet är inte argumentation. Det är att få två parter som vill olika saker att kunna skriva under samma dag." cta-label="Vad som håller ihop en affär" premise="Strategi, finansiering, konkurrens, människor och avtal behöver hålla ihop – ofta under stor tidspress. Du behöver se vad som faktiskt kan påverka affären, vilka frågor som kräver din uppmärksamhet och vad som för processen framåt." source="169 transaktioner under 2024, 213 miljarder kronor
 Mergermarket, svenska M&amp;A-ligan 2024, Band 1 Corporate/M&amp;A, Chambers Global" beats="{{ beatsAffaren }}" hint-size="100%,560px"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Chapter" id="banken" ground="lichen" mark="star-radial" stroke="0.9" extras="{{ extrasBanken }}" claim="Din situation följer sällan vår organisationskarta." support="En affär kan börja i skatt och fortsätta i arbetsrätt, tillstånd och finansiering. Du ska inte behöva veta vilka av våra 33 verksamhetsområden du behöver." cta-label="Så sätts rätt team samman" premise="Du ska inte behöva kartlägga oss för att få hjälp. Du beskriver situationen, vi avgör vilka kompetenser den kräver och samlar dem — bredden är vår sak att hantera, inte din." source="33 verksamhetsområden, 15 sektorer, Stockholm, Göteborg, Malmö, Bryssel, 550+ medarbetare" beats="{{ beatsBanken }}" hint-size="100%,560px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ArtworkPin" id="rummet" src="../../assets/images/present-04.png" alt="Möte runt ett bord i ett grönt rum" pin="{{ artworkPin }}" artist="Ingrid Bäcklund" work="Sediment nr 3" year="2021" artwork-src="../../assets/art/artwork-01.png" artwork-alt="Sediment nr 3, akvarell på papper" hint-size="100%,100svh"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="registret" views="{{ aiTabs }}" case-href="../article-page/ArticlePage.dc.html" title="Vår expertis syns mellan raderna" all-line="" closing-line="" action-label="Se fler uppdrag" entries="{{ recordEntries }}" dialogue="{{ recordDialogue }}" view="{{ recordView }}" view-labels="{{ recordViewLabels }}" on-view-change="{{ setRecordView }}" action-href="/uppdrag" all-href="/uppdrag" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" term-filter="{{ true }}" filter-note="" ask-again-label="Ändra urvalet" premise="Utforska ett urval av uppdrag och hitta erfarenheter som är relevanta för det du står inför." empty-body="Urval anpassat för Dig" empty-link-label="Vad söker du?" hint-size="100%,1100px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Matters" id="uppdragen" tight-top="{{ mattersTight }}" matters="{{ matters }}" link-label="Läs hur vi arbetade" hint-size="100%,1700px"></x-import>
+<section id="aktuellt">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.NewsList" title="Aktuellt" variant="compact" limit="{{ 5 }}" tracks="{{ newsTracks }}" hint-size="100%,560px"></x-import>
+</section>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" id="personerna" views="{{ aiTabs }}" label="" title="Rätt erfarenhet för din situation" people="{{ carouselPeople }}" dialogue="{{ recordDialogue }}" view="{{ peopleView }}" on-view-change="{{ setPeopleView }}" view-labels="{{ peopleViewLabels }}" on-ask="{{ askFromRecord }}" on-reset="{{ resetDialogue }}" empty-body="Utifrån det du berättat ser du personer med erfarenhet som är relevant för din situation." empty-link-label="Vilken profil söker du?" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" hint-size="100%,860px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ start }}" hint-size="100%,720px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ menuItems }}" utility="{{ menuUtility }}" highlights="{{ menuHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
@@ -613,6 +616,16 @@ class Component extends DCLogic {
     return { items: [], utility: [], highlights: [] };
   }
 
+  /* The start page's news: the latest from both streams, every practice area,
+     one tab each, each ending on its own listing page. */
+  newsTracks() {
+    const all = window.VingeNewsAll || [];
+    const row = (a, insight) => ({ id: a.id, type: insight ? undefined : a.type, dateLabel: a.dateLabel, readLabel: insight ? a.minutes + ' min läsning' : undefined, title: a.title, href: '../article-page/ArticlePage.dc.html', imageSrc: a.imageSrc, alt: '' });
+    return [
+      { id: 'nyheter', label: 'Nyheter', items: all.filter((a) => a.type !== 'Insikt').slice(0, 5).map((a) => row(a, false)), href: '/nyheter/', linkLabel: 'Alla nyheter' },
+      { id: 'insights', label: 'Insights', items: all.filter((a) => a.type === 'Insikt').slice(0, 5).map((a) => row(a, true)), href: '/insights/', linkLabel: 'Alla insights' },
+    ];
+  }
   renderVals() {
     const nav = this.nav();
     const { ConversationHeader, Composer, ConversationContext } = this.ns();
@@ -737,6 +750,7 @@ class Component extends DCLogic {
       header: header,
       footer: footer,
       start: this.start,
+      newsTracks: this.newsTracks(),
       promptSuggestions: [
         'Vi planerar ett förvärv i Sverige',
         'Nya hållbarhetskrav påverkar vår rapportering',

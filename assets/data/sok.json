@@ -1,0 +1,1130 @@
+{
+ "_about": "Vinge site search, harvested from vinge.se on 2026-10-14. Every string is verbatim from the live page or its search API (POST /search/autocomplete/). Result items are the API's own fields; nothing is written.",
+ "page": {
+  "path": "/sok/?query=<q>",
+  "document_title": "Sök | vinge.se",
+  "breadcrumb": [
+   "Hem",
+   "Sök"
+  ],
+  "h1": null,
+  "intro": null,
+  "results_heading": "Sökresultat",
+  "count_suffix": "träffar",
+  "count_pattern_in_live_code": "({n} träffar)",
+  "input_placeholder": "Sök",
+  "clear_button": "Rensa Filter",
+  "more_button": "Fler resultat",
+  "page_size_per_category": 8,
+  "no_hits_text": null,
+  "empty_query": "GET /sok/ returns HTTP 500",
+  "filter_labels_in_live_order": [
+   "Medarbetare",
+   "Sidor",
+   "Nyhet",
+   "Uppdrag",
+   "Event",
+   "Insights"
+  ],
+  "filter_url_params": {
+   "Medarbetare": "employees",
+   "Sidor": "pages",
+   "Nyhet": "news",
+   "Uppdrag": "mandates",
+   "Event": "events",
+   "Insights": "insights"
+  },
+  "section_headings_in_live_order": [
+   "Medarbetare",
+   "Nyhet",
+   "Sidor",
+   "Uppdrag",
+   "Events"
+  ],
+  "row_fields": {
+   "medarbetare": [
+    "image",
+    "name",
+    "roles"
+   ],
+   "nyheter": [
+    "title",
+    "description",
+    "date"
+   ],
+   "sidor": [
+    "title",
+    "description"
+   ],
+   "uppdrag": [
+    "title",
+    "description",
+    "date"
+   ],
+   "event": [
+    "title",
+    "description",
+    "date"
+   ],
+   "insights": "not rendered on the live page (API returns them)"
+  }
+ },
+ "typeahead": {
+  "where_live": "Header search field (#navbar-autocomplete-search), submits GET /sok?query=<q>",
+  "request_delay_ms": 500,
+  "category_order": [
+   "Medarbetare",
+   "Nyhet",
+   "Insights",
+   "Sidor",
+   "Events",
+   "Uppdrag"
+  ],
+  "max_per_category": {
+   "Medarbetare": 8,
+   "Nyhet": 5,
+   "Insights": 5,
+   "Sidor": 10,
+   "Events": 10,
+   "Uppdrag": 10
+  },
+  "row_fields": {
+   "Medarbetare": [
+    "name",
+    "roles"
+   ],
+   "other": [
+    "title",
+    "description"
+   ]
+  },
+  "keyboard": "Arrow keys move through suggestions; Enter on a highlighted suggestion opens it; Enter with nothing highlighted submits the query to /sok."
+ },
+ "english_labels_not_in_scope": {
+  "path": "/en/search/?query=<q>",
+  "document_title": "Search | vinge.se",
+  "breadcrumb": [
+   "Home",
+   "Search"
+  ],
+  "results_heading": "Search results",
+  "count_suffix": "search hits",
+  "input_placeholder": "Search",
+  "clear_button": "Clear Filter",
+  "filter_labels": [
+   "Employees",
+   "Pages",
+   "News",
+   "Mandates",
+   "Event",
+   "Insights"
+  ],
+  "section_headings": [
+   "Coworkers",
+   "News",
+   "Pages",
+   "Mandates",
+   "Events"
+  ],
+  "typeahead_headings": [
+   "Staff",
+   "News",
+   "Insights",
+   "Pages",
+   "Events",
+   "Mandates"
+  ]
+ },
+ "queries": [
+  {
+   "query": "avtal",
+   "hasHits": true,
+   "categories": {
+    "medarbetare": {
+     "total": 58,
+     "items": [
+      {
+       "name": "Anders Heintze",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/anders-heintze/",
+       "image": "https://www.vinge.se/media/cldj5dq4/anders-heintze-some.jpg"
+      },
+      {
+       "name": "Anna Edström",
+       "roles": "Managing Partner Malmö, Delägare, Advokat",
+       "href": "/medarbetare/anna-edstrom/",
+       "image": "https://www.vinge.se/media/ltzlidmo/edstrom_anna_socialmedia.jpg"
+      },
+      {
+       "name": "Anna Jonsson",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/anna-jonsson/",
+       "image": "https://www.vinge.se/media/tyficpjq/jonsson_anna_socialmedia.jpg"
+      },
+      {
+       "name": "Christoffer Thalin",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/christoffer-thalin/",
+       "image": "https://www.vinge.se/media/fzedzmk1/christoffer-thalin-some.jpg"
+      },
+      {
+       "name": "Daniel Wendelsson",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/daniel-wendelsson/",
+       "image": "https://www.vinge.se/media/1iocv213/wendelsson_daniel_highres.jpg"
+      },
+      {
+       "name": "Eva Fredrikson",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/eva-fredrikson/",
+       "image": "https://www.vinge.se/media/qppfvfzb/fredrikson_eva__some.jpg"
+      },
+      {
+       "name": "Fredrik Lundblom",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/fredrik-lundblom/",
+       "image": "https://www.vinge.se/media/kyynhjki/lundblom-fredrik-high-res.jpg"
+      },
+      {
+       "name": "Jonas Johansson",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/jonas-johansson/",
+       "image": "https://www.vinge.se/media/mfyd1h4t/johansson_jonas_socialmedia.jpg"
+      },
+      {
+       "name": "Magnus Hedsund",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/magnus-hedsund/",
+       "image": "https://www.vinge.se/media/0ekniiht/hedsund_magnus_highres.jpg"
+      },
+      {
+       "name": "Magnus Pauli",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/magnus-pauli/",
+       "image": "https://www.vinge.se/media/lg2lzx2i/pauli_magnus__socialmedia.jpg"
+      },
+      {
+       "name": "Malin Malm Waerme",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/malin-malm-waerme/",
+       "image": "https://www.vinge.se/media/tv4fk15a/malm_waerme_malin_highres.jpg"
+      },
+      {
+       "name": "Malin Ohlin",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/malin-ohlin/",
+       "image": "https://www.vinge.se/media/kwodghzf/ohlin_malin_highres.jpg"
+      },
+      {
+       "name": "Mathilda Persson",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/mathilda-persson/",
+       "image": "https://www.vinge.se/media/2uufgxhj/mathildapersson_socialmedia.jpg"
+      },
+      {
+       "name": "Michele Fara",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/michele-fara/",
+       "image": "https://www.vinge.se/media/3ejopxg1/fara_-michele_socialmedia.jpg"
+      },
+      {
+       "name": "Ninos Aho",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/ninos-aho/",
+       "image": "https://www.vinge.se/media/g5biflnt/aho_ninos_socialmedia.jpg"
+      },
+      {
+       "name": "Olof Jisland",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/olof-jisland/",
+       "image": "https://www.vinge.se/media/hmrbn0qo/jisland_olof_highres.jpg"
+      }
+     ]
+    },
+    "nyheter": {
+     "total": 163,
+     "items": [
+      {
+       "title": "Konsumentverkets granskning avslöjar brister i e-handelsvillkor",
+       "description": "En granskning från Konsumentverket visar omfattande brister i e-handelsföretags avtalsvillkor. Av 50 granskade företag hade 46 villkor som bedömdes som oskäliga – bland annat felaktiga prisreservationer och otillåtna friskrivningar.",
+       "href": "/nyheter/konsumentverkets-granskning-avslojar-brister-i-e-handelsvillkor/",
+       "date_shown_first_page": "2026-09-22",
+       "date_shown_after_fler_resultat": "2026-09-29"
+      },
+      {
+       "title": "Möt Vinges upphandlingsexperter på Mötesplats Offentliga Affärer i Göteborg",
+       "description": "Offentliga inköp omsätter årligen över 900 miljarder kronor och spelar en central roll för både samhällsutveckling och näringsliv. När Mötesplats Offentliga Affärer samlar upphandlingssektorn på World of Volvo i Göteborg den 30 september – 1 oktober finns Vinge på plats – både på scen och med monter.",
+       "href": "/nyheter/traffa-vinges-upphandlingsexperter-pa-motesplats-offentliga-affarer-i-goteborg/",
+       "date_shown_first_page": "2026-09-01",
+       "date_shown_after_fler_resultat": "2026-09-07"
+      },
+      {
+       "title": "Ny skyldighet att erbjuda “ångerfunktion” vid distansköp online",
+       "description": "Den 19 juni 2026 trädde nya regler i distansavtalslagen i kraft. Näringsidkare som ingår distansavtal via exempelvis webbplatser eller appar måste tillhandahålla en särskild ångerfunktion så att konsumenter kan utöva sin ångerrätt direkt i onlinegränssnittet.",
+       "href": "/nyheter/ny-skyldighet-att-erbjuda-angerfunktion-vid-distanskop-online/",
+       "date_shown_first_page": "2026-06-23",
+       "date_shown_after_fler_resultat": "2026-06-23"
+      },
+      {
+       "title": "Många bollar i luften och tidigt ansvar",
+       "description": "För många juriststudenter är M&A ett område som bara dyker upp i enstaka kursmoment, utan att man får en samlad bild av vad arbetet faktiskt innebär. När Sara Eirefors började som biträdande jurist inom privat M&A på Vinge fick hon snabbt en mer konkret uppfattning: ett tempofyllt och socialt arbete där man tidigt blir en del av affärerna.",
+       "href": "/nyheter/manga-bollar-i-luften-och-tidigt-ansvar/",
+       "date_shown_first_page": "2026-05-28",
+       "date_shown_after_fler_resultat": "2026-06-02"
+      },
+      {
+       "title": "Konkurrensklausuler i korthet – vad arbetsgivare bör veta",
+       "description": "Konkurrensklausuler är ett viktigt verktyg för arbetsgivare som vill skydda företagshemligheter och kundrelationer. Regelverket kring sådana klausuler är dock komplext och ställer höga krav på utformningen för att klausulerna ska vara verkställbara. Nedan sammanfattar vi på ett övergripande sätt de centrala reglerna kring konkurrensklausuler i svensk arbetsrätt och de praktiska överväganden en arbetsgivare bör göra inför att en sådan klausul förs in i ett anställningsavtal.",
+       "href": "/nyheter/konkurrensklausuler-i-korthet-vad-arbetsgivare-bor-veta/",
+       "date_shown_first_page": "2026-04-15",
+       "date_shown_after_fler_resultat": "2026-04-15"
+      },
+      {
+       "title": "En påminnelse om att kontrollera kommersiella avtal i denna tid av osäkerhet",
+       "description": "Force majeure och hardship-klausuler kan aktualiseras. ",
+       "href": "/nyheter/en-paminnelse-om-att-kontrollera-kommersiella-avtal-i-denna-tid-av-osakerhet/",
+       "date_shown_first_page": "2026-03-04",
+       "date_shown_after_fler_resultat": "2026-08-14"
+      },
+      {
+       "title": "Möt Martin Cronsioe – ny delägare inom Private Funds",
+       "description": "När Martin vid årsskiftet tillträdde som delägare var det kulmen på en resa som började redan 2015, då han för första gången klev in på Vinge som studentmedarbetare. Efter några år i M&A-gruppen valde han att bredda perspektivet på Fjärde AP-fonden. Men med en tydlig idé om vad han ville bygga återvände han 2022 till Vinge för att vara med och etablera byråns Private Funds-verksamhet. Vi har träffat Martin för att prata om resan hit, Vinges erbjudande inom Private Funds och vad som driver honom i den nya rollen.",
+       "href": "/nyheter/mot-martin-cronsioe-ny-delagare-inom-private-funds/",
+       "date_shown_first_page": "2026-02-26",
+       "date_shown_after_fler_resultat": "2026-02-25"
+      },
+      {
+       "title": "EU:s digitala omnibuspaket: vad betyder det i förhållande till gällande dataskyddsregler? ",
+       "description": "EU:s Digital Omnibuspaket föreslår ändringar i GDPR och andra digitala regler för att förenkla dataskydd, främja innovation och minska företags administrativa börda. Förslagen är ännu inte antagna men ger en indikation på kommande förändringar i EU:s digitala regelverk.",
+       "href": "/nyheter/eu-s-digitala-omnibuspaket-vad-betyder-det-i-forhallande-till-gallande-dataskyddsregler/",
+       "date_shown_first_page": "2025-12-18",
+       "date_shown_after_fler_resultat": "2026-01-07"
+      },
+      {
+       "title": "Immaterialrätten på Vinge – Ett brett och dynamiskt område",
+       "description": "Vinge har en av de mest framstående IP-avdelningarna i landet. Här arbetar man brett med immaterialrätt, och den omfattar många olika delar. Från tvister om upphovsrätt, varumärken och patent till hantering av varumärkesportföljer och stöd i transaktioner m.m. I en intervju delar Michael Spira, Senior Associate på Göteborgskontoret, med sig av hur vardagen ser ut för en affärsjurist inom immaterialrätt.",
+       "href": "/nyheter/immaterialratten-pa-vinge-ett-brett-och-dynamiskt-omrade/",
+       "date_shown_first_page": "2025-12-16",
+       "date_shown_after_fler_resultat": "2025-12-16"
+      },
+      {
+       "title": "AD-dom: Berodde uppsägningen på grund av arbetsbrist egentligen på personliga skäl?",
+       "description": "Arbetsdomstolen har i mål AD 2025 nr 70 avgjort frågan om en uppsägning på grund av arbetsbrist var fingerad, det vill säga om uppsägningen i själva verket berodde på personliga skäl. Arbetsdomstolen fann dock att arbetsbristen inte var fingerad utan att sakliga skäl för uppsägningen förelåg. ",
+       "href": "/nyheter/ad-dom-berodde-uppsagningen-pa-grund-av-arbetsbrist-egentligen-pa-personliga-skal/",
+       "date_shown_first_page": "2025-10-23",
+       "date_shown_after_fler_resultat": "2025-10-24"
+      },
+      {
+       "title": "”Ett internsecondment är ett perfekt tillfälle att vidga sitt kontaktnät”",
+       "description": "Under ett halvår har Filippa Berggren, Associate på Vinge i Göteborg, varit på ett internsecondment i Bryssel. Nya erfarenheter, större nätverk och fördjupade kunskaper i EU-rätt ser hon som några av vinsterna. ",
+       "href": "/nyheter/ett-internsecondment-ar-ett-perfekt-tillfalle-att-vidga-sitt-kontaktnat/",
+       "date_shown_first_page": "2025-10-13",
+       "date_shown_after_fler_resultat": "2025-10-15"
+      },
+      {
+       "title": "Träffa Vinge på Mötesplats Offentliga Affärer den 24–25 september ",
+       "description": "Varje år lägger offentlig sektor över 900 miljarder kronor på upphandlingspliktiga inköp. Mötesplats Offentliga Affärer är upphandlingssektorn viktigaste event. Kom och lyssna och träffa Vinges experter i Nacka strand den 24–25 september.",
+       "href": "/nyheter/traffa-vinge-pa-motesplats-offentliga-affarer-den-24-25-september/",
+       "date_shown_first_page": "2025-09-16",
+       "date_shown_after_fler_resultat": "2025-09-30"
+      },
+      {
+       "title": "Nya riktlinjer från EDPB om när personuppgifter kan överlämnas till tredjelands myndigheter",
+       "description": "Europeiska dataskyddsstyrelsen (EDPB) har publicerat nya riktlinjer som klargör hur företag inom EU/EES ska förhålla sig till beslut från myndigheter i tredjeländer som kräver överföring av personuppgifter. Enligt artikel 48 i GDPR krävs att sådana överföringar endast sker om de grundar sig på en internationell överenskommelse, exempelvis ett avtal om ömsesidig rättslig hjälp. För att en överföring ska vara tillåten krävs både en rättslig grund enligt artikel 6 och att någon av grunderna i kapitel V iakttas. Artikel 48 utgör inte i sig en överföringsgrund. EDPB betonar vikten av att varje överföring prövas individuellt och att nationella tillsynsmyndigheter bör konsulteras vid osäkerhet.",
+       "href": "/nyheter/nya-riktlinjer-fran-edpb-om-nar-personuppgifter-kan-overlamnas-till-tredjelands-myndigheter/",
+       "date_shown_first_page": "2025-07-07",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Arbetsgivare saknade berättigat intresse av att upprätthålla värvningsförbud",
+       "description": "Malmö tingsrätt har avgjort en fråga om tillämpningen och skäligheten av en värvningsförbudsklausul mellan en arbetsgivare (”Arbetsgivaren”) och en tidigare anställd (”Arbetstagaren”) som förbjöd Arbetstagaren att aktivt värva andra anställda under en tid om sex månader efter anställningens upphörande (s.k. rekryteringsförbud). Domstolen fann dels att Arbetstagaren inte hade brutit mot värvningsförbudet, dels att värvningsförbudet var oskäligt i sin helhet. ",
+       "href": "/nyheter/arbetsgivare-saknade-berattigat-intresse-av-att-uppratthalla-varvningsforbud/",
+       "date_shown_first_page": "2025-04-15",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "EU och USA i handelskonflikt – vad betyder det för svenska företag?",
+       "description": "Den globala handeln står inför en av sina mest osäkra perioder på länge. Med ett pågående krig i närområdet och en ny administration i Vita huset som bedriver en utmanande utrikespolitik präglad av epitetet ”America First” har osäkerheten aldrig varit större. På handelsområdet har USA nyligen infört kraftiga tullar mot Kanada, Mexiko och Kina och även hotat EU med samma åtgärder. Världen är på helspänn.",
+       "href": "/nyheter/eu-och-usa-i-handelskonflikt-vad-betyder-det-for-svenska-foretag/",
+       "date_shown_first_page": "2025-03-05",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Vinge har en inkluderande kultur och stark laganda",
+       "description": "”Det görs klart från början att alla ska vara sig själva – inte bara för att det är schysst, utan även för att det är då man presterar bäst” säger Gustav Bergengren, Associate vid Vinges Malmökontor. ”För mig är det väldigt viktigt för ett företags framgång att det fylls med ambitiösa människor som inte är rädda för att anpassa sig för att vara i framkant, och jag visste att Vinges ledning kände likadant. Att påbörja min karriär på Vinge var därmed en självklarhet” berättar han, när vi frågar varför valet föll på Vinge som arbetsgivare. ",
+       "href": "/nyheter/vinge-har-en-inkluderande-kultur-och-stark-laganda/",
+       "date_shown_first_page": "2025-03-04",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      }
+     ]
+    },
+    "sidor": {
+     "total": 57,
+     "items": [
+      {
+       "title": "Immaterialrättsliga avtal & transaktioner",
+       "description": "Innovationer och nya affärsmodeller som bygger helt på information, kunskap och immaterialrätter kan vara en utmaning för företag när det kommer till att hantera avtal och följa det immaterialrättsliga regelverket.Våra jurister hjälper dig att skapa värde av dina immateriella tillgångar på ett effektivt sätt och bedöme ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/immaterialrattsliga-avtal-transaktioner/"
+      },
+      {
+       "title": "Kommersiella Avtal",
+       "description": "Ett för den specifika situationen väl anpassat avtal utgör ofta en grundförutsättning för ett framgångsrikt samarbete. Många problem kan förutses och undvikas genom väl genomtänkta avtalsupplägg. Våra jurister inom Kommersiella Avtal har ett starkt affärsmässigt fokus som tillsammans med omfattande kunskap om svensk oc ...",
+       "href": "/vara-tjanster/verksamhetsomraden/kommersiella-avtal/"
+      },
+      {
+       "title": "Samarbeten, licensiering och kommersiella avtal",
+       "description": "Våra jurister kombinerar akademisk spetskompetens med omfattande kommersiell erfarenhet och kan hjälpa dig att upprätta och förhandla en mängd olika avtal som är relevanta för life science och hälso- och sjukvårdsbranschen. Teamet på Vinge har ett kommersiellt fokus och djupgående kunskaper om svensk och internationell ...",
+       "href": "/vara-tjanster/branscher/life-science-och-health/samarbeten-licensiering-och-kommersiella-avtal/"
+      },
+      {
+       "title": "Försäkring",
+       "description": "Under det senaste decenniet har Vinge anlitats i flera av de största strukturaffärerna på den svenska försäkringsmarknaden. Våra klienter är svenska och internationella bolag i försäkringsbranschen, men vi är också rådgivare till andra aktörer i olika typer av försäkringsrelaterade frågor. Transaktioner, rörelserätt, a ...",
+       "href": "/vara-tjanster/verksamhetsomraden/forsakring/"
+      },
+      {
+       "title": "GDPR",
+       "description": "Alla bolag och organisationer behandlar på något sätt personuppgifter i sin verksamhet. Det kan t.ex. vara uppgifter om kunder, medlemmar, anställda eller andra kategorier av personer eller att personuppgifter behandlas i samband med att en tjänst tillhandahålls för någon annans räkning. Den 25 maj 2018 började EU:s da ...",
+       "href": "/vara-tjanster/verksamhetsomraden/gdpr/"
+      },
+      {
+       "title": "Immaterialrätt",
+       "description": "Immateriella tillgångar blir alltmer viktiga för företags möjlighet att utveckla och behålla sin konkurrenskraft. Med juridisk rådgivning hjälper vi företag att skydda, förvalta, optimera, och kommersialisera sina viktigaste affärstillgångar. Vi maximerar värdet och säkerställer att du får den bästa formen av skydd för ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/"
+      },
+      {
+       "title": "Företagshemligheter",
+       "description": "Framväxten av det digitala informationssamhället och Internet of things har tillsammans med dagens snabbt skiftande innovationsutveckling inneburit en ökad efterfrågan av intellektuellt kapital, information och know-how. För företag som arbetar proaktivt och strategiskt med att skydda sina företagshemligheter och vet h ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/foretagshemligheter/"
+      },
+      {
+       "title": "Sport, spel och underhållning",
+       "description": "Den 1 januari 2019 infördes en ny spellag i Sverige. Lagen innebär att företag som vill tillhandahålla spel på den svenska spelmarknaden som huvudregel måste ansöka om – och få – en licens. Spellagen innehåller ett stort antal regler som bestämmer ramen för ett företags möjlighet att anordna spel, såsom lotterier och t ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/sport-spel-och-underhallning/"
+      },
+      {
+       "title": "Patenträtt",
+       "description": "Patent är för många företag en av de viktigaste tillgångarna som exempelvis inom läkemedelsindustrin vid framtagning av nya innovativa läkemedel eller inom andra industrisektorer för att skydda investeringar i produktutveckling. Patenträtt handlar inte enbart om att söka skydd för patent utan även om att kunna försvara ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/patentratt/"
+      },
+      {
+       "title": "Immaterialrättsliga tvister",
+       "description": "Tvister avseende immateriella rättigheter mellan företag kan uppstå av flera olika skäl. Den allra vanligaste tvisten mellan företag handlar om intrång av en immaterialrätt vilket kan innebära allt från kopiering av en patentskyddad produkt, att någon snyltar på ett företags renommé, ren piratkopiering eller olovlig ko ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/immaterialrattsliga-tvister/"
+      },
+      {
+       "title": "Varumärken",
+       "description": "Varumärken kan utgöra en av de mest värdefulla tillgångarna för företagens kommunikationsarbete och kan många gånger vara avgörande för företagens konkurrenskraft. Varumärkesrätten är väldigt bred och kan innefatta alltifrån strategiska juridiska överväganden vid utvecklingen av ett nytt varumärkeskoncept eller en ny p ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/varumarken/"
+      },
+      {
+       "title": "Design",
+       "description": "En bra design kan utgöra en avgörande faktor för ett företags konkurrenskraft och är därför viktig att skydda. Designrätt är en del av immaterialrätten och kan omfatta allt från juridiska överväganden vid utvecklingen av nya produkter till att försvara sin design vid misstänkta designintrång. Vad innebär designrätt? De ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/design/"
+      },
+      {
+       "title": "Internationell handel",
+       "description": "Den alltmer globaliserade handeln skapar en komplex värld för företag, oavsett storlek eller marknad, att navigera i med tanke på den väv av internationella och nationella lagar och regelverk som samtidigt påverkar affärens genomförande. För att lyckas med internationell handel krävs ett globalt tillvägagångssätt byggt ...",
+       "href": "/vara-tjanster/verksamhetsomraden/internationell-handel/"
+      },
+      {
+       "title": "IT, Telekom och Outsourcing",
+       "description": "Med drygt 20 års erfarenhet hjälper vi våra klienter att förutse och hitta lösningar på de juridiska och affärsmässiga frågor som uppkommer i affärer inom IT, telekom och outsourcing. Affärer som inte sällan omfattar organisationer och myndigheter i flera länder. Bland våra uppdrag kan nämnas systemleveranser och outso ...",
+       "href": "/vara-tjanster/verksamhetsomraden/it-telekom-och-outsourcing/"
+      },
+      {
+       "title": "Järnvägstransport",
+       "description": "Vi erbjuder juridisk rådgivning vid frågor om järnvägstransporter. Järnvägstransporter har sedan länge varit ett energisnålt och effektivt sätt att förflytta varor, och efterfrågan på järnvägstransporter ökar nu i hela Europa, inte minst på grund av den allt viktigare och mer utbredda miljöhänsynen. Den internationella ...",
+       "href": "/vara-tjanster/verksamhetsomraden/sjo-och-transportratt/jarnvagstransport/"
+      },
+      {
+       "title": "Vägtransport",
+       "description": "Vi erbjuder juridisk rådgivning vid frågor om vägtransporter Vägtransporter står för en stor del av Sveriges transporter av varor vilket kan förklaras med höga krav på snabba och flexibla transporter. De senaste årens framväxt av e-handel har inneburit en ökad efterfrågan på vägtransporter, lagerhållning och andra tjän ...",
+       "href": "/vara-tjanster/verksamhetsomraden/sjo-och-transportratt/vagtransport/"
+      }
+     ]
+    },
+    "uppdrag": {
+     "total": 368,
+     "items": [
+      {
+       "title": "Vinge företräder Axcel och Accru Partners vid förvärven av R3 Revisionsbyrå AB, Adrevicor Halland AB, Trevi Revision AB och Adrevicor Stockholm AB ",
+       "description": "Vinge har företrätt Axcel VII och Accru Partners i samband med förvärven av R3 Revisionsbyrå AB, Adrevicor Halland AB, Trevi Revision AB och Adrevicor Stockholm AB.",
+       "href": "/uppdrag/vinge-foretrader-axcel-och-accru-partners-vid-forvarven-av-r3-revisionsbyra-ab-adrevicor-halland-ab-trevi-revision-ab-och-adrevicor-stockholm-ab/",
+       "date_shown_first_page": "2026-10-08",
+       "date_shown_after_fler_resultat": "2026-10-09"
+      },
+      {
+       "title": "Vinge har företrätt Main Capital och Pointsharp vid förvärvet av Meaplus AB och Nubibus Software AB",
+       "description": "Vinge har företrätt Main Capital och dess portföljbolag Pointsharp vid Pointsharps förvärv av Meaplus AB och Nubibus Software AB. Pointsharp är en svensk leverantör av lösningar inom identitets- och åtkomsthantering samt säkert informationsutbyte, med verksamhet i Norden, DACH och Benelux. Förvärvet kompletterar Pointsharps befintliga erbjudande med funktionalitet inom säker digital kommunikation och stärker bolagets position på den svenska marknaden inom offentlig sektor, särskilt inom kommun- och vårdsegmenten. Transaktionen är Pointsharps sjätte tilläggsförvärv sedan Main Capital blev investeringspartner i november 2020. ",
+       "href": "/uppdrag/vinge-har-foretratt-main-capital-och-pointsharp-vid-forvarvet-av-meaplus-ab-och-nubibus-software-ab/",
+       "date_shown_first_page": "2026-10-01",
+       "date_shown_after_fler_resultat": "2026-10-01"
+      },
+      {
+       "title": "Vinge har företrätt Main Capital Partners vid förvärvet av Confirma Software",
+       "description": "Confirma Software (\"Confirma\") är en nordisk vertikal mjukvarukoncern som tillhandahåller affärskritisk B2B-programvara till små och medelstora företag i Sverige, Finland, Norge och Danmark. Bolaget är verksamt inom fem kompletterande programvaruområden: ERP, betalningslösningar, finansiella lösningar, kvalitetsledningssystem och affärsprocesslösningar. Confirma grundades 2019 och har huvudkontor i Stockholm. Bolaget har cirka 540 medarbetare och fler än 25 000 kunder, däribland över 500 kommuner, i Norden. Genom att kombinera djup lokal branschkunskap med programvara integrerad i kundernas dagliga verksamhet har Confirma utvecklat långvariga kundrelationer och en hög andel återkommande intäkter.",
+       "href": "/uppdrag/vinge-har-foretratt-main-capital-partners-vid-forvarvet-av-confirma-software/",
+       "date_shown_first_page": "2026-09-25",
+       "date_shown_after_fler_resultat": "2026-09-25"
+      },
+      {
+       "title": "Vinge företräder KEYTO Group i samband med förvärvet av Säkra Larm",
+       "description": "KEYTO fortsätter att bredda sitt utbud av hushållstjänster genom förvärvet av Säkra Larm, vilket etablerar hemsäkerhet som ett nytt affärsområde inom KEYTO. Tillskottet av Säkra Larm markerar ytterligare ett steg i KEYTO:s ambition att vara en ledande \"one-stop destination\" för tjänster kopplade till hemmet.",
+       "href": "/uppdrag/vinge-foretrader-keyto-group-i-samband-med-forvarvet-av-sakra-larm/",
+       "date_shown_first_page": "2026-09-24",
+       "date_shown_after_fler_resultat": "2026-09-24"
+      },
+      {
+       "title": "Vinge har företrätt Morrow Bank AB (publ) i samband med bankens försäljning av delar av MedMera Bank samt försäljning av NPL-portföljer",
+       "description": "Vinge har företrätt Morrow Bank AB (publ) vid avyttringen av delar av MedMera Banks verksamhet till ett ledande globalt kreditinvesteringsbolag. Avyttringen är strukturerad som en aktieförsäljning och prissatt till en premie om cirka 90 miljoner kronor över det egna kapitalets värde per slutförandedagen. Transaktionen omfattar delar av MedMeras bankverksamhet såsom IT-infrastruktur, organisation och ledning, medan Morrow Bank behåller MedMeras presterande lån, inlåning, kunder, varumärket MedMera, Coop-partnerskapsavtalet samt nyckelpersoner.",
+       "href": "/uppdrag/vinge-har-foretratt-morrow-bank-ab-publ-i-samband-med-bankens-forsaljning-av-delar-av-medmera-bank-samt-forsaljning-av-npl-portfoljer/",
+       "date_shown_first_page": "2026-09-15",
+       "date_shown_after_fler_resultat": "2026-09-15"
+      },
+      {
+       "title": "Vinge har biträtt EQT-förvaltade Scaleup Europe Fund i samband med dess investering i Tandem Health",
+       "description": "Vinge har biträtt EQT-förvaltade Scaleup Europe Fund som huvudinvesterare i Tandem Healths 100 miljoner USD serie B investeringsrunda, i vilken även befintliga investerare Kinnevik, Northzone, Amino Collective och Visionaries deltog. Tandem Health är ett AI-vårdbolag baserat i Stockholm som grundades år 2023. Tandem Health verkar som en AI-partner inom sjukvården på den europeiska marknaden och erbjuder en medicinsk AI-assistent för vårdpersonal inom ramen för patientbesök.",
+       "href": "/uppdrag/vinge-har-bitratt-eqt-forvaltade-scaleup-europe-fund-i-samband-med-dess-investering-i-tandem-health/",
+       "date_shown_first_page": "2026-09-15",
+       "date_shown_after_fler_resultat": "2026-09-16"
+      },
+      {
+       "title": "Vinge har biträtt SBP Kredit AB (publ) i samband med värdepapperisering med en nordisk bank som senior långivare",
+       "description": "Transaktionen omfattar ett rambelopp om en miljard kronor och skapar förutsättningar för en väsentligt utökad utlåningskapacitet. Avtalet är strukturerat i enlighet med EU:s värdepapperiseringsförordning och innebär att kvalificerade lån löpande kan överlåtas till ett särskilt bolag inom SBP-koncernen.",
+       "href": "/uppdrag/vinge-har-bitratt-sbp-kredit-ab-publ-i-samband-med-vardepapperisering-med-en-nordisk-bank-som-senior-langivare/",
+       "date_shown_first_page": "2026-09-14",
+       "date_shown_after_fler_resultat": "2026-09-14"
+      },
+      {
+       "title": "Naval Group tecknar avtal om fyra försvars- och interventionsfregatter (FDI) till svenska marinen",
+       "description": "Vinge har biträtt Naval Group i samband med förhandlingarna med Försvarets materielverk (FMV) avseende upphandling av fyra försvars- och interventionsfregatter (FDI) till svenska marinen. Avtalet undertecknades den 31 augusti 2026 i Stockholm. Naval Group har valts ut av den svenska regeringen som strategisk partner för att snabbt stärka och modernisera marinens förmåga.",
+       "href": "/uppdrag/naval-group-tecknar-avtal-om-fyra-forsvars-och-interventionsfregatter-fdi-till-svenska-marinen/",
+       "date_shown_first_page": "2026-09-08",
+       "date_shown_after_fler_resultat": "2026-09-09"
+      },
+      {
+       "title": "Vinge har biträtt Nimlas i samband med sex strategiska förvärv som stärker koncernens position på den svenska installationsmarknaden",
+       "description": "Nimlas, med KLAR Partners som huvudägare, är en av Nordens ledande installationskoncerner med närmare 140 bolag och 5 000 medarbetare i Sverige, Finland och Norge.",
+       "href": "/uppdrag/vinge-har-bitratt-nimlas-i-samband-med-sex-strategiska-forvarv-som-starker-koncernens-position-pa-den-svenska-installationsmarknaden/",
+       "date_shown_first_page": "2026-09-02",
+       "date_shown_after_fler_resultat": "2026-09-02"
+      },
+      {
+       "title": "Vinge företräder Altor i budet på Sleep Cycle",
+       "description": "Snark BidCo, ett bolag kontrollerat av Altor Fund V (No. 1) och Altor Fund V (No. 2), lämnade ett offentligt uppköpserbjudande till aktieägarna i Sleep Cycle att överlåta samtliga aktier till Snark BidCo. Aktierna i Sleep Cycle är upptagna till handel på Nasdaq Stockholm. Efter utgången av den förlängda acceptfristen kontrollerar Snark BidCo cirka 79,2 procent av aktiekapitalet och rösterna i Sleep Cycle. Det totala värdet av erbjudandet upgick till cirka 497 miljoner kronor.",
+       "href": "/uppdrag/vinge-foretrader-altor-i-budet-pa-sleep-cycle/",
+       "date_shown_first_page": "2026-08-07",
+       "date_shown_after_fler_resultat": "2026-08-07"
+      },
+      {
+       "title": "Vinge företräder Altor- och Stena-ägda Gunnebo i samband med försäljning av Gunnebo Entrance Control AB till ASSA Abloy",
+       "description": "Vinge har företrätt Gunnebo i samband med försäljningen av Gunnebo Entrance Control AB till ASSA Abloy.",
+       "href": "/uppdrag/vinge-foretrader-altor-och-stena-agda-gunnebo-i-samband-med-forsaljning-av-gunnebo-entrance-control-ab-till-assa-abloy/",
+       "date_shown_first_page": "2026-08-04",
+       "date_shown_after_fler_resultat": "2026-08-24"
+      },
+      {
+       "title": "Vinge företräder GreenChem vid förvärvet av Arom-dekor Kemi ",
+       "description": "Vinge har biträtt GreenChem Holding B.V., en ledande europeisk leverantör av kemiska produkter och lösningar, i samband med bolagets förvärv av Arom-dekor Kemi AB från Vilokan AB.",
+       "href": "/uppdrag/vinge-foretrader-greenchem-vid-forvarvet-av-arom-dekor-kemi/",
+       "date_shown_first_page": "2026-07-01",
+       "date_shown_after_fler_resultat": "2026-09-03"
+      },
+      {
+       "title": "Vinge biträder Ambea i budet på Humana",
+       "description": "Ambea AB (publ) har lämnat ett offentligt uppköpserbjudande till aktieägarna i Humana AB. Erbjudandet värderar samtliga aktier i Humana till cirka 2,96 miljarder kronor. Vederlaget består av en kombination av aktier, kontanter och en CVR (contingent value right). ",
+       "href": "/uppdrag/vinge-bitrader-ambea-i-budet-pa-humana/",
+       "date_shown_first_page": "2026-06-29",
+       "date_shown_after_fler_resultat": "2026-07-01"
+      },
+      {
+       "title": "Vinge företräder Natur & Kultur i samband med förvärvet av Majema",
+       "description": "Natur & Kultur har förvärvat 80 procent av aktierna i läromedelsförlaget Majema. Förvärvet är ett strategiskt och långsiktigt steg i Natur & Kulturs satsning på läromedel.",
+       "href": "/uppdrag/vinge-foretrader-natur-kultur-i-samband-med-forvarvet-av-majema/",
+       "date_shown_first_page": "2026-05-27",
+       "date_shown_after_fler_resultat": "2026-05-27"
+      },
+      {
+       "title": "Vinge företräder Fazer i samband med dess förvärv av Aroma ",
+       "description": "Fazer har ingått avtal avseende förvärv av Konfektyrfabriken Aroma AB, en svensk godistillverkare känd för sina klassiska godisprodukter såsom Geléhallon, Hallonbåtar, Röda Hjärtan och Gräddkola. Förvärvet stärker Fazers position på den svenska godismarknaden, särskilt inom lösviktsgodis, godispåsar och säsongsprodukter. Förvärvet är villkorat av sedvanliga myndighetsgodkännanden.",
+       "href": "/uppdrag/vinge-foretrader-fazer-i-samband-med-dess-forvarv-av-aroma/",
+       "date_shown_first_page": "2026-05-06",
+       "date_shown_after_fler_resultat": "2026-05-06"
+      },
+      {
+       "title": "Vinge har företrätt Anaqua, ett portföljbolag till Nordic Capital, i samband med förvärvet av Patrix",
+       "description": "Vinge har företrätt Anaqua, Inc., ett portföljbolag till Nordic Capital, i samband med förvärvet av Patrix Aktiebolag, en leverantör av programvara och tjänster för hantering av immateriella rättigheter. Förvärvet utgör ett strategiskt tillskott till Anaquas plattform och stärker ytterligare företagets närvaro i Europa.",
+       "href": "/uppdrag/vinge-har-foretratt-anaqua-ett-portfoljbolag-till-nordic-capital-i-samband-med-forvarvet-av-patrix/",
+       "date_shown_first_page": "2026-04-30",
+       "date_shown_after_fler_resultat": "2026-04-30"
+      }
+     ]
+    },
+    "event": {
+     "total": 2,
+     "items": [
+      {
+       "title": "Frukostseminarium | Nya konsumentkreditregler",
+       "description": "Ett nytt regelverk för konsumentkrediter börjar gälla den 20 november 2026. Vi går igenom de nya krav som kommer att ställas på kreditgivare i Sverige, såsom de nya kraven på kreditprövningar, avtalsvillkor och marknadsföring.\n",
+       "href": "/event/frukostseminarium-nya-konsumentkreditregler/",
+       "date_shown_first_page": "2026-09-30",
+       "date_shown_after_fler_resultat": "2026-09-30"
+      },
+      {
+       "title": "AI inom finansiell sektor – var är vi idag och vart är vi på väg?",
+       "description": "AI förändrar redan hur juridiskt arbete utförs i den finansiella sektorn – från avtalsgranskning och regelefterlevnad till rapportering och riskhantering. Samtidigt väcker utvecklingen nya frågor om ansvar, kontroll och hur tekniken kan användas utan att ge avkall på de krav som präglar en reglerad verksamhet.",
+       "href": "/event/ai-inom-finansiell-sektor-var-ar-vi-idag-och-vart-ar-vi-pa-vag/",
+       "date_shown_first_page": "2026-10-06",
+       "date_shown_after_fler_resultat": "2026-10-06"
+      }
+     ]
+    },
+    "insights": {
+     "total": 3,
+     "items": [
+      {
+       "title": "Mercosur-avtalet – nytt frihandelsavtal mellan EU och Sydamerika",
+       "description": "Vad innehåller avtalet och vad blir effekterna för affärsförbindelserna? Hur ska företag som vill etablera sig i Mercosur resonera? Vinges experter ger sin syn.",
+       "href": "/insights/2026/mercosur-avtalet-nytt-frihandelsavtal-mellan-eu-och-sydamerika/",
+       "date_shown_first_page": "2026-01-19",
+       "date_shown_after_fler_resultat": "2026-08-14"
+      },
+      {
+       "title": "Nya handelsavtal – EU ökar takten ",
+       "description": "EU:s handelsstrategi har på kort tid blivit mer aktiv och mer strategiskt inriktad. Med nya och uppdaterade handelsavtal – däribland Mercosur-avtalet som börjar tillämpas provisoriskt den 1 maj – förändras förutsättningarna för handel med flera av världens viktigaste marknader. ",
+       "href": "/insights/2026/nya-handelsavtal-eu-okar-takten/",
+       "date_shown_first_page": "2026-04-28",
+       "date_shown_after_fler_resultat": "2026-04-28"
+      },
+      {
+       "title": "Omvärldsbevakning – viktigare än någonsin när världen förändras snabbt",
+       "description": "De stora och snabbt skiftande geopolitiska förändringar som vi just nu bevittnar innebär stora utmaningar för många svenska företag.",
+       "href": "/insights/2025/omvarldsbevakning-viktigare-an-nagonsin-nar-varlden-forandras-snabbt/",
+       "date_shown_first_page": "2025-03-18",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "query": "varumärken",
+   "hasHits": true,
+   "categories": {
+    "medarbetare": {
+     "total": 2,
+     "items": [
+      {
+       "name": "Håkan Borgenhäll",
+       "roles": "Senior Advisor, Advokat",
+       "href": "/medarbetare/hakan-borgenhall/",
+       "image": "https://www.vinge.se/media/2xmdh0yz/borgenhall_hakan__some.jpg"
+      },
+      {
+       "name": "Michael Spira",
+       "roles": "Senior Associate, Advokat",
+       "href": "/medarbetare/michael-spira/",
+       "image": "https://www.vinge.se/media/2gdpqb4k/mortner_michael__some.jpg"
+      }
+     ]
+    },
+    "nyheter": {
+     "total": 33,
+     "items": [
+      {
+       "title": "Vinge topprankas i IP Stars 2026",
+       "description": "Vinges IP-team rankas på högsta nivå i samtliga områden där Vinge är verksamt i årets upplaga av IP Stars, som publiceras av Managing IP.",
+       "href": "/nyheter/vinge-topprankas-i-ip-stars-2026/",
+       "date_shown_first_page": "2026-06-29",
+       "date_shown_after_fler_resultat": "2026-06-29"
+      },
+      {
+       "title": "Immaterialrätten på Vinge – Ett brett och dynamiskt område",
+       "description": "Vinge har en av de mest framstående IP-avdelningarna i landet. Här arbetar man brett med immaterialrätt, och den omfattar många olika delar. Från tvister om upphovsrätt, varumärken och patent till hantering av varumärkesportföljer och stöd i transaktioner m.m. I en intervju delar Michael Spira, Senior Associate på Göteborgskontoret, med sig av hur vardagen ser ut för en affärsjurist inom immaterialrätt.",
+       "href": "/nyheter/immaterialratten-pa-vinge-ett-brett-och-dynamiskt-omrade/",
+       "date_shown_first_page": "2025-12-16",
+       "date_shown_after_fler_resultat": "2025-12-16"
+      },
+      {
+       "title": "Heja Sverige – OS 2024",
+       "description": "Nu vänds hela världens ögon mot Paris där det 33:e Olympiska sommarspelen går av stapeln. Som officiell affärsjuridisk rådgivare till Sveriges Olympiska Kommitté, SOK, försvarar Vinge de olympiska varumärkena. Givetvis är vi stolta över att kunna värna några av världens mest kända och värdefulla symboler.",
+       "href": "/nyheter/heja-sverige-os-2024/",
+       "date_shown_first_page": "2024-07-26",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Storslam för Vinge vid Managing IP EMEA Awards 2024",
+       "description": "Vinge tog under torsdagskvällen emot hela fyra utmärkelser vid Managing IP EMEA Awards 2024 i London. Det gör Vinge till en av galans stora vinnare, och den mest framgångsrika svenska byrån. ",
+       "href": "/nyheter/storslam-for-vinge-vid-managing-ip-emea-awards-2024/",
+       "date_shown_first_page": "2024-04-11",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Sofia Ljungblad är ny gruppchef i Vinges varumärkesgrupp",
+       "description": "Sofia Ljungblad, counsel, tillträder som ny gruppchef i Vinges varumärkesgrupp. Med 25 års erfarenhet inom IP har Sofia en bakgrund inom prosecution och varumärken från såväl varumärkesbyrå som advokatbyrå.  ",
+       "href": "/nyheter/sofia-ljungblad-ar-ny-gruppchef-i-vinges-varumarkesgrupp/",
+       "date_shown_first_page": "2023-11-01",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Fyrdubbel vinst till Vinge vid Managing IP Awards 2023",
+       "description": "Managing IP Awards utser Vinge till fyrdubbel vinnare vid årets prisutdelning som hölls på en gala i London på onsdagen. Vinge är därmed en av galans mest prisade byråer, och den svenska byrå som tar emot flest utmärkelser.  ",
+       "href": "/nyheter/fyrdubbel-vinst-till-vinge-vid-managing-ip-awards-2023/",
+       "date_shown_first_page": "2023-06-21",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "IPR-intensiv industri i EU presterar bättre än övrig industri",
+       "description": "Den fjärde analysrapporten från den Europeiska immaterialrättsmyndigheten (EUIPO) och Europeiska patentverket (EPO) har nyligen publicerats. Undersökningen är ett viktigt underlag för företagen vid sina beslut om investeringar i immateriella rättigheter såsom patent, varumärken, design och upphovsrätt. Håkan Borgenhäll, specialist på immaterialrätt på Vinge, har sammanställt de viktigaste resultaten av rapporten. ",
+       "href": "/nyheter/ipr-intensiv-industri-i-eu-presterar-battre-an-ovrig-industri/",
+       "date_shown_first_page": "2022-11-18",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "IP-strategi i en värld av innovation och snabb förändring",
+       "description": "I undersökningen IP-Kompassen 2021, beskriver svenska bolag att immateriella rättigheter fortsatt ses som en värdefull tillgång. Hela 74 % av respondenterna angav att immateriella rättigheter är betydelsefulla för företaget (42 % mycket viktigt och 32 % viktigt). Nästan en tredjedel av företagen (27 %) har också blivit utsatta för intrång de senaste fem åren. Av samtliga respondenter tror  38 % att intrången kommer att fortsätta öka de närmaste fem åren.",
+       "href": "/nyheter/ip-strategi-i-en-varld-av-innovation-och-snabb-forandring/",
+       "date_shown_first_page": "2022-11-03",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      }
+     ]
+    },
+    "sidor": {
+     "total": 12,
+     "items": [
+      {
+       "title": "Varumärken",
+       "description": "Varumärken kan utgöra en av de mest värdefulla tillgångarna för företagens kommunikationsarbete och kan många gånger vara avgörande för företagens konkurrenskraft. Varumärkesrätten är väldigt bred och kan innefatta alltifrån strategiska juridiska överväganden vid utvecklingen av ett nytt varumärkeskoncept eller en ny p ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/varumarken/"
+      },
+      {
+       "title": "Immaterialrätt",
+       "description": "Immateriella tillgångar blir alltmer viktiga för företags möjlighet att utveckla och behålla sin konkurrenskraft. Med juridisk rådgivning hjälper vi företag att skydda, förvalta, optimera, och kommersialisera sina viktigaste affärstillgångar. Vi maximerar värdet och säkerställer att du får den bästa formen av skydd för ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/"
+      },
+      {
+       "title": "Marknadsrätt",
+       "description": "Reklam och marknadskommunikation är en viktig framgångsfaktor för många företag. Med kun­skap om gällande marknadsföringsregler kan företaget minska sina legala risker och samtidigt optimera möjligheten att utnyttja tillgängliga marknadsföringskanaler, vilket kan skapa viktiga konkur­rensfördelar. Marknadsrättsliga kun ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/marknadsratt/"
+      },
+      {
+       "title": "Patenträtt",
+       "description": "Patent är för många företag en av de viktigaste tillgångarna som exempelvis inom läkemedelsindustrin vid framtagning av nya innovativa läkemedel eller inom andra industrisektorer för att skydda investeringar i produktutveckling. Patenträtt handlar inte enbart om att söka skydd för patent utan även om att kunna försvara ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/patentratt/"
+      },
+      {
+       "title": "Immaterialrättsliga tvister",
+       "description": "Tvister avseende immateriella rättigheter mellan företag kan uppstå av flera olika skäl. Den allra vanligaste tvisten mellan företag handlar om intrång av en immaterialrätt vilket kan innebära allt från kopiering av en patentskyddad produkt, att någon snyltar på ett företags renommé, ren piratkopiering eller olovlig ko ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/immaterialrattsliga-tvister/"
+      },
+      {
+       "title": "Immaterialrättsliga avtal & transaktioner",
+       "description": "Innovationer och nya affärsmodeller som bygger helt på information, kunskap och immaterialrätter kan vara en utmaning för företag när det kommer till att hantera avtal och följa det immaterialrättsliga regelverket.Våra jurister hjälper dig att skapa värde av dina immateriella tillgångar på ett effektivt sätt och bedöme ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/immaterialrattsliga-avtal-transaktioner/"
+      },
+      {
+       "title": "Design",
+       "description": "En bra design kan utgöra en avgörande faktor för ett företags konkurrenskraft och är därför viktig att skydda. Designrätt är en del av immaterialrätten och kan omfatta allt från juridiska överväganden vid utvecklingen av nya produkter till att försvara sin design vid misstänkta designintrång. Vad innebär designrätt? De ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/design/"
+      },
+      {
+       "title": "Strategier, registrering och bevakning",
+       "description": "Ett företags immateriella tillgångar kan ha stor betydelse vid nya satsningar, men det är även viktigt att långsiktigt förvalta sina befintliga varumärkes- och designrättigheter på ett strategiskt och strukturerat sätt. Detta utgör en central del i att säkerställa ett gott skydd för företagens immateriella tillgångar,  ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/strategier-registrering-och-bevakning/"
+      }
+     ]
+    },
+    "uppdrag": {
+     "total": 63,
+     "items": [
+      {
+       "title": "Vinge har biträtt Consolid Equity i samband med etableringen av Petra Group",
+       "description": "Vinge har företrätt Consolid Equity Investment AB (\"Consolid Equity\") vid förvärvet av Ström & Gulliksson, en av Nordens ledande patentbyråer. Förvärvet utgör en del av etableringen av Petra Group, en europeisk plattform med syftet att konsolidera patentbyråer runtom i Europa för att kombinera expertis och resurser inom primärt patent och varumärken. Consolid fungerar som en strategisk samarbetspartner i den nya gruppen. ",
+       "href": "/uppdrag/vinge-har-bitratt-consolid-equity-i-samband-med-etableringen-av-petra-group/",
+       "date_shown_first_page": "2026-07-08",
+       "date_shown_after_fler_resultat": "2026-07-08"
+      },
+      {
+       "title": "Nordea och SEB ingår kreditavtal om 2 miljarder SEK med Humble Group",
+       "description": "Den 22 april 2026 ingick Nordea och SEB ett kreditavtal om totalt 2 miljarder SEK (med en s.k. accordion-option om ytterligare 400 miljoner SEK) med Humble Group AB.",
+       "href": "/uppdrag/nordea-och-seb-ingar-kreditavtal-om-2-miljarder-sek-med-humble-group/",
+       "date_shown_first_page": "2026-04-27",
+       "date_shown_after_fler_resultat": "2026-05-28"
+      },
+      {
+       "title": "Vinge agerade svensk legal rådgivare till Viking Global Investors i ett förvärv av en betydande kontrollerande andel av aktierna i Voyado i en transaktion som värderar bolaget till cirka 3,5 miljarder kronor",
+       "description": "Voyado är en snabbväxande och ledande plattform för kundupplevelse inom detaljhandeln och har etablerat sig som en av de mest betrodda teknikleverantörerna i Norden. Plattformen är integrerad i många detaljhandelsföretags affärskritiska infrastruktur och hjälper återförsäljare och varumärken att omvandla kund- och produktdata till lojalitet, optimera e-handelsresultat samt skapa en mer personlig köpupplevelse – både i butik och online.",
+       "href": "/uppdrag/vinge-agerade-svensk-legal-radgivare-till-viking-global-investors-i-ett-forvarv-av-en-betydande-kontrollerande-andel-av-aktierna-i-voyado-i-en-transaktion-som-varderar-bolaget-till-cirka-3-5-miljarder-kronor/",
+       "date_shown_first_page": "2025-06-27",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Vinge har företrätt Inflexion i samband med förvärvet av Mecenat ",
+       "description": "Vinge har företrätt Inflexion i samband med förvärvet av Mecenatgruppen från IK. Förvärvet av Mecenat är den första investeringen som görs genom Inflexions nya Enterprise Fund VI, och Inflexions första förvärv i Sverige.",
+       "href": "/uppdrag/vinge-har-foretratt-inflexion-i-samband-med-forvarvet-av-mecenat/",
+       "date_shown_first_page": "2025-01-14",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Vinge biträder enterstore i samband med förvärvet av Miss Mary of Sweden",
+       "description": "Enterstore a.s., ägt av Hartenberg Holding, har ingått avtal med Scope Growth III L.P. om förvärv av Swedish Bra Holding AB, Miss Mary of Sweden. Miss Mary är verksamt med design, tillverkning och försäljning av damunderkläder med ca 90 procent av omsättningen inom e-handel. Enterstore är en e-handelskoncern bestående av portföljbolag med ledande varumärken inom nischbranscher.\n",
+       "href": "/uppdrag/vinge-bitrader-enterstore-i-samband-med-forvarvet-av-miss-mary-of-sweden/",
+       "date_shown_first_page": "2024-12-16",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Vinge rådgivare vid försäljning i Vitamin Well",
+       "description": "Vinge företräder Bridgepoint Development Capital III och Bridgepoint Europe VI (”Bridgepoint”), grundare och övriga ägare i samband med att Cinven, ett internationellt riskkapitalbolag, förvärvar en betydande andel i Vitamin Well Group (”Vitamin Well”) och därmed blir ny huvudinvesterare, samtidigt som Bridgepoint, grundare och övriga ägare kommer att behålla betydande minoritetsandelar efter transaktionen.",
+       "href": "/uppdrag/vinge-radgivare-vid-forsaljning-i-vitamin-well/",
+       "date_shown_first_page": "2024-08-06",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Vinge företräder Axcel i samband med försäljningen av Loopia Group till team.blue ",
+       "description": "Vinge företräder Axcel V i samband med försäljningen av Loopia Group till team.blue, Europas ledande digitala tjänsteleverantör för entreprenörer och små och medelstora företag och som stöds av Hg, en ledande investerare i Europeiska och transatlantiska mjukvaru- och tjänsteföretag. ",
+       "href": "/uppdrag/vinge-foretrader-axcel-i-samband-med-forsaljningen-av-loopia-group-till-team-blue/",
+       "date_shown_first_page": "2024-05-23",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      },
+      {
+       "title": "Vinge företräder Nordic Nest i samband med förvärv av KitchenTime",
+       "description": "Vinge har företrätt Nordic Nest Group AB, ett bolag inom BHG Group, i samband med inkråmsförvärv av KitchenTimes varumärke och varulager till en total köpeskilling om upp till 65 MSEK. Tillträde beräknas ske den 1 april 2024.",
+       "href": "/uppdrag/vinge-foretrader-nordic-nest-i-samband-med-forvarv-av-kitchentime/",
+       "date_shown_first_page": "2024-01-24",
+       "date_shown_after_fler_resultat": "2025-08-25"
+      }
+     ]
+    },
+    "event": {
+     "total": 0,
+     "items": []
+    },
+    "insights": {
+     "total": 0,
+     "items": []
+    }
+   }
+  },
+  {
+   "query": "anna",
+   "hasHits": true,
+   "categories": {
+    "medarbetare": {
+     "total": 49,
+     "items": [
+      {
+       "name": "Anders  Öhlin",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/anders-ohlin/",
+       "image": "https://www.vinge.se/media/yc4ob2q4/ohlin_anders_socialmedia.jpg"
+      },
+      {
+       "name": "Anna Edström",
+       "roles": "Managing Partner Malmö, Delägare, Advokat",
+       "href": "/medarbetare/anna-edstrom/",
+       "image": "https://www.vinge.se/media/ltzlidmo/edstrom_anna_socialmedia.jpg"
+      },
+      {
+       "name": "Anna Jonsson",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/anna-jonsson/",
+       "image": "https://www.vinge.se/media/tyficpjq/jonsson_anna_socialmedia.jpg"
+      },
+      {
+       "name": "Anna Palmérus",
+       "roles": "Managing Partner Göteborg, Delägare, Advokat",
+       "href": "/medarbetare/anna-palmerus/",
+       "image": "https://www.vinge.se/media/bsdl54s2/anna-palmérus-some.jpg"
+      },
+      {
+       "name": "Carl Johan af Petersens",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/carl-johan-af-petersens/",
+       "image": "https://www.vinge.se/media/lfvgntwz/johan-af-carl-some.jpg"
+      },
+      {
+       "name": "Cecilia Möller Norsted",
+       "roles": "Delägare, Advokat, Head of Litigation and Arbitration, Stockholm",
+       "href": "/medarbetare/cecilia-moller-norsted/",
+       "image": "https://www.vinge.se/media/2gqipde3/cecila-möller-norsted-some.jpg"
+      },
+      {
+       "name": "Dain Hård Nevonen",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/dain-hard-nevonen/",
+       "image": "https://www.vinge.se/media/1tylcosj/hard_nevonen_dain__socialmedia.jpg"
+      },
+      {
+       "name": "Emelie Svensäter Jerntorp",
+       "roles": "Delägare, Advokat",
+       "href": "/medarbetare/emelie-svensater-jerntorp/",
+       "image": "https://www.vinge.se/media/ghkatpqw/svensater_emelie_socialmedia-1.jpg"
+      }
+     ]
+    },
+    "nyheter": {
+     "total": 517,
+     "items": [
+      {
+       "title": "\"Jag uppskattade verkligen möjligheten att få vara med, lyssna och ställa frågor\"",
+       "description": "Jacob Fondland Andersson, Associate på Vinges Göteborgskontor, har nyligen tagit plats i The Seat – initiativet där en nyanställd får delta vid ett ledningsgruppsmöte.",
+       "href": "/nyheter/jag-uppskattade-verkligen-mojligheten-att-fa-vara-med-lyssna-och-stalla-fragor/",
+       "date_shown_first_page": "2026-09-25",
+       "date_shown_after_fler_resultat": "2026-09-25"
+      },
+      {
+       "title": "Vinges Göteborgskontor flyttar till nya lokaler",
+       "description": "Idag flyttar Vinge in i nya lokaler i Kvarteret Johanna intill Brunnsparken, mitt i centrala Göteborg. Vinge har sina lokaler på de två översta våningarna på Södra Hamngatan 55.",
+       "href": "/nyheter/vinges-goteborgskontor-flyttar-till-nya-lokaler/",
+       "date_shown_first_page": "2026-09-25",
+       "date_shown_after_fler_resultat": "2026-09-25"
+      },
+      {
+       "title": "Konsumentverkets granskning avslöjar brister i e-handelsvillkor",
+       "description": "En granskning från Konsumentverket visar omfattande brister i e-handelsföretags avtalsvillkor. Av 50 granskade företag hade 46 villkor som bedömdes som oskäliga – bland annat felaktiga prisreservationer och otillåtna friskrivningar.",
+       "href": "/nyheter/konsumentverkets-granskning-avslojar-brister-i-e-handelsvillkor/",
+       "date_shown_first_page": "2026-09-22",
+       "date_shown_after_fler_resultat": "2026-09-29"
+      },
+      {
+       "title": "Möt Vinges upphandlingsexperter på Mötesplats Offentliga Affärer i Göteborg",
+       "description": "Offentliga inköp omsätter årligen över 900 miljarder kronor och spelar en central roll för både samhällsutveckling och näringsliv. När Mötesplats Offentliga Affärer samlar upphandlingssektorn på World of Volvo i Göteborg den 30 september – 1 oktober finns Vinge på plats – både på scen och med monter.",
+       "href": "/nyheter/traffa-vinges-upphandlingsexperter-pa-motesplats-offentliga-affarer-i-goteborg/",
+       "date_shown_first_page": "2026-09-01",
+       "date_shown_after_fler_resultat": "2026-09-07"
+      },
+      {
+       "title": "Vinge bidrar med det svenska kapitlet i Chambers Sanctions 2026",
+       "description": "Anders Leissner, Martin Johansson, Isak Lefvert och Imola Szanto har författat det svenska kapitlet i årets upplaga av Chambers Sanctions 2026: A Chambers Global Practice Guide.",
+       "href": "/nyheter/vinge-bidrar-med-det-svenska-kapitlet-i-chambers-sanctions-2026/",
+       "date_shown_first_page": "2026-08-31",
+       "date_shown_after_fler_resultat": "2026-08-31"
+      },
+      {
+       "title": "Vinge topprankas i IP Stars 2026",
+       "description": "Vinges IP-team rankas på högsta nivå i samtliga områden där Vinge är verksamt i årets upplaga av IP Stars, som publiceras av Managing IP.",
+       "href": "/nyheter/vinge-topprankas-i-ip-stars-2026/",
+       "date_shown_first_page": "2026-06-29",
+       "date_shown_after_fler_resultat": "2026-06-29"
+      },
+      {
+       "title": "Ny skyldighet att erbjuda “ångerfunktion” vid distansköp online",
+       "description": "Den 19 juni 2026 trädde nya regler i distansavtalslagen i kraft. Näringsidkare som ingår distansavtal via exempelvis webbplatser eller appar måste tillhandahålla en särskild ångerfunktion så att konsumenter kan utöva sin ångerrätt direkt i onlinegränssnittet.",
+       "href": "/nyheter/ny-skyldighet-att-erbjuda-angerfunktion-vid-distanskop-online/",
+       "date_shown_first_page": "2026-06-23",
+       "date_shown_after_fler_resultat": "2026-06-23"
+      },
+      {
+       "title": "\"Konceptet fyller en värdefull funktion\"",
+       "description": "Joar Lindén, Senior Associate på Vinges Stockholmskontor, har nyligen tagit plats i The Seat – initiativet där en nyanställd får delta vid ett ledningsgruppsmöte.",
+       "href": "/nyheter/konceptet-fyller-en-vardefull-funktion/",
+       "date_shown_first_page": "2026-06-22",
+       "date_shown_after_fler_resultat": "2026-09-25"
+      }
+     ]
+    },
+    "sidor": {
+     "total": 73,
+     "items": [
+      {
+       "title": "Företagsbeskattning",
+       "description": "Vinges arbetsgrupp inom företagsbeskattning har gedigen och mångårig erfarenhet av kvalificerad skatterådgivning inom en mängd olika områden. Rådgivningen, i såväl svensk som internationell kontext, omfattar i huvudsak följande. Etablering av svenska Private Equity-fonder och Debt-fonder (AB-struktur) Investeringsstruk ...",
+       "href": "/vara-tjanster/verksamhetsomraden/foretagsbeskattning/"
+      },
+      {
+       "title": "Försäkring",
+       "description": "Under det senaste decenniet har Vinge anlitats i flera av de största strukturaffärerna på den svenska försäkringsmarknaden. Våra klienter är svenska och internationella bolag i försäkringsbranschen, men vi är också rådgivare till andra aktörer i olika typer av försäkringsrelaterade frågor. Transaktioner, rörelserätt, a ...",
+       "href": "/vara-tjanster/verksamhetsomraden/forsakring/"
+      },
+      {
+       "title": "GDPR",
+       "description": "Alla bolag och organisationer behandlar på något sätt personuppgifter i sin verksamhet. Det kan t.ex. vara uppgifter om kunder, medlemmar, anställda eller andra kategorier av personer eller att personuppgifter behandlas i samband med att en tjänst tillhandahålls för någon annans räkning. Den 25 maj 2018 började EU:s da ...",
+       "href": "/vara-tjanster/verksamhetsomraden/gdpr/"
+      },
+      {
+       "title": "Immaterialrätt",
+       "description": "Immateriella tillgångar blir alltmer viktiga för företags möjlighet att utveckla och behålla sin konkurrenskraft. Med juridisk rådgivning hjälper vi företag att skydda, förvalta, optimera, och kommersialisera sina viktigaste affärstillgångar. Vi maximerar värdet och säkerställer att du får den bästa formen av skydd för ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/"
+      },
+      {
+       "title": "Företagshemligheter",
+       "description": "Framväxten av det digitala informationssamhället och Internet of things har tillsammans med dagens snabbt skiftande innovationsutveckling inneburit en ökad efterfrågan av intellektuellt kapital, information och know-how. För företag som arbetar proaktivt och strategiskt med att skydda sina företagshemligheter och vet h ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/foretagshemligheter/"
+      },
+      {
+       "title": "Marknadsrätt",
+       "description": "Reklam och marknadskommunikation är en viktig framgångsfaktor för många företag. Med kun­skap om gällande marknadsföringsregler kan företaget minska sina legala risker och samtidigt optimera möjligheten att utnyttja tillgängliga marknadsföringskanaler, vilket kan skapa viktiga konkur­rensfördelar. Marknadsrättsliga kun ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/marknadsratt/"
+      },
+      {
+       "title": "Sport, spel och underhållning",
+       "description": "Den 1 januari 2019 infördes en ny spellag i Sverige. Lagen innebär att företag som vill tillhandahålla spel på den svenska spelmarknaden som huvudregel måste ansöka om – och få – en licens. Spellagen innehåller ett stort antal regler som bestämmer ramen för ett företags möjlighet att anordna spel, såsom lotterier och t ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/sport-spel-och-underhallning/"
+      },
+      {
+       "title": "Patenträtt",
+       "description": "Patent är för många företag en av de viktigaste tillgångarna som exempelvis inom läkemedelsindustrin vid framtagning av nya innovativa läkemedel eller inom andra industrisektorer för att skydda investeringar i produktutveckling. Patenträtt handlar inte enbart om att söka skydd för patent utan även om att kunna försvara ...",
+       "href": "/vara-tjanster/verksamhetsomraden/immaterialratt/patentratt/"
+      }
+     ]
+    },
+    "uppdrag": {
+     "total": 554,
+     "items": [
+      {
+       "title": "Vinge har biträtt Orexo i samband med dess företrädesemission",
+       "description": "Vinge har biträtt Orexo AB (publ) i samband med en delvis garanterad företrädesemission om cirka 250 miljoner kronor före transaktionskostnader, under förutsättning av extra bolagsstämmans godkännande. ",
+       "href": "/uppdrag/vinge-har-bitratt-orexo-i-samband-med-dess-foretradesemission/",
+       "date_shown_first_page": "2026-10-09",
+       "date_shown_after_fler_resultat": "2026-10-09"
+      },
+      {
+       "title": "Vinge har företrätt Folksamgruppen i samband med två investeringar i infrastrukturfonder",
+       "description": "Vinge har företrätt Folksamgruppen i samband med två investeringar om sammanlagt 7,2 miljarder kronor i infrastrukturfonder förvaltade av Copenhagen Infrastructure Partners respektive Arjun Infrastructure Partners.",
+       "href": "/uppdrag/vinge-har-foretratt-folksamgruppen-i-samband-med-tva-investeringar-i-infrastrukturfonder/",
+       "date_shown_first_page": "2026-10-08",
+       "date_shown_after_fler_resultat": "2026-10-08"
+      },
+      {
+       "title": "Vinge har företrätt Main Capital och Pointsharp vid förvärvet av Meaplus AB och Nubibus Software AB",
+       "description": "Vinge har företrätt Main Capital och dess portföljbolag Pointsharp vid Pointsharps förvärv av Meaplus AB och Nubibus Software AB. Pointsharp är en svensk leverantör av lösningar inom identitets- och åtkomsthantering samt säkert informationsutbyte, med verksamhet i Norden, DACH och Benelux. Förvärvet kompletterar Pointsharps befintliga erbjudande med funktionalitet inom säker digital kommunikation och stärker bolagets position på den svenska marknaden inom offentlig sektor, särskilt inom kommun- och vårdsegmenten. Transaktionen är Pointsharps sjätte tilläggsförvärv sedan Main Capital blev investeringspartner i november 2020. ",
+       "href": "/uppdrag/vinge-har-foretratt-main-capital-och-pointsharp-vid-forvarvet-av-meaplus-ab-och-nubibus-software-ab/",
+       "date_shown_first_page": "2026-10-01",
+       "date_shown_after_fler_resultat": "2026-10-01"
+      },
+      {
+       "title": "Vinge har företrätt Main Capital Partners vid förvärvet av Confirma Software",
+       "description": "Confirma Software (\"Confirma\") är en nordisk vertikal mjukvarukoncern som tillhandahåller affärskritisk B2B-programvara till små och medelstora företag i Sverige, Finland, Norge och Danmark. Bolaget är verksamt inom fem kompletterande programvaruområden: ERP, betalningslösningar, finansiella lösningar, kvalitetsledningssystem och affärsprocesslösningar. Confirma grundades 2019 och har huvudkontor i Stockholm. Bolaget har cirka 540 medarbetare och fler än 25 000 kunder, däribland över 500 kommuner, i Norden. Genom att kombinera djup lokal branschkunskap med programvara integrerad i kundernas dagliga verksamhet har Confirma utvecklat långvariga kundrelationer och en hög andel återkommande intäkter.",
+       "href": "/uppdrag/vinge-har-foretratt-main-capital-partners-vid-forvarvet-av-confirma-software/",
+       "date_shown_first_page": "2026-09-25",
+       "date_shown_after_fler_resultat": "2026-09-25"
+      },
+      {
+       "title": "Vinge biträder Sveafastigheter vid emission av obligationer om EUR 350 miljoner",
+       "description": "Vinge har biträtt Sveafastigheter AB (publ) vid dess emission av seniora icke-säkerställda obligationer om EUR 350 miljoner under Sveafastigheters befintliga EMTN-program med ett rambelopp om EUR 2 miljarder.",
+       "href": "/uppdrag/vinge-bitrader-sveafastigheter-vid-emission-av-obligationer-om-eur-350-miljoner/",
+       "date_shown_first_page": "2026-09-23",
+       "date_shown_after_fler_resultat": "2026-09-23"
+      },
+      {
+       "title": "Vinge biträder Qflow vid emissioner av seniora säkerställda obligationer ",
+       "description": "Vinge har biträtt Qflow Group AB (publ) i samband med två efterföljande emissioner av seniora säkerställda obligationer om totalt SEK 600 miljoner under bolagets befintliga obligationsramverk.",
+       "href": "/uppdrag/vinge-bitrader-qflow-vid-emissioner-av-seniora-sakerstallda-obligationer/",
+       "date_shown_first_page": "2026-09-23",
+       "date_shown_after_fler_resultat": "2026-09-23"
+      },
+      {
+       "title": "Vinge har företrätt Svenska Handelsfastigheter i affär med Skandia Fastigheter avseende förvärv av fastigheter i Torslanda och Hässleholm",
+       "description": "Vinge har företrätt Svenska Handelsfastigheter vid en affär med Skandia Fastigheter bestående av förvärv av fastigheten Hässleholm Förrådet 1 och fastigheten Göteborg Amhult 109:2.",
+       "href": "/uppdrag/vinge-har-foretratt-svenska-handelsfastigheter-i-affar-med-skandia-fastigheter-avseende-forvarv-av-fastigheter-i-torslanda-och-hassleholm/",
+       "date_shown_first_page": "2026-09-14",
+       "date_shown_after_fler_resultat": "2026-09-15"
+      },
+      {
+       "title": "Vinge har biträtt Northmill Group AB i samband med dess emission av supplementärkapitalinstrument (T2)",
+       "description": "Vinge har biträtt Northmill Group AB vid dess framgångsrika emission av T2-obligationer om 150 miljoner kronor med en rörlig kupong om 3-månaders STIBOR + 475 punkter.",
+       "href": "/uppdrag/vinge-har-bitratt-northmill-group-ab-i-samband-med-dess-emission-av-supplementarkapitalinstrument-t2/",
+       "date_shown_first_page": "2026-09-11",
+       "date_shown_after_fler_resultat": "2026-09-11"
+      }
+     ]
+    },
+    "event": {
+     "total": 0,
+     "items": []
+    },
+    "insights": {
+     "total": 8,
+     "items": [
+      {
+       "title": "Cybersäkerhetslagen: Vad du behöver veta om den nya lagen",
+       "description": "Den nya cybersäkerhetslagen trädde i kraft den 15 januari 2026. Lagen implementerar det så kallade NIS2-direktivet, som syftar till att uppnå en gemensamt högre nivå av cybersäkerhet inom EU. Allt fler verksamheter faller nu in under cybersäkerhetslagstiftningens tillämpningsområde och omfattas därför bland annat av kraven på anmälningsplikt, incidentrapportering och genomförande av säkerhetsåtgärder.\n\n",
+       "href": "/insights/2025/cybersakerhetslagen-vad-du-behover-veta-om-den-nya-lagen/",
+       "date_shown_first_page": "2025-10-15",
+       "date_shown_after_fler_resultat": "2026-03-16"
+      },
+      {
+       "title": "Effektivare, billigare, smartare – EU:s nya väg till att uppnå miljömålen (Omnibus VIII)",
+       "description": "EU:s nya förenklingspaket Omnibus VIII innebär omfattande ändringar i miljölagstiftningen inom bland annat industriutsläpp, miljöbedömningar och cirkulär ekonomi. Syftet är att minska administrativa bördor och stärka konkurrenskraften utan att sänka klimat- och miljöambitionerna.",
+       "href": "/insights/2026/effektivare-billigare-smartare-eu-s-nya-vag-till-att-uppna-miljomalen-omnibus-viii/",
+       "date_shown_first_page": "2026-02-19",
+       "date_shown_after_fler_resultat": "2026-02-20"
+      },
+      {
+       "title": "SFDR 2.0: Ett nytt kategoriseringssystem för finansiella produkter",
+       "description": "Kommissionens förslag på ändringar i SFDR innebär bland annat att den nuvarande kvasi-klassificeringen med artikel 8- och artikel 9- produkter ersätts av ett formellt kategoriseringssystem. ECONs nyligen publicerade draft report skärper också i vissa delar kommissionens ändringsförslag. Förändringarna aktualiserar strategiska avvägningar för alla aktörer som omfattas av regelverket, och särskilt de aktörer som tillhandahåller finansiella produkter med ESG-egenskaper.",
+       "href": "/insights/2026/sfdr-2-0-ett-nytt-kategoriseringssystem-for-finansiella-produkter/",
+       "date_shown_first_page": "2026-05-12",
+       "date_shown_after_fler_resultat": "2026-05-15"
+      },
+      {
+       "title": "AGILE: EU:s nya finansieringsverktyg på 115 miljoner euro för snabb försvarsinnovation",
+       "description": "EU:s nya finansieringsinstrument AGILE ska korta vägen från försvarsinnovation till operativ användning. Programmet riktar sig särskilt till små och medelstora företag, inklusive start-ups och scale-ups, som utvecklar ny disruptiv teknik inom bland annat AI, kvantteknik, cyberteknik och rymdteknik.",
+       "href": "/insights/2026/agile-eu-s-nya-finansieringsverktyg-pa-115-miljoner-euro-for-snabb-forsvarsinnovation/",
+       "date_shown_first_page": "2026-05-26",
+       "date_shown_after_fler_resultat": "2026-05-26"
+      },
+      {
+       "title": "Förändringar i regelverket för krigsmateriel och exportkontroll",
+       "description": "Sveriges regelverk för krigsmateriel och exportkontroll anpassas nu till ett förändrat säkerhetspolitiskt läge. Genom riksdagens beslut ändras bland annat riktlinjerna för tillståndsprövning, vissa underleverantörer undantas från tillståndskrav och tillståndsinnehavare får utökade rapporteringsskyldigheter. I denna artikel sammanfattar vi de viktigaste förändringarna och vad de innebär för företag inom försvarsindustrin och angränsande leveranskedjor.",
+       "href": "/insights/2026/forandringar-i-regelverket-for-krigsmateriel-och-exportkontroll/",
+       "date_shown_first_page": "2026-06-12",
+       "date_shown_after_fler_resultat": "2026-06-12"
+      },
+      {
+       "title": "Ändringar till AI-förordningen nu formellt antagna ",
+       "description": "Som ett avslutande steg i lagstiftningsprocessen röstade Europeiska unionens råd (Rådet) idag, den 29 juni 2026, igenom det så kallade Digital Omnibus on AI-paketet. Ändringarna ger företag mer tid att anpassa sig till kraven för högrisksystem, lättnader för medelstora företag och tydligare samspel med annan EU-lagstiftning.",
+       "href": "/insights/2026/andringar-till-ai-forordningen-nu-formellt-antagna/",
+       "date_shown_first_page": "2026-06-29",
+       "date_shown_after_fler_resultat": "2026-06-29"
+      },
+      {
+       "title": "Tech Sovereignty Package – Kommissionens förslag för att stärka Europas digitala oberoende och motståndskraft",
+       "description": "Den 3 juni 2026 presenterade Europeiska kommissionen (Kommissionen) slutligen paketet om europeisk teknisk suveränitet, Tech Sovereignty Package, som syftar till att stärka EU:s teknologiska oberoende och minska unionens avhängighet av leverantörer utanför EU av kritisk digital teknik. Paketet har blivit försenat tre gånger och omfattar bland annat halvledare, artificiell intelligens (AI), molninfrastruktur, öppen källkod och digital teknik inom energisektorn.",
+       "href": "/insights/2026/tech-sovereignty-package-kommissionens-forslag-for-att-starka-europas-digitala-oberoende-och-motstandskraft/",
+       "date_shown_first_page": "2026-07-06",
+       "date_shown_after_fler_resultat": "2026-07-08"
+      },
+      {
+       "title": "Cybersäkerhetslagen hösten 2026 – tillsynen hittills och nya krav från 1 oktober",
+       "description": "Cybersäkerhetslagen har nu varit i kraft i drygt åtta månader. Föreskriftsarbetet fortsätter, de första tillsynsärendena har inletts och från den 1 oktober 2026 gäller nya föreskrifter om bland annat säkerhetsåtgärder, ledningens utbildning, säkerhetsrevision och säkerhetsskanning.",
+       "href": "/insights/2026/cybersakerhetslagen-hosten-2026-tillsynen-hittills-och-nya-krav-fran-1-oktober/",
+       "date_shown_first_page": "2026-09-29",
+       "date_shown_after_fler_resultat": "2026-09-29"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "query": "qzxwvk",
+   "hasHits": false,
+   "categories": {
+    "medarbetare": {
+     "total": 0,
+     "items": []
+    },
+    "nyheter": {
+     "total": 0,
+     "items": []
+    },
+    "sidor": {
+     "total": 0,
+     "items": []
+    },
+    "uppdrag": {
+     "total": 0,
+     "items": []
+    },
+    "event": {
+     "total": 0,
+     "items": []
+    },
+    "insights": {
+     "total": 0,
+     "items": []
+    }
+   }
+  }
+ ]
+}

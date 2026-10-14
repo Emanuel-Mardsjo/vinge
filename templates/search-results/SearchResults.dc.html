@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Search results" description="Site search at /sok: the query in the shared search field, results grouped by category with Fler resultat, and a counted category filter kept in the address." -->
+<helmet><link rel="preconnect" href="https://images.weserv.nl" crossorigin><script src="./ds-base.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}a{color:inherit}a:hover{color:inherit}input:focus-visible{outline:2px solid var(--focus-ring);outline-offset:4px}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="Sökresultat" trail="{{ trail }}" search="{{ bannerSearch }}" hint-size="100%,200px"></x-import>
+<section class="grid">
+<div style="grid-column:1 / -1;position:sticky;top:calc(44px + var(--space-3) * 2 + var(--space-1));z-index:20;background:var(--paper);padding-bottom:var(--space-2)">
+<sc-if value="{{ showFilters }}">
+<div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ListingFilters" variant="{{ filterVariant }}" fields="{{ filterFields }}" value="{{ filterValues }}" on-change="{{ onFilter }}" count-line="{{ countLine }}" show-clear="{{ anyFilter }}" on-clear="{{ clearFilters }}" marked="{{ anyFilter }}" open="{{ filtersOpen }}" on-toggle="{{ toggleFilters }}" hint-size="100%,24px"></x-import>
+</div>
+</sc-if>
+</div>
+</section>
+<section class="grid" style="padding-bottom:var(--section-gap)">
+<sc-for list="{{ groups }}" as="g" hint-placeholder-count="2">
+<div data-group="{{ g.key }}" style="grid-column:1 / -1;min-width:0;padding-top:var(--space-4)">
+<h2 class="display-3" style="margin:0 0 var(--space-3)">{{ g.label }}</h2>
+<sc-if value="{{ g.person }}">
+<div data-search-people="">
+<sc-for list="{{ g.people }}" as="p" hint-placeholder-count="4">
+<a href="{{ p.href }}" onMouseEnter="{{ p.enter }}" onMouseLeave="{{ leave }}" onFocus="{{ p.enter }}" onBlur="{{ leave }}" data-person="" style="display:block;min-width:0;color:inherit;text-decoration:none">
+<div style="position:relative;width:100%;aspect-ratio:var(--ratio-portrait);background:var(--surface-tint);overflow:hidden">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" src="{{ p.imageSrc }}" alt="{{ p.name }}" ratio="4:5" grid-size="{{ gridSize }}" dynamics="{{ dynamics }}" play-at="{{ playAt }}" duration="{{ duration }}" resolved="{{ p.resolved }}" hint-size="100%,100%"></x-import>
+</div>
+<p class="small" style="margin:var(--space-2) 0 0;max-width:none">{{ p.name }}</p>
+<p class="small" style="margin:2px 0 0;max-width:none;color:var(--text-secondary)">{{ p.roles }}</p>
+</a>
+</sc-for>
+</div>
+</sc-if>
+<sc-if value="{{ g.list }}">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.NewsList" items="{{ g.rows }}" show-images="{{ false }}" body-lines="{{ bodyLines }}" heading-level="h3" hint-size="100%,480px"></x-import>
+</sc-if>
+<sc-if value="{{ g.more }}">
+<div style="padding-top:var(--space-4)">
+<button type="button" onClick="{{ g.showMore }}" style="border:0;background:transparent;padding:0;cursor:pointer;font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small);color:var(--ink);text-decoration:underline;text-decoration-color:var(--underline-rest);text-underline-offset:0.22em" style-hover="text-decoration-color:var(--ink)">Fler resultat</button>
+</div>
+</sc-if>
+</div>
+</sc-for>
+</section>
+</main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" on-finder-submit="{{ submitFinder }}" hint-size="100%,720px"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:900},&quot;dateFormat&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;News stream&quot;,&quot;ISO&quot;],&quot;default&quot;:&quot;News stream&quot;,&quot;tsType&quot;:&quot;'News stream' | 'ISO'&quot;,&quot;section&quot;:&quot;Rows&quot;},&quot;descriptionLines&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:3,&quot;min&quot;:0,&quot;max&quot;:8,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Rows&quot;},&quot;colourOnHover&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Portraits&quot;}}">
+/* Site search, /sok/?query=…  The page is the query, the count, the filter
+   and the groups, nothing else: no intro, no helper text, no finder block.
+   Every visible string is from sok.json (page labels, rows) or a component's
+   fixed labels; the one derived string is the count line, `{n} träffar`.
+
+   The data and the query logic are the design system's (SiteNav's `Sök`
+   utility item carries them), so this page and the menu's type-ahead answer
+   a query the same way: the four harvested queries render the API's rows and
+   totals; anything else matches every harvested row by substring, and the
+   totals are then what matched. No row is written.
+
+   The field re-queries on its own after the type-ahead's pause (the live
+   500ms) and at once on Enter — FilterSearch's live behaviour, debounced to
+   the same beat as the menu. The categories and the query are the address
+   (`?query=avtal&employees=1`), restored on load. */
+const NS = 'VingeDesignSystem_8582c7';
+const PARAMS = ['employees', 'news', 'insights', 'pages', 'mandates', 'events'];
+const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+
+class Component extends DCLogic {
+  state = { query: '', committed: '', cats: [], shown: {}, filtersOpen: false, wide: false, md: false, menuOpen: false, hover: '', data: null };
+  _more = {};
+  _enter = {};
+
+  componentDidMount() {
+    try { document.title = 'Sök | vinge.se'; } catch (e) {}
+    const url = this.fromUrl();
+    this._lg = window.matchMedia('(min-width: 1280px)');
+    this._md = window.matchMedia('(min-width: 768px)');
+    this._onMq = () => this.setState({ wide: this._lg.matches, md: this._md.matches });
+    this._lg.addEventListener('change', this._onMq);
+    this._md.addEventListener('change', this._onMq);
+    /* An address that arrives filtered opens the drawer, as the listings do. */
+    this.setState({ ...url, query: url.committed, wide: this._lg.matches, md: this._md.matches, filtersOpen: url.cats.length > 0 });
+    this.waitSearch();
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this._qt); clearTimeout(this._w);
+    if (this._lg) this._lg.removeEventListener('change', this._onMq);
+    if (this._md) this._md.removeEventListener('change', this._onMq);
+  }
+
+  ns() { return window[NS] || {}; }
+
+  /* The bundle can land after the first render; wait for SiteNav, then load. */
+  waitSearch() {
+    const ns = this.ns();
+    const u = ns.SiteNav ? ns.SiteNav().utility.find((x) => x.search) : null;
+    if (!u) { this._w = setTimeout(() => this.waitSearch(), 60); return; }
+    this._search = u.search;
+    this._search.load().then((d) => this.setState({ data: d })).catch(() => {});
+  }
+
+  fromUrl() {
+    let p;
+    try { p = new URLSearchParams(window.location.search); } catch (e) { return { committed: '', cats: [] }; }
+    return { committed: (p.get('query') || '').trim(), cats: PARAMS.filter((k) => p.get(k) === '1') };
+  }
+
+  toUrl() {
+    const { committed, cats } = this.state;
+    const p = new URLSearchParams();
+    if (committed) p.set('query', committed);
+    PARAMS.forEach((k) => { if (cats.indexOf(k) > -1) p.set(k, '1'); });
+    const s = p.toString();
+    try { window.history.replaceState(null, '', s ? '?' + s : window.location.pathname); } catch (e) { /* sandboxed preview */ }
+  }
+
+  componentDidUpdate() {
+    const k = this.state.committed + '|' + this.state.cats.join(',');
+    if (this._urlKey !== undefined && k !== this._urlKey) this.toUrl();
+    this._urlKey = k;
+  }
+
+  commit(v) {
+    const c = String(v || '').trim();
+    if (c === this.state.committed) return;
+    this.setState({ committed: c, shown: {} });
+  }
+
+  onQuery = (v) => {
+    this.setState({ query: v });
+    clearTimeout(this._qt);
+    if (!String(v).trim()) { this.commit(''); return; }
+    const d = this.state.data;
+    const delay = d && this._search ? this._search.typeahead(d).delay : 500;
+    this._qt = setTimeout(() => this.commit(v), delay);
+  };
+
+  onQueryKey = (e) => {
+    if (e.key !== 'Enter' || (e.nativeEvent && e.nativeEvent.isComposing)) return;
+    e.preventDefault();
+    clearTimeout(this._qt);
+    this.commit(this.state.query);
+  };
+
+  onFilter = (id, next) => this.setState({ cats: Array.isArray(next) ? next : [] });
+  clearFilters = () => this.setState({ cats: [] });
+  toggleFilters = () => this.setState({ filtersOpen: !this.state.filtersOpen });
+  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+  closeMenu = () => this.setState({ menuOpen: false });
+  leave = () => this.setState({ hover: '' });
+  submitFinder = (prompt) => { const ns = this.ns(); if (ns.OpenConversation) ns.OpenConversation(prompt); };
+
+  pageSize() {
+    const d = this.state.data;
+    return (d && d.page && d.page.page_size_per_category) || 8;
+  }
+
+  moreFor(key) {
+    if (!this._more[key]) {
+      this._more[key] = () => {
+        const shown = { ...this.state.shown };
+        shown[key] = (shown[key] || this.pageSize()) + this.pageSize();
+        this.setState({ shown: shown });
+      };
+    }
+    return this._more[key];
+  }
+
+  enterFor(href) {
+    if (!this._enter[href]) this._enter[href] = () => this.setState({ hover: href });
+    return this._enter[href];
+  }
+
+  /* One date per row, the publication date, in the news stream's form. */
+  date(iso) {
+    if (!iso) return '';
+    if (this.props.dateFormat === 'ISO') return iso;
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+    return m ? Number(m[3]) + ' ' + MONTHS[Number(m[2]) - 1] + ' ' + m[1] : iso;
+  }
+
+  nav() {
+    const ns = window[NS];
+    if (ns && ns.SiteNav) return ns.SiteNav();
+    if (!this._navWait) {
+      this._navWait = setInterval(() => {
+        const n = window[NS];
+        if (n && n.SiteNav) { clearInterval(this._navWait); this._navWait = 0; this.forceUpdate(); }
+      }, 60);
+    }
+    return { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav();
+    const s = this._search;
+    const data = this.state.data;
+    const { committed, cats: sel, shown, wide, md, hover } = this.state;
+    const res = s && data && committed ? s.find(data, committed) : null;
+    const cats = res ? res.categories : [];
+    /* None ticked shows every group; ticking narrows to those. */
+    const visible = sel.length ? cats.filter((c) => sel.indexOf(c.param) > -1) : cats;
+    const n = visible.reduce((acc, c) => acc + c.total, 0);
+    const zero = !!res && res.total === 0;
+    const per = this.pageSize();
+    const colour = this.props.colourOnHover !== false;
+
+    const groups = zero ? [] : visible.filter((c) => c.items.length).map((c) => {
+      const lim = shown[c.key] || per;
+      const rows = c.items.slice(0, lim);
+      return {
+        key: c.key,
+        label: c.label,
+        person: !!c.person,
+        list: !c.person,
+        people: c.person ? rows.map((r) => ({
+          href: r.href, name: r.name, roles: r.roles,
+          imageSrc: s.portrait(r.image),
+          resolved: colour && hover === r.href,
+          enter: this.enterFor(r.href),
+        })) : [],
+        rows: c.person ? [] : rows.map((r) => ({
+          id: r.href, href: r.href, title: r.title, body: r.description,
+          dateLabel: c.dated ? this.date(r.date_shown_first_page) : '',
+        })),
+        /* Goes once every row there is has been shown. In the prototype that
+           is the harvest, which can be fewer than the total. */
+        more: lim < c.items.length,
+        showMore: this.moreFor(c.key),
+      };
+    });
+
+    const suffix = (data && data.page && data.page.count_suffix) || 'träffar';
+    return {
+      query: this.state.query,
+      onQuery: this.onQuery,
+      onQueryKey: this.onQueryKey,
+      /* The query is the banner's title line (PageBanner `search`). */
+      bannerSearch: { value: this.state.query, onChange: this.onQuery, onKeyDown: this.onQueryKey, placeholder: 'Sök', inputProps: this._fieldProps || (this._fieldProps = { enterKeyHint: 'search', autoComplete: 'off', spellCheck: false }) },
+      showFilters: !!res,
+      /* The listings' drawer at every size: the categories fold out under
+         Filtrera. Zero hits: the count line alone. */
+      filterVariant: zero ? 'open' : 'drawer',
+      filterFields: zero ? [] : [{
+        id: 'cats', kind: 'checks', label: '',
+        /* Four tracks with the gutter between them sit on every second
+           column line at LG and on every line at MD; two on SM. */
+        columns: md ? 4 : 2,
+        options: cats.map((c) => ({ value: c.param, label: c.label, note: String(c.total) })),
+      }],
+      filterValues: { cats: sel },
+      onFilter: this.onFilter,
+      countLine: res ? n + ' ' + suffix : '',
+      anyFilter: !zero && sel.length > 0,
+      clearFilters: this.clearFilters,
+      filtersOpen: this.state.filtersOpen,
+      toggleFilters: this.toggleFilters,
+      groups: groups,
+      bodyLines: this.props.descriptionLines ?? 3,
+      leave: this.leave,
+      gridSize: 5,
+      dynamics: 0.45,
+      playAt: 0.6,
+      duration: 1600,
+      submitFinder: this.submitFinder,
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+      trail: (data && data.page && data.page.breadcrumb) ? [{ label: data.page.breadcrumb[0], href: '/' }, data.page.breadcrumb[1]] : [{ label: 'Hem', href: '/' }, 'Sök'],
+    };
+  }
+}
+</script>
+</body>
+</html>

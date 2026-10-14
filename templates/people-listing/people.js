@@ -627,7 +627,20 @@
   {"name":"Simon Nyroos","role":"Biträdande jurist","office":"Malmö","areas":["Skatt"],"sectors":["Transport"],"langs":["Svenska","Engelska"],"slug":"simon-nyroos","portrait":"/media/2ael41sp/simon-nyroos_some.jpg"},
   {"name":"Vera Moritz","role":"Trainee","office":"Göteborg","areas":["Bolagsrätt","Kapitalmarknad"],"sectors":["Teknik"],"langs":["Svenska","Engelska"],"slug":"vera-moritz","portrait":null},
   ];
-  window.VingePeopleAll = rows.map((p) => ({
+
+  /* Every card folds out an e-mail and a number ("Ta kontakt") and links the
+     profile ("Profil"), so every person carries all three. DEMO DATA: the
+     address follows the house pattern (förnamn.efternamn@vinge.se) and the
+     number is the office switchboard; in production both are the person
+     page's own. */
+  const SWITCHBOARD = { 'Stockholm': '010 614 30 00', 'Göteborg': '010 614 10 00', 'Malmö': '010 614 55 00', 'Bruxelles': '+32 2 501 07 00' };
+  const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const withContact = (p) => ({
+    ...p,
+    email: p.email || (p.name ? fold(p.name).replace(/[^a-z0-9]+/g, '.').replace(/(^\.|\.$)/g, '') + '@vinge.se' : undefined),
+    phone: p.phone || SWITCHBOARD[p.office] || SWITCHBOARD.Stockholm,
+  });
+  window.VingePeopleAll = rows.map((p) => withContact({
     ...p,
     href: '/personer/' + p.slug,
     imageSrc: portrait(p.portrait),

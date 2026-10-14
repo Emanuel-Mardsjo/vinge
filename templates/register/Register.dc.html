@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Register A–Ö" description="Verksamhetsområden and Branscher: the canonical page banner, then every row of the index page grouped by first letter, A to Ö. The row is the link; resting on it folds out the page's ingress. The side filter searches labels, page titles and sub-pages, and narrows by letter." -->
+<helmet><script src="./ds-base.js"></script><script src="./register-data.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}</style></helmet>
+<div style="min-height:100vh">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
+<main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="{{ title }}" trail="{{ trail }}" hint-size="100%,260px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="register" views="{{ false }}" listing="{{ true }}" spine="letter" readout="{{ false }}" title="" premise="" all-line="" closing-line="" action-label="" open-label="Läs mer" search-placeholder="{{ searchPlaceholder }}" entries="{{ entries }}" term-filter="{{ true }}" match-line="{{ countLine }}" term-line="{{ countLine }}" flush-top="{{ true }}" hint-size="100%,1400px"></x-import>
+</main>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" hint-size="100%,720px"></x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;page&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;verksamhetsomraden&quot;,&quot;branscher&quot;],&quot;default&quot;:&quot;verksamhetsomraden&quot;,&quot;tsType&quot;:&quot;'verksamhetsomraden' | 'branscher'&quot;},&quot;rowLabel&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;link&quot;,&quot;h1&quot;],&quot;default&quot;:&quot;link&quot;,&quot;tsType&quot;:&quot;'link' | 'h1'&quot;,&quot;section&quot;:&quot;Open for Vinge&quot;}}">
+const norm = (s) => String(s || '').replace(/\u2011/g, '-');
+
+class Component extends DCLogic {
+  state = { menuOpen: false };
+
+  toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
+  closeMenu = () => this.setState({ menuOpen: false });
+
+  componentDidMount() {
+    this._wait = setInterval(() => {
+      const ns = window.VingeDesignSystem_8582c7;
+      if ((ns && ns.SiteNav && window.VingeRegister) || ++this._tries > 150) { clearInterval(this._wait); this._wait = 0; this.forceUpdate(); }
+    }, 60);
+    this._tries = 0;
+  }
+  componentWillUnmount() { if (this._wait) clearInterval(this._wait); }
+  componentDidUpdate() {
+    const p = this.pageData();
+    const t = (p ? p.title : 'Register') + ' | Vinge';
+    if (document.title !== t) document.title = t;
+  }
+
+  which() {
+    let q = '';
+    try { q = new URLSearchParams(location.search).get('p') || ''; } catch (e) {}
+    q = q.replace(/^\/+|\/+$/g, '').replace(/^vara-tjanster\//, '');
+    if (q === 'verksamhetsomraden' || q === 'branscher') return q;
+    return this.props.page === 'branscher' ? 'branscher' : 'verksamhetsomraden';
+  }
+  pageData() {
+    const R = window.VingeRegister;
+    return R ? R.pages.find((p) => p.path === '/vara-tjanster/' + this.which() + '/') : null;
+  }
+
+  /* One entry per row. client = what the row shows; title = the page's own H1,
+     only where it is a different string (non-breaking hyphens aside); preamble =
+     the ingress; also = the children's H1s; search = label, H1, children. */
+  entries(p) {
+    const useH1 = this.props.rowLabel === 'h1';
+    const rows = p.items.map((it, n) => {
+      const label = useH1 ? it.h1 : it.label;
+      const other = useH1 ? it.label : it.h1;
+      const kids = (it.children || []).map((c) => c.h1);
+      const search = [label, other].concat(kids).filter((s, i, a) => s && a.findIndex((x) => norm(x) === norm(s)) === i);
+      return {
+        n, client: label, letter: useH1 ? label.charAt(0).toLocaleUpperCase('sv') : it.letter,
+        title: norm(other) !== norm(label) ? other : '', preamble: it.ingress || '', also: kids, search, href: it.href,
+      };
+    });
+    /* A to Z, then Å, Ä, Ö. Within a letter the data's order, which is Swedish
+       collation of the link text; by H1 the rows are collated afresh. */
+    const letters = [...new Set(rows.map((r) => r.letter))].sort((a, b) => a.localeCompare(b, 'sv'));
+    rows.sort((a, b) => letters.indexOf(a.letter) - letters.indexOf(b.letter) || (useH1 ? a.client.localeCompare(b.client, 'sv') : a.n - b.n));
+    return rows;
+  }
+
+  nav() {
+    const ns = window.VingeDesignSystem_8582c7;
+    return ns && ns.SiteNav ? ns.SiteNav() : { items: [], utility: [], highlights: [] };
+  }
+
+  renderVals() {
+    const nav = this.nav(), p = this.pageData();
+    const t = p ? p.trail : [];
+    const hrefs = ['/', '/vara-tjanster/'];
+    const entries = p ? this.entries(p) : [];
+    return {
+      title: p ? p.title : '',
+      trail: t.map((l, i) => (i < t.length - 1 ? { label: l, href: hrefs[i] } : l)),
+      entries,
+      /* What the search reads, in the case listing's pattern: the row, then its sub-pages. */
+      searchPlaceholder: this.which() === 'branscher' ? 'Bransch, delområde' : 'Verksamhetsområde, delområde',
+      countLine: '{n} av {total} ' + (p ? p.title.toLocaleLowerCase('sv') : ''),
+      recordKey: this.which() + '-' + (this.props.rowLabel || 'link'),
+      menuOpen: this.state.menuOpen,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      navItems: nav.items,
+      navUtility: nav.utility,
+      navHighlights: nav.highlights,
+    };
+  }
+}
+</script>
+</body>
+</html>

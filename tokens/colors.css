@@ -12,13 +12,14 @@
 
 :root {
   /* 1. Roots ------------------------------------------------------------ */
-  --paper: #F3F0EE;   /* page ground — warm white, a touch toward red, following clay */
-  --wash:  #EEEAE8;   /* second ground, one step below paper, same warm hue */
-  --lichen: #E4E3DD;  /* a second wash: greyed light olive, the ink's hue drained almost to grey — one chapter per page, for a touch of life */
-  --clay:  #DCD6D2;   /* third ground, a step below the wash, a touch warmer toward red — tint on the wash, light text on ink */
-  --stone: #CFCFD1;   /* cool grey, a step darker than the old stone — reserved, not used by any component */
+  --paper: #ECE9E7;   /* page ground — warm white, a touch toward red, following clay */
+  --wash:  #E7E3E1;   /* second ground, one step below paper, same warm hue */
+  --lichen: #DDDCD6;  /* a second wash: greyed light olive, the ink's hue drained almost to grey — one chapter per page, for a touch of life */
+  --clay:  #D5CFCB;   /* third ground, a step below the wash, a touch warmer toward red — tint on the wash, light text on ink */
+  --stone: #C8C8CA;   /* cool grey, a step darker than the old stone — reserved, not used by any component */
   --ink:   #002900;   /* all primary text, deep green — 14.3:1 on paper */
   --lift:  0.055;     /* @kind other */ /* how much lighter ink is on the wash (OKLCH lightness) */
+  --ground-step: 0.045; /* @kind other */ /* how much darker a page ground is than the same ground on a section (OKLCH lightness). A section sits beside paper and reads by its edge; a whole page turning has no edge to compare against, so it needs a step down to be seen */
 
   /* 2. Ramps ------------------------------------------------------------ */
   /* Ink on paper. */
@@ -43,7 +44,7 @@
   /* Photographs. The noir plate's black point: a warm neutral taken down to a
      near-black, so photographs sit in the warm neutral rather than in ink.
      Highlights stay on paper. */
-  --noir-shadow: oklch(0.17 0.008 85); /* ~#141310 — warm near-black, a touch toward yellow. Deep, so the plate reads noir without the green carrying it */
+  --noir-shadow: oklch(0.155 0.008 85); /* ~#141310 — warm near-black, a touch toward yellow. Deep, so the plate reads noir without the green carrying it */
 
   /* 3. Semantics (paper scope — the default) ----------------------------- */
   --surface: var(--paper);
@@ -90,9 +91,21 @@
 /* The page's own two grounds, fixed at the root so a surface mounted inside a
    scope (a washed or inverted section) can still reach the real paper and
    wash. Resolved here and inherited as values, so scopes cannot re-point them. */
-html { --ground-paper: var(--paper); --ground-wash: var(--wash); }
+html { --ground-paper: var(--paper); --ground-wash: var(--wash); --ground-lichen: var(--lichen); }
 
-[data-washed] {
+/* Page ground (PageGround.jsx): while a block marked data-page-ground holds
+   the middle of the screen, <body> carries the same value and the whole page
+   resolves to that scope. The roles turn on <body>; the ground itself is a
+   fixed layer behind the page, because <body> is not always as tall as the
+   document (the content page's is one screen) and its own background would
+   stop there. */
+body { transition: background-color var(--dur-medium) var(--ease-quart); }
+body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background-color: var(--surface, var(--paper)); opacity: 0; transition: opacity var(--dur-medium) var(--ease-quart), background-color var(--dur-medium) var(--ease-quart); }
+body[data-page-ground]::before { opacity: 1; }
+
+[data-washed],
+body[data-page-ground="wash"],
+body[data-page-ground="lichen"] {
   --surface: var(--wash);
   --paper: var(--wash);
   --surface-tint: var(--clay);
@@ -110,7 +123,8 @@ html { --ground-paper: var(--paper); --ground-wash: var(--wash); }
 
 /* Lichen — the washed scope on the green wash. The tints are re-mixed here
    because the root ones are computed against --wash. */
-[data-washed][data-ground="lichen"] {
+[data-washed][data-ground="lichen"],
+body[data-page-ground="lichen"] {
   --wash: var(--lichen);
   --surface: var(--lichen);
   --paper: var(--lichen);
@@ -123,10 +137,37 @@ html { --ground-paper: var(--paper); --ground-wash: var(--wash); }
   background: var(--lichen);
 }
 
+/* Page grounds, one step down. When the whole page turns (PageGround), wash
+   and lichen take --ground-step below their section value, and the roles are
+   re-mixed against the stepped ground. Mixed from the root-resolved grounds
+   so the step never compounds. Ink is dark enough already. */
+body[data-page-ground="wash"] { --page-ground: oklch(from var(--ground-wash) calc(l - var(--ground-step)) c h); }
+body[data-page-ground="lichen"] { --page-ground: oklch(from var(--ground-lichen) calc(l - var(--ground-step)) c h); }
+body[data-page-ground="wash"],
+body[data-page-ground="lichen"] {
+  --wash: var(--page-ground);
+  --surface: var(--page-ground);
+  --paper: var(--page-ground);
+  --surface-tint: oklch(from var(--page-ground) calc(l - 0.035) c h);
+  --text-secondary: color-mix(in srgb, var(--ink-lift) 70%, var(--page-ground));
+  --underline-rest: color-mix(in srgb, var(--ink-lift) 70%, var(--page-ground));
+  --underline-rest-secondary: color-mix(in srgb, var(--ink-lift) 70%, var(--page-ground));
+  --rule-hairline: color-mix(in srgb, var(--ink-lift) 12%, var(--page-ground));
+  --rule-footer: color-mix(in srgb, var(--ink-lift) 12%, var(--page-ground));
+  background: var(--page-ground);
+}
+
 /* Inverted scope — ink ground. One section per page at most. --paper and
    --paper-70 are re-pointed so a child that reaches for them directly
    inverts without knowing where it sits. */
-[data-inverted] {
+/* The masthead's light ink, captured where the masthead resolves it (the body,
+   after any page ground), so a control that joins the header line from inside
+   an inverted surface — the menu's search — matches the triggers beside it
+   rather than the surface's clay. */
+body { --paper-header: var(--paper); }
+
+[data-inverted],
+body[data-page-ground="ink"] {
   --surface: var(--ink);
   --paper: var(--clay);
   --paper-70: var(--clay-70);

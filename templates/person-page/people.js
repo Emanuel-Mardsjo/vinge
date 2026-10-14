@@ -11,6 +11,19 @@
     'https://images.weserv.nl/?url=www.vinge.se' + path + '&w=640&h=800&fit=cover';
   const profile = (slug) => 'https://www.vinge.se/en/our-people/' + slug + '/';
 
+
+  /* Every card folds out an e-mail and a number ("Ta kontakt") and links the
+     profile ("Profil"), so every person carries all three. DEMO DATA: the
+     address follows the house pattern (förnamn.efternamn@vinge.se) and the
+     number is the office switchboard; in production both are the person
+     page's own. */
+  const SWITCHBOARD = { 'Stockholm': '010 614 30 00', 'Göteborg': '010 614 10 00', 'Malmö': '010 614 55 00', 'Bruxelles': '+32 2 501 07 00' };
+  const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const withContact = (p) => ({
+    ...p,
+    email: p.email || (p.name ? fold(p.name).replace(/[^a-z0-9]+/g, '.').replace(/(^\.|\.$)/g, '') + '@vinge.se' : undefined),
+    phone: p.phone || SWITCHBOARD[p.office] || SWITCHBOARD.Stockholm,
+  });
   window.VingePeople = [
     { name: 'Johan Winnerblad', role: 'Partner', areas: ['M&A', 'Publik M&A'], sectors: ['Industri'], href: profile('johan-winnerblad'), imageSrc: portrait('/media/bsbdhch0/winnerblad_johan_highres.jpg') },
     { name: 'Amanda Knutsson', role: 'Partner', areas: ['Publik M&A', 'Kapitalmarknad'], sectors: [], href: profile('amanda-knutsson'), imageSrc: portrait('/media/alcp5wjf/knutsson_amanda_highres.jpg') },
@@ -20,6 +33,6 @@
     { name: 'Marcus Glader', role: 'Partner', areas: ['Konkurrensrätt'], sectors: ['Energi'], href: profile('marcus-glader'), imageSrc: portrait('/media/lgiddap0/glader_marcus_socialmedia.jpg') },
     { name: 'Nils Unckel', role: 'Partner', areas: ['Kapitalmarknad', 'Bolagsrätt'], sectors: ['Bank och finans'], href: profile('nils-unckel'), imageSrc: portrait('/media/jwufudt0/unckel_nils_socialmedia.jpg') },
     { name: 'Emma Stuart-Beck', role: 'Partner', areas: ['Bolagsrätt', 'Publik M&A'], sectors: [], href: profile('emma-stuart-beck'), imageSrc: portrait('/media/q25dyf1q/stuart-beck_emma_socialmedia.jpg') },
-  ];
+  ].map(withContact);
 
 })();

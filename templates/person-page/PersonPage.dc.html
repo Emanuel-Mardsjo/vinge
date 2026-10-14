@@ -8,7 +8,7 @@
 <body>
 <x-dc>
 <!-- @template name="Person page" description="The lawyer profile: portrait, a derived line instead of a bio, and the full mandate record as a divided list that folds out its preamble on hover." -->
-<helmet><script src="./ds-base.js"></script><script src="./mandates.js"></script><script src="./people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{transition:--hero-t 420ms var(--ease-quart)}body{margin:0;background:color-mix(in oklab,var(--ink),var(--paper) calc(var(--hero-t,0) * 100%));color:var(--ink);transition:background-color 420ms var(--ease-quart)}body[data-green-ground]{background:var(--wash)}[data-tone] section{transition:background-color 420ms var(--ease-quart)}body[data-green-ground] [data-tone]{--surface:var(--wash) !important;--paper:var(--wash) !important;--paper-70:var(--ink-wash-65) !important;--text-primary:var(--ink-wash) !important;--text-secondary:var(--ink-wash-65) !important;--underline-rest:var(--ink-wash-65) !important;--underline-active:var(--ink-wash) !important;--focus-ring:var(--ink-wash) !important;--rule-hairline:color-mix(in oklab,var(--ink-wash) 20%,var(--wash)) !important;color:var(--ink-wash) !important}@media (max-width:767px){[data-sm-hide]{display:none !important}[data-sm-only]{display:flex !important}div[data-sm-only][style*="grid-column"]{display:block !important}div[data-sm-only][style*="grid-column"] a{font-size:var(--text-lead) !important;line-height:1.2 !important;overflow-wrap:anywhere}[data-person-actions-overlay]{padding-top:calc(var(--name-end,160px) + var(--space-5)) !important}[data-person-actions] ul{justify-content:flex-start !important;column-gap:var(--space-2) !important}[data-person-actions-overlay]{display:none !important}[data-person-actions-inline] ul{flex-direction:column !important;align-items:stretch !important;row-gap:0 !important;font-size:var(--text-base) !important;line-height:var(--lh-base) !important}[data-person-actions-inline] li a{width:100%;gap:var(--space-2) !important;padding-block:var(--space-3) !important}[data-person-actions]{top:-200vh !important;transition:opacity var(--dur-micro) var(--ease-quart),transform var(--dur-micro) var(--ease-quart)}body[data-actions-up] [data-person-actions]{top:calc(44px + var(--space-2)) !important;animation:personActionsIn var(--dur-medium) var(--ease-expo) both}body[data-actions-away] [data-person-actions]{opacity:0;transform:translateY(-16px)}}@keyframes personActionsIn{from{opacity:0;transform:translateY(-16px);clip-path:inset(0 0 100% 0)}to{opacity:1;transform:none;clip-path:inset(0 0 -8px 0)}}</style></helmet>
+<helmet><script src="./ds-base.js"></script><script src="./mandates.js"></script><script src="./people.js"></script><style>@property --hero-t{syntax:"<number>";inherits:true;initial-value:0}html{transition:--hero-t 420ms var(--ease-quart)}body{margin:0;background:color-mix(in oklab,var(--ink),var(--paper) calc(var(--hero-t,0) * 100%));color:var(--ink);transition:background-color 420ms var(--ease-quart)}body[data-page-ground="wash"]{background:var(--wash)}[data-tone] section{transition:background-color 420ms var(--ease-quart)}body[data-page-ground="wash"] [data-tone]{--surface:var(--wash) !important;--paper:var(--wash) !important;--paper-70:var(--ink-wash-65) !important;--text-primary:var(--ink-wash) !important;--text-secondary:var(--ink-wash-65) !important;--underline-rest:var(--ink-wash-65) !important;--underline-active:var(--ink-wash) !important;--focus-ring:var(--ink-wash) !important;--rule-hairline:color-mix(in oklab,var(--ink-wash) 20%,var(--wash)) !important;color:var(--ink-wash) !important}@media (max-width:767px){[data-sm-hide]{display:none !important}[data-sm-only]{display:flex !important}div[data-sm-only][style*="grid-column"]{display:block !important}div[data-sm-only][style*="grid-column"] a{font-size:var(--text-lead) !important;line-height:1.2 !important;overflow-wrap:anywhere}[data-person-actions-overlay]{padding-top:calc(var(--name-end,160px) + var(--space-5)) !important}[data-person-actions] ul{justify-content:flex-start !important;column-gap:var(--space-2) !important}[data-person-actions-overlay]{display:none !important}[data-person-actions-inline] ul{flex-direction:column !important;align-items:stretch !important;row-gap:0 !important;font-size:var(--text-base) !important;line-height:var(--lh-base) !important}[data-person-actions-inline] li a{width:100%;gap:var(--space-2) !important;padding-block:var(--space-3) !important}[data-person-actions]{top:-200vh !important;transition:opacity var(--dur-micro) var(--ease-quart),transform var(--dur-micro) var(--ease-quart)}body[data-actions-up] [data-person-actions]{top:calc(44px + var(--space-2)) !important;animation:personActionsIn var(--dur-medium) var(--ease-expo) both}body[data-actions-away] [data-person-actions]{opacity:0;transform:translateY(-16px)}}@keyframes personActionsIn{from{opacity:0;transform:translateY(-16px);clip-path:inset(0 0 100% 0)}to{opacity:1;transform:none;clip-path:inset(0 0 -8px 0)}}</style></helmet>
 <div style="min-height:100vh">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" on-chat="{{ openChat }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
@@ -108,22 +108,9 @@ Innan hon kom till Vinge tjänstgjorde hon som tingsnotarie vid Stockholms tings
 </sc-if>
 </div>
 </section>
-<section class="grid" style="padding-top:var(--section-gap)">
-<div class="place-label">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.SectionLabel" hint-size="100%,24px">Erkännanden</x-import>
+<div style="padding-top:var(--section-gap)">
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Awards" label="Erkännanden" items="{{ awards }}" frame="{{ awardFrame }}" hint-size="100%,420px"></x-import>
 </div>
-<div class="place-body-wide" style="display:flex;flex-direction:column;gap:var(--space-5)">
-<sc-for list="{{ awards }}" as="a" hint-placeholder-count="2">
-<div data-award="" data-open="{{ a.open }}" data-centered="{{ a.centered }}" tabIndex="0" onFocus="{{ a.enter }}" onBlur="{{ leaveAward }}" style="outline-offset:8px">
-<div data-award-mark="" data-frame="{{ awardFrame }}">
-<span data-award-frame="" aria-hidden="true"><x-import component-from-global-scope="VingeDesignSystem_8582c7.ImageReveal" key="{{ a.frameKey }}" dc-props="{{ a.revealOut }}" hint-size="100%,100%"></x-import></span>
-<p data-award-year="" class="small" style="margin:0;max-width:none">{{ a.year }}</p>
-<p class="display-3" style="margin:0;max-width:28ch;text-align:center;text-wrap:balance">{{ a.text }}</p>
-</div>
-</div>
-</sc-for>
-</div>
-</section>
 <section class="grid" style="padding-top:var(--section-gap)">
 <div class="place-label">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.SectionLabel" hint-size="100%,24px">Bakgrund</x-import>
@@ -145,7 +132,8 @@ Innan hon kom till Vinge tjänstgjorde hon som tingsnotarie vid Stockholms tings
 </sc-for>
 </div>
 </section>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Testimonials" id="omdomen" items="{{ testimonials }}" hint-size="100%,520px"></x-import>
+<div data-page-ground="wash"><x-import component-from-global-scope="VingeDesignSystem_8582c7.Testimonials" id="omdomen" items="{{ testimonials }}" hint-size="100%,520px"></x-import></div>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.PageGround" hint-size="0,0"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.PeopleCarousel" label="" title="Experter som liknar Amanda" people="{{ similarPeople }}" views="{{ false }}" all-line="" cta-label="Ta kontakt" view-all-href="/personer" view-all-label="Visa alla" view-all-title="Hela bänken, sökbar på område och ort." hint-size="100%,860px"></x-import>
 </main>
 </div>
@@ -197,7 +185,7 @@ const FOLLOW_UPS = [
 ];
 
 class Component extends DCLogic {
-  state = { open: -1, award: -1, centerAward: -1, mq: '', mArea: '', mSector: '', mYear: '', menuOpen: false, chatOpen: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] };
+  state = { open: -1, mq: '', mArea: '', mSector: '', mYear: '', menuOpen: false, chatOpen: false, turns: [], step: -1, draft: '', working: false, done: false, extra: 0, criteria: [] };
 
   /* What the standing panel states: the criteria the visitor has handed over,
      in the order they were given. A picked answer carries a register tag its
@@ -328,37 +316,13 @@ class Component extends DCLogic {
     /* Measured against the screen, not the header line: the page turns while
        the hero is still on its way out, about half a screen early. */
     const h = window.innerHeight;
-    /* The award line nearest the middle of the screen is framed and dated. */
-    let best = -1, bestD = h * 0.3;
-    document.querySelectorAll('[data-award]').forEach((n, i) => {
-      const r = n.getBoundingClientRect();
-      const dist = Math.abs(r.top + r.height / 2 - h / 2);
-      if (dist < bestD) { bestD = dist; best = i; }
-    });
-    if (best !== this.state.centerAward) this.setState({ centerAward: best });
-    /* The frame artwork is drawn at each mark's own size. */
-    const boxes = Array.from(document.querySelectorAll('[data-award-mark]')).map((n) => n.offsetWidth + 'x' + n.offsetHeight);
-    const boxKey = boxes.join(',');
-    if (boxKey !== this._boxKey) { this._boxKey = boxKey; this.setState({ awardBoxes: boxes }); }
-    this.syncAwards(h);
     /* Three grounds on one page. The profile opens on ink and settles on
        paper, both carried by --hero-t; the testimonials are read on the light
        green, which is a ground of its own rather than a point between those
-       two, so it is a state on the body that the stylesheet resolves. The
-       hysteresis is the same as the hero's, applied to the block's own middle
-       band, so a scroll that stops on the line does not flicker. */
-    const q = document.getElementById('omdomen');
-    if (q) {
-      const r = q.getBoundingClientRect();
-      const green = this._green
-        ? r.top < h * 0.86 && r.bottom > h * 0.14
-        : r.top < h * 0.62 && r.bottom > h * 0.38;
-      if (green !== this._green) {
-        this._green = green;
-        if (green) document.body.setAttribute('data-green-ground', '');
-        else document.body.removeAttribute('data-green-ground');
-      }
-    }
+       two. That one is the shared PageGround watcher's: Omdömen is marked
+       data-page-ground="wash" and the body carries it while the block holds
+       the middle of the screen. Read here so the hero's number holds light. */
+    this._green = document.body.getAttribute('data-page-ground') === 'wash';
     /* On the green the hero's own number is held light: the ground is the
        attribute's business, and a dark mix underneath it would show through
        as the block arrived. */
@@ -381,84 +345,6 @@ class Component extends DCLogic {
     else document.body.removeAttribute('data-dark-ground');
     window.requestAnimationFrame(() => window.dispatchEvent(new Event('scroll')));
   };
-
-  /* The frame round each award line. Exactly one line is framed while the
-     section is on screen: the one nearest the middle of the screen, with a
-     little hysteresis so a line sitting at the midpoint does not flutter.
-     When that changes, the handover is timed, not scrolled:
-     out   the line that lost the frame wipes it off along the reveal's
-           diagonal toward the bottom right over --dur-medium, the print
-           running on a little past its peak, and its year fades.
-     in    the line that gained it prints in over --dur-slow, eased expo,
-           starting at once, so it prints in while the other is still leaving.
-           While it stands, the print is scrubbed by the line's position across
-           its reach (SPAN): one forward sweep of the waves per pass, moving
-           whenever the page moves and holding when it stops.
-     PEAK is LogoHero's REVEAL_P, where the waves stand as diagonal bands; the
-     plate starts at 0.62, so the frame never closes into a solid rule. */
-  syncAwards(vh) {
-    /* The reveal's waves run with its own progress (phase p × 9 and p × 5,
-       p = t / 0.62) and settle out past p ≈ 0.6, so the shimmer lives in
-       t ≈ 0.14–0.40. The sweep spans all of it: the diagonals travel more
-       than half a band per pass, and the frame never closes. */
-    const LOW = 0.14, HIGH = 0.40, PEAK = HIGH, RUN = 0.04, HYST = 24;
-    const now = performance.now();
-    const root = getComputedStyle(document.documentElement);
-    const durOut = this._durMedium || (this._durMedium = parseFloat(root.getPropertyValue('--dur-medium')) || 800);
-    const durIn = this._durSlow || (this._durSlow = parseFloat(root.getPropertyValue('--dur-slow')) || 1200);
-    const expo = (k) => k >= 1 ? 1 : 1 - Math.pow(2, -10 * k);
-    const marks = Array.from(document.querySelectorAll('[data-award-mark]'));
-    const offs = marks.map((n) => { const r = n.getBoundingClientRect(); return r.top + r.height / 2 - vh / 2; });
-    const dist = offs.map(Math.abs);
-    const reach = vh * 0.5;
-    let best = -1;
-    dist.forEach((d, i) => { if (d < reach && (best < 0 || d < dist[best])) best = i; });
-    const cur = this._awActive == null ? -1 : this._awActive;
-    if (best >= 0 && cur >= 0 && best !== cur && dist[cur] < reach && dist[best] > dist[cur] - HYST) best = cur;
-    const st = this._awardSt || (this._awardSt = []);
-    marks.forEach((n, i) => { if (!st[i]) st[i] = { phase: 'idle', t0: 0 }; });
-    if (best !== cur) {
-      const handing = cur >= 0 && st[cur] && st[cur].phase === 'in';
-      if (handing) { st[cur].phase = 'out'; st[cur].t0 = now; marks[cur] && marks[cur].setAttribute('data-gone', ''); }
-      if (best >= 0) { st[best].phase = 'in'; st[best].t0 = now; marks[best].removeAttribute('data-gone'); }
-      this._awActive = best;
-    }
-    let ticking = false;
-    const prog = marks.map((n, i) => {
-      const s = st[i];
-      if (s.phase === 'in') {
-        const k = expo(Math.max(0, Math.min(1, (now - s.t0) / durIn)));
-        if (k < 1) ticking = true;
-        n.style.setProperty('--award-t', k);
-        /* One sweep per pass, no loop: the print runs forward as the line
-           travels up through its reach and back only if the reader reverses. */
-        /* The sweep spans the line's whole time holding the frame: from where
-           it takes over (half way to the line above it, or the edge of reach)
-           to where it hands on (half way to the line below it). */
-        const enter = i > 0 ? Math.min(reach, (offs[i] - offs[i - 1]) / 2) : reach;
-        const leave = i < offs.length - 1 ? Math.min(reach, (offs[i + 1] - offs[i]) / 2) : reach;
-        const u = Math.max(0, Math.min(1, (enter - offs[i]) / (enter + leave)));
-        return k * PEAK;
-      }
-      if (s.phase === 'out') {
-        const k = Math.min(1, (now - s.t0) / durOut);
-        if (k >= 1) { s.phase = 'idle'; return 0; }
-        ticking = true;
-        return PEAK + RUN * expo(k);
-      }
-      n.style.setProperty('--award-t', 0);
-      return 0;
-    });
-    if (ticking && !this._frame) this._frame = window.requestAnimationFrame(this.sync);
-    /* The shimmer: the reveal's own diagonal waves, advanced by scroll
-       position (one band per ~60px), while the print holds at PEAK with the
-       front fully across the frame. Forward on the way down, back on the way
-       up, still when the page is still. */
-    const shimmer = Math.round(window.scrollY / 60 * 20) / 20;
-    const scrub = prog.map((p) => Math.round(p * 100) / 100);
-    const key = scrub.join(',') + '|' + (prog.some((p) => p > 0) ? shimmer : '');
-    if (key !== this._scrubKey) { this._scrubKey = key; this.setState({ awardScrubOut: scrub, awardShimmer: shimmer }); }
-  }
 
   onScroll = () => { this.direction(); if (!this._frame) this._frame = window.requestAnimationFrame(this.sync); };
 
@@ -667,10 +553,6 @@ class Component extends DCLogic {
     this.advance(1400);
   };
 
-  enterAward = (i) => () => this.setState({ award: i });
-
-  leaveAward = () => this.setState({ award: -1 });
-
   /* The site navigation comes from the design system (SiteNav), not from this
      page, so every template shows the same menu. The bundle may not have
      landed on the first render — the empty lists below are a one-frame
@@ -685,31 +567,6 @@ class Component extends DCLogic {
       }, 60);
     }
     return { items: [], utility: [], highlights: [] };
-  }
-
-  /* The frame round the active award, drawn as artwork for the dot screen to
-     be a halftone of: ink on white at the mark's own size, multiplied onto the
-     ground so the white drops out. It is printed by the house reveal scrubbed
-     from scroll, the landing hero's mark in reverse, and stops short of the
-     plate, so it is always a screen and never a solid rule. The stroke is
-     heavy enough to carry a halftone; a hairline would print as noise. */
-  frameSrc(kind, box, turned) {
-    if (!box) return undefined;
-    const [w, h] = box.split('x').map(Number);
-    if (!w || !h) return undefined;
-    const B = 12, ink = '#002900', o = B / 2;
-    let art;
-    if (kind === 'double') {
-      const i = B + 7;
-      art = '<rect x="' + o + '" y="' + o + '" width="' + (w - B) + '" height="' + (h - B) + '" fill="none" stroke="' + ink + '" stroke-width="' + B + '"/>'
-        + '<rect x="' + i + '" y="' + i + '" width="' + (w - 2 * i) + '" height="' + (h - 2 * i) + '" fill="none" stroke="' + ink + '" stroke-width="2"/>';
-    } else if (kind === 'cartouche') {
-      art = '<rect x="' + o + '" y="' + o + '" width="' + (w - B) + '" height="' + (h - B) + '" rx="' + ((h - B) / 2) + '" fill="none" stroke="' + ink + '" stroke-width="' + B + '"/>';
-    } else {
-      const g = 96, cx = w / 2;
-      art = '<path d="M' + (cx - g / 2) + ' ' + o + 'H' + o + 'V' + (h - o) + 'H' + (w - o) + 'V' + o + 'H' + (cx + g / 2) + '" fill="none" stroke="' + ink + '" stroke-width="' + B + '"/>';
-    }
-    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="' + w * 2 + '" height="' + h * 2 + '" viewBox="0 0 ' + w + ' ' + h + '"><rect width="' + w + '" height="' + h + '" fill="#fff"/>' + (turned ? '<g transform="rotate(180 ' + w / 2 + ' ' + h / 2 + ')">' + art + '</g>' : art) + '</svg>');
   }
 
   renderVals() {
@@ -815,26 +672,7 @@ class Component extends DCLogic {
       })),
       leave: this.leave,
       awardFrame: frame,
-      awards: this.awardList().map((a, i) => ({
-        text: a.text,
-        year: a.year,
-        badge: a.badge,
-        badgeSrc: a.badgeSrc,
-        open: this.state.award === i ? '' : undefined,
-        centered: this.state.centerAward === i ? '' : undefined,
-        active: this.state.centerAward === i,
-        /* Remount the print whenever the mark's size changes: the reveal builds
-           its screen from the artwork once, so stale artwork at an old aspect
-           gets cover-cropped and loses two of the frame's sides. */
-        frameKey: frame + ':' + ((this.state.awardBoxes || [])[i] || 'none'),
-        revealOut: {
-          src: this.frameSrc(frame, (this.state.awardBoxes || [])[i]),
-          alt: '', progress: (this.state.awardScrubOut || [])[i] || 0, shimmer: this.state.awardShimmer || 0, gridSize: 3, dynamics: 0,
-          style: { position: 'absolute', inset: 0, width: '100%', height: '100%', aspectRatio: 'auto', background: 'transparent' },
-        },
-        enter: this.enterAward(i),
-      })),
-      leaveAward: this.leaveAward,
+      awards: this.awardList().map((a) => ({ text: a.text, year: a.year })),
       askFinder: this.askFinder,
       background: [
         { key: 'Utbildning', value: 'Jur.kand., Uppsala universitet, 2009. LL.M., King’s College London, 2010.' },

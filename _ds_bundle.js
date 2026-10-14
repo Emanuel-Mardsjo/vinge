@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"Accordion","sourcePath":"components/blocks/Accordion.jsx"},{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"ContentCarousel","sourcePath":"components/blocks/ContentCarousel.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"DEMO_PAGES","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FORM_EXAMPLES","sourcePath":"components/blocks/formExamples.jsx"},{"name":"FormBlock","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"EMBED_REFUSAL","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"FORM_SIGNATURES","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"JobList","sourcePath":"components/blocks/JobList.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NewsList","sourcePath":"components/blocks/NewsList.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"StatementBlock","sourcePath":"components/blocks/StatementBlock.jsx"},{"name":"SubscribeBlock","sourcePath":"components/blocks/SubscribeBlock.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaRule","sourcePath":"components/core/MetaLine.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"RasterField","sourcePath":"components/core/RasterField.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"SCREEN_R","sourcePath":"components/core/screenShape.jsx"},{"name":"V_ANGLE","sourcePath":"components/core/screenShape.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"CheckboxGroup","sourcePath":"components/forms/CheckboxGroup.jsx"},{"name":"FileField","sourcePath":"components/forms/FileField.jsx"},{"name":"RadioGroup","sourcePath":"components/forms/RadioGroup.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"TextArea","sourcePath":"components/forms/TextArea.jsx"},{"name":"TextField","sourcePath":"components/forms/TextField.jsx"},{"name":"TopicList","sourcePath":"components/forms/TopicList.jsx"},{"name":"FieldLabel","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldMessage","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldLine","sourcePath":"components/forms/fieldParts.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Feature","sourcePath":"components/layout/Feature.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SectionNav","sourcePath":"components/navigation/SectionNav.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"}],"sourceHashes":{"components/blocks/Accordion.jsx":"e008d650df56","components/blocks/ArtworkPin.jsx":"57387dc008e1","components/blocks/Chapter.jsx":"f41941619697","components/blocks/ContentCarousel.jsx":"0fa310578851","components/blocks/DemoConsole.jsx":"e6f563bd789d","components/blocks/FormBlock.jsx":"2d25a0ee1e17","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"445c148cafd3","components/blocks/ImageScreen.jsx":"3591f9e4dbcd","components/blocks/JobList.jsx":"c5858d4155d1","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/ListingFilters.jsx":"a50d0964646b","components/blocks/Matters.jsx":"dae8fdb8cf73","components/blocks/NewsList.jsx":"86e48ca285b4","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"387b99c2370d","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"99e6d7edd1c6","components/blocks/Record.jsx":"79a028372a63","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/StatementBlock.jsx":"9735db1b3700","components/blocks/SubscribeBlock.jsx":"64fb39963691","components/blocks/Testimonials.jsx":"51e1d74fc60d","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/blocks/formExamples.jsx":"a0941b4e5c26","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"d16d6ded38c8","components/conversation/Composer.jsx":"6ecb3903db74","components/conversation/ContactCard.jsx":"a445893e3588","components/conversation/ConversationHeader.jsx":"c28cbe9bc41f","components/conversation/ConversationRail.jsx":"a531b2d38447","components/conversation/ConversationRegister.jsx":"81cdf85deb5c","components/conversation/ConversationStarters.jsx":"3976062145e6","components/conversation/ConversationSurface.jsx":"7ab91d907fee","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"e2205c401281","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"d779a8498638","components/conversation/scripts.jsx":"ccef4f3084aa","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"804ca0f89933","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"d7a228845574","components/core/DotField.jsx":"31e933fa57bd","components/core/Figure.jsx":"f0d003e16925","components/core/Mark.jsx":"8726517a2c2a","components/core/MetaLine.jsx":"739c896adab3","components/core/RasterField.jsx":"2f557da81a76","components/core/RevealEffect.jsx":"3f5729b2301b","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"af1018abba8f","components/core/focusSource.jsx":"3bfa3a1222b3","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"f0ab4adbf876","components/core/noirPlate.jsx":"05a78b7071a6","components/core/screenShape.jsx":"a40076067a68","components/forms/Checkbox.jsx":"3838a5da09ee","components/forms/CheckboxGroup.jsx":"95f61e4242a0","components/forms/FileField.jsx":"f114278a6ca2","components/forms/RadioGroup.jsx":"d977d665c939","components/forms/Select.jsx":"ea83f67f50bd","components/forms/TextArea.jsx":"c1088416cb5a","components/forms/TextField.jsx":"415124cacfa1","components/forms/TopicList.jsx":"a93a4f0ed555","components/forms/fieldParts.jsx":"7c290a8cbe53","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"ff07cce9ccb6","components/layout/CarouselHero.jsx":"02007caffe66","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Feature.jsx":"6a40b65b5332","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"19aaaf958457","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"26f5ba63645c","components/layout/PageBanner.jsx":"f1f34a196d8a","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"4b30a3775963","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"8516a6d1242e","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/Breadcrumbs.jsx":"ade1d68a05ed","components/navigation/ClosingFooter.jsx":"5b8fe14d23a7","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SectionNav.jsx":"7ddf36064dd1","components/navigation/SiteHeader.jsx":"1880646c1033","components/navigation/SiteNav.jsx":"7622a897e660","components/navigation/TakeoverMenu.jsx":"53e04114e2af","components/navigation/WordmarkMasthead.jsx":"af44104e73d0","deck-stage.js":"f3d3d0a662c0","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"fieldText","sourcePath":"components/forms/fieldParts.jsx"},{"name":"getHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getScreenOptions","sourcePath":"components/core/screenShape.jsx"},{"name":"getScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"isKeyFocus","sourcePath":"components/forms/fieldParts.jsx"},{"name":"jobId","sourcePath":"components/blocks/JobList.jsx"},{"name":"lineMinPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"normOptions","sourcePath":"components/forms/fieldParts.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"readEmbed","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"revealScale","sourcePath":"components/core/screenShape.jsx"},{"name":"revealWave","sourcePath":"components/core/screenShape.jsx"},{"name":"screenAngleFor","sourcePath":"components/core/screenShape.jsx"},{"name":"screenFill","sourcePath":"components/core/screenShape.jsx"},{"name":"screenMark","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPaths","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"screenSteps","sourcePath":"components/core/screenShape.jsx"},{"name":"setHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"shortenCrumb","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"srOnly","sourcePath":"components/forms/fieldParts.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"useScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"Accordion","sourcePath":"components/blocks/Accordion.jsx"},{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Awards","sourcePath":"components/blocks/Awards.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"ContentCarousel","sourcePath":"components/blocks/ContentCarousel.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"DEMO_PAGES","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FORM_EXAMPLES","sourcePath":"components/blocks/formExamples.jsx"},{"name":"FormBlock","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"EMBED_REFUSAL","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"FORM_SIGNATURES","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"JobList","sourcePath":"components/blocks/JobList.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"LinkList","sourcePath":"components/blocks/LinkList.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NewsList","sourcePath":"components/blocks/NewsList.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"PodcastEpisodes","sourcePath":"components/blocks/PodcastEpisodes.jsx"},{"name":"Recognition","sourcePath":"components/blocks/Recognition.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"StatementBlock","sourcePath":"components/blocks/StatementBlock.jsx"},{"name":"SubscribeBlock","sourcePath":"components/blocks/SubscribeBlock.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaRule","sourcePath":"components/core/MetaLine.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"PageGround","sourcePath":"components/core/PageGround.jsx"},{"name":"RasterField","sourcePath":"components/core/RasterField.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"WASH","sourcePath":"components/core/darkGround.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"SCREEN_R","sourcePath":"components/core/screenShape.jsx"},{"name":"V_ANGLE","sourcePath":"components/core/screenShape.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"CheckboxGroup","sourcePath":"components/forms/CheckboxGroup.jsx"},{"name":"FileField","sourcePath":"components/forms/FileField.jsx"},{"name":"FilterSearch","sourcePath":"components/forms/FilterSearch.jsx"},{"name":"RadioGroup","sourcePath":"components/forms/RadioGroup.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"TextArea","sourcePath":"components/forms/TextArea.jsx"},{"name":"TextField","sourcePath":"components/forms/TextField.jsx"},{"name":"TopicList","sourcePath":"components/forms/TopicList.jsx"},{"name":"FieldLabel","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldMessage","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldLine","sourcePath":"components/forms/fieldParts.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Feature","sourcePath":"components/layout/Feature.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"BannerContacts","sourcePath":"components/navigation/BannerContacts.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SectionNav","sourcePath":"components/navigation/SectionNav.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"},{"name":"SEARCH_CATEGORIES","sourcePath":"components/navigation/siteSearch.jsx"}],"sourceHashes":{"components/blocks/Accordion.jsx":"0b94c7425a63","components/blocks/ArtworkPin.jsx":"57387dc008e1","components/blocks/Awards.jsx":"73333922fb6f","components/blocks/Chapter.jsx":"f41941619697","components/blocks/ContentCarousel.jsx":"0fa310578851","components/blocks/DemoConsole.jsx":"13b5492e046c","components/blocks/FormBlock.jsx":"2d25a0ee1e17","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"0c411800f48d","components/blocks/ImageScreen.jsx":"3591f9e4dbcd","components/blocks/JobList.jsx":"c5858d4155d1","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/LinkList.jsx":"74838e586863","components/blocks/ListingFilters.jsx":"20a5b4afd1bb","components/blocks/Matters.jsx":"4a94ba93b0c7","components/blocks/NewsList.jsx":"e29e2723b72a","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"387b99c2370d","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"412fb2ebe7e5","components/blocks/PodcastEpisodes.jsx":"f84b5e4ce276","components/blocks/Recognition.jsx":"7982d0d697ea","components/blocks/Record.jsx":"b922c5bac7ff","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/StatementBlock.jsx":"9735db1b3700","components/blocks/SubscribeBlock.jsx":"867baa1c38bd","components/blocks/Testimonials.jsx":"51e1d74fc60d","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/blocks/formExamples.jsx":"a0941b4e5c26","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"d16d6ded38c8","components/conversation/Composer.jsx":"6ecb3903db74","components/conversation/ContactCard.jsx":"a445893e3588","components/conversation/ConversationHeader.jsx":"c28cbe9bc41f","components/conversation/ConversationRail.jsx":"a531b2d38447","components/conversation/ConversationRegister.jsx":"81cdf85deb5c","components/conversation/ConversationStarters.jsx":"3976062145e6","components/conversation/ConversationSurface.jsx":"7ab91d907fee","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"e2205c401281","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"d779a8498638","components/conversation/scripts.jsx":"67e02aa874df","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"97d4619d7547","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"d7a228845574","components/core/DotField.jsx":"31e933fa57bd","components/core/Figure.jsx":"f0d003e16925","components/core/Mark.jsx":"8726517a2c2a","components/core/MetaLine.jsx":"739c896adab3","components/core/PageGround.jsx":"237a95dafda1","components/core/RasterField.jsx":"2f557da81a76","components/core/RevealEffect.jsx":"3f5729b2301b","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"4fbd6db6e7b9","components/core/focusSource.jsx":"ae174bded419","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"f0ab4adbf876","components/core/noirPlate.jsx":"05a78b7071a6","components/core/screenShape.jsx":"a40076067a68","components/forms/Checkbox.jsx":"3838a5da09ee","components/forms/CheckboxGroup.jsx":"21ccbf4668ae","components/forms/FileField.jsx":"f114278a6ca2","components/forms/FilterSearch.jsx":"287eadb530b0","components/forms/RadioGroup.jsx":"d977d665c939","components/forms/Select.jsx":"ea83f67f50bd","components/forms/TextArea.jsx":"c1088416cb5a","components/forms/TextField.jsx":"415124cacfa1","components/forms/TopicList.jsx":"a93a4f0ed555","components/forms/fieldParts.jsx":"7c290a8cbe53","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"6a4829c0e2d1","components/layout/CarouselHero.jsx":"02007caffe66","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Feature.jsx":"de58313ef018","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"2fea226eec5b","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"26f5ba63645c","components/layout/PageBanner.jsx":"aac47b042df2","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"298d184626ce","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"8516a6d1242e","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/BannerContacts.jsx":"2beea86e4660","components/navigation/Breadcrumbs.jsx":"6313c5a4f8c6","components/navigation/ClosingFooter.jsx":"8ce14668901b","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SectionNav.jsx":"4a4c3b001bca","components/navigation/SiteHeader.jsx":"cca4be5dce5a","components/navigation/SiteNav.jsx":"7f8c0b28b2cd","components/navigation/TakeoverMenu.jsx":"a3891614201a","components/navigation/WordmarkMasthead.jsx":"319f0e40e31c","components/navigation/siteSearch.jsx":"f7b2a9e290b3","deck-stage.js":"f3d3d0a662c0","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea","reports/doc-page.js":"f52ae9c02fca"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"fieldText","sourcePath":"components/forms/fieldParts.jsx"},{"name":"findIn","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"getHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getScreenOptions","sourcePath":"components/core/screenShape.jsx"},{"name":"getScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"isKeyFocus","sourcePath":"components/forms/fieldParts.jsx"},{"name":"jobId","sourcePath":"components/blocks/JobList.jsx"},{"name":"lineMinPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"loadSearch","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"normOptions","sourcePath":"components/forms/fieldParts.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"portraitSrc","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"readEmbed","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"revealScale","sourcePath":"components/core/screenShape.jsx"},{"name":"revealWave","sourcePath":"components/core/screenShape.jsx"},{"name":"screenAngleFor","sourcePath":"components/core/screenShape.jsx"},{"name":"screenFill","sourcePath":"components/core/screenShape.jsx"},{"name":"screenMark","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPaths","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"screenSteps","sourcePath":"components/core/screenShape.jsx"},{"name":"setHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"shortenCrumb","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"siteSearch","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"srOnly","sourcePath":"components/forms/fieldParts.jsx"},{"name":"suggestFrom","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"usePageGround","sourcePath":"components/core/PageGround.jsx"},{"name":"useScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -188,6 +188,12 @@ const DEMO_PAGES = {
   }, {
     label: 'Content page master',
     href: '../content-page/ContentPage.dc.html?p=master'
+  }, {
+    label: 'Om Vinge',
+    href: '../content-page/ContentPage.dc.html?p=om-vinge'
+  }, {
+    label: 'Kontakt',
+    href: '../content-page/ContentPage.dc.html?p=kontakt'
   }]
 };
 Object.assign(__ds_scope, { DemoConsole, DEMO_PAGES });
@@ -1388,7 +1394,7 @@ const BERGH = {
 const SCRIPT_FORVARV = {
   id: 'forvarv',
   label: 'The acquisition — four turns',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Vi ska köpa ett tyskt bolag som har verksamhet i Sverige och jag vet inte vad som måste anmälas',
   turns: [{
     id: 'lage',
@@ -1611,7 +1617,7 @@ const HANSSON = {
 const SCRIPT_TVIST = {
   id: 'tvist',
   label: 'The dispute — three turns',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Vi har fått en stämningsansökan från en tidigare leverantör',
   turns: [{
     id: 'lage',
@@ -1727,7 +1733,7 @@ const SCRIPT_TVIST = {
 const SCRIPT_JOBB = {
   id: 'jobb',
   label: 'The jobseeker — one turn',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Jag söker sommarnotarietjänst för [2027]',
   turns: [{
     id: 'karriar',
@@ -1782,7 +1788,7 @@ const SCRIPT_JOBB = {
 const SCRIPT_PRIVAT = {
   id: 'privat',
   label: 'The wrong firm — one turn',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Jag ska skiljas och behöver hjälp med bodelningen',
   turns: [{
     id: 'nej',
@@ -1821,7 +1827,7 @@ const SCRIPT_PRIVAT = {
 const SCRIPT_NAMN = {
   id: 'namn',
   label: 'The name — nought turns',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Marcus Glader',
   turns: [{
     id: 'personen',
@@ -1864,7 +1870,7 @@ const SCRIPT_NAMN = {
 const SCRIPT_HITTA = {
   id: 'hitta',
   label: 'Find the right person — three turns',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Jag behöver hjälp att hitta rätt person',
   turns: [{
     id: 'omrade',
@@ -2006,7 +2012,7 @@ const ANDERSSON = recruiter('andersson', 'Maria Andersson', 'Malmö', 'Jurister 
 const SCRIPT_KARRIAR = {
   id: 'karriar',
   label: 'Careers — six turns',
-  prompt: 'Vad tänker du på?',
+  prompt: 'Vad vill du ha hjälp med?',
   opening: 'Jag vill göra karriär hos er',
   turns: [{
     /* No acknowledgement before the question: she clicked, she wrote
@@ -2387,6 +2393,93 @@ function MetaLine({
 Object.assign(__ds_scope, { MetaRule, MetaLine });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/MetaLine.jsx", error: String((e && e.message) || e) }); }
 
+// components/core/PageGround.jsx
+try { (() => {
+/* The page changes ground while a block is read.
+
+   Any element can ask for a ground with data-page-ground="lichen" (or "wash",
+   "ink"). One watcher per document finds every such element and, while one
+   holds the middle band of the screen, sets the same attribute on <body>.
+   The stylesheet (tokens/colors.css) resolves body[data-page-ground] to the
+   matching scope, so the whole page, not just the block, turns: ground,
+   text, rules and focus all follow. The header's wordmark reads it by hit
+   test, as it reads a washed or inverted section.
+
+   The turn is a state, not a scrub: the scroll decides when, the body's
+   background transition how fast. Hysteresis keeps a scroll that stops on
+   the line from flickering: a block takes the page when it reaches the
+   middle quarter (38–62% of the screen) and gives it back only once it has
+   left the outer band (14–86%). First used on the person page (Omdömen, wash)
+   and the newsletter block (lichen). */
+
+const ATTR = 'data-page-ground';
+let started = false;
+let current = '';
+let frame = 0;
+function holds(el, h, wide) {
+  const r = el.getBoundingClientRect();
+  if (!r.height) return false;
+  return wide ? r.top < h * 0.86 && r.bottom > h * 0.14 : r.top < h * 0.62 && r.bottom > h * 0.38;
+}
+function run() {
+  frame = 0;
+  const h = window.innerHeight;
+  const zones = Array.from(document.querySelectorAll('[' + ATTR + ']')).filter(n => n !== document.body && n.getAttribute(ATTR));
+  let next = '';
+  if (current && zones.some(n => n.getAttribute(ATTR) === current && holds(n, h, true))) next = current;else {
+    const z = zones.find(n => holds(n, h, false));
+    next = z ? z.getAttribute(ATTR) : '';
+  }
+  if (next === current) return;
+  current = next;
+  if (next) document.body.setAttribute(ATTR, next);else document.body.removeAttribute(ATTR);
+  window.dispatchEvent(new CustomEvent('pageground', {
+    detail: {
+      ground: next
+    }
+  }));
+  /* Anything that hit-tests the ground on scroll (the wordmark) tests again. */
+  window.requestAnimationFrame(() => window.dispatchEvent(new Event('scroll')));
+}
+function schedule() {
+  if (!frame && typeof window !== 'undefined') frame = window.requestAnimationFrame(run);
+}
+function start() {
+  if (typeof window === 'undefined') return;
+  if (!started) {
+    started = true;
+    window.addEventListener('scroll', schedule, {
+      passive: true
+    });
+    window.addEventListener('resize', schedule);
+  }
+  schedule();
+}
+
+/* For components that carry a ground of their own: starts the watcher and
+   re-measures once the component has laid out. */
+function usePageGround() {
+  React.useEffect(() => {
+    start();
+    const t = window.setTimeout(schedule, 400);
+    return () => {
+      window.clearTimeout(t);
+      schedule();
+    };
+  }, []);
+}
+
+/* For templates: mount once anywhere on a page whose own markup carries
+   data-page-ground. Renders nothing. */
+function PageGround() {
+  usePageGround();
+  return null;
+}
+PageGround.start = start;
+PageGround.refresh = schedule;
+Object.assign(__ds_scope, { usePageGround, PageGround });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/PageGround.jsx", error: String((e && e.message) || e) }); }
+
 // components/core/ScrollHold.jsx
 try { (() => {
 /* Semi-sticky: the block is held back against the page for a fixed stretch of
@@ -2646,7 +2739,11 @@ try { (() => {
    section, an overlay and a fixed panel all answer the same way, and costs one
    `elementsFromPoint` per scroll frame. */
 
-const DARK = '[data-inverted], [data-dark-ground]';
+const DARK = '[data-inverted], [data-dark-ground], body[data-page-ground="ink"]';
+
+/* A washed ground under the mark: a washed section, or the whole page while
+   PageGround has turned it to wash or lichen. */
+const WASH = '[data-washed], body[data-page-ground="wash"], body[data-page-ground="lichen"]';
 function useOverDark(ref, {
   enabled = true,
   selector = DARK
@@ -2717,18 +2814,23 @@ function mintLogo(src) {
 function washLogo(src) {
   return String(src).replace('-paper', '-wash');
 }
-Object.assign(__ds_scope, { useOverDark, MEDIA, mintLogo, washLogo });
+Object.assign(__ds_scope, { WASH, useOverDark, MEDIA, mintLogo, washLogo });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/darkGround.jsx", error: String((e && e.message) || e) }); }
 
 // components/core/focusSource.jsx
 try { (() => {
-/* Browsers match :focus-visible on text fields even when they were clicked,
-   which is correct for a field you type into blind but wrong here: the ring is
-   meant to say "the keyboard is here". So the document records how focus was
-   last moved, and base.css drops the ring on text fields while that source is
-   the pointer. Installed once, from whichever field mounts first. */
+/* The focus ring says "the keyboard is here", so it only ever appears when
+   focus arrived by keyboard. Browsers match :focus-visible on clicked text
+   fields (and on some clicked controls), so the document records how focus
+   was last moved and base.css drops every ring while that source is the
+   pointer. Components that draw their own ring read the same attribute
+   (fieldParts' isKeyFocus).
+
+   Installed when the bundle loads, so it covers every page and component
+   whether or not any of them asks for it. */
 
 let installed = false;
+const TEXT_ENTRY = /^(INPUT|TEXTAREA|SELECT)$/;
 function install() {
   if (installed || typeof document === 'undefined') return;
   installed = true;
@@ -2737,12 +2839,21 @@ function install() {
   };
   set('pointer');
   document.addEventListener('pointerdown', () => set('pointer'), true);
+  document.addEventListener('mousedown', () => set('pointer'), true);
   document.addEventListener('keydown', e => {
-    /* Only navigation keys hand focus over; typing inside a clicked field
-       must not light the ring up mid-sentence. */
-    if (e.key === 'Tab' || e.key === 'Escape' || e.key.indexOf('Arrow') === 0) set('key');
+    /* Tab always hands focus over. Arrows move focus in roving groups (tabs,
+       radios, the record), but inside a clicked text field they only move the
+       caret, so there they must not light the ring. Typing never does. */
+    if (e.key === 'Tab') {
+      set('key');
+      return;
+    }
+    const t = e.target;
+    const inText = t && (TEXT_ENTRY.test(t.tagName) || t.isContentEditable);
+    if (!inText && (e.key.indexOf('Arrow') === 0 || e.key === 'Home' || e.key === 'End')) set('key');
   }, true);
 }
+install();
 function useFocusSource() {
   React.useEffect(install, []);
 }
@@ -5618,7 +5729,8 @@ const RATIOS = {
   '21:9': 'var(--ratio-wide)',
   '1:1': 'var(--ratio-square)',
   '3:4': 'var(--ratio-tall)',
-  '2:3': 'var(--ratio-high)'
+  '2:3': 'var(--ratio-high)',
+  '16:9': '16 / 9'
 };
 const INK = () => 'rgb(' + __ds_scope.tokenRgb('--ink', '0, 41, 0') + ')';
 /* Inverted, the dots are laid on ink, so they take mint rather than paper —
@@ -6455,6 +6567,229 @@ function ImageReveal({
 Object.assign(__ds_scope, { ImageReveal });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ImageReveal.jsx", error: String((e && e.message) || e) }); }
 
+// components/blocks/Awards.jsx
+try { (() => {
+/* Erkännanden (person page) and Utmärkelser (content page). Each award is one
+   sentence in the display face. The line nearest the middle of the screen is
+   framed and dated: the frame is artwork printed by the house reveal, scrubbed
+   from scroll, and stops short of the plate, so it stays a halftone screen and
+   never closes into a solid rule. Layout rules live in tokens/grid.css under
+   [data-award]. */
+
+const INK = '#002900';
+
+/* The frame drawn at the mark's own size, ink on white, multiplied onto the
+   ground so the white drops out. The stroke is heavy enough to carry a
+   halftone; a hairline would print as noise. */
+function frameSrc(kind, box) {
+  if (!box) return undefined;
+  const [w, h] = box.split('x').map(Number);
+  if (!w || !h) return undefined;
+  const B = 12,
+    o = B / 2;
+  let art;
+  if (kind === 'double') {
+    const i = B + 7;
+    art = '<rect x="' + o + '" y="' + o + '" width="' + (w - B) + '" height="' + (h - B) + '" fill="none" stroke="' + INK + '" stroke-width="' + B + '"/>' + '<rect x="' + i + '" y="' + i + '" width="' + (w - 2 * i) + '" height="' + (h - 2 * i) + '" fill="none" stroke="' + INK + '" stroke-width="2"/>';
+  } else if (kind === 'cartouche') {
+    art = '<rect x="' + o + '" y="' + o + '" width="' + (w - B) + '" height="' + (h - B) + '" rx="' + (h - B) / 2 + '" fill="none" stroke="' + INK + '" stroke-width="' + B + '"/>';
+  } else {
+    const g = 96,
+      cx = w / 2;
+    art = '<path d="M' + (cx - g / 2) + ' ' + o + 'H' + o + 'V' + (h - o) + 'H' + (w - o) + 'V' + o + 'H' + (cx + g / 2) + '" fill="none" stroke="' + INK + '" stroke-width="' + B + '"/>';
+  }
+  return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="' + w * 2 + '" height="' + h * 2 + '" viewBox="0 0 ' + w + ' ' + h + '"><rect width="' + w + '" height="' + h + '" fill="#fff"/>' + art + '</svg>');
+}
+function Awards({
+  label = 'Erkännanden',
+  items = [],
+  frame = 'legend',
+  id,
+  style
+}) {
+  const root = React.useRef(null);
+  const [boxes, setBoxes] = React.useState([]);
+  const [scrub, setScrub] = React.useState({
+    prog: [],
+    shimmer: 0
+  });
+  React.useEffect(() => {
+    const el = root.current;
+    if (!el) return undefined;
+    /* The reveal's waves live in t ≈ 0.14–0.40; the print holds at PEAK, so
+       the frame never closes. RUN is how far past PEAK a leaving frame runs. */
+    const PEAK = 0.40,
+      RUN = 0.04,
+      HYST = 24;
+    const css = getComputedStyle(document.documentElement);
+    const durOut = parseFloat(css.getPropertyValue('--dur-medium')) || 800;
+    const durIn = parseFloat(css.getPropertyValue('--dur-slow')) || 1200;
+    const still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const expo = k => k >= 1 ? 1 : 1 - Math.pow(2, -10 * k);
+    let raf = 0,
+      active = -1,
+      boxKey = '',
+      scrubKey = '';
+    const st = [];
+
+    /* Exactly one line is framed while the block is on screen: the one nearest
+       the middle, with a little hysteresis so a line on the midpoint does not
+       flutter. The handover is timed: the leaving frame wipes off along the
+       reveal's diagonal over --dur-medium and its year fades; the arriving one
+       prints in over --dur-slow, eased expo. */
+    const tick = () => {
+      raf = 0;
+      const vh = window.innerHeight;
+      const marks = Array.from(el.querySelectorAll('[data-award-mark]'));
+      const bx = marks.map(n => n.offsetWidth + 'x' + n.offsetHeight);
+      if (bx.join(',') !== boxKey) {
+        boxKey = bx.join(',');
+        setBoxes(bx);
+      }
+      const now = performance.now();
+      const dist = marks.map(n => {
+        const r = n.getBoundingClientRect();
+        return Math.abs(r.top + r.height / 2 - vh / 2);
+      });
+      const reach = vh * 0.5;
+      let best = -1;
+      dist.forEach((d, i) => {
+        if (d < reach && (best < 0 || d < dist[best])) best = i;
+      });
+      if (best >= 0 && active >= 0 && best !== active && dist[active] < reach && dist[best] > dist[active] - HYST) best = active;
+      marks.forEach((n, i) => {
+        if (!st[i]) st[i] = {
+          phase: 'idle',
+          t0: 0
+        };
+      });
+      if (best !== active) {
+        if (active >= 0 && st[active] && st[active].phase === 'in') {
+          st[active].phase = 'out';
+          st[active].t0 = now;
+          marks[active] && marks[active].setAttribute('data-gone', '');
+        }
+        if (best >= 0) {
+          st[best].phase = 'in';
+          st[best].t0 = now;
+          marks[best].removeAttribute('data-gone');
+        }
+        active = best;
+      }
+      let ticking = false;
+      const prog = marks.map((n, i) => {
+        const s = st[i];
+        if (s.phase === 'in') {
+          const k = still ? 1 : expo(Math.max(0, Math.min(1, (now - s.t0) / durIn)));
+          if (k < 1) ticking = true;
+          n.style.setProperty('--award-t', k);
+          return k * PEAK;
+        }
+        if (s.phase === 'out') {
+          const k = still ? 1 : Math.min(1, (now - s.t0) / durOut);
+          if (k >= 1) {
+            s.phase = 'idle';
+            n.style.setProperty('--award-t', 0);
+            return 0;
+          }
+          ticking = true;
+          return PEAK + RUN * expo(k);
+        }
+        n.style.setProperty('--award-t', 0);
+        return 0;
+      });
+      if (ticking) raf = window.requestAnimationFrame(tick);
+      /* The shimmer: the reveal's diagonal waves advanced by scroll position,
+         one band per ~60px; still when the page is still. */
+      const shimmer = still ? 0 : Math.round(window.scrollY / 60 * 20) / 20;
+      const p = prog.map(v => Math.round(v * 100) / 100);
+      const key = p.join(',') + '|' + (prog.some(v => v > 0) ? shimmer : '');
+      if (key !== scrubKey) {
+        scrubKey = key;
+        setScrub({
+          prog: p,
+          shimmer
+        });
+      }
+    };
+    const kick = () => {
+      if (!raf) raf = window.requestAnimationFrame(tick);
+    };
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(kick) : null;
+    if (ro) el.querySelectorAll('[data-award-mark]').forEach(n => ro.observe(n));
+    window.addEventListener('scroll', kick, {
+      passive: true
+    });
+    window.addEventListener('resize', kick);
+    kick();
+    return () => {
+      window.removeEventListener('scroll', kick);
+      window.removeEventListener('resize', kick);
+      if (ro) ro.disconnect();
+      if (raf) window.cancelAnimationFrame(raf);
+    };
+  }, [items.length, frame]);
+  return /*#__PURE__*/React.createElement("section", {
+    ref: root,
+    id: id,
+    className: "grid",
+    "data-awards": "",
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "place-label"
+  }, /*#__PURE__*/React.createElement(__ds_scope.SectionLabel, null, label)), /*#__PURE__*/React.createElement("div", {
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-5)'
+    }
+  }, items.map((a, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    "data-award": ""
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-award-mark": "",
+    "data-frame": frame
+  }, /*#__PURE__*/React.createElement("span", {
+    "data-award-frame": "",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+    key: frame + ':' + (boxes[i] || 'none'),
+    src: frameSrc(frame, boxes[i]),
+    alt: "",
+    progress: scrub.prog[i] || 0,
+    shimmer: scrub.shimmer || 0,
+    gridSize: 3,
+    dynamics: 0,
+    style: {
+      position: 'absolute',
+      inset: 0,
+      width: '100%',
+      height: '100%',
+      aspectRatio: 'auto',
+      background: 'transparent'
+    }
+  })), a.year ? /*#__PURE__*/React.createElement("p", {
+    "data-award-year": "",
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none'
+    }
+  }, a.year) : null, /*#__PURE__*/React.createElement("p", {
+    className: "display-3",
+    lang: a.lang,
+    style: {
+      margin: 0,
+      maxWidth: '28ch',
+      textAlign: 'center',
+      textWrap: 'balance'
+    }
+  }, a.text))))));
+}
+Object.assign(__ds_scope, { Awards });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Awards.jsx", error: String((e && e.message) || e) }); }
+
 // components/blocks/NewsList.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -6729,7 +7064,64 @@ function ExpandedList({
     }, a.body) : null));
   })));
 }
+
+/* Tracks: two or more streams under one heading (Nyheter, Insights), one tab
+   each. The list shows the chosen track; under it, the link to that track's
+   own listing page. */
+function TrackedList({
+  tracks,
+  title,
+  style,
+  ...rest
+}) {
+  const [id, setId] = React.useState(tracks[0].id);
+  const t = tracks.find(x => x.id === id) || tracks[0];
+  return /*#__PURE__*/React.createElement("div", {
+    "data-news-tracks": "",
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, title ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2 place-body-wide",
+    style: {
+      margin: '0 0 var(--space-5)'
+    }
+  }, title) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: '1 / -1'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
+    tabs: tracks.map(x => ({
+      id: x.id,
+      label: x.label
+    })),
+    value: t.id,
+    onChange: setId,
+    label: title || tracks.map(x => x.label).join(', ')
+  }))), /*#__PURE__*/React.createElement(StreamOrExpanded, _extends({}, rest, {
+    key: t.id,
+    items: t.items || [],
+    headingLevel: rest.headingLevel || (title ? 'h3' : 'h2')
+  })), t.href ? /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: 'var(--space-5)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    style: {
+      gridColumn: '1 / -1',
+      margin: 0
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: t.href,
+    variant: "secondary"
+  }, t.linkLabel || 'Visa alla'))) : null);
+}
 function NewsList(props) {
+  if (props.tracks && props.tracks.length) return /*#__PURE__*/React.createElement(TrackedList, props);
+  return /*#__PURE__*/React.createElement(StreamOrExpanded, props);
+}
+function StreamOrExpanded(props) {
   if (props.variant === 'expanded') {
     const {
       items = [],
@@ -6751,6 +7143,7 @@ function StreamList({
   revealDuration = 900,
   gridSize = 5,
   headingLevel,
+  bodyLines = 0,
   style
 }) {
   const compact = variant === 'compact';
@@ -6861,7 +7254,26 @@ function StreamList({
         textUnderlineOffset: '0.08em',
         transition: 'text-decoration-color var(--dur-reveal) var(--ease-expo)'
       }
-    }, a.title))), compact ? /*#__PURE__*/React.createElement("div", {
+    }, a.title)), a.body && !compact ?
+    /*#__PURE__*/
+    /* The search results' description: secondary ink under the
+       headline, clamped so a 700-character preamble does not
+       make one row a page. */
+    React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 'var(--space-2) 0 0',
+        maxWidth: '62ch',
+        color: 'var(--text-secondary)',
+        textWrap: 'pretty',
+        ...(bodyLines > 0 ? {
+          display: '-webkit-box',
+          WebkitBoxOrient: 'vertical',
+          WebkitLineClamp: bodyLines,
+          overflow: 'hidden'
+        } : null)
+      }
+    }, a.body) : null), compact ? /*#__PURE__*/React.createElement("div", {
       "data-cell": "media"
     }, /*#__PURE__*/React.createElement("div", {
       style: {
@@ -6888,12 +7300,12 @@ function StreamList({
       style: {
         background: 'transparent'
       }
-    }) : null)))) : /*#__PURE__*/React.createElement("div", {
+    }) : null)))) : showImages ? /*#__PURE__*/React.createElement("div", {
       "data-cell": "media",
       style: {
         aspectRatio: 'var(--ratio-landscape)'
       }
-    }, showImages && a.imageSrc && live[a.id] ? /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+    }, a.imageSrc && live[a.id] ? /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
       src: a.imageSrc,
       alt: a.alt || '',
       ratio: "3:2",
@@ -6903,7 +7315,7 @@ function StreamList({
       style: {
         background: 'transparent'
       }
-    }) : null));
+    }) : null) : null);
   })));
 }
 Object.assign(__ds_scope, { NewsList });
@@ -7581,558 +7993,6 @@ function Figure({
 Object.assign(__ds_scope, { ImageLoad, Figure });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/Figure.jsx", error: String((e && e.message) || e) }); }
 
-// components/blocks/Accordion.jsx
-try { (() => {
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-/* Rader: the content-page accordion. Two variants of one block.
-
-   list  — the default. Rows at display-3 under hairlines, a plus that turns to
-           a minus. Each row may carry an image, shown in the open panel on
-           columns 6–8 beside the text (under it below LG). All rows closed on
-           load: the closed list is the index.
-   index — the image variant. A small numbered index on columns 1–2, one large
-           image on 3–8 that follows the open row and prints with ImageReveal.
-           One row is always open, the first until another is chosen. Every
-           row needs an image. When any row's text, open, would run past the
-           image's foot on two columns, the index takes a third column from
-           the image for the whole block: text on 1–3, image on 4–8, the same
-           whichever row is open (textColumns, auto by default).
-           Links in the panel are set at the text's size (CtaLink small).
-
-   Each row is a real heading with a button in it; the panel is a region named
-   by the headline. Closed panels are hidden="until-found", so find-in-page
-   reaches them and opens the row. An open row writes #<idPrefix>-<slug> to the
-   address, and that hash opens it on load. */
-
-function useWide() {
-  const [wide, setWide] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
-  React.useEffect(() => {
-    const mq = window.matchMedia('(min-width: 1280px)');
-    const on = () => setWide(mq.matches);
-    on();
-    mq.addEventListener('change', on);
-    return () => mq.removeEventListener('change', on);
-  }, []);
-  return wide;
-}
-function Body({
-  text,
-  className,
-  style
-}) {
-  const paras = String(text || '').split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
-  return paras.map((p, i) => /*#__PURE__*/React.createElement("p", {
-    key: i,
-    className: className,
-    style: {
-      margin: i ? 'var(--space-2) 0 0' : 0,
-      whiteSpace: 'pre-line',
-      textWrap: 'pretty',
-      ...style
-    }
-  }, p));
-}
-
-/* Height and fade on open and close; hidden="until-found" once closed. React
-   does not own `hidden` here, so find-in-page can lift it. */
-function Panel({
-  id,
-  open,
-  label,
-  onFound,
-  children
-}) {
-  const ref = React.useRef(null);
-  const was = React.useRef(open);
-  const found = React.useRef(onFound);
-  found.current = onFound;
-  React.useLayoutEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const ease = getComputedStyle(document.documentElement).getPropertyValue('--ease-expo').trim() || 'cubic-bezier(.19,1,.22,1)';
-    const animate = !still && was.current !== open;
-    was.current = open;
-    if (el.__anim) el.__anim.cancel();
-    if (open) {
-      el.removeAttribute('hidden');
-      if (animate) el.__anim = el.animate([{
-        height: '0px',
-        opacity: 0
-      }, {
-        height: el.scrollHeight + 'px',
-        opacity: 1
-      }], {
-        duration: 600,
-        easing: ease
-      });
-    } else if (animate) {
-      const a = el.animate([{
-        height: el.offsetHeight + 'px',
-        opacity: 1
-      }, {
-        height: '0px',
-        opacity: 0
-      }], {
-        duration: 450,
-        easing: ease
-      });
-      el.__anim = a;
-      a.onfinish = () => {
-        if (!was.current) el.setAttribute('hidden', 'until-found');
-      };
-    } else el.setAttribute('hidden', 'until-found');
-  }, [open]);
-  React.useEffect(() => {
-    const el = ref.current;
-    const on = () => found.current && found.current();
-    el.addEventListener('beforematch', on);
-    return () => el.removeEventListener('beforematch', on);
-  }, []);
-  return /*#__PURE__*/React.createElement("div", {
-    ref: ref,
-    id: id,
-    role: "region",
-    "aria-label": label,
-    style: {
-      overflow: 'hidden'
-    }
-  }, children);
-}
-function Cue({
-  open
-}) {
-  const bar = {
-    position: 'absolute',
-    left: 0,
-    top: '50%',
-    width: '100%',
-    height: 1.5,
-    marginTop: -0.75,
-    background: 'currentColor'
-  };
-  return /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      position: 'relative',
-      display: 'block',
-      width: '.6em',
-      height: '.6em',
-      color: 'var(--text-primary)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: bar
-  }), open ? null : /*#__PURE__*/React.createElement("span", {
-    style: {
-      ...bar,
-      transform: 'rotate(90deg)'
-    }
-  }));
-}
-
-/* The list as it would set on two columns with one given row open,
-   unanimated, to measure against the image. Hidden and inert; never read or
-   found. One per row: the block widens if any of them is taller. */
-function IndexGhost({
-  list,
-  isOpen,
-  num,
-  label
-}) {
-  return /*#__PURE__*/React.createElement("ul", {
-    style: {
-      listStyle: 'none',
-      margin: 0,
-      padding: 0
-    }
-  }, list.map((r, n) => /*#__PURE__*/React.createElement("li", {
-    key: r.slug,
-    style: {
-      borderBottom: '1px solid var(--rule-hairline)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: num ? 'var(--space-5) minmax(0,1fr)' : 'minmax(0,1fr)',
-      columnGap: 'var(--space-2)',
-      paddingBlock: 'var(--space-2)'
-    }
-  }, num ? /*#__PURE__*/React.createElement("span", {
-    className: "small"
-  }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      maxWidth: 'none'
-    }
-  }, r.headline)), isOpen(r, n) ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      padding: num ? 'var(--space-1) 0 var(--space-3) calc(var(--space-5) + var(--space-2))' : 'var(--space-1) 0 var(--space-3)'
-    }
-  }, /*#__PURE__*/React.createElement(Body, {
-    text: r.body,
-    className: "small"
-  }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
-    key: li,
-    className: "small",
-    style: {
-      margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
-    }
-  }, l.label))) : null)));
-}
-function Accordion({
-  heading,
-  rows = [],
-  variant = 'list',
-  numbered,
-  multiple = false,
-  idPrefix = 'rad',
-  textColumns = 'auto',
-  id,
-  style,
-  ...rest
-}) {
-  const wide = useWide();
-  const ghostRef = React.useRef(null);
-  const imgRef = React.useRef(null);
-  const [tall, setTall] = React.useState(false);
-  const index = variant === 'index';
-  const num = numbered ?? index;
-  const list = rows.filter(r => r && r.slug && r.headline);
-  const [open, setOpen] = React.useState({});
-  const [hover, setHover] = React.useState(null);
-  const set = React.useCallback((slug, next) => {
-    setOpen(o => multiple ? {
-      ...o,
-      [slug]: next
-    } : next ? {
-      [slug]: true
-    } : {});
-    if (next) {
-      try {
-        history.replaceState(null, '', location.pathname + location.search + '#' + idPrefix + '-' + slug);
-      } catch (e) {}
-    }
-  }, [multiple, idPrefix]);
-  React.useEffect(() => {
-    const fromHash = () => {
-      const h = decodeURIComponent(location.hash.slice(1));
-      const p = idPrefix + '-';
-      if (!h.startsWith(p)) return;
-      const slug = h.slice(p.length);
-      if (list.some(r => r.slug === slug)) setOpen(o => multiple ? {
-        ...o,
-        [slug]: true
-      } : {
-        [slug]: true
-      });
-    };
-    fromHash();
-    addEventListener('hashchange', fromHash);
-    return () => removeEventListener('hashchange', fromHash);
-  }, [idPrefix, multiple, list.map(r => r.slug).join('|')]);
-  React.useLayoutEffect(() => {
-    if (variant !== 'index' || textColumns !== 'auto') return;
-    const gEl = ghostRef.current,
-      iEl = imgRef.current;
-    if (!gEl || !iEl) return;
-    const ghosts = Array.from(gEl.querySelectorAll('[data-ghost]'));
-    const measure = () => {
-      const ih = iEl.offsetHeight;
-      setTall(ih > 0 && ghosts.some(x => x.offsetHeight > ih));
-    };
-    measure();
-    const ro = new ResizeObserver(measure);
-    ghosts.forEach(x => ro.observe(x));
-    ro.observe(iEl);
-    return () => ro.disconnect();
-  });
-  if (!list.length) return null;
-  const anyOpen = list.some(r => open[r.slug]);
-  const isOpen = (r, n) => !!open[r.slug] || index && !anyOpen && n === 0;
-  const toggle = (r, n) => set(r.slug, index ? true : !isOpen(r, n));
-  const label = n => String(n + 1).padStart(2, '0');
-  const title = heading ? /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      marginBottom: 'var(--space-6)'
-    }
-  }, /*#__PURE__*/React.createElement("h2", {
-    className: "display-2",
-    style: {
-      gridColumn: wide && !index ? '3 / 9' : '1 / -1',
-      margin: 0
-    }
-  }, heading)) : null;
-  if (index) {
-    const three = textColumns === 3 || textColumns === 'auto' && tall;
-    return /*#__PURE__*/React.createElement("section", _extends({
-      id: id,
-      "data-accordion": "index",
-      style: style
-    }, rest), title, /*#__PURE__*/React.createElement("div", {
-      className: "grid",
-      "data-text-columns": three ? 3 : 2,
-      style: {
-        alignItems: 'start',
-        position: 'relative'
-      }
-    }, wide && textColumns === 'auto' ? /*#__PURE__*/React.createElement("div", {
-      ref: ghostRef,
-      "aria-hidden": "true",
-      inert: "",
-      style: {
-        gridColumn: '1 / 3',
-        gridRow: 1,
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        visibility: 'hidden',
-        pointerEvents: 'none'
-      }
-    }, list.map((g, gi) => /*#__PURE__*/React.createElement("div", {
-      key: g.slug,
-      "data-ghost": "",
-      style: {
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%'
-      }
-    }, /*#__PURE__*/React.createElement(IndexGhost, {
-      list: list,
-      isOpen: r => r.slug === g.slug,
-      num: num,
-      label: label
-    })))) : null, /*#__PURE__*/React.createElement("ul", {
-      style: {
-        gridColumn: wide ? three ? '1 / 4' : '1 / 3' : '1 / -1',
-        gridRow: wide ? 1 : undefined,
-        listStyle: 'none',
-        margin: 0,
-        padding: 0
-      }
-    }, list.map((r, n) => {
-      const on = isOpen(r, n),
-        pid = idPrefix + '-' + r.slug + '-panel',
-        u = hover === r.slug;
-      return /*#__PURE__*/React.createElement("li", {
-        key: r.slug,
-        id: idPrefix + '-' + r.slug,
-        style: {
-          borderBottom: '1px solid var(--rule-hairline)',
-          scrollMarginTop: 'var(--space-6)'
-        }
-      }, /*#__PURE__*/React.createElement("h3", {
-        style: {
-          margin: 0,
-          font: 'inherit'
-        }
-      }, /*#__PURE__*/React.createElement("button", {
-        type: "button",
-        "aria-expanded": on,
-        "aria-controls": pid,
-        onClick: () => toggle(r, n),
-        onMouseEnter: () => setHover(r.slug),
-        onMouseLeave: () => setHover(null),
-        style: {
-          all: 'unset',
-          boxSizing: 'border-box',
-          cursor: 'pointer',
-          display: 'grid',
-          gridTemplateColumns: num ? 'var(--space-5) minmax(0,1fr)' : 'minmax(0,1fr)',
-          columnGap: 'var(--space-2)',
-          width: '100%',
-          paddingBlock: 'var(--space-2)',
-          alignItems: 'baseline'
-        }
-      }, num ? /*#__PURE__*/React.createElement("span", {
-        className: "small",
-        style: {
-          fontVariantNumeric: 'tabular-nums'
-        }
-      }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
-        className: "small",
-        style: {
-          maxWidth: 'none',
-          textDecoration: 'underline',
-          textDecorationThickness: 1,
-          textUnderlineOffset: '.18em',
-          textDecorationColor: u ? 'var(--underline-active)' : 'transparent',
-          transition: 'text-decoration-color 450ms var(--ease-expo)'
-        }
-      }, r.headline))), /*#__PURE__*/React.createElement(Panel, {
-        id: pid,
-        open: on,
-        label: r.headline,
-        onFound: () => set(r.slug, true)
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          padding: num ? 'var(--space-1) 0 var(--space-3) calc(var(--space-5) + var(--space-2))' : 'var(--space-1) 0 var(--space-3)'
-        }
-      }, /*#__PURE__*/React.createElement(Body, {
-        text: r.body,
-        className: "small",
-        style: {
-          color: 'var(--text-secondary)'
-        }
-      }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
-        key: li,
-        style: {
-          margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
-        }
-      }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-        variant: "small",
-        href: l.href
-      }, l.label))))));
-    })), /*#__PURE__*/React.createElement("div", {
-      ref: imgRef,
-      style: {
-        gridColumn: wide ? three ? '4 / 9' : '3 / 9' : '1 / -1',
-        gridRow: wide ? 1 : undefined,
-        order: wide ? 0 : -1,
-        display: 'grid',
-        marginBottom: wide ? 0 : 'var(--space-4)',
-        position: wide ? 'sticky' : 'static',
-        top: 'var(--space-5)'
-      }
-    }, list.map((r, n) => {
-      const on = isOpen(r, n);
-      return r.image ? /*#__PURE__*/React.createElement("div", {
-        key: r.slug,
-        "aria-hidden": !on,
-        style: {
-          gridArea: '1 / 1',
-          zIndex: on ? 1 : 0,
-          pointerEvents: on ? 'auto' : 'none'
-        }
-      }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
-        src: r.image.src,
-        alt: r.image.alt || '',
-        ratio: "3:2",
-        play: on,
-        duration: 900
-      })) : null;
-    }))));
-  }
-  return /*#__PURE__*/React.createElement("section", _extends({
-    id: id,
-    "data-accordion": "list",
-    style: style
-  }, rest), title, /*#__PURE__*/React.createElement("div", {
-    className: "grid"
-  }, /*#__PURE__*/React.createElement("ul", {
-    style: {
-      gridColumn: '1 / -1',
-      listStyle: 'none',
-      margin: 0,
-      padding: 0,
-      display: 'flex',
-      flexDirection: 'column'
-    }
-  }, list.map((r, n) => {
-    const on = isOpen(r, n),
-      pid = idPrefix + '-' + r.slug + '-panel',
-      img = !!r.image;
-    return /*#__PURE__*/React.createElement("li", {
-      key: r.slug,
-      id: idPrefix + '-' + r.slug,
-      style: {
-        borderBottom: '1px solid var(--rule-hairline)',
-        scrollMarginTop: 'var(--space-6)'
-      }
-    }, /*#__PURE__*/React.createElement("h3", {
-      style: {
-        margin: 0,
-        font: 'inherit'
-      }
-    }, /*#__PURE__*/React.createElement("button", {
-      type: "button",
-      "aria-expanded": on,
-      "aria-controls": pid,
-      onClick: () => toggle(r, n),
-      style: {
-        all: 'unset',
-        boxSizing: 'border-box',
-        cursor: 'pointer',
-        display: 'grid',
-        gridTemplateColumns: wide ? 'repeat(var(--cols),minmax(0,1fr))' : 'minmax(0,1fr) auto',
-        columnGap: 'var(--gutter)',
-        rowGap: 'var(--space-1)',
-        width: '100%',
-        paddingBlock: 'var(--space-4)',
-        alignItems: 'center'
-      }
-    }, num ? /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        gridColumn: wide ? '1 / 3' : '1 / -1',
-        gridRow: wide ? 1 : undefined,
-        color: 'var(--text-secondary)',
-        fontVariantNumeric: 'tabular-nums'
-      }
-    }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
-      className: "display-3",
-      style: {
-        gridColumn: wide ? '3 / 8' : '1 / 2',
-        gridRow: wide ? 1 : undefined,
-        maxWidth: 'none'
-      }
-    }, r.headline), /*#__PURE__*/React.createElement("span", {
-      className: "display-3",
-      "aria-hidden": "true",
-      style: {
-        gridColumn: wide ? '8 / 9' : '2 / 3',
-        gridRow: wide ? 1 : undefined,
-        justifySelf: 'end',
-        display: 'flex',
-        alignItems: 'center',
-        lineHeight: 1
-      }
-    }, /*#__PURE__*/React.createElement(Cue, {
-      open: on
-    })))), /*#__PURE__*/React.createElement(Panel, {
-      id: pid,
-      open: on,
-      label: r.headline,
-      onFound: () => set(r.slug, true)
-    }, /*#__PURE__*/React.createElement("div", {
-      className: "grid",
-      style: {
-        padding: 'calc(var(--space-6) - var(--space-4)) 0 var(--space-5)',
-        maxWidth: 'none',
-        margin: 0
-      }
-    }, /*#__PURE__*/React.createElement("div", {
-      style: {
-        gridColumn: wide ? img ? '3 / 6' : '3 / 7' : '1 / -1'
-      }
-    }, /*#__PURE__*/React.createElement(Body, {
-      text: r.body,
-      className: "prose"
-    }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
-      key: li,
-      style: {
-        margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
-      }
-    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-      variant: "secondary",
-      href: l.href
-    }, l.label)))), img ? /*#__PURE__*/React.createElement("div", {
-      style: {
-        gridColumn: wide ? '6 / 9' : '1 / -1',
-        marginTop: wide ? 0 : 'var(--space-3)'
-      }
-    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
-      src: r.image.src,
-      alt: r.image.alt || '',
-      ratio: "3:2"
-    })) : null)));
-  }))));
-}
-Object.assign(__ds_scope, { Accordion });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Accordion.jsx", error: String((e && e.message) || e) }); }
-
 // components/blocks/GalleryRow.jsx
 try { (() => {
 /* A row of images, each on an explicit column span, each with its own label
@@ -8299,6 +8159,8 @@ const iconSet = {
     'document': '<path d="M7 3H19L25 9V29H7V3Z"/><path d="M19 3V9H25"/>',
     /* Play a film. Carbon's play, the outlined triangle. */
     'play': '<path d="M10 5L26 16L10 27Z"/>',
+    /* Its counterpart in the podcast player: Carbon's pause as two bars. */
+    'pause': '<path d="M11 6H14V26H11ZM18 6H21V26H18Z"/>',
     /* A brand mark, so it is the set's second solid glyph: the wordmark of
        another company must be reproduced as that company draws it. */
     'logo--linkedin': '<path fill="currentColor" fill-rule="evenodd" stroke="none" d="M4 4H28V28H4V4ZM9.2 12.6H12.6V24H9.2V12.6ZM10.9 7.6C11.98 7.6 12.85 8.47 12.85 9.55C12.85 10.63 11.98 11.5 10.9 11.5C9.82 11.5 8.95 10.63 8.95 9.55C8.95 8.47 9.82 7.6 10.9 7.6ZM15 12.6H18.3V14.15C18.9 13.13 20.1 12.35 21.7 12.35C24.4 12.35 26 14.05 26 17V24H22.6V17.6C22.6 16.05 22 15.15 20.75 15.15C19.4 15.15 18.4 16.1 18.4 18V24H15V12.6Z"/>',
@@ -9528,295 +9390,156 @@ function ArtworkPin({
 Object.assign(__ds_scope, { ArtworkPin });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ArtworkPin.jsx", error: String((e && e.message) || e) }); }
 
-// components/blocks/ListingFilters.jsx
+// components/blocks/LinkList.jsx
 try { (() => {
-/* The filter bar the two listings share.
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* Länkar: a list of links drawn as the Accordion's closed list. The same
+   rows: display-3 on columns 3–7 under hairlines, the cue on column 8, the
+   same padding and the same optional block heading. No preamble: a card is label and link. The cue is an
+   arrow instead of the plus, and the whole row is the link.
 
-   One row always shows: the Filtrera toggle, the count against the whole set,
-   and a way to clear. The fields themselves are a drawer under it, because a
-   listing's first job is the list — a permanent bank of four selects reads as
-   a form and pushes the first row under the fold.
+   A page target takes arrow--right. A document or an external address takes
+   arrow--up-right and opens in a new tab. On hover and keyboard focus the
+   other rows fade to secondary ink, as the main menu's items do, and the
+   row's own arrow moves a quarter em in its own direction. */
 
-   The fields are data, so the same component serves any listing: the people
-   register passes area, sector and office, the stream passes type, area,
-   sector and year. What must not vary between the two pages is the layout,
-   the counted option labels and the words, so they live here once.
-
-   Two variants:
-     drawer — the fields are behind the toggle. The default, and what both
-       listings use.
-     open — the fields are always shown and the toggle is gone, for a page
-       whose whole purpose is the filtering (a search result, a facet landing
-       page) rather than the list. */
-function ListingFilters({
-  fields = [],
-  value = {},
-  onChange,
-  countLine = '',
-  onClear,
-  showClear = false,
-  open,
-  onToggle,
-  variant = 'drawer',
-  label = 'Filtrera',
-  marked = false,
-  /* A field kept out of the drawer and standing in the top row: typing filters
-     the list immediately, without the drawer having to be opened at all. Its
-     value and change handler are the same as every other field's. */
-  searchId = '',
-  searchLabel = 'Sök',
-  searchPlaceholder = '',
-  style
+function useWide() {
+  const [wide, setWide] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1280px)');
+    const on = () => setWide(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  return wide;
+}
+function LinkList({
+  heading,
+  items = [],
+  numbered = false,
+  newTabLabel = 'öppnas i ny flik',
+  id,
+  style,
+  ...rest
 }) {
-  __ds_scope.useFocusSource();
-  const [selfOpen, setSelfOpen] = React.useState(false);
-  const [warm, setWarm] = React.useState(false);
-  const controlled = open != null;
-  const isOpen = variant === 'open' ? true : controlled ? !!open : selfOpen;
-  const toggle = () => {
-    if (onToggle) onToggle();
-    if (!controlled) setSelfOpen(v => !v);
-  };
-  const labelShown = warm || isOpen;
-  const field = {
-    width: '100%',
-    marginTop: 6,
-    padding: '0 0 8px',
-    border: 0,
-    borderBottom: '1px solid var(--rule-hairline)',
-    background: 'transparent',
-    color: 'var(--ink)',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)',
-    appearance: 'none',
-    borderRadius: 0
-  };
-  const quiet = {
-    border: 0,
-    background: 'transparent',
-    padding: 0,
-    cursor: 'pointer',
-    fontFamily: 'var(--font-text)',
-    fontSize: 'var(--text-small)',
-    lineHeight: 'var(--lh-small)',
-    color: 'var(--text-secondary)',
-    textDecoration: 'underline',
-    textDecorationColor: 'var(--underline-rest-secondary)',
-    textUnderlineOffset: '0.22em'
-  };
-
-  /* A search field with the set's own clear control, shown once something is
-     typed. */
-  const searchField = (id, placeholder, extra, label) => {
-    const v = value[id] || '';
-    return /*#__PURE__*/React.createElement("span", {
+  const wide = useWide();
+  /* Pointer and keyboard are tracked apart, so a click's focus never holds a
+     row lit after the pointer has gone. Focus counts only when visible. */
+  const [hover, setHover] = React.useState(null);
+  const [focus, setFocus] = React.useState(null);
+  const hot = hover !== null ? hover : focus;
+  const list = items.filter(it => it && it.label && it.href);
+  if (!list.length) return null;
+  const label = n => String(n + 1).padStart(2, '0');
+  return /*#__PURE__*/React.createElement("section", _extends({
+    id: id,
+    "data-link-list": "",
+    style: style
+  }, rest), heading ? /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginBottom: 'var(--space-6)'
+    }
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "display-2",
+    style: {
+      gridColumn: wide ? '3 / 9' : '1 / -1',
+      margin: 0
+    }
+  }, heading)) : null, /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, /*#__PURE__*/React.createElement("ul", {
+    onMouseLeave: () => setHover(null),
+    style: {
+      gridColumn: '1 / -1',
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, list.map((it, n) => {
+    const away = it.kind === 'document' || it.kind === 'external';
+    const on = hot === n,
+      dim = hot !== null && !on;
+    const shift = on ? away ? 'translate(.25em, -.25em)' : 'translateX(.25em)' : 'none';
+    return /*#__PURE__*/React.createElement("li", {
+      key: it.href + n,
       style: {
-        position: 'relative',
-        display: 'block',
-        minWidth: 0,
-        flex: extra && extra.flex
+        borderBottom: '1px solid var(--rule-hairline)'
       }
-    }, /*#__PURE__*/React.createElement("input", {
-      type: "search",
-      value: v,
-      placeholder: placeholder || '',
-      "aria-label": label,
-      onChange: e => onChange && onChange(id, e.target.value),
-      onKeyDown: e => {
-        if (e.key === 'Escape' && v) {
-          e.preventDefault();
-          onChange && onChange(id, '');
-        }
+    }, /*#__PURE__*/React.createElement("a", {
+      href: it.href,
+      target: away ? '_blank' : undefined,
+      rel: away ? 'noopener' : undefined,
+      onMouseEnter: () => setHover(n),
+      onFocus: e => {
+        if (e.currentTarget.matches(':focus-visible')) setFocus(n);
       },
+      onBlur: () => setFocus(null),
       style: {
-        ...field,
-        ...extra,
-        flex: undefined,
-        paddingRight: v ? 32 : undefined
+        boxSizing: 'border-box',
+        color: dim ? 'var(--text-secondary)' : 'var(--text-primary)',
+        transition: 'color .34s cubic-bezier(0.19,1,0.22,1)',
+        textDecoration: 'none',
+        display: 'grid',
+        gridTemplateColumns: wide ? 'repeat(var(--cols),minmax(0,1fr))' : 'minmax(0,1fr) auto',
+        columnGap: 'var(--gutter)',
+        rowGap: 'var(--space-1)',
+        width: '100%',
+        paddingBlock: 'var(--space-4)',
+        alignItems: 'center'
       }
-    }), v ? /*#__PURE__*/React.createElement("button", {
-      type: "button",
-      "aria-label": "Rensa s\xF6kningen",
-      onClick: e => {
-        onChange && onChange(id, '');
-        const inp = e.currentTarget.parentElement.querySelector('input');
-        if (inp) inp.focus();
-      },
+    }, numbered ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        gridColumn: wide ? '1 / 3' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        color: 'var(--text-secondary)',
+        fontVariantNumeric: 'tabular-nums'
+      }
+    }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      style: {
+        gridColumn: wide ? '3 / 8' : '1 / 2',
+        gridRow: wide ? 1 : undefined,
+        maxWidth: 'none'
+      }
+    }, it.label, away ? /*#__PURE__*/React.createElement("span", {
       style: {
         position: 'absolute',
-        right: -10,
-        bottom: 0,
-        width: 44,
-        height: 44,
-        display: 'grid',
-        placeItems: 'center',
-        background: 'none',
-        border: 0,
-        padding: 0,
-        cursor: 'pointer',
-        color: 'var(--text-secondary)'
+        width: 1,
+        height: 1,
+        overflow: 'hidden',
+        clip: 'rect(0 0 0 0)',
+        whiteSpace: 'nowrap'
+      }
+    }, " (", newTabLabel, ")") : null), /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      "aria-hidden": "true",
+      style: {
+        gridColumn: wide ? '8 / 9' : '2 / 3',
+        gridRow: wide ? 1 : undefined,
+        justifySelf: 'end',
+        display: 'flex',
+        alignItems: 'center',
+        lineHeight: 1
       }
     }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-      name: "close",
-      size: "sm"
-    })) : null);
-  };
-  const grid = /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))',
-      gap: 'var(--gutter)'
-    }
-  }, fields.map(f => /*#__PURE__*/React.createElement("label", {
-    key: f.id,
-    style: {
-      display: 'block',
-      minWidth: 0
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      display: 'block',
-      maxWidth: 'none',
-      color: 'var(--text-secondary)'
-    }
-  }, f.label), f.kind === 'search' ? searchField(f.id, f.placeholder) : /*#__PURE__*/React.createElement("select", {
-    value: value[f.id] || '',
-    onChange: e => onChange && onChange(f.id, e.target.value),
-    style: {
-      ...field,
-      cursor: 'pointer'
-    }
-  }, (f.options || []).map(o => /*#__PURE__*/React.createElement("option", {
-    key: o.value,
-    value: o.value
-  }, o.label))))));
-  return /*#__PURE__*/React.createElement("div", {
-    style: style
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'center',
-      gap: 'var(--space-3)'
-    }
-  }, variant === 'drawer' ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: toggle,
-    onMouseEnter: () => setWarm(true),
-    onMouseLeave: () => setWarm(false),
-    onFocus: () => setWarm(true),
-    onBlur: () => setWarm(false),
-    "aria-expanded": isOpen ? 'true' : 'false',
-    "aria-label": label,
-    style: {
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: 8,
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'flex-start',
-      gap: 3,
-      width: 14
-    }
-  }, [14, 10, 6].map(w => /*#__PURE__*/React.createElement("span", {
-    key: w,
-    style: {
-      display: 'block',
-      width: w,
-      height: 1,
-      background: labelShown ? 'var(--ink)' : 'var(--text-secondary)',
-      transition: 'background var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'block',
-      maxWidth: labelShown ? '9ch' : 0,
-      opacity: labelShown ? 1 : 0,
-      overflow: 'hidden',
-      whiteSpace: 'nowrap',
-      textDecoration: 'underline',
-      textDecorationThickness: '1px',
-      textUnderlineOffset: '0.2em',
-      textDecorationColor: warm ? 'currentColor' : 'transparent',
-      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-reveal) var(--ease-expo), text-decoration-color var(--dur-reveal) var(--ease-expo)'
-    }
-  }, label), marked && !isOpen ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      width: 4,
-      height: 4,
-      borderRadius: '50%',
-      background: 'var(--ink)'
-    }
-  }) : null) : null, countLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      margin: 0,
-      maxWidth: 'none'
-    }
-  }, countLine) : null, showClear ? /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: onClear,
-    style: quiet
-  }, "Rensa") : null, searchId ? /*#__PURE__*/React.createElement("label", {
-    style: {
-      marginLeft: 'auto',
-      display: 'flex',
-      alignItems: 'baseline',
-      gap: 'var(--space-2)',
-      minWidth: 0,
-      flex: '1 1 220px',
-      maxWidth: 320
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      flex: 'none',
-      maxWidth: 'none',
-      color: 'var(--text-secondary)'
-    }
-  }, searchLabel), searchField(searchId, searchPlaceholder, {
-    marginTop: 0,
-    minWidth: 0,
-    flex: '1 1 auto'
-  })) : null), variant === 'open' ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      marginTop: 'var(--space-4)'
-    }
-  }, grid) : /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": isOpen ? 'false' : 'true',
-    style: {
-      display: 'grid',
-      gridTemplateRows: isOpen ? '1fr' : '0fr',
-      opacity: isOpen ? 1 : 0,
-      marginTop: isOpen ? 'var(--space-4)' : 0,
-      visibility: isOpen ? 'visible' : 'hidden',
-      transition: isOpen ? 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s' : 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s linear 420ms'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, grid)));
+      name: away ? 'arrow--up-right' : 'arrow--right',
+      size: 24,
+      style: {
+        width: '.7em',
+        height: '.7em',
+        transform: shift,
+        transition: 'transform var(--dur-reveal) var(--ease-expo)'
+      }
+    }))));
+  }))));
 }
-Object.assign(__ds_scope, { ListingFilters });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ListingFilters.jsx", error: String((e && e.message) || e) }); }
+Object.assign(__ds_scope, { LinkList });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/LinkList.jsx", error: String((e && e.message) || e) }); }
 
 // components/blocks/PeopleCarousel.jsx
 try { (() => {
@@ -9855,8 +9578,7 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    the plus turning to a cross. */
 
 const CARD_COLS = {
-  8: 2,
-  4: 2
+  8: 2
 };
 const VIEWS = ['Allt', 'Intressanta för dig'];
 function PeopleCarousel({
@@ -9895,21 +9617,62 @@ function PeopleCarousel({
   view: viewProp,
   onViewChange,
   ctaLabel = 'Ta kontakt',
-  viewAllHref = null,
-  viewAllLabel = 'Visa alla',
-  viewAllTitle = 'Lär känna människorna bakom Vinge.',
+  profileLabel = 'Se profil',
+  viewAllHref: viewAllHrefProp = null,
+  viewAllLabel: viewAllLabelProp,
+  viewAllTitle: viewAllTitleProp,
   viewAllMark = 'circles-stack',
   inverted = false,
   gridSize = 4,
+  shuffle = false,
+  pinned = 0,
+  grouped = false,
+  pinnedLabel = 'Kontaktpersoner',
+  othersLabel = 'Fler experter',
+  limit,
   id,
   style
 }) {
+  /* The set always closes on the card to Medarbetare. Without a filtered
+     address and copy of its own it takes the general directory and lines. */
+  const viewAllHref = viewAllHrefProp || '/medarbetare/';
+  const viewAllLabel = viewAllLabelProp || 'Visa alla medarbetare';
+  const viewAllTitle = viewAllTitleProp || 'Lär känna människorna bakom Vinge.';
   const [viewState, setViewState] = React.useState(initialView);
   const view = views ? viewProp == null ? viewState : viewProp : 0;
   const setView = v => {
     setViewState(v);
     if (onViewChange) onViewChange(v);
   };
+
+  /* shuffle: a random draw from the pool handed over, once per page view and
+     stable after that (re-renders do not reshuffle). limit: how many of the
+     drawn order stand on the track; the closing card leads to everyone. The
+     pool is the page's to define (an expertise page: everyone tagged with its
+     area); the block only draws from it. */
+  const drawKey = people.map(p => p.href || p.name).join('|');
+  const drawRef = React.useRef({
+    key: null,
+    order: null
+  });
+  /* pinned: the first n people keep their place (the page's named contacts);
+     only the rest are drawn. */
+  const pin = Math.max(0, Math.min(people.length, pinned || 0));
+  if (shuffle && drawRef.current.key !== drawKey + '#' + pin) {
+    const idx = people.map((_, i) => i).slice(pin);
+    for (let i = idx.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const t = idx[i];
+      idx[i] = idx[j];
+      idx[j] = t;
+    }
+    drawRef.current = {
+      key: drawKey + '#' + pin,
+      order: people.map((_, i) => i).slice(0, pin).concat(idx)
+    };
+  }
+  const drawn = shuffle && drawRef.current.order ? drawRef.current.order.map(i => people[i]).filter(Boolean) : people;
+  people = limit != null ? drawn.slice(0, Math.max(0, limit)) : drawn;
   const terms = dialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
   const hasDialogue = terms.length > 0;
   /* A person's note names the tag that matched rather than a claim the data
@@ -9931,12 +9694,27 @@ function PeopleCarousel({
     ...p,
     note: p.note || (p.areas || [])[0]
   }));
+
+  /* Every card the same: "Ta kontakt" always folds out (never a link). The
+     panel holds the e-mail, the number and, after a step, "Se profil" to the
+     person's page. */
+  React.useEffect(() => {
+    const miss = people.filter(p => !(p.email || p.phone) || !p.href).map(p => p.name);
+    if (miss.length) console.warn('PeopleCarousel: every card needs email or phone (Ta kontakt) and href (Profil). Missing on: ' + miss.join(', '));
+  }, [drawKey]);
+  /* grouped: the pinned people and the rest as two labelled runs on one
+     track. Each run sits under its own rule with its label at the start (the
+     contacts' rule in ink, the others' a hairline); the ordinary gutter
+     between them, so the track's card widths and peek stay as they are. The label row is part of every
+     card, so the portraits stay on one line. Off in the filtered view. */
+  const groupOf = i => grouped && !filtered && pin > 0 && pin < shown.length + 1 ? i < pin ? 'pinned' : 'others' : null;
   const count = shown.length + (viewAllHref ? 1 : 0);
   const trackRef = React.useRef(null);
   const [active, setActive] = React.useState(0);
   /* Colour is a hover, not a position: the whole set stands on the noir plate
      and only the portrait under the pointer takes its own colour. Which card
      is snapped still drives the counter — it just no longer drives colour. */
+  const [nameHover, setNameHover] = React.useState(-1);
   const [hover, setHover] = React.useState(-1);
   const [m, setM] = React.useState(null);
   const [openCards, setOpenCards] = React.useState({});
@@ -10005,10 +9783,15 @@ function PeopleCarousel({
      at LG, 40px at MD): the narrower margin alone would leave only a sliver.
      The difference comes off the measure the cards are sized from, so the
      set stays even and the fifth card shows by the same amount as before. */
-  const peekFloor = !m ? 0 : m.cols >= 8 ? 80 : m.cols === 4 ? 40 : 0;
+  /* MD is sized by the measure, not by its four columns: two cards per view
+     only at the narrow end of the band, three from a 820px measure, four from
+     1100px (meeting LG's size at the breakpoint). The next card always shows
+     by 30% of a card past the last full one, page margin included. */
+  const peekFloor = !m ? 0 : m.cols >= 8 ? 80 : 0;
   const peekExtra = !m ? 0 : Math.max(0, peekFloor - m.pad);
   const peekCol = !m ? 0 : (m.content - peekExtra - (m.cols - 1) * m.gutter) / m.cols;
-  const rawCardWidth = !m ? null : CARD_COLS[m.cols] ? CARD_COLS[m.cols] * peekCol + (CARD_COLS[m.cols] - 1) * m.gutter : m.content * 0.74;
+  const mdN = !m ? 0 : m.content >= 1100 ? 4 : m.content >= 820 ? 3 : 2;
+  const rawCardWidth = !m ? null : m.cols === 4 ? (m.content + m.pad - mdN * m.gutter) / (mdN + 0.3) : CARD_COLS[m.cols] ? CARD_COLS[m.cols] * peekCol + (CARD_COLS[m.cols] - 1) * m.gutter : m.content * 0.74;
   /* Never hand the cards a NaN basis: an invalid shorthand drops every card
      back to content width and the row goes ragged. */
   const cardWidth = Number.isFinite(rawCardWidth) && rawCardWidth > 0 ? rawCardWidth : null;
@@ -10253,8 +10036,13 @@ function PeopleCarousel({
     }
   }, shown.map((p, i) => {
     const on = i === hover;
+    const g = groupOf(i),
+      gFirst = g && (i === 0 || groupOf(i - 1) !== g),
+      gLast = g && (i === shown.length - 1 || groupOf(i + 1) !== g);
     return /*#__PURE__*/React.createElement("article", {
       key: p.name + i,
+      "data-group": g || undefined,
+      "aria-label": gFirst ? (g === 'pinned' ? pinnedLabel : othersLabel) + ', ' + p.name : undefined,
       onPointerEnter: () => setHover(i),
       onPointerLeave: () => setHover(h => h === i ? -1 : h),
       onFocus: () => setHover(i),
@@ -10262,9 +10050,53 @@ function PeopleCarousel({
       style: {
         scrollSnapAlign: 'start',
         flex: cardFlex,
-        minWidth: 0
+        minWidth: 0,
+        position: g ? 'relative' : undefined
+      }
+    }, g ? /*#__PURE__*/React.createElement("div", {
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        paddingTop: 'var(--space-2)',
+        marginBottom: 'var(--space-3)',
+        minHeight: 'calc(var(--lh-small) * 1em)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: gLast ? 0 : 'calc(-1 * var(--gutter))',
+        height: 1,
+        background: 'var(--rule-hairline)'
+      }
+    }), /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        margin: 0,
+        maxWidth: 'none',
+        whiteSpace: 'nowrap',
+        color: 'var(--text-secondary)',
+        visibility: gFirst ? 'visible' : 'hidden'
+      }
+    }, g === 'pinned' ? pinnedLabel : othersLabel)) : null, p.href ? /*#__PURE__*/React.createElement("a", {
+      href: p.href,
+      tabIndex: -1,
+      "aria-hidden": "true",
+      onPointerEnter: () => setNameHover(i),
+      onPointerLeave: () => setNameHover(h => h === i ? -1 : h),
+      style: {
+        display: 'block',
+        color: 'inherit'
       }
     }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+      src: p.imageSrc,
+      alt: "",
+      ratio: "4:5",
+      axis: "x",
+      gridSize: gridSize,
+      resolved: on
+    })) : /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
       src: p.imageSrc,
       alt: p.name + (p.role ? ', ' + p.role : ''),
       ratio: "4:5",
@@ -10290,7 +10122,21 @@ function PeopleCarousel({
         margin: 0,
         maxWidth: 'none'
       }
-    }, p.name), p.role || p.note ? /*#__PURE__*/React.createElement("div", {
+    }, p.href ? /*#__PURE__*/React.createElement("a", {
+      href: p.href,
+      tabIndex: -1,
+      "aria-hidden": "true",
+      onPointerEnter: () => setNameHover(i),
+      onPointerLeave: () => setNameHover(h => h === i ? -1 : h),
+      style: {
+        color: 'inherit',
+        textDecorationLine: 'underline',
+        textDecorationThickness: '1px',
+        textUnderlineOffset: '.18em',
+        textDecorationColor: nameHover === i ? 'var(--underline-active)' : 'transparent',
+        transition: 'text-decoration-color var(--dur-reveal) var(--ease-expo)'
+      }
+    }, p.name) : p.name), p.role || p.note ? /*#__PURE__*/React.createElement("div", {
       style: {
         marginTop: 'var(--space-1)'
       }
@@ -10308,7 +10154,8 @@ function PeopleCarousel({
         margin: 0,
         maxWidth: 'none'
       }
-    }, p.note) : null) : null)), p.email || p.phone ? (() => {
+    }, p.note) : null) : null)), p.email || p.phone || p.href ? (() => {
+      const hasContact = true;
       const k = p.name + i;
       const open = !!openCards[k];
       const plus = open || ctaHover === i;
@@ -10318,7 +10165,15 @@ function PeopleCarousel({
         style: {
           marginTop: 'var(--space-4)'
         }
-      }, /*#__PURE__*/React.createElement("button", {
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          display: 'flex',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+          columnGap: 'var(--space-4)',
+          rowGap: 'var(--space-1)'
+        }
+      }, hasContact ? /*#__PURE__*/React.createElement("button", {
         type: "button",
         "aria-expanded": open,
         "aria-controls": panelId,
@@ -10359,7 +10214,7 @@ function PeopleCarousel({
       }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
         name: "add",
         size: 12
-      }))), /*#__PURE__*/React.createElement("div", {
+      }))) : null), hasContact ? /*#__PURE__*/React.createElement("div", {
         id: panelId,
         "aria-hidden": !open,
         style: {
@@ -10391,15 +10246,15 @@ function PeopleCarousel({
       }, p.email) : null, p.phone ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
         href: 'tel:' + p.phone.replace(/[^\d+]/g, ''),
         variant: "small"
-      }, p.phone) : null))));
-    })() : p.href ? /*#__PURE__*/React.createElement("p", {
-      style: {
-        marginTop: 'var(--space-4)'
-      }
-    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-      href: p.href,
-      variant: "small"
-    }, p.ctaLabel || ctaLabel)) : null);
+      }, p.phone) : null, p.href ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+        href: p.href,
+        variant: "small",
+        "aria-label": profileLabel + ': ' + p.name,
+        style: {
+          marginTop: 'var(--space-2)'
+        }
+      }, profileLabel) : null))) : null);
+    })() : null);
   }), viewAllHref ?
   /*#__PURE__*/
   /* The set ends on a panel rather than on a person: wider than a
@@ -10411,7 +10266,20 @@ function PeopleCarousel({
       flex: wideFlex,
       minWidth: 0
     }
-  }, /*#__PURE__*/React.createElement("a", {
+  }, groupOf(0) ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      paddingTop: 'var(--space-2)',
+      marginBottom: 'var(--space-3)',
+      minHeight: 'calc(var(--lh-small) * 1em)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      visibility: 'hidden'
+    }
+  }, othersLabel)) : null, /*#__PURE__*/React.createElement("a", {
     "data-washed": "",
     href: viewAllHref,
     style: {
@@ -10488,2437 +10356,736 @@ function PeopleCarousel({
 Object.assign(__ds_scope, { PeopleCarousel });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/PeopleCarousel.jsx", error: String((e && e.message) || e) }); }
 
-// components/blocks/Record.jsx
+// components/blocks/PodcastEpisodes.jsx
 try { (() => {
-/* The proof block: one line is one job somebody hired us to do.
-   ~120 identical lines, grouped by year, and a readout bar that reads out the
-   line under the cursor. Three things are load-bearing and must not be
-   "improved": the readout bar sticks, its columns never move, and no row links
-   anywhere. Length encodes nothing — every line is the same length, so the
-   only quantity the graphic states is the height of a year block. */
+/* Podd. A podcast's latest episodes on the page it belongs to, played in the
+   design system's own player.
 
-const CELL = {
-  minWidth: 0,
-  whiteSpace: 'nowrap',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-  fontFamily: 'var(--font-text)',
-  fontSize: 'var(--text-small)'
-};
-/* Reserved in rem, not em: an em box scales with each cell's own font-size and
-   the baselines drift. */
-const KEY_CELL = {
-  ...CELL,
-  height: '1rem',
-  lineHeight: '1rem',
-  color: 'var(--text-secondary)'
-};
-const VAL_CELL = {
-  ...CELL,
-  height: '1.375rem',
-  lineHeight: '1.375rem',
-  color: 'var(--text-primary)',
-  fontWeight: 'var(--weight-medium)'
-};
-/* The discipline list is read in full, so it wraps like ordinary text. Two
-   lines are reserved, which is what most entries need. */
-const DISC_CELL = {
-  ...VAL_CELL,
-  whiteSpace: 'normal',
-  overflow: 'visible',
-  textOverflow: 'clip',
-  height: 'auto',
-  minHeight: '2.75rem'
-};
+   The episodes are the podcast host's feed (Pod.space), read by the server on
+   a schedule and handed to the block as the feed has them: title, date,
+   duration, description, the mp3. Nobody types an episode into the CMS; the
+   editor picks the podcast and how many show.
 
-/* TEST: term-list row. A button that has to read as a line of the record's
-   own text, so everything a button brings is taken back off. */
-const TERM_BTN = {
-  appearance: 'none',
-  background: 'none',
-  border: 0,
-  padding: 0,
-  margin: 0,
-  width: '100%',
-  textAlign: 'left',
-  cursor: 'pointer',
-  font: 'inherit',
-  fontFamily: 'var(--font-text)',
-  fontSize: 'var(--text-small)',
-  lineHeight: 1.3
-};
-const PITCH = 18; /* row box, fixed — hover must not reflow the field */
-/* The filtered view labels every match, and a label is a 21px box, so that
-   view runs on a taller row. The field gets longer; every title gets read. */
-const PITCH_FILTERED = 26;
-const BAR = 1; /* the line */
-const BAR_ACTIVE = 2; /* the line under the cursor */
-const FAN = 10; /* air the cursor row opens above and below itself */
-/* Vertical reading: short upright ticks on a fixed pitch. */
-const V_PITCH = 7;
-const V_PITCH_OPEN = 12; /* the group under the cursor opens up to this */
-const V_PITCH_REST = 4; /* every other group closes to this while one is open */
-const V_PROX = 10; /* extra pitch at the cursor, falling off with distance */
-const V_PROX_R = 6; /* how many lines either side the swell reaches */
-/* While a case is pinned the field is one close control, and says so. */
-const CLOSE_CURSOR = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' stroke='%23103a1c' stroke-width='1.5'/%3E%3C/svg%3E\") 12 12, pointer";
-const V_HEIGHT = 36;
-/* SM vertical: the field becomes a side-scrolling rail. One fixed pitch, wide
-   enough that each line is its own stop, and the line on the left edge is the
-   one being read. */
-const R_PITCH = 16;
-const R_HEIGHT = 48;
-const V_LIFT = 8; /* the tick under the cursor stands this much taller */
+   One form at every breakpoint: a compact list (see `row` below). At LG the
+   rows sit on the page grid; below LG each row is the title with date and
+   length under it. */
 
-/* Two readings of the same field. The first is the whole record; the second
-   emphasises what the visitor's own dialogue touches. Neither fetches,
-   reorders or removes a row. */
-const VIEWS = ['Allt', 'Intressanta för dig'];
-function Record({
-  entries = [],
-  /* What the finder derived from the dialogue: { text, areas, sectors }.
-     Absent or empty and the second view shows its own prompt instead. */
-  dialogue = null,
-  index = '',
-  title = 'Uppdragsregistret',
-  premise = 'Varje rad är ett uppdrag någon har anlitat oss för. Registret börjar 2022 och innehåller allt vi har tagit sedan dess.',
-  secondLine = '',
-  lead = '',
-  readingRule = '',
-  closingLine = 'Registret visar de senaste uppdragen. Hela beståndet är sökbart.',
-  actionLabel = 'Sök i registret',
-  closeLabel = 'Stäng',
-  actionHref = '#',
-  viewLabels = VIEWS,
-  /* Show the two-view switch. Off, the block is the whole record only and the
-     AI-derived view is unreachable. Pages keep it off by default and let the
-     demo console bring it back. */
-  views = true,
-  allLine = 'Varje uppdrag vi har tagit sedan 2022.',
-  /* {n} and {total} are filled in. The denominator carries it: a bare count
-     leaves the word "intressanta" standing for nothing. */
-  relevanceLine = '{n} av {total} rör det du frågade om.',
-  emptyBody = 'Den här vyn filtrerar registret på det du har berättat för oss.',
-  emptyLinkLabel = 'Berätta vad du står i, så visar jag vad som rör det',
-  finderHref = '#',
-  /* Warm state: the visitor gets to see what the filter is actually reading,
-     and to take it back. Never a mystery filter. */
-  filterLabel = 'Filtrerat på',
-  resetLabel = 'Nollställ',
-  /* The starred tab says the view is a subset; this says who made it one. It
-     sits with the reset control, so the explanation and the way out of the
-     filtering are read together. */
-  filterNote = '* Urvalet kommer från ditt samtal med AI:n.',
-  askAgainLabel = 'Prata med AI:n igen',
-  /* The register as a page of its own. Opt-in: no label, no link. */
-  allLabel = '',
-  allHref,
-  /* Handed the conversation opener: the empty state's link opens the finder
-     right here rather than sending the visitor back up the page. */
-  onAsk,
-  /* Clears the derived dialogue. Without it the reset control is left out. */
-  onReset,
-  /* Which view the block opens on. 1 is for demoing the warm state — a real
-     page opens on the whole record. */
-  initialView = 0,
-  /* Optionally controlled, so a page (or the demo console) can put the block
-     in either view. Left out, the tabs own it. */
-  view: viewProp,
-  onViewChange,
-  /* TEST (reversible): term lists in the side column that act as a filter on
-     the whole record. Off by default — drop the prop and the block is exactly
-     what it was. Only ever applies to the first view; the AI-derived second
-     view is untouched. */
-  termFilter = false,
-  termCount = 10,
-  workHeading = 'Filtrera på uppdragstyp',
-  discHeading = 'Filtrera på disciplin',
-  termLine = '{n} av {total} uppdrag är {term}.',
-  termResetLabel = 'Visa alla',
-  termToggleLabel = 'Filtrera',
-  /* Vertical reading: the pinned case's way on to the full write-up. */
-  readMoreLabel = 'Läs hela uppdraget',
-  /* SM rail: where the read-more link goes when the entry has no href of its
-     own. On a phone the case is read on its own page, not expanded here. */
-  caseHref = '#',
-  clientLabel = 'Klient',
-  /* Listing: the rows are written out as client names instead of lines, the
-     hovered one folds out its title, preamble and areas, and ends in a
-     link labelled openLabel. Horizontal only. */
-  listing = false,
-  /* Opens with no top air, for when a PageBanner above already carries it. */
-  flushTop = false,
-  openLabel = 'Läs uppdraget',
-  /* The filter drawer's close control, below LG. */
-  termsCloseLabel = 'Stäng filter',
-  yearHeading = 'Filtrera på år',
-  areasLabel = 'Rättsområden',
-  teamLabel = 'Team',
+const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+const dateLabel = s => {
+  const d = new Date(s);
+  return isNaN(d) ? String(s || '') : d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + ' ' + d.getUTCFullYear();
+};
+const secs = d => {
+  if (typeof d === 'number') return d;
+  const p = String(d || '').split(':').map(Number);
+  return p.reduce((a, b) => a * 60 + (b || 0), 0);
+};
+const minutes = d => {
+  const s = secs(d);
+  return s ? Math.max(1, Math.round(s / 60)) + ' min' : '';
+};
+const clock = s => {
+  s = Math.max(0, Math.floor(s || 0));
+  const h = Math.floor(s / 3600),
+    m = Math.floor(s % 3600 / 60),
+    r = s % 60;
+  return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(r).padStart(2, '0');
+};
+const BUS = 'vinge:audio';
+const keyOf = (ep, i) => ep.id || ep.audio || String(i);
+function useBand() {
+  const get = () => typeof window === 'undefined' ? 'lg' : window.matchMedia('(min-width: 1280px)').matches ? 'lg' : window.matchMedia('(min-width: 768px)').matches ? 'md' : 'sm';
+  const [b, setB] = React.useState(get);
+  React.useEffect(() => {
+    const on = () => setB(get());
+    window.addEventListener('resize', on);
+    return () => window.removeEventListener('resize', on);
+  }, []);
+  return b;
+}
+function PodcastEpisodes({
+  title,
+  label = 'Podcast',
+  episodes = [],
+  link,
+  limit = 6,
+  headingLevel = 'h2',
+  listVisible = 4,
+  moreLabel = n => 'Visa ' + n + ' avsnitt till',
+  unavailableLabel = 'Avsnitten kan inte visas här just nu.',
+  errorLabel = 'Avsnittet kan inte spelas här just nu.',
+  demoState,
   id,
   style
 }) {
-  const [viewState, setViewState] = React.useState(initialView);
-  const view = views ? viewProp == null ? viewState : viewProp : 0;
-  const setView = v => {
-    setViewState(v);
-    if (onViewChange) onViewChange(v);
-  };
-  const [cursor, setCursor] = React.useState(0);
-  /* The filter control and the readout pin as one group. The readout is the
-     taller of the two, so it would unpin first and slide up under the
-     control; its height is handed to the grid so the control's sticky range
-     ends at the same scroll position (see grid.css). */
-  const sideRef = React.useRef(null);
+  const band = useBand();
+  const list = (episodes || []).slice(0, Math.max(1, limit));
+  const uid = React.useId().replace(/:/g, '');
+  const audioRef = React.useRef(null);
+  const first = list.length ? keyOf(list[0], 0) : null;
+  const [cur, setCur] = React.useState(demoState ? first : null);
+  const [phase, setPhase] = React.useState(demoState || 'idle');
+  const [t, setT] = React.useState(demoState === 'paused' || demoState === 'playing' ? 312 : 0);
+  const [dur, setDur] = React.useState(0);
+  const [hover, setHover] = React.useState(-1);
+  const [open, setOpen] = React.useState(false);
+  const foldRef = React.useRef(null);
+  const H = headingLevel;
+  const lg = band === 'lg';
+  const wasDemo = React.useRef(!!demoState);
   React.useEffect(() => {
-    const s = sideRef.current;
-    if (!s || typeof ResizeObserver === 'undefined') return undefined;
-    const host = s.closest('.grid');
-    if (!host) return undefined;
-    const ro = new ResizeObserver(() => host.style.setProperty('--record-side-h', s.offsetHeight + 'px'));
-    ro.observe(s);
-    return () => ro.disconnect();
-  }, [termFilter, view]);
-  const [printed, setPrinted] = React.useState(false);
-  /* Nothing is lit until the visitor actually points: the default cursor row
-     must not read as a match. */
-  const [touched, setTouched] = React.useState(false);
-  const [scan, setScan] = React.useState(-1);
-  /* { kind: 'work' | 'disc', v } — one term at a time, across both lists. A
-     second click on the lit term takes the filter back off. */
-  const [term, setTerm] = React.useState(null);
-  /* Same as the listings: the filters live behind the mark, and the label
-     comes out on approach. */
-  const [termsOpen, setTermsOpen] = React.useState(false);
-  const [termsWarm, setTermsWarm] = React.useState(false);
-  /* One flag per term list: is there anything below the cut? The fade is only
-     drawn when the answer is yes, so a short list is not faded for nothing. */
-  const scrollRefs = React.useRef([]);
-  const [fade, setFade] = React.useState([false, false]);
-  const sectionRef = React.useRef(null);
-  const rowRefs = React.useRef([]);
-  const fieldRef = React.useRef(null);
-  const ptr = React.useRef(null);
-  const reduced = React.useRef(false);
-  /* Without a pointer there is no hover, so the field reads itself: the row
-     passing through the lower middle of the viewport is the one that turns
-     into text. */
-  const [touch, setTouch] = React.useState(false);
-  const [small, setSmall] = React.useState(false);
-  /* Below LG (SM and MD): the listing card carries its own fields. */
-  const [narrow, setNarrow] = React.useState(false);
-  /* The filter panel shows its scrollbar only while it is being scrolled. */
-  const termsListRef = React.useRef(null);
-  React.useEffect(() => {
-    const el = termsListRef.current;
-    if (!el) return;
-    let t = 0;
-    /* data-more while anything is below the cut: the panel fades out at
-       its foot then, and only then. */
-    const edge = () => {
-      if (el.scrollHeight - el.scrollTop - el.clientHeight > 4) el.setAttribute('data-more', '');else el.removeAttribute('data-more');
-    };
-    const onScroll = () => {
-      edge();
-      el.setAttribute('data-scrolling', '');
-      window.clearTimeout(t);
-      t = window.setTimeout(() => el.removeAttribute('data-scrolling'), 900);
-    };
-    edge();
-    const ro = new ResizeObserver(edge);
-    ro.observe(el);
-    if (el.firstElementChild) ro.observe(el.firstElementChild);
-    el.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    return () => {
-      ro.disconnect();
-      el.removeEventListener('scroll', onScroll);
-      window.clearTimeout(t);
-    };
-  });
-  const pointerRef = React.useRef(null);
-  /* Listing row: the client written out; the hovered row folds out its title
-     and preamble. The whole row is the link into the case. */
-  const [expanded, setExpanded] = React.useState(null);
-  /* Pointer over the unfolded row: the rest of the list steps back. */
-  const [onOpen, setOnOpen] = React.useState(false);
-  /* Rows open on dwell, not on click: the pointer rests on a line for DWELL ms
-     while a small ring fills in place of the cursor, then the row folds out.
-     Touch keeps the tap. Leaving the field cancels a pending open. */
-  const DWELL = 650;
-  /* The ring stays hidden for the first RING_WAIT ms, so scrolling past rows
-     never flashes it; only a pointer that actually rests sees it appear. */
-  const RING_WAIT = 280;
-  const [pending, setPending] = React.useState(null);
-  /* A row the visitor just closed by its name stays shut while the pointer is
-     still on it; the dwell only arms again once the pointer has left it. */
-  const [shutHold, setShutHold] = React.useState(null);
-  const [ringOn, setRingOn] = React.useState(false);
-  React.useEffect(() => {
-    setRingOn(false);
-    if (!listing || touch || !touched || cursor == null || cursor < 0 || cursor === expanded || cursor === shutHold) {
-      setPending(null);
-      return undefined;
-    }
-    setPending(cursor);
-    const r = reduced.current ? 0 : window.setTimeout(() => setRingOn(true), RING_WAIT);
-    const t = window.setTimeout(() => {
-      setExpanded(cursor);
-      setOnOpen(true);
-      setPending(null);
-      setRingOn(false);
-    }, reduced.current ? 0 : DWELL);
-    return () => {
-      window.clearTimeout(t);
-      window.clearTimeout(r);
-    };
-  }, [listing, touch, touched, cursor, expanded, shutHold]);
-  /* The stuck year sits on the header wordmark's bottom edge: measured, so it
-     holds whatever size the header has at this viewport. */
-  const [yearTop, setYearTop] = React.useState(22);
-  React.useEffect(() => {
-    if (!listing) return undefined;
-    const measure = () => {
-      const logo = document.querySelector('header img[alt="Vinge"]') || document.querySelector('[data-fixed-chrome] img[alt="Vinge"]') || document.querySelector('img[alt="Vinge"]');
-      const f = fieldRef.current;
-      const probe = f && f.querySelector('[data-year-baseline]');
-      if (!logo || !probe) return;
-      const box = probe.parentElement.parentElement.parentElement;
-      const base = probe.getBoundingClientRect().bottom - box.getBoundingClientRect().top;
-      /* Below LG the year starts at the wordmark's left edge, so on its
-         baseline the two collide. There it pins just under the header row. */
-      const sm = window.matchMedia('(max-width: 1279px)').matches;
-      const head = logo.closest('header');
-      const next = sm && head ? Math.round(head.getBoundingClientRect().bottom) : Math.max(0, Math.round(logo.getBoundingClientRect().bottom - base));
-      setYearTop(p => p === next ? p : next);
-    };
-    measure();
-    const t = window.setTimeout(measure, 600);
-    window.addEventListener('resize', measure);
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
-    return () => {
-      window.clearTimeout(t);
-      window.removeEventListener('resize', measure);
-    };
-  }, [listing]);
-  /* Scrolling moves the rows under a still pointer without any mouse event, so
-     the pointer and the row it reads are re-solved from its last position. */
-  const listPtr = React.useRef(null);
-  React.useEffect(() => {
-    if (!listing || touch) return undefined;
-    let frame = 0;
-    const apply = () => {
-      frame = 0;
-      const p = listPtr.current;
-      const f = fieldRef.current;
-      if (!p || !f) return;
-      const b = f.getBoundingClientRect();
-      const inside = p.x >= b.left && p.x <= b.right && p.y >= b.top && p.y <= b.bottom;
-      if (!inside) {
-        setTouched(false);
-        return;
+    if (!demoState) {
+      if (wasDemo.current) {
+        setCur(null);
+        setPhase('idle');
+        setT(0);
       }
-      const hit = document.elementFromPoint(p.x, p.y);
-      const row = hit && hit.closest ? hit.closest('[data-row-i]') : null;
-      if (row) {
-        setCursor(Number(row.getAttribute('data-row-i')));
-        setTouched(true);
-      }
-    };
-    const onScroll = () => {
-      if (!frame) frame = requestAnimationFrame(apply);
-    };
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      if (frame) cancelAnimationFrame(frame);
-    };
-  }, [listing, touch]);
-  const renderListRow = (e, on, rowShut, rowOpacity) => {
-    const open = expanded === e.i;
-    return /*#__PURE__*/React.createElement("div", {
-      key: e.i,
-      style: {
-        display: 'grid',
-        gridTemplateRows: rowShut ? '0fr' : '1fr',
-        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("div", {
-      ref: el => {
-        rowRefs.current[e.i] = el;
-      },
-      role: "button",
-      tabIndex: rowShut ? -1 : 0,
-      "aria-label": [e.client, e.title].filter(Boolean).join(': '),
-      "aria-expanded": open,
-      "data-row-i": e.i,
-      onMouseEnter: () => {
-        setCursor(e.i);
-        setTouched(true);
-        setOnOpen(open);
-        setShutHold(h => h === e.i ? h : null);
-      },
-      onMouseLeave: () => {
-        setOnOpen(false);
-        setShutHold(h => h === e.i ? null : h);
-      },
-      onFocus: () => {
-        setCursor(e.i);
-        setTouched(true);
-      },
-      onClick: ev => {
-        if (!open) {
-          setExpanded(e.i);
-          setOnOpen(true);
-          setShutHold(null);
-          return;
-        }
-        /* The open row's name line is also its close control. */
-        if (ev.target.closest && ev.target.closest('[data-row-head]')) {
-          setExpanded(null);
-          setOnOpen(false);
-          if (!touch) setShutHold(e.i);
-        }
-      },
-      onKeyDown: ev => {
-        if (ev.target !== ev.currentTarget || ev.key !== 'Enter' && ev.key !== ' ') return;
-        ev.preventDefault();
-        setExpanded(open ? null : e.i);
-        setShutHold(open && !touch ? e.i : null);
-      },
-      style: {
-        display: 'block',
-        overflow: 'hidden',
-        minHeight: 0,
-        color: 'inherit',
-        textDecoration: 'none',
-        outline: 'none',
-        borderBottom: rowShut ? 0 : '1px solid var(--rule-hairline)',
-        paddingBlock: rowShut ? 0 : on ? 'calc(var(--space-1) + var(--space-0))' : 'var(--space-1)',
-        cursor: open && !touch ? 'default' : !touch && ringOn && pending === e.i ? 'none' : 'pointer',
-        opacity: onOpen && !open && !touch ? Math.min(rowOpacity, 0.45) : rowOpacity,
-        transition: 'opacity var(--dur-fast) var(--ease-quart), padding-block var(--dur-slow) var(--ease-expo)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      "data-row-head": "",
-      className: "small",
-      style: {
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        gap: 'var(--space-3)',
-        maxWidth: 'none',
-        cursor: open ? 'pointer' : 'inherit',
-        color: on || open ? 'var(--text-primary)' : 'var(--text-secondary)',
-        transition: 'color var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("span", null, e.client), touch ? /*#__PURE__*/React.createElement("span", {
-      "aria-hidden": "true",
-      style: {
-        position: 'relative',
-        flex: '0 0 auto',
-        width: 11,
-        height: 11,
-        opacity: open ? 1 : 0,
-        transition: 'opacity var(--dur-fast) var(--ease-expo)'
-      }
-    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-      key: d,
-      style: {
-        position: 'absolute',
-        left: 0,
-        top: 'calc(50% - 0.5px)',
-        width: 11,
-        height: 1,
-        background: 'var(--ink)',
-        transform: 'rotate(' + d + 'deg)'
-      }
-    }))) : null), /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'grid',
-        gridTemplateRows: open ? '1fr' : '0fr',
-        transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'block',
-        overflow: 'hidden',
-        minHeight: 0
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 'var(--space-2)',
-        maxWidth: '44rem',
-        paddingBlock: 'var(--space-4)'
-      }
-    }, e.title ? /*#__PURE__*/React.createElement("span", {
-      "data-row-title": "",
-      className: "subhead",
-      style: {
-        display: 'block',
-        marginBlockStart: 'var(--row-title-shift, 0px)',
-        maxWidth: 'none',
-        color: 'var(--ink)',
-        textWrap: 'pretty'
-      }
-    }, e.title) : null, e.preamble ? /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        display: 'block',
-        color: 'var(--text-secondary)'
-      }
-    }, e.preamble) : null, narrow && (e.work || (e.disciplines || []).length) ? /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'grid',
-        gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)',
-        columnGap: 'var(--gutter)',
-        marginBlockStart: 'var(--space-4)'
-      }
-    }, [{
-      k: 'Typ av uppdrag',
-      v: e.work ? [e.work] : []
-    }, {
-      k: 'Discipliner',
-      v: e.disciplines || []
-    }].map(c => /*#__PURE__*/React.createElement("span", {
-      key: c.k,
-      style: {
-        display: 'flex',
-        flexDirection: 'column',
-        minWidth: 0
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      style: {
-        ...KEY_CELL,
-        marginBlockEnd: 'var(--space-1)'
-      }
-    }, c.k), c.v.length ? c.v.map(d => /*#__PURE__*/React.createElement("span", {
-      key: d,
-      className: "small",
-      style: {
-        display: 'block',
-        color: 'var(--text-primary)',
-        fontWeight: 'var(--weight-medium)',
-        textWrap: 'pretty'
-      }
-    }, d)) : /*#__PURE__*/React.createElement("span", {
-      className: "small",
-      style: {
-        display: 'block',
-        color: 'var(--text-primary)'
-      }
-    }, "\u2014")))) : null, openLabel ? /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: 'flex',
-        marginBlockStart: 'var(--space-3)'
-      }
-    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-      href: e.href || '#',
-      variant: "small",
-      tabIndex: open ? 0 : -1,
-      style: {
-        display: 'inline-flex',
-        alignItems: 'center',
-        gap: 'var(--space-1)'
-      }
-    }, openLabel, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
-      name: "arrow--right",
-      size: "sm"
-    }))) : null)))));
-  };
-  /* Desktop listing: the readout rides level with the row it is reading —
-     the hovered row while the pointer is on the list, otherwise the unfolded
-     one — and glides there. While it follows it leaves sticky and sits in
-     page space, so the page scrolls it natively and the glide is computed in
-     page coordinates: scrolling never makes it chase. With no row it glides
-     to where sticky would hold it, then hands back to sticky. */
-  const sideTargetRef = React.useRef(null);
-  sideTargetRef.current = touched && cursor != null && cursor >= 0 ? cursor : expanded;
-  const sideKick = React.useRef(null);
-  /* Pointer on the unfolded row: its two hairlines run on left under the
-     readout, so row and readout read as one case. Drawn in the body's own
-     space, outside the rows' clipping. */
-  const strokeRef = React.useRef(null);
-  /* The filter control steps aside while the travelling readout passes over it. */
-  const termsRef = React.useRef(null);
-  const termsOpenRef = React.useRef(false);
-  termsOpenRef.current = termsOpen;
-  /* Below LG the listing's term lists are a drawer at the right edge. It
-     leaves the page uncovered and scrollable, so the record can be watched
-     closing up behind it; Escape or a tap outside it puts it away. */
-  React.useEffect(() => {
-    if (!listing || !narrow || !termsOpen) return undefined;
-    const onKey = ev => {
-      if (ev.key === 'Escape') setTermsOpen(false);
-    };
-    const onDown = ev => {
-      const t = termsRef.current;
-      if (t && !t.contains(ev.target)) setTermsOpen(false);
-    };
-    document.addEventListener('keydown', onKey);
-    document.addEventListener('pointerdown', onDown);
-    return () => {
-      document.removeEventListener('keydown', onKey);
-      document.removeEventListener('pointerdown', onDown);
-    };
-  }, [listing, narrow, termsOpen]);
-  const placeStrokesRef = React.useRef(null);
-  const expandedRef = React.useRef(null);
-  expandedRef.current = expanded;
-  const strokesOn = listing && !small && !touch && onOpen && expanded != null;
-  React.useEffect(() => {
-    if (strokesOn && placeStrokesRef.current) placeStrokesRef.current();
-  }, [strokesOn, expanded]);
-  React.useEffect(() => {
-    const side = sideRef.current;
-    const clear = () => {
-      if (!side) return;
-      side.style.position = '';
-      side.style.top = '';
-      side.style.transform = '';
-    };
-    if (!side || !listing || small || touch) {
-      clear();
-      sideKick.current = null;
-      return undefined;
-    }
-    const placeStrokes = () => {
-      const g = strokeRef.current;
-      const row = expandedRef.current != null ? rowRefs.current[expandedRef.current] : null;
-      if (!g || !row) return;
-      const host = g.parentElement.getBoundingClientRect();
-      const r = row.getBoundingClientRect();
-      const left = side.getBoundingClientRect().left;
-      g.style.left = left - host.left + 'px';
-      g.style.top = r.top - 1 - host.top + 'px';
-      g.style.width = Math.max(0, r.left - left) + 'px';
-      g.style.height = r.height + 'px';
-      /* The stroke always carries on across the open row. The row above's own
-         bottom border is dimmed with that row (or absent at the top of a month),
-         so it cannot be the open case's top edge. */
-      const cap = g.querySelector('[data-stroke-cap]');
-      if (cap) cap.style.width = r.width + 'px';
-    };
-    placeStrokesRef.current = placeStrokes;
-    const hideTerms = () => {
-      const t = termsRef.current;
-      if (!t) return;
-      const el = t.querySelector('button') || t;
-      const a = el.getBoundingClientRect(),
-        b = side.getBoundingClientRect();
-      /* Clear by a margin, so it is gone before the readout reaches it. */
-      const m = 48;
-      const hit = mode === 'page' && !termsOpenRef.current && a.bottom + m > b.top && a.top - m < b.bottom && a.right > b.left && a.left < b.right;
-      el.style.opacity = hit ? '0' : '';
-      el.style.pointerEvents = hit ? 'none' : '';
-      el.style.transition = hit ? 'opacity 80ms linear' : 'opacity var(--dur-fast) var(--ease-quart)';
-    };
-    /* Baseline of an element's first line, as an offset from its top: a
-       zero-height inline probe sits on the baseline. Cached per element. */
-    const baseCache = new WeakMap();
-    const baseOf = box => {
-      if (baseCache.has(box)) return baseCache.get(box);
-      const walk = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, {
-        acceptNode: n => n.nodeValue.trim() ? 1 : 3
-      });
-      const tn = walk.nextNode();
-      if (!tn) return 0;
-      const probe = document.createElement('span');
-      probe.style.cssText = 'display:inline-block;width:0;height:0;vertical-align:baseline';
-      tn.parentNode.insertBefore(probe, tn);
-      const v = probe.getBoundingClientRect().top - box.getBoundingClientRect().top;
-      probe.remove();
-      baseCache.set(box, v);
-      return v;
-    };
-    /* The panel keeps its own spacing; the row's title is set down so its
-       cap top meets Discipliner's. One offset for every row, held on the
-       field as a variable, so nothing reflows as the target changes. */
-    let shift = null;
-    const alignDisc = head => {
-      const d = side.querySelector('[data-readout-disc]');
-      const row = head && head.parentElement;
-      const title = row && row.getAttribute('aria-expanded') === 'true' && row.querySelector('[data-row-title]');
-      const host = fieldRef.current;
-      if (!d || !title || !host || Math.abs(head.getBoundingClientRect().top + baseOf(head) - baseOf(side) - side.getBoundingClientRect().top) > 1) return;
-      const capTop = el => el.getBoundingClientRect().top + baseOf(el) - 0.7 * parseFloat(getComputedStyle(el).fontSize);
-      const k = d.firstElementChild || d;
-      const cur = parseFloat(getComputedStyle(title).marginBlockStart) || 0;
-      const want = Math.max(-16, capTop(k) - (capTop(title) - cur));
-      if (shift == null || Math.abs(want - shift) > 0.5) {
-        shift = want;
-        host.style.setProperty('--row-title-shift', want.toFixed(1) + 'px');
-      }
-    };
-    let frame = 0,
-      last = 0,
-      mode = 'sticky',
-      off = 0,
-      cur = 0,
-      stickyTop = parseFloat(getComputedStyle(side).top) || 0;
-    const headOf = i => {
-      const r = i != null ? rowRefs.current[i] : null;
-      return r && r.querySelector('[data-row-head]');
-    };
-    const tick = now => {
-      frame = 0;
-      const dt = last ? Math.min(64, now - last) : 16.7;
-      last = now;
-      const y = window.scrollY;
-      const head = headOf(sideTargetRef.current);
-      if (mode === 'sticky') {
-        if (!head) return;
-        /* Leave sticky where it stands: page mode, offset to the same spot. */
-        const at = side.getBoundingClientRect().top;
-        side.style.position = 'relative';
-        side.style.top = 'auto';
-        side.style.transform = '';
-        const nat = side.getBoundingClientRect().top;
-        off = at - nat;
-        cur = at + y;
-        mode = 'page';
-        side.style.transform = 'translateY(' + off + 'px)';
-      }
-      const nat = side.getBoundingClientRect().top - off;
-      let target;
-      if (head) target = head.getBoundingClientRect().top + baseOf(head) - baseOf(side) + y;else {
-        const body = side.parentElement.getBoundingClientRect();
-        target = Math.min(Math.max(nat + y, y + stickyTop), body.bottom + y - side.offsetHeight);
-      }
-      const k = reduced.current ? 1 : 1 - Math.pow(1 - 0.35, dt / 16.7);
-      cur += (target - cur) * k;
-      if (Math.abs(target - cur) < 0.5) cur = target;
-      off = cur - y - nat;
-      if (!head && cur === target) {
-        clear();
-        mode = 'sticky';
-        off = 0;
-        alignDisc(null);
-        hideTerms();
-        return;
-      }
-      side.style.transform = 'translateY(' + off.toFixed(2) + 'px)';
-      alignDisc(head);
-      placeStrokes();
-      hideTerms();
-      frame = requestAnimationFrame(tick);
-    };
-    sideKick.current = () => {
-      if (!frame) {
-        last = 0;
-        frame = requestAnimationFrame(tick);
-      }
-    };
-    sideKick.current();
-    return () => {
-      if (frame) cancelAnimationFrame(frame);
-      clear();
-      sideKick.current = null;
-    };
-  }, [listing, small, touch]);
-  React.useEffect(() => {
-    if (sideKick.current) sideKick.current();
-  });
-  /* The record always reads as upright ticks; only the listing page keeps
-     its rows of client names. On SM the ticks become the side-scrolling rail. */
-  const vertical = !listing;
-  const rail = vertical && small;
-  /* A clicked line pins its case open below the field. While pinned the field
-     stops reading the pointer: the next click anywhere on it closes the case. */
-  const [pinned, setPinnedState] = React.useState(null);
-  const pinnedRef = React.useRef(null);
-  const caseRef = React.useRef(null);
-  const bodyRef = React.useRef(null);
-  const [bodyCut, setBodyCut] = React.useState(false);
-  React.useLayoutEffect(() => {
-    const el = bodyRef.current;
-    const next = !!el && el.scrollHeight - el.clientHeight > 4;
-    setBodyCut(p => p === next ? p : next);
-  });
-  const setPinned = v => {
-    pinnedRef.current = v;
-    setPinnedState(v);
-  };
-  const pin = i => {
-    setPinned(i);
-    setCursor(i);
-    setTouched(true);
-    /* A light anchor: the field is brought up under the header so the case
-       opening beneath it lands in view, with the pinned line still above. */
-    window.setTimeout(() => {
-      const f = fieldRef.current;
-      if (!f) return;
-      const top = f.getBoundingClientRect().top + window.scrollY - 112;
-      window.scrollTo({
-        top: Math.max(0, top),
-        behavior: reduced.current ? 'auto' : 'smooth'
-      });
-    }, 60);
-  };
-  const unpin = () => setPinned(null);
-  /* Vertical: the row of groups never wraps. Its width is measured, and every
-     tick's pitch is solved against it, so a swell in one place is paid for by
-     compression everywhere else instead of pushing a group onto a new row. */
-  const [fieldBox, setFieldBox] = React.useState({
-    w: 0,
-    gap: 0
-  });
-  React.useEffect(() => {
-    if (!vertical) return;
-    const el = fieldRef.current;
-    if (!el) return;
-    const read = () => {
-      const w = el.clientWidth;
-      const gap = parseFloat(getComputedStyle(el).columnGap) || 0;
-      setFieldBox(p => p.w === w && p.gap === gap ? p : {
-        w,
-        gap
-      });
-    };
-    read();
-    const ro = new ResizeObserver(read);
-    ro.observe(el);
-    return () => ro.disconnect();
-  }, [vertical]);
-  /* The trailing title: moved by direct style writes, not state, so following
-     the pointer never re-renders 120 rows. */
-  const tipRef = React.useRef(null);
-  const tipPos = React.useRef({
-    x: 0,
-    y: 0,
-    tx: 0,
-    ty: 0,
-    live: false,
-    frame: 0
-  });
-  const tipTo = (x, y, snap) => {
-    const p = tipPos.current;
-    p.tx = x;
-    p.ty = y;
-    if (snap || !p.live || reduced.current) {
-      p.x = x;
-      p.y = y;
-      p.live = true;
-    }
-    const step = () => {
-      p.frame = 0;
-      p.x += (p.tx - p.x) * 0.14;
-      p.y += (p.ty - p.y) * 0.14;
-      const el = tipRef.current;
-      if (el) el.style.transform = 'translate3d(' + p.x.toFixed(1) + 'px,' + p.y.toFixed(1) + 'px,0)';
-      if (Math.abs(p.tx - p.x) > 0.3 || Math.abs(p.ty - p.y) > 0.3) p.frame = requestAnimationFrame(step);
-    };
-    if (!p.frame) p.frame = requestAnimationFrame(step);
-  };
-  React.useEffect(() => () => {
-    if (tipPos.current.frame) cancelAnimationFrame(tipPos.current.frame);
-  }, []);
-  React.useEffect(() => {
-    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    /* Narrow viewports get the scroll reading too, not just touch devices —
-       a phone-width window in a desktop browser is the same layout. */
-    const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
-    const sm = window.matchMedia('(max-width: 767px)');
-    const nw = window.matchMedia('(max-width: 1279px)');
-    const sync = () => {
-      setTouch(mq.matches);
-      setSmall(sm.matches);
-      setNarrow(nw.matches);
-    };
-    sync();
-    if (mq.addEventListener) {
-      mq.addEventListener('change', sync);
-      sm.addEventListener('change', sync);
-      nw.addEventListener('change', sync);
-      return () => {
-        mq.removeEventListener('change', sync);
-        sm.removeEventListener('change', sync);
-        nw.removeEventListener('change', sync);
-      };
-    }
-  }, []);
-
-  /* SM rail: nothing is read until the visitor scrolls it. From then on the
-     line nearest the rail's left edge is the cursor, and moving the rail
-     lets go of a pinned case, since the case below follows the edge. */
-  const [railMore, setRailMore] = React.useState(true);
-  const [railHit, setRailHit] = React.useState(true);
-  const markRef = React.useRef(null);
-  /* Each line that arrives under the marker springs it up and lets it settle,
-     so the change of line is felt, not only read below. */
-  React.useEffect(() => {
-    const m = markRef.current;
-    if (!rail || !touched || !m || reduced.current || !m.animate) return;
-    m.animate([{
-      height: R_HEIGHT + V_LIFT - 3 + 'px'
-    }, {
-      height: R_HEIGHT + V_LIFT + 'px'
-    }], {
-      duration: 180,
-      easing: 'cubic-bezier(0.25, 1, 0.5, 1)'
-    });
-  }, [cursor, rail, touched]);
-  React.useEffect(() => {
-    if (!rail) return undefined;
-    const el = fieldRef.current;
-    if (!el) return undefined;
-    let frame = 0;
-    let moved = false;
-    /* Read on the scroll event itself, not a frame later: the fixed marker at
-       the edge and the case below must change on the same frame the line
-       arrives under it. Offsets are scroll-independent, so no rect reads. */
-    const pick = () => {
-      const x = el.scrollLeft + R_PITCH / 2;
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((t, i) => {
-        if (!t || !t.offsetWidth || !t.hasAttribute('data-tick')) return;
-        const d = Math.abs(t.offsetLeft + R_PITCH / 2 - x);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-      /* Between two years there is no line at the edge, so the marker goes
-         rather than standing in the gap. */
-      const under = best >= 0 && bestD < R_PITCH / 2;
-      setRailHit(p => p === under ? p : under);
-    };
-    const read = () => {
-      frame = 0;
-      const next = el.scrollWidth - el.scrollLeft - el.clientWidth > 4;
-      setRailMore(p => p === next ? p : next);
-    };
-    const onScroll = () => {
-      moved = true;
-      if (pinnedRef.current != null) setPinned(null);
-      pick();
-      if (!frame) frame = requestAnimationFrame(read);
-    };
-    read();
-    el.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    const ro = new ResizeObserver(() => {
-      if (!frame) frame = requestAnimationFrame(read);
-    });
-    ro.observe(el);
-    return () => {
-      el.removeEventListener('scroll', onScroll);
-      ro.disconnect();
-      if (frame) cancelAnimationFrame(frame);
-    };
-  }, [rail, view, term]);
-
-  /* Touch: the focal band sits at 62% of the viewport, low enough that the row
-     being read is not under the thumb. The nearest row to it is the cursor. */
-  React.useEffect(() => {
-    if (!touch || vertical || listing) return;
-    let frame = 0;
-    const apply = () => {
-      frame = 0;
-      const focal = window.innerHeight * 0.62;
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((el, i) => {
-        if (!el) return;
-        const r = el.getBoundingClientRect();
-        if (r.bottom < 0 || r.top > window.innerHeight) return;
-        const d = Math.abs(r.top + r.height / 2 - focal);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    apply();
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [touch, vertical]);
-
-  /* A browser only recomputes hover when the pointer moves, so scrolling with
-     a still cursor over the field would leave the reading on whatever row it
-     entered on — or on none at all. The pointer position is kept and the row
-     under it is resolved again on every scroll, so passing the field always
-     reads a line. */
-  React.useEffect(() => {
-    if (touch) return;
-    let frame = 0;
-    const onMove = ev => {
-      ptr.current = {
-        x: ev.clientX,
-        y: ev.clientY
-      };
-    };
-    const apply = () => {
-      frame = 0;
-      const p = ptr.current;
-      const box = fieldRef.current;
-      if (!p || !box || pinnedRef.current != null) return;
-      const b = box.getBoundingClientRect();
-      if (p.x < b.left || p.x > b.right || p.y < b.top || p.y > b.bottom) {
-        if (!box.contains(document.activeElement)) setTouched(false);
-        return;
-      }
-      let best = -1;
-      let bestD = Infinity;
-      rowRefs.current.forEach((el, i) => {
-        if (!el) return;
-        const r = el.getBoundingClientRect();
-        if (vertical && !r.width) return;
-        if (listing) {
-          if (p.y >= r.top && p.y <= r.bottom) {
-            best = i;
-            bestD = 0;
-          }
-          return;
-        }
-        const d = vertical ? Math.hypot(r.left + r.width / 2 - p.x, (r.top + r.height / 2 - p.y) * 3) : Math.abs(r.top + r.height / 2 - p.y);
-        if (d < bestD) {
-          bestD = d;
-          best = i;
-        }
-      });
-      if (best >= 0) {
-        setCursor(best);
-        setTouched(true);
-      }
-      if (vertical) tipTo(p.x - b.left, p.y - b.top);
-    };
-    const onScroll = () => {
-      if (!frame) frame = window.requestAnimationFrame(apply);
-    };
-    window.addEventListener('pointermove', onMove, {
-      passive: true
-    });
-    window.addEventListener('scroll', onScroll, {
-      passive: true
-    });
-    window.addEventListener('resize', onScroll);
-    return () => {
-      window.removeEventListener('pointermove', onMove);
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (frame) window.cancelAnimationFrame(frame);
-    };
-  }, [touch, vertical]);
-
-  /* Listing: grouped by month within the year when the entries carry one. */
-  const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
-  const blocks = React.useMemo(() => {
-    const out = [];
-    let n = 0;
-    entries.forEach(e => {
-      const byMonth = listing && e.month;
-      const key = byMonth ? e.year + '-' + e.month : String(e.year);
-      let b = out[out.length - 1];
-      if (!b || b.key !== key) {
-        const m = byMonth ? MONTHS[e.month - 1] : '';
-        b = {
-          key,
-          year: e.year,
-          label: m ? m.charAt(0).toUpperCase() + m.slice(1) : listing ? '' : String(e.year),
-          rows: []
-        };
-        out.push(b);
-      }
-      b.rows.push({
-        ...e,
-        i: n++
-      });
-    });
-    return out;
-  }, [entries, listing]);
-  const yearGroups = React.useMemo(() => {
-    if (!listing) return [{
-      year: 'all',
-      blocks
-    }];
-    const out = [];
-    blocks.forEach(b => {
-      let g = out[out.length - 1];
-      if (!g || g.year !== b.year) {
-        g = {
-          year: b.year,
-          blocks: []
-        };
-        out.push(g);
-      }
-      g.blocks.push(b);
-    });
-    return out;
-  }, [blocks, listing]);
-
-  /* Relevance, as the brief defines it: the lead discipline is one the finder
-     matched, or the sector is. Loose on purpose — a row that touches the
-     question at all belongs in the subset. */
-  const hasDialogue = !!(dialogue && ((dialogue.areas || []).length || (dialogue.sectors || []).length));
-  const lit = React.useMemo(() => {
-    if (!hasDialogue) return [];
-    const areas = new Set(dialogue.areas || []);
-    const sectors = new Set(dialogue.sectors || []);
-    const hit = [];
-    entries.forEach((e, i) => {
-      const lead = (e.disciplines || [])[0];
-      if (areas.has(lead) || sectors.has(e.sector)) hit.push(i);
-    });
-    return hit;
-  }, [entries, dialogue, hasDialogue]);
-  const litSet = React.useMemo(() => new Set(lit), [lit]);
-
-  /* The lists are read off the record itself rather than declared, so they
-     cannot name a term the field does not contain. Most-used first, ties by
-     name so the order is stable across loads. */
-  const termLists = React.useMemo(() => {
-    if (!termFilter) return {
-      work: [],
-      disc: []
-    };
-    const tally = get => {
-      const m = new Map();
-      entries.forEach(e => get(e).forEach(v => {
-        if (v) m.set(v, (m.get(v) || 0) + 1);
-      }));
-      return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv')).slice(0, termCount).map(([v, n]) => ({
-        v,
-        n
-      }));
-    };
-    return {
-      year: listing ? [...new Set(entries.map(e => e.year))].sort((a, b) => b - a).map(y => ({
-        v: String(y),
-        n: entries.filter(e => e.year === y).length
-      })) : [],
-      work: tally(e => [e.work]),
-      disc: tally(e => e.disciplines || [])
-    };
-  }, [entries, termFilter, termCount]);
-
-  /* The term filter belongs to the whole record, so it lives in the first
-     view only — the second one already has a filter and two would fight. */
-  const termOn = termFilter && view === 0 && !!term;
-  const termSet = React.useMemo(() => {
-    if (!termOn) return new Set();
-    const hit = new Set();
-    entries.forEach((e, i) => {
-      const match = term.kind === 'year' ? String(e.year) === term.v : term.kind === 'work' ? e.work === term.v : (e.disciplines || []).indexOf(term.v) >= 0;
-      if (match) hit.add(i);
-    });
-    return hit;
-  }, [entries, term, termOn]);
-  React.useEffect(() => {
-    const els = scrollRefs.current.filter(Boolean);
-    if (!els.length) return;
-    const check = () => {
-      const next = els.map(el => el.scrollHeight - el.scrollTop - el.clientHeight > 4);
-      setFade(prev => prev.length === next.length && prev.every((v, i) => v === next[i]) ? prev : next);
-    };
-    check();
-    const ro = new ResizeObserver(check);
-    els.forEach(el => {
-      ro.observe(el);
-      el.addEventListener('scroll', check, {
-        passive: true
-      });
-    });
-    window.addEventListener('resize', check);
-    return () => {
-      ro.disconnect();
-      els.forEach(el => el.removeEventListener('scroll', check));
-      window.removeEventListener('resize', check);
-    };
-  }, [termsOpen, termLists]);
-
-  /* The record prints once, on entry — never again on scroll-back. */
-  React.useEffect(() => {
-    const el = sectionRef.current;
-    if (!el || printed) return;
-    /* Threshold 0, not a fraction: the field is several viewports tall, so the
-       ratio of the section that can ever be on screen at once is smaller than
-       any fraction worth naming and the record would never print. The margin
-       is what delays the print until the block is properly entered. */
-    const io = new IntersectionObserver(es => {
-      if (es.some(e => e.isIntersecting)) {
-        setPrinted(true);
-        io.disconnect();
-      }
-    }, {
-      threshold: 0,
-      rootMargin: '-12% 0px'
-    });
-    io.observe(el);
-    return () => io.disconnect();
-  }, [printed]);
-
-  /* The filter reads as one hairline sweep down the field. */
-  React.useEffect(() => {
-    if (view !== 1 || !hasDialogue || reduced.current) {
-      setScan(-1);
+      wasDemo.current = false;
       return;
     }
-    setScan(0);
-    const a = requestAnimationFrame(() => setScan(1));
-    const b = window.setTimeout(() => setScan(-1), 1300);
-    return () => {
-      cancelAnimationFrame(a);
-      window.clearTimeout(b);
+    wasDemo.current = true;
+    setCur(first);
+    setPhase(demoState);
+    setT(demoState === 'paused' || demoState === 'playing' ? 312 : 0);
+  }, [demoState]);
+  React.useEffect(() => {
+    const on = e => {
+      if (e.detail !== uid && audioRef.current && !audioRef.current.paused) audioRef.current.pause();
     };
-  }, [view, hasDialogue, lit]);
-  const move = d => {
-    setTouched(true);
-    const n = Math.min(entries.length - 1, Math.max(0, cursor + d));
-    setCursor(n);
-    const el = rowRefs.current[n];
-    if (el) el.focus({
-      preventScroll: true
-    });
-    if (rail && el && fieldRef.current) {
-      fieldRef.current.scrollTo({
-        left: el.offsetLeft,
-        behavior: reduced.current ? 'auto' : 'smooth'
-      });
-    } else if (vertical && el && fieldRef.current) {
-      const r = el.getBoundingClientRect();
-      const b = fieldRef.current.getBoundingClientRect();
-      tipTo(r.left + r.width / 2 - b.left, r.top - b.top);
-    }
-  };
-  const onKeyDown = e => {
-    if (vertical && (e.key === 'Enter' || e.key === ' ')) {
-      e.preventDefault();
-      if (pinned != null) unpin();else pin(cursor);
-      return;
-    }
-    if (vertical && e.key === 'Escape' && pinned != null) {
-      e.preventDefault();
-      unpin();
-      return;
-    }
-    if (vertical && pinned != null) return;
-    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-      e.preventDefault();
-      move(1);
-    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-      e.preventDefault();
-      move(-1);
-    } else if (e.key === 'Home') {
-      e.preventDefault();
-      move(-entries.length);
-    } else if (e.key === 'End') {
-      e.preventDefault();
-      move(entries.length);
-    }
-  };
-  const label = e => [e.year, e.client, e.sector, e.work, (e.disciplines || []).join(', ')].join(', ');
-  /* The bar is initialised with a real row, so the first hover cannot resize it. */
-  /* Listing: off the list, the readout holds the unfolded row. */
-  const readIdx = listing && !touched && expanded != null ? expanded : cursor;
-  const current = entries[readIdx] || entries[0];
-  const disc = current ? current.disciplines || [] : [];
-  /* Discipline cell: both readings ship, and CSS picks one — the full
-     comma-separated list in the desktop side column, the abbreviated form in
-     the panel that sits over the field on a small screen. */
-  const discCell = current && disc.length ? React.createElement(React.Fragment, null, React.createElement('span', {
-    'data-disc-full': ''
-  }, disc.map((d, i) => React.createElement('span', {
-    key: i,
-    style: {
-      display: 'block'
-    }
-  }, d))), React.createElement('span', {
-    'data-disc-short': ''
-  }, disc.length > 1 ? disc[0] + ' +' + (disc.length - 1) : disc[0])) : '';
-  /* The second view emphasises; the first is untouched. */
-  const relevant = view === 1 && hasDialogue;
-  /* Every line ends up as text on a narrow viewport, so that reading runs on
-     the taller row throughout. */
-  const pitch = touch || view === 1 || termOn ? PITCH_FILTERED : PITCH;
-  const terms = hasDialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
-  const sideLine = view === 1 ? hasDialogue ? relevanceLine.replace('{n}', String(lit.length)).replace('{total}', String(entries.length)) : '—' : termOn ? termLine.replace('{n}', String(termSet.size)).replace('{total}', String(entries.length)).replace('{term}', term.v) : allLine;
-  /* The year heads its block and client and sector are written on the line
-     itself, so the readout carries only what neither says. */
-  /* Until the visitor points at a line there is nothing to read out, and the
-     readout says so rather than standing on an arbitrary row. */
-  const readout = (touched || rail || listing && expanded != null) && current ? [{
-    k: 'Typ av uppdrag',
-    v: current.work
-  }, {
-    k: 'Discipliner',
-    v: discCell,
-    hint: disc.join(', '),
-    wrap: true
-  }] : [{
-    k: 'Typ av uppdrag',
-    v: '—'
-  }, {
-    k: 'Discipliner',
-    v: '—',
-    wrap: true
-  }];
-
-  /* Desired pitch per visible tick, then one scale factor if the row would
-     overrun the measured width. Resting fields that fit are left as they are. */
-  const vPitch = {};
-  if (vertical && !rail) {
-    let sum = 0;
-    let groups = 0;
-    blocks.forEach(b => {
-      const rows = termOn ? b.rows.filter(r => termSet.has(r.i)) : b.rows;
-      if (!rows.length) return;
-      groups += 1;
-      const open = touched && b.rows.some(r => r.i === cursor);
-      rows.forEach(r => {
-        /* Pointing at the field opens the cursor's group, with a swell at the
-           cursor inside it, and closes the rest flat. */
-        const near = open ? Math.max(0, 1 - Math.abs(r.i - cursor) / V_PROX_R) : 0;
-        const w = open ? V_PITCH_OPEN + V_PROX * near * near : touched ? V_PITCH_REST : V_PITCH;
-        vPitch[r.i] = w;
-        sum += w;
-      });
-    });
-    const avail = fieldBox.w - Math.max(0, groups - 1) * fieldBox.gap;
-    if (fieldBox.w && sum > avail && avail > 0) {
-      const k = avail / sum;
-      Object.keys(vPitch).forEach(i => {
-        vPitch[i] *= k;
-      });
-    }
-  }
-  return /*#__PURE__*/React.createElement("section", {
-    id: id,
-    ref: sectionRef,
-    "data-record-listing": listing ? '' : undefined,
-    style: {
-      '--record-year-top': yearTop + 'px',
-      paddingBlock: 'var(--section-gap)',
-      ...(flushTop ? {
-        paddingBlockStart: 0
-      } : null),
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "grid",
-    style: {
-      alignItems: 'start',
-      rowGap: 'var(--space-5)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    "data-record-head": true,
-    className: "place-body-wide",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-3)',
-      ...(index || title || premise || secondLine || allLabel ? null : {
-        marginBlockEnd: 'calc(-1 * var(--space-5))'
-      })
-    }
-  }, index ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, index) : null, title ? /*#__PURE__*/React.createElement("h2", {
-    className: "display-2"
-  }, title) : null, premise ? /*#__PURE__*/React.createElement("p", {
-    className: "prose"
-  }, premise) : null, secondLine ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: allHref,
-    variant: "secondary",
-    style: {
-      alignSelf: 'start',
-      fontSize: 'var(--text-small)'
-    },
-    onClick: allHref ? undefined : ev => ev.preventDefault()
-  }, allLabel) : null), /*#__PURE__*/React.createElement("div", {
-    "data-record-switch": true,
-    className: "place-body-wide",
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-2)',
-      position: 'relative',
-      zIndex: 3
-    }
-  }, views ? /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
-    label: "Vy",
-    tabs: viewLabels.map((v, i) => ({
-      id: String(i),
-      label: i === 1 && hasDialogue ? v + ' *' : v
-    })),
-    value: String(view),
-    onChange: v => setView(Number(v))
-  }) : null, view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, emptyBody), /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: finderHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: onAsk ? ev => {
-      ev.preventDefault();
-      onAsk();
-    } : undefined
-  }, emptyLinkLabel)) :
-  /*#__PURE__*/
-  /* Count and filter read as one line: what is shown, and what it
-     was filtered on. */
-  /* Proportional figures: the count does not tick, and Circular's
-     tabular digits carry side bearings wide enough to read as broken
-     word spacing inside a sentence. */
-  React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, sideLine, relevant ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', filterLabel, ": ", terms.join(', ')) : null, termOn ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTerm(null),
-    style: {
-      ...TERM_BTN,
-      display: 'inline',
-      width: 'auto',
-      color: 'var(--text-secondary)',
-      textDecoration: 'underline',
-      textUnderlineOffset: '0.2em'
-    }
-  }, termResetLabel)) : null), relevant ? /*#__PURE__*/React.createElement(React.Fragment, null, filterNote ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, filterNote) : null, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: 'var(--space-3)'
-    }
-  }, onReset ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: "#",
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: ev => {
-      ev.preventDefault();
-      onReset();
-      setView(0);
-    }
-  }, resetLabel) : null, onAsk ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: finderHref,
-    variant: "secondary",
-    style: {
-      fontSize: 'var(--text-small)'
-    },
-    onClick: ev => {
-      ev.preventDefault();
-      onAsk();
-    }
-  }, askAgainLabel) : null)) : null), termFilter && view === 0 ? /*#__PURE__*/React.createElement("div", {
-    "data-record-terms": true,
-    ref: termsRef,
-    style: listing && narrow && termsOpen ? {
-      zIndex: 46
-    } : undefined
-  }, /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTermsOpen(!termsOpen),
-    onMouseEnter: () => setTermsWarm(true),
-    onMouseLeave: () => setTermsWarm(false),
-    onFocus: () => setTermsWarm(true),
-    onBlur: () => setTermsWarm(false),
-    "aria-expanded": termsOpen ? 'true' : 'false',
-    "aria-label": termToggleLabel,
-    className: "target",
-    style: {
-      gap: 8,
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer',
-      fontFamily: 'var(--font-text)',
-      fontSize: 'var(--text-small)',
-      lineHeight: 'var(--lh-small)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      position: 'relative',
-      display: 'block',
-      flex: '0 0 auto',
-      width: 14,
-      height: 14
-    }
-  }, termsOpen ? [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-    key: d,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 'calc(50% - 0.5px)',
-      width: 14,
-      height: 1,
-      background: 'var(--ink)',
-      transform: 'rotate(' + d + 'deg)'
-    }
-  })) : [14, 10, 6].map((w, n) => /*#__PURE__*/React.createElement("span", {
-    key: w,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 2.5 + n * 4,
-      width: w,
-      height: 1,
-      background: termsWarm ? 'var(--ink)' : 'var(--text-secondary)',
-      transition: 'background var(--dur-reveal) var(--ease-expo)'
-    }
-  }))), /*#__PURE__*/React.createElement("span", {
-    style: {
-      display: 'block',
-      whiteSpace: 'nowrap'
-    }
-  }, termToggleLabel), term && !termsOpen ? /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      display: 'block',
-      width: 4,
-      height: 4,
-      borderRadius: '50%',
-      background: 'var(--ink)'
-    }
-  }) : null), /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-list": true,
-    ref: termsListRef,
-    "data-open": termsOpen ? '' : undefined,
-    "aria-hidden": termsOpen ? 'false' : 'true'
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-5)'
-    }
-  }, listing ? /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-head": ""
-  }, /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--ink)'
-    }
-  }, termToggleLabel), /*#__PURE__*/React.createElement("button", {
-    type: "button",
-    onClick: () => setTermsOpen(false),
-    "aria-label": termsCloseLabel,
-    className: "target",
-    style: {
-      border: 0,
-      background: 'transparent',
-      padding: 0,
-      cursor: 'pointer'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    "aria-hidden": "true",
-    style: {
-      position: 'relative',
-      display: 'block',
-      width: 14,
-      height: 14
-    }
-  }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-    key: d,
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 'calc(50% - 0.5px)',
-      width: 14,
-      height: 1,
-      background: 'var(--ink)',
-      transform: 'rotate(' + d + 'deg)'
-    }
-  }))))) : null, [].concat(listing ? [{
-    h: yearHeading,
-    kind: 'year',
-    list: termLists.year
-  }] : [], [{
-    h: workHeading,
-    kind: 'work',
-    list: termLists.work
-  }, {
-    h: discHeading,
-    kind: 'disc',
-    list: termLists.disc
-  }]).map((g, gi) => /*#__PURE__*/React.createElement("div", {
-    key: g.kind
-  }, /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-heading": "",
-    style: {
-      ...KEY_CELL,
-      overflow: 'visible',
-      color: 'var(--text-primary)',
-      fontWeight: 'var(--weight-medium)'
-    }
-  }, g.h), /*#__PURE__*/React.createElement("div", {
-    "data-record-terms-scroll": "",
-    ref: el => {
-      scrollRefs.current[gi] = el;
-    },
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      maskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none',
-      WebkitMaskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none'
-    }
-  }, g.list.map(t => {
-    const active = !!term && term.kind === g.kind && term.v === t.v;
-    return /*#__PURE__*/React.createElement("button", {
-      key: t.v,
-      type: "button",
-      "aria-pressed": active,
-      onClick: () => setTerm(active ? null : {
-        kind: g.kind,
-        v: t.v
-      }),
-      style: {
-        ...TERM_BTN,
-        display: 'flex',
-        alignItems: 'baseline',
-        gap: 0,
-        paddingBlock: '0.18rem',
-        boxSizing: 'border-box',
-        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
-        fontWeight: active ? 'var(--weight-medium)' : 'var(--weight-book)'
-      }
-    }, /*#__PURE__*/React.createElement("span", {
-      "aria-hidden": "true",
-      style: {
-        position: 'relative',
-        flex: '0 0 auto',
-        alignSelf: 'center',
-        overflow: 'hidden',
-        width: active ? 11 : 0,
-        height: 11,
-        opacity: active ? 1 : 0,
-        marginInlineEnd: active ? 8 : 0,
-        transition: 'width var(--dur-fast) var(--ease-expo), margin-inline-end var(--dur-fast) var(--ease-expo), opacity var(--dur-fast) var(--ease-expo)'
-      }
-    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
-      key: d,
-      style: {
-        position: 'absolute',
-        left: 0,
-        top: 'calc(50% - 0.5px)',
-        width: 11,
-        height: 1,
-        background: 'var(--ink)',
-        transform: 'rotate(' + d + 'deg)'
-      }
-    }))), /*#__PURE__*/React.createElement("span", {
-      style: {
-        flex: '1 1 auto',
-        minWidth: 0,
-        overflow: 'hidden',
-        textOverflow: 'ellipsis',
-        whiteSpace: 'nowrap'
-      }
-    }, t.v), /*#__PURE__*/React.createElement("span", {
-      style: {
-        flex: '0 0 auto',
-        marginInlineStart: 'var(--space-2)',
-        paddingInlineEnd: '2px',
-        fontVariantNumeric: 'tabular-nums',
-        opacity: 0.7
-      }
-    }, t.n));
-  })))))))) : null, /*#__PURE__*/React.createElement("div", {
-    "data-record-body": true,
-    "data-rail": rail ? '' : undefined,
-    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined,
-    style: listing ? {
-      position: 'relative'
-    } : undefined
-  }, listing && !small && !touch ? /*#__PURE__*/React.createElement("div", {
-    ref: strokeRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 0,
-      width: 0,
-      height: 0,
-      pointerEvents: 'none',
-      zIndex: 1
-    }
-  }, ['top', 'bottom'].map(edge => /*#__PURE__*/React.createElement("span", {
-    key: edge,
-    style: {
-      position: 'absolute',
-      left: 0,
-      right: 0,
-      [edge]: edge === 'top' ? 0 : -1,
-      height: 1,
-      background: 'var(--rule-hairline)',
-      transformOrigin: 'right center',
-      transform: strokesOn ? 'scaleX(1)' : 'scaleX(0)',
-      transition: strokesOn ? 'transform var(--dur-medium) var(--ease-quart)' : 'none'
-    }
-  })), /*#__PURE__*/React.createElement("span", {
-    "data-stroke-cap": "",
-    style: {
-      position: 'absolute',
-      left: '100%',
-      top: 0,
-      height: 1,
-      background: 'var(--rule-hairline)',
-      opacity: strokesOn ? 1 : 0,
-      transition: strokesOn ? 'opacity var(--dur-medium) var(--ease-quart)' : 'none'
-    }
-  })) : null, /*#__PURE__*/React.createElement("div", {
-    "data-record-side": true,
-    ref: sideRef,
-    style: listing && narrow ? {
-      display: 'none'
-    } : undefined
-  }, /*#__PURE__*/React.createElement("div", {
-    role: "status",
-    "aria-live": "polite",
-    "data-record-readout": true
-  }, readout.map(r => /*#__PURE__*/React.createElement("div", {
-    key: r.k,
-    "data-readout-disc": r.wrap ? '' : undefined
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      ...KEY_CELL,
-      marginBlockEnd: 'var(--space-1)'
-    }
-  }, r.k), /*#__PURE__*/React.createElement("div", {
-    "data-record-val": r.wrap ? 'wrap' : '',
-    style: r.wrap ? DISC_CELL : VAL_CELL,
-    title: r.hint
-  }, r.v))))), /*#__PURE__*/React.createElement("div", {
-    "data-record-field": true,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)'
-    }
-  }, lead ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, lead) : null, readingRule ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, readingRule) : null, vertical ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      position: 'relative'
-    }
-  }, rail ? /*#__PURE__*/React.createElement("div", {
-    ref: markRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      bottom: 0,
-      width: BAR_ACTIVE,
-      height: R_HEIGHT + V_LIFT,
-      background: 'var(--ink)',
-      zIndex: 2,
-      pointerEvents: 'none',
-      opacity: printed && railHit ? 1 : 0,
-      transition: 'height var(--dur-fast) var(--ease-quart), opacity 90ms linear'
-    }
-  }) : null, /*#__PURE__*/React.createElement("div", {
-    ref: fieldRef,
-    "data-record-rail": rail ? '' : undefined,
-    style: {
-      position: 'relative',
-      display: 'flex',
-      flexWrap: 'nowrap',
-      alignItems: 'flex-start',
-      columnGap: rail ? 'var(--space-6)' : 'var(--space-5)',
-      rowGap: 'var(--space-4)',
-      cursor: rail ? 'default' : pinned != null ? CLOSE_CURSOR : 'default',
-      ...(rail ? {
-        /* Bleeds off the right margin, so the rail reads as running on
-           past the screen; the fade says the same while there is more. */
-        marginInlineEnd: 'calc(-1 * var(--margin))',
-        overflowX: 'auto',
-        overflowY: 'hidden',
-        scrollSnapType: 'x mandatory',
-        overscrollBehaviorX: 'contain',
-        scrollbarWidth: 'none',
-        WebkitOverflowScrolling: 'touch',
-        maskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none',
-        WebkitMaskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none'
-      } : null)
-    },
-    onKeyDown: onKeyDown,
-    onClick: ev => {
-      if (rail) {
-        /* A tap brings its line to the edge, which is what reads it. */
-        const t = ev.target.closest && ev.target.closest('[data-tick]');
-        if (t) ev.currentTarget.scrollTo({
-          left: t.offsetLeft,
-          behavior: reduced.current ? 'auto' : 'smooth'
-        });
-        return;
-      }
-      if (pinned != null) {
-        unpin();
-        return;
-      }
-      const t = ev.target.closest && ev.target.closest('[data-tick]');
-      if (t) pin(Number(t.getAttribute('data-tick')));
-    },
-    onMouseMove: ev => {
-      if (rail || pinned != null) return;
-      const b = ev.currentTarget.getBoundingClientRect();
-      tipTo(ev.clientX - b.left, ev.clientY - b.top);
-    },
-    onMouseLeave: ev => {
-      if (rail || pinned != null) return;
-      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
-    }
-  }, blocks.map(b => {
-    const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
-    const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
-    if (termOn && !anyTerm) return null;
-    const groupOpen = touched && b.rows.some(r => r.i === cursor);
-    return /*#__PURE__*/React.createElement("div", {
-      key: b.year,
-      style: {
-        display: 'flex',
-        flexDirection: 'column',
-        gap: 'var(--space-2)',
-        flex: '0 0 auto',
-        minWidth: 0
-      }
-    }, /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        whiteSpace: 'nowrap',
-        width: 0,
-        overflow: 'visible',
-        fontVariantNumeric: 'tabular-nums',
-        opacity: view === 1 && !anyLit ? 0.14 : 1,
-        transition: 'opacity var(--dur-fast) var(--ease-quart)',
-        ...(rail ? {
-          position: 'sticky',
-          left: 0,
-          width: 'auto',
-          alignSelf: 'flex-start',
-          zIndex: 1,
-          background: 'var(--paper)',
-          paddingInlineEnd: 'var(--space-2)',
-          color: groupOpen ? 'var(--ink)' : undefined
-        } : null)
-      }
-    }, b.year), /*#__PURE__*/React.createElement("div", {
-      style: {
-        display: 'flex',
-        flexWrap: 'nowrap',
-        alignItems: 'flex-end'
-      }
-    }, b.rows.map(e => {
-      /* On the rail the fixed marker is the active line. */
-      const on = cursor === e.i && touched && !rail;
-      const matched = relevant && litSet.has(e.i);
-      const hitTerm = termOn && termSet.has(e.i);
-      if (termOn && !hitTerm) return null;
-      const rowOpacity = !printed ? 0 : pinned != null ? e.i === pinned ? 1 : 0.22 : view === 1 ? matched ? 1 : 0.14 : 1;
-      const pitchW = rail ? R_PITCH : vPitch[e.i] || V_PITCH;
-      const tickH = rail ? R_HEIGHT : V_HEIGHT;
-      return /*#__PURE__*/React.createElement("div", {
-        key: e.i,
-        ref: el => {
-          rowRefs.current[e.i] = el;
-        },
-        "data-tick": e.i,
-        tabIndex: e.i === cursor ? 0 : -1,
-        "aria-label": label(e),
-        "aria-pressed": pinned === e.i ? 'true' : 'false',
-        onMouseEnter: () => {
-          if (rail || pinned != null) return;
-          setCursor(e.i);
-          setTouched(true);
-        },
-        onFocus: () => {
-          if (rail || pinned != null) return;
-          setCursor(e.i);
-          setTouched(true);
-        },
-        style: {
-          position: 'relative',
-          width: pitchW,
-          height: tickH + V_LIFT,
-          flex: '0 0 auto',
-          display: 'flex',
-          alignItems: 'flex-end',
-          justifyContent: rail ? 'flex-start' : 'center',
-          scrollSnapAlign: rail ? 'start' : undefined,
-          cursor: 'inherit',
-          outline: 'none',
-          opacity: rowOpacity,
-          transition: 'opacity var(--dur-medium) var(--ease-quart), width var(--dur-medium) var(--ease-quart)',
-          transitionDelay: printed && !reduced.current ? e.i * 6 + 'ms, 0ms' : '0ms'
-        }
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          width: on ? BAR_ACTIVE : BAR,
-          height: on ? tickH + V_LIFT : tickH,
-          background: on || hitTerm || matched ? 'var(--ink)' : 'var(--underline-rest-secondary)',
-          transition: 'height var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)',
-          pointerEvents: 'none'
-        }
-      }));
-    })));
-  }), rail ? /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": "true",
-    style: {
-      flex: '0 0 auto',
-      width: 'calc(100% - ' + R_PITCH + 'px - var(--space-6))',
-      height: 1
-    }
-  }) : null, /*#__PURE__*/React.createElement("div", {
-    ref: tipRef,
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 0,
-      pointerEvents: 'none',
-      zIndex: 2,
-      willChange: 'transform'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "small",
-    style: {
-      transform: 'translate(14px, calc(-100% - 14px))',
-      whiteSpace: 'nowrap',
-      background: 'var(--paper, var(--ground-page))',
-      paddingBlock: '0.3rem',
-      paddingInline: '0.55rem',
-      color: 'var(--text-primary)',
-      fontWeight: 'var(--weight-medium)',
-      opacity: touched && current && pinned == null && !rail ? 1 : 0,
-      transition: 'opacity var(--dur-fast) var(--ease-quart)'
-    }
-  }, current ? current.client : '')))) : /*#__PURE__*/React.createElement("div", {
-    ref: fieldRef,
-    style: {
-      position: 'relative',
-      display: 'flex',
-      flexDirection: 'column'
-    },
-    onKeyDown: onKeyDown,
-    onMouseMove: listing ? ev => {
-      listPtr.current = {
-        x: ev.clientX,
-        y: ev.clientY
-      };
-      const el = pointerRef.current;
-      if (!el) return;
-      el.style.transform = 'translate3d(' + ev.clientX + 'px,' + ev.clientY + 'px,0)';
-    } : undefined,
-    onMouseLeave: ev => {
-      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
-    }
-  }, yearGroups.map(yg => {
-    const yearShut = termOn && !yg.blocks.some(b => b.rows.some(r => termSet.has(r.i)));
-    return /*#__PURE__*/React.createElement("div", {
-      key: 'y' + yg.year,
-      style: {
-        position: 'relative'
-      }
-    }, listing ?
-    /*#__PURE__*/
-    /* The year heads its months and stays in view while they pass. */
-    React.createElement("div", {
-      style: {
-        display: 'grid',
-        gridTemplateRows: yearShut ? '0fr' : '1fr',
-        position: 'sticky',
-        top: yearTop,
-        zIndex: 2,
-        marginBlockEnd: yearShut ? 0 : 'var(--space-5)',
-        background: 'var(--paper)',
-        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-      }
-    }, /*#__PURE__*/React.createElement("div", {
-      "aria-hidden": "true",
-      style: {
-        position: 'absolute',
-        left: 0,
-        right: 0,
-        bottom: '100%',
-        height: yearTop,
-        background: 'var(--paper)',
-        pointerEvents: 'none'
-      }
-    }), /*#__PURE__*/React.createElement("div", {
-      style: {
-        overflow: 'hidden',
-        minHeight: 0
-      }
-    }, /*#__PURE__*/React.createElement("p", {
-      className: "small",
-      style: {
-        fontVariantNumeric: 'tabular-nums',
-        fontWeight: 'var(--weight-medium)',
-        color: 'var(--ink)',
-        paddingBlock: 'var(--space-1)'
-      }
-    }, yg.year, /*#__PURE__*/React.createElement("span", {
-      "data-year-baseline": "",
-      style: {
-        display: 'inline-block',
-        width: 0,
-        height: 0
-      }
-    })))) : null, yg.blocks.map(b => {
-      const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
-      const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
-      /* A term filter takes the rest of the record away rather than
-         dimming it: years with nothing in the subset fold shut, and
-         the register closes up around what is left. */
-      const blockShut = termOn && !anyTerm;
-      return /*#__PURE__*/React.createElement("div", {
-        key: b.key,
-        style: {
-          display: 'grid',
-          gridTemplateRows: blockShut ? '0fr' : '1fr',
-          transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
-        }
-      }, /*#__PURE__*/React.createElement("div", {
-        style: {
-          overflow: 'hidden',
-          minHeight: 0,
-          paddingBlockEnd: blockShut ? 0 : listing ? 'var(--space-6)' : 'var(--space-3)',
-          transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
-        }
-      }, /*#__PURE__*/React.createElement("p", {
-        className: "small",
-        style: {
-          fontVariantNumeric: 'tabular-nums',
-          marginBlockEnd: listing ? 'var(--space-1)' : 'var(--space-2)',
-          marginBlockStart: listing ? 'var(--space-3)' : 0,
-          color: listing ? 'var(--ink)' : undefined,
-          opacity: view === 1 && !anyLit ? 0.14 : 1,
-          transition: 'opacity var(--dur-fast) var(--ease-quart)'
-        }
-      }, b.label), /*#__PURE__*/React.createElement("div", null, b.rows.map(e => {
-        /* Nothing is under the cursor until the visitor has
-           actually pointed: the default cursor row must not read
-           as the active one. */
-        const on = cursor === e.i && touched;
-        /* Every match carries its title, so a solid line always
-           has something written next to it. */
-        const matched = relevant && litSet.has(e.i);
-        /* A term match is exposed the same way a dialogue match
-           is: it carries its title and keeps full weight while
-           the rest of the field recedes. */
-        const hitTerm = termOn && termSet.has(e.i);
-        const labelled = view === 1 ? matched || on && !touch : termOn ? hitTerm || on
-        /* Text above the focal band, lines below it: scrolling
-           down sets the reading, scrolling back up returns it. */ : on || touch && e.i <= cursor;
-        const rowShut = termOn && !hitTerm;
-        const rowOpacity = !printed ? 0 : view === 1 ? matched ? 1 : 0.14 : rowShut ? 0 : 1;
-        if (listing) return renderListRow(e, on, rowShut, rowOpacity);
-        return /*#__PURE__*/React.createElement("div", {
-          key: e.i,
-          ref: el => {
-            rowRefs.current[e.i] = el;
-          },
-          tabIndex: e.i === cursor ? 0 : -1,
-          "aria-label": label(e),
-          title: (e.disciplines || []).join(', '),
-          onMouseEnter: () => {
-            setCursor(e.i);
-            setTouched(true);
-          },
-          onFocus: () => {
-            setCursor(e.i);
-            setTouched(true);
-          },
-          style: {
-            position: 'relative',
-            height: rowShut ? 0 : on ? pitch + FAN : pitch,
-            cursor: 'default',
-            outline: 'none',
-            overflow: rowShut ? 'hidden' : 'visible',
-            pointerEvents: rowShut ? 'none' : undefined,
-            opacity: rowOpacity,
-            transition: 'opacity var(--dur-fast) var(--ease-quart), height var(--dur-fast) var(--ease-quart)',
-            transitionDelay: printed && !reduced.current ? e.i * 8 + 'ms, 0ms' : '0ms'
-          }
-        }, /*#__PURE__*/React.createElement("div", {
-          style: {
-            position: 'absolute',
-            inset: 0,
-            display: 'flex',
-            alignItems: 'center',
-            gap: 'var(--space-2)',
-            pointerEvents: 'none'
-          }
-        }, labelled ? /*#__PURE__*/React.createElement("span", {
-          className: "small",
-          style: {
-            flex: '0 1 auto',
-            minWidth: 0,
-            maxWidth: 'none',
-            whiteSpace: 'nowrap',
-            fontWeight: on ? 'var(--weight-medium)' : 'var(--weight-book)',
-            color: on ? 'var(--text-primary)' : 'var(--text-secondary)'
-          }
-        }, e.client, e.sector ? /*#__PURE__*/React.createElement("span", {
-          style: {
-            paddingInline: '0.6em',
-            color: 'var(--text-secondary)'
-          }
-        }, "/") : null, e.sector) : null, /*#__PURE__*/React.createElement("div", {
-          style: {
-            flex: '1 1 12px',
-            minWidth: 0,
-            height: on ? BAR_ACTIVE : BAR,
-            background: on ? 'var(--ink)' : 'var(--underline-rest-secondary)',
-            transition: 'height var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)'
-          }
-        })), /*#__PURE__*/React.createElement("div", {
-          style: {
-            position: 'absolute',
-            left: 0,
-            right: 0,
-            top: -1,
-            bottom: -1
-          }
+    window.addEventListener(BUS, on);
+    return () => window.removeEventListener(BUS, on);
+  }, [uid]);
+  const toggle = (ep, k) => {
+    const a = audioRef.current;
+    if (!a || demoState) return;
+    if (cur === k) {
+      if (a.paused) {
+        window.dispatchEvent(new CustomEvent(BUS, {
+          detail: uid
         }));
-      }))));
+        a.play().catch(() => setPhase('error'));
+      } else a.pause();
+      return;
+    }
+    setCur(k);
+    setT(0);
+    setDur(secs(ep.duration));
+    setPhase('loading');
+    a.src = ep.audio;
+    window.dispatchEvent(new CustomEvent(BUS, {
+      detail: uid
     }));
-  }), scan >= 0 ? /*#__PURE__*/React.createElement("div", {
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      right: 0,
-      top: scan * 100 + '%',
-      height: 1,
-      background: 'var(--ink)',
-      pointerEvents: 'none',
-      transition: scan ? 'top 1100ms var(--ease-quart)' : 'none'
+    a.play().catch(() => setPhase('error'));
+  };
+  const seek = e => {
+    const a = audioRef.current;
+    const v = +e.target.value;
+    setT(v);
+    if (a && !demoState && isFinite(v)) a.currentTime = v;
+  };
+  const ease = 'var(--dur-reveal) var(--ease-expo)';
+  const audioEl = /*#__PURE__*/React.createElement("audio", {
+    ref: audioRef,
+    preload: "none",
+    onPlaying: () => setPhase('playing'),
+    onPause: () => setPhase(p => p === 'error' ? p : 'paused'),
+    onWaiting: () => setPhase('loading'),
+    onTimeUpdate: e => setT(e.currentTarget.currentTime),
+    onLoadedMetadata: e => {
+      if (isFinite(e.currentTarget.duration)) setDur(e.currentTarget.duration);
+    },
+    onEnded: () => {
+      setPhase('paused');
+      setT(0);
+    },
+    onError: () => {
+      if (cur) setPhase('error');
     }
-  }) : null, listing && !touch ? /*#__PURE__*/React.createElement("div", {
-    ref: pointerRef,
-    "aria-hidden": "true",
+  });
+  const panel = (ep, on, len, loading, place) => /*#__PURE__*/React.createElement("div", {
+    inert: on ? undefined : '',
     style: {
-      position: 'fixed',
-      left: 0,
-      top: 0,
-      pointerEvents: 'none',
-      zIndex: 3
-    }
-  }, touched && ringOn && pending != null ? /*#__PURE__*/React.createElement("svg", {
-    key: pending,
-    width: "16",
-    height: "16",
-    viewBox: "0 0 16 16",
-    fill: "none",
-    "aria-hidden": "true",
-    style: {
-      position: 'absolute',
-      left: 0,
-      top: 0,
-      width: 16,
-      height: 16,
-      maxWidth: 'none',
-      transform: 'translate(-50%, -50%)',
-      color: 'var(--ink)'
-    }
-  }, /*#__PURE__*/React.createElement("circle", {
-    cx: "8",
-    cy: "8",
-    r: "6",
-    stroke: "var(--rule-hairline)",
-    strokeWidth: "1.5"
-  }), /*#__PURE__*/React.createElement("circle", {
-    cx: "8",
-    cy: "8",
-    r: "6",
-    stroke: "currentColor",
-    strokeWidth: "1.5",
-    strokeLinecap: "round",
-    strokeDasharray: "37.7",
-    strokeDashoffset: "37.7",
-    transform: "rotate(-90 8 8)",
-    ref: el => {
-      if (el && !el._run) {
-        el._run = true;
-        const d = DWELL - RING_WAIT;
-        el.animate([{
-          strokeDashoffset: 37.7 * d / DWELL
-        }, {
-          strokeDashoffset: 0
-        }], {
-          duration: d,
-          easing: 'linear',
-          fill: 'forwards'
-        });
-        el.parentNode.animate([{
-          opacity: 0
-        }, {
-          opacity: 1
-        }], {
-          duration: 120,
-          easing: 'ease-out',
-          fill: 'forwards'
-        });
-      }
-    }
-  })) : null) : null), vertical ?
-  /*#__PURE__*/
-  /* The case under the cursor. Opens on first approach, holds while
-     the pointer is on the lines, and folds shut when it leaves them.
-     A pin keeps it open and adds the body. */
-  /* SM rail: the case reads above the lines, so the rail sits where
-     the thumb is. It is open from the start on the first line, so it
-     never folds out and pushes the rail down mid-scroll. */
-  React.createElement("div", {
-    "data-record-case": true,
-    style: {
+      gridColumn: place,
       display: 'grid',
-      gridTemplateRows: (touched || rail) && current ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)',
-      ...(rail ? {
-        order: -1,
-        paddingBlockStart: 'var(--rail-gap, var(--space-5))'
-      } : null)
+      gridTemplateRows: on ? '1fr' : '0fr',
+      opacity: on ? 1 : 0,
+      transition: 'grid-template-rows ' + ease + ', opacity ' + ease
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       overflow: 'hidden',
       minHeight: 0
     }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: caseRef,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-3)',
-      maxWidth: '44rem',
-      paddingBlockStart: 'var(--space-2)'
-    }
-  }, rail && current ? /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    style: KEY_CELL
-  }, clientLabel), /*#__PURE__*/React.createElement("div", {
-    style: VAL_CELL
-  }, current.client)) : null, current && (current.title || rail) ? /*#__PURE__*/React.createElement("h3", {
+  }, on && phase === 'error' ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    role: "status",
     style: {
       margin: 0,
-      fontFamily: 'var(--font-display)',
-      fontWeight: 'normal',
-      fontSize: 'var(--display-3)',
-      lineHeight: 1.1,
-      color: 'var(--ink)',
-      textWrap: 'pretty',
-      ...(rail && pinned == null ? {
-        height: 'calc(var(--rail-title-lines, 3) * 1lh)',
-        overflow: 'hidden',
-        display: '-webkit-box',
-        WebkitBoxOrient: 'vertical',
-        WebkitLineClamp: 'var(--rail-title-lines, 3)'
-      } : null)
+      paddingTop: 'var(--space-3)',
+      color: 'var(--text-primary)'
     }
-  }, current.title) : null, current && (current.preamble || rail) ? /*#__PURE__*/React.createElement("p", {
-    className: "prose",
-    style: rail && pinned == null ? {
-      height: 'calc(var(--rail-pre-lines, 4) * 1lh)',
-      overflow: 'hidden',
-      display: '-webkit-box',
-      WebkitBoxOrient: 'vertical',
-      WebkitLineClamp: 'var(--rail-pre-lines, 4)'
-    } : undefined
-  }, current.preamble) : null, rail && readMoreLabel ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: current && current.href || caseHref,
-    variant: "secondary",
-    tabIndex: 0,
-    style: {
-      fontSize: 'var(--text-small)'
-    }
-  }, readMoreLabel)) : null, /*#__PURE__*/React.createElement("div", {
+  }, errorLabel) : /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
-      gridTemplateRows: pinned != null ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)',
-      paddingBlockStart: 'var(--space-3)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    ref: bodyRef,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-4)',
-      maxHeight: '40rem',
-      overflow: 'hidden',
-      maskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none',
-      WebkitMaskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none'
-    }
-  }, current && current.body ? current.body.split(/\n\s*\n/).map((p, n) => /*#__PURE__*/React.createElement("p", {
-    key: 'b' + n,
-    className: "prose",
-    style: {
-      whiteSpace: 'pre-line'
-    }
-  }, p)) : null, current && current.figures && current.figures.length ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      gap: 'var(--space-3) var(--space-5)'
-    }
-  }, current.figures.map((f, n) => /*#__PURE__*/React.createElement("div", {
-    key: n,
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-0)'
-    }
-  }, /*#__PURE__*/React.createElement("span", {
-    style: {
-      fontFamily: 'var(--font-display)',
-      fontSize: 'var(--display-3)',
-      lineHeight: 1.1,
-      color: 'var(--ink)'
-    }
-  }, f.value), /*#__PURE__*/React.createElement("span", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, f.label)))) : null, current && (current.team || []).length ? /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 'var(--space-0)'
+      gridTemplateColumns: 'auto minmax(0, 1fr) auto',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      paddingTop: 'var(--space-3)'
     }
   }, /*#__PURE__*/React.createElement("span", {
     className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, teamLabel), /*#__PURE__*/React.createElement("p", {
-    className: "prose"
-  }, current.team.join(', '))) : null, current && current.note ? /*#__PURE__*/React.createElement("p", {
-    className: "small",
-    style: {
-      color: 'var(--text-secondary)'
-    }
-  }, current.note) : null))))), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateRows: pinned != null ? '1fr' : '0fr',
-      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      overflow: 'hidden',
-      minHeight: 0
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'flex',
-      marginBlockStart: 'var(--space-4)'
-    }
-  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: "#",
-    variant: "secondary",
-    tabIndex: pinned != null ? 0 : -1,
-    onClick: ev => {
-      ev.preventDefault();
-      unpin();
-    },
-    style: {
-      fontSize: 'var(--text-small)'
-    }
-  }, closeLabel)), /*#__PURE__*/React.createElement("div", {
     "aria-hidden": "true",
     style: {
-      height: 1,
-      marginBlockStart: 'var(--space-5)',
-      background: 'var(--underline-rest-secondary)'
+      color: 'var(--text-secondary)',
+      fontVariantNumeric: 'tabular-nums',
+      minWidth: '3.2em'
     }
-  }))))) : null, /*#__PURE__*/React.createElement("div", {
+  }, loading ? 'Laddar' : clock(on ? t : 0)), /*#__PURE__*/React.createElement("span", {
     style: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'baseline',
-      gap: 'var(--space-2)'
+      position: 'relative',
+      height: 24,
+      display: 'block'
     }
-  }, closingLine ? /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: 11,
+      height: 1,
+      background: 'var(--rule-hairline)'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 10,
+      height: 3,
+      width: (len ? Math.min(100, t / len * 100) : 0) + '%',
+      background: 'var(--ink)',
+      transition: 'width 250ms linear'
+    }
+  }), /*#__PURE__*/React.createElement("input", {
+    type: "range",
+    min: "0",
+    max: Math.max(1, Math.round(len)),
+    step: "1",
+    value: Math.round(on ? t : 0),
+    onChange: seek,
+    "aria-label": 'Spola i ' + ep.title,
+    "aria-valuetext": clock(t) + ' av ' + clock(len),
+    style: {
+      position: 'absolute',
+      inset: 0,
+      width: '100%',
+      height: '100%',
+      margin: 0,
+      opacity: 0,
+      cursor: 'pointer'
+    }
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    "aria-hidden": "true",
+    style: {
+      color: 'var(--text-secondary)',
+      fontVariantNumeric: 'tabular-nums'
+    }
+  }, clock(len)))));
+
+  /* The compact list. The rows sit on the page grid, the title on the
+     heading's columns (3 to 6), date and length flush right on 7 and 8. The
+     play glyph is not there at rest: it prints in at the right edge of column
+     2, against the title, on hover or focus, and stays on the current
+     episode. The first `listVisible` rows show; the rest fold out under a
+     "show more" row, and the opened list ends on the link to the podcast's
+     page. Below LG the row is one column: the title, then date and length
+     with the glyph flush right; the scrub line under it on the full row. */
+  const row = (ep, i) => {
+    const k = keyOf(ep, i);
+    const on = cur === k;
+    const playing = on && phase === 'playing';
+    const loading = on && phase === 'loading';
+    const len = on && dur ? dur : secs(ep.duration);
+    const lit = on || hover === i;
+    return /*#__PURE__*/React.createElement("li", {
+      key: k,
+      "data-episode": "",
+      onPointerEnter: e => {
+        if (e.pointerType === 'mouse') setHover(i);
+      },
+      onPointerLeave: () => setHover(h => h === i ? -1 : h),
+      style: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(var(--cols), minmax(0, 1fr))',
+        columnGap: 'var(--gutter)',
+        borderBottom: '1px solid var(--rule-hairline)'
+      }
+    }, /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      onClick: () => toggle(ep, k),
+      onFocus: () => setHover(i),
+      onBlur: () => setHover(h => h === i ? -1 : h),
+      "aria-pressed": playing,
+      "aria-label": (playing ? 'Pausa ' : 'Spela ') + ep.title,
+      style: lg ? {
+        all: 'unset',
+        boxSizing: 'border-box',
+        cursor: 'pointer',
+        gridColumn: '1 / -1',
+        display: 'grid',
+        gridTemplateColumns: 'subgrid',
+        alignItems: 'baseline',
+        padding: 'var(--space-2) 0'
+      } : {
+        all: 'unset',
+        boxSizing: 'border-box',
+        cursor: 'pointer',
+        gridColumn: '1 / -1',
+        display: 'grid',
+        gridTemplateColumns: 'minmax(0, 1fr) auto',
+        columnGap: 'var(--space-2)',
+        rowGap: 'var(--space-1)',
+        alignItems: 'center',
+        padding: 'var(--space-2) 0'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        gridColumn: lg ? '2 / 3' : '2 / 3',
+        gridRow: lg ? 'auto' : '2',
+        justifySelf: 'end',
+        alignSelf: 'center',
+        display: 'grid',
+        placeItems: 'center',
+        color: 'var(--text-primary)',
+        opacity: lit ? 1 : 0,
+        transform: lit ? 'none' : 'translateX(-6px)',
+        transition: 'opacity ' + ease + ', transform ' + ease
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: playing || loading ? 'pause' : 'play',
+      size: "md"
+    })), /*#__PURE__*/React.createElement("span", {
+      style: {
+        gridColumn: lg ? '3 / 7' : '1 / -1',
+        gridRow: lg ? 'auto' : '1',
+        fontFamily: 'var(--font-text)',
+        fontWeight: 'var(--weight-book)',
+        fontSize: 'var(--text-base)',
+        lineHeight: 1.4,
+        textWrap: 'pretty',
+        textDecoration: 'underline',
+        textDecorationThickness: '1px',
+        textUnderlineOffset: '0.14em',
+        textDecorationColor: hover === i ? 'var(--ink)' : 'transparent',
+        transition: 'text-decoration-color ' + ease
+      }
+    }, ep.title), /*#__PURE__*/React.createElement(__ds_scope.MetaLine, {
+      as: "span",
+      parts: [dateLabel(ep.date), minutes(ep.duration)],
+      style: lg ? {
+        gridColumn: '7 / 9',
+        justifySelf: 'end'
+      } : {
+        gridColumn: '1 / 2',
+        gridRow: '2'
+      }
+    })), panel(ep, on, len, loading, lg ? '3 / 7' : '1 / -1'), /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        gridColumn: '1 / -1',
+        height: on ? 'var(--space-2)' : 0,
+        transition: 'height ' + ease
+      }
+    }));
+  };
+  const endRow = link && link.href ? /*#__PURE__*/React.createElement("div", {
+    "data-podcast-end": "",
+    className: "grid",
+    style: {
+      padding: 'var(--space-3) 0 0',
+      maxWidth: 'none',
+      margin: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: lg ? '3 / -1' : '1 / -1'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: link.href
+  }, link.label))) : null;
+  const visible = Math.max(1, listVisible);
+  const more = list.length > visible;
+  const openMore = () => {
+    setOpen(true);
+    requestAnimationFrame(() => {
+      const b = foldRef.current && foldRef.current.querySelector('button');
+      if (b) b.focus({
+        preventScroll: true
+      });
+    });
+  };
+  return /*#__PURE__*/React.createElement("section", {
+    id: id,
+    "aria-labelledby": title ? 'pod-' + uid : undefined,
+    "data-podcast": "",
+    "data-form": "list",
+    style: style
+  }, title || label ? /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, label ? /*#__PURE__*/React.createElement("div", {
+    className: "place-label"
+  }, /*#__PURE__*/React.createElement(__ds_scope.SectionLabel, null, label)) : null, title ? /*#__PURE__*/React.createElement(H, {
+    id: 'pod-' + uid,
+    className: "display-2 place-body-wide",
+    style: {
+      margin: 0
+    }
+  }, title) : null) : null, list.length ? /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: '1 / -1',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, list.slice(0, visible).map(row)), more ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    inert: open ? undefined : '',
+    style: {
+      display: 'grid',
+      gridTemplateRows: open ? '1fr' : '0fr',
+      transition: 'grid-template-rows ' + ease
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: foldRef,
+    id: 'pod-more-' + uid,
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, list.slice(visible).map((ep, j) => row(ep, j + visible))), endRow)), open ? null : /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      maxWidth: 'none',
+      margin: 0
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: openMore,
+    "aria-expanded": open,
+    "aria-controls": 'pod-more-' + uid,
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      cursor: 'pointer',
+      gridColumn: lg ? '3 / -1' : '1 / -1',
+      display: 'flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      minHeight: 44,
+      paddingTop: 'var(--space-2)',
+      fontSize: 'var(--text-small)',
+      fontWeight: 'var(--weight-medium)',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "add",
+    size: "sm"
+  }), moreLabel(list.length - visible)))) : endRow)) : /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginTop: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "small place-body-wide",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      paddingTop: 'var(--space-3)',
+      borderTop: '1px solid var(--rule-hairline)',
+      color: 'var(--text-primary)'
+    }
+  }, unavailableLabel), link && link.href ? /*#__PURE__*/React.createElement("div", {
+    className: "place-body-wide",
+    style: {
+      paddingTop: 'var(--space-6)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: link.href,
+    variant: "page-end"
+  }, link.label)) : null), audioEl);
+}
+Object.assign(__ds_scope, { PodcastEpisodes });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/PodcastEpisodes.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/Recognition.jsx
+try { (() => {
+/* Erkännanden. What the ranking institutes say about a group, as a register
+   rather than a wall: the quotes grouped by institute and year in the order
+   given, each group headed by the institute (linked to its page for the
+   area) and the year.
+
+   The institute says it; Vinge does not. No ornament, no card, no star, no
+   logo. Every string is the data's: the heading, the institute's own
+   description paragraphs (`intro`, their lead-in up to the first colon set
+   in bold), and every quote exactly as published, quotation marks included,
+   with its own `lang`.
+
+   On the page grid: heading at display-2 and the intro in .prose on 3–8. A
+   group is institute (display-3) and year (small) on 1–2, sticky while its quotes pass, and the
+   quotes in .prose on 3–8. A quote that opens on a quotation mark hangs it
+   in the margin. Quotes the source gives without an institute form a group
+   of their own with an empty head. Below LG the head sits above its quotes.
+
+   Two quotes or sixteen: whole groups show until `visible` quotes are on
+   screen; the rest wait behind one row. Folded quotes stay in the page
+   (hidden until found).
+
+   Ground: while the block holds the middle of the screen the whole page
+   turns to wash (PageGround, data-page-ground). ground="" turns it off. */
+
+const OPENS = /^["'\u2018\u2019\u201C\u201D]/;
+function useWide() {
+  const [w, setW] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1280px)');
+    const on = () => setW(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  return w;
+}
+function Lead({
+  text
+}) {
+  const m = /^([^:]{2,48}:)\s(.*)$/s.exec(text || '');
+  return m ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("strong", null, m[1]), ' ' + m[2]) : text;
+}
+function Recognition({
+  heading,
+  intro,
+  quotes,
+  items,
+  visible = 6,
+  moreLabel = 'Visa alla omdömen',
+  lessLabel = 'Visa färre omdömen',
+  headingLevel = 'h2',
+  defaultOpen = false,
+  id,
+  style,
+  ground = 'wash'
+}) {
+  __ds_scope.usePageGround();
+  const wide = useWide();
+  const uid = React.useId().replace(/:/g, '');
+  const [open, setOpen] = React.useState(defaultOpen);
+  const restRef = React.useRef(null);
+  const H = headingLevel;
+  const list = (quotes || items || []).filter(q => q && q.text);
+  const groups = [];
+  list.forEach(q => {
+    const g = groups[groups.length - 1];
+    if (g && (g.source || '') === (q.source || '') && (g.year || '') === (q.year || '') && (g.href || '') === (q.href || '')) g.items.push(q);else groups.push({
+      source: q.source,
+      year: q.year,
+      href: q.href,
+      items: [q]
+    });
+  });
+  let n = 0,
+    cut = groups.length;
+  for (let i = 0; i < groups.length; i++) {
+    n += groups[i].items.length;
+    if (n >= visible) {
+      cut = i + 1;
+      break;
+    }
+  }
+  const head = groups.slice(0, cut),
+    rest = groups.slice(cut);
+  const restCount = rest.reduce((a, g) => a + g.items.length, 0);
+
+  /* React does not own `hidden` here, so find-in-page can lift it. */
+  React.useLayoutEffect(() => {
+    const el = restRef.current;
+    if (!el) return;
+    if (open) el.removeAttribute('hidden');else el.setAttribute('hidden', 'until-found');
+  }, [open, restCount]);
+  React.useEffect(() => {
+    const el = restRef.current;
+    if (!el) return undefined;
+    const on = () => setOpen(true);
+    el.addEventListener('beforematch', on);
+    return () => el.removeEventListener('beforematch', on);
+  }, [restCount]);
+  const group = (g, gi) => /*#__PURE__*/React.createElement("div", {
+    key: gi,
+    "data-recognition-group": "",
+    style: {
+      display: 'grid',
+      gridTemplateColumns: wide ? 'repeat(8, minmax(0, 1fr))' : 'minmax(0, 1fr)',
+      columnGap: 'var(--gutter)',
+      rowGap: 'var(--space-3)',
+      paddingBlock: 'var(--space-5)',
+      borderTop: '1px solid var(--rule-hairline)',
+      alignItems: 'start'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: wide ? '1 / 3' : 'auto',
+      position: wide ? 'sticky' : 'static',
+      top: 'calc(44px + var(--space-3) * 3)',
+      display: 'flex',
+      flexDirection: wide ? 'column' : 'row',
+      flexWrap: 'wrap',
+      alignItems: wide ? 'flex-start' : 'baseline',
+      gap: wide ? 'var(--space-1)' : '0 var(--space-3)'
+    }
+  }, g.source ? g.href ? /*#__PURE__*/React.createElement("a", {
+    href: g.href,
+    target: "_blank",
+    rel: "noopener",
+    className: "display-3",
+    style: {
+      color: 'var(--text-primary)',
+      textUnderlineOffset: '0.14em'
+    }
+  }, g.source) : /*#__PURE__*/React.createElement("span", {
+    className: "display-3",
+    style: {
+      color: 'var(--text-primary)'
+    }
+  }, g.source) : null, g.year ? /*#__PURE__*/React.createElement("span", {
     className: "small",
     style: {
       color: 'var(--text-secondary)'
     }
-  }, closingLine) : null, actionLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-    href: actionHref,
-    variant: "secondary",
+  }, g.year) : null), /*#__PURE__*/React.createElement("div", {
     style: {
-      fontSize: 'var(--text-small)'
+      gridColumn: wide ? '3 / 9' : 'auto',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      minWidth: 0
     }
-  }, actionLabel) : null)))));
+  }, g.items.map((q, i) => /*#__PURE__*/React.createElement("blockquote", {
+    key: i,
+    lang: q.lang || undefined,
+    cite: q.href || undefined,
+    className: "prose",
+    style: {
+      margin: 0,
+      textWrap: 'pretty',
+      textIndent: OPENS.test(q.text) ? '-0.42em' : undefined
+    }
+  }, q.text))));
+  return /*#__PURE__*/React.createElement("section", {
+    id: id,
+    "aria-labelledby": heading ? 'rc-' + uid : undefined,
+    "data-recognition": "",
+    "data-page-ground": ground || undefined,
+    className: "grid",
+    style: {
+      rowGap: 0,
+      ...style
+    }
+  }, heading || intro && intro.length ? /*#__PURE__*/React.createElement("div", {
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      marginBottom: 'var(--space-6)'
+    }
+  }, heading ? /*#__PURE__*/React.createElement(H, {
+    id: 'rc-' + uid,
+    className: "display-2",
+    style: {
+      margin: 0
+    }
+  }, heading) : null, intro && intro.length ? /*#__PURE__*/React.createElement("div", {
+    lang: "en",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)'
+    }
+  }, intro.map((p, i) => /*#__PURE__*/React.createElement("p", {
+    key: i,
+    className: "prose",
+    style: {
+      margin: 0,
+      color: 'var(--text-primary)',
+      textWrap: 'pretty'
+    }
+  }, /*#__PURE__*/React.createElement(Lead, {
+    text: p
+  })))) : null) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: '1 / -1',
+      minWidth: 0
+    }
+  }, head.map(group), restCount ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    id: 'rc-rest-' + uid,
+    ref: restRef
+  }, rest.map((g, i) => group(g, cut + i))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: wide ? 'repeat(8, minmax(0, 1fr))' : 'minmax(0, 1fr)',
+      columnGap: 'var(--gutter)',
+      borderTop: '1px solid var(--rule-hairline)',
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-expanded": open,
+    "aria-controls": 'rc-rest-' + uid,
+    onClick: () => setOpen(o => !o),
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      cursor: 'pointer',
+      gridColumn: wide ? '3 / 9' : 'auto',
+      minHeight: 44,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      gap: 'var(--space-3)',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      maxWidth: 'none'
+    }
+  }, open ? lessLabel : moreLabel), /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: open ? 'subtract' : 'add',
+    size: "sm"
+  })))) : /*#__PURE__*/React.createElement("div", {
+    style: {
+      borderTop: '1px solid var(--rule-hairline)'
+    }
+  })));
 }
-Object.assign(__ds_scope, { Record });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
+Object.assign(__ds_scope, { Recognition });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Recognition.jsx", error: String((e && e.message) || e) }); }
 
 // components/conversation/ChoiceComposer.jsx
 try { (() => {
@@ -18391,7 +16558,8 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    system permits, and only in this role — a link that ends a section and sends
    the reader somewhere else.
 
-   Never in a nav, never on an index row, never next to body text: at
+   The one other arrow is LinkList's row cue, also at display-3.
+   Never in a nav, never next to body text: at
    display-3 the arrow is a letterform, and at text sizes it becomes the
    decoration the rest of the system refuses. The glyph box is reserved at
    rest, so the label does not move when it appears. */
@@ -19273,7 +17441,8 @@ function Matters({
     id: id,
     "data-matters": "",
     style: {
-      paddingBlock: 'var(--chapter-gap)',
+      paddingBlockStart: 'var(--chapter-gap)',
+      paddingBlockEnd: 'var(--section-gap)',
       ...(tightTop ? {
         paddingBlockStart: 'var(--space-8)'
       } : null),
@@ -19302,7 +17471,7 @@ function Matters({
     "data-matter": "",
     "data-scale": m.scale || SCALES[i] || 'small',
     style: {
-      marginTop: i === 0 ? 'calc(var(--chapter-gap) * 0.62)' : 'calc(var(--chapter-gap) * 1.6)',
+      marginTop: i === 0 ? 'calc(var(--chapter-gap) * 0.62)' : 'var(--chapter-gap)',
       alignItems: 'start'
     }
   }, /*#__PURE__*/React.createElement("div", {
@@ -19320,9 +17489,9 @@ function Matters({
   }), /*#__PURE__*/React.createElement(Caption, {
     label: m.world && m.world.label,
     body: m.world && m.world.body
-  })), /*#__PURE__*/React.createElement("div", {
+  })), m.person ? /*#__PURE__*/React.createElement("div", {
     "data-matter-person": ""
-  }, m.person && m.person.artwork ? /*#__PURE__*/React.createElement(__ds_scope.ArtworkPin, _extends({
+  }, m.person.artwork ? /*#__PURE__*/React.createElement(__ds_scope.ArtworkPin, _extends({
     src: m.person.src,
     alt: m.person.alt || '',
     ratio: "4:5",
@@ -19333,9 +17502,9 @@ function Matters({
     alt: m.person && m.person.alt || '',
     ratio: "4:5"
   }), /*#__PURE__*/React.createElement(Caption, {
-    label: m.person && m.person.label,
-    body: m.person && m.person.body
-  })), /*#__PURE__*/React.createElement("div", {
+    label: m.person.label,
+    body: m.person.body
+  })) : null, /*#__PURE__*/React.createElement("div", {
     "data-matter-text": ""
   }, m.kicker ? /*#__PURE__*/React.createElement(__ds_scope.MetaLine, {
     parts: Array.isArray(m.kicker) ? m.kicker : undefined,
@@ -20008,6 +18177,2734 @@ function Checkbox({
 }
 Object.assign(__ds_scope, { Checkbox });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/Checkbox.jsx", error: String((e && e.message) || e) }); }
+
+// components/forms/FilterSearch.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* The search every filter uses: a hairline under small text, the set's own
+   close glyph once something is typed, Escape to clear. ListingFilters (people
+   register, insight stream, person page) and the case record's filter panel
+   all draw it from here, so typing to narrow a list looks and behaves the same
+   on every page. */
+function FilterSearch({
+  value = '',
+  onChange,
+  label = '',
+  ariaLabel,
+  placeholder = '',
+  clearLabel = 'Rensa sökningen',
+  inline = false,
+  id,
+  /* Keys other than Escape-with-a-value reach this, so a field can carry a
+     type-ahead (arrows, Enter) without forking the control. */
+  onKeyDown,
+  inputRef,
+  /* Spread onto the input: combobox roles, aria-*, autoComplete. */
+  inputProps,
+  /* 'small' (the default): every filter. 'display': the search results
+     page's banner, where the query is the page's title and is set at
+     display-2 on the same hairline. */
+  size = 'small',
+  style
+}) {
+  const big = size === 'display';
+  const own = React.useRef(null);
+  const ref = inputRef || own;
+  const set = v => {
+    if (onChange) onChange(v);
+  };
+  const field = /*#__PURE__*/React.createElement("span", {
+    style: {
+      position: 'relative',
+      display: 'block',
+      minWidth: 0,
+      flex: inline ? '1 1 auto' : undefined
+    }
+  }, /*#__PURE__*/React.createElement("input", _extends({
+    ref: ref,
+    id: id,
+    type: "search",
+    value: value,
+    placeholder: placeholder,
+    "aria-label": label ? undefined : ariaLabel || placeholder || undefined,
+    onChange: e => set(e.target.value)
+    /* Escape clears first; only an empty field lets it through to close a drawer. */,
+    "data-filter-search": "",
+    className: big ? 'display-2' : undefined
+  }, inputProps, {
+    onKeyDown: e => {
+      if (e.key === 'Escape' && value) {
+        e.preventDefault();
+        e.stopPropagation();
+        set('');
+        return;
+      }
+      if (onKeyDown) onKeyDown(e);
+    },
+    style: {
+      display: 'block',
+      width: '100%',
+      boxSizing: 'border-box',
+      margin: 0,
+      marginTop: label && !inline ? 6 : 0,
+      padding: big ? '0 0 var(--space-2)' : '0 0 8px',
+      paddingRight: value ? big ? 48 : 32 : 0,
+      border: 0,
+      borderBottom: '1px solid var(--rule-hairline)',
+      /* text-primary, not ink: on an inverted ground (the menu) the same
+         field turns to paper on ink without a variant. */
+      background: 'transparent',
+      color: 'var(--text-primary)',
+      ...(big ? {
+        maxWidth: 'none'
+      } : {
+        fontFamily: 'var(--font-text)',
+        fontSize: 'var(--text-small)',
+        lineHeight: 'var(--lh-small)'
+      }),
+      appearance: 'none',
+      WebkitAppearance: 'none',
+      borderRadius: 0
+    }
+  })), value ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-label": clearLabel,
+    onClick: () => {
+      set('');
+      if (ref.current) ref.current.focus();
+    },
+    style: {
+      position: 'absolute',
+      right: -10,
+      bottom: big ? 'var(--space-1)' : 0,
+      width: 44,
+      height: 44,
+      display: 'grid',
+      placeItems: 'center',
+      background: 'none',
+      border: 0,
+      padding: 0,
+      cursor: 'pointer',
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: big ? 'lg' : 'sm'
+  })) : null);
+  if (!label) return /*#__PURE__*/React.createElement("div", {
+    style: {
+      minWidth: 0,
+      ...style
+    }
+  }, field);
+  return /*#__PURE__*/React.createElement("label", {
+    style: {
+      display: inline ? 'flex' : 'block',
+      alignItems: 'baseline',
+      gap: inline ? 'var(--space-2)' : undefined,
+      minWidth: 0,
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      display: 'block',
+      flex: 'none',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, label), field);
+}
+Object.assign(__ds_scope, { FilterSearch });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/FilterSearch.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/Record.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* The proof block: one line is one job somebody hired us to do.
+   ~120 identical lines, grouped by year, and a readout bar that reads out the
+   line under the cursor. Three things are load-bearing and must not be
+   "improved": the readout bar sticks, its columns never move, and no row links
+   anywhere. Length encodes nothing — every line is the same length, so the
+   only quantity the graphic states is the height of a year block. */
+
+const CELL = {
+  minWidth: 0,
+  whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)'
+};
+/* Reserved in rem, not em: an em box scales with each cell's own font-size and
+   the baselines drift. */
+const KEY_CELL = {
+  ...CELL,
+  height: '1rem',
+  lineHeight: '1rem',
+  color: 'var(--text-secondary)'
+};
+const VAL_CELL = {
+  ...CELL,
+  height: '1.375rem',
+  lineHeight: '1.375rem',
+  color: 'var(--text-primary)',
+  fontWeight: 'var(--weight-medium)'
+};
+/* The discipline list is read in full, so it wraps like ordinary text. Two
+   lines are reserved, which is what most entries need. */
+const DISC_CELL = {
+  ...VAL_CELL,
+  whiteSpace: 'normal',
+  overflow: 'visible',
+  textOverflow: 'clip',
+  height: 'auto',
+  minHeight: '2.75rem'
+};
+
+/* TEST: term-list row. A button that has to read as a line of the record's
+   own text, so everything a button brings is taken back off. */
+const TERM_BTN = {
+  appearance: 'none',
+  background: 'none',
+  border: 0,
+  padding: 0,
+  margin: 0,
+  width: '100%',
+  textAlign: 'left',
+  cursor: 'pointer',
+  font: 'inherit',
+  fontFamily: 'var(--font-text)',
+  fontSize: 'var(--text-small)',
+  lineHeight: 1.3
+};
+const PITCH = 18; /* row box, fixed — hover must not reflow the field */
+/* The filtered view labels every match, and a label is a 21px box, so that
+   view runs on a taller row. The field gets longer; every title gets read. */
+const PITCH_FILTERED = 26;
+const BAR = 1; /* the line */
+const BAR_ACTIVE = 2; /* the line under the cursor */
+const FAN = 10; /* air the cursor row opens above and below itself */
+/* Vertical reading: short upright ticks on a fixed pitch. */
+const V_PITCH = 7;
+const V_PITCH_OPEN = 12; /* the group under the cursor opens up to this */
+const V_PITCH_REST = 4; /* every other group closes to this while one is open */
+const V_PROX = 10; /* extra pitch at the cursor, falling off with distance */
+const V_PROX_R = 6; /* how many lines either side the swell reaches */
+/* While a case is pinned the field is one close control, and says so. */
+const CLOSE_CURSOR = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 6l12 12M18 6L6 18' stroke='%23103a1c' stroke-width='1.5'/%3E%3C/svg%3E\") 12 12, pointer";
+const V_HEIGHT = 36;
+/* SM vertical: the field becomes a side-scrolling rail. One fixed pitch, wide
+   enough that each line is its own stop, and the line on the left edge is the
+   one being read. */
+const R_PITCH = 16;
+const R_HEIGHT = 48;
+const V_LIFT = 8; /* the tick under the cursor stands this much taller */
+
+/* Two readings of the same field. The first is the whole record; the second
+   emphasises what the visitor's own dialogue touches. Neither fetches,
+   reorders or removes a row. */
+const VIEWS = ['Allt', 'Intressanta för dig'];
+function Record({
+  entries = [],
+  /* What the finder derived from the dialogue: { text, areas, sectors }.
+     Absent or empty and the second view shows its own prompt instead. */
+  dialogue = null,
+  index = '',
+  title = 'Uppdragsregistret',
+  premise = 'Varje rad är ett uppdrag någon har anlitat oss för. Registret börjar 2022 och innehåller allt vi har tagit sedan dess.',
+  secondLine = '',
+  lead = '',
+  readingRule = '',
+  closingLine = 'Registret visar de senaste uppdragen. Hela beståndet är sökbart.',
+  actionLabel = 'Sök i registret',
+  closeLabel = 'Stäng',
+  actionHref = '#',
+  viewLabels = VIEWS,
+  /* Show the two-view switch. Off, the block is the whole record only and the
+     AI-derived view is unreachable. Pages keep it off by default and let the
+     demo console bring it back. */
+  views = true,
+  allLine = 'Varje uppdrag vi har tagit sedan 2022.',
+  /* {n} and {total} are filled in. The denominator carries it: a bare count
+     leaves the word "intressanta" standing for nothing. */
+  relevanceLine = '{n} av {total} rör det du frågade om.',
+  emptyBody = 'Den här vyn filtrerar registret på det du har berättat för oss.',
+  emptyLinkLabel = 'Berätta vad du står i, så visar jag vad som rör det',
+  finderHref = '#',
+  /* Warm state: the visitor gets to see what the filter is actually reading,
+     and to take it back. Never a mystery filter. */
+  filterLabel = 'Filtrerat på',
+  resetLabel = 'Nollställ',
+  /* The starred tab says the view is a subset; this says who made it one. It
+     sits with the reset control, so the explanation and the way out of the
+     filtering are read together. */
+  filterNote = '* Urvalet kommer från ditt samtal med AI:n.',
+  askAgainLabel = 'Prata med AI:n igen',
+  /* The register as a page of its own. Opt-in: no label, no link. */
+  allLabel = '',
+  allHref,
+  /* Handed the conversation opener: the empty state's link opens the finder
+     right here rather than sending the visitor back up the page. */
+  onAsk,
+  /* Clears the derived dialogue. Without it the reset control is left out. */
+  onReset,
+  /* Which view the block opens on. 1 is for demoing the warm state — a real
+     page opens on the whole record. */
+  initialView = 0,
+  /* Optionally controlled, so a page (or the demo console) can put the block
+     in either view. Left out, the tabs own it. */
+  view: viewProp,
+  onViewChange,
+  /* TEST (reversible): term lists in the side column that act as a filter on
+     the whole record. Off by default — drop the prop and the block is exactly
+     what it was. Only ever applies to the first view; the AI-derived second
+     view is untouched. */
+  termFilter = false,
+  termCount = 10,
+  workHeading = 'Filtrera på uppdragstyp',
+  discHeading = 'Filtrera på disciplin',
+  termLine = '{n} av {total} uppdrag är {term}.',
+  termResetLabel = 'Visa alla',
+  /* The panel's free-text search: the shared FilterSearch, headed like the
+     term lists under it. It narrows together with the chosen term, and the
+     lists count against what it leaves. */
+  searchHeading = 'Sök',
+  searchPlaceholder = 'Klient, rubrik, område',
+  /* Count line while a search is typed. */
+  matchLine = '{n} av {total} uppdrag.',
+  termToggleLabel = 'Filtrera',
+  /* Vertical reading: the pinned case's way on to the full write-up. */
+  /* Off by default: a mandate has no page of its own beyond its row. */
+  readMoreLabel = '',
+  /* SM rail: where the read-more link goes when the entry has no href of its
+     own. On a phone the case is read on its own page, not expanded here. */
+  caseHref = '#',
+  clientLabel = 'Klient',
+  /* Listing: the rows are written out as client names instead of lines, the
+     hovered one folds out its title, preamble and areas, and ends in a
+     link labelled openLabel. Horizontal only. */
+  listing = false,
+  /* Opens with no top air, for when a PageBanner above already carries it. */
+  flushTop = false,
+  openLabel = '',
+  /* The filter drawer's close control, below LG. */
+  termsCloseLabel = 'Stäng filter',
+  yearHeading = 'Filtrera på år',
+  areasLabel = 'Rättsområden',
+  teamLabel = 'Team',
+  /* What heads the listing's groups: 'year' (the case listing: year, then
+     month) or 'letter' (Register A–Ö: entry.letter, one level). Entries must
+     arrive sorted by it. The panel's year list becomes a letter list. */
+  spine = 'year',
+  letterHeading = 'Filtrera på bokstav',
+  /* Listing: the row is the link to entry.href. One click reaches the page;
+     the dwell fold-out still previews, but never stands in between. */
+  rowLinks = false,
+  /* The side readout. Off when the entries carry nothing for it to read. */
+  readout: readoutOn = true,
+  id,
+  style
+}) {
+  const groupOf = e => spine === 'letter' ? e.letter : e.year;
+  const [viewState, setViewState] = React.useState(initialView);
+  const view = views ? viewProp == null ? viewState : viewProp : 0;
+  const setView = v => {
+    setViewState(v);
+    if (onViewChange) onViewChange(v);
+  };
+  const [cursor, setCursor] = React.useState(0);
+  /* The filter control and the readout pin as one group. The readout is the
+     taller of the two, so it would unpin first and slide up under the
+     control; its height is handed to the grid so the control's sticky range
+     ends at the same scroll position (see grid.css). */
+  const sideRef = React.useRef(null);
+  React.useEffect(() => {
+    const s = sideRef.current;
+    if (!s || typeof ResizeObserver === 'undefined') return undefined;
+    const host = s.closest('.grid');
+    if (!host) return undefined;
+    const ro = new ResizeObserver(() => host.style.setProperty('--record-side-h', s.offsetHeight + 'px'));
+    ro.observe(s);
+    return () => ro.disconnect();
+  }, [termFilter, view]);
+  const [printed, setPrinted] = React.useState(false);
+  /* Nothing is lit until the visitor actually points: the default cursor row
+     must not read as a match. */
+  const [touched, setTouched] = React.useState(false);
+  const [scan, setScan] = React.useState(-1);
+  /* { kind: 'work' | 'disc', v } — one term at a time, across both lists. A
+     second click on the lit term takes the filter back off. */
+  const [term, setTerm] = React.useState(null);
+  const [query, setQuery] = React.useState('');
+  const q = query.trim().toLocaleLowerCase('sv');
+  /* entry.search, when given, is the whole of what is searched, each string on
+     its own (Register A–Ö: label, the page's H1, its children's H1s). */
+  const matchQ = React.useCallback(e => {
+    if (!q) return true;
+    const hay = e.search || [[e.client, e.title, e.preamble, e.sector, e.work, (e.disciplines || []).join(' '), e.year].filter(Boolean).join(' ')];
+    return hay.some(s => String(s).toLocaleLowerCase('sv').indexOf(q) >= 0);
+  }, [q]);
+  /* A row found by something other than its label says what found it. */
+  const hitOf = e => {
+    if (!q || !e.search || String(e.client).toLocaleLowerCase('sv').indexOf(q) >= 0) return '';
+    return e.search.find(s => String(s).toLocaleLowerCase('sv').indexOf(q) >= 0) || '';
+  };
+  const hasFold = e => !!(e && (openLabel || e.title || e.preamble || (e.also || []).length || e.work));
+  /* Same as the listings: the filters live behind the mark, and the label
+     comes out on approach. */
+  const [termsOpen, setTermsOpen] = React.useState(false);
+  const [termsWarm, setTermsWarm] = React.useState(false);
+  /* One flag per term list: is there anything below the cut? The fade is only
+     drawn when the answer is yes, so a short list is not faded for nothing. */
+  const scrollRefs = React.useRef([]);
+  const [fade, setFade] = React.useState([false, false]);
+  const sectionRef = React.useRef(null);
+  const rowRefs = React.useRef([]);
+  const fieldRef = React.useRef(null);
+  const ptr = React.useRef(null);
+  const reduced = React.useRef(false);
+  /* Without a pointer there is no hover, so the field reads itself: the row
+     passing through the lower middle of the viewport is the one that turns
+     into text. */
+  const [touch, setTouch] = React.useState(false);
+  const [small, setSmall] = React.useState(false);
+  /* Below LG (SM and MD): the listing card carries its own fields. */
+  const [narrow, setNarrow] = React.useState(false);
+  /* The filter panel shows its scrollbar only while it is being scrolled. */
+  const termsListRef = React.useRef(null);
+  React.useEffect(() => {
+    const el = termsListRef.current;
+    if (!el) return;
+    let t = 0;
+    /* data-more while anything is below the cut: the panel fades out at
+       its foot then, and only then. */
+    const edge = () => {
+      if (el.scrollHeight - el.scrollTop - el.clientHeight > 4) el.setAttribute('data-more', '');else el.removeAttribute('data-more');
+    };
+    const onScroll = () => {
+      edge();
+      el.setAttribute('data-scrolling', '');
+      window.clearTimeout(t);
+      t = window.setTimeout(() => el.removeAttribute('data-scrolling'), 900);
+    };
+    edge();
+    const ro = new ResizeObserver(edge);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => {
+      ro.disconnect();
+      el.removeEventListener('scroll', onScroll);
+      window.clearTimeout(t);
+    };
+  });
+  const pointerRef = React.useRef(null);
+  /* Listing row: the client written out; the hovered row folds out its title
+     and preamble. The whole row is the link into the case. */
+  const [expanded, setExpanded] = React.useState(null);
+  /* Pointer over the unfolded row: the rest of the list steps back. */
+  const [onOpen, setOnOpen] = React.useState(false);
+  /* Rows open on dwell, not on click: the pointer rests on a line for DWELL ms
+     while a small ring fills in place of the cursor, then the row folds out.
+     Touch keeps the tap. Leaving the field cancels a pending open. */
+  const DWELL = 650;
+  /* The ring stays hidden for the first RING_WAIT ms, so scrolling past rows
+     never flashes it; only a pointer that actually rests sees it appear. */
+  const RING_WAIT = 280;
+  const [pending, setPending] = React.useState(null);
+  /* A row the visitor just closed by its name stays shut while the pointer is
+     still on it; the dwell only arms again once the pointer has left it. */
+  const [shutHold, setShutHold] = React.useState(null);
+  const [ringOn, setRingOn] = React.useState(false);
+  React.useEffect(() => {
+    setRingOn(false);
+    if (!listing || touch || !touched || cursor == null || cursor < 0 || cursor === expanded || cursor === shutHold || !hasFold(entries[cursor])) {
+      setPending(null);
+      return undefined;
+    }
+    setPending(cursor);
+    const r = reduced.current ? 0 : window.setTimeout(() => setRingOn(true), RING_WAIT);
+    const t = window.setTimeout(() => {
+      setExpanded(cursor);
+      setOnOpen(true);
+      setPending(null);
+      setRingOn(false);
+    }, reduced.current ? 0 : DWELL);
+    return () => {
+      window.clearTimeout(t);
+      window.clearTimeout(r);
+    };
+  }, [listing, touch, touched, cursor, expanded, shutHold, entries]);
+  /* The stuck year sits on the header wordmark's bottom edge: measured, so it
+     holds whatever size the header has at this viewport. */
+  const [yearTop, setYearTop] = React.useState(22);
+  React.useEffect(() => {
+    if (!listing) return undefined;
+    const measure = () => {
+      const logo = document.querySelector('header img[alt="Vinge"]') || document.querySelector('[data-fixed-chrome] img[alt="Vinge"]') || document.querySelector('img[alt="Vinge"]');
+      const f = fieldRef.current;
+      const probe = f && f.querySelector('[data-year-baseline]');
+      if (!logo || !probe) return;
+      const box = probe.parentElement.parentElement.parentElement;
+      const base = probe.getBoundingClientRect().bottom - box.getBoundingClientRect().top;
+      /* Below LG the year starts at the wordmark's left edge, so on its
+         baseline the two collide. There it pins just under the header row. */
+      const sm = window.matchMedia('(max-width: 1279px)').matches;
+      const head = logo.closest('header');
+      const next = sm && head ? Math.round(head.getBoundingClientRect().bottom) : Math.max(0, Math.round(logo.getBoundingClientRect().bottom - base));
+      setYearTop(p => p === next ? p : next);
+    };
+    measure();
+    const t = window.setTimeout(measure, 600);
+    window.addEventListener('resize', measure);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
+    return () => {
+      window.clearTimeout(t);
+      window.removeEventListener('resize', measure);
+    };
+  }, [listing]);
+  /* Scrolling moves the rows under a still pointer without any mouse event, so
+     the pointer and the row it reads are re-solved from its last position. */
+  const listPtr = React.useRef(null);
+  React.useEffect(() => {
+    if (!listing || touch) return undefined;
+    let frame = 0;
+    const apply = () => {
+      frame = 0;
+      const p = listPtr.current;
+      const f = fieldRef.current;
+      if (!p || !f) return;
+      const b = f.getBoundingClientRect();
+      const inside = p.x >= b.left && p.x <= b.right && p.y >= b.top && p.y <= b.bottom;
+      if (!inside) {
+        setTouched(false);
+        return;
+      }
+      const hit = document.elementFromPoint(p.x, p.y);
+      const row = hit && hit.closest ? hit.closest('[data-row-i]') : null;
+      if (row) {
+        setCursor(Number(row.getAttribute('data-row-i')));
+        setTouched(true);
+      }
+    };
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(apply);
+    };
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [listing, touch]);
+  const teamOf = e => (e && e.team || []).map(t => typeof t === 'string' ? {
+    name: t
+  } : t).filter(t => t && t.name);
+  const teamLinks = (team, tabIndex) => team.map((p, n) => /*#__PURE__*/React.createElement(React.Fragment, {
+    key: p.name + n
+  }, n ? ', ' : '', p.href ? /*#__PURE__*/React.createElement("a", {
+    href: p.href,
+    tabIndex: tabIndex,
+    style: {
+      color: 'inherit',
+      textDecoration: 'underline',
+      textDecorationColor: 'var(--underline-rest)',
+      textUnderlineOffset: '.18em'
+    }
+  }, p.name) : p.name));
+  const renderListRow = (e, on, rowShut, rowOpacity) => {
+    const open = expanded === e.i;
+    const RowTag = rowLinks ? 'a' : 'div';
+    const hit = hitOf(e);
+    return /*#__PURE__*/React.createElement("div", {
+      key: e.i,
+      style: {
+        display: 'grid',
+        gridTemplateRows: rowShut ? '0fr' : '1fr',
+        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement(RowTag, _extends({
+      ref: el => {
+        rowRefs.current[e.i] = el;
+      }
+    }, rowLinks ? {
+      href: e.href || '#',
+      'aria-label': [e.client, hit].filter(Boolean).join(', ')
+    } : {
+      role: 'button',
+      'aria-label': [e.client, e.title].filter(Boolean).join(': '),
+      'aria-expanded': open
+    }, {
+      tabIndex: rowShut ? -1 : 0,
+      "data-row-i": e.i,
+      onMouseEnter: () => {
+        setCursor(e.i);
+        setTouched(true);
+        setOnOpen(open);
+        setShutHold(h => h === e.i ? h : null);
+      },
+      onMouseLeave: () => {
+        setOnOpen(false);
+        setShutHold(h => h === e.i ? null : h);
+      },
+      onFocus: () => {
+        setCursor(e.i);
+        setTouched(true);
+      },
+      onClick: ev => {
+        if (rowLinks) return;
+        /* Desktop: the dwell is what previews, so a click is always intent to
+           go. On a shut or still-loading row it follows the row's link, through
+           the fold-out's own CTA so routing and new-tab clicks behave as a link. */
+        if (!open && !touch && openLabel && e.href) {
+          if (ev.target.closest && ev.target.closest('[data-fold] a')) return;
+          const cta = ev.currentTarget.querySelector('[data-fold] .cta');
+          if (ev.metaKey || ev.ctrlKey || ev.shiftKey) {
+            window.open(e.href, '_blank');
+            return;
+          }
+          if (cta) {
+            cta.click();
+            return;
+          }
+          location.href = e.href;
+          return;
+        }
+        if (!open) {
+          setExpanded(e.i);
+          setOnOpen(true);
+          setShutHold(null);
+          return;
+        }
+        /* The open row's name line is also its close control. */
+        if (ev.target.closest && ev.target.closest('[data-row-head]')) {
+          setExpanded(null);
+          setOnOpen(false);
+          if (!touch) setShutHold(e.i);
+        }
+      },
+      onKeyDown: ev => {
+        if (rowLinks) return;
+        if (ev.target !== ev.currentTarget || ev.key !== 'Enter' && ev.key !== ' ') return;
+        ev.preventDefault();
+        setExpanded(open ? null : e.i);
+        setShutHold(open && !touch ? e.i : null);
+      },
+      style: {
+        display: 'block',
+        overflow: 'hidden',
+        minHeight: 0,
+        color: 'inherit',
+        textDecoration: 'none',
+        outline: 'none',
+        borderBottom: rowShut ? 0 : '1px solid var(--rule-hairline)',
+        paddingBlock: rowShut ? 0 : on ? 'calc(var(--space-1) + var(--space-0))' : 'var(--space-1)',
+        cursor: !touch && ringOn && pending === e.i ? 'none' : open && !touch && !rowLinks ? 'default' : 'pointer',
+        opacity: onOpen && !open && !touch ? Math.min(rowOpacity, 0.45) : rowOpacity,
+        transition: 'opacity var(--dur-fast) var(--ease-quart), padding-block var(--dur-slow) var(--ease-expo)'
+      }
+    }), /*#__PURE__*/React.createElement("span", {
+      "data-row-head": "",
+      className: "small",
+      style: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: 'var(--space-3)',
+        maxWidth: 'none',
+        cursor: open ? 'pointer' : 'inherit',
+        color: on || open ? 'var(--text-primary)' : 'var(--text-secondary)',
+        transition: 'color var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("span", null, e.client), hit ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '0 1 auto',
+        minWidth: 0,
+        textAlign: 'right',
+        color: 'var(--text-secondary)'
+      }
+    }, hit) : touch && !rowLinks ? /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        flex: '0 0 auto',
+        width: 11,
+        height: 11,
+        opacity: open ? 1 : 0,
+        transition: 'opacity var(--dur-fast) var(--ease-expo)'
+      }
+    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      style: {
+        position: 'absolute',
+        left: 0,
+        top: 'calc(50% - 0.5px)',
+        width: 11,
+        height: 1,
+        background: 'var(--ink)',
+        transform: 'rotate(' + d + 'deg)'
+      }
+    }))) : null), /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: open ? '1fr' : '0fr',
+        transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'block',
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "data-fold": "",
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)',
+        maxWidth: '44rem',
+        paddingBlock: 'var(--space-4)'
+      }
+    }, (() => {
+      const words = [e.title ? /*#__PURE__*/React.createElement("span", {
+        key: "t",
+        "data-row-title": "",
+        className: "subhead",
+        style: {
+          display: 'block',
+          marginBlockStart: 'var(--row-title-shift, 0px)',
+          maxWidth: 'none',
+          color: 'var(--ink)',
+          textWrap: 'pretty'
+        }
+      }, e.title) : null, e.preamble ? /*#__PURE__*/React.createElement("span", {
+        key: "p",
+        className: "small",
+        style: {
+          display: 'block',
+          color: 'var(--text-secondary)'
+        }
+      }, e.preamble) : null, (e.also || []).length ? /*#__PURE__*/React.createElement("span", {
+        key: "a",
+        className: "small",
+        style: {
+          display: 'block',
+          color: 'var(--text-primary)',
+          textWrap: 'pretty'
+        }
+      }, e.also.join(', ')) : null].filter(Boolean);
+      if (!words.length) return null;
+      return openLabel ? /*#__PURE__*/React.createElement("a", {
+        "data-fold-text": "",
+        href: e.href || '#',
+        tabIndex: -1,
+        "aria-hidden": "true",
+        style: {
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 'var(--space-2)',
+          color: 'inherit',
+          textDecoration: 'none',
+          cursor: 'pointer'
+        }
+      }, words) : words;
+    })(), !rowLinks && teamOf(e).length ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-1)',
+        marginBlockStart: 'var(--space-2)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        ...KEY_CELL
+      }
+    }, teamLabel), /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-primary)',
+        textWrap: 'pretty'
+      }
+    }, teamLinks(teamOf(e), open ? 0 : -1))) : null, narrow && (e.work || (e.disciplines || []).length) ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'grid',
+        gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)',
+        columnGap: 'var(--gutter)',
+        marginBlockStart: 'var(--space-4)'
+      }
+    }, [{
+      k: 'Typ av uppdrag',
+      v: e.work ? [e.work] : []
+    }, {
+      k: 'Discipliner',
+      v: e.disciplines || []
+    }].map(c => /*#__PURE__*/React.createElement("span", {
+      key: c.k,
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      style: {
+        ...KEY_CELL,
+        marginBlockEnd: 'var(--space-1)'
+      }
+    }, c.k), c.v.length ? c.v.map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-primary)',
+        fontWeight: 'var(--weight-medium)',
+        textWrap: 'pretty'
+      }
+    }, d)) : /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        display: 'block',
+        color: 'var(--text-primary)'
+      }
+    }, "\u2014")))) : null, openLabel ? /*#__PURE__*/React.createElement("span", {
+      style: {
+        display: 'flex',
+        marginBlockStart: 'var(--space-3)'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+      href: e.href || '#',
+      variant: "small",
+      tabIndex: open ? 0 : -1,
+      style: {
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: 'var(--space-1)'
+      }
+    }, openLabel, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: "arrow--right",
+      size: "sm"
+    }))) : null)))));
+  };
+  /* Desktop listing: the readout rides level with the row it is reading —
+     the hovered row while the pointer is on the list, otherwise the unfolded
+     one — and glides there. While it follows it leaves sticky and sits in
+     page space, so the page scrolls it natively and the glide is computed in
+     page coordinates: scrolling never makes it chase. With no row it glides
+     to where sticky would hold it, then hands back to sticky. */
+  const sideTargetRef = React.useRef(null);
+  sideTargetRef.current = touched && cursor != null && cursor >= 0 ? cursor : expanded;
+  const sideKick = React.useRef(null);
+  /* Pointer on the unfolded row: its two hairlines run on left under the
+     readout, so row and readout read as one case. Drawn in the body's own
+     space, outside the rows' clipping. */
+  const strokeRef = React.useRef(null);
+  /* The filter control steps aside while the travelling readout passes over it. */
+  const termsRef = React.useRef(null);
+  const termsOpenRef = React.useRef(false);
+  termsOpenRef.current = termsOpen;
+  /* Below LG the listing's term lists are a drawer at the right edge. It
+     leaves the page uncovered and scrollable, so the record can be watched
+     closing up behind it; Escape or a tap outside it puts it away. */
+  React.useEffect(() => {
+    if (!listing || !narrow || !termsOpen) return undefined;
+    const onKey = ev => {
+      if (ev.key === 'Escape') setTermsOpen(false);
+    };
+    const onDown = ev => {
+      const t = termsRef.current;
+      if (t && !t.contains(ev.target)) setTermsOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('pointerdown', onDown);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('pointerdown', onDown);
+    };
+  }, [listing, narrow, termsOpen]);
+  const placeStrokesRef = React.useRef(null);
+  const expandedRef = React.useRef(null);
+  expandedRef.current = expanded;
+  const strokesOn = listing && readoutOn && !small && !touch && onOpen && expanded != null;
+  React.useEffect(() => {
+    if (strokesOn && placeStrokesRef.current) placeStrokesRef.current();
+  }, [strokesOn, expanded]);
+  React.useEffect(() => {
+    const side = sideRef.current;
+    const clear = () => {
+      if (!side) return;
+      side.style.position = '';
+      side.style.top = '';
+      side.style.transform = '';
+    };
+    if (!side || !listing || small || touch) {
+      clear();
+      sideKick.current = null;
+      return undefined;
+    }
+    const placeStrokes = () => {
+      const g = strokeRef.current;
+      const row = expandedRef.current != null ? rowRefs.current[expandedRef.current] : null;
+      if (!g || !row) return;
+      const host = g.parentElement.getBoundingClientRect();
+      const r = row.getBoundingClientRect();
+      const left = side.getBoundingClientRect().left;
+      g.style.left = left - host.left + 'px';
+      g.style.top = r.top - 1 - host.top + 'px';
+      g.style.width = Math.max(0, r.left - left) + 'px';
+      g.style.height = r.height + 'px';
+      /* The stroke always carries on across the open row. The row above's own
+         bottom border is dimmed with that row (or absent at the top of a month),
+         so it cannot be the open case's top edge. */
+      const cap = g.querySelector('[data-stroke-cap]');
+      if (cap) cap.style.width = r.width + 'px';
+    };
+    placeStrokesRef.current = placeStrokes;
+    const hideTerms = () => {
+      const t = termsRef.current;
+      if (!t) return;
+      const el = t.querySelector('button') || t;
+      const a = el.getBoundingClientRect(),
+        b = side.getBoundingClientRect();
+      /* Clear by a margin, so it is gone before the readout reaches it. */
+      const m = 48;
+      const hit = mode === 'page' && !termsOpenRef.current && a.bottom + m > b.top && a.top - m < b.bottom && a.right > b.left && a.left < b.right;
+      el.style.opacity = hit ? '0' : '';
+      el.style.pointerEvents = hit ? 'none' : '';
+      el.style.transition = hit ? 'opacity 80ms linear' : 'opacity var(--dur-fast) var(--ease-quart)';
+    };
+    /* Baseline of an element's first line, as an offset from its top: a
+       zero-height inline probe sits on the baseline. Cached per element. */
+    const baseCache = new WeakMap();
+    const baseOf = box => {
+      if (baseCache.has(box)) return baseCache.get(box);
+      const walk = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, {
+        acceptNode: n => n.nodeValue.trim() ? 1 : 3
+      });
+      const tn = walk.nextNode();
+      if (!tn) return 0;
+      const probe = document.createElement('span');
+      probe.style.cssText = 'display:inline-block;width:0;height:0;vertical-align:baseline';
+      tn.parentNode.insertBefore(probe, tn);
+      const v = probe.getBoundingClientRect().top - box.getBoundingClientRect().top;
+      probe.remove();
+      baseCache.set(box, v);
+      return v;
+    };
+    /* The panel keeps its own spacing; the row's title is set down so its
+       cap top meets Discipliner's. One offset for every row, held on the
+       field as a variable, so nothing reflows as the target changes. */
+    let shift = null;
+    const alignDisc = head => {
+      const d = side.querySelector('[data-readout-disc]');
+      const row = head && head.parentElement;
+      const title = row && row.getAttribute('aria-expanded') === 'true' && row.querySelector('[data-row-title]');
+      const host = fieldRef.current;
+      if (!d || !title || !host || Math.abs(head.getBoundingClientRect().top + baseOf(head) - baseOf(side) - side.getBoundingClientRect().top) > 1) return;
+      const capTop = el => el.getBoundingClientRect().top + baseOf(el) - 0.7 * parseFloat(getComputedStyle(el).fontSize);
+      const k = d.firstElementChild || d;
+      const cur = parseFloat(getComputedStyle(title).marginBlockStart) || 0;
+      const want = Math.max(-16, capTop(k) - (capTop(title) - cur));
+      if (shift == null || Math.abs(want - shift) > 0.5) {
+        shift = want;
+        host.style.setProperty('--row-title-shift', want.toFixed(1) + 'px');
+      }
+    };
+    let frame = 0,
+      last = 0,
+      mode = 'sticky',
+      off = 0,
+      cur = 0,
+      stickyTop = parseFloat(getComputedStyle(side).top) || 0;
+    const headOf = i => {
+      const r = i != null ? rowRefs.current[i] : null;
+      return r && r.querySelector('[data-row-head]');
+    };
+    const tick = now => {
+      frame = 0;
+      const dt = last ? Math.min(64, now - last) : 16.7;
+      last = now;
+      const y = window.scrollY;
+      const head = headOf(sideTargetRef.current);
+      if (mode === 'sticky') {
+        if (!head) return;
+        /* Leave sticky where it stands: page mode, offset to the same spot. */
+        const at = side.getBoundingClientRect().top;
+        side.style.position = 'relative';
+        side.style.top = 'auto';
+        side.style.transform = '';
+        const nat = side.getBoundingClientRect().top;
+        off = at - nat;
+        cur = at + y;
+        mode = 'page';
+        side.style.transform = 'translateY(' + off + 'px)';
+      }
+      const nat = side.getBoundingClientRect().top - off;
+      let target;
+      if (head) target = head.getBoundingClientRect().top + baseOf(head) - baseOf(side) + y;else {
+        const body = side.parentElement.getBoundingClientRect();
+        target = Math.min(Math.max(nat + y, y + stickyTop), body.bottom + y - side.offsetHeight);
+      }
+      const k = reduced.current ? 1 : 1 - Math.pow(1 - 0.35, dt / 16.7);
+      cur += (target - cur) * k;
+      if (Math.abs(target - cur) < 0.5) cur = target;
+      off = cur - y - nat;
+      if (!head && cur === target) {
+        clear();
+        mode = 'sticky';
+        off = 0;
+        alignDisc(null);
+        hideTerms();
+        return;
+      }
+      side.style.transform = 'translateY(' + off.toFixed(2) + 'px)';
+      alignDisc(head);
+      placeStrokes();
+      hideTerms();
+      frame = requestAnimationFrame(tick);
+    };
+    sideKick.current = () => {
+      if (!frame) {
+        last = 0;
+        frame = requestAnimationFrame(tick);
+      }
+    };
+    sideKick.current();
+    return () => {
+      if (frame) cancelAnimationFrame(frame);
+      clear();
+      sideKick.current = null;
+    };
+  }, [listing, small, touch]);
+  React.useEffect(() => {
+    if (sideKick.current) sideKick.current();
+  });
+  /* The record always reads as upright ticks; only the listing page keeps
+     its rows of client names. On SM the ticks become the side-scrolling rail. */
+  const vertical = !listing;
+  const rail = vertical && small;
+  /* A clicked line pins its case open below the field. While pinned the field
+     stops reading the pointer: the next click anywhere on it closes the case. */
+  const [pinned, setPinnedState] = React.useState(null);
+  const pinnedRef = React.useRef(null);
+  const caseRef = React.useRef(null);
+  const bodyRef = React.useRef(null);
+  const [bodyCut, setBodyCut] = React.useState(false);
+  React.useLayoutEffect(() => {
+    const el = bodyRef.current;
+    const next = !!el && el.scrollHeight - el.clientHeight > 4;
+    setBodyCut(p => p === next ? p : next);
+  });
+  const setPinned = v => {
+    pinnedRef.current = v;
+    setPinnedState(v);
+  };
+  const pin = i => {
+    setPinned(i);
+    setCursor(i);
+    setTouched(true);
+    /* A light anchor: the field is brought up under the header so the case
+       opening beneath it lands in view, with the pinned line still above. */
+    window.setTimeout(() => {
+      const f = fieldRef.current;
+      if (!f) return;
+      const top = f.getBoundingClientRect().top + window.scrollY - 112;
+      window.scrollTo({
+        top: Math.max(0, top),
+        behavior: reduced.current ? 'auto' : 'smooth'
+      });
+    }, 60);
+  };
+  const unpin = () => setPinned(null);
+  /* Vertical: the row of groups never wraps. Its width is measured, and every
+     tick's pitch is solved against it, so a swell in one place is paid for by
+     compression everywhere else instead of pushing a group onto a new row. */
+  const [fieldBox, setFieldBox] = React.useState({
+    w: 0,
+    gap: 0
+  });
+  React.useEffect(() => {
+    if (!vertical) return;
+    const el = fieldRef.current;
+    if (!el) return;
+    const read = () => {
+      const w = el.clientWidth;
+      const gap = parseFloat(getComputedStyle(el).columnGap) || 0;
+      setFieldBox(p => p.w === w && p.gap === gap ? p : {
+        w,
+        gap
+      });
+    };
+    read();
+    const ro = new ResizeObserver(read);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [vertical]);
+  /* The trailing title: moved by direct style writes, not state, so following
+     the pointer never re-renders 120 rows. */
+  const tipRef = React.useRef(null);
+  const tipPos = React.useRef({
+    x: 0,
+    y: 0,
+    tx: 0,
+    ty: 0,
+    live: false,
+    frame: 0
+  });
+  const tipTo = (x, y, snap) => {
+    const p = tipPos.current;
+    p.tx = x;
+    p.ty = y;
+    if (snap || !p.live || reduced.current) {
+      p.x = x;
+      p.y = y;
+      p.live = true;
+    }
+    const step = () => {
+      p.frame = 0;
+      p.x += (p.tx - p.x) * 0.14;
+      p.y += (p.ty - p.y) * 0.14;
+      const el = tipRef.current;
+      if (el) el.style.transform = 'translate3d(' + p.x.toFixed(1) + 'px,' + p.y.toFixed(1) + 'px,0)';
+      if (Math.abs(p.tx - p.x) > 0.3 || Math.abs(p.ty - p.y) > 0.3) p.frame = requestAnimationFrame(step);
+    };
+    if (!p.frame) p.frame = requestAnimationFrame(step);
+  };
+  React.useEffect(() => () => {
+    if (tipPos.current.frame) cancelAnimationFrame(tipPos.current.frame);
+  }, []);
+  React.useEffect(() => {
+    reduced.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    /* Narrow viewports get the scroll reading too, not just touch devices —
+       a phone-width window in a desktop browser is the same layout. */
+    const mq = window.matchMedia('(hover: none), (max-width: 1279px)');
+    const sm = window.matchMedia('(max-width: 767px)');
+    const nw = window.matchMedia('(max-width: 1279px)');
+    const sync = () => {
+      setTouch(mq.matches);
+      setSmall(sm.matches);
+      setNarrow(nw.matches);
+    };
+    sync();
+    if (mq.addEventListener) {
+      mq.addEventListener('change', sync);
+      sm.addEventListener('change', sync);
+      nw.addEventListener('change', sync);
+      return () => {
+        mq.removeEventListener('change', sync);
+        sm.removeEventListener('change', sync);
+        nw.removeEventListener('change', sync);
+      };
+    }
+  }, []);
+
+  /* SM rail: nothing is read until the visitor scrolls it. From then on the
+     line nearest the rail's left edge is the cursor, and moving the rail
+     lets go of a pinned case, since the case below follows the edge. */
+  const [railMore, setRailMore] = React.useState(true);
+  const [railHit, setRailHit] = React.useState(true);
+  const markRef = React.useRef(null);
+  /* Each line that arrives under the marker springs it up and lets it settle,
+     so the change of line is felt, not only read below. */
+  React.useEffect(() => {
+    const m = markRef.current;
+    if (!rail || !touched || !m || reduced.current || !m.animate) return;
+    m.animate([{
+      height: R_HEIGHT + V_LIFT - 3 + 'px'
+    }, {
+      height: R_HEIGHT + V_LIFT + 'px'
+    }], {
+      duration: 180,
+      easing: 'cubic-bezier(0.25, 1, 0.5, 1)'
+    });
+  }, [cursor, rail, touched]);
+  React.useEffect(() => {
+    if (!rail) return undefined;
+    const el = fieldRef.current;
+    if (!el) return undefined;
+    let frame = 0;
+    let moved = false;
+    /* Read on the scroll event itself, not a frame later: the fixed marker at
+       the edge and the case below must change on the same frame the line
+       arrives under it. Offsets are scroll-independent, so no rect reads. */
+    const pick = () => {
+      const x = el.scrollLeft + R_PITCH / 2;
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((t, i) => {
+        if (!t || !t.offsetWidth || !t.hasAttribute('data-tick')) return;
+        const d = Math.abs(t.offsetLeft + R_PITCH / 2 - x);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+      /* Between two years there is no line at the edge, so the marker goes
+         rather than standing in the gap. */
+      const under = best >= 0 && bestD < R_PITCH / 2;
+      setRailHit(p => p === under ? p : under);
+    };
+    const read = () => {
+      frame = 0;
+      const next = el.scrollWidth - el.scrollLeft - el.clientWidth > 4;
+      setRailMore(p => p === next ? p : next);
+    };
+    const onScroll = () => {
+      moved = true;
+      if (pinnedRef.current != null) setPinned(null);
+      pick();
+      if (!frame) frame = requestAnimationFrame(read);
+    };
+    read();
+    el.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    const ro = new ResizeObserver(() => {
+      if (!frame) frame = requestAnimationFrame(read);
+    });
+    ro.observe(el);
+    return () => {
+      el.removeEventListener('scroll', onScroll);
+      ro.disconnect();
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [rail, view, term, q]);
+
+  /* Touch: the focal band sits at 62% of the viewport, low enough that the row
+     being read is not under the thumb. The nearest row to it is the cursor. */
+  React.useEffect(() => {
+    if (!touch || vertical || listing) return;
+    let frame = 0;
+    const apply = () => {
+      frame = 0;
+      const focal = window.innerHeight * 0.62;
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > window.innerHeight) return;
+        const d = Math.abs(r.top + r.height / 2 - focal);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    apply();
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [touch, vertical]);
+
+  /* A browser only recomputes hover when the pointer moves, so scrolling with
+     a still cursor over the field would leave the reading on whatever row it
+     entered on — or on none at all. The pointer position is kept and the row
+     under it is resolved again on every scroll, so passing the field always
+     reads a line. */
+  React.useEffect(() => {
+    if (touch) return;
+    let frame = 0;
+    const onMove = ev => {
+      ptr.current = {
+        x: ev.clientX,
+        y: ev.clientY
+      };
+    };
+    const apply = () => {
+      frame = 0;
+      const p = ptr.current;
+      const box = fieldRef.current;
+      if (!p || !box || pinnedRef.current != null) return;
+      const b = box.getBoundingClientRect();
+      if (p.x < b.left || p.x > b.right || p.y < b.top || p.y > b.bottom) {
+        if (!box.contains(document.activeElement)) setTouched(false);
+        return;
+      }
+      let best = -1;
+      let bestD = Infinity;
+      rowRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (vertical && !r.width) return;
+        if (listing) {
+          if (p.y >= r.top && p.y <= r.bottom) {
+            best = i;
+            bestD = 0;
+          }
+          return;
+        }
+        const d = vertical ? Math.hypot(r.left + r.width / 2 - p.x, (r.top + r.height / 2 - p.y) * 3) : Math.abs(r.top + r.height / 2 - p.y);
+        if (d < bestD) {
+          bestD = d;
+          best = i;
+        }
+      });
+      if (best >= 0) {
+        setCursor(best);
+        setTouched(true);
+      }
+      if (vertical) tipTo(p.x - b.left, p.y - b.top);
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(apply);
+    };
+    window.addEventListener('pointermove', onMove, {
+      passive: true
+    });
+    window.addEventListener('scroll', onScroll, {
+      passive: true
+    });
+    window.addEventListener('resize', onScroll);
+    return () => {
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', onScroll);
+      if (frame) window.cancelAnimationFrame(frame);
+    };
+  }, [touch, vertical]);
+
+  /* Listing: grouped by month within the year when the entries carry one. */
+  const MONTHS = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december'];
+  const blocks = React.useMemo(() => {
+    const out = [];
+    let n = 0;
+    entries.forEach(e => {
+      const byMonth = listing && spine !== 'letter' && e.month;
+      const g = groupOf(e);
+      const key = byMonth ? g + '-' + e.month : String(g);
+      let b = out[out.length - 1];
+      if (!b || b.key !== key) {
+        const m = byMonth ? MONTHS[e.month - 1] : '';
+        b = {
+          key,
+          year: g,
+          label: m ? m.charAt(0).toUpperCase() + m.slice(1) : listing ? '' : String(g),
+          rows: []
+        };
+        out.push(b);
+      }
+      /* A row is labelled by its client; a matter whose title names none is labelled by its title. */
+      b.rows.push({
+        ...e,
+        client: e.client || e.title || '',
+        i: n++
+      });
+    });
+    return out;
+  }, [entries, listing, spine]);
+  const yearGroups = React.useMemo(() => {
+    if (!listing) return [{
+      year: 'all',
+      blocks
+    }];
+    const out = [];
+    blocks.forEach(b => {
+      let g = out[out.length - 1];
+      if (!g || g.year !== b.year) {
+        g = {
+          year: b.year,
+          blocks: []
+        };
+        out.push(g);
+      }
+      g.blocks.push(b);
+    });
+    return out;
+  }, [blocks, listing]);
+
+  /* Relevance, as the brief defines it: the lead discipline is one the finder
+     matched, or the sector is. Loose on purpose — a row that touches the
+     question at all belongs in the subset. */
+  const hasDialogue = !!(dialogue && ((dialogue.areas || []).length || (dialogue.sectors || []).length));
+  const lit = React.useMemo(() => {
+    if (!hasDialogue) return [];
+    const areas = new Set(dialogue.areas || []);
+    const sectors = new Set(dialogue.sectors || []);
+    const hit = [];
+    entries.forEach((e, i) => {
+      const lead = (e.disciplines || [])[0];
+      if (areas.has(lead) || sectors.has(e.sector)) hit.push(i);
+    });
+    return hit;
+  }, [entries, dialogue, hasDialogue]);
+  const litSet = React.useMemo(() => new Set(lit), [lit]);
+
+  /* The lists are read off the record itself rather than declared, so they
+     cannot name a term the field does not contain. Most-used first, ties by
+     name so the order is stable across loads. */
+  const termLists = React.useMemo(() => {
+    if (!termFilter) return {
+      work: [],
+      disc: []
+    };
+    const base = q ? entries.filter(matchQ) : entries;
+    const tally = get => {
+      const m = new Map();
+      base.forEach(e => get(e).forEach(v => {
+        if (v) m.set(v, (m.get(v) || 0) + 1);
+      }));
+      return [...m.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'sv')).slice(0, termCount).map(([v, n]) => ({
+        v,
+        n
+      }));
+    };
+    return {
+      /* Years newest first; letters in the order the entries give (A–Ö). */
+      year: listing ? (() => {
+        const gs = [...new Set(entries.map(groupOf))];
+        if (spine !== 'letter') gs.sort((a, b) => b - a);
+        return gs.map(y => ({
+          v: String(y),
+          n: base.filter(e => groupOf(e) === y).length
+        }));
+      })() : [],
+      work: tally(e => [e.work]),
+      disc: tally(e => e.disciplines || [])
+    };
+  }, [entries, termFilter, termCount, q, matchQ, spine]);
+
+  /* The term filter belongs to the whole record, so it lives in the first
+     view only — the second one already has a filter and two would fight. */
+  const termOn = termFilter && view === 0 && (!!term || !!q);
+  const termSet = React.useMemo(() => {
+    if (!termOn) return new Set();
+    const hit = new Set();
+    entries.forEach((e, i) => {
+      const match = !term || (term.kind === 'year' ? String(groupOf(e)) === term.v : term.kind === 'work' ? e.work === term.v : (e.disciplines || []).indexOf(term.v) >= 0);
+      if (match && matchQ(e)) hit.add(i);
+    });
+    return hit;
+  }, [entries, term, termOn, matchQ, spine]);
+  React.useEffect(() => {
+    const els = scrollRefs.current.filter(Boolean);
+    if (!els.length) return;
+    const check = () => {
+      const next = els.map(el => el.scrollHeight - el.scrollTop - el.clientHeight > 4);
+      setFade(prev => prev.length === next.length && prev.every((v, i) => v === next[i]) ? prev : next);
+    };
+    check();
+    const ro = new ResizeObserver(check);
+    els.forEach(el => {
+      ro.observe(el);
+      el.addEventListener('scroll', check, {
+        passive: true
+      });
+    });
+    window.addEventListener('resize', check);
+    return () => {
+      ro.disconnect();
+      els.forEach(el => el.removeEventListener('scroll', check));
+      window.removeEventListener('resize', check);
+    };
+  }, [termsOpen, termLists]);
+
+  /* The record prints once, on entry — never again on scroll-back. */
+  React.useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || printed) return;
+    /* Threshold 0, not a fraction: the field is several viewports tall, so the
+       ratio of the section that can ever be on screen at once is smaller than
+       any fraction worth naming and the record would never print. The margin
+       is what delays the print until the block is properly entered. */
+    const io = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) {
+        setPrinted(true);
+        io.disconnect();
+      }
+    }, {
+      threshold: 0,
+      rootMargin: '-12% 0px'
+    });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [printed]);
+
+  /* The filter reads as one hairline sweep down the field. */
+  React.useEffect(() => {
+    if (view !== 1 || !hasDialogue || reduced.current) {
+      setScan(-1);
+      return;
+    }
+    setScan(0);
+    const a = requestAnimationFrame(() => setScan(1));
+    const b = window.setTimeout(() => setScan(-1), 1300);
+    return () => {
+      cancelAnimationFrame(a);
+      window.clearTimeout(b);
+    };
+  }, [view, hasDialogue, lit]);
+  const move = d => {
+    setTouched(true);
+    const n = Math.min(entries.length - 1, Math.max(0, cursor + d));
+    setCursor(n);
+    const el = rowRefs.current[n];
+    if (el) el.focus({
+      preventScroll: true
+    });
+    if (rail && el && fieldRef.current) {
+      fieldRef.current.scrollTo({
+        left: el.offsetLeft,
+        behavior: reduced.current ? 'auto' : 'smooth'
+      });
+    } else if (vertical && el && fieldRef.current) {
+      const r = el.getBoundingClientRect();
+      const b = fieldRef.current.getBoundingClientRect();
+      tipTo(r.left + r.width / 2 - b.left, r.top - b.top);
+    }
+  };
+  const onKeyDown = e => {
+    if (vertical && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      if (pinned != null) unpin();else pin(cursor);
+      return;
+    }
+    if (vertical && e.key === 'Escape' && pinned != null) {
+      e.preventDefault();
+      unpin();
+      return;
+    }
+    if (vertical && pinned != null) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      move(1);
+    } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      move(-1);
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      move(-entries.length);
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      move(entries.length);
+    }
+  };
+  const label = e => [e.year, e.client, e.sector, e.work, (e.disciplines || []).join(', ')].join(', ');
+  /* The bar is initialised with a real row, so the first hover cannot resize it. */
+  /* Listing: off the list, the readout holds the unfolded row. */
+  const readIdx = listing && !touched && expanded != null ? expanded : cursor;
+  const current = entries[readIdx] || entries[0];
+  const disc = current ? current.disciplines || [] : [];
+  /* Discipline cell: both readings ship, and CSS picks one — the full
+     comma-separated list in the desktop side column, the abbreviated form in
+     the panel that sits over the field on a small screen. */
+  const discCell = current && disc.length ? React.createElement(React.Fragment, null, React.createElement('span', {
+    'data-disc-full': ''
+  }, disc.map((d, i) => React.createElement('span', {
+    key: i,
+    style: {
+      display: 'block'
+    }
+  }, d))), React.createElement('span', {
+    'data-disc-short': ''
+  }, disc.length > 1 ? disc[0] + ' +' + (disc.length - 1) : disc[0])) : '';
+  /* The second view emphasises; the first is untouched. */
+  const relevant = view === 1 && hasDialogue;
+  /* Every line ends up as text on a narrow viewport, so that reading runs on
+     the taller row throughout. */
+  const pitch = touch || view === 1 || termOn ? PITCH_FILTERED : PITCH;
+  const terms = hasDialogue ? (dialogue.areas || []).concat(dialogue.sectors || []) : [];
+  const sideLine = view === 1 ? hasDialogue ? relevanceLine.replace('{n}', String(lit.length)).replace('{total}', String(entries.length)) : '—' : termOn ? (q || !term ? matchLine : termLine).replace('{n}', String(termSet.size)).replace('{total}', String(entries.length)).replace('{term}', term ? term.v : '') : allLine;
+  /* The year heads its block and client and sector are written on the line
+     itself, so the readout carries only what neither says. */
+  /* Until the visitor points at a line there is nothing to read out, and the
+     readout says so rather than standing on an arbitrary row. */
+  const readout = (touched || rail || listing && expanded != null) && current ? [{
+    k: 'Typ av uppdrag',
+    v: current.work
+  }, {
+    k: 'Discipliner',
+    v: discCell,
+    hint: disc.join(', '),
+    wrap: true
+  }] : [{
+    k: 'Typ av uppdrag',
+    v: '—'
+  }, {
+    k: 'Discipliner',
+    v: '—',
+    wrap: true
+  }];
+
+  /* Desired pitch per visible tick, then one scale factor if the row would
+     overrun the measured width. Resting fields that fit are left as they are. */
+  const vPitch = {};
+  if (vertical && !rail) {
+    let sum = 0;
+    let groups = 0;
+    blocks.forEach(b => {
+      const rows = termOn ? b.rows.filter(r => termSet.has(r.i)) : b.rows;
+      if (!rows.length) return;
+      groups += 1;
+      const open = touched && b.rows.some(r => r.i === cursor);
+      rows.forEach(r => {
+        /* Pointing at the field opens the cursor's group, with a swell at the
+           cursor inside it, and closes the rest flat. */
+        const near = open ? Math.max(0, 1 - Math.abs(r.i - cursor) / V_PROX_R) : 0;
+        const w = open ? V_PITCH_OPEN + V_PROX * near * near : touched ? V_PITCH_REST : V_PITCH;
+        vPitch[r.i] = w;
+        sum += w;
+      });
+    });
+    const avail = fieldBox.w - Math.max(0, groups - 1) * fieldBox.gap;
+    if (fieldBox.w && sum > avail && avail > 0) {
+      const k = avail / sum;
+      Object.keys(vPitch).forEach(i => {
+        vPitch[i] *= k;
+      });
+    }
+  }
+  return /*#__PURE__*/React.createElement("section", {
+    id: id,
+    ref: sectionRef,
+    "data-record-listing": listing ? '' : undefined,
+    style: {
+      '--record-year-top': yearTop + 'px',
+      paddingBlock: 'var(--section-gap)',
+      ...(flushTop ? {
+        paddingBlockStart: 0
+      } : null),
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      alignItems: 'start',
+      rowGap: 'var(--space-5)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-record-head": true,
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      ...(index || title || premise || secondLine || allLabel ? null : {
+        marginBlockEnd: 'calc(-1 * var(--space-5))'
+      })
+    }
+  }, index ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, index) : null, title ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2"
+  }, title) : null, premise ? /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, premise) : null, secondLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, secondLine) : null, allLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: allHref,
+    variant: "secondary",
+    style: {
+      alignSelf: 'start',
+      fontSize: 'var(--text-small)'
+    },
+    onClick: allHref ? undefined : ev => ev.preventDefault()
+  }, allLabel) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-switch": true,
+    "data-record-filtered": termFilter && view === 0 ? '' : undefined,
+    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined,
+    className: "place-body-wide",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-2)',
+      position: 'relative',
+      zIndex: 3
+    }
+  }, views ? /*#__PURE__*/React.createElement(__ds_scope.Tabs, {
+    label: "Vy",
+    tabs: viewLabels.map((v, i) => ({
+      id: String(i),
+      label: i === 1 && hasDialogue ? v + ' *' : v
+    })),
+    value: String(view),
+    onChange: v => setView(Number(v))
+  }) : null, view === 1 && !hasDialogue ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, emptyBody), /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: finderHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: onAsk ? ev => {
+      ev.preventDefault();
+      onAsk();
+    } : undefined
+  }, emptyLinkLabel)) :
+  /*#__PURE__*/
+  /* Count and filter read as one line: what is shown, and what it
+     was filtered on. */
+  /* Proportional figures: the count does not tick, and Circular's
+     tabular digits carry side bearings wide enough to read as broken
+     word spacing inside a sentence. */
+  React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, sideLine, relevant ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', filterLabel, ": ", terms.join(', ')) : null, termOn ? /*#__PURE__*/React.createElement("span", null, '\u2009/\u2009', /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => {
+      setTerm(null);
+      setQuery('');
+    },
+    style: {
+      ...TERM_BTN,
+      display: 'inline',
+      width: 'auto',
+      color: 'var(--text-secondary)',
+      textDecoration: 'underline',
+      textUnderlineOffset: '0.2em'
+    }
+  }, termResetLabel)) : null), relevant ? /*#__PURE__*/React.createElement(React.Fragment, null, filterNote ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, filterNote) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3)'
+    }
+  }, onReset ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: "#",
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: ev => {
+      ev.preventDefault();
+      onReset();
+      setView(0);
+    }
+  }, resetLabel) : null, onAsk ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: finderHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    },
+    onClick: ev => {
+      ev.preventDefault();
+      onAsk();
+    }
+  }, askAgainLabel) : null)) : null), termFilter && view === 0 ? /*#__PURE__*/React.createElement("div", {
+    "data-record-terms": true,
+    ref: termsRef,
+    style: listing && narrow && termsOpen ? {
+      zIndex: 46
+    } : undefined
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTermsOpen(!termsOpen),
+    onMouseEnter: () => setTermsWarm(true),
+    onMouseLeave: () => setTermsWarm(false),
+    onFocus: () => setTermsWarm(true),
+    onBlur: () => setTermsWarm(false),
+    "aria-expanded": termsOpen ? 'true' : 'false',
+    "aria-label": termToggleLabel,
+    className: "target",
+    style: {
+      gap: 8,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      flex: '0 0 auto',
+      width: 14,
+      height: 14
+    }
+  }, termsOpen ? [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+    key: d,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 'calc(50% - 0.5px)',
+      width: 14,
+      height: 1,
+      background: 'var(--ink)',
+      transform: 'rotate(' + d + 'deg)'
+    }
+  })) : [14, 10, 6].map((w, n) => /*#__PURE__*/React.createElement("span", {
+    key: w,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 2.5 + n * 4,
+      width: w,
+      height: 1,
+      background: termsWarm ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'background var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      whiteSpace: 'nowrap'
+    }
+  }, termToggleLabel), (term || q) && !termsOpen ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'block',
+      width: 4,
+      height: 4,
+      borderRadius: '50%',
+      background: 'var(--ink)'
+    }
+  }) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-list": true,
+    ref: termsListRef,
+    "data-open": termsOpen ? '' : undefined,
+    "aria-hidden": termsOpen ? 'false' : 'true'
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-5)'
+    }
+  }, listing ? /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-head": ""
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--ink)'
+    }
+  }, termToggleLabel), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setTermsOpen(false),
+    "aria-label": termsCloseLabel,
+    className: "target",
+    style: {
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      width: 14,
+      height: 14
+    }
+  }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+    key: d,
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 'calc(50% - 0.5px)',
+      width: 14,
+      height: 1,
+      background: 'var(--ink)',
+      transform: 'rotate(' + d + 'deg)'
+    }
+  }))))) : null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-heading": "",
+    style: {
+      ...KEY_CELL,
+      overflow: 'visible',
+      color: 'var(--text-primary)',
+      fontWeight: 'var(--weight-medium)'
+    }
+  }, searchHeading), /*#__PURE__*/React.createElement(__ds_scope.FilterSearch, {
+    ariaLabel: searchHeading,
+    placeholder: searchPlaceholder,
+    value: query,
+    onChange: setQuery
+  })), [].concat(listing ? [{
+    h: spine === 'letter' ? letterHeading : yearHeading,
+    kind: 'year',
+    list: termLists.year
+  }] : [], spine === 'letter' ? [] : [{
+    h: workHeading,
+    kind: 'work',
+    list: termLists.work
+  }, {
+    h: discHeading,
+    kind: 'disc',
+    list: termLists.disc
+  }]).map((g, gi) => /*#__PURE__*/React.createElement("div", {
+    key: g.kind
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-heading": "",
+    style: {
+      ...KEY_CELL,
+      overflow: 'visible',
+      color: 'var(--text-primary)',
+      fontWeight: 'var(--weight-medium)'
+    }
+  }, g.h), /*#__PURE__*/React.createElement("div", {
+    "data-record-terms-scroll": "",
+    ref: el => {
+      scrollRefs.current[gi] = el;
+    },
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      maskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none',
+      WebkitMaskImage: fade[gi] ? 'linear-gradient(to bottom, #000 calc(100% - 2.5rem), transparent)' : 'none'
+    }
+  }, g.list.map(t => {
+    const active = !!term && term.kind === g.kind && term.v === t.v;
+    return /*#__PURE__*/React.createElement("button", {
+      key: t.v,
+      type: "button",
+      "aria-pressed": active,
+      onClick: () => setTerm(active ? null : {
+        kind: g.kind,
+        v: t.v
+      }),
+      style: {
+        ...TERM_BTN,
+        display: 'flex',
+        alignItems: 'baseline',
+        gap: 0,
+        paddingBlock: '0.18rem',
+        boxSizing: 'border-box',
+        color: active ? 'var(--text-primary)' : 'var(--text-secondary)',
+        fontWeight: active ? 'var(--weight-medium)' : 'var(--weight-book)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        flex: '0 0 auto',
+        alignSelf: 'center',
+        overflow: 'hidden',
+        width: active ? 11 : 0,
+        height: 11,
+        opacity: active ? 1 : 0,
+        marginInlineEnd: active ? 8 : 0,
+        transition: 'width var(--dur-fast) var(--ease-expo), margin-inline-end var(--dur-fast) var(--ease-expo), opacity var(--dur-fast) var(--ease-expo)'
+      }
+    }, [45, -45].map(d => /*#__PURE__*/React.createElement("span", {
+      key: d,
+      style: {
+        position: 'absolute',
+        left: 0,
+        top: 'calc(50% - 0.5px)',
+        width: 11,
+        height: 1,
+        background: 'var(--ink)',
+        transform: 'rotate(' + d + 'deg)'
+      }
+    }))), /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '1 1 auto',
+        minWidth: 0,
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        whiteSpace: 'nowrap'
+      }
+    }, t.v), spine === 'letter' && g.kind === 'year' ? null : /*#__PURE__*/React.createElement("span", {
+      style: {
+        flex: '0 0 auto',
+        marginInlineStart: 'var(--space-2)',
+        paddingInlineEnd: '2px',
+        fontVariantNumeric: 'tabular-nums',
+        opacity: 0.7
+      }
+    }, t.n));
+  })))))))) : null, /*#__PURE__*/React.createElement("div", {
+    "data-record-body": true,
+    "data-rail": rail ? '' : undefined,
+    "data-record-open": termFilter && view === 0 && termsOpen ? '' : undefined,
+    style: listing ? {
+      position: 'relative'
+    } : undefined
+  }, listing && !small && !touch ? /*#__PURE__*/React.createElement("div", {
+    ref: strokeRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      width: 0,
+      height: 0,
+      pointerEvents: 'none',
+      zIndex: 1
+    }
+  }, ['top', 'bottom'].map(edge => /*#__PURE__*/React.createElement("span", {
+    key: edge,
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      [edge]: edge === 'top' ? 0 : -1,
+      height: 1,
+      background: 'var(--rule-hairline)',
+      transformOrigin: 'right center',
+      transform: strokesOn ? 'scaleX(1)' : 'scaleX(0)',
+      transition: strokesOn ? 'transform var(--dur-medium) var(--ease-quart)' : 'none'
+    }
+  })), /*#__PURE__*/React.createElement("span", {
+    "data-stroke-cap": "",
+    style: {
+      position: 'absolute',
+      left: '100%',
+      top: 0,
+      height: 1,
+      background: 'var(--rule-hairline)',
+      opacity: strokesOn ? 1 : 0,
+      transition: strokesOn ? 'opacity var(--dur-medium) var(--ease-quart)' : 'none'
+    }
+  })) : null, /*#__PURE__*/React.createElement("div", {
+    "data-record-side": true,
+    ref: sideRef,
+    style: listing && narrow ? {
+      display: 'none'
+    } : undefined
+  }, readoutOn ? /*#__PURE__*/React.createElement("div", {
+    role: "status",
+    "aria-live": "polite",
+    "data-record-readout": true
+  }, readout.map(r => /*#__PURE__*/React.createElement("div", {
+    key: r.k,
+    "data-readout-disc": r.wrap ? '' : undefined
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      ...KEY_CELL,
+      marginBlockEnd: 'var(--space-1)'
+    }
+  }, r.k), /*#__PURE__*/React.createElement("div", {
+    "data-record-val": r.wrap ? 'wrap' : '',
+    style: r.wrap ? DISC_CELL : VAL_CELL,
+    title: r.hint
+  }, r.v)))) : null), /*#__PURE__*/React.createElement("div", {
+    "data-record-field": true,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)'
+    }
+  }, lead ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, lead) : null, readingRule ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, readingRule) : null, vertical ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative'
+    }
+  }, rail ? /*#__PURE__*/React.createElement("div", {
+    ref: markRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      bottom: 0,
+      width: BAR_ACTIVE,
+      height: R_HEIGHT + V_LIFT,
+      background: 'var(--ink)',
+      zIndex: 2,
+      pointerEvents: 'none',
+      opacity: printed && railHit ? 1 : 0,
+      transition: 'height var(--dur-fast) var(--ease-quart), opacity 90ms linear'
+    }
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    "data-record-rail": rail ? '' : undefined,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexWrap: 'nowrap',
+      alignItems: 'flex-start',
+      columnGap: rail ? 'var(--space-6)' : 'var(--space-5)',
+      rowGap: 'var(--space-4)',
+      cursor: rail ? 'default' : pinned != null ? CLOSE_CURSOR : 'default',
+      ...(rail ? {
+        /* Bleeds off the right margin, so the rail reads as running on
+           past the screen; the fade says the same while there is more. */
+        marginInlineEnd: 'calc(-1 * var(--margin))',
+        overflowX: 'auto',
+        overflowY: 'hidden',
+        scrollSnapType: 'x mandatory',
+        overscrollBehaviorX: 'contain',
+        scrollbarWidth: 'none',
+        WebkitOverflowScrolling: 'touch',
+        maskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none',
+        WebkitMaskImage: railMore ? 'linear-gradient(to right, #000 calc(100% - 5rem), transparent)' : 'none'
+      } : null)
+    },
+    onKeyDown: onKeyDown,
+    onClick: ev => {
+      if (rail) {
+        /* A tap brings its line to the edge, which is what reads it. */
+        const t = ev.target.closest && ev.target.closest('[data-tick]');
+        if (t) ev.currentTarget.scrollTo({
+          left: t.offsetLeft,
+          behavior: reduced.current ? 'auto' : 'smooth'
+        });
+        return;
+      }
+      if (pinned != null) {
+        unpin();
+        return;
+      }
+      const t = ev.target.closest && ev.target.closest('[data-tick]');
+      if (t) pin(Number(t.getAttribute('data-tick')));
+    },
+    onMouseMove: ev => {
+      if (rail || pinned != null) return;
+      const b = ev.currentTarget.getBoundingClientRect();
+      tipTo(ev.clientX - b.left, ev.clientY - b.top);
+    },
+    onMouseLeave: ev => {
+      if (rail || pinned != null) return;
+      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
+    }
+  }, blocks.map(b => {
+    const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
+    const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
+    if (termOn && !anyTerm) return null;
+    const groupOpen = touched && b.rows.some(r => r.i === cursor);
+    return /*#__PURE__*/React.createElement("div", {
+      key: b.year,
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)',
+        flex: '0 0 auto',
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        whiteSpace: 'nowrap',
+        width: 0,
+        overflow: 'visible',
+        fontVariantNumeric: 'tabular-nums',
+        opacity: view === 1 && !anyLit ? 0.14 : 1,
+        transition: 'opacity var(--dur-fast) var(--ease-quart)',
+        ...(rail ? {
+          position: 'sticky',
+          left: 0,
+          width: 'auto',
+          alignSelf: 'flex-start',
+          zIndex: 1,
+          background: 'var(--paper)',
+          paddingInlineEnd: 'var(--space-2)',
+          color: groupOpen ? 'var(--ink)' : undefined
+        } : null)
+      }
+    }, b.year), /*#__PURE__*/React.createElement("div", {
+      style: {
+        display: 'flex',
+        flexWrap: 'nowrap',
+        alignItems: 'flex-end'
+      }
+    }, b.rows.map(e => {
+      /* On the rail the fixed marker is the active line. */
+      const on = cursor === e.i && touched && !rail;
+      const matched = relevant && litSet.has(e.i);
+      const hitTerm = termOn && termSet.has(e.i);
+      if (termOn && !hitTerm) return null;
+      const rowOpacity = !printed ? 0 : pinned != null ? e.i === pinned ? 1 : 0.22 : view === 1 ? matched ? 1 : 0.14 : 1;
+      const pitchW = rail ? R_PITCH : vPitch[e.i] || V_PITCH;
+      const tickH = rail ? R_HEIGHT : V_HEIGHT;
+      return /*#__PURE__*/React.createElement("div", {
+        key: e.i,
+        ref: el => {
+          rowRefs.current[e.i] = el;
+        },
+        "data-tick": e.i,
+        tabIndex: e.i === cursor ? 0 : -1,
+        "aria-label": label(e),
+        "aria-pressed": pinned === e.i ? 'true' : 'false',
+        onMouseEnter: () => {
+          if (rail || pinned != null) return;
+          setCursor(e.i);
+          setTouched(true);
+        },
+        onFocus: () => {
+          if (rail || pinned != null) return;
+          setCursor(e.i);
+          setTouched(true);
+        },
+        style: {
+          position: 'relative',
+          width: pitchW,
+          height: tickH + V_LIFT,
+          flex: '0 0 auto',
+          display: 'flex',
+          alignItems: 'flex-end',
+          justifyContent: rail ? 'flex-start' : 'center',
+          scrollSnapAlign: rail ? 'start' : undefined,
+          cursor: 'inherit',
+          outline: 'none',
+          opacity: rowOpacity,
+          transition: 'opacity var(--dur-medium) var(--ease-quart), width var(--dur-medium) var(--ease-quart)',
+          transitionDelay: printed && !reduced.current ? e.i * 6 + 'ms, 0ms' : '0ms'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          width: on ? BAR_ACTIVE : BAR,
+          height: on ? tickH + V_LIFT : tickH,
+          background: on || hitTerm || matched ? 'var(--ink)' : 'var(--underline-rest-secondary)',
+          transition: 'height var(--dur-fast) var(--ease-quart), width var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)',
+          pointerEvents: 'none'
+        }
+      }));
+    })));
+  }), rail ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      flex: '0 0 auto',
+      width: 'calc(100% - ' + R_PITCH + 'px - var(--space-6))',
+      height: 1
+    }
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    ref: tipRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      pointerEvents: 'none',
+      zIndex: 2,
+      willChange: 'transform'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "small",
+    style: {
+      transform: 'translate(14px, calc(-100% - 14px))',
+      whiteSpace: 'nowrap',
+      background: 'var(--paper, var(--ground-page))',
+      paddingBlock: '0.3rem',
+      paddingInline: '0.55rem',
+      color: 'var(--text-primary)',
+      fontWeight: 'var(--weight-medium)',
+      opacity: touched && current && pinned == null && !rail ? 1 : 0,
+      transition: 'opacity var(--dur-fast) var(--ease-quart)'
+    }
+  }, current ? current.client : '')))) : /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      flexDirection: 'column'
+    },
+    onKeyDown: onKeyDown,
+    onMouseMove: listing ? ev => {
+      listPtr.current = {
+        x: ev.clientX,
+        y: ev.clientY
+      };
+      const el = pointerRef.current;
+      if (!el) return;
+      el.style.transform = 'translate3d(' + ev.clientX + 'px,' + ev.clientY + 'px,0)';
+    } : undefined,
+    onMouseLeave: ev => {
+      if (!ev.currentTarget.contains(document.activeElement)) setTouched(false);
+    }
+  }, yearGroups.map(yg => {
+    const yearShut = termOn && !yg.blocks.some(b => b.rows.some(r => termSet.has(r.i)));
+    return /*#__PURE__*/React.createElement("div", {
+      key: 'y' + yg.year,
+      style: {
+        position: 'relative'
+      }
+    }, listing ?
+    /*#__PURE__*/
+    /* The year heads its months and stays in view while they pass. */
+    React.createElement("div", {
+      style: {
+        display: 'grid',
+        gridTemplateRows: yearShut ? '0fr' : '1fr',
+        position: 'sticky',
+        top: yearTop,
+        zIndex: 2,
+        marginBlockEnd: yearShut ? 0 : spine === 'letter' ? 'var(--space-2)' : 'var(--space-5)',
+        background: 'var(--paper)',
+        transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      "aria-hidden": "true",
+      style: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        bottom: '100%',
+        height: yearTop,
+        background: 'var(--paper)',
+        pointerEvents: 'none'
+      }
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        overflow: 'hidden',
+        minHeight: 0
+      }
+    }, /*#__PURE__*/React.createElement("p", {
+      className: "small",
+      style: {
+        fontVariantNumeric: 'tabular-nums',
+        fontWeight: 'var(--weight-medium)',
+        color: 'var(--ink)',
+        paddingBlock: 'var(--space-1)'
+      }
+    }, yg.year, /*#__PURE__*/React.createElement("span", {
+      "data-year-baseline": "",
+      style: {
+        display: 'inline-block',
+        width: 0,
+        height: 0
+      }
+    })))) : null, yg.blocks.map(b => {
+      const anyLit = relevant && b.rows.some(r => litSet.has(r.i));
+      const anyTerm = termOn && b.rows.some(r => termSet.has(r.i));
+      /* A term filter takes the rest of the record away rather than
+         dimming it: years with nothing in the subset fold shut, and
+         the register closes up around what is left. */
+      const blockShut = termOn && !anyTerm;
+      return /*#__PURE__*/React.createElement("div", {
+        key: b.key,
+        style: {
+          display: 'grid',
+          gridTemplateRows: blockShut ? '0fr' : '1fr',
+          transition: 'grid-template-rows var(--dur-fast) var(--ease-quart)'
+        }
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          overflow: 'hidden',
+          minHeight: 0,
+          paddingBlockEnd: blockShut ? 0 : listing ? 'var(--space-6)' : 'var(--space-3)',
+          transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
+        }
+      }, spine === 'letter' && !b.label ? null : /*#__PURE__*/React.createElement("p", {
+        className: "small",
+        style: {
+          fontVariantNumeric: 'tabular-nums',
+          marginBlockEnd: listing ? 'var(--space-1)' : 'var(--space-2)',
+          marginBlockStart: listing ? 'var(--space-3)' : 0,
+          color: listing ? 'var(--ink)' : undefined,
+          opacity: view === 1 && !anyLit ? 0.14 : 1,
+          transition: 'opacity var(--dur-fast) var(--ease-quart)'
+        }
+      }, b.label), /*#__PURE__*/React.createElement("div", null, b.rows.map(e => {
+        /* Nothing is under the cursor until the visitor has
+           actually pointed: the default cursor row must not read
+           as the active one. */
+        const on = cursor === e.i && touched;
+        /* Every match carries its title, so a solid line always
+           has something written next to it. */
+        const matched = relevant && litSet.has(e.i);
+        /* A term match is exposed the same way a dialogue match
+           is: it carries its title and keeps full weight while
+           the rest of the field recedes. */
+        const hitTerm = termOn && termSet.has(e.i);
+        const labelled = view === 1 ? matched || on && !touch : termOn ? hitTerm || on
+        /* Text above the focal band, lines below it: scrolling
+           down sets the reading, scrolling back up returns it. */ : on || touch && e.i <= cursor;
+        const rowShut = termOn && !hitTerm;
+        const rowOpacity = !printed ? 0 : view === 1 ? matched ? 1 : 0.14 : rowShut ? 0 : 1;
+        if (listing) return renderListRow(e, on, rowShut, rowOpacity);
+        return /*#__PURE__*/React.createElement("div", {
+          key: e.i,
+          ref: el => {
+            rowRefs.current[e.i] = el;
+          },
+          tabIndex: e.i === cursor ? 0 : -1,
+          "aria-label": label(e),
+          title: (e.disciplines || []).join(', '),
+          onMouseEnter: () => {
+            setCursor(e.i);
+            setTouched(true);
+          },
+          onFocus: () => {
+            setCursor(e.i);
+            setTouched(true);
+          },
+          style: {
+            position: 'relative',
+            height: rowShut ? 0 : on ? pitch + FAN : pitch,
+            cursor: 'default',
+            outline: 'none',
+            overflow: rowShut ? 'hidden' : 'visible',
+            pointerEvents: rowShut ? 'none' : undefined,
+            opacity: rowOpacity,
+            transition: 'opacity var(--dur-fast) var(--ease-quart), height var(--dur-fast) var(--ease-quart)',
+            transitionDelay: printed && !reduced.current ? e.i * 8 + 'ms, 0ms' : '0ms'
+          }
+        }, /*#__PURE__*/React.createElement("div", {
+          style: {
+            position: 'absolute',
+            inset: 0,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 'var(--space-2)',
+            pointerEvents: 'none'
+          }
+        }, labelled ? /*#__PURE__*/React.createElement("span", {
+          className: "small",
+          style: {
+            flex: '0 1 auto',
+            minWidth: 0,
+            maxWidth: 'none',
+            whiteSpace: 'nowrap',
+            fontWeight: on ? 'var(--weight-medium)' : 'var(--weight-book)',
+            color: on ? 'var(--text-primary)' : 'var(--text-secondary)'
+          }
+        }, e.client, e.sector ? /*#__PURE__*/React.createElement("span", {
+          style: {
+            paddingInline: '0.6em',
+            color: 'var(--text-secondary)'
+          }
+        }, "/") : null, e.sector) : null, /*#__PURE__*/React.createElement("div", {
+          style: {
+            flex: '1 1 12px',
+            minWidth: 0,
+            height: on ? BAR_ACTIVE : BAR,
+            background: on ? 'var(--ink)' : 'var(--underline-rest-secondary)',
+            transition: 'height var(--dur-fast) var(--ease-quart), background var(--dur-fast) var(--ease-quart)'
+          }
+        })), /*#__PURE__*/React.createElement("div", {
+          style: {
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            top: -1,
+            bottom: -1
+          }
+        }));
+      }))));
+    }));
+  }), scan >= 0 ? /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: scan * 100 + '%',
+      height: 1,
+      background: 'var(--ink)',
+      pointerEvents: 'none',
+      transition: scan ? 'top 1100ms var(--ease-quart)' : 'none'
+    }
+  }) : null, listing && !touch ? /*#__PURE__*/React.createElement("div", {
+    ref: pointerRef,
+    "aria-hidden": "true",
+    style: {
+      position: 'fixed',
+      left: 0,
+      top: 0,
+      pointerEvents: 'none',
+      zIndex: 3
+    }
+  }, touched && ringOn && pending != null ? /*#__PURE__*/React.createElement("svg", {
+    key: pending,
+    width: "16",
+    height: "16",
+    viewBox: "0 0 16 16",
+    fill: "none",
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      width: 16,
+      height: 16,
+      maxWidth: 'none',
+      transform: 'translate(-50%, -50%)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("circle", {
+    cx: "8",
+    cy: "8",
+    r: "6",
+    stroke: "var(--rule-hairline)",
+    strokeWidth: "1.5"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "8",
+    cy: "8",
+    r: "6",
+    stroke: "currentColor",
+    strokeWidth: "1.5",
+    strokeLinecap: "round",
+    strokeDasharray: "37.7",
+    strokeDashoffset: "37.7",
+    transform: "rotate(-90 8 8)",
+    ref: el => {
+      if (el && !el._run) {
+        el._run = true;
+        const d = DWELL - RING_WAIT;
+        el.animate([{
+          strokeDashoffset: 37.7 * d / DWELL
+        }, {
+          strokeDashoffset: 0
+        }], {
+          duration: d,
+          easing: 'linear',
+          fill: 'forwards'
+        });
+        el.parentNode.animate([{
+          opacity: 0
+        }, {
+          opacity: 1
+        }], {
+          duration: 120,
+          easing: 'ease-out',
+          fill: 'forwards'
+        });
+      }
+    }
+  })) : null) : null), vertical ?
+  /*#__PURE__*/
+  /* The case under the cursor. Opens on first approach, holds while
+     the pointer is on the lines, and folds shut when it leaves them.
+     A pin keeps it open and adds the body. */
+  /* SM rail: the case reads above the lines, so the rail sits where
+     the thumb is. It is open from the start on the first line, so it
+     never folds out and pushes the rail down mid-scroll. */
+  React.createElement("div", {
+    "data-record-case": true,
+    style: {
+      display: 'grid',
+      gridTemplateRows: (touched || rail) && current ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)',
+      ...(rail ? {
+        order: -1,
+        paddingBlockStart: 'var(--rail-gap, var(--space-5))'
+      } : null)
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: caseRef,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      maxWidth: '44rem',
+      paddingBlockStart: 'var(--space-2)'
+    }
+  }, rail && current ? /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    style: KEY_CELL
+  }, clientLabel), /*#__PURE__*/React.createElement("div", {
+    style: VAL_CELL
+  }, current.client)) : null, current && (current.title || rail) ? /*#__PURE__*/React.createElement("h3", {
+    style: {
+      margin: 0,
+      fontFamily: 'var(--font-display)',
+      fontWeight: 'normal',
+      fontSize: 'var(--display-3)',
+      lineHeight: 1.1,
+      color: 'var(--ink)',
+      textWrap: 'pretty',
+      ...(rail && pinned == null ? {
+        height: 'calc(var(--rail-title-lines, 3) * 1lh)',
+        overflow: 'hidden',
+        display: '-webkit-box',
+        WebkitBoxOrient: 'vertical',
+        WebkitLineClamp: 'var(--rail-title-lines, 3)'
+      } : null)
+    }
+  }, current.title) : null, current && (current.preamble || rail) ? /*#__PURE__*/React.createElement("p", {
+    className: "prose",
+    style: rail && pinned == null ? {
+      height: 'calc(var(--rail-pre-lines, 4) * 1lh)',
+      overflow: 'hidden',
+      display: '-webkit-box',
+      WebkitBoxOrient: 'vertical',
+      WebkitLineClamp: 'var(--rail-pre-lines, 4)'
+    } : undefined
+  }, current.preamble) : null, rail && readMoreLabel ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: current && current.href || caseHref,
+    variant: "secondary",
+    tabIndex: 0,
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, readMoreLabel)) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: pinned != null ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      paddingBlockStart: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: bodyRef,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-4)',
+      maxHeight: '40rem',
+      overflow: 'hidden',
+      maskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none',
+      WebkitMaskImage: bodyCut ? 'linear-gradient(to bottom, #000 calc(100% - 7rem), transparent)' : 'none'
+    }
+  }, current && current.body ? current.body.split(/\n\s*\n/).map((p, n) => /*#__PURE__*/React.createElement("p", {
+    key: 'b' + n,
+    className: "prose",
+    style: {
+      whiteSpace: 'pre-line'
+    }
+  }, p)) : null, current && current.figures && current.figures.length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      gap: 'var(--space-3) var(--space-5)'
+    }
+  }, current.figures.map((f, n) => /*#__PURE__*/React.createElement("div", {
+    key: n,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-0)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: 'var(--font-display)',
+      fontSize: 'var(--display-3)',
+      lineHeight: 1.1,
+      color: 'var(--ink)'
+    }
+  }, f.value), /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, f.label)))) : null, current && (current.team || []).length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-0)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, teamLabel), /*#__PURE__*/React.createElement("p", {
+    className: "prose"
+  }, teamLinks(teamOf(current), 0))) : null, current && current.note ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, current.note) : null))))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateRows: pinned != null ? '1fr' : '0fr',
+      transition: 'grid-template-rows var(--dur-medium) var(--ease-quart)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      marginBlockStart: 'var(--space-4)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: "#",
+    variant: "secondary",
+    tabIndex: pinned != null ? 0 : -1,
+    onClick: ev => {
+      ev.preventDefault();
+      unpin();
+    },
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, closeLabel)), /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      height: 1,
+      marginBlockStart: 'var(--space-5)',
+      background: 'var(--underline-rest-secondary)'
+    }
+  }))))) : null, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)'
+    }
+  }, closingLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      color: 'var(--text-secondary)'
+    }
+  }, closingLine) : null, actionLabel ? /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+    href: actionHref,
+    variant: "secondary",
+    style: {
+      fontSize: 'var(--text-small)'
+    }
+  }, actionLabel) : null)))));
+}
+Object.assign(__ds_scope, { Record });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
 
 // components/forms/TextField.jsx
 try { (() => {
@@ -21502,26 +22399,28 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 /* The newsletter block. One on every page that offers a subscription, so the
    form, the symbol and its motion are the same everywhere.
 
-   Centred: the symbol (Point of contact, two diamonds), the title, then the
-   form. Below LG one 440px stack; at LG the page grid, laid out by the
-   [data-subscribe-form] rules in tokens/grid.css: name beside the topics,
-   e-mail beside consent, CTA centred under both. Opening the topics spreads
-   the form to the page edges and the list runs in three columns.
+   Centred: the symbol (Point of contact, two diamonds), the title and the
+   intro, then the form. Below LG one 440px stack; at LG the page grid, laid
+   out by the [data-subscribe-*] and [data-sf-*] rules in tokens/grid.css:
+   name beside the topics, e-mail beside consent, CTA centred under both.
+   Opening the topics spreads the form to the page edges and the list runs
+   in three columns.
 
-   Consent and the CTA stay folded away until name and e-mail are filled in.
+   Tidigare nummer (issues): a newsletter with an archive ends the intro
+   with a link, issuesLink ("Läs våra tidigare nyhetsbrev för …"). Open, the
+   issues take the form's place, one column per year: the form fades and
+   lifts away, the years fade and rise in, and the block glides to the new
+   height. The link reads issuesHide with a close cross. Symbol, title and
+   intro stay put.
 
-   The symbol answers the form:
-   - empty: the diamonds rest tip to tip
-   - typing: they lean in
-   - ready: both turn a quarter, land with a click, then draw together
-   - every topic tick turns one diamond a quarter, left and right in turn,
-     always forward
-   - "Välj alla" turns both half a turn, in opposite directions;
-     "Avmarkera alla" turns them back the same way
-   - consent: the two trade places, with the same click
-   - send: they move into one another, fast at first, then close the last
-     of the gap slowly while they fade out as one; the form fades as they
-     merge and the thanks rises in behind them */
+   Ground: while the block holds the middle of the screen the whole page
+   turns to lichen (PageGround, data-page-ground). ground="" turns it off.
+
+   Tidigare nummer (issues): a newsletter with an archive gets a fold-out
+   button, issuesLink, under the form with a section's gap above it (6–8 at
+   LG). The issues fold out under the button; nothing else moves. Issues are grouped by year, newest first, each named by its
+   month: "NYHETSBREV JUNI 2026" reads "Juni" under "2026". Closed, they stay
+   in the page (hidden until found). */
 
 const STATES = {
   idle: {},
@@ -21645,9 +22544,18 @@ function SubscribeBlock({
   consentNote,
   cta = 'Starta prenumeration',
   onSubmit,
+  issues,
+  issuesLabel = 'Tidigare nummer',
+  issuesLink = 'Läs våra tidigare nyhetsbrev.',
+  issuesHide = 'Dölj tidigare nyhetsbrev.',
+  issuesNote,
+  intro,
+  ground = 'lichen',
   style
 }) {
   const wide = useWide();
+  __ds_scope.usePageGround();
+  const uid = React.useId().replace(/:/g, '');
   const formRef = React.useRef(null);
   const [name, setName] = React.useState('');
   const [email, setEmail] = React.useState('');
@@ -21655,7 +22563,52 @@ function SubscribeBlock({
   const [tried, setTried] = React.useState(false);
   const [agreed, setAgreed] = React.useState(false);
   const [picked, setPicked] = React.useState({});
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpenRaw] = React.useState(false);
+  const [archive, setArchive] = React.useState(false);
+  /* The topic list and the archive both want column 8 at LG: each closes the other. */
+  const setOpen = v => {
+    setOpenRaw(v);
+    if (v) setArchive(false);
+  };
+  const swapRef = React.useRef(null);
+  const swapFrom = React.useRef(null);
+  const toggleArchive = () => {
+    swapFrom.current = swapRef.current ? swapRef.current.offsetHeight : null;
+    setArchive(a => {
+      if (!a) setOpenRaw(false);
+      return !a;
+    });
+  };
+  /* The archive and the form swap in one place: the outgoing one fades and
+     lifts away, the incoming one fades and rises in, and the place glides
+     from the old height to the new. */
+  React.useLayoutEffect(() => {
+    const el = swapRef.current,
+      h0 = swapFrom.current;
+    swapFrom.current = null;
+    if (!el || h0 == null) return undefined;
+    const h1 = el.offsetHeight;
+    if (h0 === h1) return undefined;
+    el.style.overflow = 'hidden';
+    el.style.height = h0 + 'px';
+    void el.offsetHeight;
+    el.style.transition = 'height var(--dur-medium) var(--ease-expo)';
+    el.style.height = h1 + 'px';
+    const done = e => {
+      if (e && e.target !== el) return;
+      el.style.height = '';
+      el.style.transition = '';
+      el.style.overflow = '';
+      el.removeEventListener('transitionend', done);
+    };
+    el.addEventListener('transitionend', done);
+    const t = window.setTimeout(done, 900);
+    return () => {
+      window.clearTimeout(t);
+      el.removeEventListener('transitionend', done);
+    };
+  }, [archive]);
+  const hasIssues = !!(issues && issues.length);
   const [sending, setSending] = React.useState(false);
   const [sent, setSent] = React.useState(false);
   const handoff = React.useRef(null);
@@ -21786,42 +22739,115 @@ function SubscribeBlock({
   return /*#__PURE__*/React.createElement("div", {
     ref: rootRef,
     "data-subscribe": "",
+    "data-page-ground": ground || undefined,
     style: {
       paddingInline: 'var(--margin)',
       maxWidth: 'var(--max-width)',
       marginInline: 'auto',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      textAlign: 'center',
-      gap: 'var(--space-4)',
       ...style
     }
   }, /*#__PURE__*/React.createElement("div", {
+    "data-subscribe-layout": "",
+    "data-issues-open": hasIssues && archive ? 'true' : 'false'
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-subscribe-mark": "",
     style: {
       width: '100%',
       maxWidth: 260,
       color: 'var(--ink)',
-      marginBottom: -21
+      marginTop: -64,
+      marginBottom: -48
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.Mark, {
     name: "diamonds-tangent",
     stroke: 0.9,
     state: markState,
     replay: replay
-  })), /*#__PURE__*/React.createElement("h2", {
+  })), /*#__PURE__*/React.createElement("div", {
+    "data-subscribe-text": ""
+  }, /*#__PURE__*/React.createElement("h2", {
     id: headingId,
     className: "display-2",
     style: {
       margin: 0
     }
-  }, title), sent ? /*#__PURE__*/React.createElement(Rise, {
+  }, title), intro || hasIssues ? /*#__PURE__*/React.createElement("p", {
+    "data-subscribe-intro": "",
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'var(--measure-small)',
+      color: 'var(--text-primary)',
+      textWrap: 'pretty'
+    }
+  }, intro, intro && hasIssues ? ' ' : null, hasIssues ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-expanded": archive,
+    "aria-controls": 'si-' + uid,
+    onClick: toggleArchive,
+    style: {
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      margin: 0,
+      cursor: 'pointer',
+      font: 'inherit',
+      color: 'inherit',
+      textAlign: 'inherit'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      textDecoration: 'underline',
+      textDecorationThickness: '1px',
+      textDecorationColor: 'var(--underline-rest-secondary)',
+      textUnderlineOffset: '0.22em'
+    }
+  }, archive ? issuesHide : issuesLink), archive ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'inline-block',
+      verticalAlign: '-0.12em',
+      marginLeft: '0.45em',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "close",
+    size: 13
+  })) : null) : null) : null), /*#__PURE__*/React.createElement("div", {
+    "data-subscribe-swap": "",
+    ref: swapRef,
+    style: {
+      position: 'relative',
+      width: '100%',
+      minWidth: 0
+    }
+  }, hasIssues ? /*#__PURE__*/React.createElement(Issues, {
+    id: 'si-' + uid,
+    issues: issues,
+    label: issuesLabel,
+    note: issuesNote,
+    open: archive,
+    onFound: () => setArchive(true)
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    "data-subscribe-formarea": "",
+    inert: hasIssues && archive ? '' : undefined,
+    "aria-hidden": hasIssues && archive ? 'true' : undefined,
+    style: hasIssues ? {
+      position: archive ? 'absolute' : 'relative',
+      top: 0,
+      left: 0,
+      right: 0,
+      opacity: archive ? 0 : 1,
+      transform: archive ? 'translateY(-16px)' : 'none',
+      pointerEvents: archive ? 'none' : undefined,
+      transition: 'opacity var(--dur-medium) var(--ease-expo) ' + (archive ? '0ms' : '160ms') + ', transform var(--dur-medium) var(--ease-expo) ' + (archive ? '0ms' : '160ms')
+    } : undefined
+  }, sent ? /*#__PURE__*/React.createElement(Rise, {
     style: {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      gap: 'var(--space-3)',
-      marginTop: 'var(--space-3)'
+      gap: 'var(--space-3)'
     }
   }, /*#__PURE__*/React.createElement("div", {
     role: "status",
@@ -21879,7 +22905,7 @@ function SubscribeBlock({
     labelAs: "placeholder",
     name: "name",
     autoComplete: "name",
-    align: "start",
+    align: wide ? 'start' : 'center',
     value: name,
     onChange: text(setName),
     onBlur: () => name.trim() && setTouched(t => ({
@@ -21895,7 +22921,7 @@ function SubscribeBlock({
     type: "email",
     name: "email",
     autoComplete: "email",
-    align: "start",
+    align: wide ? 'start' : 'center',
     value: email,
     onChange: text(setEmail),
     onBlur: () => email.trim() && setTouched(t => ({
@@ -21916,7 +22942,7 @@ function SubscribeBlock({
     onToggle: setOpen,
     emptyLabel: emptyLabel,
     name: "topics",
-    align: "start",
+    align: wide ? 'start' : 'center',
     columns: wide ? 3 : 1
   })) : null, hasConsent ? /*#__PURE__*/React.createElement(Reveal, {
     "data-sf-consent": "",
@@ -21926,7 +22952,7 @@ function SubscribeBlock({
       padding: '0 8px'
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.Checkbox, {
-    align: "start",
+    align: wide ? 'start' : 'center',
     checked: agreed,
     onChange: onConsent,
     disabled: !ready,
@@ -21956,7 +22982,142 @@ function SubscribeBlock({
       cursor: 'pointer',
       textAlign: 'center'
     }
-  }, cta)))));
+  }, cta))))))));
+}
+
+/* "NYHETSBREV JUNI 2026" → { year: "2026", text: "Juni" }. The word
+   "nyhetsbrev" and the year go; a label in capitals is set in sentence case.
+   A label without a year keeps its text and goes last, under no year. */
+function issueParts(label) {
+  const raw = String(label || '').replace(/\s+/g, ' ').trim();
+  const m = raw.match(/\b(\d{4})\b/);
+  let t = raw.replace(/^nyhetsbrev\b[\s:,–-]*/i, '').replace(/\b\d{4}\b/, '').replace(/\s+/g, ' ').trim() || raw;
+  if (t === t.toUpperCase()) t = t.charAt(0) + t.slice(1).toLowerCase();
+  return {
+    year: m ? m[1] : '',
+    text: t
+  };
+}
+function byYear(issues) {
+  const groups = [];
+  const at = {};
+  issues.forEach(it => {
+    const p = issueParts(it.label);
+    if (!(p.year in at)) {
+      at[p.year] = groups.length;
+      groups.push({
+        year: p.year,
+        items: []
+      });
+    }
+    groups[at[p.year]].items.push({
+      ...it,
+      text: p.text
+    });
+  });
+  return groups.filter(g => g.year).concat(groups.filter(g => !g.year));
+}
+function Issues({
+  id,
+  issues,
+  label,
+  note,
+  open,
+  onFound
+}) {
+  const ref = React.useRef(null);
+  const [shown, setShown] = React.useState(false);
+  React.useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return undefined;
+    if (open) {
+      el.removeAttribute('hidden');
+      const r = requestAnimationFrame(() => setShown(true));
+      return () => cancelAnimationFrame(r);
+    }
+    setShown(false);
+    const t = window.setTimeout(() => el.setAttribute('hidden', 'until-found'), 500);
+    return () => window.clearTimeout(t);
+  }, [open]);
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return undefined;
+    const on = () => onFound && onFound();
+    el.addEventListener('beforematch', on);
+    return () => el.removeEventListener('beforematch', on);
+  }, [onFound]);
+  const groups = byYear(issues);
+  const t = 'var(--dur-medium) var(--ease-expo) ' + (open ? '160ms' : '0ms');
+  return /*#__PURE__*/React.createElement("nav", {
+    id: id,
+    ref: ref,
+    "aria-label": label,
+    "data-subscribe-issues": "",
+    style: {
+      position: open ? 'relative' : 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      opacity: shown ? 1 : 0,
+      transform: shown ? 'none' : 'translateY(16px)',
+      transition: 'opacity ' + t + ', transform ' + t,
+      pointerEvents: open ? undefined : 'none',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 'var(--space-4)',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-subscribe-years": ""
+  }, groups.map(g => /*#__PURE__*/React.createElement("div", {
+    key: g.year || 'other',
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-1)',
+      minWidth: 0
+    }
+  }, g.year ? /*#__PURE__*/React.createElement("h3", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      fontWeight: 'inherit',
+      color: 'var(--text-secondary)'
+    }
+  }, g.year) : null, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-1)'
+    }
+  }, g.items.map((it, i) => /*#__PURE__*/React.createElement("li", {
+    key: (it.href || '') + i
+  }, /*#__PURE__*/React.createElement("a", {
+    href: it.href,
+    target: "_blank",
+    rel: "noopener",
+    className: "small",
+    style: {
+      maxWidth: 'none',
+      color: 'var(--text-primary)',
+      textDecorationThickness: '1px',
+      textDecorationColor: 'var(--underline-rest-secondary)',
+      textUnderlineOffset: '0.22em'
+    }
+  }, it.text))))))), note ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'var(--measure-small)',
+      color: 'var(--text-secondary)',
+      textAlign: 'center'
+    }
+  }, note) : null);
 }
 Object.assign(__ds_scope, { SubscribeBlock });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/SubscribeBlock.jsx", error: String((e && e.message) || e) }); }
@@ -22127,6 +23288,9 @@ function CheckboxGroup({
   hint,
   columns = 1,
   disabled = false,
+  /* Keep the legend for assistive tech but draw nothing: for a group whose
+     surroundings already name it, such as a filter drawer. */
+  legendHidden = false,
   style
 }) {
   const uid = React.useId().replace(/:/g, '');
@@ -22151,7 +23315,9 @@ function CheckboxGroup({
       minWidth: 0,
       ...style
     }
-  }, /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
+  }, legendHidden ? /*#__PURE__*/React.createElement("legend", {
+    style: __ds_scope.srOnly
+  }, legend) : /*#__PURE__*/React.createElement(__ds_scope.FieldLabel, {
     as: "legend",
     optional: optional,
     optionalLabel: optionalLabel
@@ -22202,6 +23368,253 @@ function CheckboxGroup({
 }
 Object.assign(__ds_scope, { CheckboxGroup });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/CheckboxGroup.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/ListingFilters.jsx
+try { (() => {
+/* The filter bar the two listings share.
+
+   One row always shows: the Filtrera toggle, the count against the whole set,
+   and a way to clear. The fields themselves are a drawer under it, because a
+   listing's first job is the list — a permanent bank of four selects reads as
+   a form and pushes the first row under the fold.
+
+   The fields are data, so the same component serves any listing: the people
+   register passes area, sector and office, the stream passes type, area,
+   sector and year. What must not vary between the two pages is the layout,
+   the counted option labels and the words, so they live here once.
+
+   Two variants:
+     drawer — the fields are behind the toggle. The default, and what both
+       listings use.
+     open — the fields are always shown and the toggle is gone, for a page
+       whose whole purpose is the filtering (a search result, a facet landing
+       page) rather than the list. */
+function ListingFilters({
+  fields = [],
+  value = {},
+  onChange,
+  countLine = '',
+  onClear,
+  showClear = false,
+  open,
+  onToggle,
+  variant = 'drawer',
+  label = 'Filtrera',
+  marked = false,
+  /* A field kept out of the drawer and standing in the top row: typing filters
+     the list immediately, without the drawer having to be opened at all. Its
+     value and change handler are the same as every other field's. */
+  searchId = '',
+  searchLabel = 'Sök',
+  searchPlaceholder = '',
+  style
+}) {
+  __ds_scope.useFocusSource();
+  const [selfOpen, setSelfOpen] = React.useState(false);
+  const [warm, setWarm] = React.useState(false);
+  const controlled = open != null;
+  const isOpen = variant === 'open' ? true : controlled ? !!open : selfOpen;
+  const toggle = () => {
+    if (onToggle) onToggle();
+    if (!controlled) setSelfOpen(v => !v);
+  };
+  const labelShown = warm || isOpen;
+  const field = {
+    width: '100%',
+    marginTop: 6,
+    padding: '0 0 8px',
+    border: 0,
+    borderBottom: '1px solid var(--rule-hairline)',
+    background: 'transparent',
+    color: 'var(--ink)',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    appearance: 'none',
+    borderRadius: 0
+  };
+  const quiet = {
+    border: 0,
+    background: 'transparent',
+    padding: 0,
+    cursor: 'pointer',
+    fontFamily: 'var(--font-text)',
+    fontSize: 'var(--text-small)',
+    lineHeight: 'var(--lh-small)',
+    color: 'var(--text-secondary)',
+    textDecoration: 'underline',
+    textDecorationColor: 'var(--underline-rest-secondary)',
+    textUnderlineOffset: '0.22em'
+  };
+
+  /* Search fields are the shared FilterSearch, so every filter's search is
+     the same control. */
+  const grid = /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit,minmax(180px,1fr))',
+      gap: 'var(--gutter)'
+    }
+  }, fields.map(f => f.kind === 'search' ? /*#__PURE__*/React.createElement(__ds_scope.FilterSearch, {
+    key: f.id,
+    label: f.label,
+    placeholder: f.placeholder,
+    value: value[f.id] || '',
+    onChange: v => onChange && onChange(f.id, v)
+  }) : f.kind === 'checks' ?
+  /*#__PURE__*/
+  /* Several at once: the system's CheckboxGroup, each option counted in
+     its note. The value is an array; none ticked means no filter. */
+  React.createElement(__ds_scope.CheckboxGroup, {
+    key: f.id,
+    legend: f.label || label,
+    legendHidden: !f.label,
+    options: f.options || [],
+    columns: f.columns || 1,
+    value: Array.isArray(value[f.id]) ? value[f.id] : [],
+    onChange: next => onChange && onChange(f.id, next),
+    style: {
+      gridColumn: '1 / -1'
+    }
+  }) : /*#__PURE__*/React.createElement("label", {
+    key: f.id,
+    style: {
+      display: 'block',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      display: 'block',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, f.label), /*#__PURE__*/React.createElement("select", {
+    value: value[f.id] || '',
+    onChange: e => onChange && onChange(f.id, e.target.value),
+    style: {
+      ...field,
+      cursor: 'pointer'
+    }
+  }, (f.options || []).map(o => /*#__PURE__*/React.createElement("option", {
+    key: o.value,
+    value: o.value
+  }, o.label))))));
+  return /*#__PURE__*/React.createElement("div", {
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      gap: 'var(--space-3)'
+    }
+  }, variant === 'drawer' ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: toggle,
+    onMouseEnter: () => setWarm(true),
+    onMouseLeave: () => setWarm(false),
+    onFocus: () => setWarm(true),
+    onBlur: () => setWarm(false),
+    "aria-expanded": isOpen ? 'true' : 'false',
+    "aria-label": label,
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 8,
+      border: 0,
+      background: 'transparent',
+      padding: 0,
+      cursor: 'pointer',
+      fontFamily: 'var(--font-text)',
+      fontSize: 'var(--text-small)',
+      lineHeight: 'var(--lh-small)',
+      color: 'var(--ink)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      gap: 3,
+      width: 14
+    }
+  }, [14, 10, 6].map(w => /*#__PURE__*/React.createElement("span", {
+    key: w,
+    style: {
+      display: 'block',
+      width: w,
+      height: 1,
+      background: labelShown ? 'var(--ink)' : 'var(--text-secondary)',
+      transition: 'background var(--dur-reveal) var(--ease-expo)'
+    }
+  }))), /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'block',
+      maxWidth: labelShown ? '9ch' : 0,
+      opacity: labelShown ? 1 : 0,
+      overflow: 'hidden',
+      whiteSpace: 'nowrap',
+      textDecoration: 'underline',
+      textDecorationThickness: '1px',
+      textUnderlineOffset: '0.2em',
+      textDecorationColor: warm ? 'currentColor' : 'transparent',
+      transition: 'max-width var(--dur-reveal) var(--ease-expo), opacity var(--dur-reveal) var(--ease-expo), text-decoration-color var(--dur-reveal) var(--ease-expo)'
+    }
+  }, label), marked && !isOpen ? /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'block',
+      width: 4,
+      height: 4,
+      borderRadius: '50%',
+      background: 'var(--ink)'
+    }
+  }) : null) : null, countLine ? /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none'
+    }
+  }, countLine) : null, showClear ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: onClear,
+    style: quiet
+  }, "Rensa") : null, searchId ? /*#__PURE__*/React.createElement(__ds_scope.FilterSearch, {
+    inline: true,
+    label: searchLabel,
+    placeholder: searchPlaceholder,
+    value: value[searchId] || '',
+    onChange: v => onChange && onChange(searchId, v),
+    style: {
+      marginLeft: 'auto',
+      flex: '1 1 220px',
+      maxWidth: 320
+    }
+  }) : null), variant === 'open' ? fields.length ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 'var(--space-4)'
+    }
+  }, grid) : null : /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": isOpen ? 'false' : 'true',
+    style: {
+      display: 'grid',
+      gridTemplateRows: isOpen ? '1fr' : '0fr',
+      opacity: isOpen ? 1 : 0,
+      marginTop: isOpen ? 'var(--space-4)' : 0,
+      visibility: isOpen ? 'visible' : 'hidden',
+      transition: isOpen ? 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s' : 'grid-template-rows 420ms var(--ease-expo), opacity 420ms var(--ease-expo), margin-top 420ms var(--ease-expo), visibility 0s linear 420ms'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      overflow: 'hidden',
+      minHeight: 0
+    }
+  }, grid)));
+}
+Object.assign(__ds_scope, { ListingFilters });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/ListingFilters.jsx", error: String((e && e.message) || e) }); }
 
 // components/forms/FileField.jsx
 try { (() => {
@@ -23452,8 +24865,18 @@ try { (() => {
 
    With `film` it is the film block: the still as the same raster, the title
    centred over it and "Spela filmen" under it as a display-3 underlined link. Play swaps the raster
-   for the player in place, 16:9 on the full grid, with a close under it. */
+   for the player in place, 16:9 on the full grid, with a close under it.
 
+   `contained`: the same film module inside another block (Rader's film
+   variants). A 16:9 box in its column, the raster filling it and "Spela
+   filmen" centred on it; play swaps the raster for the player in the same
+   box, the close under it. The heading is optional here (the host block
+   names the film; pass it as `name` for the player's title). `active` false
+   stops the film, as when the host row closes. */
+
+/* A faint paper-coloured halo round the type: lifts it off the raster without
+   blanking the picture behind it. */
+const HALO = '0 0 0.4em var(--paper), 0 0 1.2em color-mix(in oklab, var(--paper) 70%, transparent)';
 const withAutoplay = u => {
   const s = String(u || '');
   return s + (s.includes('?') ? '&' : '?') + 'autoplay=1';
@@ -23508,9 +24931,88 @@ function Feature({
   film,
   playLabel = 'Spela filmen',
   closeLabel = 'Stäng filmen',
+  contained = false,
+  active = true,
+  name,
   style
 }) {
   const [playing, setPlaying] = React.useState(false);
+  React.useEffect(() => {
+    if (!active) setPlaying(false);
+  }, [active]);
+  const filmName = name || (typeof heading === 'string' ? heading : '');
+  if (film && contained) {
+    return /*#__PURE__*/React.createElement("div", {
+      "data-feature": "film-contained",
+      style: style
+    }, /*#__PURE__*/React.createElement("div", {
+      style: {
+        position: 'relative',
+        overflow: 'hidden',
+        width: '100%',
+        aspectRatio: '16 / 9',
+        display: 'grid',
+        placeItems: 'center',
+        background: playing ? 'var(--ink)' : undefined
+      }
+    }, playing ? /*#__PURE__*/React.createElement("iframe", {
+      src: withAutoplay(film),
+      title: filmName || 'Film',
+      allow: "autoplay; fullscreen; picture-in-picture",
+      allowFullScreen: true,
+      style: {
+        position: 'absolute',
+        inset: 0,
+        width: '100%',
+        height: '100%',
+        border: 0
+      }
+    }) : /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(__ds_scope.RasterField, {
+      src: imageSrc,
+      alt: imageAlt,
+      level: level
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        position: 'relative',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: 'var(--space-4)',
+        textAlign: 'center',
+        padding: 'var(--space-4)',
+        textShadow: HALO
+      }
+    }, heading ? /*#__PURE__*/React.createElement("h3", {
+      className: "display-3",
+      style: {
+        margin: 0,
+        maxWidth: 'none'
+      }
+    }, heading) : null, /*#__PURE__*/React.createElement(PlayButton, {
+      label: playLabel,
+      name: playLabel + (filmName ? ': ' + filmName : ''),
+      onClick: () => setPlaying(true)
+    })))), playing ? /*#__PURE__*/React.createElement("p", {
+      style: {
+        margin: 'var(--space-3) 0 0',
+        textAlign: 'center'
+      }
+    }, /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      onClick: () => setPlaying(false),
+      style: {
+        all: 'unset',
+        cursor: 'pointer'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        textDecoration: 'underline',
+        textUnderlineOffset: '.18em',
+        color: 'var(--text-primary)'
+      }
+    }, closeLabel))) : null);
+  }
   if (film) {
     return /*#__PURE__*/React.createElement("section", {
       "data-feature": "film",
@@ -23584,7 +25086,8 @@ function Feature({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        gap: 'var(--space-5)'
+        gap: 'var(--space-5)',
+        textShadow: HALO
       }
     }, kicker ? /*#__PURE__*/React.createElement("p", {
       className: "small",
@@ -23638,7 +25141,8 @@ function Feature({
     className: "grid",
     style: {
       alignItems: 'start',
-      position: 'relative'
+      position: 'relative',
+      textShadow: HALO
     }
   }, /*#__PURE__*/React.createElement("div", {
     "data-f-head": ""
@@ -23672,6 +25176,670 @@ function Feature({
 }
 Object.assign(__ds_scope, { Feature });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/Feature.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/Accordion.jsx
+try { (() => {
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+/* Rader: the content-page accordion. Three variants of one block.
+
+   list  — the default. Rows at display-3 under hairlines, a plus that turns to
+           a minus. Each row may carry an image, shown in the open panel on
+           columns 6–8 beside the text (under it below LG). All rows closed on
+           load: the closed list is the index.
+   film  — the list, with a film on every row (a seminar series). Closed,
+           the rows are the index. Open, Feature's film module (contained)
+           stands at 16:9 on columns 3–8: raster and "Spela filmen"; play
+           swaps in the player. The text follows on 3–6.
+           One row open at a time, so one film. Every row needs film and
+           image (the poster).
+   index — the image variant; with `film` on every row, the film index:
+           Feature's film module (contained) on 3–8 follows the open row:
+           the raster of the poster with "Spela filmen" centred on it; play
+           swaps in the player. Choosing another row stops the film.
+   index — the image variant. A small numbered index on columns 1–2, one large
+           image on 3–8 that follows the open row and prints with ImageReveal.
+           One row is always open, the first until another is chosen. Every
+           row needs an image. When any row's text, open, would run past the
+           image's foot on two columns, the index takes a third column from
+           the image for the whole block: text on 1–3, image on 4–8, the same
+           whichever row is open (textColumns, auto by default).
+           Links in the panel are set at the text's size (CtaLink small).
+
+   Each row is a real heading with a button in it; the panel is a region named
+   by the headline. Closed panels are hidden="until-found", so find-in-page
+   reaches them and opens the row. An open row writes #<idPrefix>-<slug> to the
+   address, and that hash opens it on load. */
+
+function useWide() {
+  const [wide, setWide] = React.useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1280px)').matches);
+  React.useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1280px)');
+    const on = () => setWide(mq.matches);
+    on();
+    mq.addEventListener('change', on);
+    return () => mq.removeEventListener('change', on);
+  }, []);
+  return wide;
+}
+
+/* Inline [label](href) as links. */
+function Inline({
+  text
+}) {
+  const out = [];
+  const re = /\[([^\]]+)\]\(([^)\s]+)\)/g;
+  let m,
+    at = 0,
+    k = 0;
+  while (m = re.exec(text)) {
+    if (m.index > at) out.push(text.slice(at, m.index));
+    out.push(/*#__PURE__*/React.createElement("a", {
+      key: k++,
+      href: m[2],
+      style: {
+        color: 'inherit'
+      }
+    }, m[1]));
+    at = m.index + m[0].length;
+  }
+  if (at < text.length) out.push(text.slice(at));
+  return out;
+}
+
+/* Paragraphs on blank lines; a paragraph whose lines all open on "•" or "- "
+   is a list, as RichText sets it. */
+function Body({
+  text,
+  className,
+  style
+}) {
+  const paras = String(text || '').split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  const bullet = /^(?:[\u2022\u2013-]|\*)\s+/;
+  return paras.map((p, i) => {
+    const lines = p.split('\n').map(l => l.trim()).filter(Boolean);
+    const m = i ? 'var(--space-2) 0 0' : 0;
+    if (lines.length && lines.every(l => bullet.test(l))) {
+      return /*#__PURE__*/React.createElement("ul", {
+        key: i,
+        className: className,
+        style: {
+          margin: m,
+          paddingLeft: '1.1em',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 'var(--space-1)',
+          ...style
+        }
+      }, lines.map((l, li) => /*#__PURE__*/React.createElement("li", {
+        key: li,
+        style: {
+          textWrap: 'pretty'
+        }
+      }, /*#__PURE__*/React.createElement(Inline, {
+        text: l.replace(bullet, '')
+      }))));
+    }
+    return /*#__PURE__*/React.createElement("p", {
+      key: i,
+      className: className,
+      style: {
+        margin: m,
+        whiteSpace: 'pre-line',
+        textWrap: 'pretty',
+        ...style
+      }
+    }, /*#__PURE__*/React.createElement(Inline, {
+      text: p
+    }));
+  });
+}
+
+/* Height and fade on open and close; hidden="until-found" once closed. React
+   does not own `hidden` here, so find-in-page can lift it. */
+function Panel({
+  id,
+  open,
+  label,
+  onFound,
+  children
+}) {
+  const ref = React.useRef(null);
+  const was = React.useRef(open);
+  const found = React.useRef(onFound);
+  found.current = onFound;
+  React.useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const ease = getComputedStyle(document.documentElement).getPropertyValue('--ease-expo').trim() || 'cubic-bezier(.19,1,.22,1)';
+    const animate = !still && was.current !== open;
+    was.current = open;
+    if (el.__anim) el.__anim.cancel();
+    if (open) {
+      el.removeAttribute('hidden');
+      if (animate) el.__anim = el.animate([{
+        height: '0px',
+        opacity: 0
+      }, {
+        height: el.scrollHeight + 'px',
+        opacity: 1
+      }], {
+        duration: 600,
+        easing: ease
+      });
+    } else if (animate) {
+      const a = el.animate([{
+        height: el.offsetHeight + 'px',
+        opacity: 1
+      }, {
+        height: '0px',
+        opacity: 0
+      }], {
+        duration: 450,
+        easing: ease
+      });
+      el.__anim = a;
+      a.onfinish = () => {
+        if (!was.current) el.setAttribute('hidden', 'until-found');
+      };
+    } else el.setAttribute('hidden', 'until-found');
+  }, [open]);
+  React.useEffect(() => {
+    const el = ref.current;
+    const on = () => found.current && found.current();
+    el.addEventListener('beforematch', on);
+    return () => el.removeEventListener('beforematch', on);
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    ref: ref,
+    id: id,
+    role: "region",
+    "aria-label": label,
+    style: {
+      overflow: 'hidden'
+    }
+  }, children);
+}
+function Cue({
+  open
+}) {
+  const bar = {
+    position: 'absolute',
+    left: 0,
+    top: '50%',
+    width: '100%',
+    height: 1.5,
+    marginTop: -0.75,
+    background: 'currentColor'
+  };
+  return /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      position: 'relative',
+      display: 'block',
+      width: '.6em',
+      height: '.6em',
+      color: 'var(--text-primary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: bar
+  }), open ? null : /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...bar,
+      transform: 'rotate(90deg)'
+    }
+  }));
+}
+
+/* The list as it would set on two columns with one given row open,
+   unanimated, to measure against the image. Hidden and inert; never read or
+   found. One per row: the block widens if any of them is taller. */
+function IndexGhost({
+  list,
+  isOpen,
+  num,
+  label
+}) {
+  return /*#__PURE__*/React.createElement("ul", {
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    }
+  }, list.map((r, n) => /*#__PURE__*/React.createElement("li", {
+    key: r.slug,
+    style: {
+      borderBottom: '1px solid var(--rule-hairline)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: num ? 'var(--space-5) minmax(0,1fr)' : 'minmax(0,1fr)',
+      columnGap: 'var(--space-2)',
+      paddingBlock: 'var(--space-2)'
+    }
+  }, num ? /*#__PURE__*/React.createElement("span", {
+    className: "small"
+  }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+    className: "small",
+    style: {
+      maxWidth: 'none'
+    }
+  }, r.headline)), isOpen(r, n) ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      padding: num ? 'var(--space-1) 0 var(--space-3) calc(var(--space-5) + var(--space-2))' : 'var(--space-1) 0 var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement(Body, {
+    text: r.body,
+    className: "small"
+  }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
+    key: li,
+    className: "small",
+    style: {
+      margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
+    }
+  }, l.label))) : null)));
+}
+function Accordion({
+  heading,
+  intro,
+  rows = [],
+  variant = 'list',
+  numbered,
+  multiple: multipleProp = false,
+  idPrefix = 'rad',
+  textColumns = 'auto',
+  id,
+  style,
+  ...rest
+}) {
+  const wide = useWide();
+  const multiple = variant === 'film' ? false : multipleProp;
+  const ghostRef = React.useRef(null);
+  const imgRef = React.useRef(null);
+  const [tall, setTall] = React.useState(false);
+  const index = variant === 'index';
+  const num = numbered ?? index;
+  const list = rows.filter(r => r && r.slug && r.headline);
+  const [open, setOpen] = React.useState({});
+  const [hover, setHover] = React.useState(null);
+  const set = React.useCallback((slug, next) => {
+    setOpen(o => multiple ? {
+      ...o,
+      [slug]: next
+    } : next ? {
+      [slug]: true
+    } : {});
+    if (next) {
+      try {
+        history.replaceState(null, '', location.pathname + location.search + '#' + idPrefix + '-' + slug);
+      } catch (e) {}
+    }
+  }, [multiple, idPrefix]);
+  React.useEffect(() => {
+    const fromHash = () => {
+      const h = decodeURIComponent(location.hash.slice(1));
+      const p = idPrefix + '-';
+      if (!h.startsWith(p)) return;
+      const slug = h.slice(p.length);
+      if (list.some(r => r.slug === slug)) setOpen(o => multiple ? {
+        ...o,
+        [slug]: true
+      } : {
+        [slug]: true
+      });
+    };
+    fromHash();
+    addEventListener('hashchange', fromHash);
+    return () => removeEventListener('hashchange', fromHash);
+  }, [idPrefix, multiple, list.map(r => r.slug).join('|')]);
+  React.useLayoutEffect(() => {
+    if (variant !== 'index' || textColumns !== 'auto') return;
+    const gEl = ghostRef.current,
+      iEl = imgRef.current;
+    if (!gEl || !iEl) return;
+    const ghosts = Array.from(gEl.querySelectorAll('[data-ghost]'));
+    const measure = () => {
+      const ih = iEl.offsetHeight;
+      setTall(ih > 0 && ghosts.some(x => x.offsetHeight > ih));
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ghosts.forEach(x => ro.observe(x));
+    ro.observe(iEl);
+    return () => ro.disconnect();
+  });
+  if (!list.length) return null;
+  const anyOpen = list.some(r => open[r.slug]);
+  const isOpen = (r, n) => !!open[r.slug] || index && !anyOpen && n === 0;
+  const filmIdx = index && list.every(r => r.film);
+  const toggle = (r, n) => set(r.slug, index ? true : !isOpen(r, n));
+  const label = n => String(n + 1).padStart(2, '0');
+  /* The block's own head: heading at display-2 and, when given, its preamble
+     in the lead style (as Matters' premise), on the same column line. */
+  const title = heading || intro ? /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      marginBottom: 'var(--space-6)',
+      rowGap: 'var(--space-4)'
+    }
+  }, heading ? /*#__PURE__*/React.createElement("h2", {
+    className: "display-2",
+    style: {
+      gridColumn: wide && !index ? '3 / 9' : '1 / -1',
+      margin: 0
+    }
+  }, heading) : null, intro ? /*#__PURE__*/React.createElement("p", {
+    className: "lead",
+    style: {
+      gridColumn: wide ? index ? '1 / 7' : '3 / 8' : '1 / -1',
+      margin: 0,
+      textWrap: 'pretty'
+    }
+  }, intro) : null) : null;
+  if (index) {
+    const three = textColumns === 3 || textColumns === 'auto' && tall;
+    return /*#__PURE__*/React.createElement("section", _extends({
+      id: id,
+      "data-accordion": filmIdx ? 'index-film' : 'index',
+      style: style
+    }, rest), title, /*#__PURE__*/React.createElement("div", {
+      className: "grid",
+      "data-text-columns": three ? 3 : 2,
+      style: {
+        alignItems: 'start',
+        position: 'relative'
+      }
+    }, wide && textColumns === 'auto' ? /*#__PURE__*/React.createElement("div", {
+      ref: ghostRef,
+      "aria-hidden": "true",
+      inert: "",
+      style: {
+        gridColumn: '1 / 3',
+        gridRow: 1,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        visibility: 'hidden',
+        pointerEvents: 'none'
+      }
+    }, list.map((g, gi) => /*#__PURE__*/React.createElement("div", {
+      key: g.slug,
+      "data-ghost": "",
+      style: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%'
+      }
+    }, /*#__PURE__*/React.createElement(IndexGhost, {
+      list: list,
+      isOpen: r => r.slug === g.slug,
+      num: num,
+      label: label
+    })))) : null, /*#__PURE__*/React.createElement("ul", {
+      style: {
+        gridColumn: wide ? three ? '1 / 4' : '1 / 3' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        listStyle: 'none',
+        margin: 0,
+        padding: 0
+      }
+    }, list.map((r, n) => {
+      const on = isOpen(r, n),
+        pid = idPrefix + '-' + r.slug + '-panel',
+        u = hover === r.slug;
+      return /*#__PURE__*/React.createElement("li", {
+        key: r.slug,
+        id: idPrefix + '-' + r.slug,
+        style: {
+          borderBottom: '1px solid var(--rule-hairline)',
+          scrollMarginTop: 'var(--space-6)'
+        }
+      }, /*#__PURE__*/React.createElement("h3", {
+        style: {
+          margin: 0,
+          font: 'inherit'
+        }
+      }, /*#__PURE__*/React.createElement("button", {
+        type: "button",
+        "aria-expanded": on,
+        "aria-controls": pid,
+        onClick: () => toggle(r, n),
+        onMouseEnter: () => setHover(r.slug),
+        onMouseLeave: () => setHover(null),
+        style: {
+          all: 'unset',
+          boxSizing: 'border-box',
+          cursor: 'pointer',
+          display: 'grid',
+          gridTemplateColumns: num ? 'var(--space-5) minmax(0,1fr)' : 'minmax(0,1fr)',
+          columnGap: 'var(--space-2)',
+          width: '100%',
+          paddingBlock: 'var(--space-2)',
+          alignItems: 'baseline'
+        }
+      }, num ? /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          fontVariantNumeric: 'tabular-nums'
+        }
+      }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          maxWidth: 'none',
+          textDecoration: 'underline',
+          textDecorationThickness: 1,
+          textUnderlineOffset: '.18em',
+          textDecorationColor: u ? 'var(--underline-active)' : 'transparent',
+          transition: 'text-decoration-color 450ms var(--ease-expo)'
+        }
+      }, r.headline))), /*#__PURE__*/React.createElement(Panel, {
+        id: pid,
+        open: on,
+        label: r.headline,
+        onFound: () => set(r.slug, true)
+      }, /*#__PURE__*/React.createElement("div", {
+        style: {
+          padding: num ? 'var(--space-1) 0 var(--space-3) calc(var(--space-5) + var(--space-2))' : 'var(--space-1) 0 var(--space-3)'
+        }
+      }, /*#__PURE__*/React.createElement(Body, {
+        text: r.body,
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)'
+        }
+      }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
+        key: li,
+        style: {
+          margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
+        }
+      }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+        variant: "small",
+        href: l.href
+      }, l.label))))));
+    })), /*#__PURE__*/React.createElement("div", {
+      ref: imgRef,
+      style: {
+        gridColumn: wide ? three ? '4 / 9' : '3 / 9' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        order: wide ? 0 : -1,
+        display: 'grid',
+        marginBottom: wide ? 0 : 'var(--space-4)',
+        position: wide ? 'sticky' : 'static',
+        top: 'var(--space-5)'
+      }
+    }, list.map((r, n) => {
+      const on = isOpen(r, n);
+      if (filmIdx) {
+        return /*#__PURE__*/React.createElement("div", {
+          key: r.slug,
+          "aria-hidden": !on,
+          inert: on ? undefined : '',
+          style: {
+            gridArea: '1 / 1',
+            zIndex: on ? 1 : 0,
+            pointerEvents: on ? 'auto' : 'none',
+            opacity: on ? 1 : 0,
+            transition: 'opacity var(--dur-reveal) var(--ease-expo)'
+          }
+        }, /*#__PURE__*/React.createElement(__ds_scope.Feature, {
+          film: r.film,
+          contained: true,
+          active: on,
+          imageSrc: r.image && r.image.src,
+          imageAlt: r.image ? r.image.alt : '',
+          name: r.headline
+        }));
+      }
+      return r.image ? /*#__PURE__*/React.createElement("div", {
+        key: r.slug,
+        "aria-hidden": !on,
+        style: {
+          gridArea: '1 / 1',
+          zIndex: on ? 1 : 0,
+          pointerEvents: on ? 'auto' : 'none'
+        }
+      }, /*#__PURE__*/React.createElement(__ds_scope.ImageReveal, {
+        src: r.image.src,
+        alt: r.image.alt || '',
+        ratio: "3:2",
+        play: on,
+        duration: 900
+      })) : null;
+    }))));
+  }
+  const filmV = variant === 'film';
+  return /*#__PURE__*/React.createElement("section", _extends({
+    id: id,
+    "data-accordion": filmV ? 'film' : 'list',
+    style: style
+  }, rest), title, /*#__PURE__*/React.createElement("div", {
+    className: "grid"
+  }, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      gridColumn: '1 / -1',
+      listStyle: 'none',
+      margin: 0,
+      padding: 0,
+      display: 'flex',
+      flexDirection: 'column'
+    }
+  }, list.map((r, n) => {
+    const on = isOpen(r, n),
+      pid = idPrefix + '-' + r.slug + '-panel',
+      img = !filmV && !!r.image;
+    return /*#__PURE__*/React.createElement("li", {
+      key: r.slug,
+      id: idPrefix + '-' + r.slug,
+      style: {
+        borderBottom: '1px solid var(--rule-hairline)',
+        scrollMarginTop: 'var(--space-6)'
+      }
+    }, /*#__PURE__*/React.createElement("h3", {
+      style: {
+        margin: 0,
+        font: 'inherit'
+      }
+    }, /*#__PURE__*/React.createElement("button", {
+      type: "button",
+      "aria-expanded": on,
+      "aria-controls": pid,
+      onClick: () => toggle(r, n),
+      style: {
+        all: 'unset',
+        boxSizing: 'border-box',
+        cursor: 'pointer',
+        display: 'grid',
+        gridTemplateColumns: wide ? 'repeat(var(--cols),minmax(0,1fr))' : 'minmax(0,1fr) auto',
+        columnGap: 'var(--gutter)',
+        rowGap: 'var(--space-1)',
+        width: '100%',
+        paddingBlock: 'var(--space-4)',
+        alignItems: 'center'
+      }
+    }, num ? /*#__PURE__*/React.createElement("span", {
+      className: "small",
+      style: {
+        gridColumn: wide ? '1 / 3' : '1 / -1',
+        gridRow: wide ? 1 : undefined,
+        color: 'var(--text-secondary)',
+        fontVariantNumeric: 'tabular-nums'
+      }
+    }, label(n)) : null, /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      style: {
+        gridColumn: wide ? '3 / 8' : '1 / 2',
+        gridRow: wide ? 1 : undefined,
+        maxWidth: 'none'
+      }
+    }, r.headline), /*#__PURE__*/React.createElement("span", {
+      className: "display-3",
+      "aria-hidden": "true",
+      style: {
+        gridColumn: wide ? '8 / 9' : '2 / 3',
+        gridRow: wide ? 1 : undefined,
+        justifySelf: 'end',
+        display: 'flex',
+        alignItems: 'center',
+        lineHeight: 1
+      }
+    }, /*#__PURE__*/React.createElement(Cue, {
+      open: on
+    })))), /*#__PURE__*/React.createElement(Panel, {
+      id: pid,
+      open: on,
+      label: r.headline,
+      onFound: () => set(r.slug, true)
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "grid",
+      style: {
+        padding: 'calc(var(--space-6) - var(--space-4)) 0 var(--space-5)',
+        maxWidth: 'none',
+        margin: 0,
+        rowGap: 'var(--space-5)'
+      }
+    }, filmV ? /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? '3 / 9' : '1 / -1'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.Feature, {
+      film: r.film,
+      contained: true,
+      active: on,
+      imageSrc: r.image && r.image.src,
+      imageAlt: r.image ? r.image.alt : '',
+      name: r.headline
+    })) : null, /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? img ? '3 / 6' : filmV ? '3 / 7' : '3 / 7' : '1 / -1'
+      }
+    }, /*#__PURE__*/React.createElement(Body, {
+      text: r.body,
+      className: "prose"
+    }), (r.links || (r.link ? [r.link] : [])).map((l, li) => /*#__PURE__*/React.createElement("p", {
+      key: li,
+      style: {
+        margin: (li ? 'var(--space-2)' : 'var(--space-3)') + ' 0 0'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
+      variant: "secondary",
+      href: l.href
+    }, l.label)))), img ? /*#__PURE__*/React.createElement("div", {
+      style: {
+        gridColumn: wide ? '6 / 9' : '1 / -1',
+        marginTop: wide ? 0 : 'var(--space-3)'
+      }
+    }, /*#__PURE__*/React.createElement(__ds_scope.Figure, {
+      src: r.image.src,
+      alt: r.image.alt || '',
+      ratio: "3:2"
+    })) : null)));
+  }))));
+}
+Object.assign(__ds_scope, { Accordion });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Accordion.jsx", error: String((e && e.message) || e) }); }
 
 // components/layout/Hero.jsx
 try { (() => {
@@ -23747,7 +25915,8 @@ function ImageTextPair({
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "grid",
-    "data-pair": scale
+    "data-pair": scale,
+    "data-pair-solo": secondImageSrc ? undefined : ''
   }, /*#__PURE__*/React.createElement("div", {
     "data-pair-txt": ""
   }, heading ? /*#__PURE__*/React.createElement("h2", {
@@ -23892,13 +26061,14 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
    The hero answers nothing itself. Enter hands the prompt to onSubmit, which
    is where the conversation surface opens. */
 
-const DEFAULT_SUGGESTIONS = ['Vi har fått ett bud vi inte bett om', 'En myndighet har hört av sig', 'Vi ska klassificera en produkt enligt AI-förordningen'];
+/* The canon: the start page's finder, word for word. */
+const DEFAULT_SUGGESTIONS = ['Vi planerar ett förvärv i Sverige', 'Nya hållbarhetskrav påverkar vår rapportering', 'Vi har fått besked från en myndighet'];
 function PromptHero({
-  headline = 'Vad tänker du på?',
+  headline = 'Vad vill du ha hjälp med?',
   suggestions = DEFAULT_SUGGESTIONS,
   onSubmit,
   dotSrc = null,
-  aside = 'Skriv med egna ord. Vi ställer några frågor och hänvisar till den hos oss som drivit liknande frågor, med uppdraget som skälet vilar på. Vi ger inga råd här, och bedömer inte din sak — det gör en av våra jurister när ni talas vid.',
+  aside = 'Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver.',
   effect,
   inverted = false,
   style
@@ -25098,6 +27268,136 @@ function StatementBlock({
 Object.assign(__ds_scope, { StatementBlock });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/StatementBlock.jsx", error: String((e && e.message) || e) }); }
 
+// components/navigation/BannerContacts.jsx
+try { (() => {
+/* The contact block's cards, previewed in the banner beside the section index:
+   the label in full ink over a row of small overlapping portraits, at most
+   three, then one empty circle counting the rest (+2). The whole row is one
+   link to the contact block further down, which can sit far below the fold.
+
+   Placement is PageBanner's: pass it as `contacts` and it stands under the
+   SectionNav in the note column, sticky with it; without an index it takes
+   the slot alone. The portraits stand on the noir plate, as in the
+   PeopleCarousel they lead to; a person without one is an empty tinted
+   circle, never initials. */
+
+const SIZE = 32;
+const OVERLAP = 8;
+function BannerContacts({
+  people = [],
+  href = '#kontaktpersoner',
+  label = 'Kontaktpersoner & experter',
+  max = 3,
+  total,
+  style
+}) {
+  const [hot, setHot] = React.useState(false);
+  if (!people.length) return null;
+  const shown = people.slice(0, max);
+  const rest = Math.max(people.length, total || 0) - shown.length;
+  const names = people.map(p => p.name).filter(Boolean).join(', ');
+  const go = e => {
+    if (!href || href.charAt(0) !== '#' || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    const t = document.getElementById(href.slice(1));
+    if (!t) return;
+    e.preventDefault();
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const top = t.getBoundingClientRect().top + window.scrollY - (parseFloat(getComputedStyle(t).scrollMarginTop) || 0);
+    window.scrollTo({
+      top,
+      behavior: still ? 'auto' : 'smooth'
+    });
+    try {
+      history.replaceState(null, '', href);
+    } catch (err) {}
+  };
+  /* Overlap at rest, a little air on hover: the count's + must never sit
+     under the portrait before it. */
+  const ov = hot ? -2 : OVERLAP / 2;
+  const disc = i => ({
+    flex: 'none',
+    width: SIZE,
+    height: SIZE,
+    borderRadius: SIZE / 2,
+    overflow: 'hidden',
+    boxSizing: 'border-box',
+    marginLeft: i === 0 ? 0 : -ov,
+    boxShadow: '0 0 0 2px var(--surface)',
+    position: 'relative',
+    zIndex: max + 1 - i,
+    transition: 'margin-left 260ms var(--ease-expo), padding-left 260ms var(--ease-expo)'
+  });
+  return /*#__PURE__*/React.createElement("a", {
+    href: href,
+    onClick: go,
+    "data-banner-contacts": "",
+    "aria-label": label + ': ' + names + (total > people.length ? ' och ' + (total - people.length) + ' till' : ''),
+    onMouseEnter: () => setHot(true),
+    onMouseLeave: () => setHot(false),
+    onFocus: () => setHot(true),
+    onBlur: () => setHot(false),
+    className: "small",
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      gap: 'var(--space-2)',
+      color: 'var(--text-primary)',
+      textDecoration: 'none',
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      textDecoration: hot ? 'underline' : 'none',
+      textDecorationThickness: '1px',
+      textUnderlineOffset: '0.16em'
+    }
+  }, label), /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      minHeight: 44,
+      paddingLeft: 2
+    }
+  }, shown.map((p, i) => /*#__PURE__*/React.createElement("span", {
+    key: p.name || i,
+    style: {
+      ...disc(i),
+      background: 'var(--surface-tint)'
+    }
+  }, p.imageSrc ? /*#__PURE__*/React.createElement(__ds_scope.NoirPlate, null, /*#__PURE__*/React.createElement("img", {
+    src: p.imageSrc,
+    alt: "",
+    loading: "lazy",
+    style: {
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+      objectPosition: '50% 20%',
+      display: 'block'
+    }
+  })) : null)), rest > 0 ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      ...disc(shown.length),
+      width: 'auto',
+      minWidth: SIZE,
+      padding: '0 3px 0 ' + (Math.max(0, ov) + 3) + 'px',
+      display: 'grid',
+      placeItems: 'center',
+      background: 'var(--surface)',
+      border: '1px solid var(--rule-hairline)',
+      color: 'var(--text-primary)',
+      fontSize: '0.75rem',
+      lineHeight: 1,
+      fontVariantNumeric: 'tabular-nums',
+      whiteSpace: 'nowrap'
+    }
+  }, "+", rest) : null));
+}
+Object.assign(__ds_scope, { BannerContacts });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/BannerContacts.jsx", error: String((e && e.message) || e) }); }
+
 // components/navigation/Breadcrumbs.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -25132,48 +27432,30 @@ function shortenCrumb(s, max = CRUMB_MAX) {
   while (words.length > 1 && CRUMB_WEAK.has(words[words.length - 1].toLowerCase())) words.pop();
   return words.join(' ').replace(/[\s,.;:–—-]+$/, '') + '…';
 }
-function Breadcrumbs({
-  items = [],
-  label = 'Brödsmulor',
-  style,
-  ...rest
+
+/* Below that, a trail that would wrap folds its middle: the first step, an
+   ellipsis, and the last two. The ellipsis is a button that unfolds the whole
+   trail in place, so nothing is hidden that cannot be reached. The fold is
+   decided by measuring the full trail in a hidden copy at the same width, so
+   it happens only when the trail actually wraps. */
+const KEEP_END = 2;
+const sr = {
+  position: 'absolute',
+  width: 1,
+  height: 1,
+  overflow: 'hidden',
+  clip: 'rect(0 0 0 0)',
+  whiteSpace: 'nowrap'
+};
+function Crumb({
+  item,
+  last,
+  linkRef
 }) {
-  const list = items.filter(Boolean);
-  if (!list.length) return null;
-  return /*#__PURE__*/React.createElement("nav", _extends({
-    "aria-label": label,
-    className: "grid",
-    style: {
-      paddingTop: 'var(--space-4)',
-      paddingBottom: 0,
-      ...style
-    }
-  }, rest), /*#__PURE__*/React.createElement("ol", {
-    className: "small",
-    style: {
-      gridColumn: '1 / -1',
-      maxWidth: 'none',
-      listStyle: 'none',
-      margin: 0,
-      padding: 0,
-      display: 'flex',
-      flexWrap: 'wrap',
-      alignItems: 'baseline',
-      gap: 'var(--space-3)',
-      color: 'var(--text-secondary)'
-    }
-  }, list.map((item, i) => {
-    const last = i === list.length - 1;
-    const label = typeof item === 'string' ? item : item.label;
-    const href = typeof item === 'string' ? null : item.href;
-    return /*#__PURE__*/React.createElement(React.Fragment, {
-      key: i
-    }, i ? /*#__PURE__*/React.createElement("li", {
-      "aria-hidden": "true",
-      style: {
-        color: 'var(--ink-55)'
-      }
-    }, "/") : null, /*#__PURE__*/React.createElement("li", null, last || !href ? last && shortenCrumb(label) !== label ? /*#__PURE__*/React.createElement("span", {
+  const label = typeof item === 'string' ? item : item.label;
+  const href = typeof item === 'string' ? null : item.href;
+  if (last || !href) {
+    return last && shortenCrumb(label) !== label ? /*#__PURE__*/React.createElement("span", {
       "aria-current": "page",
       title: label,
       style: {
@@ -25182,37 +27464,160 @@ function Breadcrumbs({
     }, /*#__PURE__*/React.createElement("span", {
       "aria-hidden": "true"
     }, shortenCrumb(label)), /*#__PURE__*/React.createElement("span", {
-      style: {
-        position: 'absolute',
-        width: 1,
-        height: 1,
-        overflow: 'hidden',
-        clip: 'rect(0 0 0 0)',
-        whiteSpace: 'nowrap'
-      }
+      style: sr
     }, label)) : /*#__PURE__*/React.createElement("span", {
       "aria-current": last ? 'page' : undefined,
       style: {
         color: last ? 'var(--text-primary)' : 'inherit'
       }
-    }, label) : /*#__PURE__*/React.createElement("a", {
-      href: href,
-      style: {
-        color: 'inherit',
-        textDecoration: 'none',
-        textUnderlineOffset: '0.16em'
-      },
-      onMouseEnter: e => {
-        e.currentTarget.style.color = 'var(--text-primary)';
-        e.currentTarget.style.textDecoration = 'underline';
-        e.currentTarget.style.textDecorationThickness = '1px';
-      },
-      onMouseLeave: e => {
-        e.currentTarget.style.color = 'inherit';
-        e.currentTarget.style.textDecoration = 'none';
-      }
-    }, label)));
-  })));
+    }, label);
+  }
+  return /*#__PURE__*/React.createElement("a", {
+    ref: linkRef,
+    href: href,
+    style: {
+      color: 'inherit',
+      textDecoration: 'none',
+      textUnderlineOffset: '0.16em'
+    },
+    onMouseEnter: e => {
+      e.currentTarget.style.color = 'var(--text-primary)';
+      e.currentTarget.style.textDecoration = 'underline';
+      e.currentTarget.style.textDecorationThickness = '1px';
+    },
+    onMouseLeave: e => {
+      e.currentTarget.style.color = 'inherit';
+      e.currentTarget.style.textDecoration = 'none';
+    }
+  }, label);
+}
+const slash = k => /*#__PURE__*/React.createElement("li", {
+  key: 's' + k,
+  "aria-hidden": "true",
+  style: {
+    color: 'var(--ink-55)'
+  }
+}, "/");
+const olStyle = {
+  maxWidth: 'none',
+  listStyle: 'none',
+  margin: 0,
+  padding: 0,
+  display: 'flex',
+  flexWrap: 'wrap',
+  alignItems: 'baseline',
+  gap: 'var(--space-3)',
+  color: 'var(--text-secondary)'
+};
+function Breadcrumbs({
+  items = [],
+  label = 'Brödsmulor',
+  moreLabel = 'Visa hela sökvägen',
+  style,
+  ...rest
+}) {
+  const list = items.filter(Boolean);
+  const probe = React.useRef(null);
+  const reveal = React.useRef(null);
+  const [wraps, setWraps] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
+  const canFold = list.length > KEEP_END + 1;
+  React.useLayoutEffect(() => {
+    const el = probe.current;
+    if (!el || !canFold) {
+      setWraps(false);
+      return undefined;
+    }
+    const read = () => {
+      const first = el.firstElementChild;
+      setWraps(!!first && el.offsetHeight > first.offsetHeight * 1.5);
+    };
+    read();
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(read) : null;
+    if (ro) ro.observe(el);
+    return () => {
+      if (ro) ro.disconnect();
+    };
+  }, [canFold, list.map(x => typeof x === 'string' ? x : x.label).join('|')]);
+  React.useEffect(() => {
+    if (open && reveal.current) reveal.current.focus({
+      preventScroll: true
+    });
+  }, [open]);
+  if (!list.length) return null;
+  const fold = canFold && wraps && !open;
+  const all = refFirst => list.map((item, i) => /*#__PURE__*/React.createElement(React.Fragment, {
+    key: i
+  }, i ? slash(i) : null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement(Crumb, {
+    item: item,
+    last: i === list.length - 1,
+    linkRef: refFirst && i === 1 ? reveal : undefined
+  }))));
+  const tail = list.slice(-KEEP_END);
+  return /*#__PURE__*/React.createElement("nav", _extends({
+    "aria-label": label,
+    className: "grid",
+    style: {
+      paddingTop: 'var(--space-4)',
+      paddingBottom: 0,
+      ...style
+    }
+  }, rest), /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: '1 / -1',
+      position: 'relative',
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement("ol", {
+    className: "small",
+    style: olStyle
+  }, fold ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement(Crumb, {
+    item: list[0],
+    last: false
+  })), slash('a'), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => setOpen(true),
+    "aria-label": moreLabel,
+    "aria-expanded": "false",
+    style: {
+      all: 'unset',
+      boxSizing: 'border-box',
+      cursor: 'pointer',
+      display: 'inline-flex',
+      alignItems: 'center',
+      minHeight: 44,
+      minWidth: 44,
+      justifyContent: 'center',
+      marginBlock: -12,
+      marginInline: -12,
+      color: 'inherit'
+    },
+    onMouseEnter: e => {
+      e.currentTarget.style.color = 'var(--text-primary)';
+    },
+    onMouseLeave: e => {
+      e.currentTarget.style.color = 'inherit';
+    }
+  }, "\u2026")), tail.map((item, j) => /*#__PURE__*/React.createElement(React.Fragment, {
+    key: 't' + j
+  }, slash('t' + j), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement(Crumb, {
+    item: item,
+    last: j === tail.length - 1
+  }))))) : all(open)), canFold ? /*#__PURE__*/React.createElement("ol", {
+    ref: probe,
+    className: "small",
+    "aria-hidden": "true",
+    inert: "",
+    style: {
+      ...olStyle,
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      visibility: 'hidden',
+      pointerEvents: 'none'
+    }
+  }, all(false)) : null));
 }
 Object.assign(__ds_scope, { shortenCrumb, Breadcrumbs });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/Breadcrumbs.jsx", error: String((e && e.message) || e) }); }
@@ -25287,7 +27692,7 @@ const inert = href => !href || href === '#';
    itself, with this copy, on every page. Children are still accepted — the
    start page hands in the same PromptHero instance its hero uses. */
 const FINDER = {
-  headline: 'Vad står du inför?',
+  headline: 'Vad vill du ha hjälp med?',
   suggestions: ['Vi planerar ett förvärv i Sverige', 'Nya hållbarhetskrav påverkar vår rapportering', 'Vi har fått besked från en myndighet'],
   aside: 'Beskriv din situation med egna ord. Du får relevanta perspektiv, erfarenheter och personer utifrån det du behöver.',
   /* Resolved against the wordmark's directory, like the marks below. */
@@ -25336,13 +27741,17 @@ function ClosingFooter({
      still hands down children — an empty array, or the whitespace between the
      tags. Neither is a finder, so look for something real. */
   const given = React.Children.toArray(children).filter(c => typeof c !== 'string' || c.trim() !== '');
+  const [sm, setSm] = React.useState(false);
   const finder = given.length > 0 ? given : /*#__PURE__*/React.createElement(__ds_scope.PromptHero, {
     inverted: true,
     headline: FINDER.headline,
     suggestions: FINDER.suggestions,
     aside: FINDER.aside,
     dotSrc: finderDotSrc || assetBase + FINDER.dot,
-    onSubmit: onFinderSubmit
+    onSubmit: onFinderSubmit,
+    style: sm ? undefined : {
+      paddingBlock: 0
+    }
   });
 
   /* The footer arrives with the finder at full scale — the same ending the
@@ -25362,7 +27771,6 @@ function ClosingFooter({
   /* SM has no room for a gesture the page swallows at its very end, and a
      pinned hand-over read as the page ending. There the field and the offices
      are one ordinary scroll (see the SM effect below). */
-  const [sm, setSm] = React.useState(false);
   const handoverRef = React.useRef(null);
   React.useEffect(() => {
     const mq = window.matchMedia('(max-width: 767px)');
@@ -25510,10 +27918,13 @@ function ClosingFooter({
       background: 'var(--ink)',
       '--rule-footer': 'var(--clay-20)',
       '--rule-hairline': 'var(--clay-20)',
-      paddingBottom: sm ? 'var(--space-5)' : 'clamp(var(--space-3), 5vh, var(--space-5))',
-      /* LG: the ending is exactly one screen. The gaps between its rows are
-         set in vh, so a short screen closes them up and a tall one opens them,
-         and any height left over collects under the lists. */
+      paddingBottom: sm ? 'var(--space-5)' : 'clamp(var(--space-2), 5vh, var(--space-5))',
+      /* LG: the ending is exactly one screen. Every row is laid out at its
+         content size with the gaps between them at their minimum; the height
+         the screen has left over is then shared out to the gaps, each up to
+         its cap, so a short screen closes them up, a tall one opens them, and
+         nothing is pushed above or below the fold. The top clears the fixed
+         header. */
       ...(sm ? null : {
         minHeight: '100svh',
         display: 'flex',
@@ -25524,30 +27935,61 @@ function ClosingFooter({
   }, /*#__PURE__*/React.createElement("div", {
     ref: handoverRef,
     style: sm ? undefined : {
-      flex: '1 0 auto'
+      flex: '1 0 auto',
+      display: 'flex',
+      flexDirection: 'column'
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: sm ? {
       display: 'block'
     } : {
       display: 'grid',
-      alignItems: 'start'
+      gridTemplateRows: '1fr',
+      flex: '1 0 auto'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    style: sm ? undefined : layer(false, outP),
+    style: sm ? undefined : {
+      ...layer(false, outP),
+      display: 'flex',
+      flexDirection: 'column',
+      paddingTop: 'calc(44px + var(--space-3) * 2)'
+    },
     "aria-hidden": !sm && outP > 0.8 ? 'true' : undefined
-  }, finder), /*#__PURE__*/React.createElement("div", {
+  }, sm ? null : /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: '1 1 0'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      width: '100%'
+    }
+  }, finder), sm ? null : /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: '1 1 0'
+    }
+  })), /*#__PURE__*/React.createElement("div", {
     style: sm ? {
       paddingBlock: 'var(--space-5)'
     } : {
       gridArea: '1 / 1',
       pointerEvents: inP > 0.2 ? 'auto' : 'none',
-      paddingBlock: 'clamp(var(--space-6), 14vh, var(--space-8)) clamp(var(--space-4), 6vh, var(--space-6))'
+      display: 'flex',
+      flexDirection: 'column',
+      paddingTop: 'calc(44px + var(--space-3) * 2)'
     },
     "aria-hidden": sm || inP > 0.2 ? undefined : 'true'
-  }, /*#__PURE__*/React.createElement("div", {
+  }, sm ? null : /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: '1 1 0',
+      maxHeight: 'var(--space-5)'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
     className: "grid",
-    "data-footer-offices": true
+    "data-footer-offices": true,
+    style: {
+      width: '100%',
+      boxSizing: 'border-box'
+    }
   }, /*#__PURE__*/React.createElement("ul", {
     className: "place-half-left",
     style: {
@@ -25635,13 +28077,17 @@ function ClosingFooter({
         textUnderlineOffset: '0.18em'
       }
     }, item.label));
-  })) : null)))), /*#__PURE__*/React.createElement("div", {
+  })) : null), sm ? null : /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: '1 1 0'
+    }
+  })))), /*#__PURE__*/React.createElement("div", {
     className: "grid",
     "data-footer-contact": true,
     style: {
       width: '100%',
       boxSizing: 'border-box',
-      paddingTop: sm ? 'var(--space-4)' : 'clamp(var(--space-2), 3vh, var(--space-4))'
+      paddingTop: sm ? 'var(--space-4)' : 'var(--space-2)'
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "place-half-left",
@@ -25705,13 +28151,18 @@ function ClosingFooter({
       opacity: 0.82,
       transition: 'opacity var(--dur-micro) var(--ease-quart)'
     }
-  })))) : null), /*#__PURE__*/React.createElement("div", {
+  })))) : null), sm ? null : /*#__PURE__*/React.createElement("div", {
+    style: {
+      flex: '1 0 var(--space-2)',
+      maxHeight: 'var(--space-6)'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
     className: "grid",
     "data-footer-end": true,
     style: {
       width: '100%',
       boxSizing: 'border-box',
-      paddingTop: sm ? 'var(--space-6)' : 'clamp(var(--space-4), 8vh, var(--space-6))',
+      paddingTop: sm ? 'var(--space-6)' : 0,
       gridTemplateRows: 'auto auto auto',
       rowGap: 'var(--space-2)'
     }
@@ -25730,7 +28181,7 @@ function ClosingFooter({
     "data-footer-sign": true,
     style: {
       gridRow: '2 / 4',
-      paddingTop: 'var(--space-3)',
+      paddingTop: sm ? 'var(--space-3)' : 'var(--space-2)',
       display: 'grid',
       gridTemplateRows: 'subgrid',
       gap: 'var(--space-2)',
@@ -25755,7 +28206,7 @@ function ClosingFooter({
     "data-footer-legal": true,
     style: {
       gridRow: '2 / 4',
-      paddingTop: 'var(--space-3)',
+      paddingTop: sm ? 'var(--space-3)' : 'var(--space-2)',
       display: 'grid',
       gridTemplateRows: 'subgrid',
       gap: 'var(--space-2)'
@@ -26579,7 +29030,9 @@ function Row({
   children,
   controls,
   expanded,
-  toggleLabel
+  toggleLabel,
+  disabled,
+  live
 }) {
   const pad = '0.15rem';
   /* Hovering a group's own link turns its + into an arrow: the row is about
@@ -26597,7 +29050,7 @@ function Row({
       transition: 'opacity 260ms var(--ease-expo)'
     }
   }, '\u2013'), children);
-  const textStyle = {
+  let textStyle = {
     display: 'block',
     flex: '1 1 auto',
     minWidth: 0,
@@ -26610,7 +29063,7 @@ function Row({
     textUnderlineOffset: '0.16em'
   };
   const leave = e => {
-    e.currentTarget.style.color = on ? 'var(--text-primary)' : 'inherit';
+    e.currentTarget.style.color = on || live ? 'var(--text-primary)' : 'inherit';
     e.currentTarget.style.textDecoration = 'none';
   };
   const enterLink = e => {
@@ -26636,6 +29089,32 @@ function Row({
   const arrowRef = React.useRef(false);
   const arrow = hot && !!href;
   arrowRef.current = arrow;
+  /* Disabled: a page that does not exist yet. The design system's disabled
+     state, as on a TextField: secondary text, a dashed hairline, no pointer,
+     no hover, no link. */
+  if (disabled) {
+    return /*#__PURE__*/React.createElement("div", {
+      "data-sn-row": "",
+      style: {
+        display: 'flex',
+        alignItems: 'flex-start',
+        gap: 'var(--space-2)'
+      }
+    }, /*#__PURE__*/React.createElement("span", {
+      "aria-disabled": "true",
+      style: {
+        ...textStyle,
+        color: 'var(--text-secondary)',
+        cursor: 'not-allowed',
+        textDecorationLine: 'underline',
+        textDecorationStyle: 'dashed',
+        textDecorationColor: 'var(--rule-hairline)',
+        textDecorationThickness: '1px',
+        textUnderlineOffset: '0.22em'
+      }
+    }, text));
+  }
+  if (live && !on) textStyle.color = 'var(--text-primary)';
   return /*#__PURE__*/React.createElement("div", {
     "data-sn-row": "",
     style: {
@@ -26713,6 +29192,7 @@ function SectionNav({
   groups: rawGroups = [],
   current,
   openCurrent = true,
+  openAll = false,
   style
 }) {
   const groups = tidy(rawGroups);
@@ -26735,25 +29215,37 @@ function SectionNav({
   const inGroup = g => !!(g.href && mark(g.href) || (g.items || []).some(i => mark(i.href)));
   const here = groups.findIndex(inGroup);
   /* The reader's group arrives unfolded, with the page marked inside it. */
-  const [open, setOpen] = React.useState(() => openCurrent && here >= 0 ? {
-    [here]: true
-  } : {});
-  React.useEffect(() => {
-    setOpen(openCurrent && here >= 0 ? {
+  /* openAll: every group arrives unfolded from MD up (an expertise page's
+     children); below MD only the reader's group, the rest one row each. */
+  const initial = () => {
+    const md = typeof window !== 'undefined' && window.matchMedia('(min-width: 768px)').matches;
+    if (openAll && md) {
+      const all = {};
+      groups.forEach((g, i) => {
+        all[i] = true;
+      });
+      return all;
+    }
+    return openCurrent && here >= 0 ? {
       [here]: true
-    } : {});
-  }, [cur, openCurrent]);
+    } : {};
+  };
+  const [open, setOpen] = React.useState(initial);
+  React.useEffect(() => {
+    setOpen(initial());
+  }, [cur, openCurrent, openAll]);
+  const hasDisabled = groups.some(g => (g.items || []).some(i => i.disabled || !i.href));
   const id = 'sn-' + slug(label || 'nav');
   const top = href ? mark(href) : undefined;
   return /*#__PURE__*/React.createElement("nav", {
-    "aria-label": 'Sidor i ' + label,
+    "aria-label": label ? 'Sidor i ' + label : undefined,
     className: "small",
     "data-section-nav": "",
     style: {
       color: 'var(--text-secondary)',
       ...style
     }
-  }, /*#__PURE__*/React.createElement("p", {
+  }, label ? /*#__PURE__*/React.createElement("p", {
     style: {
       margin: '0 0 var(--space-2)',
       color: 'var(--text-primary)'
@@ -26767,7 +29259,7 @@ function SectionNav({
     }
   }, label) : /*#__PURE__*/React.createElement("span", {
     "aria-current": top
-  }, label)), /*#__PURE__*/React.createElement("ul", {
+  }, label)) : null, /*#__PURE__*/React.createElement("ul", {
     style: {
       listStyle: 'none',
       margin: 0,
@@ -26815,11 +29307,13 @@ function SectionNav({
     }, g.items.map(it => {
       const m = mark(it.href);
       return /*#__PURE__*/React.createElement("li", {
-        key: it.href
+        key: it.href || it.label
       }, /*#__PURE__*/React.createElement(Row, {
         on: !!m,
-        href: it.href,
-        current: m
+        href: it.disabled ? undefined : it.href,
+        current: m,
+        disabled: !!it.disabled || !it.href,
+        live: hasDisabled
       }, it.label));
     })))) : null);
   })));
@@ -26854,20 +29348,153 @@ function _extends() { return _extends = Object.assign ? Object.assign.bind() : f
 
 /* `section` is the same index as plain data ({ label, href, groups, current }),
    for templates: a page passes data across, never a rendered element. */
-function PageBanner({
+/* `contacts` ({ people, href, label }) previews the page's contact people
+   under the index (BannerContacts), a link down to the contact block. */
+/* `search` is the search results page's banner: the trail, the title set
+   small as the field's name, and the query itself at display-2 in the
+   system's FilterSearch, where every other banner has its display-1 title.
+   Tighter above and below, so the first results are on the first screen. The
+   title keeps the h1; the field is labelled by it. */
+function SearchBanner({
+  title,
+  meta,
+  trail,
+  search,
+  style,
+  rest
+}) {
+  const id = 'pb-search-' + React.useId().replace(/:/g, '');
+  return /*#__PURE__*/React.createElement("header", _extends({
+    "data-banner-search": "",
+    style: {
+      position: 'relative',
+      paddingBottom: 'var(--space-3)',
+      ...style
+    }
+  }, rest), trail && trail.length ? /*#__PURE__*/React.createElement(__ds_scope.Breadcrumbs, {
+    items: trail
+  }) : null, /*#__PURE__*/React.createElement("div", {
+    className: "grid",
+    style: {
+      paddingTop: 'var(--space-4)',
+      alignItems: 'end',
+      rowGap: 'var(--space-3)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    "data-banner-search-field": ""
+  }, /*#__PURE__*/React.createElement("h1", {
+    id: id,
+    className: "small",
+    style: {
+      margin: '0 0 var(--space-2)',
+      maxWidth: 'none',
+      color: 'var(--text-secondary)'
+    }
+  }, title), /*#__PURE__*/React.createElement(__ds_scope.FilterSearch, {
+    size: "display",
+    value: search.value || '',
+    onChange: search.onChange,
+    onKeyDown: search.onKeyDown,
+    inputRef: search.inputRef,
+    placeholder: search.placeholder || '',
+    clearLabel: search.clearLabel,
+    inputProps: {
+      'aria-labelledby': id,
+      ...search.inputProps
+    }
+  })), meta ? /*#__PURE__*/React.createElement("p", {
+    className: "small place-note",
+    style: {
+      margin: 0,
+      paddingBottom: 'var(--space-2)',
+      color: 'var(--text-secondary)'
+    }
+  }, meta) : null));
+}
+function PageBanner(props) {
+  if (props.search) {
+    const {
+      title,
+      meta,
+      trail,
+      search,
+      style,
+      intro,
+      nav,
+      section,
+      contacts,
+      ...rest
+    } = props;
+    return /*#__PURE__*/React.createElement(SearchBanner, {
+      title: title,
+      meta: meta,
+      trail: trail,
+      search: search,
+      style: style,
+      rest: rest
+    });
+  }
+  return /*#__PURE__*/React.createElement(TitleBanner, props);
+}
+function TitleBanner({
   title,
   intro,
   meta,
   trail,
   nav: navNode,
   section,
+  contacts,
   style,
   ...rest
 }) {
-  const nav = navNode || (section && section.groups ? /*#__PURE__*/React.createElement(__ds_scope.SectionNav, section) : null);
+  const index = navNode || (section && section.groups ? /*#__PURE__*/React.createElement(__ds_scope.SectionNav, section) : null);
+  const people = contacts && contacts.people && contacts.people.length ? /*#__PURE__*/React.createElement(__ds_scope.BannerContacts, _extends({}, contacts, {
+    style: index ? {
+      marginTop: 'var(--space-5)'
+    } : null
+  })) : null;
+  const nav = index || people ? /*#__PURE__*/React.createElement(React.Fragment, null, index, people) : null;
   const headRef = React.useRef(null);
   const titleRef = React.useRef(null);
   const [run, setRun] = React.useState(null);
+  /* A title is never cut. When its longest word is wider than the title's
+     columns (Verksamhetsområden at SM and MD), the size steps down until that
+     word fits on one line. Words are not hyphenated: a page name is read whole. */
+  const h1Ref = React.useRef(null);
+  const [fit, setFit] = React.useState(null);
+  React.useLayoutEffect(() => {
+    const h = h1Ref.current;
+    if (!h || typeof title !== 'string') return undefined;
+    let frame = 0;
+    const measure = () => {
+      frame = 0;
+      h.style.fontSize = '';
+      const cs = getComputedStyle(h);
+      const probe = document.createElement('span');
+      probe.style.cssText = 'position:absolute;visibility:hidden;white-space:nowrap;font:' + cs.font + ';letter-spacing:' + cs.letterSpacing;
+      document.body.appendChild(probe);
+      const widest = Math.max(0, ...title.split(/\s+/).map(w => {
+        probe.textContent = w;
+        return probe.getBoundingClientRect().width;
+      }));
+      probe.remove();
+      const avail = h.clientWidth,
+        size = parseFloat(cs.fontSize);
+      const next = widest > avail && avail > 0 ? Math.floor(size * avail / widest * 0.98) + 'px' : null;
+      if (next) h.style.fontSize = next;
+      setFit(p => p === next ? p : next);
+    };
+    const on = () => {
+      if (!frame) frame = requestAnimationFrame(measure);
+    };
+    measure();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(on);
+    addEventListener('resize', on);
+    return () => {
+      removeEventListener('resize', on);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  }, [title]);
   React.useLayoutEffect(() => {
     if (!nav) return;
     const head = headRef.current,
@@ -26915,10 +29542,14 @@ function PageBanner({
   }, /*#__PURE__*/React.createElement("div", {
     className: "place-hero"
   }, /*#__PURE__*/React.createElement("h1", {
+    ref: h1Ref,
     className: "display-1",
     style: {
       margin: 0,
-      maxWidth: 'none'
+      maxWidth: 'none',
+      ...(fit ? {
+        fontSize: fit
+      } : null)
     }
   }, /*#__PURE__*/React.createElement(__ds_scope.RiseIn, null, title))), intro ? /*#__PURE__*/React.createElement("p", {
     className: "lead-display place-hero",
@@ -27009,28 +29640,44 @@ function SiteHeader({
      closing surface has come up under the header line the wordmark leaves and
      only the triggers stay. Watched rather than measured, so a footer of any
      height behaves the same. */
+  /* Only once the footer has reached the header line: on a short page (a
+     search with no query yet) the footer is on the first screen, and merely
+     being in view must not take the wordmark away. */
   const [atFooter, setAtFooter] = React.useState(false);
   React.useEffect(() => {
-    if (!hideLogoOn || typeof IntersectionObserver === 'undefined') return;
-    const io = new IntersectionObserver(([entry]) => setAtFooter(entry.isIntersecting), {
-      rootMargin: '-' + (Math.max(logoHeight, 44) + 24) + 'px 0px 0px 0px'
-    });
+    if (!hideLogoOn) return undefined;
+    const line = Math.max(logoHeight, 44) + 24;
+    let el = null;
+    let frame = 0;
+    const read = () => {
+      frame = 0;
+      if (el) setAtFooter(el.getBoundingClientRect().top <= line);
+    };
+    const on = () => {
+      if (!frame) frame = window.requestAnimationFrame(read);
+    };
     /* The footer usually mounts after the header, so the element is looked
        for again until it exists rather than once at mount. */
     let tries = 0;
     let id = 0;
     const find = () => {
-      const el = document.querySelector(hideLogoOn);
+      el = document.querySelector(hideLogoOn);
       if (el) {
-        io.observe(el);
+        read();
         return;
       }
       if (tries++ < 40) id = window.setTimeout(find, 250);
     };
     find();
+    window.addEventListener('scroll', on, {
+      passive: true
+    });
+    window.addEventListener('resize', on);
     return () => {
       window.clearTimeout(id);
-      io.disconnect();
+      if (frame) window.cancelAnimationFrame(frame);
+      window.removeEventListener('scroll', on);
+      window.removeEventListener('resize', on);
     };
   }, [hideLogoOn, logoHeight]);
 
@@ -27406,78 +30053,6 @@ function SiteHeader({
 Object.assign(__ds_scope, { SiteHeader });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/SiteHeader.jsx", error: String((e && e.message) || e) }); }
 
-// components/navigation/SiteNav.jsx
-try { (() => {
-/* The site's navigation, defined once. Every template mounts TakeoverMenu
-   with the same three lists, so they live here rather than being retyped per
-   page — a page that declares its own nav drifts, and the menu then renders a
-   level or a shelf the rest of the site does not have.
-
-   Called, not imported as data: the highlight images are page-relative, and
-   `base` is the path from the page to the project root ('../..' for anything
-   in templates/<slug>/). Pass `{ activeHref }` if the page wants its own item
-   marked current.
-
-   Usage in a template's logic class:
-     const nav = window.VingeDesignSystem_8582c7.SiteNav();
-     return { navItems: nav.items, navUtility: nav.utility, navHighlights: nav.highlights };
-*/
-
-const EXPERTISE = [['Affärsjuridik', 'affarsjuridik'], ['Arbetsrätt', 'arbetsratt'], ['Bank & finans', 'bank-och-finans'], ['Bolagsstyrning', 'bolagsstyrning'], ['Corporate M&A', 'corporate-ma'], ['Dataskydd', 'dataskydd'], ['Energi & infrastruktur', 'energi-och-infrastruktur'], ['EU & konkurrens', 'eu-och-konkurrens'], ['Fastighetsrätt', 'fastighetsratt'], ['Finansiell reglering', 'finansiell-reglering'], ['Förhandlingar', 'forhandlingar'], ['Hälso- & sjukvårdsrätt', 'halso-och-sjukvardsratt'], ['Immaterialrätt', 'immaterialratt'], ['Internationell skiljedom', 'internationell-skiljedom'], ['IT-rätt', 'it-ratt'], ['Kapitalmarknad', 'kapitalmarknad'], ['Miljörätt', 'miljoratt'], ['Offentlig upphandling', 'offentlig-upphandling'], ['Omstrukturering & insolvens', 'omstrukturering-och-insolvens'], ['Private equity', 'private-equity'], ['Processer & tvister', 'processer-och-tvister']];
-const HIGHLIGHTS = [['images/present-04.png', 'Nya hållbarhetsregler', '/insikter/hallbarhetsrapportering', 'Möte runt ett bord i ett grönt rum'], ['images/office-06.png', 'Börsnotering på Nasdaq Stockholm', '/uppdrag/notering', 'Kontorsvy mot staden'], ['images/inviting-03.png', 'Vi söker biträdande jurister', '/karriar/bitradande-jurist', 'Entré med sittgrupp'], ['images/anonymous-05.png', 'Konkurrensrätten i år', '/insikter/konkurrensratt', 'Möte vid ett bord, sett genom en glasvägg']];
-function SiteNav({
-  base = '../..',
-  activeHref
-} = {}) {
-  return {
-    activeHref,
-    items: [{
-      label: 'Hitta rätt medarbetare',
-      href: '/personer'
-    }, {
-      label: 'Behöver rådgivning',
-      href: '/kontakt',
-      chat: true
-    }, {
-      label: 'Se våra uppdrag',
-      href: '/uppdrag'
-    },
-    /* No href: nothing behind it yet, and a placeholder link that jumps
-       the reader to the top of the page is worse than an unlinked line. The
-       menu renders and focuses it the same either way. */
-    {
-      label: 'Håll dig uppdaterad',
-      secondary: true
-    }, /* The Karriär section page (content-page template, ?p=/karriar). */
-    {
-      label: 'Sök drömjobbet',
-      href: '/karriar',
-      secondary: true
-    }, {
-      label: 'Se all vår expertis',
-      href: '/verksamhetsomraden',
-      secondary: true,
-      children: EXPERTISE.map(([label, slug]) => ({
-        label,
-        href: '/verksamhetsomraden/' + slug
-      }))
-    }],
-    utility: [{
-      label: 'Sök'
-    }, {
-      label: 'English'
-    }],
-    highlights: HIGHLIGHTS.map(([src, label, href, alt]) => ({
-      imageSrc: base + '/assets/' + src,
-      label,
-      href,
-      alt
-    }))
-  };
-}
-Object.assign(__ds_scope, { SiteNav });
-})(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/SiteNav.jsx", error: String((e && e.message) || e) }); }
-
 // components/navigation/TakeoverMenu.jsx
 try { (() => {
 /* The takeover. The whole viewport goes to ink and carries the primary items
@@ -27641,6 +30216,55 @@ function TakeoverMenu({
   });
   /* Optical top-alignment offset for the second column (see below). */
   const [subPad, setSubPad] = React.useState(0);
+  /* Site search. The utility item that carries `search` (SiteNav's `Sök`) is
+     drawn as a field, and its type-ahead takes the columns beside the list —
+     the second level's and the shelf's — the way a fold does: the list fades
+     back and stays clickable, the shelf steps out, the suggestions come in
+     from the right. One surface, no dropdown. */
+  const searchItem = utility.find(u => u && u.search) || null;
+  const search = searchItem ? searchItem.search : null;
+  const [q, setQ] = React.useState('');
+  const [groups, setGroups] = React.useState([]);
+  /* The settled query when it found nothing: the suggestions column then
+     carries the count line alone, as the results page does. */
+  const [noHits, setNoHits] = React.useState('');
+  const [active, setActive] = React.useState(-1);
+  const [sugShown, setSugShown] = React.useState(false);
+  /* At rest the search is the `Sök` button it always was; it opens into the
+     field on click (or on a typed letter) and folds back once empty and left. */
+  const [fieldOpen, setFieldOpen] = React.useState(false);
+  const btnRef = React.useRef(null);
+  const fieldWrapRef = React.useRef(null);
+  const fromWidthRef = React.useRef(0);
+  const [sugEdges, setSugEdges] = React.useState({
+    top: false,
+    bottom: false
+  });
+  const qRef = React.useRef('');
+  const qTimer = React.useRef(0);
+  const dataRef = React.useRef(null);
+  const fieldRef = React.useRef(null);
+  const sugRef = React.useRef(null);
+  const shelfRef = React.useRef(null);
+  const lastSugRef = React.useRef({
+    groups: [],
+    noHits: ''
+  });
+  const sugAnimsRef = React.useRef([]);
+  const sugKeyRef = React.useRef('');
+  const uid = React.useId().replace(/:/g, '');
+  const sugId = 'tm' + uid + '-sug';
+  const optId = i => 'tm' + uid + '-opt' + i;
+  const searching = !!(open && (groups.length || noHits));
+  if (searching) lastSugRef.current = {
+    groups,
+    noHits
+  };
+  const shownGroups = searching ? groups : sugShown ? lastSugRef.current.groups : [];
+  const shownEmpty = searching ? noHits : sugShown ? lastSugRef.current.noHits : '';
+  const countSuffix = dataRef.current && dataRef.current.page && dataRef.current.page.count_suffix || 'träffar';
+  const flat = [];
+  shownGroups.forEach(g => g.rows.forEach(r => flat.push(r)));
   const animsRef = React.useRef([]);
   const foldAnimsRef = React.useRef([]);
   const firstRef = React.useRef(true);
@@ -28160,11 +30784,305 @@ function TakeoverMenu({
   React.useLayoutEffect(() => {
     readSubEdges();
   }, [readSubEdges, expanded, listBox, items, open]);
+
+  /* The search: a pause after typing (the live 500ms, read from the data once
+     it is in), then the groups. A late answer to a query that has since
+     changed is dropped. */
+  const onQuery = v => {
+    qRef.current = v;
+    setQ(v);
+    setActive(-1);
+    window.clearTimeout(qTimer.current);
+    if (!search || !v.trim()) {
+      setGroups([]);
+      setNoHits('');
+      return;
+    }
+    if (expanded > -1) setExpanded(-1);
+    const delay = dataRef.current ? search.typeahead(dataRef.current).delay : 500;
+    qTimer.current = window.setTimeout(() => {
+      search.load().then(data => {
+        dataRef.current = data;
+        if (qRef.current !== v) return;
+        const next = search.suggest(data, search.find(data, v));
+        setGroups(next);
+        setNoHits(next.length ? '' : v.trim());
+      }).catch(() => {
+        setGroups([]);
+        setNoHits('');
+      });
+    }, delay);
+  };
+  const go = (href, e) => {
+    if (onNavigate) {
+      onNavigate({
+        label: '',
+        href
+      }, e);
+      return;
+    }
+    window.dispatchEvent(new CustomEvent('vinge:navigate', {
+      detail: {
+        href
+      }
+    }));
+  };
+  /* Arrows move through the suggestions; Enter opens the highlighted one, or
+     with none highlighted goes to the results page. An empty field does not
+     submit. Escape is the field's own: it clears first, and only an empty
+     field lets it through to the menu. */
+  const onFieldKey = e => {
+    if (e.nativeEvent && e.nativeEvent.isComposing) return;
+    /* Escape on an empty field folds it back to the button first; the next
+       one closes the menu. One level at a time. */
+    if (e.key === 'Escape' && !q) {
+      e.preventDefault();
+      e.stopPropagation();
+      closeField(true);
+      return;
+    }
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      if (!flat.length) return;
+      e.preventDefault();
+      setActive(a => e.key === 'ArrowDown' ? Math.min(flat.length - 1, a + 1) : Math.max(-1, a - 1));
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (active > -1 && flat[active]) go(flat[active].href, e);else if (q.trim()) go(search.href + '?' + search.param + '=' + encodeURIComponent(q.trim()), e);
+    }
+  };
+  const openField = () => {
+    if (fieldOpen) return;
+    fromWidthRef.current = btnRef.current ? btnRef.current.getBoundingClientRect().width : 0;
+    setFieldOpen(true);
+  };
+  const closeField = refocus => {
+    setFieldOpen(false);
+    if (refocus) window.requestAnimationFrame(() => {
+      if (btnRef.current) btnRef.current.focus({
+        preventScroll: true
+      });
+    });
+  };
+  const onFieldBlur = () => {
+    if (!qRef.current.trim()) closeField(false);
+  };
+  const onFieldFocus = () => {
+    openField();
+    if (expanded > -1) setExpanded(-1);
+    /* SM: the field and its answers head the menu's one scroll, so a menu
+       scrolled down to the shelf comes back up to them. */
+    const box = boxRef.current;
+    if (!sm || !box || box.scrollTop <= 0) return;
+    if (glideRef.current) glideRef.current();
+    glideRef.current = glide(box, 0, 620, EASE_EXPO);
+  };
+  /* A letter typed anywhere in the open menu goes into the field, so the
+     search needs no tabbing to reach and no focus on open (which would light
+     a line, or raise a phone's keyboard). */
+  const onBoxKey = e => {
+    if (!search || !fieldRef.current || !open) return;
+    const t = e.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+    if (!e.key || e.key.length !== 1 || e.key === ' ' || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (expanded > -1) setExpanded(-1);
+    fieldRef.current.focus({
+      preventScroll: true
+    });
+  };
+
+  /* Fetched as the menu opens, so the first pause after typing is the only
+     wait. */
+  React.useEffect(() => {
+    if (!open || !search) return;
+    search.load().then(d => {
+      dataRef.current = d;
+    }).catch(() => {});
+  }, [open, search]);
+
+  /* A fold and the suggestions use the same column: opening one closes the other. */
+  React.useEffect(() => {
+    if (expanded > -1 && qRef.current) {
+      qRef.current = '';
+      window.clearTimeout(qTimer.current);
+      setQ('');
+      setGroups([]);
+      setNoHits('');
+      setActive(-1);
+    }
+  }, [expanded]);
+  React.useEffect(() => {
+    if (searching) setSugShown(true);
+  }, [searching]);
+
+  /* The button opens into the field: its width runs from the button's to the
+     field's on the menu's curve, and the line and text fade up inside it. */
+  React.useEffect(() => {
+    const wrap = fieldWrapRef.current;
+    if (!fieldOpen || !wrap || typeof wrap.animate !== 'function') return;
+    if (fieldRef.current && document.activeElement !== fieldRef.current) fieldRef.current.focus({
+      preventScroll: true
+    });
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) return;
+    const to = wrap.getBoundingClientRect().width;
+    const from = Math.min(to, fromWidthRef.current || 0);
+    /* Clipped only while it runs, so the field draws inside the growing box
+       but its focus ring is whole once it has arrived. */
+    wrap.style.overflow = 'hidden';
+    const grow = wrap.animate([{
+      width: from + 'px'
+    }, {
+      width: to + 'px'
+    }], {
+      duration: 520,
+      easing: EXPO
+    });
+    grow.onfinish = grow.oncancel = () => {
+      wrap.style.overflow = '';
+    };
+    const inner = wrap.querySelector('[data-filter-search]');
+    if (inner) inner.animate([{
+      opacity: 0
+    }, {
+      opacity: 1
+    }], {
+      duration: 360,
+      delay: 80,
+      easing: 'linear',
+      fill: 'backwards'
+    });
+  }, [fieldOpen]);
+
+  /* The list fades back as it does for a fold, the shelf steps out, and the
+     suggestions arrive from the right (SM: from below, in the scroll). Same
+     curves and durations as the second level. */
+  React.useEffect(() => {
+    const key = searching + '|' + sm;
+    if (sugKeyRef.current === key) return;
+    const first = sugKeyRef.current === '';
+    sugKeyRef.current = key;
+    if (first && !searching) return;
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const previous = sugAnimsRef.current;
+    sugAnimsRef.current = [];
+    const play = (el, frames, opts) => {
+      if (!el || typeof el.animate !== 'function') return null;
+      const a = el.animate(frames, reduce ? {
+        duration: 1,
+        fill: 'both'
+      } : {
+        fill: 'both',
+        ...opts
+      });
+      sugAnimsRef.current.push(a);
+      return a;
+    };
+    const on = searching;
+    const fade = [{
+      opacity: 1
+    }, {
+      opacity: 0.28
+    }];
+    play(listRef.current, on ? fade : fade.slice().reverse(), {
+      duration: on ? 420 : 380,
+      easing: on ? EXPO : QUART
+    });
+    /* One movement, not a cut: the shelf steps out to the left as the
+       results come in from the right, overlapping, and clearing the field
+       plays it back — the results leave to the right and the shelf returns
+       into the space they leave. */
+    const shelfOut = sm ? [{
+      opacity: 1,
+      transform: 'translateY(0)'
+    }, {
+      opacity: 0,
+      transform: 'translateY(16px)'
+    }] : [{
+      opacity: 1,
+      transform: 'translateX(0)'
+    }, {
+      opacity: 0,
+      transform: 'translateX(-40px)'
+    }];
+    play(shelfRef.current, on ? shelfOut : shelfOut.slice().reverse(), on ? {
+      duration: 420,
+      easing: QUART
+    } : {
+      duration: 620,
+      delay: 160,
+      easing: EXPO
+    });
+    const enter = sm ? [{
+      opacity: 0,
+      transform: 'translateY(16px)'
+    }, {
+      opacity: 1,
+      transform: 'translateY(0)'
+    }] : [{
+      opacity: 0,
+      transform: 'translateX(40px)'
+    }, {
+      opacity: 1,
+      transform: 'translateX(0)'
+    }];
+    const a = play(sugRef.current, on ? enter : enter.slice().reverse(), on ? {
+      duration: 620,
+      delay: 140,
+      easing: EXPO
+    } : {
+      duration: 360,
+      easing: QUART
+    });
+    if (!on) {
+      if (a) a.onfinish = () => setSugShown(false);else setSugShown(false);
+    }
+    const drop = window.requestAnimationFrame(() => {
+      previous.forEach(x => {
+        try {
+          x.cancel();
+        } catch (err) {}
+      });
+    });
+    return () => window.cancelAnimationFrame(drop);
+  }, [searching, sm]);
+  const readSugEdges = React.useCallback(() => {
+    const el = sugRef.current;
+    if (!el || sm) return;
+    const over = el.scrollHeight - el.clientHeight;
+    const top = el.scrollTop > 2;
+    const bottom = over > 2 && el.scrollTop < over - 2;
+    setSugEdges(p => p.top === top && p.bottom === bottom ? p : {
+      top,
+      bottom
+    });
+  }, [sm]);
+  React.useLayoutEffect(() => {
+    readSugEdges();
+  }, [readSugEdges, groups, noHits, listBox]);
+
+  /* The highlighted suggestion is kept in view inside whichever box scrolls. */
+  React.useEffect(() => {
+    if (active < 0) return;
+    const el = document.getElementById(optId(active));
+    const box = sm ? boxRef.current : sugRef.current;
+    if (!el || !box) return;
+    const r = el.getBoundingClientRect(),
+      b = box.getBoundingClientRect();
+    const pad = sm ? 96 : 24;
+    if (r.top < b.top + pad) box.scrollTop -= b.top + pad - r.top;else if (r.bottom > b.bottom - pad) box.scrollTop += r.bottom - (b.bottom - pad);
+  }, [active, sm]);
   React.useEffect(() => {
     if (!open) {
       setHover(-1);
       setSubHover(-1);
       setExpanded(-1);
+      qRef.current = '';
+      window.clearTimeout(qTimer.current);
+      setQ('');
+      setGroups([]);
+      setNoHits('');
+      setActive(-1);
+      setFieldOpen(false);
       return;
     }
     const onKey = e => {
@@ -28209,6 +31127,7 @@ function TakeoverMenu({
     "aria-label": label,
     "aria-hidden": open ? undefined : 'true',
     tabIndex: open ? -1 : undefined,
+    onKeyDown: onBoxKey,
     "data-inverted": "",
     style: {
       /* Above the docked panel and its ground (38/40): the menu is the
@@ -28240,7 +31159,135 @@ function TakeoverMenu({
       paddingInline: 'var(--margin)',
       ...style
     }
-  }, /*#__PURE__*/React.createElement("nav", {
+  }, search ? /*#__PURE__*/React.createElement("div", {
+    "data-menu-search": "",
+    style: {
+      /* The header line's ink, not the menu's clay: the glyph, the typed
+         text and the field's line match the triggers beside them. */
+      '--paper': 'var(--paper-header)',
+      '--text-primary': 'var(--paper-header)',
+      '--focus-ring': 'var(--paper-header)',
+      ...(sm ? {
+        order: -2,
+        position: 'sticky',
+        top: 'calc(44px + var(--space-3) * 2)',
+        zIndex: 4,
+        flexShrink: 0,
+        display: 'flex',
+        background: 'var(--ink)',
+        marginTop: 'calc(var(--space-3) * 2 - var(--space-5))',
+        marginInline: 'calc(-1 * var(--margin))',
+        paddingInline: 'var(--margin)',
+        paddingBlock: 'var(--space-1)',
+        minHeight: 44,
+        alignItems: 'center'
+      } : {
+        position: 'absolute',
+        zIndex: 4,
+        top: 'calc(var(--space-3) - 10px)',
+        height: 44,
+        /* Spaced by the glyphs, not the boxes: the orb and the cross sit 5px
+        right of centre in their 44px targets, so the magnifier's box is set
+        100px in from the edge, which puts the same 34px of air between
+        magnifier and orb as between orb and cross. */
+        right: 'calc(max(var(--margin), (100vw - var(--max-width)) / 2) + 100px)',
+        width: 'min(22rem, 34vw)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'flex-end'
+      })
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    ref: fieldWrapRef,
+    style: {
+      position: 'relative',
+      display: 'flex',
+      alignItems: fieldOpen ? 'baseline' : 'center',
+      minWidth: 0,
+      flex: fieldOpen ? '1 1 auto' : '0 0 auto',
+      /* The field's line sits 8px under its text, so the open field is
+         lowered by half of that and its text lands on the triggers'
+         centre line, as the button's does. */
+      paddingTop: fieldOpen ? 9 : 0
+    }
+  }, !fieldOpen ?
+  /*#__PURE__*/
+  /* Folded, the search is the glyph alone: a 44px target at the
+     header triggers' glyph size, beside them on their line. The
+     label is its accessible name. */
+  React.createElement("button", {
+    ref: btnRef,
+    type: "button",
+    tabIndex: open && expanded === -1 ? 0 : -1,
+    "aria-label": searchItem.label,
+    "aria-expanded": "false",
+    "aria-controls": sugId,
+    onClick: () => {
+      openField();
+      if (expanded > -1) setExpanded(-1);
+    },
+    style: {
+      appearance: 'none',
+      border: 0,
+      padding: 0,
+      margin: 0,
+      background: 'none',
+      width: 44,
+      height: 44,
+      display: 'grid',
+      placeItems: 'center',
+      color: 'var(--paper-header)',
+      cursor: 'pointer'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: searchItem.icon || 'search',
+    size: "md",
+    weight: 1.2,
+    "aria-hidden": "true"
+  })) : null, /*#__PURE__*/React.createElement(__ds_scope.FilterSearch, {
+    inline: true,
+    label: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+      name: searchItem.icon || 'search',
+      size: 14,
+      "aria-hidden": "true",
+      style: {
+        position: 'relative',
+        top: 2
+      }
+    }), /*#__PURE__*/React.createElement("span", {
+      style: __ds_scope.srOnly
+    }, searchItem.label)),
+    placeholder: searchItem.label,
+    value: q,
+    onChange: onQuery,
+    onKeyDown: onFieldKey,
+    inputRef: fieldRef,
+    inputProps: {
+      role: 'combobox',
+      'aria-expanded': searching ? 'true' : 'false',
+      'aria-controls': sugId,
+      'aria-autocomplete': 'list',
+      'aria-activedescendant': active > -1 ? optId(active) : undefined,
+      autoComplete: 'off',
+      spellCheck: false,
+      enterKeyHint: 'search',
+      tabIndex: open && expanded === -1 && fieldOpen ? 0 : -1,
+      onFocus: onFieldFocus,
+      onBlur: onFieldBlur
+    },
+    style: fieldOpen ? {
+      flex: '1 1 auto',
+      minWidth: 0
+    } : {
+      position: 'absolute',
+      left: 0,
+      bottom: 0,
+      width: 1,
+      opacity: 0,
+      pointerEvents: 'none',
+      overflow: 'hidden'
+    }
+  }))) : null, /*#__PURE__*/React.createElement("nav", {
     "aria-label": label,
     style: sm ? {
       display: 'contents'
@@ -28265,8 +31312,10 @@ function TakeoverMenu({
       display: 'flex',
       flexDirection: 'column',
       flexShrink: 0,
-      minHeight: 'calc(100svh - 44px - var(--space-5) * 3 - var(--space-4) - 1.5rem - 4rem)'
+      minHeight: 'calc(100svh - 44px - var(--space-5) * 3 - var(--space-4) - 1.5rem - 4rem - 44px)'
     } : {
+      gridColumn: '1',
+      gridRow: '1',
       display: 'flex',
       flexDirection: 'column',
       overflowY: 'auto',
@@ -28435,6 +31484,8 @@ function TakeoverMenu({
     "aria-hidden": expanded > -1 ? undefined : 'true',
     onScroll: readSubEdges,
     style: {
+      gridColumn: '2',
+      gridRow: '1',
       opacity: 0,
       transform: 'translateX(28px)',
       willChange: 'opacity, transform',
@@ -28527,9 +31578,157 @@ function TakeoverMenu({
       transform: `translateX(${subHover === i ? 0 : -8}px)`,
       transition: 'opacity .3s cubic-bezier(0.19,1,0.22,1), transform .42s cubic-bezier(0.19,1,0.22,1)'
     }
-  }, "\u2192"))))))), highlights.length ? /*#__PURE__*/React.createElement("div", {
+  }, "\u2192"))))))), search && (shownGroups.length || shownEmpty) ? /*#__PURE__*/React.createElement("div", {
+    ref: sugRef,
+    id: sugId,
+    role: shownGroups.length ? 'listbox' : undefined,
+    "aria-label": searchItem.label,
+    "aria-live": "polite",
+    onScroll: readSugEdges,
     style: sm ? {
-      order: 4,
+      order: -1,
+      flexShrink: 0,
+      marginTop: 'var(--space-3)',
+      marginBottom: 'var(--space-5)',
+      opacity: 0
+    } : {
+      gridColumn: '2 / -1',
+      gridRow: '1',
+      alignSelf: 'end',
+      minWidth: 0,
+      minHeight: 0,
+      height: listBox ? listBox + 'px' : '100%',
+      maxHeight: '100%',
+      overflowY: 'auto',
+      scrollbarWidth: 'none',
+      position: 'relative',
+      zIndex: 3,
+      opacity: 0,
+      maskImage: 'linear-gradient(to bottom, ' + (sugEdges.top ? 'transparent 0, #000 44px' : '#000 0') + ', ' + (sugEdges.bottom ? '#000 calc(100% - 56px), transparent 100%' : '#000 100%') + ')',
+      WebkitMaskImage: 'linear-gradient(to bottom, ' + (sugEdges.top ? 'transparent 0, #000 44px' : '#000 0') + ', ' + (sugEdges.bottom ? '#000 calc(100% - 56px), transparent 100%' : '#000 100%') + ')'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gap: sm ? 'var(--space-4)' : 'var(--space-4)',
+      maxWidth: sm ? 'none' : '68ch',
+      paddingBottom: 'var(--space-2)'
+    }
+  }, !shownGroups.length && shownEmpty ?
+  /*#__PURE__*/
+  /* Nothing found: what was searched and the count line, the
+     results page's zero-hits state at menu scale. No sentence:
+     that line is Vinge's to write. */
+  React.createElement("div", null, /*#__PURE__*/React.createElement("p", {
+    className: "body",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      color: 'var(--paper)'
+    }
+  }, shownEmpty), /*#__PURE__*/React.createElement("p", {
+    className: "small",
+    style: {
+      margin: 0,
+      maxWidth: 'none',
+      color: 'var(--paper-70)'
+    }
+  }, '0 ' + countSuffix)) : null, (() => {
+    let n = -1;
+    return shownGroups.map(g => /*#__PURE__*/React.createElement("div", {
+      key: g.key,
+      role: "group",
+      "aria-labelledby": sugId + '-' + g.key
+    }, /*#__PURE__*/React.createElement("div", {
+      id: sugId + '-' + g.key,
+      className: "small",
+      style: {
+        color: 'var(--paper-70)',
+        marginBottom: 'var(--space-1)'
+      }
+    }, g.label), /*#__PURE__*/React.createElement("ul", {
+      role: "presentation",
+      style: {
+        listStyle: 'none',
+        margin: 0,
+        padding: 0,
+        display: 'grid'
+      }
+    }, g.rows.map(r => {
+      n += 1;
+      const i = n;
+      const on = active === i;
+      /* People: name and roles. Everything else: title and
+         description — two lines at most at LG, and left out
+         on SM, where the menu's measure cannot carry them. */
+      const second = g.person ? r.roles : sm ? '' : r.description;
+      return /*#__PURE__*/React.createElement("li", {
+        key: r.href,
+        role: "presentation"
+      }, /*#__PURE__*/React.createElement("a", {
+        id: optId(i),
+        role: "option",
+        "aria-selected": on ? 'true' : 'false',
+        href: r.href,
+        tabIndex: -1,
+        onMouseEnter: () => setActive(i),
+        onMouseDown: e => e.preventDefault(),
+        onClick: onNavigate ? e => onNavigate({
+          label: g.person ? r.name : r.title,
+          href: r.href
+        }, e) : undefined,
+        style: {
+          display: 'grid',
+          gridTemplateColumns: 'minmax(0, 1fr) auto',
+          alignItems: 'start',
+          columnGap: 'var(--space-2)',
+          paddingBlock: sm ? '0.6em' : '0.4em',
+          minHeight: sm ? 44 : undefined,
+          boxSizing: 'border-box',
+          textDecoration: 'none',
+          color: 'var(--paper)'
+        }
+      }, /*#__PURE__*/React.createElement("span", {
+        style: {
+          minWidth: 0
+        }
+      }, /*#__PURE__*/React.createElement("span", {
+        className: "body",
+        style: {
+          display: 'block',
+          maxWidth: 'none',
+          textDecoration: 'underline',
+          textDecorationThickness: '1px',
+          textUnderlineOffset: '0.2em',
+          textDecorationColor: on ? 'currentColor' : 'transparent',
+          transition: 'text-decoration-color .3s cubic-bezier(0.19,1,0.22,1)'
+        }
+      }, g.person ? r.name : r.title), second ? /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          display: '-webkit-box',
+          WebkitBoxOrient: 'vertical',
+          WebkitLineClamp: 2,
+          overflow: 'hidden',
+          maxWidth: 'none',
+          marginTop: 2,
+          color: 'var(--paper-70)'
+        }
+      }, second) : null), /*#__PURE__*/React.createElement("span", {
+        "aria-hidden": "true",
+        className: "small",
+        style: {
+          opacity: on ? 1 : 0,
+          transform: `translateX(${on ? 0 : -8}px)`,
+          transition: 'opacity .3s cubic-bezier(0.19,1,0.22,1), transform .42s cubic-bezier(0.19,1,0.22,1)'
+        }
+      }, "\u2192")));
+    }))));
+  })())) : null, highlights.length ? /*#__PURE__*/React.createElement("div", {
+    ref: shelfRef,
+    style: sm ? {
+      order: 5,
+      pointerEvents: searching ? 'none' : undefined,
       flexShrink: 0,
       marginTop: 'var(--space-5)',
       marginRight: 'calc(-1 * var(--margin))',
@@ -28540,6 +31739,9 @@ function TakeoverMenu({
       position: 'relative',
       zIndex: 2
     } : {
+      gridColumn: '3',
+      gridRow: '1',
+      pointerEvents: searching ? 'none' : undefined,
       alignSelf: 'end',
       minWidth: 0,
       minHeight: 0,
@@ -28555,10 +31757,15 @@ function TakeoverMenu({
     onNavigate: onNavigate,
     revealOnView: sm && open,
     arrowInset: sm ? 'var(--margin)' : 'calc(max(var(--margin), (100vw - var(--max-width)) / 2))'
-  })) : null), utility.length ? /*#__PURE__*/React.createElement("div", {
+  })) : null), utility.some(u => !u.search) ?
+  /*#__PURE__*/
+  /* The line box is the rise's mask. A clip rather than overflow, set
+     out past the box on every side, so the search field's focus ring is
+     not cut by it; the rise only needs the bottom edge. */
+  React.createElement("div", {
     ref: utilityRef,
     style: {
-      overflow: 'hidden',
+      clipPath: 'inset(-12px -12px -8px -12px)',
       maxWidth: 'var(--max-width)',
       width: '100%',
       marginInline: 'auto',
@@ -28576,11 +31783,12 @@ function TakeoverMenu({
     style: {
       display: 'flex',
       flexWrap: 'wrap',
+      alignItems: 'baseline',
       gap: 'var(--space-4)',
       width: 'fit-content',
       transform: RISE
     }
-  }, utility.map(u => /*#__PURE__*/React.createElement("a", {
+  }, utility.filter(u => !u.search).map(u => /*#__PURE__*/React.createElement("a", {
     key: u.href || u.label,
     href: u.href,
     tabIndex: open && expanded === -1 ? 0 : -1,
@@ -28598,9 +31806,16 @@ function TakeoverMenu({
       color: 'var(--paper-70)',
       textDecoration: 'none',
       borderBottom: '1px solid transparent',
-      paddingBottom: 2
+      paddingBottom: 2,
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)'
     }
-  }, u.label)))) : null);
+  }, u.icon ? /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: u.icon,
+    size: 14,
+    "aria-hidden": "true"
+  }) : null, u.label)))) : null);
 }
 Object.assign(__ds_scope, { TakeoverMenu });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/TakeoverMenu.jsx", error: String((e && e.message) || e) }); }
@@ -28936,7 +32151,7 @@ function WordmarkMasthead({
      and the blend off, so header and hero share one green. */
   const overWash = __ds_scope.useOverDark(logoRef, {
     enabled: !atFooter && !onInk,
-    selector: '[data-washed]'
+    selector: __ds_scope.WASH
   });
   const onWash = overWash && !onInk;
 
@@ -28981,7 +32196,7 @@ function WordmarkMasthead({
   }) && !tInk;
   const tWash = __ds_scope.useOverDark(triggersRef, {
     enabled: !tInk && !tMedia,
-    selector: '[data-washed]'
+    selector: __ds_scope.WASH
   }) && !tInk && !tMedia;
   const tPaper = tInk || tMedia;
   const trigger = {
@@ -30436,6 +33651,296 @@ function LogoHero({
 }
 Object.assign(__ds_scope, { LogoHero });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/layout/LogoHero.jsx", error: String((e && e.message) || e) }); }
+
+// components/navigation/siteSearch.jsx
+try { (() => {
+/* Site search, defined once: the categories, the type-ahead's caps, where the
+   data comes from and how a query is answered. SiteNav hands this to the menu
+   on its `Sök` utility item, and the results page reads the same object off
+   SiteNav, so the menu and /sok cannot disagree about a category's name,
+   order or URL parameter.
+
+   The live API cannot be called from a static template, so both are fed from
+   assets/data/sok.json, harvested from vinge.se on 2026-10-14. A query is
+   answered in one of two ways, and nothing else:
+
+   1. One of the four harvested queries (avtal, varumärken, anna, qzxwvk):
+      the API's own rows and its own per-category totals, verbatim.
+   2. Anything else: a substring match over every row the harvest holds,
+      deduplicated by href. The totals are then the number of matched rows.
+      No row is ever written here, and none comes from outside the harvest. */
+
+/* Results-page order, the brief's: Medarbetare, Nyhet, Insights, Sidor,
+   Uppdrag, Events. Labels are the live group headings; `param` is the live
+   filter parameter (sok.json page.filter_url_params). */
+const SEARCH_CATEGORIES = [{
+  key: 'medarbetare',
+  label: 'Medarbetare',
+  param: 'employees',
+  person: true
+}, {
+  key: 'nyheter',
+  label: 'Nyhet',
+  param: 'news',
+  dated: true
+}, {
+  key: 'insights',
+  label: 'Insights',
+  param: 'insights',
+  dated: true
+}, {
+  key: 'sidor',
+  label: 'Sidor',
+  param: 'pages'
+}, {
+  key: 'uppdrag',
+  label: 'Uppdrag',
+  param: 'mandates',
+  dated: true
+}, {
+  key: 'event',
+  label: 'Events',
+  param: 'events',
+  dated: true
+}];
+const BY_LABEL = {};
+SEARCH_CATEGORIES.forEach(c => {
+  BY_LABEL[c.label] = c;
+});
+
+/* Used until the data has arrived; replaced by sok.json's own typeahead block. */
+const TYPEAHEAD_FALLBACK = {
+  delay: 500,
+  order: ['medarbetare', 'nyheter', 'insights', 'sidor', 'event', 'uppdrag'],
+  max: {
+    medarbetare: 8,
+    nyheter: 5,
+    insights: 5,
+    sidor: 10,
+    event: 10,
+    uppdrag: 10
+  }
+};
+const norm = s => String(s == null ? '' : s).normalize('NFC').toLowerCase().replace(/\s+/g, ' ').trim();
+
+/* The media host sends no CORS header and the halftone painter reads pixels,
+   so portraits come through the same proxy the people listing uses. */
+function portraitSrc(url) {
+  if (!url) return '';
+  const bare = String(url).replace(/^https?:\/\//i, '');
+  return 'https://images.weserv.nl/?url=' + encodeURIComponent(bare) + '&w=760&h=950&fit=cover&output=webp&q=72';
+}
+function typeaheadFrom(data) {
+  const t = data && data.typeahead;
+  if (!t) return TYPEAHEAD_FALLBACK;
+  const order = (t.category_order || []).map(l => BY_LABEL[l] && BY_LABEL[l].key).filter(Boolean);
+  const max = {};
+  Object.keys(t.max_per_category || {}).forEach(l => {
+    if (BY_LABEL[l]) max[BY_LABEL[l].key] = t.max_per_category[l];
+  });
+  return {
+    delay: t.request_delay_ms || 500,
+    order: order.length ? order : TYPEAHEAD_FALLBACK.order,
+    max: {
+      ...TYPEAHEAD_FALLBACK.max,
+      ...max
+    }
+  };
+}
+
+/* Every harvested row once, per category, in first-seen order. */
+function indexOf(data) {
+  if (data.__index) return data.__index;
+  const idx = {};
+  SEARCH_CATEGORIES.forEach(c => {
+    idx[c.key] = [];
+  });
+  const seen = {};
+  (data.queries || []).forEach(q => {
+    SEARCH_CATEGORIES.forEach(c => {
+      const cat = q.categories && q.categories[c.key];
+      (cat && cat.items || []).forEach(it => {
+        const k = c.key + '|' + it.href;
+        if (seen[k]) return;
+        seen[k] = true;
+        idx[c.key].push({
+          ...it,
+          __hay: norm(c.person ? it.name + ' ' + it.roles : it.title + ' ' + it.description)
+        });
+      });
+    });
+  });
+  Object.defineProperty(data, '__index', {
+    value: idx,
+    enumerable: false
+  });
+  return idx;
+}
+
+/* `{ query, source: 'harvest' | 'local', total, categories: [{ ...category, total, items }] }`
+   in results-page order, or null for an empty query. */
+function findIn(data, raw) {
+  const q = norm(raw);
+  if (!q || !data) return null;
+  const hit = (data.queries || []).find(x => norm(x.query) === q);
+  let categories;
+  if (hit) {
+    categories = SEARCH_CATEGORIES.map(c => {
+      const cat = hit.categories[c.key] || {
+        total: 0,
+        items: []
+      };
+      return {
+        ...c,
+        total: cat.total || 0,
+        items: cat.items || []
+      };
+    });
+  } else {
+    const idx = indexOf(data);
+    categories = SEARCH_CATEGORIES.map(c => {
+      const items = idx[c.key].filter(it => it.__hay.indexOf(q) > -1);
+      return {
+        ...c,
+        total: items.length,
+        items
+      };
+    });
+  }
+  return {
+    query: String(raw).trim(),
+    source: hit ? 'harvest' : 'local',
+    total: categories.reduce((n, c) => n + c.total, 0),
+    categories
+  };
+}
+
+/* The type-ahead's groups: its own order and caps, empty categories left out. */
+function suggestFrom(data, result) {
+  if (!result) return [];
+  const t = typeaheadFrom(data);
+  const byKey = {};
+  result.categories.forEach(c => {
+    byKey[c.key] = c;
+  });
+  return t.order.map(k => byKey[k]).filter(c => c && c.items.length).map(c => ({
+    key: c.key,
+    label: c.label,
+    person: !!c.person,
+    rows: c.items.slice(0, t.max[c.key] || 5)
+  }));
+}
+const cache = {};
+function loadSearch(src) {
+  if (!cache[src]) {
+    cache[src] = fetch(src).then(r => {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    }).catch(err => {
+      delete cache[src];
+      throw err;
+    });
+  }
+  return cache[src];
+}
+
+/* What SiteNav puts on the `Sök` utility item. */
+function siteSearch(base) {
+  const src = base + '/assets/data/sok.json';
+  return {
+    href: '/sok/',
+    param: 'query',
+    categories: SEARCH_CATEGORIES,
+    load: () => loadSearch(src),
+    find: findIn,
+    suggest: suggestFrom,
+    typeahead: typeaheadFrom,
+    portrait: portraitSrc
+  };
+}
+Object.assign(__ds_scope, { SEARCH_CATEGORIES, portraitSrc, findIn, suggestFrom, loadSearch, siteSearch });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/siteSearch.jsx", error: String((e && e.message) || e) }); }
+
+// components/navigation/SiteNav.jsx
+try { (() => {
+/* The site's navigation, defined once. Every template mounts TakeoverMenu
+   with the same three lists, so they live here rather than being retyped per
+   page — a page that declares its own nav drifts, and the menu then renders a
+   level or a shelf the rest of the site does not have.
+
+   Called, not imported as data: the highlight images are page-relative, and
+   `base` is the path from the page to the project root ('../..' for anything
+   in templates/<slug>/). Pass `{ activeHref }` if the page wants its own item
+   marked current.
+
+   Usage in a template's logic class:
+     const nav = window.VingeDesignSystem_8582c7.SiteNav();
+     return { navItems: nav.items, navUtility: nav.utility, navHighlights: nav.highlights };
+*/
+
+/* The 34 practice areas, verbatim and in register order from the Verksamhetsområden page on vinge.se
+   (templates/register/register-data.js), so the menu and the register cannot disagree. Live hrefs. */
+
+const EXPERTISE = [["Arbetsrätt", "/vara-tjanster/verksamhetsomraden/arbetsratt/"], ["Bank och finans", "/vara-tjanster/verksamhetsomraden/bank-och-finans/"], ["Bolagsrätt", "/vara-tjanster/verksamhetsomraden/bolagsratt/"], ["Carve-Outs", "/vara-tjanster/verksamhetsomraden/carve-outs/"], ["Corporate Commercial", "/vara-tjanster/verksamhetsomraden/corporate-commercial/"], ["Corporate Crime & Compliance", "/vara-tjanster/verksamhetsomraden/corporate-crime-compliance/"], ["Corporate Immigration", "/vara-tjanster/verksamhetsomraden/corporate-immigration/"], ["EU- och konkurrensrätt", "/vara-tjanster/verksamhetsomraden/eu-och-konkurrensratt/"], ["Fastigheter och Entreprenad", "/vara-tjanster/verksamhetsomraden/fastigheter-och-entreprenad/"], ["FDI", "/vara-tjanster/verksamhetsomraden/fdi/"], ["Finansiella tillståndsfrågor", "/vara-tjanster/verksamhetsomraden/finansiella-tillstandsfragor/"], ["Företagsbeskattning", "/vara-tjanster/verksamhetsomraden/foretagsbeskattning/"], ["Försäkring", "/vara-tjanster/verksamhetsomraden/forsakring/"], ["GDPR", "/vara-tjanster/verksamhetsomraden/gdpr/"], ["Immaterialrätt", "/vara-tjanster/verksamhetsomraden/immaterialratt/"], ["Internationell handel", "/vara-tjanster/verksamhetsomraden/internationell-handel/"], ["IT, telecom och outsourcing", "/vara-tjanster/verksamhetsomraden/it-telekom-och-outsourcing/"], ["Kapitalmarknad och publik M&A", "/vara-tjanster/verksamhetsomraden/kapitalmarknad-och-publik-m-a/"], ["Kommersiella Avtal", "/vara-tjanster/verksamhetsomraden/kommersiella-avtal/"], ["Konsumenträtt, Detaljhandel och E-handel", "/vara-tjanster/verksamhetsomraden/konsumentratt-detaljhandel-och-e-handel/"], ["M&A", "/vara-tjanster/verksamhetsomraden/m-a/"], ["Marknadskontroll", "/vara-tjanster/verksamhetsomraden/marknadskontroll/"], ["Marknadsrätt", "/vara-tjanster/verksamhetsomraden/immaterialratt/marknadsratt/"], ["Medierätt", "/vara-tjanster/verksamhetsomraden/medieratt/"], ["Miljörätt", "/vara-tjanster/verksamhetsomraden/miljoratt/"], ["Offentlig upphandling", "/vara-tjanster/verksamhetsomraden/offentlig-upphandling/"], ["Penningtvätt", "/vara-tjanster/verksamhetsomraden/penningtvatt/"], ["Private Funds", "/vara-tjanster/verksamhetsomraden/private-funds/"], ["Regulatoriska tvister", "/vara-tjanster/verksamhetsomraden/regulatoriska-tvister/"], ["Rekonstruktioner och obestånd", "/vara-tjanster/verksamhetsomraden/rekonstruktioner-och-obestand/"], ["Sjö- och transporträtt", "/vara-tjanster/verksamhetsomraden/sjo-och-transportratt/"], ["Sport, Event, Spel och Media", "/vara-tjanster/verksamhetsomraden/sport-event-spel-och-media/"], ["Stiftelser och föreningar", "/vara-tjanster/verksamhetsomraden/stiftelser-och-foreningar/"], ["Tvistlösning", "/vara-tjanster/verksamhetsomraden/tvistlosning/"]];
+const HIGHLIGHTS = [['images/present-04.png', 'Nya hållbarhetsregler', '/insikter/hallbarhetsrapportering', 'Möte runt ett bord i ett grönt rum'], ['images/office-06.png', 'Börsnotering på Nasdaq Stockholm', '/uppdrag/notering', 'Kontorsvy mot staden'], ['images/inviting-03.png', 'Vi söker biträdande jurister', '/karriar/bitradande-jurist', 'Entré med sittgrupp'], ['images/anonymous-05.png', 'Konkurrensrätten i år', '/insikter/konkurrensratt', 'Möte vid ett bord, sett genom en glasvägg']];
+function SiteNav({
+  base = '../..',
+  activeHref
+} = {}) {
+  return {
+    activeHref,
+    items: [{
+      label: 'Hitta rätt medarbetare',
+      href: '/personer'
+    }, {
+      label: 'Behöver rådgivning',
+      href: '/kontakt',
+      chat: true
+    }, {
+      label: 'Se våra uppdrag',
+      href: '/uppdrag'
+    },
+    /* No href: nothing behind it yet, and a placeholder link that jumps
+       the reader to the top of the page is worse than an unlinked line. The
+       menu renders and focuses it the same either way. */
+    {
+      label: 'Håll dig uppdaterad',
+      secondary: true
+    }, /* The Karriär section page (content-page template, ?p=/karriar). */
+    {
+      label: 'Sök drömjobbet',
+      href: '/karriar',
+      secondary: true
+    }, {
+      label: 'Se all vår expertis',
+      href: '/verksamhetsomraden',
+      secondary: true,
+      children: EXPERTISE.map(([label, href]) => ({
+        label,
+        href
+      }))
+    }],
+    utility: [
+    /* Not a link: the menu draws this item as the site search field, with
+       the type-ahead in the column beside the list. `search` carries the
+       data source and the query logic the results page (/sok) uses too. */
+    {
+      label: 'Sök',
+      icon: 'search',
+      search: __ds_scope.siteSearch(base)
+    }, {
+      label: 'English'
+    }],
+    highlights: HIGHLIGHTS.map(([src, label, href, alt]) => ({
+      imageSrc: base + '/assets/' + src,
+      label,
+      href,
+      alt
+    }))
+  };
+}
+Object.assign(__ds_scope, { SiteNav });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/SiteNav.jsx", error: String((e && e.message) || e) }); }
 
 // deck-stage.js
 try { (() => {
@@ -40939,9 +44444,754 @@ try { (() => {
 })();
 })(); } catch (e) { __ds_ns.__errors.push({ path: "repo/templates/person-page/people.js", error: String((e && e.message) || e) }); }
 
+// reports/doc-page.js
+try { (() => {
+// @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
+// Copied omelette starter. Re-running copy_starter_component with this kind overwrites this file with the latest version (page content is unaffected).
+/* BEGIN USAGE */
+/**
+ * <doc-page> — paged-document shell for printable HTML.
+ *
+ * FIRST, decide how the document paginates — up front, before building:
+ *
+ * - FLOWING document (the default): write the whole document as one
+ *   normal HTML flow inside <doc-page>; the browser's print engine
+ *   splits it onto pages at export. Use for long-form documents with a
+ *   single text flow: reports, memos, letters, essays.
+ * - EXPLICIT pagination: a fixed set of pre-paginated pages, one
+ *   <section class="page"> child per page. Use when the user asks for a
+ *   specific page count, or the design implies one: a one-page resume, a
+ *   two-sided flier, a poster, a certificate, a brochure — any richly
+ *   laid-out document without a single text flow.
+ * - If in doubt, ask the user as part of the build.
+ *
+ * PAGE SIZING — paper differs by country (letter vs A4), so the printed
+ * sheet is not one fixed truth:
+ * - FLOWING documents pin NO paper size: the print engine paginates
+ *   onto the user's real paper, and the content reflows to it.
+ * - EXPLICITLY PAGINATED documents print each page at a FIXED page box
+ *   with overflow hidden — letter by default, size="a4" for a clearly
+ *   metric user, the user's chosen paper when they export. Design each
+ *   page to FILL that box, fitting letter and A4 alike without overlap.
+ * - width/height pin an explicit fixed size, ONLY when the user gives
+ *   one.
+ * Never write your own @page rule or hard-code paper dimensions in the
+ * content.
+ *
+ * Sizing modes (attributes):
+ *   (none)                      — portrait: flowing docs use the user's
+ *           paper; explicitly paginated pages use the named size box
+ *           (letter unless size="a4")
+ *   orientation="landscape"     — the same, landscape
+ *   width / height              — explicit fixed size, ONLY when the user
+ *           gives one (e.g. width="22in" height="30in" for a 22×30
+ *           poster): the page IS the design's size, printed at true
+ *           dimensions (or scaled onto the user's paper at print time).
+ *           Any absolute CSS length: px/in/mm/cm/pt/pc.
+ * The component announces the chosen mode to the host app at runtime (a
+ * meta tag it injects), so the print path can inject the user's true
+ * paper size.
+ *
+ * On screen the document renders on a desk background: a flowing
+ * document as one tall scrolling sheet (Google Docs' pageless view);
+ * explicitly paginated documents as one card per page.
+ *
+ * EXPLICIT pagination usage:
+ *   <style>doc-page:not(:defined){visibility:hidden}</style>
+ *   <doc-page>
+ *     <section class="page" id="p1">…one page's design…</section>
+ *     <section class="page" id="p2">…</section>
+ *   </doc-page>
+ *   <script src="doc-page.js"></script>
+ * How the page box works, concretely: each .page prints as ONE full-bleed
+ * sheet at a FIXED physical size — letter by default (set size="a4" for
+ * a clearly metric user), the user's chosen paper when they export —
+ * with overflow hidden. Nothing scrolls and nothing reflows onto a next
+ * sheet: content that misses the box is CLIPPED. Design each page to
+ * FILL that page box, and to fit it — letter and A4 alike — without
+ * overlap. Each page is a size container; don't size anything in
+ * viewport units (they track the window, not the page), and never set
+ * width or height on the .page section itself (the component sizes the
+ * page box; an authored height like 100% is meaningless at print and is
+ * overridden). The component owns the page box, the screen card chrome,
+ * and the page breaks (never add your own break-before/after). Don't mix
+ * .page sections with flowing content or header/footer slots in the same
+ * document.
+ *
+ * FLOWING usage:
+ *   <style>doc-page:not(:defined){visibility:hidden}</style>
+ *   <doc-page margin="0.75in">
+ *     <h1>Title</h1>
+ *     <p>…body…</p>
+ *   </doc-page>
+ *   <script src="doc-page.js"></script>
+ * There is no manual page-splitting — the browser's print engine
+ * paginates at export. Standard break-hygiene rules (`break-inside:
+ * avoid` on figures, code blocks, images and table rows; `orphans/
+ * widows: 3`) are applied so paragraphs and groups split cleanly. On
+ * screen and at print, headings default to `text-wrap: balance` and
+ * body text to `text-wrap: pretty`; the defaults have zero specificity,
+ * so any text-wrap you declare wins.
+ *
+ * Other attributes:
+ *   size    — letter | a4 | legal (default letter). Flowing documents:
+ *           preview proportion only — it does NOT pin their printed
+ *           paper (the print dialog's paper governs); leave it alone
+ *           there. Explicitly paginated documents: it sets the page box
+ *           the cards and the pinned @page share (the export dialog's
+ *           choice overrides both at print) — set size="a4" for a
+ *           clearly metric user. Scaled-fit: names the sheet the fit is
+ *           computed against, same a4-for-metric-users advice.
+ *   content-width / content-height — the design's own fixed dimensions
+ *           (CSS lengths), for scaling a fixed-size design ONTO the
+ *           named sheet: content lays out at exactly this size, and the
+ *           component scales it to fit that sheet's printable area
+ *           (centered horizontally, top-aligned; the export dialog
+ *           re-fits to the user's actual paper choice where available).
+ *           Both must be set; they do not change the page box. For pages
+ *           WITHOUT running header/footer slots.
+ *   margin  — printable inset on every page of a FLOWING document
+ *           (default 0.75in); margin="0" makes pages full-bleed.
+ *           Explicitly paginated pages are always full-bleed.
+ *
+ * Running header/footer (flowing documents only): give an element
+ * `slot="header"` or `slot="footer"` and it repeats on every printed
+ * page via `position: fixed`. To keep body text from sliding under it,
+ * the component prints inside a single-cell table whose <thead>/<tfoot>
+ * are spacers sized to the header/footer height — browsers repeat
+ * thead/tfoot on every page, so each sheet's content starts below the
+ * header and ends above the footer. On screen the header/footer render
+ * once at the top/bottom of the sheet.
+ *
+ * At print the component injects `@page { margin: 0 }` (which leaves
+ * Chrome no margin box to draw its date/URL/page-count header in) and
+ * moves the visual margin onto the sheet's own padding. It also marks
+ * the document as owning its print CSS (a
+ * `meta[name="omelette-owns-print"]` it injects at runtime), so the
+ * PDF export never injects page-geometry CSS of its own on top.
+ *
+ * Print best practices for the content you author:
+ * - Multi-column text: use CSS columns (`column-count` +
+ *   `column-gap`), never side-by-side flex/grid columns — only real
+ *   CSS columns flow and break across pages. `column-span: all` lets
+ *   a heading span the columns; `hyphens: auto` (needs `lang` on
+ *   the html element) keeps narrow columns readable.
+ * - Page breaks in flowing documents: `break-before: page` on an
+ *   element that must start a new page (a chapter, an appendix). Add
+ *   your own kept-together blocks (callouts, stat tiles, cards) to a
+ *   `break-inside: avoid` rule, and keep each one shorter than a page.
+ * - Extend `orphans: 3; widows: 3` to any custom text blocks you add
+ *   (p and li are covered by default).
+ * - Give long tables a <thead> — browsers repeat it on every printed
+ *   page.
+ * - No `position: fixed`/`sticky` and no viewport units in content:
+ *   fixed elements stamp every printed page (running headers/footers go
+ *   in the component's slots) and `100vh` mis-sizes at print.
+ *
+ * Author content as static HTML so the user can click-to-edit any text
+ * directly. Do not set width/padding/background on the document body —
+ * the component owns the sheet box.
+ */
+/* END USAGE */
+
+(() => {
+  const PAPER = {
+    letter: ['8.5in', '11in'],
+    a4: ['210mm', '297mm'],
+    legal: ['8.5in', '14in']
+  };
+  const CSS_LENGTH = /^\d+(\.\d+)?(px|in|mm|cm|pt|pc)$/;
+  // Unitless "0" is a valid CSS length and the natural way to write
+  // margin="0"; normalise it to 0px so max()/calc() (which reject a bare
+  // number) keep working.
+  const safeLen = (v, fb) => {
+    v = (v || '').trim();
+    return v === '0' ? '0px' : CSS_LENGTH.test(v) ? v : fb;
+  };
+  // WebKit (Safari and every iOS browser shell) never repeats a table's
+  // thead/tfoot on printed pages (WebKit bug 17205), so the spacer-borne
+  // vertical margins of a FLOWING document reach only the first page
+  // there. Engine check, not browser check: vendor is 'Apple Computer,
+  // Inc.' exactly for WebKit and 'Google Inc.' for Blink.
+  const WK_PRINT = /apple/i.test(navigator.vendor || '');
+  // CSS length → px number (CSS absolute units are exact: 1in = 96px).
+  // Returns NaN for anything safeLen would reject — callers gate on it.
+  const PX_PER = {
+    px: 1,
+    in: 96,
+    mm: 96 / 25.4,
+    cm: 96 / 2.54,
+    pt: 96 / 72,
+    pc: 16
+  };
+  const toPx = v => {
+    const m = /^(\d+(?:\.\d+)?)(px|in|mm|cm|pt|pc)$/.exec((v || '').trim());
+    return m ? parseFloat(m[1]) * PX_PER[m[2]] : NaN;
+  };
+  const stylesheet = `
+    :host {
+      position: relative;
+      display: block;
+      /* When the viewport is narrower than the page, grow to wrap the
+       * sheet (plus this padding) instead of staying viewport-width, so
+       * the desk background and right margin reach the sheet's far edge
+       * in the horizontal scroll. */
+      min-width: max-content;
+      min-height: 100vh;
+      background: #f5f5f4;
+      padding: 48px 24px;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      --doc-page-w: 8.5in;
+      --doc-page-h: 11in;
+      --doc-page-margin: 0.75in;
+      --doc-hdr-h: 0px;
+      --doc-ftr-h: 0px;
+      --doc-hdr-pad: 0px;
+      --doc-ftr-pad: 0px;
+    }
+    .sheet {
+      width: var(--doc-page-w);
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(20, 20, 19, 0.12);
+      border-radius: 7px;
+      box-sizing: border-box;
+      padding: var(--doc-page-margin);
+    }
+    .frame { width: 100%; border-collapse: collapse; }
+    /* Scaled-fit mode (content-width/content-height): the inner .fit box
+     * lays the content out at its authored fixed size and scales it onto
+     * the printable area; .fit-box reserves the scaled footprint in flow
+     * (transforms don't affect layout) and centers it. Without the mode,
+     * both divs are unstyled block pass-throughs. */
+    /* Explicit pagination: direct .page children are the pages. The sheet
+     * becomes a transparent stack and each page carries the card look on
+     * screen; at print each page is exactly one full-bleed sheet. The
+     * ::slotted defaults are deliberately weak (document CSS wins), so
+     * authored page styling can override any of this. */
+    .sheet.paginated {
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+      padding: 0;
+    }
+    .paginated ::slotted(.page) {
+      position: relative;
+      display: block;
+      width: 100%;
+      aspect-ratio: var(--doc-page-ar);
+      container-type: size;
+      overflow: hidden;
+      box-sizing: border-box;
+      background: #fff;
+      border-radius: 7px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+      break-inside: avoid;
+    }
+    .paginated ::slotted(.page:not(:first-child)) { margin-top: 1rem; }
+    @media print {
+      .sheet.paginated { padding: 0; }
+      /* The flowing-document vertical inset lives on the repeating
+       * thead/tfoot spacers, not the sheet padding — they must go too,
+       * or each full-sheet .page is pushed ~margin down and spills onto
+       * a second sheet. Paginated pages are full-bleed by definition
+       * (content owns its insets). */
+      .sheet.paginated .hdr-space,
+      .sheet.paginated .ftr-space { height: 0; }
+      .paginated ::slotted(.page) {
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        margin: 0 !important;
+        /* Physical page-box sizing, no viewport units: Safari resolves
+         * 100vh against the window, not the page box, so a vh-sized card
+         * paginates wrong there. --doc-page-w/h are the named size by
+         * default and are overridden to the user's chosen paper by the
+         * export path, so every card is exactly one sheet either way.
+         * Width + height (same source values as @page size) rather than
+         * width + aspect-ratio: the ratio is a 6-decimal rounding of the
+         * same division, and a few millionths of overflow would spill a
+         * blank sheet after every page. The screen-only aspect-ratio
+         * (preview proportions) must not leak into print. cqh typography
+         * tracks the same box.
+         *
+         * Every declaration is !important: per CSS Scoping, unimportant
+         * shadow ::slotted rules LOSE to the document context, so a page
+         * section's authored inline style would silently beat this print
+         * geometry. A model-authored height:100% did exactly that — the
+         * percentage resolves as auto in the all-auto print ancestry, the
+         * base rule's size containment turns auto into ZERO, and
+         * overflow:hidden then paints nothing: a blank PDF with perfect
+         * page boxes. At print the component's geometry is the design's
+         * whole contract, so it must win over any authored sizing. */
+        aspect-ratio: auto !important;
+        width: var(--doc-page-w) !important;
+        height: var(--doc-page-h) !important;
+        overflow: hidden !important;
+      }
+      .paginated ::slotted(.page:not(:first-child)) {
+        break-before: page !important;
+        margin-top: 0 !important;
+      }
+    }
+    .fit-mode .fit-box {
+      width: calc(var(--doc-fit-w) * var(--doc-fit-scale));
+      height: calc(var(--doc-fit-h) * var(--doc-fit-scale));
+      margin: 0 auto;
+      break-inside: avoid;
+    }
+    /* Monolithic at print: Blink slices a transform-scaled child at
+     * fragmentainer boundaries mapped in UNSCALED layout coordinates
+     * (transforms are paint-time), so the .fit box (authored size, e.g.
+     * 1400x990) gets cut at the page's free block space and spills onto
+     * a second sheet even though its SCALED footprint fits the page by
+     * construction. overflow:hidden makes .fit-box a scroll container —
+     * monolithic under fragmentation (css-break-3) — so the scaled
+     * content prints atomically on one sheet. No clipping for content
+     * within the authored box: .fit-box is calc-sized to exactly the
+     * scaled footprint. (Content that bleeds past content-width/height
+     * is clipped at the footprint — fit mode's contract; it previously
+     * painted beyond it at print.) Print-only, so the screen rendering
+     * keeps visible overflow for editor affordances.
+     * The export path injects the same rule into frozen copies
+     * (print-eval.ts om-print-fit-contain). The .fit-mode scope is
+     * load-bearing: .fit-box wraps slotted content in EVERY mode, and an
+     * unscoped overflow:hidden would make whole flowing documents
+     * monolithic (one truncated sheet). overflow:hidden, never clip —
+     * clip is not a scroll container, so not monolithic. */
+    @media print {
+      .fit-mode .fit-box { overflow: hidden; }
+    }
+    .fit-mode .fit {
+      width: var(--doc-fit-w);
+      height: var(--doc-fit-h);
+      transform: scale(var(--doc-fit-scale));
+      transform-origin: top left;
+    }
+    .frame td, .frame th { padding: 0; text-align: left; font-weight: inherit; }
+    .hdr-space { height: var(--doc-hdr-h); }
+    .ftr-space { height: var(--doc-ftr-h); }
+    ::slotted([slot="header"]),
+    ::slotted([slot="footer"]) { display: block; box-sizing: border-box; }
+    @media print {
+      :host { background: none; padding: 0; min-width: 0; min-height: 0; }
+      .sheet {
+        width: auto; margin: 0; box-shadow: none; border-radius: 0;
+        padding: 0 var(--doc-page-margin);
+      }
+      /* The thead/tfoot spacers repeat on every page, so they carry the
+       * vertical page margin (which the sheet's own padding cannot, since
+       * that padding is consumed once on the first/last page). The running
+       * header/footer are fixed inside that band. */
+      /* The 0.35in is breathing room between a running header/footer and
+       * the body; without one the spacer is exactly the page margin, so a
+       * margin="0" full-bleed document gets truly full-bleed pages. */
+      .hdr-space { height: max(var(--doc-page-margin), calc(var(--doc-hdr-h) + var(--doc-hdr-pad))); }
+      .ftr-space { height: max(var(--doc-page-margin), calc(var(--doc-ftr-h) + var(--doc-ftr-pad))); }
+      /* WebKit flowing documents: @page carries the vertical margin (see
+       * _syncPrintPageRule), so the spacers keep only whatever a running
+       * header/footer needs BEYOND it — page 1 would otherwise double its
+       * top inset. Paginated sheets already zero their spacers above. */
+      .sheet.wk-print:not(.paginated) .hdr-space { height: max(0px, calc(max(var(--doc-page-margin), calc(var(--doc-hdr-h) + var(--doc-hdr-pad))) - var(--doc-page-margin))); }
+      .sheet.wk-print:not(.paginated) .ftr-space { height: max(0px, calc(max(var(--doc-page-margin), calc(var(--doc-ftr-h) + var(--doc-ftr-pad))) - var(--doc-page-margin))); }
+      ::slotted([slot="header"]) {
+        position: fixed; top: 0; left: 0; right: 0; margin: 0;
+        padding: calc(var(--doc-page-margin) * 0.45) var(--doc-page-margin) 0;
+      }
+      ::slotted([slot="footer"]) {
+        position: fixed; bottom: 0; left: 0; right: 0; margin: 0;
+        padding: 0 var(--doc-page-margin) calc(var(--doc-page-margin) * 0.45);
+      }
+    }
+  `;
+  class DocPage extends HTMLElement {
+    static get observedAttributes() {
+      return ['size', 'width', 'height', 'margin', 'orientation', 'content-width', 'content-height'];
+    }
+    constructor() {
+      super();
+      this._root = this.attachShadow({
+        mode: 'open'
+      });
+      this._mo = typeof MutationObserver === 'function' ? new MutationObserver(() => this._scheduleMeasure()) : null;
+    }
+
+    /** The named paper's [w, h], swapped when orientation="landscape".
+     *  Only the named size swaps — explicit width/height are exact values
+     *  the author already oriented. */
+    _paperSize() {
+      const named = PAPER[(this.getAttribute('size') || '').toLowerCase()] || PAPER.letter;
+      const landscape = (this.getAttribute('orientation') || '').trim().toLowerCase() === 'landscape';
+      return landscape ? [named[1], named[0]] : named;
+    }
+    get pageWidth() {
+      return safeLen(this.getAttribute('width'), this._paperSize()[0]);
+    }
+    get pageHeight() {
+      return safeLen(this.getAttribute('height'), this._paperSize()[1]);
+    }
+    get pageMargin() {
+      return safeLen(this.getAttribute('margin'), '0.75in');
+    }
+
+    /** Scaled-fit mode's content box [w, h] as CSS lengths, or null when
+     *  the mode is off (either attribute missing/invalid/zero — a partial
+     *  declaration falls back to normal flow rather than guessing). */
+    _contentFit() {
+      const w = safeLen(this.getAttribute('content-width'), null);
+      const h = safeLen(this.getAttribute('content-height'), null);
+      if (!w || !h) return null;
+      const wPx = toPx(w),
+        hPx = toPx(h);
+      return wPx > 0 && hPx > 0 ? [w, h, wPx, hPx] : null;
+    }
+    connectedCallback() {
+      if (!this._sheet) this._render();
+      this._syncSize();
+      this._syncPrintPageRule();
+      this._ensureTextWrapDefaults();
+      this._ensureOwnsPrintMeta();
+      this._syncFixedSizeMeta();
+      this._syncPrintSizingMeta();
+      if (this._mo) this._mo.observe(this, {
+        subtree: true,
+        childList: true,
+        characterData: true,
+        attributes: true
+      });
+      this._onResize = () => this._scheduleMeasure();
+      window.addEventListener('resize', this._onResize);
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(() => this._scheduleMeasure());
+      }
+      this._scheduleMeasure();
+    }
+    disconnectedCallback() {
+      window.removeEventListener('resize', this._onResize);
+      if (this._mo) this._mo.disconnect();
+      if (this._raf) {
+        cancelAnimationFrame(this._raf);
+        this._raf = null;
+      }
+      // Drop the head rules when the last doc-page leaves, so a deleted
+      // document's @page geometry and text-wrap defaults can't apply to
+      // whatever replaces it.
+      const survivor = document.querySelector('doc-page');
+      if (!survivor) {
+        ['doc-page-print', 'doc-page-text-wrap', 'doc-page-owns-print', 'doc-page-fixed-size', 'doc-page-print-sizing'].forEach(id => {
+          const tag = document.getElementById(id);
+          if (tag) tag.remove();
+        });
+        // A live deck-stage deferred its own print-sizing meta to ours —
+        // hand the page-global meta over so the deck isn't left unmarked.
+        const deck = document.querySelector('deck-stage');
+        if (deck && typeof deck._ensurePrintSizingMeta === 'function') {
+          deck._ensurePrintSizingMeta();
+        }
+      } else {
+        // A departed owner hands each page-global meta to whatever
+        // doc-page remains (or it's removed).
+        if (typeof survivor._syncFixedSizeMeta === 'function') {
+          survivor._syncFixedSizeMeta();
+        }
+        if (typeof survivor._syncPrintSizingMeta === 'function') {
+          survivor._syncPrintSizingMeta();
+        }
+      }
+    }
+    attributeChangedCallback() {
+      if (!this._sheet) return;
+      this._syncSize();
+      this._syncPrintPageRule();
+      this._syncFixedSizeMeta();
+      this._syncPrintSizingMeta();
+      this._scheduleMeasure();
+    }
+    _render() {
+      this._root.innerHTML = `
+        <style>${stylesheet}</style>
+        <style id="vars"></style>
+        <div class="sheet" data-screen-label="Document">
+          <table class="frame" role="presentation">
+            <thead><tr><th><div class="hdr-space"><slot name="header"></slot></div></th></tr></thead>
+            <tbody><tr><td class="body"><div class="fit-box"><div class="fit"><slot></slot></div></div></td></tr></tbody>
+            <tfoot><tr><td><div class="ftr-space"><slot name="footer"></slot></div></td></tr></tfoot>
+          </table>
+        </div>`;
+      this._sheet = this._root.querySelector('.sheet');
+      this._vars = this._root.getElementById('vars');
+    }
+
+    /** Runtime sizing lives in a shadow <style> :host rule, never on the
+     *  light-DOM host element, so serialize-persist can't write it back. */
+    _syncSize(hdrH, ftrH) {
+      // Scaled-fit mode: content at its authored size, scaled onto the
+      // printable area (page minus margins on both axes). The factor is a
+      // plain number var so calc(length * number) stays valid; 4 decimals
+      // keeps the shadow style stable across re-measures. Upscaling is
+      // allowed — print transforms are vector, so text and CSS stay crisp
+      // (raster images soften, which the catalog bullet warns about).
+      const fit = this._contentFit();
+      let fitVars = '';
+      if (fit) {
+        const marginPx = toPx(this.pageMargin) || 0;
+        const availW = toPx(this.pageWidth) - 2 * marginPx;
+        const availH = toPx(this.pageHeight) - 2 * marginPx;
+        const scale = Math.min(availW / fit[2], availH / fit[3]);
+        if (scale > 0 && Number.isFinite(scale)) {
+          fitVars = '--doc-fit-w:' + fit[0] + ';' + '--doc-fit-h:' + fit[1] + ';' + '--doc-fit-scale:' + scale.toFixed(4) + ';';
+        }
+      }
+      this._sheet.classList.toggle('fit-mode', !!fitVars);
+      // Numeric w/h ratio for the paginated page cards' aspect-ratio —
+      // aspect-ratio takes a number, not a length ratio, so compute it
+      // here (CSS length division isn't portable). 6 decimals keeps the
+      // shadow style stable across re-syncs.
+      const arW = toPx(this.pageWidth);
+      const arH = toPx(this.pageHeight);
+      const ar = arW > 0 && arH > 0 ? (arW / arH).toFixed(6) : '0.772727';
+      this._vars.textContent = ':host{' + fitVars + '--doc-page-ar:' + ar + ';' + '--doc-page-w:' + this.pageWidth + ';' + '--doc-page-h:' + this.pageHeight + ';' + '--doc-page-margin:' + this.pageMargin + ';' + '--doc-hdr-h:' + (hdrH || 0) + 'px;' + '--doc-ftr-h:' + (ftrH || 0) + 'px;' + '--doc-hdr-pad:' + (hdrH ? '0.35in' : '0px') + ';' + '--doc-ftr-pad:' + (ftrH ? '0.35in' : '0px') + '}';
+    }
+
+    /** @page is a no-op inside shadow DOM, so the rule lives in <head>.
+     *  Re-appended on every sync so it stays last in source order — the
+     *  @page cascade is source-order per descriptor, so this rule wins
+     *  over any other @page rule in the document.
+     *
+     *  The @page SIZE is pinned where the page box IS part of the design:
+     *  explicit-fixed-size mode (width + height authored), scaled-fit
+     *  mode (the named sheet the fit targets), and explicit pagination
+     *  (the named size the cards share — so card and sheet agree on
+     *  every print path, and the export path's chosen paper overrides
+     *  BOTH with one later rule). For FLOWING documents no paper size is
+     *  emitted at all — the true size comes from the user's preference,
+     *  injected by the export path or chosen in the print dialog — so a
+     *  flowing document never fights the paper it lands on.
+     *  margin: 0 is emitted in every mode: it leaves Chrome no margin box
+     *  to draw its date/URL/page-count header in, and the visual margin
+     *  lives on the sheet's own padding. */
+    _syncPrintPageRule() {
+      const id = 'doc-page-print';
+      let tag = document.getElementById(id);
+      if (!tag) {
+        tag = document.createElement('style');
+        tag.id = id;
+      }
+      document.head.appendChild(tag);
+      // Three print-geometry regimes:
+      // - true-size: the page IS the design — pin its exact size.
+      // - scaled-fit (content-width/height): the fit factor is computed
+      //   against the NAMED paper's printable area, so that paper must
+      //   stay pinned or the scaled content overflows a smaller sheet
+      //   (the export path re-fits and re-pins at print time on top).
+      // - default modes: no paper size — but landscape still needs the
+      //   paper-agnostic 'size: landscape' keyword, because the size
+      //   descriptor is what carries orientation; without it a landscape
+      //   document prints portrait whenever nothing injects a size.
+      const landscape = (this.getAttribute('orientation') || '').trim().toLowerCase() === 'landscape';
+      // Explicit pagination pins the page box to the SAME values that
+      // size the cards (the named size by default, the export path's
+      // chosen paper when its later rule overrides both) — card and
+      // sheet agree on every print path, and a mismatched real paper
+      // shrinks-to-fit in the dialog instead of clipping a Letter card
+      // on A4. Declared before the paginated read below so both derive
+      // from one check.
+      const paginatedNow = this.querySelector(':scope > .page') !== null;
+      const sizeDescriptor = this._trueSizePx() ? 'size: ' + this.pageWidth + ' ' + this.pageHeight + '; ' : this._contentFit() ? 'size: ' + this.pageWidth + ' ' + this.pageHeight + '; ' : paginatedNow ? 'size: ' + this.pageWidth + ' ' + this.pageHeight + '; ' : landscape ? 'size: landscape; ' : '';
+      // WebKit never repeats the thead/tfoot spacers that carry a flowing
+      // document's vertical page margins (see WK_PRINT above), so pages
+      // after the first print edge-to-edge there. Carry the VERTICAL
+      // margins on @page for WebKit instead, and the shadow print CSS
+      // trims the first-page spacers by the same amount (.sheet.wk-print
+      // rules). Horizontal inset stays on the sheet's own padding in
+      // every engine. Blink keeps margin: 0 (a nonzero margin there
+      // re-opens the box Chrome draws its header furniture in). One cost,
+      // learned in testing: Safari's own date/URL headers are a USER
+      // dialog setting ("Print headers and footers") that renders in the
+      // margin area when room exists — margin: 0 only suppressed it by
+      // leaving no room, and no CSS controls it. The export dialog's
+      // Safari guide teaches turning the setting off for flowing
+      // documents. Explicitly paginated and fixed-size documents keep
+      // margin: 0 everywhere: their pages ARE the sheet.
+      const wkFlowing = WK_PRINT && !paginatedNow && !this._trueSizePx() && !this._contentFit();
+      const marginDescriptor = wkFlowing ? 'margin: ' + this.pageMargin + ' 0; ' : 'margin: 0; ';
+      // Shadow-internal marker (never serialized), kept in lockstep with
+      // the @page decision above: the print CSS trims the first-page
+      // spacers ONLY while @page actually carries the margins — a
+      // true-size or scaled-fit sheet keeps margin: 0 and must keep its
+      // spacers too. Re-synced here so attribute changes and pagination
+      // flips move both together.
+      if (this._sheet) this._sheet.classList.toggle('wk-print', wkFlowing);
+      tag.textContent = '@page { ' + sizeDescriptor + marginDescriptor + '} ' + '@media print { html, body { margin: 0 !important; padding: 0 !important; background: none !important; height: auto !important; overflow: visible !important; } ' + 'h1,h2,h3,h4,h5,h6 { break-after: avoid; } ' + 'figure,pre,blockquote,img,svg,tr { break-inside: avoid; } ' + 'p,li { orphans: 3; widows: 3; } ' + '* { -webkit-print-color-adjust: exact; print-color-adjust: exact; ' + 'backdrop-filter: none !important; -webkit-backdrop-filter: none !important; } ' + '*, *::before, *::after { animation-delay: -99s !important; animation-duration: .001s !important; ' + 'animation-iteration-count: 1 !important; animation-fill-mode: both !important; ' + 'animation-play-state: running !important; transition-duration: 0s !important; } }';
+    }
+
+    /** Typographic defaults for document text: balance headings, avoid
+     *  widowed/orphaned words in body copy (browsers without text-wrap
+     *  support drop the declarations). Zero-specificity via :where() so
+     *  any text-wrap authored on those elements wins; document-level so the
+     *  rules reach the slotted (light DOM) content — shadow styles can't.
+     *  data-omelette-injected marks the tag for the host editor to strip
+     *  at serialize, so it is never written back as authored source. */
+    _ensureTextWrapDefaults() {
+      if (document.getElementById('doc-page-text-wrap')) return;
+      const tag = document.createElement('style');
+      tag.id = 'doc-page-text-wrap';
+      tag.setAttribute('data-omelette-injected', '');
+      tag.textContent = ':where(h1,h2,h3,h4,h5,h6){text-wrap:balance}' + ':where(p,li,blockquote,figcaption){text-wrap:pretty}';
+      document.head.appendChild(tag);
+    }
+
+    /** Declares that this document owns its print CSS. The instant-PDF
+     *  export checks for the meta by NAME PRESENCE alone (content is
+     *  ignored) and skips its automatic print-CSS injections, so the
+     *  component's @page geometry is never overridden by a heuristic.
+     *  data-omelette-injected keeps it out of serialized source. */
+    _ensureOwnsPrintMeta() {
+      if (document.getElementById('doc-page-owns-print')) return;
+      const tag = document.createElement('meta');
+      tag.id = 'doc-page-owns-print';
+      tag.name = 'omelette-owns-print';
+      tag.content = 'true';
+      tag.setAttribute('data-omelette-injected', '');
+      document.head.appendChild(tag);
+    }
+
+    /** This page's valid true-size page box (explicit width AND height)
+     *  as [w, h] px ints, or null when the mode is off. */
+    _trueSizePx() {
+      if (!safeLen(this.getAttribute('width'), null) || !safeLen(this.getAttribute('height'), null)) return null;
+      const w = Math.round(toPx(this.pageWidth));
+      const h = Math.round(toPx(this.pageHeight));
+      return w > 0 && h > 0 ? [w, h] : null;
+    }
+
+    /** True-size pages (explicit width AND height) also declare the page
+     *  box as the preview size: the in-app preview reads
+     *  meta[name="omelette-fixed-size"] (content "W,H" in px ints) and
+     *  scales the sheet into view — without it an 18in poster previews at
+     *  true size with scrollbars. Never overrides an author-set meta
+     *  (only the component's own id is managed). The meta is page-global
+     *  while doc-page instances are not, so every sync recomputes the
+     *  page-wide owner — the first connected true-size doc-page — and a
+     *  non-true-size sibling's sync can never delete the owner's meta.
+     *  Removed when no true-size page remains (the owner's disconnect
+     *  re-syncs via any survivor) or when an author-set meta exists. */
+    _syncFixedSizeMeta() {
+      const id = 'doc-page-fixed-size';
+      const own = document.getElementById(id);
+      const authored = document.querySelector('meta[name="omelette-fixed-size"]:not([data-omelette-injected])');
+      // The page-wide owner, not this instance: an upgraded true-size page
+      // anywhere in the document keeps the meta alive and sized.
+      let box = null;
+      for (const el of document.querySelectorAll('doc-page')) {
+        box = typeof el._trueSizePx === 'function' ? el._trueSizePx() : null;
+        if (box) break;
+      }
+      if (!box || authored) {
+        if (own) own.remove();
+        return;
+      }
+      const tag = own || document.createElement('meta');
+      tag.id = id;
+      tag.name = 'omelette-fixed-size';
+      tag.content = box[0] + ',' + box[1];
+      tag.setAttribute('data-omelette-injected', '');
+      if (!own) document.head.appendChild(tag);
+    }
+
+    /** This page's print-sizing mode: 'fixed' when an explicit width AND
+     *  height are authored (the page is the design's own size), else the
+     *  default paper in the authored orientation. */
+    _printSizingMode() {
+      if (this._trueSizePx()) return 'fixed';
+      const landscape = (this.getAttribute('orientation') || '').trim().toLowerCase() === 'landscape';
+      return landscape ? 'default-landscape' : 'default-portrait';
+    }
+
+    /** Announces the print-sizing mode to the host app:
+     *  meta[name="omelette-print-sizing"] with content 'default-portrait',
+     *  'default-landscape', or 'fixed' (fixed pages also carry the
+     *  omelette-fixed-size meta with the page box in px). The export path
+     *  probes it to decide what true paper size to inject at print time —
+     *  in the default modes the component emits no paper size of its own.
+     *  Same page-global ownership rules as the fixed-size meta above:
+     *  first connected doc-page owns it, an authored meta is never
+     *  overridden, removed when no doc-page remains. */
+    _syncPrintSizingMeta() {
+      const id = 'doc-page-print-sizing';
+      const own = document.getElementById(id);
+      const authored = document.querySelector('meta[name="omelette-print-sizing"]:not([data-omelette-injected])');
+      // A fixed page wins outright (mirroring the fixed-size loop above,
+      // so the two metas can never contradict each other in a mixed
+      // multi-page document); otherwise the first page's mode holds.
+      let mode = null;
+      for (const el of document.querySelectorAll('doc-page')) {
+        if (typeof el._printSizingMode !== 'function') continue;
+        const m = el._printSizingMode();
+        if (m === 'fixed') {
+          mode = m;
+          break;
+        }
+        if (mode === null) mode = m;
+      }
+      if (!mode || authored) {
+        if (own) own.remove();
+        return;
+      }
+      // A deck-stage that connected first injected its own meta and
+      // defers to any existing one — take it over, or the document ends
+      // up with two conflicting injected metas (a doc-page page is the
+      // document; the deck re-ensures its meta if every doc-page leaves).
+      const deckMeta = document.getElementById('deck-stage-print-sizing');
+      if (deckMeta) deckMeta.remove();
+      const tag = own || document.createElement('meta');
+      tag.id = id;
+      tag.name = 'omelette-print-sizing';
+      tag.content = mode;
+      tag.setAttribute('data-omelette-injected', '');
+      if (!own) document.head.appendChild(tag);
+    }
+    _scheduleMeasure() {
+      if (this._raf) return;
+      this._raf = requestAnimationFrame(() => {
+        this._raf = null;
+        this._measure();
+      });
+    }
+
+    /** Slot heights feed the print spacers (--doc-hdr-h / --doc-ftr-h), so
+     *  they re-measure on content mutation, resize, and font load. The
+     *  same pass detects explicit pagination (direct .page children) and
+     *  toggles the sheet between the flowing-document card and the
+     *  page-per-card stack — content edits can add or remove pages at any
+     *  time, so this tracks the same mutations the measurement does. */
+    _measure() {
+      const hdr = this.querySelector(':scope > [slot="header"]');
+      const ftr = this.querySelector(':scope > [slot="footer"]');
+      const wasPaginated = this._sheet.classList.contains('paginated');
+      this._sheet.classList.toggle('paginated', this.querySelector(':scope > .page') !== null);
+      // The WebKit @page margin is flowing-only, so a pagination flip
+      // must re-emit the rule (content edits can add or remove .page
+      // sections at any time).
+      if (this._sheet.classList.contains('paginated') !== wasPaginated) {
+        this._syncPrintPageRule();
+      }
+      this._syncSize(hdr ? hdr.offsetHeight : 0, ftr ? ftr.offsetHeight : 0);
+    }
+  }
+  if (!customElements.get('doc-page')) {
+    customElements.define('doc-page', DocPage);
+  }
+})();
+})(); } catch (e) { __ds_ns.__errors.push({ path: "reports/doc-page.js", error: String((e && e.message) || e) }); }
+
 __ds_ns.Accordion = __ds_scope.Accordion;
 
 __ds_ns.ArtworkPin = __ds_scope.ArtworkPin;
+
+__ds_ns.Awards = __ds_scope.Awards;
 
 __ds_ns.Chapter = __ds_scope.Chapter;
 
@@ -40969,6 +45219,8 @@ __ds_ns.JobList = __ds_scope.JobList;
 
 __ds_ns.LabelledBlock = __ds_scope.LabelledBlock;
 
+__ds_ns.LinkList = __ds_scope.LinkList;
+
 __ds_ns.ListingFilters = __ds_scope.ListingFilters;
 
 __ds_ns.Matters = __ds_scope.Matters;
@@ -40984,6 +45236,10 @@ __ds_ns.OfficeMap = __ds_scope.OfficeMap;
 __ds_ns.OffsetGallery = __ds_scope.OffsetGallery;
 
 __ds_ns.PeopleCarousel = __ds_scope.PeopleCarousel;
+
+__ds_ns.PodcastEpisodes = __ds_scope.PodcastEpisodes;
+
+__ds_ns.Recognition = __ds_scope.Recognition;
 
 __ds_ns.Record = __ds_scope.Record;
 
@@ -41085,6 +45341,8 @@ __ds_ns.MetaRule = __ds_scope.MetaRule;
 
 __ds_ns.MetaLine = __ds_scope.MetaLine;
 
+__ds_ns.PageGround = __ds_scope.PageGround;
+
 __ds_ns.RasterField = __ds_scope.RasterField;
 
 __ds_ns.RevealEffects = __ds_scope.RevealEffects;
@@ -41094,6 +45352,8 @@ __ds_ns.RevealEffect = __ds_scope.RevealEffect;
 __ds_ns.ScrollHold = __ds_scope.ScrollHold;
 
 __ds_ns.Tabs = __ds_scope.Tabs;
+
+__ds_ns.WASH = __ds_scope.WASH;
 
 __ds_ns.MEDIA = __ds_scope.MEDIA;
 
@@ -41120,6 +45380,8 @@ __ds_ns.Checkbox = __ds_scope.Checkbox;
 __ds_ns.CheckboxGroup = __ds_scope.CheckboxGroup;
 
 __ds_ns.FileField = __ds_scope.FileField;
+
+__ds_ns.FilterSearch = __ds_scope.FilterSearch;
 
 __ds_ns.RadioGroup = __ds_scope.RadioGroup;
 
@@ -41179,6 +45441,8 @@ __ds_ns.RiseIn = __ds_scope.RiseIn;
 
 __ds_ns.WordFill = __ds_scope.WordFill;
 
+__ds_ns.BannerContacts = __ds_scope.BannerContacts;
+
 __ds_ns.Breadcrumbs = __ds_scope.Breadcrumbs;
 
 __ds_ns.ClosingFooter = __ds_scope.ClosingFooter;
@@ -41196,5 +45460,7 @@ __ds_ns.SiteNav = __ds_scope.SiteNav;
 __ds_ns.TakeoverMenu = __ds_scope.TakeoverMenu;
 
 __ds_ns.WordmarkMasthead = __ds_scope.WordmarkMasthead;
+
+__ds_ns.SEARCH_CATEGORIES = __ds_scope.SEARCH_CATEGORIES;
 
 })();
