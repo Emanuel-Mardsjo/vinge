@@ -7,14 +7,14 @@
 </head>
 <body>
 <x-dc>
-<!-- @template name="Register A–Ö" description="Verksamhetsområden and Branscher: the canonical page banner, then every row of the index page grouped by first letter, A to Ö. The row is the link; resting on it folds out the page's ingress. The side filter searches labels, page titles and sub-pages, and narrows by letter." -->
+<!-- @template name="Register A–Ö" description="Verksamhetsområden and Branscher: the canonical page banner, then every row of the index page grouped by first letter, A to Ö. The letters stand side by side as columns, each row a link to its page. The side filter searches labels, page titles and sub-pages, and narrows by letter." -->
 <helmet><script src="./ds-base.js"></script><script src="./register-data.js"></script><style>body{margin:0;background:var(--paper);color:var(--ink)}</style></helmet>
 <div style="min-height:100vh">
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.SiteHeader" logo-src="../../assets/logo-paper.svg" on-menu="{{ toggleMenu }}" menu-open="{{ menuOpen }}" hint-size="100%,96px"></x-import>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.TakeoverMenu" open="{{ menuOpen }}" items="{{ navItems }}" utility="{{ navUtility }}" highlights="{{ navHighlights }}" on-close="{{ closeMenu }}" hint-size="0,0"></x-import>
 <main>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.PageBanner" title="{{ title }}" trail="{{ trail }}" hint-size="100%,260px"></x-import>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="register" views="{{ false }}" listing="{{ true }}" spine="letter" readout="{{ false }}" title="" premise="" all-line="" closing-line="" action-label="" open-label="Läs mer" search-placeholder="{{ searchPlaceholder }}" entries="{{ entries }}" term-filter="{{ true }}" match-line="{{ countLine }}" term-line="{{ countLine }}" flush-top="{{ true }}" hint-size="100%,1400px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" id="register" views="{{ false }}" listing="{{ true }}" spine="letter" columns="{{ true }}" readout="{{ false }}" title="" premise="" all-line="" closing-line="" action-label="" open-label="Läs mer" search-placeholder="{{ searchPlaceholder }}" entries="{{ entries }}" term-filter="{{ true }}" match-line="{{ countLine }}" term-line="{{ countLine }}" flush-top="{{ true }}" hint-size="100%,1400px"></x-import>
 </main>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.ClosingFooter" logo-src="../../assets/logo-mint.svg" phone="08-614 30 00" hint-size="100%,720px"></x-import>
 </div>

@@ -25,7 +25,16 @@
 
   --tracking-display-1: -0.015em; /* @kind font */
   --tracking-display-2: 0.002em; /* @kind font */
-  --tracking-display-3: 0.022em; /* @kind font */
+  /* Vinge under 40px: its hairlines thin out as the size drops, so tracking
+     and word spacing open as it falls. Both read the element's own size (1em),
+     so every Vinge setting below 40px takes them: 0.022em and 0.05em at 40px,
+     about 0.032em and 0.066em at 24px. Nothing at 40px or above changes. */
+  --tracking-display-3: calc(0.022em + max(0px, 2.5rem - 1em) * 0.015); /* @kind font */
+  --word-spacing-display: calc(0.05em + max(0px, 2.5rem - 1em) * 0.024); /* @kind font */
+  /* A 0.008em stroke in the text colour on Vinge below 40px, so the hairlines
+     (the ring on å, the top of e) hold. Steps on below 40px, off at 40px and
+     above. Pair with -webkit-text-stroke: var(--stroke-display) currentColor. */
+  --stroke-display: clamp(0px, (2.5rem - 1em) * 100, 0.008em); /* @kind other */
 
   --weight-book: 400; /* @kind font */
   --weight-medium: 500; /* @kind font */
@@ -47,7 +56,7 @@
 }
 .display-1 { font-size: var(--display-1); line-height: var(--lh-display-1); letter-spacing: var(--tracking-display-1); max-width: var(--measure-display-1); }
 .display-2 { font-size: var(--display-2); line-height: var(--lh-display-2); letter-spacing: var(--tracking-display-2); max-width: var(--measure-display-2); }
-.display-3 { font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); }
+.display-3 { font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); word-spacing: var(--word-spacing-display); -webkit-text-stroke: var(--stroke-display) currentColor; max-width: var(--measure-display-3); }
 
 .lead, .prose, .small {
   font-family: var(--font-text);
@@ -57,11 +66,10 @@
 }
 .lead  { font-size: var(--text-lead);  line-height: var(--lh-lead);  max-width: var(--measure-lead); }
 /* The serif preamble: a page opener's lead in the display voice. display-3
-   size and tracking, leading a step past the passage leading (1.34) so several
-   lines of preamble breathe. No measure of its own — it takes the
+   size and tracking, leading 1.4. No measure of its own — it takes the
    columns of the title it sits under. `.lead` stays the sans preamble for
    body contexts (rich text, ProseBlock, Matters). */
-.lead-display { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: 1.34; letter-spacing: var(--tracking-display-3); max-width: none; margin: 0; text-wrap: pretty; }
+.lead-display { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: 1.4; letter-spacing: var(--tracking-display-3); word-spacing: var(--word-spacing-display); -webkit-text-stroke: var(--stroke-display) currentColor; max-width: none; margin: 0; text-wrap: pretty; }
 .subhead { font-family: var(--font-text); font-weight: 700; font-size: var(--text-subhead); line-height: var(--lh-subhead); max-width: var(--measure-prose); margin: 0; }
 .prose { font-size: var(--text-base);  line-height: var(--lh-base);  max-width: var(--measure-prose); }
 .small { font-size: var(--text-small); line-height: var(--lh-small); max-width: var(--measure-small); }
@@ -96,7 +104,7 @@
    not a heading. 700 has no face to match, so the browser synthesises the
    weight and the level reads. Replace this with the real Medium and Bold cuts
    when they are supplied. */
-.rte h2 { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--space-2) }
+.rte h2 { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); word-spacing: var(--word-spacing-display); -webkit-text-stroke: var(--stroke-display) currentColor; max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--space-2) }
 .rte h3 { font-family: var(--font-text); font-weight: 700; font-size: var(--text-subhead); line-height: var(--lh-subhead); max-width: var(--measure-prose); margin: var(--rte-group) 0 var(--space-1) }
 .rte h4 { font-family: var(--font-text); font-weight: 700; font-size: var(--text-small); line-height: var(--lh-small); max-width: var(--measure-small); margin: var(--rte-group) 0 var(--space-1) }
 /* The lower levels are labels rather than titles: same bold small type, in
@@ -122,7 +130,7 @@
 .rte ol > li::before { content: counter(rte-item) "."; position: absolute; left: 0; color: var(--text-secondary) }
 /* The pull quote is display-3, the same voice as h2, so it takes the section
    break above it and closes on a group gap. */
-.rte blockquote { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: var(--lh-display-3); letter-spacing: var(--tracking-display-3); max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--rte-group); padding: 0 }
+.rte blockquote { font-family: var(--font-display); font-weight: var(--weight-book); font-size: var(--display-3); line-height: 1.4; letter-spacing: var(--tracking-display-3); word-spacing: var(--word-spacing-display); -webkit-text-stroke: var(--stroke-display) currentColor; max-width: var(--measure-display-3); margin: var(--rte-section) 0 var(--rte-group); padding: 0 }
 /* The mark over it: the Swedish close quote in the display face, at the
    Testimonials mark's lower bound, hung so its foot sits just above the first
    line. */

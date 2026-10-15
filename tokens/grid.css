@@ -494,6 +494,9 @@ the two-column band. */
 [data-disc-full] { display: none; }
 [data-record-terms-scroll] { max-height: calc((100svh - 19rem) / 2); overflow-y: auto; overscroll-behavior: contain; }
 [data-record-terms-head] { display: none; }
+/* Register columns: the rows are plain links, underlined on approach. */
+[data-record-columns] a { text-decoration: none; text-underline-offset: .18em; text-decoration-thickness: 1px; }
+[data-record-columns] a:hover, [data-record-columns] a:focus-visible { text-decoration: underline; text-decoration-color: var(--underline-active); outline: none; }
 [data-record-terms-heading] { margin-block-end: var(--space-3); }
 @media (max-width: 767px) { [data-record-terms] { position: static; } }
 

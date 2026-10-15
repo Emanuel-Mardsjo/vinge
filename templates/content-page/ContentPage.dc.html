@@ -26,7 +26,7 @@
 input[data-tf]:focus-visible{outline:2px solid var(--focus-ring);outline-offset:6px}
 input[data-tf]{width:100%;box-sizing:border-box;margin:0;padding:var(--space-1) 0;border:0;border-bottom:1px solid var(--text-secondary);border-radius:0;background:transparent;color:var(--text-primary);font-family:var(--font-text);font-size:var(--text-small);line-height:var(--lh-small)}
 input[data-tf][aria-invalid="true"]{border-bottom-width:2px;border-bottom-color:var(--ink)}
-[data-submit]{all:unset;cursor:pointer;font-family:var(--font-display);font-weight:var(--weight-book);font-size:var(--display-3);line-height:var(--lh-display-3);letter-spacing:var(--tracking-display-3);color:var(--text-primary);text-decoration:underline;text-decoration-color:var(--underline-rest);text-decoration-thickness:1px;text-underline-offset:.18em;transition:text-underline-offset 450ms var(--ease-expo),text-decoration-color 450ms var(--ease-expo)}
+[data-submit]{all:unset;cursor:pointer;font-family:var(--font-display);font-weight:var(--weight-book);font-size:var(--display-3);line-height:var(--lh-display-3);letter-spacing:var(--tracking-display-3);word-spacing:var(--word-spacing-display);-webkit-text-stroke:var(--stroke-display) currentColor;color:var(--text-primary);text-decoration:underline;text-decoration-color:var(--underline-rest);text-decoration-thickness:1px;text-underline-offset:.18em;transition:text-underline-offset 450ms var(--ease-expo),text-decoration-color 450ms var(--ease-expo)}
 [data-submit]:hover{text-decoration-color:var(--underline-active);text-decoration-thickness:2px;text-underline-offset:.30em}
 [data-submit]:focus-visible{outline:2px solid var(--focus-ring);outline-offset:6px}
 [data-person]{grid-column:span 1}
@@ -89,6 +89,8 @@ input[data-tf][aria-invalid="true"]{border-bottom-width:2px;border-bottom-color:
 <section data-screen-label="07 Lyft" id="lyft" style="padding-top:var(--section-gap)">
 <sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>07 Lyft</b><span>Feature</span><span>One story lifted out of the run: a film, a programme. Replaces the old dark banner. Max 1.</span></div></div></sc-if>
 <x-import component-from-global-scope="VingeDesignSystem_8582c7.Feature" heading="The Seat." body="På Vinge uppmuntras alla att göra skillnad. Därför är alltid en nyanställd med på våra ledningsgruppsmöten. Som en symbol för att få ta plats runt bordet tog vi fram en specialtillverkad stol." link="{{ seatLink }}" image-src="../../assets/images/anonymous-01.png" image-alt="Platshållare för filmens stillbild: The Seat" hint-size="100%,640px"></x-import>
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann style="margin-top:var(--section-gap)"><div><b>07 Lyft, film</b><span>Feature, film</span><span>The same block with a film: the still as the raster, the title centred, "Spela filmen" as its one action. Play swaps in the player in place. No link.</span></div></div></sc-if>
+<div style="margin-top:var(--section-gap)"><x-import component-from-global-scope="VingeDesignSystem_8582c7.Feature" heading="The Seat." body="På Vinge uppmuntras alla att göra skillnad. Därför är alltid en nyanställd med på våra ledningsgruppsmöten. Som en symbol för att få ta plats runt bordet tog vi fram en specialtillverkad stol." image-src="../../assets/images/office-02.png" image-alt="Platshållare för filmens stillbild: The Seat by Vinge" film="https://player.vimeo.com/video/776128353?h=4fe1180833&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" hint-size="100%,640px"></x-import></div>
 </section>
 
 <section data-screen-label="08 Rader" id="rader" style="padding-top:var(--section-gap)">
@@ -778,8 +780,10 @@ class Component extends DCLogic {
            stands in for the editor's image); documents and bare links are Länkar,
            under the block's heading, else a lone item's own heading. */
         if (b.type === 'related') {
-          const its = b.items || [];
-          const out = its.filter((t) => t.line && t.kind !== 'document').map((t, n) => { const sc = SC[pn++ % 3]; return { k: k + 'p' + n, isPair: true, props: { scale: sc, imageSrc: '../../assets/images/office-0' + (1 + (pn % 8)) + '.png', imageAlt: 'Platshållarbild: ' + (t.heading || t.label), heading: t.heading || undefined, body: this.lines(t.line), cta: t.href ? { label: t.label, href: t.href } : undefined, style: { paddingBlock: 0 } } }; });
+          /* An item that leads to a page carrying a film is the film's Feature, as on the career pages. */
+          const feats = [];
+          const its = (b.items || []).filter((t, n) => { const f = t.line && t.kind !== 'document' && this.filmAt(t.href); if (!f) return true; feats.push({ k: k + 'f' + n, isFeature: true, heading: t.heading || f.heading, body: String(t.line).replace(/\s*\n\s*/g, ' '), src: f.src, alt: f.alt, film: f.film }); return false; });
+          const out = feats.concat(its.filter((t) => t.line && t.kind !== 'document').map((t, n) => { const sc = SC[pn++ % 3]; return { k: k + 'p' + n, isPair: true, props: { scale: sc, imageSrc: '../../assets/images/office-0' + (1 + (pn % 8)) + '.png', imageAlt: 'Platshållarbild: ' + (t.heading || t.label), heading: t.heading || undefined, body: this.lines(t.line), cta: t.href ? { label: t.label, href: t.href } : undefined, style: { paddingBlock: 0 } } }; }));
           const bare = its.filter((t) => !t.line || t.kind === 'document');
           if (bare.length) out.push({ k: k + 'l', isLinks: true, heading: b.heading || (bare.length === 1 && bare[0].heading) || '', items: bare.map((t) => ({ label: t.label, href: t.href, kind: t.kind })) });
           return out;
@@ -847,6 +851,15 @@ class Component extends DCLogic {
     }
     return steps.concat([trail[trail.length - 1]]);
   }
+  /* The film a page carries, by its href: the first film pair on that page in the career data. */
+  filmAt(href) {
+    const pages = (window.VingeKarriar && window.VingeKarriar.pages) || {};
+    const want = String(href || '').replace(/^\/|\/$/g, '');
+    if (!want) return null;
+    const pg = pages[want] || pages[want + '/index'];
+    const f = pg && (pg.blocks || []).find((x) => x.type === 'pair' && x.media && x.media.kind === 'film' && x.media.film);
+    return f ? { heading: f.heading, src: f.media.image.src, alt: f.media.image.alt, film: String(f.media.film).replace(/&amp;/g, '&') } : null;
+  }
   expertisVals(p) {
     const X = window.VingeExpertis;
     /* Podcast art, square, through the same proxy: pod.space sends no CORS header either. */
@@ -878,9 +891,11 @@ class Component extends DCLogic {
            image is the editor's to add; a placeholder stands in), the bare
            links that are left are Länkar. */
         if (b.type === 'related') {
-          const its = b.items || [];
+          /* An item that leads to a page carrying a film is the film's Feature, as on the career pages. */
+          const feats = [];
+          const its = (b.items || []).filter((t, n) => { const f = t.line && t.kind !== 'document' && this.filmAt(t.href); if (!f) return true; feats.push({ k: k + 'f' + n, isFeature: true, heading: t.heading || f.heading, body: String(t.line).replace(/\s*\n\s*/g, ' '), src: f.src, alt: f.alt, film: f.film }); return false; });
           if (its.length && its.every((t) => AWARD_TEXT[t.label])) return { k, isAwards: true, label: 'Utmärkelser', items: its.map((t) => AWARD_TEXT[t.label]) };
-          const out = its.filter((t) => t.line).map((t, n) => { const sc = PAIR_SCALES[pairN++ % 3]; return { k: k + 'p' + n, isPair: true, props: { scale: sc, imageSrc: '../../assets/images/office-0' + (1 + (pairN % 8)) + '.png', imageAlt: 'Platshållarbild: ' + (t.heading || t.label), heading: t.heading || undefined, body: this.lines(t.line), cta: t.href ? { label: t.label, href: t.href } : undefined, style: { paddingBlock: 0 } } }; });
+          const out = feats.concat(its.filter((t) => t.line).map((t, n) => { const sc = PAIR_SCALES[pairN++ % 3]; return { k: k + 'p' + n, isPair: true, props: { scale: sc, imageSrc: '../../assets/images/office-0' + (1 + (pairN % 8)) + '.png', imageAlt: 'Platshållarbild: ' + (t.heading || t.label), heading: t.heading || undefined, body: this.lines(t.line), cta: t.href ? { label: t.label, href: t.href } : undefined, style: { paddingBlock: 0 } } }; }));
           const bare = its.filter((t) => !t.line);
           if (bare.length) out.push({ k: k + 'l', isLinks: true, heading: b.heading || '', items: bare.map((t) => ({ label: t.label, href: t.href, kind: t.kind })) });
           return out;

@@ -63,7 +63,7 @@ a:hover, .cta:hover {
   font-family: var(--font-display);
   font-size: var(--display-3);
   font-weight: var(--weight-book);
-  letter-spacing: var(--tracking-display-3);
+  letter-spacing: var(--tracking-display-3); word-spacing: var(--word-spacing-display); -webkit-text-stroke: var(--stroke-display) currentColor;
   line-height: var(--lh-display-3);
 }
 /* Caption-size CTA. One size means one size: this is text-small, the same
@@ -92,7 +92,8 @@ a:hover, .cta:hover {
   font-family: var(--font-display);
   font-size: var(--display-3);
   font-weight: var(--weight-book);
-  letter-spacing: 0.038em;
+  letter-spacing: calc(0.038em + max(0px, 2.5rem - 1em) * 0.015);
+  word-spacing: var(--word-spacing-display); -webkit-text-stroke: var(--stroke-display) currentColor;
   line-height: 1.32;
   display: inline-flex;
   align-items: baseline;

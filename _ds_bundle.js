@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"Accordion","sourcePath":"components/blocks/Accordion.jsx"},{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Awards","sourcePath":"components/blocks/Awards.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"ContentCarousel","sourcePath":"components/blocks/ContentCarousel.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"DEMO_PAGES","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FORM_EXAMPLES","sourcePath":"components/blocks/formExamples.jsx"},{"name":"FormBlock","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"EMBED_REFUSAL","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"FORM_SIGNATURES","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"JobList","sourcePath":"components/blocks/JobList.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"LinkList","sourcePath":"components/blocks/LinkList.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NewsList","sourcePath":"components/blocks/NewsList.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"PodcastEpisodes","sourcePath":"components/blocks/PodcastEpisodes.jsx"},{"name":"Recognition","sourcePath":"components/blocks/Recognition.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"StatementBlock","sourcePath":"components/blocks/StatementBlock.jsx"},{"name":"SubscribeBlock","sourcePath":"components/blocks/SubscribeBlock.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaRule","sourcePath":"components/core/MetaLine.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"PageGround","sourcePath":"components/core/PageGround.jsx"},{"name":"RasterField","sourcePath":"components/core/RasterField.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"WASH","sourcePath":"components/core/darkGround.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"SCREEN_R","sourcePath":"components/core/screenShape.jsx"},{"name":"V_ANGLE","sourcePath":"components/core/screenShape.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"CheckboxGroup","sourcePath":"components/forms/CheckboxGroup.jsx"},{"name":"FileField","sourcePath":"components/forms/FileField.jsx"},{"name":"FilterSearch","sourcePath":"components/forms/FilterSearch.jsx"},{"name":"RadioGroup","sourcePath":"components/forms/RadioGroup.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"TextArea","sourcePath":"components/forms/TextArea.jsx"},{"name":"TextField","sourcePath":"components/forms/TextField.jsx"},{"name":"TopicList","sourcePath":"components/forms/TopicList.jsx"},{"name":"FieldLabel","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldMessage","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldLine","sourcePath":"components/forms/fieldParts.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Feature","sourcePath":"components/layout/Feature.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"BannerContacts","sourcePath":"components/navigation/BannerContacts.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SectionNav","sourcePath":"components/navigation/SectionNav.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"},{"name":"SEARCH_CATEGORIES","sourcePath":"components/navigation/siteSearch.jsx"}],"sourceHashes":{"components/blocks/Accordion.jsx":"0b94c7425a63","components/blocks/ArtworkPin.jsx":"57387dc008e1","components/blocks/Awards.jsx":"73333922fb6f","components/blocks/Chapter.jsx":"f41941619697","components/blocks/ContentCarousel.jsx":"0fa310578851","components/blocks/DemoConsole.jsx":"13b5492e046c","components/blocks/FormBlock.jsx":"2d25a0ee1e17","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"0c411800f48d","components/blocks/ImageScreen.jsx":"3591f9e4dbcd","components/blocks/JobList.jsx":"c5858d4155d1","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/LinkList.jsx":"74838e586863","components/blocks/ListingFilters.jsx":"20a5b4afd1bb","components/blocks/Matters.jsx":"4a94ba93b0c7","components/blocks/NewsList.jsx":"e29e2723b72a","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"387b99c2370d","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"412fb2ebe7e5","components/blocks/PodcastEpisodes.jsx":"f84b5e4ce276","components/blocks/Recognition.jsx":"7982d0d697ea","components/blocks/Record.jsx":"b922c5bac7ff","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/StatementBlock.jsx":"9735db1b3700","components/blocks/SubscribeBlock.jsx":"867baa1c38bd","components/blocks/Testimonials.jsx":"51e1d74fc60d","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/blocks/formExamples.jsx":"a0941b4e5c26","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"d16d6ded38c8","components/conversation/Composer.jsx":"6ecb3903db74","components/conversation/ContactCard.jsx":"a445893e3588","components/conversation/ConversationHeader.jsx":"c28cbe9bc41f","components/conversation/ConversationRail.jsx":"a531b2d38447","components/conversation/ConversationRegister.jsx":"81cdf85deb5c","components/conversation/ConversationStarters.jsx":"3976062145e6","components/conversation/ConversationSurface.jsx":"7ab91d907fee","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"e2205c401281","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"d779a8498638","components/conversation/scripts.jsx":"67e02aa874df","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"97d4619d7547","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"d7a228845574","components/core/DotField.jsx":"31e933fa57bd","components/core/Figure.jsx":"f0d003e16925","components/core/Mark.jsx":"8726517a2c2a","components/core/MetaLine.jsx":"739c896adab3","components/core/PageGround.jsx":"237a95dafda1","components/core/RasterField.jsx":"2f557da81a76","components/core/RevealEffect.jsx":"3f5729b2301b","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"4fbd6db6e7b9","components/core/focusSource.jsx":"ae174bded419","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"f0ab4adbf876","components/core/noirPlate.jsx":"05a78b7071a6","components/core/screenShape.jsx":"a40076067a68","components/forms/Checkbox.jsx":"3838a5da09ee","components/forms/CheckboxGroup.jsx":"21ccbf4668ae","components/forms/FileField.jsx":"f114278a6ca2","components/forms/FilterSearch.jsx":"287eadb530b0","components/forms/RadioGroup.jsx":"d977d665c939","components/forms/Select.jsx":"ea83f67f50bd","components/forms/TextArea.jsx":"c1088416cb5a","components/forms/TextField.jsx":"415124cacfa1","components/forms/TopicList.jsx":"a93a4f0ed555","components/forms/fieldParts.jsx":"7c290a8cbe53","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"6a4829c0e2d1","components/layout/CarouselHero.jsx":"02007caffe66","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Feature.jsx":"de58313ef018","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"2fea226eec5b","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"26f5ba63645c","components/layout/PageBanner.jsx":"aac47b042df2","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"298d184626ce","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"8516a6d1242e","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/BannerContacts.jsx":"2beea86e4660","components/navigation/Breadcrumbs.jsx":"6313c5a4f8c6","components/navigation/ClosingFooter.jsx":"8ce14668901b","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SectionNav.jsx":"4a4c3b001bca","components/navigation/SiteHeader.jsx":"cca4be5dce5a","components/navigation/SiteNav.jsx":"7f8c0b28b2cd","components/navigation/TakeoverMenu.jsx":"a3891614201a","components/navigation/WordmarkMasthead.jsx":"319f0e40e31c","components/navigation/siteSearch.jsx":"f7b2a9e290b3","deck-stage.js":"f3d3d0a662c0","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea","reports/doc-page.js":"f52ae9c02fca"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"fieldText","sourcePath":"components/forms/fieldParts.jsx"},{"name":"findIn","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"getHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getScreenOptions","sourcePath":"components/core/screenShape.jsx"},{"name":"getScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"isKeyFocus","sourcePath":"components/forms/fieldParts.jsx"},{"name":"jobId","sourcePath":"components/blocks/JobList.jsx"},{"name":"lineMinPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"loadSearch","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"normOptions","sourcePath":"components/forms/fieldParts.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"portraitSrc","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"readEmbed","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"revealScale","sourcePath":"components/core/screenShape.jsx"},{"name":"revealWave","sourcePath":"components/core/screenShape.jsx"},{"name":"screenAngleFor","sourcePath":"components/core/screenShape.jsx"},{"name":"screenFill","sourcePath":"components/core/screenShape.jsx"},{"name":"screenMark","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPaths","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"screenSteps","sourcePath":"components/core/screenShape.jsx"},{"name":"setHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"shortenCrumb","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"siteSearch","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"srOnly","sourcePath":"components/forms/fieldParts.jsx"},{"name":"suggestFrom","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"usePageGround","sourcePath":"components/core/PageGround.jsx"},{"name":"useScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
+/* @ds-bundle: {"format":4,"namespace":"VingeDesignSystem_8582c7","components":[{"name":"Accordion","sourcePath":"components/blocks/Accordion.jsx"},{"name":"ArtworkPin","sourcePath":"components/blocks/ArtworkPin.jsx"},{"name":"Awards","sourcePath":"components/blocks/Awards.jsx"},{"name":"Chapter","sourcePath":"components/blocks/Chapter.jsx"},{"name":"ContentCarousel","sourcePath":"components/blocks/ContentCarousel.jsx"},{"name":"DemoConsole","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"DEMO_PAGES","sourcePath":"components/blocks/DemoConsole.jsx"},{"name":"FORM_EXAMPLES","sourcePath":"components/blocks/formExamples.jsx"},{"name":"FormBlock","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"EMBED_REFUSAL","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"FORM_SIGNATURES","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"GalleryRow","sourcePath":"components/blocks/GalleryRow.jsx"},{"name":"ImageReveal","sourcePath":"components/blocks/ImageReveal.jsx"},{"name":"ImageScreen","sourcePath":"components/blocks/ImageScreen.jsx"},{"name":"JobList","sourcePath":"components/blocks/JobList.jsx"},{"name":"LabelledBlock","sourcePath":"components/blocks/LabelledBlock.jsx"},{"name":"LinkList","sourcePath":"components/blocks/LinkList.jsx"},{"name":"ListingFilters","sourcePath":"components/blocks/ListingFilters.jsx"},{"name":"Matters","sourcePath":"components/blocks/Matters.jsx"},{"name":"NewsList","sourcePath":"components/blocks/NewsList.jsx"},{"name":"NumberedList","sourcePath":"components/blocks/NumberedList.jsx"},{"name":"VINGE_OFFICES","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OfficeMap","sourcePath":"components/blocks/OfficeMap.jsx"},{"name":"OffsetGallery","sourcePath":"components/blocks/OffsetGallery.jsx"},{"name":"PeopleCarousel","sourcePath":"components/blocks/PeopleCarousel.jsx"},{"name":"PodcastEpisodes","sourcePath":"components/blocks/PodcastEpisodes.jsx"},{"name":"Recognition","sourcePath":"components/blocks/Recognition.jsx"},{"name":"Record","sourcePath":"components/blocks/Record.jsx"},{"name":"RichText","sourcePath":"components/blocks/RichText.jsx"},{"name":"SectionLabel","sourcePath":"components/blocks/SectionLabel.jsx"},{"name":"SpecTable","sourcePath":"components/blocks/SpecTable.jsx"},{"name":"StatementBlock","sourcePath":"components/blocks/StatementBlock.jsx"},{"name":"SubscribeBlock","sourcePath":"components/blocks/SubscribeBlock.jsx"},{"name":"Testimonials","sourcePath":"components/blocks/Testimonials.jsx"},{"name":"WordmarkBand","sourcePath":"components/blocks/WordmarkBand.jsx"},{"name":"OrbMark","sourcePath":"components/brand/OrbMark.jsx"},{"name":"ORB_PRESETS","sourcePath":"components/brand/orbBraid.jsx"},{"name":"ChoiceComposer","sourcePath":"components/conversation/ChoiceComposer.jsx"},{"name":"Composer","sourcePath":"components/conversation/Composer.jsx"},{"name":"ContactCard","sourcePath":"components/conversation/ContactCard.jsx"},{"name":"ConversationHeader","sourcePath":"components/conversation/ConversationHeader.jsx"},{"name":"OFFICE_CONTACTS","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"RailContact","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"FoundList","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRail","sourcePath":"components/conversation/ConversationRail.jsx"},{"name":"ConversationRegister","sourcePath":"components/conversation/ConversationRegister.jsx"},{"name":"CONVERSATION_STARTERS","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"CONVERSATION_STARTERS_V2","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationStarters","sourcePath":"components/conversation/ConversationStarters.jsx"},{"name":"ConversationSurface","sourcePath":"components/conversation/ConversationSurface.jsx"},{"name":"ConversationTurn","sourcePath":"components/conversation/ConversationTurn.jsx"},{"name":"GuidedConversation","sourcePath":"components/conversation/GuidedConversation.jsx"},{"name":"OfferedAnswers","sourcePath":"components/conversation/OfferedAnswers.jsx"},{"name":"CONVERSATION_EVENT","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"OpenConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"SiteConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"GhostLoader","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"WorkingIndicator","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"SCRIPT_FORVARV","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_TVIST","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_JOBB","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_PRIVAT","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_NAMN","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_HITTA","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPT_KARRIAR","sourcePath":"components/conversation/scripts.jsx"},{"name":"PEOPLE","sourcePath":"components/conversation/scripts.jsx"},{"name":"SCRIPTS","sourcePath":"components/conversation/scripts.jsx"},{"name":"ActionRow","sourcePath":"components/core/ActionRow.jsx"},{"name":"ArrowLink","sourcePath":"components/core/ArrowLink.jsx"},{"name":"CarouselNav","sourcePath":"components/core/CarouselNav.jsx"},{"name":"CtaLink","sourcePath":"components/core/CtaLink.jsx"},{"name":"DotField","sourcePath":"components/core/DotField.jsx"},{"name":"ImageLoad","sourcePath":"components/core/Figure.jsx"},{"name":"Figure","sourcePath":"components/core/Figure.jsx"},{"name":"Mark","sourcePath":"components/core/Mark.jsx"},{"name":"MetaRule","sourcePath":"components/core/MetaLine.jsx"},{"name":"MetaLine","sourcePath":"components/core/MetaLine.jsx"},{"name":"PageGround","sourcePath":"components/core/PageGround.jsx"},{"name":"RasterField","sourcePath":"components/core/RasterField.jsx"},{"name":"RevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"RevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"ScrollHold","sourcePath":"components/core/ScrollHold.jsx"},{"name":"Tabs","sourcePath":"components/core/Tabs.jsx"},{"name":"WASH","sourcePath":"components/core/darkGround.jsx"},{"name":"MEDIA","sourcePath":"components/core/darkGround.jsx"},{"name":"MARKS","sourcePath":"components/core/markLibrary.jsx"},{"name":"MARK_NAMES","sourcePath":"components/core/markLibrary.jsx"},{"name":"NOIR_INK","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_PAPER","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_MINT","sourcePath":"components/core/noirPlate.jsx"},{"name":"NOIR_CONTRAST","sourcePath":"components/core/noirPlate.jsx"},{"name":"NoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"SCREEN_R","sourcePath":"components/core/screenShape.jsx"},{"name":"V_ANGLE","sourcePath":"components/core/screenShape.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"CheckboxGroup","sourcePath":"components/forms/CheckboxGroup.jsx"},{"name":"FileField","sourcePath":"components/forms/FileField.jsx"},{"name":"FilterSearch","sourcePath":"components/forms/FilterSearch.jsx"},{"name":"RadioGroup","sourcePath":"components/forms/RadioGroup.jsx"},{"name":"Select","sourcePath":"components/forms/Select.jsx"},{"name":"TextArea","sourcePath":"components/forms/TextArea.jsx"},{"name":"TextField","sourcePath":"components/forms/TextField.jsx"},{"name":"TopicList","sourcePath":"components/forms/TopicList.jsx"},{"name":"FieldLabel","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldMessage","sourcePath":"components/forms/fieldParts.jsx"},{"name":"FieldLine","sourcePath":"components/forms/fieldParts.jsx"},{"name":"Icon","sourcePath":"components/icons/Icon.jsx"},{"name":"IconNames","sourcePath":"components/icons/Icon.jsx"},{"name":"IconLibrary","sourcePath":"components/icons/Icon.jsx"},{"name":"CarouselHero","sourcePath":"components/layout/CarouselHero.jsx"},{"name":"CtaBlock","sourcePath":"components/layout/CtaBlock.jsx"},{"name":"Feature","sourcePath":"components/layout/Feature.jsx"},{"name":"Hero","sourcePath":"components/layout/Hero.jsx"},{"name":"ImageTextPair","sourcePath":"components/layout/ImageTextPair.jsx"},{"name":"IndexList","sourcePath":"components/layout/IndexList.jsx"},{"name":"LogoHero","sourcePath":"components/layout/LogoHero.jsx"},{"name":"PageBanner","sourcePath":"components/layout/PageBanner.jsx"},{"name":"Person","sourcePath":"components/layout/Person.jsx"},{"name":"PromptHero","sourcePath":"components/layout/PromptHero.jsx"},{"name":"ProseBlock","sourcePath":"components/layout/ProseBlock.jsx"},{"name":"Statement","sourcePath":"components/layout/Statement.jsx"},{"name":"RISE_DISTANCE","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_DURATION","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_STEP","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RISE_EASING","sourcePath":"components/motion/RiseIn.jsx"},{"name":"RiseIn","sourcePath":"components/motion/RiseIn.jsx"},{"name":"WordFill","sourcePath":"components/motion/WordFill.jsx"},{"name":"BannerContacts","sourcePath":"components/navigation/BannerContacts.jsx"},{"name":"Breadcrumbs","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"ClosingFooter","sourcePath":"components/navigation/ClosingFooter.jsx"},{"name":"MenuHighlights","sourcePath":"components/navigation/MenuHighlights.jsx"},{"name":"OnThisPage","sourcePath":"components/navigation/OnThisPage.jsx"},{"name":"SectionNav","sourcePath":"components/navigation/SectionNav.jsx"},{"name":"SiteHeader","sourcePath":"components/navigation/SiteHeader.jsx"},{"name":"SiteNav","sourcePath":"components/navigation/SiteNav.jsx"},{"name":"TakeoverMenu","sourcePath":"components/navigation/TakeoverMenu.jsx"},{"name":"WordmarkMasthead","sourcePath":"components/navigation/WordmarkMasthead.jsx"},{"name":"SEARCH_CATEGORIES","sourcePath":"components/navigation/siteSearch.jsx"}],"sourceHashes":{"components/blocks/Accordion.jsx":"0b94c7425a63","components/blocks/ArtworkPin.jsx":"4c0c48d39768","components/blocks/Awards.jsx":"73333922fb6f","components/blocks/Chapter.jsx":"f41941619697","components/blocks/ContentCarousel.jsx":"0fa310578851","components/blocks/DemoConsole.jsx":"13b5492e046c","components/blocks/FormBlock.jsx":"2d25a0ee1e17","components/blocks/GalleryRow.jsx":"ae2f433c0d88","components/blocks/ImageReveal.jsx":"0c411800f48d","components/blocks/ImageScreen.jsx":"3591f9e4dbcd","components/blocks/JobList.jsx":"ac65e370dbfb","components/blocks/LabelledBlock.jsx":"b3a0b7095954","components/blocks/LinkList.jsx":"74838e586863","components/blocks/ListingFilters.jsx":"20a5b4afd1bb","components/blocks/Matters.jsx":"4a94ba93b0c7","components/blocks/NewsList.jsx":"2325f332d23d","components/blocks/NumberedList.jsx":"7d2d06907940","components/blocks/OfficeMap.jsx":"387b99c2370d","components/blocks/OffsetGallery.jsx":"2ad2d30a61ac","components/blocks/PeopleCarousel.jsx":"412fb2ebe7e5","components/blocks/PodcastEpisodes.jsx":"f84b5e4ce276","components/blocks/Recognition.jsx":"7982d0d697ea","components/blocks/Record.jsx":"6e77be5fb874","components/blocks/RichText.jsx":"1c09524d87a7","components/blocks/SectionLabel.jsx":"9a937e704962","components/blocks/SpecTable.jsx":"928afa1de281","components/blocks/StatementBlock.jsx":"9735db1b3700","components/blocks/SubscribeBlock.jsx":"867baa1c38bd","components/blocks/Testimonials.jsx":"51e1d74fc60d","components/blocks/WordmarkBand.jsx":"9a1db0d42518","components/blocks/formExamples.jsx":"a0941b4e5c26","components/brand/OrbMark.jsx":"ae6a4c4f23cc","components/brand/orbBraid.jsx":"1e4778c5f1dc","components/conversation/ChoiceComposer.jsx":"d16d6ded38c8","components/conversation/Composer.jsx":"6ecb3903db74","components/conversation/ContactCard.jsx":"a445893e3588","components/conversation/ConversationHeader.jsx":"c28cbe9bc41f","components/conversation/ConversationRail.jsx":"a7f8c5535a5b","components/conversation/ConversationRegister.jsx":"f4247165487c","components/conversation/ConversationStarters.jsx":"a538ed4fe2c3","components/conversation/ConversationSurface.jsx":"7ab91d907fee","components/conversation/ConversationTurn.jsx":"e3a9a5a4475d","components/conversation/GuidedConversation.jsx":"e2205c401281","components/conversation/OfferedAnswers.jsx":"abb92673f146","components/conversation/SiteConversation.jsx":"6156e4e3e17c","components/conversation/WorkingIndicator.jsx":"d779a8498638","components/conversation/scripts.jsx":"67e02aa874df","components/core/ActionRow.jsx":"049f01314d2f","components/core/ArrowLink.jsx":"97d4619d7547","components/core/CarouselNav.jsx":"7d87951f716b","components/core/CtaLink.jsx":"d7a228845574","components/core/DotField.jsx":"31e933fa57bd","components/core/Figure.jsx":"f0d003e16925","components/core/Mark.jsx":"8726517a2c2a","components/core/MetaLine.jsx":"739c896adab3","components/core/PageGround.jsx":"237a95dafda1","components/core/RasterField.jsx":"2f557da81a76","components/core/RevealEffect.jsx":"3f5729b2301b","components/core/ScrollHold.jsx":"d063a780b5a5","components/core/Tabs.jsx":"50ee62b1e22f","components/core/darkGround.jsx":"4fbd6db6e7b9","components/core/focusSource.jsx":"ae174bded419","components/core/headerActions.jsx":"c109886a887a","components/core/markLibrary.jsx":"f0ab4adbf876","components/core/noirPlate.jsx":"05a78b7071a6","components/core/screenShape.jsx":"a40076067a68","components/forms/Checkbox.jsx":"3838a5da09ee","components/forms/CheckboxGroup.jsx":"21ccbf4668ae","components/forms/FileField.jsx":"f114278a6ca2","components/forms/FilterSearch.jsx":"287eadb530b0","components/forms/RadioGroup.jsx":"d977d665c939","components/forms/Select.jsx":"ea83f67f50bd","components/forms/TextArea.jsx":"c1088416cb5a","components/forms/TextField.jsx":"415124cacfa1","components/forms/TopicList.jsx":"a93a4f0ed555","components/forms/fieldParts.jsx":"7c290a8cbe53","components/icons/Icon.jsx":"15893ba460ec","components/icons/iconSet.jsx":"6a4829c0e2d1","components/layout/CarouselHero.jsx":"02007caffe66","components/layout/CtaBlock.jsx":"cd28ff5eb326","components/layout/Feature.jsx":"b2e5098e6f56","components/layout/Hero.jsx":"500ba86b11f2","components/layout/ImageTextPair.jsx":"2fea226eec5b","components/layout/IndexList.jsx":"0cf16ae7e952","components/layout/LogoHero.jsx":"26f5ba63645c","components/layout/PageBanner.jsx":"aac47b042df2","components/layout/Person.jsx":"57e5419f2589","components/layout/PromptHero.jsx":"298d184626ce","components/layout/ProseBlock.jsx":"b455a0e01cfc","components/layout/Statement.jsx":"24c3e84ab4ca","components/motion/RiseIn.jsx":"8516a6d1242e","components/motion/WordFill.jsx":"d1566b42cd20","components/navigation/BannerContacts.jsx":"2beea86e4660","components/navigation/Breadcrumbs.jsx":"6313c5a4f8c6","components/navigation/ClosingFooter.jsx":"8ce14668901b","components/navigation/MenuHighlights.jsx":"9ce8f1e9464c","components/navigation/OnThisPage.jsx":"38bf2ec75a83","components/navigation/SectionNav.jsx":"468fbc00cdb0","components/navigation/SiteHeader.jsx":"cca4be5dce5a","components/navigation/SiteNav.jsx":"7f8c0b28b2cd","components/navigation/TakeoverMenu.jsx":"a3891614201a","components/navigation/WordmarkMasthead.jsx":"319f0e40e31c","components/navigation/siteSearch.jsx":"f7b2a9e290b3","deck-stage.js":"f3d3d0a662c0","repo/templates/about-page/ds-base.js":"7111d5adecba","repo/templates/article-page/ds-base.js":"7111d5adecba","repo/templates/find-a-lawyer/ds-base.js":"7111d5adecba","repo/templates/landing-page/chapters.js":"0bb3befeb8fc","repo/templates/landing-page/ds-base.js":"7111d5adecba","repo/templates/landing-page/people.js":"2c9a17542aea","repo/templates/landing-page/record.js":"10fb97437eef","repo/templates/news-listing/ds-base.js":"7111d5adecba","repo/templates/news-listing/news.js":"5edfd3ef5af6","repo/templates/people-listing/ds-base.js":"7111d5adecba","repo/templates/people-listing/people.js":"d5b15cdb6fa6","repo/templates/person-page/ds-base.js":"7111d5adecba","repo/templates/person-page/mandates.js":"acbd5d03a9de","repo/templates/person-page/people.js":"2c9a17542aea","reports/doc-page.js":"f52ae9c02fca"},"inlinedExternals":[],"unexposedExports":[{"name":"braidFrame","sourcePath":"components/brand/orbBraid.jsx"},{"name":"directory","sourcePath":"components/conversation/scripts.jsx"},{"name":"fieldText","sourcePath":"components/forms/fieldParts.jsx"},{"name":"findIn","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"getHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"getRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"getScreenOptions","sourcePath":"components/core/screenShape.jsx"},{"name":"getScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"iconSet","sourcePath":"components/icons/iconSet.jsx"},{"name":"isKeyFocus","sourcePath":"components/forms/fieldParts.jsx"},{"name":"jobId","sourcePath":"components/blocks/JobList.jsx"},{"name":"lineMinPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"listRevealEffects","sourcePath":"components/core/RevealEffect.jsx"},{"name":"loadSearch","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"lookupPerson","sourcePath":"components/conversation/scripts.jsx"},{"name":"mintLogo","sourcePath":"components/core/darkGround.jsx"},{"name":"mountOrb","sourcePath":"components/brand/orbBraid.jsx"},{"name":"noirFilter","sourcePath":"components/core/noirPlate.jsx"},{"name":"noirTone","sourcePath":"components/core/noirPlate.jsx"},{"name":"normOptions","sourcePath":"components/forms/fieldParts.jsx"},{"name":"openConversation","sourcePath":"components/conversation/SiteConversation.jsx"},{"name":"paintNoirPlate","sourcePath":"components/core/noirPlate.jsx"},{"name":"portraitSrc","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"publishHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"readEmbed","sourcePath":"components/blocks/FormBlock.jsx"},{"name":"registerRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"revealScale","sourcePath":"components/core/screenShape.jsx"},{"name":"revealWave","sourcePath":"components/core/screenShape.jsx"},{"name":"screenAngleFor","sourcePath":"components/core/screenShape.jsx"},{"name":"screenFill","sourcePath":"components/core/screenShape.jsx"},{"name":"screenMark","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPaths","sourcePath":"components/core/screenShape.jsx"},{"name":"screenPitch","sourcePath":"components/core/screenShape.jsx"},{"name":"screenSteps","sourcePath":"components/core/screenShape.jsx"},{"name":"setHouseImage","sourcePath":"components/core/screenShape.jsx"},{"name":"setRevealEffect","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setRevealImage","sourcePath":"components/core/RevealEffect.jsx"},{"name":"setScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"shortenCrumb","sourcePath":"components/navigation/Breadcrumbs.jsx"},{"name":"siteSearch","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"srOnly","sourcePath":"components/forms/fieldParts.jsx"},{"name":"suggestFrom","sourcePath":"components/navigation/siteSearch.jsx"},{"name":"tokenRgb","sourcePath":"components/core/noirPlate.jsx"},{"name":"useFocusSource","sourcePath":"components/core/focusSource.jsx"},{"name":"useGhostHold","sourcePath":"components/conversation/WorkingIndicator.jsx"},{"name":"useHeaderActions","sourcePath":"components/core/headerActions.jsx"},{"name":"useOverDark","sourcePath":"components/core/darkGround.jsx"},{"name":"usePageGround","sourcePath":"components/core/PageGround.jsx"},{"name":"useScreenShape","sourcePath":"components/core/screenShape.jsx"},{"name":"washLogo","sourcePath":"components/core/darkGround.jsx"}]} */
 
 (() => {
 
@@ -7234,7 +7234,9 @@ function StreamList({
         fontWeight: 'var(--weight-book)',
         fontSize: 'var(--text-lead)',
         lineHeight: 'var(--lh-display-3)',
-        letterSpacing: 'var(--tracking-display-3)'
+        letterSpacing: 'var(--tracking-display-3)',
+        wordSpacing: 'var(--word-spacing-display)',
+        WebkitTextStroke: 'var(--stroke-display) currentColor'
       } : {
         margin: 0,
         maxWidth: 'none'
@@ -9216,6 +9218,8 @@ function ArtworkPin({
       fontSize: 'var(--text-lead)',
       lineHeight: 1.16,
       letterSpacing: 'var(--tracking-display-3)',
+      wordSpacing: 'var(--word-spacing-display)',
+      WebkitTextStroke: 'var(--stroke-display) currentColor',
       color: 'inherit'
     }
   }, artist), /*#__PURE__*/React.createElement("span", {
@@ -12434,7 +12438,9 @@ function Item({
         fontFamily: 'var(--font-display)',
         fontSize: 'var(--display-3)',
         lineHeight: 'var(--lh-display-3)',
-        letterSpacing: 'var(--tracking-display-3)'
+        letterSpacing: 'var(--tracking-display-3)',
+        wordSpacing: 'var(--word-spacing-display)',
+        WebkitTextStroke: 'var(--stroke-display) currentColor'
       }
     }, item.name), /*#__PURE__*/React.createElement("span", {
       className: "small",
@@ -12654,6 +12660,8 @@ function RailContact({
       fontSize: 'var(--display-3)',
       lineHeight: 'var(--lh-display-3)',
       letterSpacing: 'var(--tracking-display-3)',
+      wordSpacing: 'var(--word-spacing-display)',
+      WebkitTextStroke: 'var(--stroke-display) currentColor',
       color: 'var(--text-primary)',
       textDecoration: 'none'
     }
@@ -13169,6 +13177,8 @@ function ConversationRegister({
       fontSize: 'var(--display-3)',
       lineHeight: 'var(--lh-display-3)',
       letterSpacing: 'var(--tracking-display-3)',
+      wordSpacing: 'var(--word-spacing-display)',
+      WebkitTextStroke: 'var(--stroke-display) currentColor',
       color: 'var(--text-primary)'
     }
   }, f.value), onCorrect ? /*#__PURE__*/React.createElement("button", {
@@ -13273,6 +13283,8 @@ function Line({
          padding is the only spacing and it is equal on both sides. */
       lineHeight: display ? 1.25 : 'var(--lh-base)',
       letterSpacing: display ? 'var(--tracking-display-3)' : 'normal',
+      wordSpacing: display ? 'var(--word-spacing-display)' : 'normal',
+      WebkitTextStroke: display ? 'var(--stroke-display) currentColor' : undefined,
       color: 'var(--text-primary)',
       textWrap: 'pretty'
     }
@@ -13400,7 +13412,9 @@ function FieldLine({
     fontSize: 'var(--display-3)',
     lineHeight: 1.25,
     height: 'calc(var(--display-3) * 1.25)',
-    letterSpacing: 'var(--tracking-display-3)'
+    letterSpacing: 'var(--tracking-display-3)',
+    wordSpacing: 'var(--word-spacing-display)',
+    WebkitTextStroke: 'var(--stroke-display) currentColor'
   } : {
     fontFamily: 'var(--font-text)',
     fontSize: 'var(--text-base)',
@@ -18503,6 +18517,9 @@ function Record({
   rowLinks = false,
   /* The side readout. Off when the entries carry nothing for it to read. */
   readout: readoutOn = true,
+  /* spine 'letter' only: the groups stand side by side as columns, each a
+     display letter over its rows as plain links. No fold-out, no readout. */
+  columns = false,
   id,
   style
 }) {
@@ -20427,7 +20444,76 @@ function Record({
       opacity: touched && current && pinned == null && !rail ? 1 : 0,
       transition: 'opacity var(--dur-fast) var(--ease-quart)'
     }
-  }, current ? current.client : '')))) : /*#__PURE__*/React.createElement("div", {
+  }, current ? current.client : '')))) : listing && columns && spine === 'letter' ? /*#__PURE__*/React.createElement("div", {
+    ref: fieldRef,
+    "data-record-columns": "",
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 12rem), 1fr))',
+      columnGap: 'var(--gutter)',
+      rowGap: 'var(--space-7)',
+      alignItems: 'start'
+    }
+  }, blocks.map(b => {
+    /* A filter takes rows away; a letter left with none is not shown. */
+    const rows = termOn ? b.rows.filter(r => termSet.has(r.i)) : b.rows;
+    if (!rows.length) return null;
+    return /*#__PURE__*/React.createElement("div", {
+      key: b.key,
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-3)',
+        minWidth: 0,
+        opacity: printed ? 1 : 0,
+        transition: 'opacity var(--dur-medium) var(--ease-quart)'
+      }
+    }, /*#__PURE__*/React.createElement("h2", {
+      style: {
+        margin: 0,
+        fontFamily: 'var(--font-display)',
+        fontWeight: 'normal',
+        fontSize: 'var(--display-3)',
+        lineHeight: 1,
+        color: 'var(--ink)'
+      }
+    }, b.year), /*#__PURE__*/React.createElement("ul", {
+      style: {
+        listStyle: 'none',
+        margin: 0,
+        padding: 0,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 'var(--space-2)'
+      }
+    }, rows.map(e => {
+      const hit = hitOf(e);
+      return /*#__PURE__*/React.createElement("li", {
+        key: e.i,
+        style: {
+          display: 'flex',
+          flexDirection: 'column',
+          minWidth: 0
+        }
+      }, /*#__PURE__*/React.createElement("a", {
+        href: e.href || '#',
+        className: "small",
+        "aria-label": [e.client, hit].filter(Boolean).join(', '),
+        style: {
+          alignSelf: 'flex-start',
+          maxWidth: '100%',
+          color: 'var(--text-primary)',
+          textWrap: 'pretty'
+        }
+      }, e.client), hit ? /*#__PURE__*/React.createElement("span", {
+        className: "small",
+        style: {
+          color: 'var(--text-secondary)',
+          textWrap: 'pretty'
+        }
+      }, hit) : null);
+    })));
+  })) : /*#__PURE__*/React.createElement("div", {
     ref: fieldRef,
     style: {
       position: 'relative',
@@ -20506,6 +20592,10 @@ function Record({
          dimming it: years with nothing in the subset fold shut, and
          the register closes up around what is left. */
       const blockShut = termOn && !anyTerm;
+      /* The register's last block ends on its hairline: the section's own
+         padding is the gap to what follows. */
+      const lastYg = yearGroups[yearGroups.length - 1];
+      const isLast = yg === lastYg && b === lastYg.blocks[lastYg.blocks.length - 1];
       return /*#__PURE__*/React.createElement("div", {
         key: b.key,
         style: {
@@ -20517,7 +20607,7 @@ function Record({
         style: {
           overflow: 'hidden',
           minHeight: 0,
-          paddingBlockEnd: blockShut ? 0 : listing ? 'var(--space-6)' : 'var(--space-3)',
+          paddingBlockEnd: blockShut || isLast ? 0 : listing ? 'var(--space-6)' : 'var(--space-3)',
           transition: 'padding-block-end var(--dur-fast) var(--ease-quart)'
         }
       }, spine === 'letter' && !b.label ? null : /*#__PURE__*/React.createElement("p", {
@@ -20883,7 +20973,7 @@ function Record({
       marginBlockStart: 'var(--space-5)',
       background: 'var(--underline-rest-secondary)'
     }
-  }))))) : null, /*#__PURE__*/React.createElement("div", {
+  }))))) : null, closingLine || actionLabel ? /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
       flexWrap: 'wrap',
@@ -20901,7 +20991,7 @@ function Record({
     style: {
       fontSize: 'var(--text-small)'
     }
-  }, actionLabel) : null)))));
+  }, actionLabel) : null) : null))));
 }
 Object.assign(__ds_scope, { Record });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/Record.jsx", error: String((e && e.message) || e) }); }
@@ -21303,6 +21393,8 @@ const submitStyle = h => ({
   fontSize: 'var(--display-3)',
   lineHeight: 'var(--lh-display-3)',
   letterSpacing: 'var(--tracking-display-3)',
+  wordSpacing: 'var(--word-spacing-display)',
+  WebkitTextStroke: 'var(--stroke-display) currentColor',
   color: 'var(--text-primary)',
   textDecoration: 'underline',
   textDecorationColor: h ? 'var(--underline-active)' : 'var(--underline-rest)',
@@ -21884,6 +21976,8 @@ function ApplyForm({
       fontSize: 'var(--display-3)',
       lineHeight: 'var(--lh-display-3)',
       letterSpacing: 'var(--tracking-display-3)',
+      wordSpacing: 'var(--word-spacing-display)',
+      WebkitTextStroke: 'var(--stroke-display) currentColor',
       color: 'var(--text-primary)',
       textDecoration: 'underline',
       textDecorationColor: subHover ? 'var(--underline-active)' : 'var(--underline-rest)',
@@ -24866,6 +24960,7 @@ try { (() => {
    With `film` it is the film block: the still as the same raster, the title
    centred over it and "Spela filmen" under it as a display-3 underlined link. Play swaps the raster
    for the player in place, 16:9 on the full grid, with a close under it.
+   The film block has no `link`: play is its one action.
 
    `contained`: the same film module inside another block (Rader's film
    variants). A 16:9 box in its column, the raster filling it and "Spela
@@ -24876,7 +24971,7 @@ try { (() => {
 
 /* A faint paper-coloured halo round the type: lifts it off the raster without
    blanking the picture behind it. */
-const HALO = '0 0 0.4em var(--paper), 0 0 1.2em color-mix(in oklab, var(--paper) 70%, transparent)';
+const HALO = '0 0 0.3em var(--paper), 0 0 0.7em var(--paper), 0 0 1.6em color-mix(in oklab, var(--paper) 85%, transparent)';
 const withAutoplay = u => {
   const s = String(u || '');
   return s + (s.includes('?') ? '&' : '?') + 'autoplay=1';
@@ -24908,7 +25003,10 @@ function PlayButton({
       fontWeight: 'var(--weight-book)',
       fontSize: 'var(--display-3)',
       lineHeight: 'var(--lh-display-3)',
-      letterSpacing: 'var(--tracking-display-3)'
+      letterSpacing: 'var(--tracking-display-3)',
+      wordSpacing: 'var(--word-spacing-display)',
+      WebkitTextStroke: 'var(--stroke-display) currentColor',
+      textShadow: HALO
     }
   }, /*#__PURE__*/React.createElement("span", {
     style: {
@@ -25111,14 +25209,7 @@ function Feature({
       label: playLabel,
       name: playLabel + (typeof heading === 'string' ? ': ' + heading : ''),
       onClick: () => setPlaying(true)
-    }), link ? /*#__PURE__*/React.createElement("p", {
-      style: {
-        margin: 0
-      }
-    }, /*#__PURE__*/React.createElement(__ds_scope.CtaLink, {
-      href: link.href,
-      variant: "secondary"
-    }, link.label)) : null))));
+    })))));
   }
   return /*#__PURE__*/React.createElement("section", {
     "data-feature": "",
@@ -29192,7 +29283,7 @@ function SectionNav({
   groups: rawGroups = [],
   current,
   openCurrent = true,
-  openAll = false,
+  openAll = true,
   style
 }) {
   const groups = tidy(rawGroups);
@@ -29215,8 +29306,9 @@ function SectionNav({
   const inGroup = g => !!(g.href && mark(g.href) || (g.items || []).some(i => mark(i.href)));
   const here = groups.findIndex(inGroup);
   /* The reader's group arrives unfolded, with the page marked inside it. */
-  /* openAll: every group arrives unfolded from MD up (an expertise page's
-     children); below MD only the reader's group, the rest one row each. */
+  /* openAll (the default): every group arrives unfolded from MD up; below MD
+     only the reader's group, the rest one row each. openAll={false} opens
+     only the reader's group at every size. */
   const initial = () => {
     const md = typeof window !== 'undefined' && window.matchMedia('(min-width: 768px)').matches;
     if (openAll && md) {
