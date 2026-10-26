@@ -377,13 +377,7 @@ the two-column band. */
    also the ugliest graphics that will ever touch this page — so they are not
    on it at rest. Hovering or focusing the line brings its badge in on the
    right; leaving takes it away again. */
-/* Every frame has the same width, whatever the sentence's length: the list sits
-   on columns 3–6 at LG (centred on the page), full width below, and each frame
-   fills it with the sentence centred inside. Frames never hug their text, so a
-   short line does not get a narrower frame than a long one. */
-[data-awards-list] { grid-column: 1 / -1; display: flex; flex-direction: column; gap: var(--space-5); min-width: 0; }
-@media (min-width: 1280px) { [data-awards-list] { grid-column: 3 / 7; } }
-[data-award] { display: block; }
+[data-award] { display: flex; justify-content: flex-start; }
 /* The line nearest the middle of the screen is framed and dated. The frame is
    artwork printed by the house reveal scrubbed from scroll (ImageReveal
    progress), peaking inside the dot range so it never resolves into a rule. Lines at rest
@@ -391,7 +385,7 @@ the two-column band. */
    legend: one heavy rule, the year set into a break in its head.
    double: heavy rule with an inner hairline, the year inside at the head.
    cartouche: the heavy rule with round ends, the year inside at the head. */
-[data-award-mark] { position: relative; display: flex; flex-direction: column; align-items: center; gap: var(--space-2); width: 100%; box-sizing: border-box; padding: var(--space-5) var(--space-6); }
+[data-award-mark] { position: relative; display: flex; flex-direction: column; align-items: center; gap: var(--space-2); width: fit-content; padding: var(--space-5) var(--space-6); }
 [data-award-mark][data-frame="cartouche"] { padding-inline: var(--space-8, calc(var(--space-6) * 1.6)); }
 [data-award-frame] { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply; }
 @property --award-wipe { syntax: '<number>'; inherits: true; initial-value: 0; }

@@ -74,8 +74,7 @@
      template files are left alone. */
   const ROUTES = {
     '/': '../landing-page/LandingPage.dc.html',
-    '/om-vinge': '../content-page/ContentPage.dc.html',
-    '/kontakt': '../content-page/ContentPage.dc.html',
+    '/om-oss': '../about-page/AboutPage.dc.html',
     '/personer': '../people-listing/PeopleListing.dc.html',
     '/hitta-advokat': '../find-a-lawyer/FindALawyer.dc.html',
     '/hitta-ratt-person': '../find-a-lawyer/FindALawyer.dc.html',
@@ -108,8 +107,6 @@
     ['/vara-tjanster/verksamhetsomraden/', '../content-page/ContentPage.dc.html'],
     ['/vara-tjanster/branscher/', '../content-page/ContentPage.dc.html'],
     ['/karriar/', '../content-page/ContentPage.dc.html'],
-    ['/om-vinge/', '../content-page/ContentPage.dc.html'],
-    ['/kontakt/', '../content-page/ContentPage.dc.html'],
   ];
   /* The site path an href asks for, or null when the href is not a site link. */
   const route = (raw) => {
