@@ -1,18 +1,21 @@
 # Sync: Vinge design system → this repo
 
-One direction only. The design system is the source of truth for components,
-tokens, assets **and** the seven page templates. Nothing here is ever pushed
-back; a page that differs from the DS copy is a bug.
+One direction only. The design system (`knowit/vinge-design-system`) is the
+source of truth for components, tokens, assets **and** the page templates.
+Nothing here is ever pushed back; a page that differs from the DS copy is a bug.
 
 ## The loop
 
-1. In the Vinge design-system project chat: **"Refresh `repo/` from the current
-   design system."** It re-copies the tree and hands back a zip.
-2. Unzip it anywhere.
-3. Here: `scripts/sync.sh ~/Downloads/repo`
+1. In a clone of `knowit/vinge-design-system`: `scripts/refresh-repo.sh`, then
+   commit. That brings its `repo/` folder up to date with the design system.
+2. Here: `scripts/sync.sh <path to that clone>/repo`
 
 That copies verbatim, commits, pushes, and Pages rebuilds. No file needs
 editing by hand at any point.
+
+(Until November 2026 step 1 was a request in the Claude Design project, which
+handed back a zip. Claude Design is closed; the design system's repository is
+the master now.)
 
 ## What the script overwrites
 
@@ -22,6 +25,15 @@ editing by hand at any point.
 ## What it keeps
 
 `scripts/`, `SYNC.md`, `.github/`, `.nojekyll`, `.git/`.
+
+## What it leaves out
+
+Design-system working files that are not part of the site: `.thumbnail`,
+`*.prompt.md` (the templates' requirement notes, which cite internal tickets),
+`*.card.html`, the standalone landing page (`*.standalone.html`,
+`*.standalone.js`, `assets/standalone/`) and the contact-mark sketch
+(`Contact mark options.html`, `contactMarks.js`). The list is `EXCLUDE` in
+`scripts/sync.sh`. Claude Design's export left out the same files.
 
 ## Constraints that must not drift
 
@@ -35,7 +47,7 @@ editing by hand at any point.
 
 ## Verify after a sync
 
-- Landing page: hero video plays, wordmark header blends on scroll.
+- Landing page: wordmark header blends on scroll.
 - Fonts are the real faces, not a fallback serif.
 - Header menu moves between pages.
 - A link in the finder panel: transcript un-prints, panel docks and folds to
