@@ -132,8 +132,8 @@ input[data-tf][aria-invalid="true"]{border-bottom-width:2px;border-bottom-color:
 </section>
 
 <section data-screen-label="12 Uppdragen" id="uppdragen" style="padding-top:var(--section-gap)">
-<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>12 Uppdragen</b><span>Record (listing), the page's window</span><span>Expertise pages only, block two after the banner. Count derived from the matters data; truncation stated. Expertise pages, in the live order: <a href="?p=vara-tjanster/verksamhetsomraden/arbetsratt">Arbetsrätt</a>, <a href="?p=vara-tjanster/verksamhetsomraden/immaterialratt">Immaterialrätt</a> (banner page navigation), <a href="?p=vara-tjanster/verksamhetsomraden/immaterialratt/varumarken">Varumärken</a> (child, marked).</span><span>Source: vara-tjanster/verksamhetsomraden/arbetsratt</span></div></div></sc-if>
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" listing="{{ true }}" views="{{ false }}" term-filter="{{ false }}" title="{{ recordTitle }}" premise="{{ recordCount }}" all-line="" closing-line="{{ recordWindow }}" action-label="" entries="{{ recordEntries }}" open-label="" flush-top="{{ true }}" hint-size="100%,1200px"></x-import>
+<sc-if value="{{ showLabels }}" hint-placeholder-val="{{ true }}"><div class="grid" data-ann><div><b>12 Uppdragen</b><span>Record (listing), the page's window</span><span>Expertise pages only, block two after the banner. Count derived from the matters data; truncation stated. Expertise pages, in the live order: <a href="?p=vara-tjanster/verksamhetsomraden/arbetsratt">Arbetsrätt</a>, <a href="?p=vara-tjanster/verksamhetsomraden/immaterialratt">Immaterialrätt</a> (banner page navigation), <a href="?p=vara-tjanster/verksamhetsomraden/immaterialratt/varumarken">Varumärken</a> (child, marked).</span><span>Three to six matters render compact (Record compact): no year or month heads, no count line. Seven or more are this listing.</span><span>Source: vara-tjanster/verksamhetsomraden/arbetsratt</span></div></div></sc-if>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" listing="{{ true }}" views="{{ false }}" term-filter="{{ false }}" title="{{ recordTitle }}" premise="{{ recordCount }}" all-line="" closing-line="{{ recordWindow }}" action-label="" entries="{{ recordEntries }}" open-label="" flush-top="{{ true }}" dc-props="{{ recordFlush }}" hint-size="100%,1200px"></x-import>
 </section>
 
 <section data-screen-label="13 Erkännanden" id="erkannanden" style="padding-top:var(--section-gap)">
@@ -271,7 +271,7 @@ input[data-tf][aria-invalid="true"]{border-bottom-width:2px;border-bottom-color:
 
 <sc-if value="{{ b.isRecord }}">
 <section style="padding-top:var(--section-gap)">
-<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" listing="{{ true }}" views="{{ false }}" term-filter="{{ false }}" title="{{ b.title }}" premise="{{ b.premise }}" all-line="" closing-line="{{ b.closing }}" action-label="" entries="{{ b.entries }}" open-label="" flush-top="{{ true }}" hint-size="100%,1200px"></x-import>
+<x-import component-from-global-scope="VingeDesignSystem_8582c7.Record" listing="{{ true }}" views="{{ false }}" term-filter="{{ false }}" title="{{ b.title }}" premise="{{ b.premise }}" all-line="" closing-line="{{ b.closing }}" action-label="" entries="{{ b.entries }}" open-label="" flush-top="{{ true }}" dc-props="{{ b.props }}" hint-size="100%,1200px"></x-import>
 </section>
 </sc-if>
 
@@ -352,12 +352,16 @@ const PAGE_LOOK = {
   'karriar/jobba-pa-vinge/var-karriarmodell': { pairText: { text: 'text-1', pair: 'bild-1' } },
   'karriar/mot-vara-medarbetare/index': { statement: ['text-1'] },
   'karriar/mot-vara-medarbetare/mot-en-vinge': { intro: 'text-1' },
+  'om-vinge/index': { lead: ['text-1'] },
 };
 const NO_TOPICS = [];
 /* Fixed block headings (review 14 Oct 2026): every Tre utvalda and every Uppdragen
    carries the same heading whatever the data's `heading` says. */
 const CHOSEN_HEADING = 'Relaterade nyheter';
 const RECORD_HEADING = 'Relaterade uppdrag';
+/* Uppdragen as a listing closes on the next block's own top air, not its own bottom padding too. */
+const RECORD_FLUSH = { style: { paddingBlockEnd: 0 } };
+const RECORD_COMPACT = { style: { paddingBlockEnd: 0 }, compact: true };
 const LINK_ITEMS = [
   { label: 'Lediga jobb', href: '/karriar/lediga-jobb/' },
   { label: 'Student', href: '/karriar/student/' },
@@ -556,6 +560,16 @@ class Component extends DCLogic {
           if (!this._car.has(b)) this._car.set(b, run.map((j) => { const x = p.blocks[j]; return { src: x.media.image.src, alt: x.media.image.alt, label: x.heading, body: x.body || '', href: x.link ? x.link.href : undefined }; }));
           blocks.push({ k, isCarousel: true, items: this._car.get(b) });
           return;
+        }
+      }
+      /* lead: the text's first sentence as a Påstående, the rest stays a text block. */
+      if (b.type === 'prose' && (look.lead || []).includes(b.id)) {
+        const m = String(b.body || '').trim().match(/^([^\n]+?[.!?])\s+([\s\S]+)$/);
+        if (m) {
+          blocks.push({ k: k + 's', isStatement: true, text: m[1], hasItems: false, items: [] });
+          this._lead = this._lead || new WeakMap();
+          if (!this._lead.has(b)) this._lead.set(b, { ...b, body: m[2] });
+          b = this._lead.get(b);
         }
       }
       if (b.type === 'prose' && (look.statement || []).includes(b.id)) { blocks.push({ k, isStatement: true, text: String(b.body || '').trim(), hasItems: false, items: [] }); return; }
@@ -760,7 +774,11 @@ class Component extends DCLogic {
       c = p.blocks.map((b, i) => {
         const k = 'o' + i;
         if (b.type === 'opener') return { k, isOpener: true, h1: b.h1, trail: b.trail, intro: b.intro || undefined };
-        if (b.type === 'prose') return { k, isProse: true, heading: b.heading || '', html: this.md(b.body, true) };
+        if (b.type === 'prose') {
+          const m = ((this.lookOf(PAGE_LOOK, p) || {}).lead || []).includes(b.id) && String(b.body || '').trim().match(/^([^\n]+?[.!?])\s+([\s\S]+)$/);
+          if (m) return [{ k: k + 's', isStatement: true, text: m[1], hasItems: false, items: [] }, { k, isProse: true, heading: b.heading || '', html: this.md(m[2], true) }];
+          return { k, isProse: true, heading: b.heading || '', html: this.md(b.body, true) };
+        }
         /* Människor: one carousel per live list (group), the list heading as its title. */
         if (b.type === 'people') {
           const groups = [];
@@ -775,7 +793,7 @@ class Component extends DCLogic {
         }
         if (b.type === 'rows') return { k, isRows: true, heading: b.heading || '', variant: b.media === 'image' || b.media === 'film' ? 'index' : 'list', numbered: b.numbered === true ? true : undefined, rows: (b.rows || []).map((r) => ({ ...r, image: r.image ? { src: img(r.image.src), alt: r.image.alt } : undefined })) };
         if (b.type === 'chosen') return { k, ...this.chosenOf(b) };
-        if (b.type === 'record') return (b.window_items || []).length ? { k, isRecord: true, title: b.heading || RECORD_HEADING, premise: b.count > 0 && b.since && !b.indicative ? b.count + ' uppdrag sedan ' + b.since : '', closing: '', entries: b.window_items.map((w) => ({ year: +String(w.date || '').slice(0, 4) || undefined, date: w.date || undefined, month: +String(w.date || '').slice(5, 7) || undefined, caption: day(w.date) || undefined, client: w.client || w.title, sector: '', work: w.work || '', disciplines: (w.areas || []).filter(Boolean), title: w.title, preamble: w.excerpt, href: w.path, team: window.VingeTeamOf ? window.VingeTeamOf(w.title) : undefined })) } : null;
+        if (b.type === 'record') return (b.window_items || []).length ? { k, isRecord: true, props: this.recordProps(b), title: b.title || RECORD_HEADING, premise: b.preamble != null ? b.preamble : b.count > 0 && b.since && !b.indicative ? b.count + ' uppdrag sedan ' + b.since : '', closing: '', entries: b.window_items.map((w) => ({ year: +String(w.date || '').slice(0, 4) || undefined, date: w.date || undefined, month: +String(w.date || '').slice(5, 7) || undefined, caption: day(w.date) || undefined, client: w.client || w.title, sector: '', work: w.work || '', disciplines: (w.areas || []).filter(Boolean), title: w.title, preamble: w.excerpt, href: w.path, team: window.VingeTeamOf ? window.VingeTeamOf(w.title) : undefined })) } : null;
         /* Relaterat: an item with a line is Bild och text (a library placeholder
            stands in for the editor's image); documents and bare links are Länkar,
            under the block's heading, else a lone item's own heading. */
@@ -792,11 +810,32 @@ class Component extends DCLogic {
       }).flat().filter(Boolean);
       this._ov.set(p, c);
     }
-    /* page.nav.banner as the banner's page navigation: one row per page, the current page marked. */
-    const items = (p.page.nav && p.page.nav.banner) || [];
-    if (!this._ovn || this._ovn.items !== items || this._ovn.current !== p.page.path) this._ovn = { items, current: p.page.path, val: items.length ? { groups: items.map((it) => ({ label: it.label, href: it.href, items: [{ label: it.label, href: it.href }] })), current: p.page.path } : undefined };
     const last = c[c.length - 1];
-    return { blocks: c, endGap: !(last && last.isFeature), screenLabel: p.page.path, bannerNav: this._ovn.val, bannerContacts: undefined };
+    return { blocks: c, endGap: !(last && last.isFeature), screenLabel: p.page.path, bannerNav: this.ovTree(p), bannerContacts: undefined };
+  }
+  /* The banner's page navigation is the section's whole tree, the same on every
+     page in it: the hub's children as groups, their children folded under them,
+     and a level further in under those. Labels are the data's navigation labels;
+     the section name is the trail's. The reader's page is marked. */
+  ovTree(p) {
+    const O = window.VingeOmVinge, sec = p.page.section;
+    const hub = O && O.pages[sec + '/index'];
+    if (!hub) return undefined;
+    this._ovt = this._ovt || {};
+    let t = this._ovt[sec];
+    if (!t) {
+      const by = {};
+      O.order.forEach((k) => { by[O.pages[k].page.path] = O.pages[k]; });
+      const kids = (q, d) => ((q && q.page.nav && q.page.nav.children) || []).map((x) => {
+        const sub = d < 2 ? kids(by[x.href], d + 1) : [];
+        return { label: x.label, href: x.href, disabled: by[x.href] ? undefined : true, items: sub.length ? sub : undefined };
+      });
+      let label = hub.page.h1;
+      O.order.some((k) => { const op = O.pages[k].blocks.find((b) => b.type === 'opener'); const s = op && (op.trail || []).find((x) => x && x.href === hub.page.path); if (s) label = s.label; return !!s; });
+      t = this._ovt[sec] = { label, href: hub.page.path, groups: kids(hub, 0).map((g) => ({ label: g.label, href: g.href, items: g.items || [] })) };
+    }
+    if (!t.val || t.val.current !== p.page.path) t.val = { ...t, val: undefined, current: p.page.path };
+    return t.val;
   }
   /* The presenter console: the shared Pages group, then every Om Vinge and Kontakt page. */
   demoGroups() {
@@ -903,7 +942,7 @@ class Component extends DCLogic {
         if (b.type === 'rows') { const rs = b.rows || []; return { k, isRows: true, heading: b.heading || '', variant: b.media === 'film' || (b.media === 'image' && rs.length >= 3 && rs.length <= 7) ? 'index' : 'list', numbered: b.numbered === false ? false : (b.media === 'film' || (b.media === 'image' && rs.length >= 3 && rs.length <= 7)) ? undefined : !!b.numbered, rows: rs.map((r) => ({ ...r, image: r.image ? { src: img(r.image.src), alt: r.image.alt } : undefined })) }; }
         if (b.type === 'pair') { const m = b.media || {}, i1 = m.image || {}, i2 = m.image2; const sc = PAIR_SCALES[pairN++ % 3]; return { k, isPair: true, props: { scale: sc, imageSrc: img(i1.src), imageAlt: i1.alt || '', secondImageSrc: i2 ? img(i2.src) : undefined, secondImageAlt: i2 ? i2.alt : undefined, heading: b.heading || undefined, body: b.body ? this.lines(b.body) : undefined, cta: b.link || undefined, style: { paddingBlock: 0 } } }; }
         if (b.type === 'chosen') return { k, ...this.chosenOf(b) };
-        if (b.type === 'record') return (b.window_items || []).length ? { k, isRecord: true, title: RECORD_HEADING, premise: b.count > 0 && b.since && !b.indicative ? b.count + ' uppdrag sedan ' + b.since : '', closing: '', entries: b.window_items.map((w) => ({ year: +String(w.date || '').slice(0, 4) || undefined, date: w.date || undefined, month: +String(w.date || '').slice(5, 7) || undefined, caption: day(w.date) || undefined, client: w.client || w.title, sector: '', work: w.work || '', disciplines: (w.areas && w.areas.length ? w.areas : [b.facet && b.facet.value]).filter(Boolean), title: w.title, preamble: w.excerpt, href: w.path, team: window.VingeTeamOf ? window.VingeTeamOf(w.title) : undefined })) } : null;
+        if (b.type === 'record') return (b.window_items || []).length ? { k, isRecord: true, props: this.recordProps(b), title: b.title || RECORD_HEADING, premise: b.preamble != null ? b.preamble : b.count > 0 && b.since && !b.indicative ? b.count + ' uppdrag sedan ' + b.since : '', closing: '', entries: b.window_items.map((w) => ({ year: +String(w.date || '').slice(0, 4) || undefined, date: w.date || undefined, month: +String(w.date || '').slice(5, 7) || undefined, caption: day(w.date) || undefined, client: w.client || w.title, sector: '', work: w.work || '', disciplines: (w.areas && w.areas.length ? w.areas : [b.facet && b.facet.value]).filter(Boolean), title: w.title, preamble: w.excerpt, href: w.path, team: window.VingeTeamOf ? window.VingeTeamOf(w.title) : undefined })) } : null;
         return null;
       }).flat().filter(Boolean);
       this._xc.set(src, c);
@@ -1048,6 +1087,11 @@ class Component extends DCLogic {
     };
   }
   /* Every card also leads to the person's own page. */
+  /* Three to six related matters are the compact listing: no year or month heads, no count line. */
+  recordProps(b) {
+    const n = (b.window_items || []).length;
+    return n >= 3 && n <= 6 ? RECORD_COMPACT : RECORD_FLUSH;
+  }
   profileOf(x) {
     const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
     const slug = x.slug || fold(x.name).replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -1275,7 +1319,7 @@ class Component extends DCLogic {
       contactHeading: d.contact.heading,
       offices: d.contact.offices.map((o) => ({ ...o, tel: 'tel:' + o.phone.replace(/[^\d+]/g, ''), mail: 'mailto:' + o.email })),
       recordTitle: RECORD_HEADING, recordCount: r.count && r.since ? r.count + ' uppdrag sedan ' + r.since : '',
-      recordEntries,
+      recordEntries, recordFlush: RECORD_FLUSH,
       recordWindow: 'De ' + recordEntries.length + ' senaste av ' + r.count + '.',
       ...this.masterNew(),
     };
