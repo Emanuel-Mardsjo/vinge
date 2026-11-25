@@ -33,6 +33,11 @@ jobs:
         with:
           path: '.'
 
+      # A large upload is not listed at once; deploying straight after it fails with
+      # "No artifacts named github-pages were found".
+      - name: Wait for the upload to be listed
+        run: sleep 30
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
