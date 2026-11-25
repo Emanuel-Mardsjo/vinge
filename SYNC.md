@@ -26,9 +26,8 @@ the master now.)
 
 `scripts/`, `SYNC.md`, `.github/`, `.nojekyll`, `.git/`.
 
-`forslag/` is not touched either. It holds client proposals that are built outside the design system
-(`forslag/raster/` comes from `visuell-identitet/kommunikationsgrepp/_publish/bygg-raster-forslag.py`)
-and are copied in by hand, so the one-direction rule above does not apply to them.
+Client proposals do not go here: this site is public. They go to `knowit/vinge-prototypes`
+(https://vinge-prototypes.pages.dev, behind a password).
 
 ## What it leaves out
 
