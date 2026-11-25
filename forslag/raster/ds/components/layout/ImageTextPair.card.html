@@ -1,0 +1,30 @@
+<!-- @dsCard group="Components" viewport="1280x6400" name="ImageTextPair — image and text" subtitle="Large, medium and small, each with one or two images; large with one image on columns 3–7" -->
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{margin:0;background:var(--paper)}.lbl{margin:0;padding:var(--space-6) var(--margin) 0;color:var(--text-secondary)}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const { ImageTextPair } = window.VingeDesignSystem_8582c7;
+const T = { heading: 'The Seat.', body: 'På Vinge uppmuntras alla att göra skillnad. Därför är alltid en nyanställd med på våra ledningsgruppsmöten. Som en symbol för att få ta plats runt bordet tog vi fram en specialtillverkad stol.', cta: { label: 'Läs mer', href: '#' } };
+const ROWS = [
+  { scale: 'large', two: false, lbl: 'Large, one image: columns 3–7' },
+  { scale: 'large', two: true, lbl: 'Large, two images: columns 1–5, second on 7–8' },
+  { scale: 'medium', two: false, lbl: 'Medium, one image: columns 5–8' },
+  { scale: 'medium', two: true, lbl: 'Medium, two images: second on 2–3' },
+  { scale: 'small', two: false, lbl: 'Small, one image: text 2–6, image 2–4' },
+  { scale: 'small', two: true, lbl: 'Small, two images: second on 5–6' },
+];
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <main>
+    {ROWS.map((x, i) => (
+      <React.Fragment key={i}>
+        <p className="small lbl">{x.lbl}</p>
+        <ImageTextPair scale={x.scale} imageSrc="../../assets/images/anonymous-01.png" imageAlt="Platshållarbild: The Seat" secondImageSrc={x.two ? '../../assets/images/office-06.png' : undefined} secondImageAlt="Platshållarbild: stolen i ledningsgruppens rum" {...T} style={{ paddingBlock: 'var(--space-5) var(--section-gap)' }} />
+      </React.Fragment>
+    ))}
+  </main>
+);
+</script></body></html>

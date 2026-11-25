@@ -26,6 +26,10 @@ the master now.)
 
 `scripts/`, `SYNC.md`, `.github/`, `.nojekyll`, `.git/`.
 
+`forslag/` is not touched either. It holds client proposals that are built outside the design system
+(`forslag/raster/` comes from `visuell-identitet/kommunikationsgrepp/_publish/bygg-raster-forslag.py`)
+and are copied in by hand, so the one-direction rule above does not apply to them.
+
 ## What it leaves out
 
 Design-system working files that are not part of the site: `.thumbnail`,

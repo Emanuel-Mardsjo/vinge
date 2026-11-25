@@ -1,0 +1,85 @@
+<!-- @dsCard group="Components" viewport="1100x760" name="Artwork pin — full-screen image" subtitle="Viewport-tall photograph, house reveal on entry, one dot on the artwork that leans toward the cursor, names the piece and opens it" -->
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>body{padding:0}.lbl{font-size:11px;color:var(--ink-65);padding:16px 20px;position:sticky;top:0;background:var(--paper);z-index:4}.spacer{height:60vh;display:grid;place-items:center}.ctrls{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;align-items:center;gap:16px;padding:12px 20px;background:var(--paper);border-bottom:1px solid var(--rule-hairline);font-family:var(--font-text);font-size:12px;color:var(--ink-65)}.ctrls label{display:flex;align-items:center;gap:6px}.ctrls select{font:inherit;color:var(--ink);background:transparent;border:0;border-bottom:1px solid var(--rule-hairline);padding:2px 0;border-radius:0}</style>
+</head><body><div id="root"></div>
+<script type="text/babel">
+const { ArtworkPin } = window.VingeDesignSystem_8582c7;
+
+/* The card carries the knobs the lightbox actually reads, so the treatment can
+   be judged without editing the page: which ground it opens on, the plate's
+   aspect, which folds the credit column holds, and whether the work itself has
+   been supplied yet. */
+const Card = () => {
+  const [ground, setGround] = React.useState('ink');
+  const [ratio, setRatio] = React.useState('3 / 4');
+  const [folds, setFolds] = React.useState('all');
+  const [plate, setPlate] = React.useState('real');
+  const [gridSize, setGridSize] = React.useState(8);
+  return (
+  <div>
+    <div className="ctrls">
+      <label>Öppnar på
+        <select value={ground} onChange={(e) => setGround(e.target.value)}>
+          <option value="ink">Grön</option>
+          <option value="black">Svart</option>
+          <option value="white">Vit</option>
+        </select>
+      </label>
+      <label>Format
+        <select value={ratio} onChange={(e) => setRatio(e.target.value)}>
+          <option value="3 / 4">3:4 stående</option>
+          <option value="1 / 1">1:1 kvadrat</option>
+          <option value="4 / 3">4:3 liggande</option>
+        </select>
+      </label>
+      <label>Veck
+        <select value={folds} onChange={(e) => setFolds(e.target.value)}>
+          <option value="all">Alla tre</option>
+          <option value="work">Bara konstverket</option>
+          <option value="none">Inga</option>
+        </select>
+      </label>
+      <label>Konstverk
+        <select value={plate} onChange={(e) => setPlate(e.target.value)}>
+          <option value="real">Fil finns</option>
+          <option value="placeholder">Platshållare</option>
+        </select>
+      </label>
+      <label>Raster
+        <select value={gridSize} onChange={(e) => setGridSize(Number(e.target.value))}>
+          <option value={4}>4 — tät</option>
+          <option value={8}>8 — standard</option>
+          <option value={14}>14 — grov</option>
+        </select>
+      </label>
+    </div>
+    <div className="lbl">Scroll ↓ — the image prints in on entry. Move the pointer into it: the dot appears on the artwork and leans toward the cursor. Hover the dot for the credit, click for the lightbox.</div>
+    <div className="spacer"><span className="small" style={{ color: 'var(--ink-65)' }}>scrolla</span></div>
+    <ArtworkPin
+      src="../../assets/images/present-04.png"
+      alt="Möte runt ett bord i ett grönt rum"
+      pin={{ x: 0.744, y: 0.303 }}
+      artist="Ingrid Bäcklund"
+      work="Sediment nr 3"
+      year={2021}
+      artworkSrc={plate === 'real' ? '../../assets/art/artwork-01.png' : undefined}
+      artworkAlt="Sediment nr 3, akvarell på papper"
+      artworkRatio={ratio}
+      initialGround={ground}
+      workInfo={folds === 'none' ? '' : undefined}
+      artistInfo={folds === 'all' ? undefined : ''}
+      info={folds === 'all' ? undefined : ''}
+      gridSize={gridSize}
+      minHeight="100svh"
+      bleed={false}
+    />
+    <div className="spacer"><span className="small" style={{ color: 'var(--ink-65)' }}>slut</span></div>
+  </div>
+  );
+};
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>
